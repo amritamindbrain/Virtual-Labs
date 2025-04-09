@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which database can be used to access genetic variation data",
+      "answers": {
+        "a": "ClinVar",
+        "b": "dbSNP",
+        "c": "Both",
+        "d": "None"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the initial output when trying to access the ClinVar and dbSNP database through the simulator? ",
+      "answers": {
+        "a": "gene name",
+        "b": "gene sequence",
+        "c": "gene information",
+        "d": "gene ID"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the input provided to the simulator when trying to access the ClinVar and dbSNP database? ",
+      "answers": {
+        "a": "gene name",
+        "b": "gene sequence",
+        "c": "gene information",
+        "d": "gene ID"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    div{
+        padding-right :0%;
+        color: black;
+        background-color: transparent;
+        text-align: left;
+        margin-top: 1%;
+        font-size: 18px;
+    }
+    .div2{
+        padding :0;
+        color: black;
+        font-size: 18px;
+    }
+    .mydiv{
+      margin-left: 5%;
+    }
+    .mydiv1{
+      margin-left: 50%;
+      margin-top: -155px;
+    }
+
+    label {
+      background-color: rgb(181,3,70);
+        color: white;
+        padding: 5px;
+        font-family: sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        width: 100px;
+        height:30px;
+        border-radius:50px;
+        position:relative;
+        cursor:pointer;
+        line-height:12px;
+    }
+    input:hover + label{
+        background-color: #3E0719;
+        opacity:1;
+        transition: 0.3s opacity ease-in-out;
+        filter:blur(0px);
+    }
+    .float-container {
+
+        padding: 0px;
+    }
+    button {
+        background-color: rgb(181,3,70);
+        color: white;
+        padding: 5px;
+        font-family: sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+        width: 150px;
+        height:30px;
+        border-radius:50px;
+        position:relative;
+        cursor:pointer;
+        line-height:12px;
+    }
+    .div1{
+      background-color: rgb(57, 49, 83);
+        color: white;
+        padding: 5px;
+        font-family: sans-serif;
+        font-size: 18px;
+        cursor: default;
+        width: 200px;
+        height:25px;
+        border-radius:0px;
+        position:relative;
+       
+        line-height:13px;
+       text-align: center;
+       margin-left: 300px;
+       
+       vertical-align: top;
+    }
+    .solid {border-style: solid;}
+
+    .content {
+        
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: white;
+        border: black;
+        color: black;
+        font-size: 18px;
+        
+    }
+    
+    div.at-container {
+        display: flex;
+    }
+    .at-item {
+        color: #4f2037; font-weight:bold; font-size:45px;
+      justify-content: center;
+      text-decoration-color:#4f2037;  
+      position: relative;
+      align-items: center;
+      margin-left: 5%;
+    }
+    hr 
+		{
+				position: relative;
+				top: 0px;
+				border: none;
+				height: 2px;
+				background: #d737a5;
+				margin-bottom: 0px;
+		}
+    .p1{
+      align-content: center;
+      font-weight: bold;
+    }
+    
+</style>
+  <head>
+    <meta charset="UTF-8">
+    <title>Clinvar</title>
+  </head>
+  <body style="background-color:white">
+    <div class='at-container'>
+        <img src="images\logo.png" width="300" height="100" style="margin-left:1%;">&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class='at-item' >Browsing genetic variation databases such as dbSNP, ClinVar </div>
+    </div>
+    <br> 
+    <form method="GET">
+      
+      <div style="background-color:#f0eaea;padding:15px;margin-left: 5%;margin-right: 5%;"><br><br>
+        <div class="mydiv">
+          <b> Select a database:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="database">
+          <option value="clinvar" >Clin Var</option>
+          <option value="dbSNP"disabled>dbSNP</option>
+        </select>
+        <br>
+        <br>
+     <b>Enter a Gene Name:</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" id="gene-name" name="gene-name" placeholder="eg. BRCA1, FGFR3 ">&nbsp;&nbsp;&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button type="submit" id="submit-btn">Submit</button>
+      </div>
+  
+    </form>
+    
+
+    <div id="result"></div>
+    <div id="demo"></div>
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+
+    <script>
+      const form = document.querySelector('form');
+      const resultDiv = document.querySelector('#result');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const geneName = document.querySelector('#gene-name').value;
+        if (geneName === '') {
+        alert('Please enter a Gene name.');
+        return;
+      }
+        /*const variantType = document.querySelector('#variant-type').value;
+        const variantPosition = document.querySelector('#variant-position').value;*/
+
+       // document.getElementById("result").insertAdjacentHTML('beforeend', geneName);
+
+        const url = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=${geneName}[gene]&retmax=500&retmode=json`
+        
+        try {
+          const response = await fetch(url);
+          const data = await response.json();
+         // document.getElementById("demo").insertAdjacentHTML('beforeend', data);
+          
+          // if (!data || !data.result || !data.result.records || data.result.records.length ==='') {
+          //   resultDiv.innerHTML = 'No ClinVar data found for the given input';
+          //   return;
+          // }
+
+          const record = data.esearchresult.idlist;
+
+          
+        
+          resultDiv.innerHTML = `<div class="mydiv1"><br><b>Variation Id:</b><br><textarea id="record"name="record" rows="10" cols="50">
+                  ${record}
+                </textarea><br><br><br></div>
+                <hr/>  <br><br>       
+               
+              <p class= "p1"> Enter a Variation Id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="gene-id" name="gene-id">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" name="search" id="search"  onclick="id_search()" hidden/><label for="search">&nbsp;&nbsp;&nbsp;&nbsp;Search&nbsp;&nbsp;&nbsp;&nbsp;</label></p>
+
+                
+          `;
+
+        } catch (error) {
+          resultDiv.innerHTML = `An error occurred: ${error}`;
+        }
+      });
+      //document.getElementById("demo").innerHTML =
+      async function id_search() {
+        const geneID = document.querySelector('#gene-id').value;
+        const resultDiv1 = document.querySelector('#demo1');
+        const url1 = `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=${geneID}&retmode=json`;
+
+        try {
+          const response1 = await fetch(url1);
+          const data1 = await response1.json();
+          
+          const uid = data1.result[data1.result.uids[0]].uid;
+          const obj_type=  data1.result[data1.result.uids[0]].obj_type;
+          const accession =data1.result[data1.result.uids[0]].accession;
+          const accession_version= data1.result[data1.result.uids[0]].accession_version;
+          const title= data1.result[data1.result.uids[0]].title;
+          const measure_id= data1.result[data1.result.uids[0]].variation_set[0].measure_id;
+          const variation_name= data1.result[data1.result.uids[0]].variation_set[0].variation_name;
+          const assembly_name= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[0].assembly_name;
+          const chr= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[0].chr;
+          const band= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[0].band;
+          const stop= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[0].stop;
+          const assembly_acc_ver= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[0].assembly_acc_ver;
+          const assembly_name1= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[1].assembly_name;
+          const chr1= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[1].chr;
+          const stop1= data1.result[data1.result.uids[0]].variation_set[0].variation_loc[1].stop;
+          const canonical_spdi= data1.result[data1.result.uids[0]].variation_set[0].canonical_spdi;
+          //const db_source= data1.result[data1.result.uids[0]].variation_set[0].variation_xrefs[0].db_source;
+          //const description= data1.result[data1.result.uids[0]].clinical_significance.description;
+          //const last_evaluated= data1.result[data1.result.uids[0]].clinical_significance.last_evaluated;
+          const protein_change= data1.result[data1.result.uids[0]].protein_change;
+
+
+          //console.log(record1)
+          resultDiv1.innerHTML = `<form method="GET">
+            <div style="background-color:#cfbcbc;padding:15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <h2> ${title}</h2>
+
+              <table>
+                <tr>
+                  <td><b>Accession:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${accession}</td>
+                </tr>
+
+                <tr>
+                  <td><b>Variation ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${uid}</td>
+                </tr>
+
+                <tr>
+                  <td><b>Description:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${obj_type}</td>
+                </tr>
+
+
+              </table>
+
+              <div class="div1"><br>Variant details</div>
+
+              <p style="font-size:16px"><b> ${title}</b></p>
+              <table>
+                <tr>
+                  <td><b>Allele ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${measure_id}</td>
+                </tr>
+
+                <tr>
+                  <td><b>Variant type:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${obj_type}</td>
+                </tr>
+
+                <tr>
+                  <td><b>Cytogenetic location:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${band}</td>
+                </tr>
+
+                <tr>
+                  <td><b>Genomic location:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${chr}:${stop}&nbsp;(${assembly_name})&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${assembly_name}</td>
+                  
+                  <tr>
+                    <td></td>
+                    <td>${chr1}:${stop1}&nbsp;(${assembly_name1})&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${assembly_name1}</td>
+                    
+                  </tr>
+                </tr>
+
+                <tr>
+                  <td><b>HGVS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td><b>Nucleotide</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${variation_name}</td>
+                  
+                </tr>
+                
+                <tr>
+                  
+                  <td><b>Protein change:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td><br>${protein_change}</td>
+                </tr>
+
+                <tr>
+                  <td><b>Canonical SPDI:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td>
+                  <td>${canonical_spdi}</td>
+                </tr>             
+              </table>
+              <br>
+              <a href="index.html"><input type="button"  id="Reset"  hidden/><label  for="Reset">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reset &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></a>
+                     
+              `;
+             
+        } catch (error) {
+          resultDiv1.innerHTML = `Please enter a valid Gene Id`;
+        }
+       
+      }
+    
+      
+    </script>
+  </body>
+</html>

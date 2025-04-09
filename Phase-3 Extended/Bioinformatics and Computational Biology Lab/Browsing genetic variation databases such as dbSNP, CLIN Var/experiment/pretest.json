@@ -1,0 +1,36 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Genetic Variation can occur due to ",
+      "answers": {
+        "a": "Mutation",
+        "b": "Genetic Recombination",
+        "c": "Both a and b",
+        "d": "None"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Both ClinVar and dbSNP databases are associated with the composite database NCBI",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Main difference between dbSNP and ClinVar is that it ",
+      "answers": {
+        "a": "is for human population",
+        "b": "supports clinical decision making",
+        "c": "Both a and b",
+        "d": "None"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
