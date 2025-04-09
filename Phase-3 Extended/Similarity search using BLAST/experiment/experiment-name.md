@@ -1,1 +1,0 @@
-## Similarity search using BLAST
