@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        div.at-container {
+		    display: flex;
+        }
+
+        label {
+            background-color: #802652;
+            color: white;
+            padding:1%;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 200px;
+            width: 600px;
+            height: 25px;
+            border-radius: 180px;
+            position: relative;
+            font-size: .8vw;
+            line-height: 6px;
+        }
+
+
+        span{
+            font-size: .8vw;
+            color: black;
+        }
+
+
+        input[type=button]{
+            width: 10%;
+            background-color: #75264d;
+            color: white;
+            padding: .8vw;
+            margin: 8px 0;
+            border: none;
+            border-radius: 180px;
+            cursor: pointer;
+            font-size: 0.8vw;
+        }
+
+
+        .h{
+            text-align: center;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .content {
+            
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: white;
+            border: black;
+            color: black;
+            font-size: 2vw;
+        }
+
+        .at-item {
+		    color:rgb(181,3,70); font-weight:bold; font-size:4vw;
+            justify-content: center;
+		    text-decoration-color:rgb(181,3,70);  
+		    position: relative;
+            align-items: center;
+            margin-left: 5%;
+            margin-top: 1%;
+	    }
+
+        h1{
+			font-size: 1.5vwvw;
+		}
+        
+        h3{
+            font-size: 2vw;
+            font-weight: lighter;
+        }
+    </style>
+
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body style="background-color:white">
+        <div class='at-container'>
+            <img src="images/logo.png"width="15%" height="1%" style="margin-left:2%;">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class='at-item' >Basic Algorithms in Bioinformatics</div>
+        </div>
+        <br>
+        <form id="myform">
+            <div style="background-color:#f0eaea;padding:15px;text-align:center;">
+                <div class='at-item' style="font-size:1.5vw"><div class="h">Brute Force Comparison</div>
+                    <br>
+                    <input type="file" id="btn1" accept=".txt"  ref="fileInput1" type="file"  onchange="getFileName1(myform.btn1)"hidden/>
+                    <span id="fileName1" ></span>
+
+                    <label for="btn1" style="cursor: pointer;">Upload a FASTA file:</label> 
+                    &nbsp;<i class="fa fa-hand-o-left" style="font-size:1vw;color:black;" style="font-size: 1vw;color:black;"> Click here to upload first FASTA file </i><br><br>
+                    
+                    <input type="file" id="btn2" accept=".txt"  ref="fileInput2" type="file"  onchange="getFileName2(myform.btn2)"hidden/>
+                    <span id="fileName2" ></span>&nbsp;
+                    <label for="btn2" style="cursor: pointer;">Upload a FASTA file to compare:</label> 
+                    &nbsp;<i class="fa fa-hand-o-left" style="font-size:1vw;color:black;" style="font-size: 1vw;color:black;"> Click here to upload second FASTA file </i><br><br>
+                </div>
+               
+                <a href="Dengue virus 2 gene_fasta.txt" download="sample_fasta.txt;"style="font-size: 1vw;">Download a Sample FASTA file</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="monkey.txt" download="sample_fasta.txt;"style="font-size: 1vw;">Download a Sample FASTA file to compare</a>
+                <br><br>
+                <input type="button" style="margin-left:5%;font-weight: bold;" value="Compare" onclick="bfc()" >
+                <a href="index.html">
+                    <input type="button" id=Back value="Back">
+                </a>
+            </div>
+        </form>
+        <p id="demo"></p>
+        <p id="result"></p>
+    </body>
+
+    <script>
+        var array1=[];
+        var array2=[];
+
+        function getFileName1(input1)
+        {
+            var x = document.getElementById('btn1');
+            document.getElementById('fileName1').innerHTML = x.value.split('\\').pop();
+            let file1 = input1.files[0];
+  		    let reader1 = new FileReader();
+            reader1.readAsText(file1);
+            
+	        reader1.onload = function() {
+    	        //document.getElementById("demo").innerHTML = reader.result;
+    	        let seq1 = reader1.result;
+        	    //document.getElementById("demo").innerHTML = seq1;
+                array1= seq1.split("\n");
+                var len1= array1.length;
+                //document.getElementById("demo").innerHTML = array1[1];
+            }
+            return array1;
+       
+        }
+
+        function getFileName2(input2){
+            var y = document.getElementById('btn2');
+            document.getElementById('fileName2').innerHTML = y.value.split('\\').pop();
+            let file2 = input2.files[0];
+  	    	let reader2 = new FileReader();
+            reader2.readAsText(file2);
+            
+	        reader2.onload = function() {
+           	    //document.getElementById("demo").innerHTML = reader.result;
+            	let seq2 = reader2.result;
+        	    //document.getElementById("demo").innerHTML = seq;
+                array2= seq2.split("\n");
+                var len2= array2.length;
+                //document.getElementById("demo").innerHTML = array2;
+               
+              
+            } 
+            
+        }
+        
+        function bfc(){
+            array1.shift();
+            array2.shift();
+            //document.getElementById("demo").innerHTML = array1;
+            var dna1= array1.join(' ');
+            var dna2= array2.join(' ');
+            document.getElementById("demo").innerHTML =("<h1 style=\"color:rgb(181,3,70)\"> Results</h1>"+"\n");
+            //document.getElementById("demo").innerHTML = dna1;
+            if(dna1==dna2){
+                document.getElementById("result").innerHTML= "<h1 style=\"color:rgb(0,200,20)\" \"font-size:1 vw\"><b>The DNA sequences are a perfect match\n";
+            }
+            else{
+                document.getElementById("result").innerHTML= "<h1 style=\"color:rgb(200,0,0)\" \"font-size:1vw\"><b>The DNA sequences does not match\n";
+            }
+        }
+    </script>
+</html>

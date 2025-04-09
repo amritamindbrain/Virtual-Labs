@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div.at-container {
+            display: flex;
+        }
+
+        label {
+            background-color: #802652;
+            color: white;
+            padding: 2%;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 200px;
+            width: 600px;
+            height: 25px;
+            border-radius: 180px;
+            position: relative;
+            font-size: .8vw;
+            line-height: 6px;
+        }
+
+        span {
+            font-size: 1.5vw;
+            color: black;
+        }
+
+        input[type=button] {
+            background-color: #802652;
+            color: rgb(253, 251, 251);
+            padding: 0px;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 0px;
+            width: 10%;
+            height: 5%;
+            border-radius: 180px;
+            position: relative;
+            font-size: .8vw;
+            line-height: 20px;
+        }
+
+        .h {
+            text-align: center;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: white;
+            border: black;
+            color: black;
+            font-size: 2vw;
+        }
+
+        .at-item {
+            color: rgb(181, 3, 70);
+            font-weight: bold;
+            font-size: 4vw;
+            justify-content: center;
+            text-decoration-color: rgb(181, 3, 70);
+            position: relative;
+            align-items: center;
+            margin-left: 5%;
+            margin-top: 1%;
+        }
+
+        h3 {
+            font-size: 1vw;
+            font-weight: lighter;
+            color: black;
+        }
+
+        h1 {
+            font-size: 1.5vw;
+        }
+
+        h2 {
+            font-size: .8vw;
+            width: 10%;
+            background-color: #75264d;
+            color: white;
+            margin-left: 45%;
+            padding: .25%;
+            border: none;
+            border-radius: 180px;
+        }
+
+        .output {
+            font-size: 1vw;
+            font-weight: lighter;
+            color: black;
+        }
+
+        textarea {
+            width: 100%;
+            max-width: 80%;
+            height: 100%;
+            max-height: 80%;
+            font-size: .8vw;
+            padding-bottom: 10%;
+        }
+
+        button {
+            background-color: #802652;
+            color: rgb(253, 251, 251);
+            padding: 0px;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 0px;
+            width: 10%;
+            height: 5%;
+            border-radius: 180px;
+            position: relative;
+            font-size: .8vw;
+            line-height: 20px;
+        }
+
+        hr {
+            position: relative;
+            top: 20px;
+            border: none;
+            height: 2px;
+            background: #d737a5;
+            margin-bottom: 50px;
+        }
+
+        .aligned-sequence {
+            margin-bottom: 10px;
+            white-space: pre-wrap; /* Preserve spaces and line breaks */
+        }
+    </style>
+</head>
+<body style="background-color:white">
+    <div class='at-container'>
+        <img src="images/logo.png" width="15%" height="1%" style="margin-left:2%;">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class='at-item'>Basic Algorithms in Bioinformatics</div>
+    </div>
+    <br>
+
+    <div style="background-color:#f0eaea;padding:15px;text-align:center;">
+        <div class='at-item' style="font-size:1.5vw">
+            <div class="h">Progressive Algorithm</div><br>
+            <table style="width:100%;">
+                <tr>
+                    <td style="width:30%; padding-left: 10%;">
+                        <label>Enter nucleotide sequences (one per line):</label>
+                    </td>
+                    <td style="width:70%;align-items: center;">
+                        <textarea id="inputSequences"></textarea><br>
+                    </td>
+                </tr>
+            </table>
+            <button onclick="runProgressiveAlignment()">Run Alignment</button>
+            <button onclick="resetFields()">Reset</button>
+            <hr />
+            <p id="result"></p>
+            <p id="demo"></p>
+            <p id="demo1"></p>
+            <p id="demo2"></p>
+            <p id="demo3"></p>
+            <div class="output" id="output"></div>
+        </div>
+    </div>
+
+    <script>
+        let guideTree = null;
+        let alignedSequences = null;
+
+        function runProgressiveAlignment() {
+            const input = document.getElementById('inputSequences').value.trim();
+            const sequences = input.split('\n').map(seq => seq.trim().toUpperCase());
+            if (sequences.length < 2) {
+                alert('Please enter at least two sequences.');
+                return;
+            }
+            document.getElementById("result").innerHTML = "<h1 style=\"color:rgb(181,3,70)\"> Results</h1><button type=\"button\" id=\"btn\" onclick=\"matrix_fn()\">Distance matrix</button><br>";
+
+            const distanceMatrix = generateDistanceMatrix(sequences);
+            guideTree = generateGuideTree(distanceMatrix, sequences);
+            alignedSequences = progressiveAlignment(guideTree, sequences);
+        }
+
+        function generateDistanceMatrix(sequences) {
+            const n = sequences.length;
+            const distanceMatrix = Array.from({ length: n }, () => Array(n).fill(0));
+
+            for (let i = 0; i < n; i++) {
+                for (let j = i + 1; j < n; j++) {
+                    const distance = calculatePairwiseDistance(sequences[i], sequences[j]);
+                    distanceMatrix[i][j] = distance;
+                    distanceMatrix[j][i] = distance;
+                }
+            }
+
+            return distanceMatrix;
+        }
+
+        function calculatePairwiseDistance(seq1, seq2) {
+            let mismatches = 0;
+            const maxLength = Math.max(seq1.length, seq2.length);
+
+            for (let i = 0; i < maxLength; i++) {
+                if (seq1[i] !== seq2[i]) {
+                    mismatches++;
+                }
+            }
+
+            return mismatches;
+        }
+
+        function matrix_fn() {
+            const distanceMatrix = generateDistanceMatrix(document.getElementById('inputSequences').value.trim().split('\n').map(seq => seq.trim().toUpperCase()));
+            const n = distanceMatrix.length;
+            document.getElementById("demo").innerHTML = "";
+            for (let i = 0; i < n; i++) {
+                document.getElementById("demo").insertAdjacentHTML('beforeend', "<h3>" + distanceMatrix[i] + "</h3>");
+            }
+            document.getElementById("demo").insertAdjacentHTML('beforeend', "<img id = \"topview\"src=\"msa.png\"width=\"20%\" height=\"20%\" align=\"center\" padding-top=\"10%\"><br><h3>Example for calculating distance matrix</h3>");
+
+
+            document.getElementById("demo1").innerHTML = "<button onclick=\"saveTextAsFile('DistanceMatrix.txt', '" + JSON.stringify(distanceMatrix) + "')\">Download result</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type=\"button\" id=\"btn\" onclick=\"g_run()\">Guide tree</button>";
+        }
+
+        function generateGuideTree(distanceMatrix, sequences) {
+            const clusters = sequences.map((seq, idx) => [idx]);
+
+            while (clusters.length > 1) {
+                let minDist = Infinity;
+                let cluster1, cluster2;
+
+                for (let i = 0; i < clusters.length; i++) {
+                    for (let j = i + 1; j < clusters.length; j++) {
+                        const dist = calculateClusterDistance(clusters[i], clusters[j], distanceMatrix);
+                        if (dist < minDist) {
+                            minDist = dist;
+                            cluster1 = i;
+                            cluster2 = j;
+                        }
+                    }
+                }
+
+                clusters[cluster1] = clusters[cluster1].concat(clusters[cluster2]);
+                clusters.splice(cluster2, 1);
+            }
+
+            return clusters[0];
+        }
+
+        function calculateClusterDistance(cluster1, cluster2, distanceMatrix) {
+            let totalDistance = 0;
+            let count = 0;
+
+            for (const idx1 of cluster1) {
+                for (const idx2 of cluster2) {
+                    totalDistance += distanceMatrix[idx1][idx2];
+                    count++;
+                }
+            }
+
+            return totalDistance / count;
+        }
+
+        function progressiveAlignment(guideTree, sequences) {
+            let alignedSequences = sequences.map(seq => [seq]);
+
+            let merged = new Array(alignedSequences.length).fill(false);
+
+            for (let i = 0; i < guideTree.length - 1; i++) {
+                const seqIndex1 = guideTree[i];
+                const seqIndex2 = guideTree[i + 1];
+
+                if (alignedSequences[seqIndex1] && alignedSequences[seqIndex2]) {
+                    const alignedPair = alignTwoSequences(alignedSequences[seqIndex1][0], alignedSequences[seqIndex2][0]);
+                    alignedSequences[seqIndex1] = alignedPair;
+                    alignedSequences.splice(seqIndex2, 1);
+                }
+            }
+
+            return alignedSequences;
+        }
+
+        function alignTwoSequences(seq1, seq2) {
+            const maxLength = Math.max(seq1.length, seq2.length);
+            const aligned1 = seq1.padEnd(maxLength, '-');
+            const aligned2 = seq2.padEnd(maxLength, '-');
+
+            return [aligned1, aligned2];
+        }
+
+        function displayResults(alignedSequences) {
+            const outputDiv = document.getElementById('output');
+            outputDiv.innerHTML = '';
+
+            for (const alignedPair of alignedSequences) {
+                const div = document.createElement('div');
+                div.className = 'aligned-sequence';
+                div.textContent = alignedPair.join('\n');
+                outputDiv.appendChild(div);
+            }
+        }
+
+        function g_run() {
+            if (guideTree) {
+                document.getElementById("demo2").innerHTML = "<h3>" + JSON.stringify(guideTree) + "</h3><br><button type=\"button\" id=\"btn\" onclick=\"r_run()\">Sequence alignment</button>";
+            }
+        }
+
+        function r_run() {
+            if (alignedSequences) {
+                displayResults(alignedSequences);
+            }
+        }
+
+        function resetFields() {
+            document.getElementById('inputSequences').value = '';
+            document.getElementById('result').innerHTML = '';
+            document.getElementById('demo').innerHTML = '';
+            document.getElementById('demo1').innerHTML = '';
+            document.getElementById('demo2').innerHTML = '';
+            document.getElementById('demo3').innerHTML = '';
+            document.getElementById('output').innerHTML = '';
+        }
+
+        function saveTextAsFile(filename, text) {
+            const blob = new Blob([text], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>

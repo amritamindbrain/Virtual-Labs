@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which among the following is used to study molecular dynamics",
+      "answers": {
+        "a": "ChenDraw",
+        "b": "Gromacs",
+        "c": "MarvinSketch",
+        "d": "Chem3D"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "NVT equilibrium refers to ------- process",
+      "answers": {
+        "a": "isothermal-isothermal",
+        "b": "isothermal-isobaric",
+        "c": "isothermal-isochoric",
+        "d": "isobaric-isochoric"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which among this not a force field?",
+      "answers": {
+        "a": "AMBER",
+        "b": "GROMOS",
+        "c": "OPLS",
+        "d": "GROMACS"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

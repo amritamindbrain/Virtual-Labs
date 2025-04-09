@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which file format is used carry out molecular dynamics",
+      "answers": {
+        "a": "FASTA",
+        "b": "PDB",
+        "c": "GENBANK",
+        "d": "EMBL"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "First step in molecular dynamics is ",
+      "answers": {
+        "a": "Clean Data",
+        "b": "Energy Minimization",
+        "c": "Equilibration",
+        "d": "Simulation"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Cleaning of data includes, removal of   ",
+      "answers": {
+        "a": "Amino Acids",
+        "b": "Water molecules",
+        "c": "Peptides",
+        "d": "Motifs"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

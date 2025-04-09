@@ -1,0 +1,49 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Brute Force is ---- algorithm",
+      "answers": {
+        "a": "pairwise sequence alignment",
+        "b": "multiple sequence alignment",
+        "c": "phylogenetic tree analysis",
+        "d": "search"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Needlemann-Wunsch algorithm is a ------- alignment algorithm",
+      "answers": {
+        "a": "local",
+        "b": "global",
+        "c": "both",
+        "d": "none of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Dot plot is used ----- the alignment",
+      "answers": {
+        "a": "analyse",
+        "b": "check",
+        "c": "visualise",
+        "d": "none of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Needlemann-Wunsch algorithm, traceback is the ------- step of the alignment ",
+      "answers": {
+        "a": "first",
+        "b": "second",
+        "c": "third",
+        "d": "fourth"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      	<title>GROMACS</title>
+	    <style>
+	      div.at-container {
+			    display: flex;
+	      }
+		    .at-item {
+			    color: #4f2037; font-weight:bold; font-size:45px;;
+			    justify-content: center;
+			    text-decoration-color:#4f2037;  
+			    position: relative;
+	        align-items: center;
+	        margin-left: 10%;
+	        margin-top: 2%;
+		    }
+	      .controlBox {
+	        border: 1px solid lightgray;
+	        padding: 10px;
+	        margin-bottom: 20px;
+	      }
+	
+	      .at-form {
+	        display: grid;
+	        grid-template-columns: 1fr 1fr; 
+	        text-align: left;
+	        
+	        
+	      }
+	
+	
+	      input[type=button]{
+	            width: fit-content;
+	            background-color: #75264d;
+	            color: white;
+	            padding: 12px 20px;
+	            margin: 5px 0;
+	            border: none;
+	            border-radius: 180px;
+	            cursor: pointer;
+	            font-size: 16px;
+	            
+	        }
+	      label {
+	            background-color: #802652;
+	            color: white;
+	            padding: 10px;
+	            font-family: sans-serif;
+	            cursor: auto;
+	            margin-top: 200px;
+	            width: 1000px;
+	            height:50px;
+	            border-radius:180px;
+	            position:relative;
+	            font-size:16px;
+	            line-height:12px;
+	        }
+	        textarea {
+	          border:0px solid #802652; 
+	          font-size:16px;
+	          color: rgb(31, 24, 38);
+	          font-weight: bolder;
+	          background-color: rgb(241, 205, 199);
+	          width: 75%;
+	          font-family: sans-serif;
+	          padding: 1% ;
+	          margin-right: 2%;
+	          margin-top: 5%;
+	          border-radius:20px;
+	          
+	        }
+		    /* Use a media query to add a break point at 800px: */
+		@media screen and (max-width: 800px) {
+		  .leftside {
+		    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+		  }
+		}
+	    </style>
+
+    </head>
+
+    
+    <body>
+      
+      <div class='at-container'>
+        <img src="images\logo.png" width="300" height="100" >
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <div class='at-item' >Molecular Dynamics Simulation: GROMACS</div>
+
+      </div>
+
+
+      <br><br><br>
+      <div class='at-form' style="background-color:#f0eaea">
+
+        <div class='leftside'id='lefts'style="text-align:center" >
+          <br><br>
+          <input type="radio" id="spdb" name="option" onclick="selectoption(this.value)" value="1">
+          <label for="spdb">I have a PDB ID</label>&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="sfile" name="option" onclick="selectoption(this.value)" value="2">
+          <label for="sfile">I have a PDB file</label>&nbsp;&nbsp;&nbsp;
+          <input type="radio" id="dfile" name="option" onclick="selectoption(this.value)" value="3">
+          <label for="dfile">I need to downlad a sample PDB file</label>&nbsp;&nbsp;&nbsp;
+          <br><br><br>
+          
+          <div id="opt"></div>
+         
+        </div>
+
+        <div class='leftside' >
+            <textarea rows="8" readonly>PDBid represents a protein entry in PDB database 
+            
+For e.g. 
+1. EGFR kinase domain with compound 41a (5cav)  
+2. Crystal structure of the Shr Hemoglobin Interacting Domain 2 (HID  2) in complex with Hemoglobin (8dov)</textarea><br>
+
+        </div>
+        <div style="margin: auto;padding-left: 10;">
+          <input type="button" style="margin-left: auto;float: left;" onclick="loadFunction()" value="Load">&nbsp;&nbsp;&nbsp;<a href="index.html"><input type="button" value="Reset"></a><br><br><br>
+        </div>
+        <div>
+          
+        </div>
+      </div>
+      <div id="Result">
+          
+  
+      </div>
+
+    <script>
+
+      var textcontent;
+
+      function selectoption(option)
+      {
+        option=option;
+
+        if(option==1)
+        {
+          document.getElementById("opt").innerHTML="<br><br><b>Enter a PDB ID: &nbsp&nbsp </b><label><input type=text id=\"protein\" placeholder=\"Please enter in lowercase\"></label><br><br><br><br>";
+        }
+        else if(option==2)
+        {
+          document.getElementById("opt").innerHTML="<br><br> <input type=\"file\" id=\"actual-btn\" accept=\".pdb\" hidden /> <label for=\"actual-btn\" style=\"cursor: pointer;\">Select a PDB File:</label> &nbsp;<i class=\"fa fa-hand-o-left\" style=\"font-size:25px;color:#4f2037;\"></i><b> Click here to upload a PDB file </b><br><br><br><br><br>";
+        }
+        else
+        {
+          document.getElementById("opt").innerHTML="<br><br> <a href=\"https://files.rcsb.org/download/4hhb.pdb\" download=\"4hhb.pdb\">1. Human Deoxy Haemoglobin</a>&nbsp&nbsp<br><br><a href=\"https://files.rcsb.org/download/5cav.pdb\" download=\"5cav.pdb\">2. EGFR kinase domain with compound 41a </a>&nbsp&nbsp<br><br><a href=\"https://files.rcsb.org/download/1ubq.pdb\" download=\"1ubq.pdb\">3. Structure of ubiquitin</a><br><br><br><br><h2>Download the file and press the reset and try again";
+        }
+
+      }
+
+      function loadFunction()
+      {
+        var op = document.getElementsByName('option');
+        //document.getElementById("Result").insertAdjacentHTML('beforeend', op.length);
+
+        if (op[0].checked)
+        {
+          var proteinname= document.getElementById("protein").value;
+          document.getElementById("Result").insertAdjacentHTML('beforebegin', "<h3>PDB ID "+ proteinname + " is loaded</h3>");
+          var url="https://files.rcsb.org/view/"+proteinname+".pdb";
+          
+          var xhr = new XMLHttpRequest();
+          xhr.open('GET', url, true);
+          xhr.onload = function() {
+          if (xhr.status === 200) {
+            var content = xhr.responseText;
+            // Copy the contents to the clipboard
+            navigator.clipboard.writeText(content);
+            //document.getElementById("Result").insertAdjacentHTML('beforeend', content);
+            //textcontent=content;
+            document.getElementById("Result").insertAdjacentHTML('afterbegin', "<textarea id=\"ta\" rows=5 style=\"margin-top: 1%\"> </textarea>");
+            document.getElementById("ta").value=content;
+            }
+          };
+          xhr.send();
+          //return textcontent;
+          
+        }
+        else if (op[1].checked)
+        {
+          document.getElementById("Result").insertAdjacentHTML('beforebegin', "<br><h3>A PDB file was selected </h3>");
+          var file = document.getElementById("actual-btn").files[0];
+          var reader = new FileReader();
+          reader.onload = function (e) {
+            document.getElementById("Result").insertAdjacentHTML('afterbegin', "<textarea id=\"ta\" rows=5 style=\"margin-top: 1%\"> </textarea>");
+            document.getElementById("ta").value=e.target.result;
+            
+          };
+          reader.readAsText(file);
+          //document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>File selected</h2>");
+
+        }
+
+        document.getElementById("Result").insertAdjacentHTML('afterbegin', "<br><h2>Step 1: Clean the PDB file by removing the water molecules and other hetero atoms:</h2><input type=\"button\" style=\"font-weight: bold;\" value=\"Clean PDB file\" onclick=\"grepv()\"> <br><br>");
+        //document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>Step 2: Choosing force field & creating topology</h2>");
+      }     
+      function grepv() {
+        //var proteinname= document.getElementById("protein").value;
+        var contentfile=document.getElementById("ta").value;
+        //document.getElementById("Result").insertAdjacentHTML('beforeend',contentfile[0]+"<br>");
+        var cleanedfile = [];
+        
+        it=contentfile.split(/\r\n|\n/);
+        var len = it.length;
+        var forfilter=it[0].split(/\s/);
+        /*var filtered = proteinname.filter(function (el) {
+          return el != null;
+        });*/
+        var filtered=new Array();
+        for (var j=0;j<forfilter.length;j++)
+        {
+          if(forfilter[j]!='')
+          {
+            filtered.push(forfilter[j]);
+          }
+        }
+
+        var proteinname=filtered[filtered.length-1];
+        //document.getElementById("Result").insertAdjacentHTML('beforeend',proteinname+"<br>");
+
+        for (var i=0; i < len; i++) {
+          var item = it[i];
+          //document.getElementById("Result").insertAdjacentHTML('beforeend',item+"<br>");
+          if (item.includes('HETATM'||'HOH')) {
+            
+          }
+          else{
+            cleanedfile.push(item);
+            //document.getElementById("Result").insertAdjacentHTML('beforeend',item+"<br>");
+          }
+        
+        }
+        document.getElementById("Result").insertAdjacentHTML('beforeend', "<textarea id=\"cf\" rows=5 style=\"margin-top: 1%\"> </textarea><br>");
+        cleanedfile=cleanedfile.join("\n");
+        document.getElementById("cf").value=cleanedfile;
+        document.getElementById("Result").insertAdjacentHTML('beforeend', "<h3>PDB file has been cleaned. <br><br> You can download the file by clicking on the button below</h3><input type=\"button\" style=\"font-weight: bold;\" value=\"Download cleaned file \"onclick=saveTextAsFile(document.getElementById(\"cf\").value,'"+ proteinname +"clean.pdb')><br>");
+        return;
+      }
+
+
+      function saveTextAsFile(textToWrite, fileNameToSaveAs)
+      {
+        var textFileAsBlob = new Blob([textToWrite], {type:'text/plain'}); 
+        var downloadLink = document.createElement("a");
+        downloadLink.download = fileNameToSaveAs;
+        downloadLink.innerHTML = "Download File";
+        if (window.webkitURL != null)
+        {
+          // Chrome allows the link to be clicked
+          // without actually adding it to the DOM.
+          downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+        }
+        else
+        {
+          // Firefox requires the link to be added to the DOM
+          // before it can be clicked.
+          downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+          downloadLink.onclick = destroyClickedElement;
+          downloadLink.style.display = "none";
+          document.body.appendChild(downloadLink);
+        }
+      
+        downloadLink.click();
+      }
+
+
+
+      
+
+    </script>
+  </body>
+
+</html> 

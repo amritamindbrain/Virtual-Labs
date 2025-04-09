@@ -1,0 +1,45 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Traceback in Needlemann Wunsch algorithm starts from ----- row,----- column",
+      "answers": {
+        "a": "first,last",
+        "b": "last,first",
+        "c": "first,first",
+        "d": "last,last"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Brute force algorithm predicts if the two sequences are exactly equal or not.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Dot plot is used ----- the alignment",
+      "answers": {
+        "a": "analyse",
+        "b": "check",
+        "c": "visualise",
+        "d": "none of the above"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Scoring of an alignment depends on the match and mismatch values ",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
