@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        div{
+            padding :0;
+            color: black;
+            background-color: transparent;
+            text-align: left;
+            margin-top: 1%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        label {
+            background-color: rgb(181,3,70);
+            color: white;
+            padding: 10px;
+            font-family: sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 200px;
+            width: 200px;
+            height:50px;
+            border-radius:180px;
+            position:relative;
+            cursor:pointer;
+            line-height:12px;
+        }
+        input:hover + label{
+            background-color: #3E0719;
+            opacity:1;
+            transition: 0.3s opacity ease-in-out;
+            filter:blur(0px);
+        }
+        .float-container {
+
+    padding: 0px;
+}
+
+.float-child {
+    width: 35%;
+    float: left;
+    padding: 20px;
+
+    font-size: 18px;
+
+}  
+        #file-content{
+            width: fit-content; 
+        }
+        .collapsible {
+            background-color:white;
+            color: rgb(181,3,70);
+            cursor: pointer;
+            padding: 18px;
+            width: 90%;
+            border-color: rgb(181,3,70);
+            border-width: 1px;
+            text-align: left;
+            outline: none;
+            font-size: 20px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .collapsible:hover {
+            background-color: rgb(181,3,70);
+            color: white;
+        }
+
+        .collapsible:after {
+            content: '\002B';
+            color: rgb(181,3,70);
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+            
+        }
+
+        .content {
+            
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: white;
+            border: black;
+            color: black;
+            font-size: 18px;
+            
+        }
+        hr {
+            position: relative;
+            top: 20px;
+            border: none;
+            height: 2px;
+            background: #d737a5;
+            margin-bottom: 50px;
+        }
+        div.at-container {
+		display: flex;
+        
+        
+
+	}
+	.at-item {
+		color: #4f2037; font-weight:bold; font-size:45px;;
+		
+        justify-content: center;
+		 text-decoration-color:#4f2037;  
+		 position: relative;
+         align-items: center;
+         margin-left: 5%;
+	}
+    </style>
+    <head>
+        
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+    <body style="background-color:white">
+        <div class='at-container'>
+            <img src="images/logo.png" width="300" height="100" style="margin-left:-5%;">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class='at-item' >Composition of DNA Sequence</div>
+        </div>
+        <br>
+        <div id="testbutton" align="center">
+
+            <br>
+            <input type="file" id="actual-btn" accept=".txt" hidden/>
+            <label for="actual-btn">Select a DNA sequence     </label> &nbsp;&nbsp;
+            <input type="text" id="file-chosen" value="Filename displays here" />
+            <a href="Dengue virus 2 gene_fasta.txt" download="sample_fasta.txt">Download a Sample FASTA file</a>
+            <br><br>
+            &nbsp;<i class="fa fa-hand-o-up" style="font-size:25px;color:rgb(181,3,70);"></i></i>Click here to choose a DNA FASTA file 
+            <br><br>
+
+        </div>
+       
+        <p id="demo"></p>
+        <p id="colapse"></p>
+        <div class="float-container">
+            <div class="float-child">
+                <div class="res" id="result_disp" style="color:rgb(181,3,70)">
+                </div>
+            </div>
+            <div class="float-child">
+                <div class="plot" id="plot">
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <script>
+            const actualBtn = document.getElementById('actual-btn');
+            const fileChosen = document.getElementById('file-chosen');
+            var cont=[];
+            actualBtn.addEventListener('change', function(){
+                var file = this.files[0];
+                //document.getElementById("demo").insertAdjacentHTML('beforeend', file);
+                fileChosen.value=this.files[0].name;
+                document.getElementById("demo").innerHTML = " <div> <input type=\"button\" id=\"upload\" onclick=\"dispcont()\" hidden/><label for=\"upload\">Display the file</label><br><br><textarea id=\"file-content\" cols=\"100\" rows=\"10\"></textarea></div>"; 
+                let reader2 = new FileReader();
+                
+			    reader2.onload = (e) => {
+        		    fil = e.target.result;
+                    const lines = fil.split(/\r\n|\n/);
+                    cont = lines.join('\n');
+                    //document.getElementById("demo").insertAdjacentHTML('beforeend', cont);
+ 			    };
+ 			    reader2.onerror = (e) => alert(e.target.error.name);
+   	 		    reader2.readAsText(file);
+                //document.getElementById("demo").insertAdjacentHTML('beforeend', cont);
+                document.getElementById("actual-btn").disabled = true;
+            });
+            
+            function dispcont(e) {
+                
+                const file=document.getElementById("file-chosen").value;
+                //document.getElementById("demo").insertAdjacentHTML('beforeend', cont);
+                var result = document.getElementById("file-content");
+                result.value = cont;
+                document.getElementById("colapse").innerHTML = "<button class=\"collapsible\">DNA Composition</button><div class=\"content\"><p align=\"left\"><input type=\"checkbox\" id=\"AT\" name=\"comp\" value=\"AT\">AT- Count	<br> <input type=\"checkbox\" id=\"GC\" name=\"comp\" value=\"GC\">GC- Count<br> <input type=\"checkbox\" id=\"A\" name=\"comp\" value=\"A\">A<br> <input type=\"checkbox\" id=\"T\" name=\"comp\" value=\"T\">T <br> <input type=\"checkbox\" id=\"G\" name=\"comp\" value=\"G\">G <br> <input type=\"checkbox\" id=\"C\" name=\"comp\" value=\"C\">C<br> <input type=\"checkbox\" id=\"all\" name=\"comp\" value=\"all\">All</p></div><button class=\"collapsible\">Case Conversion</button><div class=\"content\"><p><input type=\"radio\" id=\"Upper\" name=\"conv\" value=\"Upper\">Uppercase <br> <input type=\"radio\" id=\"Lower\" name=\"conv\" value=\"Lower\">Lowercase</p></div><button class=\"collapsible\">Transformation</button><div class=\"content\"> <p><input type=\"radio\" id=\"reverse\" name=\"reverse\" value=\"reverse\">Reverse Complement <br>  <input type=\"radio\" id=\"RNA\" name=\"reverse\" value=\"RNA\">RNA<br> </p></div><button class=\"collapsible\">Finalise</button><div class=\"content\"><p><input type=\"button\"  onclick=\"myFunction()\" id=\"Submit\" value=\"Submit\" hidden> <label for=\"Submit\"> Submit</label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"index.html\"><input type=\"button\" id=\"Reset\" hidden><label for=\"Reset\">Reset</label></a></p></div><hr />";
+
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.maxHeight){
+                            content.style.maxHeight = null;
+                        } else {
+                            content.style.maxHeight = content.scrollHeight + "px";
+                        } 
+                    });
+                }
+            }
+            function myFunction(){
+                var seq = document.getElementById("file-content").value;
+                var sequence=seq.trim();
+			
+  			    var DNAseq=[];
+  			    DNAseq= sequence.split('\n');
+  			    //document.getElementById("demo").innerHTML = DNAseq;
+  			    var newSeq= DNAseq.shift();
+  			    var newDNA= DNAseq.join('');
+  			    //document.getElementById("demo").innerHTML = newDNA;
+  			    var DNA=newDNA.split('');
+			    //document.getElementById("demo").innerHTML = DNA;
+			    //}
+                var A_count= 0;
+                var T_count= 0;
+                var G_count= 0;
+                var C_count= 0;
+                var AT=0;
+                var GC=0;
+
+                var len= DNA.length;
+                for (var m=0; m<=len; m++){
+                        //document.getElementById("demo").innerHTML = m;
+                        if (DNA[m]== 'A'){
+                            A_count= A_count+1;
+                        }
+                        else if(DNA[m]=='T'){
+                            T_count= T_count+1;
+                        }
+                        else if(DNA[m]=='G'){
+                            G_count=G_count+1;
+                        }
+                        else if(DNA[m]=='C'){
+                            C_count=C_count+1;
+                        }
+
+                }
+                var total=A_count+C_count+G_count+T_count;
+                AT=((A_count+T_count)/total)*100;
+                GC=((C_count+G_count)/total)*100; 
+
+                let checkboxes = document.querySelectorAll('input[name="comp"]:checked');
+                let values = [];
+                checkboxes.forEach((checkbox) => {
+                    values.push(checkbox.value);
+                });
+                //document.getElementById("demo").innerHTML = values;
+                document.getElementById("result_disp").innerHTML =("<h1 style=\"color:rgb(181,3,70)\"> Results</h1>"+"\n");
+
+                if(values.includes("all"))
+                {
+
+                    let res = "AT-content (%) in this sequence is= "+AT+"<br> GC-content (%) in this sequence is= "+GC+"<br><br><br>The A-content in this sequence is= "+A_count+"<br>The G-content in this sequence is= "+G_count+"<br>The C-content in this sequence is= "+C_count+"<br>The T-content in this sequence is= "+T_count+"<br>";
+                    document.getElementById("result_disp").insertAdjacentHTML('beforeend', res);
+
+                    //plot
+                    xArray= ["A","T","G","C"];
+                    yArray=[A_count,T_count,G_count,C_count];
+                    //document.getElementById("demo").innerHTML = yArray;
+                    var layout = {title:"Composition of DNA"};
+                    var data = [{labels:xArray, values:yArray, type:"pie"}];
+                    Plotly.newPlot("plot", data, layout);
+                    
+                }
+                else
+                {
+                    for (var opt=0;opt<=values.length;opt++)
+                    {
+                        var html_to_insert=[];
+                        switch(values[opt]){
+                            case 'A':
+                                html_to_insert="<br>The A-content in this sequence is= "+A_count;
+                                //document.getElementById("demo").innerHTML = "The A-content in this sequence is= "+A_count;
+                                
+                                break;
+                            case 'G':
+                                html_to_insert="<br>The G-content in this sequence is= "+G_count;
+                                //document.getElementById("demo").innerHTML = "The G-content in this sequence is= "+G_count;
+                                break;
+                            case 'C':
+                                html_to_insert="<br>The C-content in this sequence is= "+C_count;
+                                //document.getElementById("demo").innerHTML = "The C-content in this sequence is= "+C_count;
+                                break;
+                            case 'T':
+                                html_to_insert="<br>The T-content in this sequence is= "+T_count;
+                                //document.getElementById("demo").innerHTML = "The T-content in this sequence is= "+T_count;
+                                break;
+                            case 'AT':
+                                html_to_insert="<br>AT-content (%) in this sequence is= "+AT;
+                                //document.getElementById("demo").innerHTML = "The AT-content in this sequence is= "+AT;
+                                break;
+                            case 'GC':
+                                html_to_insert="<br>GC-content (%)in this sequence is= "+GC;
+                                //document.getElementById("demo").innerHTML = "The GC-content in this sequence is= "+GC;
+                                break;
+                                
+                            
+                        }
+                        document.getElementById("result_disp").insertAdjacentHTML('beforeend', html_to_insert);
+
+                }
+
+                }
+                
+                // Uppercase And Lowercase
+                var casechange=[];
+                if(document.getElementById('Upper').checked){
+                    casechange= "<br> <br> Sequence(in uppercase): <textarea id=\"res_case\" cols=\"63\" rows=\"5\">"+ newDNA.toUpperCase()+"</textarea> &nbsp;&nbsp;&nbsp;&nbsp;<button onclick=saveTextAsFile(document.getElementById('res_case').innerHTML,'Seq_uppercase.txt')>Download result</button>";
+                    //document.getElementById("demo").innerHTML = uppercase;
+                }
+                else if(document.getElementById('Lower').checked){
+                    casechange= "<br> <br> Sequence(in lowercase): <textarea id=\"res_case\" cols=\"63\" rows=\"5\">"+newDNA.toLowerCase()+"</textarea> &nbsp;&nbsp;&nbsp;&nbsp; <button onclick=saveTextAsFile(document.getElementById('res_case').innerHTML,'Seq_lowercase.txt')>Download result</button>";
+                    //document.getElementById("demo").innerHTML = lowercase;
+                }
+                document.getElementById("result_disp").insertAdjacentHTML('beforeend', casechange);
+
+                //Reverse Compliment
+                var dnaseq=[];
+                for(var n=len; n>=0; n= n-1){
+                    //document.getElementById("demo").innerHTML = DNA;
+                    if (DNA[n]== 'A'){
+                        dnaseq.push((DNA[n].replace("A","T")));
+                    }
+                    else if (DNA[n]== 'T'){
+                        dnaseq.push((DNA[n].replace("T","A")));
+                    }
+                    else if (DNA[n]== 'C'){
+                        dnaseq.push((DNA[n].replace("C","G")));
+                    }
+                    else if (DNA[n]== 'G'){
+                        dnaseq.push((DNA[n].replace("G","C")));
+                    }
+                    else{
+                        dnaseq.push(DNA[n]);
+                    }
+                }
+                var rev= dnaseq.join('');
+                if(document.getElementById("reverse").checked){
+
+                    
+                    
+                    //document.getElementById("demo").innerHTML = DNA;
+                    //document.getElementById("demo").insertAdjacentHTML('beforeend', dnaseq);
+                    document.getElementById("result_disp").insertAdjacentHTML('beforeend', "<br><br><br>Reverse compliment of the given sequence is: <textarea id=\"res_trans\" cols=\"63\" rows=\"5\">"+rev+"</textarea> &nbsp;&nbsp;&nbsp;&nbsp; <button onclick=saveTextAsFile(document.getElementById('res_trans').innerHTML,'Reversecompliment.txt')>Download result</button>");
+
+                }
+                else if(document.getElementById("RNA").checked){
+                    var RNA=rev.replace(/T/ig, "U");
+                    document.getElementById("result_disp").insertAdjacentHTML('beforeend', "<br><br><br>RNA for the given sequence is :<textarea id=\"res_trans\" cols=\"63\" rows=\"5\">"+RNA+"</textarea> &nbsp;&nbsp;&nbsp;&nbsp; <button onclick=saveTextAsFile(document.getElementById('res_trans').innerHTML,'RNA.txt')>Download result</button>");
+                }
+
+		}
+        function saveTextAsFile(content,filename) {
+            var textToWrite = content;
+            var textFileAsBlob = new Blob([ textToWrite ], { type: 'text/plain' });
+            var fileNameToSaveAs = filename //filename.extension
+
+            var downloadLink = document.createElement("a");
+            downloadLink.download = fileNameToSaveAs;
+            downloadLink.innerHTML = "Download File";
+            if (window.webkitURL != null) {
+                // Chrome allows the link to be clicked without actually adding it to the DOM.
+                downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+            } else {
+                // Firefox requires the link to be added to the DOM before it can be clicked.
+                downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+                downloadLink.onclick = destroyClickedElement;
+                downloadLink.style.display = "none";
+                document.body.appendChild(downloadLink);
+            }
+
+            downloadLink.click();
+        }
+
+        function destroyClickedElement(event) {
+            // remove the link from the DOM
+            document.body.removeChild(event.target);
+        }
+
+        </script>
+    </body>
+</html>

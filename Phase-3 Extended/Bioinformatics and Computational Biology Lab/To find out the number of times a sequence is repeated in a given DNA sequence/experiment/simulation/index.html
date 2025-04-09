@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+	<style>
+        	input[type=text], select {
+  			width: 50%;
+			font-size: 2vw;
+  			padding: 1% 1%;
+  			margin: 1% 0;
+  			box-sizing: border-box;
+		}
+		div{
+			padding :0;
+			color: black;
+            background-color: transparent;
+            text-align: center;
+            margin-top: 1%; 
+        }
+        label {
+            background-color: #802652;
+            color: white;
+            padding: 1%;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 200px;
+            width: 1000px;
+            height:50px;
+            border-radius:180px;
+            position:relative;
+
+            line-height:12px;
+        }
+        input:hover + label{
+            background-color: #802652;
+            opacity:1;
+            transition: 0.3s opacity ease-in-out;
+            filter:blur(0px);
+        }
+        hr 
+		{
+				position: relative;
+				top: 2px;
+				border: none;
+				height: 2px;
+				background: #d737a5;
+				margin-bottom: 20px;
+		}
+        .float-container {
+
+        padding: 0%;
+        }
+
+        .float-child {
+        width: 100%;
+        float: left;
+        padding: 0%;
+
+        font-size: 2vw;
+
+        }  
+        #file-content{
+            width: fit-content; 
+        }
+        .collapsible {
+            background-color:white;
+            color: rgb(181,3,70);
+            cursor: pointer;
+            padding: 0px;
+            width: 90%;
+            border-color: rgb(181,3,70);
+            border-width: 1px;
+            text-align: left;
+            outline: none;
+            font-size: 2vw;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .collapsible:hover {
+            background-color: rgb(181,3,70);
+            color: white;
+        }
+
+        .collapsible:after {
+            content: '\002B';
+            color: rgb(181,3,70);
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+            
+        }
+
+        .content {
+            
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: white;
+            border: black;
+            color: black;
+            font-size: 2vw;
+            
+        }
+        #button {
+            width: 500px;
+            height:50px;
+            border-radius:180px;
+            position:relative;
+            left:calc(40% - 75px);
+            top:calc(50% - 25px);
+            background: linear-gradient(60deg, #802652, #802652);
+            cursor:pointer;
+            line-height:12px;
+            align:center;
+            }
+
+            #button:before {
+            content:'';
+            z-index:1;
+            position:absolute;
+            display:block;
+            width:80%;
+            height:70%;
+            top:15%;
+            left:10%;
+            transition: 0.3s opacity ease-in-out;
+            filter:blur(15px);
+            opacity:0;
+            background: linear-gradient(60deg,#802652, #802652);
+            }
+
+            #button:hover:before {
+            opacity:1;
+            transition: 0.3s opacity ease-in-out;
+            filter:blur(25px);
+            background: linear-gradient(60deg,#802652, #802652);  
+            }
+
+            #button:after {
+            content:'Submit';
+            text-align:center;
+            line-height:40px;
+            font-size:18px;
+            color:rgb(235,235,235,1);
+            font-weight:bold;
+            z-index:5;
+            position:absolute;
+            display:block;
+            border-radius:180px;
+            width:92%;
+            height:80%;
+            top:10%;
+            left:4%;  
+            background-color:#802652;
+            }
+            .patternsearch{
+                text-align: left;
+                margin-top: 0;
+                margin-right: 98%;
+                font-size: 2vw;
+                width: 2%; 
+                border: 1px solid #000000
+
+            }
+            .restrictionresult{
+                text-align: left;
+                word-wrap: break-word;
+                margin-top: 0;
+                margin-right: 98%;
+                font-size: 2vw;
+                width: 2%; 
+                border: 1px solid #000000
+
+            }
+            div.at-container {
+		display: flex;
+        
+        
+
+	}
+	.at-item {
+		color: #4f2037; font-weight:bold; font-size:4vw;
+		
+        justify-content: center;
+		text-decoration-color:#4f2037;  
+		position: relative;
+        align-items: center;         	
+         margin-left: 5%;
+	}
+    textarea{
+			
+			font-size: 1.5vw;
+
+		}
+        h1{
+			font-size: 3vw;
+		}
+        h3{
+            font-size: 2vw;
+            font-weight: lighter;
+        }
+		
+    </style>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+    <br>
+
+
+    <div class='at-container'>
+        <img src="images/logo.png" width="15%" height="1%" >
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class='at-item' >Finding Repetition in Sequence</div>
+    </div>
+    <br>
+<br>
+<br>
+    <div id="testbutton" align="center">
+        <input type="file" id="actual-btn" accept=".txt" hidden/>
+        <label for="actual-btn" style="cursor: pointer;font-size: 1.5vw;">Select DNA sequence:</label> 
+        &nbsp;<i class="fa fa-hand-o-left" style="font-size:2vw;color:#4f2037;"> Click here to choose a DNA FASTA file </i><br><br>
+        <a href="Dengue virus 2 gene_fasta.txt" download="sample_fasta.txt;"style="font-size: 2vw;">Download a Sample FASTA file</a>
+        <br>
+        <br>
+        <textarea id="disp" cols="50" rows="10">
+        </textarea><br>
+        
+    </div>
+    <hr />
+    
+    <p id="colapse"></p>
+        <div class="float-container">
+            <div class="float-child">
+                <div class="wordcount" id="wordcount" style="color:rgb(181,3,70)">
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="float-child">
+                <div class="restriction" id="restriction"style="color:rgb(181,3,70)">
+                </div>
+            </div>
+        </div>
+
+
+        <p id="demo"  style= "margin-left: 2.5%;color:rgb(181,3,70);word-wrap:break-word; display:inline-block;font-size:2vw;"></p>
+
+	<script>
+
+		let input = document.getElementById("actual-btn");
+		
+ 		let textarea = document.querySelector('textarea')
+ 		input.addEventListener('change', () => {
+    		//once: true;
+            let files = input.files;
+    		if (files.length == 0) return;
+			const file = files[0];
+ 
+    		let reader2 = new FileReader();
+			reader2.onload = (e) => {
+        		const file = e.target.result;
+
+         		const lines = file.split(/\r\n|\n/);
+        		textarea.value = lines.join('\n');
+ 			};
+ 			reader2.onerror = (e) => alert(e.target.error.name);
+   	 		reader2.readAsText(file);
+            document.getElementById("wordcount").insertAdjacentHTML('beforeend', "<label style=\"background-color: white ; color: #802652; font-weight: bold;\" >Select the word size:</label><br><br> <input type=\"radio\" id=\"mono\" name=\"required\" value=\"mono\" style=\"height:1vw; width:1vw;\"onclick=\"Wordcount()\">Mono-Nucleotide &nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"radio\" id=\"di\" name=\"required\" value=\"di\" style=\"height:1vw; width:1vw;\" onclick=\"Wordcount()\">Di-Nucleotide &nbsp;&nbsp;&nbsp;&nbsp;<input type=\"radio\" id=\"tri\" name=\"required\" value=\"tri\" style=\"height:1vw; width:1vw;\" onclick=\"Wordcount()\">Tri-Nucleotide &nbsp;&nbsp;&nbsp;&nbsp; <input type=\"radio\" id=\"more\" name=\"required\" value=\"more\" style=\"height:1vw; width:1vw;\" onclick=\"Wordcount()\">More &nbsp;&nbsp;&nbsp;&nbsp;<br><br><div id=\"count\" style=\"display:none\"><label for=\"word_count\"style=\"background-color: white ; color: #802652; font-weight: bold;\">Enter a word size:</label>&nbsp;&nbsp;&nbsp;<input type=\"text\" id=\"word_count\" /></div>");
+            document.getElementById("restriction").insertAdjacentHTML('beforeend', "<hr/><br><label for=\"restriction1\" style=\"background-color: white ; color: #802652; font-weight: bold;\">Restriction enzyme site:</label><br><br><input type=\"radio\" id=\"ecorI\" name=\"restriction1\" value=\"ecorI\" style=\"height:1vw; width:1vw;\">EcoRI ('GAATTC') &nbsp;&nbsp;&nbsp;&nbsp;<input type=\"radio\" id=\"hindIII\" name=\"restriction1\" value=\"hindIII\" style=\"height:1vw; width:1vw;\">Hind III ('AAGCTT') &nbsp;&nbsp;&nbsp;&nbsp;<input type=\"radio\" id=\"pvuI\" name=\"restriction1\" value=\"pvuI\" style=\"height:1vw; width:1vw;\">PvuI ('CGATCG') &nbsp;&nbsp;&nbsp;&nbsp;	<input type=\"radio\" id=\"bamhI\" name=\"restriction1\" value=\"bamhI\" style=\"height:1vw; width:1vw;\">BamHI ('GGATCC') &nbsp;&nbsp;&nbsp;&nbsp;<br><br><hr/><br><label id=\"ws\"style=\"background-color: white ; color: #802652; font-weight: bold;\">Enter the word to search:</label><br><br><input type=\"text\" id=\"word_search\" <br><br><hr/><p><input type=\"button\"  onclick=\"myFunction()\" id=\"Submit\" value=\"Submit\" hidden> <label for=\"Submit\"> Submit</label> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"index.html\"><input type=\"button\" id=\"Reset\" hidden><label for=\"Reset\">Reset</label></a></p>");
+            //input.removeEventListener("change");
+            document.getElementById("actual-btn").disabled = true;
+		});
+
+        function Wordcount(){
+            //if(document.getElementById("more").checked){
+                var more = document.getElementById("more");
+                var count = document.getElementById("count")
+                count.style.display = more.checked ? "block" : "none";
+                //document.getElementById("count").insertAdjacentHTML('beforeend', " <label for=\"word_count\">Enter a word count:</label>&nbsp;&nbsp;&nbsp;<input type=\"text\" id=\"word_count\" />");
+            //}
+            
+           
+        }
+        function myFunction() {
+
+            var seq = document.getElementById("disp").value;
+            var sequence=seq.trim();
+            var DNAseq=[];
+            DNAseq= sequence.split('\n');
+            var newSeq= DNAseq.shift();
+            var newDNA= DNAseq.join('');
+            var DNA=newDNA.split('');
+            var len= DNA.length;
+            document.getElementById("demo").innerHTML =("<h1 style=\"color:rgb(181,3,70)\"> Results</h1>"+"\n");
+
+            //Word count
+            var wc=[];
+            if(document.getElementById("mono").checked){
+                wc=1;
+                document.getElementById("demo").insertAdjacentHTML('beforeend', "<h3>Mono-Nucleotides in this sequence: </h3>" );
+            }
+            else if(document.getElementById("di").checked){
+                wc=2;
+                document.getElementById("demo").insertAdjacentHTML('beforeend', "<h3>Di-Nucleotides in this sequence: <\h3>"); 
+            }
+            else if(document.getElementById("tri").checked){
+                wc=3;
+                document.getElementById("demo").insertAdjacentHTML('beforeend', " <h3>Tri-Nucleotides in this sequence:<\h3>"); 
+            }
+            else if(document.getElementById("more").checked){
+                wc=document.getElementById("word_count").value;
+                document.getElementById("demo").insertAdjacentHTML('beforeend'," <h3>Nucleotides of word size "+wc+" in this sequence:<\h3>");
+            }
+            else{
+                wc=0;
+
+            }
+
+
+            if(wc!=0){    
+                var NEW_DNA=DNA.join("");
+                var word=[];
+                for(var y=0; y<=len; y++){
+                    const end=+y + +wc;
+                    word[y]= NEW_DNA.slice(y,end);
+                }
+                var unique_word = [];
+                word.forEach(elem => {
+                    if (!unique_word.includes(elem)) {
+                        unique_word.push(elem);
+                    }
+                });
+                var count_w=[];
+                document.getElementById("demo").insertAdjacentHTML('beforeend',"<textarea id=\"result1\" cols=\"20\"rows=\"10\"></textarea><br>");
+                for(var x=0;x<unique_word.length; x++){
+                    if(unique_word[x].length == wc){
+                        count_w[x] = NEW_DNA.match(new RegExp(unique_word[x],"g")).length;
+                        document.getElementById("result1").insertAdjacentHTML('beforeend',unique_word[x]+"&nbsp;&nbsp;&nbsp;"+count_w[x]+"\n");
+                    }
+                        
+                }
+            }
+
+
+            //Restriction site
+            var rest=[];
+            var formated_rest=[];
+            var rest_count=[];
+            var pattern=[];
+            var enz=[];
+            if(document.querySelector('input[name="restriction1"]:checked')  ){
+            if(document.getElementById("ecorI").checked){
+                
+                rest="GAATTC";
+                pattern=/GAATTC/gi;
+                enz="EcoRI"
+
+            }
+            else if(document.getElementById("hindIII").checked){
+                rest="AAGCTT";
+                pattern=/AAGCTT/gi;
+                enz="HindIII"
+
+            }
+            else if(document.getElementById("pvuI").checked){
+                rest="CGATCG";
+                pattern=/CGATCG/gi;
+                enz="PvuI"
+
+            }
+            else if(document.getElementById("bamhI").checked){
+                rest="GGATCC";
+                pattern=/GGATCC/gi;
+                enz="BamHI"
+            }
+            else{
+                
+                rest="  "
+            }		
+
+            if(newDNA.includes(rest)){
+                var col_change= newDNA.replace(pattern,"<mark>"+rest+"</mark>");
+                
+                    var rest_count= newDNA.match(new RegExp(rest, "g")).length;
+
+
+                    document.getElementById("demo").insertAdjacentHTML('beforeend',"<h3>The total number of "+enz+" ("+rest+") restriction site in this sequence is  "+rest_count+"<\h3>");	
+
+                    document.getElementById("demo").insertAdjacentHTML('beforeend',"<div class=\"restrictionresult\" id=\"restrictionresult\"></div>")
+
+                    document.getElementById("restrictionresult").insertAdjacentHTML('beforeend',"<br>"+col_change+"<br><br>");
+
+                   
+            }                
+            else{
+
+                    document.getElementById("demo").insertAdjacentHTML('beforeend'," <h3>The Restriction site "+enz+" is not present in this sequence.<\h3>");
+            }
+        }
+
+            //Word Search
+            var ws= document.getElementById("word_search").value;
+
+
+            if(ws!=""){
+
+
+                if(newDNA.includes(ws))
+                {
+                    
+                    var col_change1= newDNA.replace(new RegExp(ws, "g"),"<mark>"+ws+"</mark>");
+                    var search_count= newDNA.match(new RegExp(ws, "g")).length;
+
+                    document.getElementById("demo").insertAdjacentHTML('beforeend',"<h3>The word "+ws+" is present "+search_count+" number of times<\h3>");
+                    document.getElementById("demo").insertAdjacentHTML('beforeend',"<div class=\"patternsearch\" id=\"patternsearch\"></div>")
+
+                    document.getElementById("patternsearch").insertAdjacentHTML('beforeend',"<br>"+col_change1+"<br><br>");
+                }
+                else{
+                    document.getElementById("demo").insertAdjacentHTML('beforeend',"<h3>"+ws+" is not present in the sequence<\h3>");
+                }
+            }
+
+        }
+
+    </script>
+    
+
+    </body>
+		
+
+</html>

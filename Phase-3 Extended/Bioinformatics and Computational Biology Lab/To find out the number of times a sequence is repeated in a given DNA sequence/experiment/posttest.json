@@ -1,0 +1,62 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Using the simulator, calculate number of GC in the given DNA sequence (Save the given sequence in your PC as .txt file) <br><br> >AB609589.1 Dengue virus 2 gene for polyprotein, partial cds, strain: New Guinea <br> CACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGTTCAAGAAAGAGATTGGAAGGATGCTGAACATCTTGAACAGGAGACGCAGAACTGCAGGCATGATCATTATGCTGATTCCAACAGTGATGGCGTTCCATTTAACCACACGTAACGGAGAACCACACATGATCGTCAGTAGACAAGAGAAAGGGAAAAGTCTTCTGTTTAAAACAGAGGATGGTGTGAACATGTGTACCCTCATGGCCATGGACC",
+
+      "answers": {
+        "a": "15",
+        "b": "9",
+        "c": "23",
+        "d": "26"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+    
+    {
+      "question": "Using simulator, find number of A in the given sequence. <br><br> >AB609589.1 Dengue virus 2 gene for polyprotein, partial cds, strain: New Guinea <br> CACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGTTCAAGAAAGAGATTGGAAGGATGCTGAACATCTTGAACAGGAGACGCAGAACTGCAGGCATGATCATTATGCTGATTCCAACAGTGATGGCGTTCCATTTAACCACACGTAACGGAGAACCACACATGATCGTCAGTAGACAAGAGAAAGGGAAAAGTCTTCTGTTTAAAACAGAGGATGGTGTGAACATGTGTACCCTCATGGCCATGGACC",
+      "answers": {
+        "a": "50",
+        "b": "100",
+        "c": "72",
+        "d": "59"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+            "question": "In the given sequence find the number of repeating GAAG sequence <br><br> >AB609589.1 Dengue virus 2 gene for polyprotein, partial cds, strain: New Guinea <br> CACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGAAGCTTCACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGAAGCTTCACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGAAGCTTGGGATACTGAAGAGATGGGGAACAAT",
+      "answers": {
+        "a": "8",
+        "b": "10",
+        "c": "6",
+        "d": "4"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    
+},
+
+{
+  "question": "In the given sequence find the number of repeating AAT sequence <br><br> >AB609589.1 Dengue virus 2 gene for polyprotein, partial cds, strain: New Guinea <br> CACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGAAGCTTCACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGAAGCTTCACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGAAGCTTGGGATACTGAAGAGATGGGGAACAAT",
+  "answers": {
+    "a": "4",
+    "b": "6",
+    "c": "8",
+    "d": "10"
+  },
+  
+  "correctAnswer": "d",
+  "difficulty": "beginner"
+}
+
+
+  ]
+}

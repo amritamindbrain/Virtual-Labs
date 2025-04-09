@@ -1,0 +1,94 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Repetitive DNA sequences are",
+
+      "answers": {
+        "a": "Long repeats of nucleotide bases occur as single or multiple copies in genome",
+        "b": "Short DNA fragments that occur as multiple copies in the genome.",
+        "c": "Short repeats of DNA fragments non-relavant to the genome.",
+        "d": "DNA sequences that are specific for prokaryotic organism"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+    
+    {
+      "question": "Repetitive DNA sequences are coding sequences",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+            "question": "In the tandem repeat, CGCGCGCGCG, number of repetitions of repetitive nucleotide is",
+      "answers": {
+        "a": "4",
+        "b": "3",
+        "c": "5",
+        "d": "1"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    
+},
+
+{
+  "question": "Which of the following restriction enzymes cleaves methylated DNA sequences",
+  "answers": {
+    "a": "Type I",
+    "b": "Type II",
+    "c": "Type III",
+    "d": "Type IV"
+  },
+  
+  "correctAnswer": "d",
+  "difficulty": "beginner"
+},
+
+
+
+
+{
+  "question": "Recognition site of EcoR1 restriction enzyme is ",
+  "answers": {
+    "a": " 3'TTCGAA5 ' ",
+    "b": " 5' GAATTC 3'",
+    "c": " 3' CCTAGG 5'",
+    "d": " 5 ' -CGATCG-3 ' "
+  },
+  
+  "correctAnswer": "b",
+  "difficulty": "beginner"
+},
+
+
+{
+  "question": " 5'-CGATCG-3' is the recognition site of ",
+  "answers": {
+    "a": "BamHI",
+    "b": "HindIII",
+    "c": "PvuI",
+    "d": "EcoRI"
+  },
+  
+  "correctAnswer": "c",
+  "difficulty": "beginner"
+}
+
+
+
+
+
+
+  ]
+}

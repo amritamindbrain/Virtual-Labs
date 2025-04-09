@@ -1,0 +1,74 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Identify the equation to calculate GC content (in percentage) in a given DNA sequence",
+      "answers": {
+        "a": "( (A+T) / A + T + C + G )) * 100",
+        "b": "( (G+C) / A + T + C + G )) * 100",
+        "c": "( (T+C) / C - G + A)) * 100",
+        "d": "( (A+C) / C + G )) * 100"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+    
+    {
+      "question": "Identify the one that determines the amount of G equals C, and the amount of A equals T",
+      "answers": {
+        "a": "X-ray diffusion",
+        "b": "Chargaff’ rule",
+        "c": "DNA Sequencing",
+        "d": "None"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+            "question": "GC ratio analysis is applicable in",
+      "answers": {
+        "a": "Understanding the statistical significance of a DNA sequence",
+        "b": "Ecological and evolutionary significance of species",
+        "c": "Identifying annealing temperature of a DNA sequence",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "Identify the reverse complement of ACCTGAG",
+"answers": {
+  "a": "TGGACTC",
+  "b": "GAGTCCA",
+  "c": "CTCAGGT",
+  "d": "GTCACCT"
+},
+
+"correctAnswer": "c",
+"difficulty": "beginner"
+},
+
+
+{
+  "question": "According to Chargaff's rule, ratio of purines and pyrimidines in a DNA sequence",
+"answers": {
+"a": "2:1",
+"b": "1:2",
+"c": "1:1",
+"d": "2:2"
+},
+
+"correctAnswer": "c",
+"difficulty": "beginner"
+}
+
+  ]
+}

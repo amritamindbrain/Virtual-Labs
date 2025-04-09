@@ -1,0 +1,48 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Find the reverse complement of the given sequence (Use Simulator) 'CACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGTTCA' ",
+
+      "answers": {
+        "a": "TGAACCCTCTCAAAACATTAATGGCTTTTGATTTTTTAATTGTTCCCCATCTCTTCAGTATCCCTGCTGT",
+        "b": "CCGAACCCTCTCGGAAACATTAATGGCTTTTGAGGGTTAATTGTTCCCCATCTCTTCAGTATCCCTGCTAC",
+        "c": "TAATGTTTTGAGAGGGTTCACACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAATCAAAAGCCAT",
+        "d": "AGAGATGGGGAACAATTAAAAAATCAAAAGCCATTAATGTTTTGAGAGGGTTCATAATGTTTTGAGAGGGTTCA"
+      },
+
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  
+    
+    {
+      "question": "Find RNA sequence of >AB609589.1 Dengue virus 2 gene for polyprotein, partial cds, strain: New Guinea CACAGCAGGGATACTGAAGAGATGGGGAACAATTAAAAAA",
+      "answers": {
+        "a": "UUUUUUAAUUGUUCCCCAUCUCUUCAGUAUCCCUGCUGU",
+        "b": "UUAAAAAAUACUGAAGACACAGCAGGGACACAGCAGGGA",
+        "c": "AGUAUCCCUGCUGUUAAUUGUUCCCCUUUUUUAAUACAA",
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+            "question": "Quadruplex DNA indicates",
+      "answers": {
+        "a": "Guanine base folded into four-strands with hydrogen-bonds",
+        "b": "Double-helical structure of DNA",
+        "c": "Reverse complement of DNA",
+        "d": "Guanine base forming double bond with Cytosine"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    
+}
+
+  ]
+}
