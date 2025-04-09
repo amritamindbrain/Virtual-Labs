@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+
+<body style="background-color:rgb(192, 192, 192);">
+    <div class='at-container'>
+        <img src="images\logo.png" width="15%" height="4%"
+            style="margin-left:1%; padding-top:1%">
+
+        <div id='header'>MFC in Waste Water Treatment</div>
+    </div>
+
+    <div class="main-container">
+        <div class="select-anolyte">
+            <label for="anolyte"><b>Anolyte:</b></label>
+            <select name="selectAnolyte" class="custom-select mb-3">
+                <option disabled selected>Select Anolyte</option>
+                <option value="wasteWater">Waste Water</option>
+            </select>
+        </div>
+        <div class="select-BOD">
+            <label for="strength"><b>Strength of WasteWater(BOD):</b></label>
+            <select name="strengthBOD" class="custom-select mb-3">
+                <option selected disabled>Select BOD</option>
+                <option value="10">10mg/l</option>
+                <option value="20">20mg/l</option>
+                <option value="30">30mg/l</option>
+                <option value="40">40mg/l</option>
+                <option value="50">50mg/l</option>
+                <option value="60">60mg/l</option>
+                <option value="70">70mg/l</option>
+                <option value="80">80mg/l</option>
+                <option value="90">90mg/l</option>
+                <option value="100">100mg/l</option>
+            </select>
+        </div>
+        <div class="select-pem">
+            <label for="pem"><b>PEM:</b></label>
+            <select name="selectPem" class="custom-select mb-3">
+                <option value="Agar" selected>Nutrient Agar with Bacillus subtilis</option>
+                <option value="Nafion">Nafion</option>
+            </select>
+        </div>
+        <div class="select-catholyte">
+            <label for="catholyte"><b>Catholyte:</b></label>
+            <select name="selectCatholyte" class="custom-select mb-3">
+                <option selected disabled>Select Catholyte</option>
+                <option value="KMnO4">KMnO4</option>
+                <option value="water">Water</option>
+            </select>
+        </div>
+        <div class="select-anode">
+            <label for="anode"><b>Anode:</b></label>
+            <select name="anodeSelect" id="anodeSelect" class="custom-select mb-3">
+                <option selected disabled>Select Electrode</option>
+                <option value="Aluminium">Aluminium</option>
+                <option value="Manganese">Manganese</option>
+                <option value="Graphite">Graphite</option>
+                <option value="StainlessSteel">StainlessSteel</option>
+            </select>
+        </div>
+        <div class="select-cathode">
+            <label for="Cathode"><b>Cathode:</b></label>
+            <select name="cathodeSelect" class="custom-select mb-3">
+                <option selected disabled>Select Electrode</option>
+                <option value="Copper">Copper</option>
+                <option value="Graphite">Graphite</option>
+
+            </select>
+        </div>
+        <div class="select-timeduration">
+            <label for="time"><b>Time:</b></label>
+            <select name="timeSelect" class="custom-select mb-3">
+                <option selected disabled>Select Time</option>
+                <option value="firstday">24 hours</option>
+                <option value="secondday">48 hours</option>
+                <option value="thirdday">72 hours</option>
+
+
+            </select>
+        </div>
+
+    </div>
+
+
+
+    <div class="image-container">
+
+        <img src="images\tabletop.png" alt="micro fuel cell"
+            class="centered">
+        <div class="color-overlay">
+            <p class="overlay-text1">Waste Water</p>
+            <p class="overlay-anolytetext"></p>
+        </div>
+        <!-- waste water strength -->
+        <div class="color-overlayBOD10ml"></div>
+        <div class="color-overlayBOD20ml"></div>
+        <div class="color-overlayBOD30ml"></div>
+        <div class="color-overlayBOD40ml"></div>
+        <div class="color-overlayBOD50ml"></div>
+        <div class="color-overlayBOD60ml"></div>
+        <div class="color-overlayBOD70ml"></div>
+        <div class="color-overlayBOD80ml"></div>
+        <div class="color-overlayBOD90ml"></div>
+        <div class="color-overlayBOD100ml"></div>
+
+
+        <div class="color-overlay1">
+            <h1 class="overlay-text2">KMnO4</h1>
+        </div>
+        <div class="color-overlay3">
+            <p class="overlay-text2">Water</p>
+        </div>
+        <div class="color-overlay2"></div>
+        <div class="color-overlayNafion" style="display:none;"></div>
+
+
+        <div class="commonAnode-container">
+            <img src="images\aluminium.png" alt="Aluminium"
+                id="aluminium-image">
+
+            <img src="images\stainlesssteel.png"
+                alt="Stainless Steel" id="stainless-steel-image">
+            <img src="images\manganese.png" alt="Manganese"
+                id="manganese-image">
+
+        </div>
+        <div class="commonAnode-graphite">
+
+            <img src="images\charcoal brush3.png" alt="Graphite"
+                id="graphite-image">
+        </div>
+
+        <div class="commonCathode-container">
+            <img src="images\copper.png" alt="Copper Image"
+                id="copper-image">
+
+            <div class="commonCathode-graphite">
+
+                <img src="images\charcoal brush3.png" alt="Graphite"
+                    id="cathodegraphite-image">
+            </div>
+
+        </div>
+
+        <div class="stand_image">
+            <img src="images\STAND.png" alt="Stand Image"
+                id="stand-image">
+
+        </div>
+        <div class="wire_image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wire-image">
+
+        </div>
+
+        <div class="wire2_image">
+            <img src="images\red_wire.png" alt="redright wireimage"
+                id="wire2-image">
+
+        </div>
+
+        <div class="bulb_image" id="bulb">
+            <img id="bulbOff-image" src="images\BULB1.png">
+            <img id="bulbOnMedium-image" style="display:none;"
+                src="images\light medium.png">
+            <img id="bulbOn-image" style="display:none;"
+                src="images\bulb_on.png">
+            <img id="bulbOn50mlBOD-image" style="display:none;"
+                src="images\bulb_on.png">
+
+            <img id="bulbOn70mlBOD-image" style="display:none;"
+                src="images\bulb_on.png">
+            <img id="bulbOn70mlBOD-image" style="display:none;"
+                src="images\bulb_on.png">
+            <img id="bulbOnGraphite100mlBOD-image" style="display:none;"
+                src="images\bulb_on.png">
+        </div>
+
+
+        <div class="volt">
+            <img src="images\voltmter_appe4.png" alt="Volt Image"
+                id="volt-image">
+            <div class="volt-read" id="volt-read">
+                <h1 id="default">0.000V</h1>
+                <h1 id="alumCopp1" style="display: none;">1.0001V</h1>
+                <h1 id="alumCopp2" style="display: none;">1.0013V</h1>
+                <h1 id="alumCopp3" style="display: none;">1.0019V</h1>
+
+                <h1 id="graphite1" style="display: none;">3.4317V</h1>
+                <h1 id="graphite2" style="display: none;">4.0357V</h1>
+                <h1 id="graphite3" style="display: none;">3.6099V</h1>
+
+                <h1 id="nafiongraphite1" style="display: none;">7.4565V</h1>
+                <h1 id="nafiongraphite2" style="display: none;">4.0700V</h1>
+                <h1 id="nafiongraphite3" style="display: none;">2.9176V</h1>
+
+                <h1 id="nafionalumCopp1" style="display: none;">1.0012V</h1>
+                <h1 id="nafionalumCopp2" style="display: none;">1.0009V</h1>
+                <h1 id="nafionalumCopp3" style="display: none;">1.0015V</h1>
+
+            </div>
+        </div>
+
+
+        <div class="bacteria">
+            <img src="images\bacteria.png" id="bacteria-image">
+        </div>
+        <div class="wasteBacteria">
+            <img src="images\bacteriaGif2-unscreen.gif"
+                id="wasteBacteria-image">
+        </div>
+        <div class="arrow">
+            <img src="images\arrow.png" id="arrow-image">
+        </div>
+        <div class="bacteriaGif">
+            <img src="images\bacteriaGif.gif" id="bacteriaGif-image">
+        </div>
+
+        <!-- electrons top -->
+        <div id="electron1" style="display: none;" class="electron"></div>
+        <div id="electron2" style="display: none;" class="electron"></div>
+        <div id="electron3" style="display: none;" class="electron"></div>
+        <div id="electron4" style="display: none;" class="electron1"></div>
+        <div id="electron5" style="display: none;" class="electron1"></div>
+        <div id="electron6" style="display: none;" class="electron1"></div>
+        <div id="electron7" style="display: none;" class="electron2"></div>
+        <div id="electron8" style="display: none;" class="electron2"></div>
+        <div id="electron9" style="display: none;" class="electron2"></div>
+        <div id="proton1" style="display: none;" class="proton"></div>
+
+
+    </div>
+
+
+
+
+
+    <script>
+        var selectBOD = document.querySelector('select[name="strengthBOD"]');
+        var wasteWater10 = document.querySelector(".color-overlayBOD10ml");
+        var wasteWater20 = document.querySelector(".color-overlayBOD20ml");
+        var wasteWater30 = document.querySelector(".color-overlayBOD30ml");
+        var wasteWater40 = document.querySelector(".color-overlayBOD40ml");
+        var wasteWater50 = document.querySelector(".color-overlayBOD50ml");
+        var wasteWater60 = document.querySelector(".color-overlayBOD60ml");
+        var wasteWater70 = document.querySelector(".color-overlayBOD70ml");
+        var wasteWater80 = document.querySelector(".color-overlayBOD80ml");
+        var wasteWater90 = document.querySelector(".color-overlayBOD90ml");
+        var wasteWater100 = document.querySelector(".color-overlayBOD100ml");
+
+        selectBOD.addEventListener('change', function () {
+            // Get the selected option
+            var selectedBOD = selectBOD.value;
+            var selectedValue = document.querySelector('select[name="timeSelect"]').value;
+            var wastebacteriaGif = document.getElementById("wasteBacteria-image");
+            var anodeSelect = document.querySelector('select[name="anodeSelect')
+            var cathodeSelect = document.querySelector('select[name="cathodeSelect')
+            var selectedCathode = cathodeSelect.value;
+            var selectedAnode = anodeSelect.value;
+            var selectedPEM = document.querySelector('select[name="selectPem"]').value;
+            var selectedValue = selectTime.value;
+            // Show the image for the selected Anode if it matches
+            if (selectedBOD === '10') {
+                wasteWater10.style.display = 'block';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '20') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'block';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '30') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'block';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '40') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'block';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '50') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'block';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '60') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'block';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+
+            } else if (selectedBOD === '70') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'block';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '80') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'block';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '90') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'block';
+                wasteWater100.style.display = 'none';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else if (selectedBOD === '100') {
+                wasteWater10.style.display = 'none';
+                wasteWater20.style.display = 'none';
+                wasteWater30.style.display = 'none';
+                wasteWater40.style.display = 'none';
+                wasteWater50.style.display = 'none';
+                wasteWater60.style.display = 'none';
+                wasteWater70.style.display = 'none';
+                wasteWater80.style.display = 'none';
+                wasteWater90.style.display = 'none';
+                wasteWater100.style.display = 'block';
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'block';
+            } else {
+
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                wastebacteriaGif.style.display = 'none';
+            }
+            displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD);
+
+        });
+
+        var selectPem = document.querySelector('select[name="selectPem"]');
+        var MembraneAgar = document.querySelector(".color-overlay2");
+        var MembraneNafion = document.querySelector(".color-overlayNafion");
+
+
+        selectPem.addEventListener('change', function () {
+            // Get the selected option
+            var selectedPEM = selectPem.value;
+            var selectedValue = document.querySelector('select[name="timeSelect"]').value;
+            var selectBOD = document.querySelector('select[name="strengthBOD"]');
+            var selectedBOD = selectBOD.value;
+            // Hide all images first
+            MembraneAgar.style.display = 'none';
+            MembraneNafion.style.display = 'none';
+
+            var cathodeSelect = document.querySelector('select[name="cathodeSelect')
+            var selectedCathode = cathodeSelect.value;
+            var anodeSelect = document.querySelector('select[name="anodeSelect')
+            var selectedAnode = anodeSelect.value;
+
+            // Show the image for the selected Anode if it matches
+            if (selectedPEM === 'Agar') {
+                MembraneAgar.style.display = 'block';
+                MembraneNafion.style.display = 'none';
+
+            } else if (selectedPEM === 'Nafion') {
+                MembraneNafion.style.display = 'block';
+                MembraneAgar.style.display = 'none';
+
+            } else if (selectedPEM === 'Agarwithbacillus') {
+
+
+            }
+            displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD);
+
+        });
+
+
+        // Get the select element
+        var selectTime = document.querySelector('select[name="timeSelect"]');
+
+        selectTime.addEventListener('change', function () {
+            // Get the selected value
+            var anodeSelect = document.querySelector('select[name="anodeSelect')
+            var cathodeSelect = document.querySelector('select[name="cathodeSelect')
+            var selectedCathode = cathodeSelect.value;
+            var selectedAnode = anodeSelect.value;
+            var selectedPEM = document.querySelector('select[name="selectPem"]').value;
+            var selectedValue = selectTime.value;
+            var selectBOD = document.querySelector('select[name="strengthBOD"]');
+            var selectedBOD = selectBOD.value;
+
+            displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD);
+
+
+        });
+
+
+
+        // hidding
+        var anodeDisplay = document.querySelector(".select-anode");
+        anodeDisplay.style.display = "none";
+        var cathodeDisplay = document.querySelector(".select-cathode");
+        cathodeDisplay.style.display = "none";
+
+        const wireLeft = document.querySelector('.wire_image');
+        wireLeft.style.display = 'none';
+
+
+        //Anode Selection
+        var anodeSelect = document.querySelector('select[name="anodeSelect')
+        var cathodeSelect = document.querySelector('select[name="cathodeSelect')
+        var selectedAnode = anodeSelect.value;
+
+
+
+
+
+        var bulb_on = document.getElementById('bulbOn-image');
+        var bulb_on_medium = document.getElementById('bulbOnMedium-image');
+        var bulb_off = document.getElementById('bulbOff-image');
+        var bulb_50mg_on = document.getElementById('bulbOn50mlBOD-image');
+        var bulb_70mg_on = document.getElementById('bulbOn70mlBOD-image');
+        var bulb_graphite100mg_on = document.getElementById('bulbOnGraphite100mlBOD-image');
+
+        // Get references to the images
+        var aluminiumImage = document.getElementById('aluminium-image');
+        var stainlessSteelImage = document.getElementById('stainless-steel-image');
+        var manganeseImage = document.getElementById('manganese-image');
+        var graphiteImage = document.getElementById('graphite-image');
+
+
+
+
+        var anodeSelect = document.getElementById("anodeSelect");
+
+
+        // Add an event listener to the Anode select element
+        anodeSelect.addEventListener('change', function () {
+            var selectedPEM = document.querySelector('select[name="selectPem"]').value;
+            var selectedValue = document.querySelector('select[name="timeSelect"]').value;
+            // Get the selected option
+            var selectedAnode = anodeSelect.value;
+
+            var selectedCathode = cathodeSelect.value;
+            // Hide all images first
+            aluminiumImage.style.display = 'none';
+            stainlessSteelImage.style.display = 'none';
+            manganeseImage.style.display = 'none';
+            graphiteImage.style.display = 'none';
+            wireLeft.style.display = 'none';
+            var selectBOD = document.querySelector('select[name="strengthBOD"]');
+            var selectedBOD = selectBOD.value;
+            // Show the image for the selected Anode if it matches
+            if (selectedAnode === 'Aluminium') {
+                aluminiumImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+            } else if (selectedAnode === 'Graphite') {
+                graphiteImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+            }
+            else if (selectedAnode === 'StainlessSteel') {
+                stainlessSteelImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+            }
+            else if (selectedAnode === 'Manganese') {
+                manganeseImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+            }
+            if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
+                displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD);
+
+
+            } else {
+                displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD);
+                document.getElementById("bulbOff-image").style.display = "inline";
+                document.getElementById("bulbOn-image").style.display = "none";
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+            }
+
+
+
+        });
+
+
+        function displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD) {
+            const defaultImage = document.getElementById('default');
+
+            if (selectedPEM === 'Agar' && selectedValue === 'firstday' && selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
+                alumCopp1.style.display = 'block';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                defaultImage.style.display = 'none';
+                bulb_on.style.display = 'none';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+
+            } else if (selectedPEM === 'Agar' && selectedValue === 'secondday' && selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
+                alumCopp2.style.display = 'block';
+                alumCopp3.style.display = 'none';
+                alumCopp1.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+
+                defaultImage.style.display = 'none';
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                bulb_off.style.display = 'inline';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+            } else if (selectedPEM === 'Agar' && selectedValue === 'thirdday' && selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
+                alumCopp3.style.display = 'block';
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+
+                defaultImage.style.display = 'none';
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                bulb_off.style.display = 'inline';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+
+                }
+
+
+            } else if (selectedPEM === 'Nafion' && selectedValue === 'firstday' && selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
+                nafionalumCopp1.style.display = 'block';
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+
+                defaultImage.style.display = 'none';
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                bulb_off.style.display = 'inline';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+            } else if (selectedPEM === 'Nafion' && selectedValue === 'secondday' && selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
+                nafionalumCopp2.style.display = 'block';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+                alumCopp1.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+                defaultImage.style.display = 'none';
+
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                bulb_off.style.display = 'inline';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+            } else if (selectedPEM === 'Nafion' && selectedValue === 'thirdday' && selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
+                nafionalumCopp3.style.display = 'block';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+                alumCopp1.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                defaultImage.style.display = 'none';
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                bulb_off.style.display = 'inline';
+
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+            } else if (selectedPEM === 'Agar' && selectedValue === 'firstday' && selectedAnode === 'Graphite' && selectedCathode === 'Graphite') {
+                graphite1.style.display = 'block';
+
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+
+                defaultImage.style.display = 'none';
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                bulb_off.style.display = 'inline';
+
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'none';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        bulb_graphite100mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        bulb_graphite100mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        bulb_graphite100mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        bulb_graphite100mg_on.style.display = 'none';
+
+                }
+
+
+            } else if (selectedPEM === 'Agar' && selectedValue === 'secondday' && selectedAnode === 'Graphite' && selectedCathode === 'Graphite') {
+                graphite2.style.display = 'block';
+                graphite1.style.display = 'none';
+                graphite3.style.display = 'none';
+
+
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                defaultImage.style.display = 'none';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+
+                }
+
+
+            } else if (selectedPEM === 'Agar' && selectedValue === 'thirdday' && selectedAnode === 'Graphite' && selectedCathode === 'Graphite') {
+                graphite3.style.display = 'block';
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                defaultImage.style.display = 'none';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+            } else if (selectedPEM === 'Nafion' && selectedValue === 'firstday' && selectedAnode === 'Graphite' && selectedCathode === 'Graphite') {
+                nafiongraphite1.style.display = 'block';
+                defaultImage.style.display = 'none';
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                bulb_on.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on_medium.style.display = 'none';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+
+            } else if (selectedPEM === 'Nafion' && selectedValue === 'secondday' && selectedAnode === 'Graphite' && selectedCathode === 'Graphite') {
+                nafiongraphite2.style.display = 'block';
+                defaultImage.style.display = 'none';
+
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'inline';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+            } else if (selectedPEM === 'Nafion' && selectedValue === 'thirdday' && selectedAnode === 'Graphite' && selectedCathode === 'Graphite') {
+                nafiongraphite3.style.display = 'block';
+                defaultImage.style.display = 'none';
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp3.style.display = 'none';
+
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                bulb_on_medium.style.display = 'inline';
+                bulb_off.style.display = 'none';
+                bulb_on.style.display = 'none';
+                switch (selectedBOD) {
+                    case '10':
+                    case '20':
+                    case '30':
+                    case '40':
+                        bulb_on_medium.style.display = 'none';
+                        bulb_on.style.display = 'none';
+                        bulb_50mg_on.style.display = 'inline';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    case '50':
+                    case '60':
+                    case '70':
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'inline';
+                        break;
+                    case '80':
+                    case '90':
+                    case '100':
+                        bulb_on.style.display = 'inline';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+                        break;
+                    default:
+                        bulb_on.style.display = 'none';
+                        bulb_on_medium.style.display = 'none';
+                        bulb_50mg_on.style.display = 'none';
+                        bulb_70mg_on.style.display = 'none';
+
+                }
+
+
+
+            } else {
+
+                bulb_on_medium.style.display = 'none';
+                bulb_on.style.display = 'none';
+                bulb_off.style.display = 'inline';
+                bulb_50mg_on.style.display = 'none';
+
+                alumCopp1.style.display = 'none';
+                alumCopp2.style.display = 'none';
+                alumCopp3.style.display = 'none';
+
+                graphite1.style.display = 'none';
+                graphite2.style.display = 'none';
+                graphite3.style.display = 'none';
+
+                nafiongraphite1.style.display = 'none';
+                nafiongraphite2.style.display = 'none';
+                nafiongraphite3.style.display = 'none';
+
+                nafionalumCopp1.style.display = 'none';
+                nafionalumCopp2.style.display = 'none';
+                nafionalumCopp1.style.display = 'none';
+
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
+
+
+                nafionalumCopp3.style.display = 'none';
+                defaultImage.style.display = 'block';
+            }
+
+
+        }
+
+
+        //Cathode selection
+
+
+
+        var cathodecopperImage = document.getElementById('copper-image');
+        var cathodeGraphiteImage = document.getElementById('cathodegraphite-image');
+
+
+
+
+        const wireRightTop = document.querySelector('.wire2_image');
+        wireRightTop.style.display = 'none';
+
+
+
+        // Add an event listener to the Anode select element
+        cathodeSelect.addEventListener('change', function () {
+            var selectedPEM = document.querySelector('select[name="selectPem"]').value;
+            var selectedValue = document.querySelector('select[name="timeSelect"]').value;
+            // Get the selected option
+            var selectedCathode = cathodeSelect.value;
+
+            var selectedAnode = anodeSelect.value;
+            // Hide all images first
+            cathodecopperImage.style.display = 'none';
+            cathodeGraphiteImage.style.display = 'none';
+
+            wireRightTop.style.display = 'none';
+
+            var selectBOD = document.querySelector('select[name="strengthBOD"]');
+            var selectedBOD = selectBOD.value;
+            // Show the image for the selected Anode if it matches
+            if (selectedCathode === 'Graphite') {
+                cathodeGraphiteImage.style.display = 'block';
+
+                wireRightTop.style.display = 'block';
+            }
+            else if (selectedCathode === 'Copper') {
+                cathodecopperImage.style.display = 'block';
+
+
+                wireRightTop.style.display = 'block';
+            }
+            if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
+                displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD);
+
+            } else {
+                displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM, selectedBOD);
+
+
+                document.getElementById("bulbOff-image").style.display = "inline";
+                document.getElementById("bulbOn-image").style.display = "none";
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+            }
+
+
+        });
+
+
+
+
+
+
+
+        function updateDisplay(selectedAnode, selectedCathode) {
+            const defaultImage = document.getElementById('default');
+
+            const alumCopp1 = document.getElementById('alumCopp1');
+
+            if (selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
+                alumCopp1.style.display = 'block';
+                defaultImage.style.display = 'none';
+            } else {
+                alumCopp1.style.display = 'none';
+                defaultImage.style.display = 'block';
+
+            }
+
+        }
+        var BODDisplay = document.querySelector(".select-BOD");
+        BODDisplay.style.display = 'none';
+        var anolyteWasteWater = document.querySelector(".color-overlay");
+        var anolyteSelect = document.querySelector('select[name="selectAnolyte"]');
+        var bacteriaImage = document.getElementById("bacteria-image");
+        var bacteriaGifImage = document.getElementById("bacteriaGif-image");
+        var arrowImage = document.getElementById("arrow-image");
+
+        anolyteSelect.addEventListener('change', function () {
+            var selectAnolyte = anolyteSelect.value;
+
+            if (selectAnolyte === 'wasteWater') {
+                anolyteWasteWater.style.display = 'block';
+                bacteriaImage.style.display = 'block';
+                bacteriaGifImage.style.display = 'block';
+                arrowImage.style.display = 'block';
+
+            } else {
+                anolyteWasteWater.style.display = 'none';
+                bacteriaImage.style.display = 'none';
+                bacteriaGifImage.style.display = 'none';
+                arrowImage.style.display = 'none';
+            }
+            BODDisplay.style.display = 'block';
+        });
+
+        // catholyte select
+        var catholyteSelect = document.querySelector('select[name="selectCatholyte')
+
+        var catholyteKmNO4 = document.querySelector(".color-overlay1");
+        var catholyteWater = document.querySelector(".color-overlay3");
+
+
+        catholyteSelect.addEventListener('change', function () {
+            // Get the selected option
+            var selectedCatholyte = catholyteSelect.value;
+
+            // Hide all images first
+            catholyteKmNO4.style.display = 'none';
+            catholyteWater.style.display = 'none';
+
+            // Show the image for the selected Anode if it matches
+            if (selectedCatholyte === 'KMnO4') {
+                catholyteKmNO4.style.display = 'block';
+            }
+            else if (selectedCatholyte === 'water') {
+                catholyteWater.style.display = 'block';
+
+            }
+
+            anodeDisplay.style.display = "block";
+            cathodeDisplay.style.display = "block";
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>

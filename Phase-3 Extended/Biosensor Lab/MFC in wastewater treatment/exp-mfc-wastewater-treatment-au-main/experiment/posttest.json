@@ -1,0 +1,59 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1) What electrolyte is used in the double-chambered Microbial fuel cell simulator ?",
+      "answers": {
+        "a": "Water",
+        "b": "Potassium Permanganate",
+        "c": "Hydrochloride",
+        "d": "Both water and KMno4"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "2) Factors influencing the efficiency of a MFC in wastewater are:",
+      "answers": {
+        "a": "Biological Oxygen Demand (BOD)",
+        "b": "Electrode Material",
+        "c": "PH and Time",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3) Which material is used as a cathode in the MFC in the wastewater treatment simulator ?",
+      "answers": {
+        "a": "Stainless Steel",
+        "b": "Aluminium",
+        "c": "Graphite",
+        "d": "Manganese"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4) What is the combination of anode and cathode with Nafion as PEM produces maximum electricity (7.4565 V) in a voltmeter ?",
+      "answers": {
+        "a": "Aluminium-Copper",
+        "b": "Alumininum -Graphite",
+        "c": "Graphite-copper",
+        "d": "Graphite-Graphite"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

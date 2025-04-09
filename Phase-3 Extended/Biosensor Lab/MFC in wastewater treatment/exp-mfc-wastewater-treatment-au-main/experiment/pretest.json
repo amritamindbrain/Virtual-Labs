@@ -1,0 +1,78 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+     
+        "question": "1) The Primary function of a microbial fuel cell (MFC) in wastewater treatment is:",
+        "answers": {
+          "a": "Promoting bacterial growth",
+          "b": "Generating Bioelectricity",
+          "c": "Enhancing nutrient removal",
+          "d": "Generating chemical Energy"
+        },
+        
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+  
+      {
+        "question": "2) The principle of microbial fuel cells is that the contribution of sustainable energy production from wastewater is mainly by:",
+        "answers": {
+          "a": "By releasing harmful gases",
+          "b": "By utilising chemical additives",
+          "c": "By harnessing bacterial metabolism",
+          "d": " By consuming excess nutrients"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+  
+  
+      {
+        "question": "3) The component of a microbial fuel cell that is responsible for electron transfer during wastewater treatment is:",
+        "answers": {
+          "a": "Anode",
+          "b": "Cathode",
+          "c": "Proton exchange membrane",
+          "d": "Substrate supply"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+  
+  
+      {
+        "question": "4) The amount of bioelectricity produced during the treatment of wastewater through MFC depends on the following:",
+        "answers": {
+          "a": "Biological oxygen demand",
+          "b": "Time",
+          "c": "Carbon-based electrode.",
+          "d": "All the above"
+        },
+        
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      },
+
+
+
+
+
+
+      {
+        "question": "5) The essential component of MFC that facilitates the proton transport between the anodic and cathodic chamber is:",
+        "answers": {
+          "a": "Graphite",
+          "b": "KMnO4",
+          "c": "Proton Exchange Membrane",
+          "d": "Water"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }
+  
