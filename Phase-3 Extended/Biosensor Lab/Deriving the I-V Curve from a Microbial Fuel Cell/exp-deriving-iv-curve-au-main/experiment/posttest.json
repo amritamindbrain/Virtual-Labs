@@ -1,0 +1,72 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In the simulator, which of the following anode-cathode combination provided maximum current ?",
+      "answers": {
+        "a": "Graphite-Copper",
+        "b": "Aluminium – Copper",
+        "c": "Manganeese – Carbon",
+        "d": "Stainless steel – Copper"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "2. In the simulator, the anode chamber is filled with:",
+      "answers": {
+        "a": "Pure water",
+        "b": "Waste water",
+        "c": "Saline water",
+        "d": "Cold water"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3. In the simulator, the cathode chamber is filled with:",
+      "answers": {
+        "a": "Wastewater",
+        "b": "Nutrient broth",
+        "c": "KMO4 solution",
+        "d": "Cold water"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "4. The proton exchange membrane in the MFC can be:",
+      "answers": {
+        "a": "Nutrient agar",
+        "b": "Nafion",
+        "c": "Nutrient broth",
+        "d": "Either nutrient agar or Nafion"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. In the simulator, the voltage production is changing in accordance with the electrode selction",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

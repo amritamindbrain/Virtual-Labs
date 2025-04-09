@@ -1,0 +1,74 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Functions of a microbial fuel cell:",
+      "answers": {
+        "a": "Biosensor",
+        "b": "Waste water treatment",
+        "c": "Reducing greenhouse effect",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "2. Power density is indicated in:",
+      "answers": {
+        "a": "mW/cm2",
+        "b": "mV/m2",
+        "c": "mW/m2",
+        "d": "mV/cm2"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3. Power density depends on:",
+      "answers": {
+        "a": "Current density",
+        "b": "Voltage",
+        "c": "Surface area of electrodes",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "4. Point of intersection of polarization curve indicates:",
+      "answers": {
+        "a": "Maximum power",
+        "b": "Minimum power",
+        "c": "Maximum voltage",
+        "d": "Minimum voltage"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Polarization curve denotes",
+      "answers": {
+        "a": "Voltage density and internal resistance",
+        "b": "Current density as a function of voltage",
+        "c": "Current density and internal resistance",
+        "d": "Power generation and ohmic resistance"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

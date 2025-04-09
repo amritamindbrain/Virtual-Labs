@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body style="background-color:rgb(192, 192, 192);">
+    <div class='at-container'>
+        <img src="images\logo.png"
+            width="15%" height="4%" style="margin-left:1%; padding-top: 2%">
+
+        <div id='header'>Deriving the I-V Curve using a Microbial Fuel Cell</div>
+    </div>
+
+    <div class="main-container">
+        <div class="select-anolyte">
+            <label for="anolyte"><b>Select Anolyte:</b></label>
+            <select name="selectAnolyte" class="custom-select mb-3">
+                <option value="wasteWater" selected>Waste Water</option>
+            </select>
+        </div>
+        <div class="select-catholyte">
+            <label for="catholyte"><b>Select Catholyte:</b></label>
+            <select name="selectCatholyte" class="custom-select mb-3">
+                <option disabled selected >Select Catholyte</option>
+                <option value="KMnO4">KMnO4</option>
+                <option value="water">Water</option>
+            </select>
+        </div>
+        <div class="select-anode">
+            <label for="anode"><b>Anode:</b></label>
+            <select name="anodeSelect" id="anodeSelect" class="custom-select mb-3">
+                <option disabled selected>Select Electrode</option>
+                <option value="Aluminium">Aluminium</option>
+                <option value="Manganese">Manganese</option>
+                <option value="Graphite">Graphite</option>
+                <option value="StainlessSteel">StainlessSteel</option>
+            </select>
+        </div>
+        <div class="select-cathode">
+            <label for="Cathode"><b>Cathode:</b></label>
+            <select name="cathodeSelect" class="custom-select mb-3">
+                <option  disabled selected>Select Electrode</option>
+                <option value="Copper">Copper</option>
+                <option value="Graphite">Graphite</option>
+
+            </select>
+        </div>
+    </div>
+
+
+
+    <div class="image-container">
+        <img src="images\tabletop.png"
+            alt="micro fuel cell" class="centered">
+        <div class="color-overlay">
+            <p class="overlay-text1">Waste Water</p>
+            <p class="overlay-anolytetext"></p>
+        </div>
+
+        <div class="color-overlay1">
+            <h1 class="overlay-text2">KMnO4</h1>
+        </div>
+        <div class="color-overlay3">
+            <p class="overlay-text2">Water</p>
+        </div>
+        <div class="color-overlay2"></div>
+
+        <div class="commonAnode-container">
+            <img src="images\aluminium.png"
+                alt="Aluminium" id="aluminium-image">
+
+            <img src="images\stainlesssteel.png"
+                alt="Stainless Steel" id="stainless-steel-image">
+            <img src="images\manganese.png"
+                alt="Manganese" id="manganese-image">
+            <img src="images\graphite.png"
+                alt="Graphite" id="graphite-image">
+        </div>
+
+
+        <div class="commonCathode-container">
+            <img src="images\copper.png"
+                alt="Copper Image" id="copper-image">
+            <!-- <div class="image-nameCathode">Cu</div> -->
+            <img src="images\graphite.png"
+                alt="Graphite" id="cathodegraphite-image">
+            <!-- <div class="image-nameCathode">C</div> -->
+        </div>
+        <div class="stand_image">
+            <img src="images\STAND.png"
+                alt="Stand Image" id="stand-image">
+
+        </div>
+        <div class="wire_image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wire-image">
+
+        </div>
+
+        <div class="wire2_image">
+            <img src="images\red_wire.png"
+                alt="redright wireimage" id="wire2-image">
+
+        </div>
+
+        <div class="bulb_image" id="bulb">
+            <img id="bulbOff-image"
+                src="images\BULB1.png">
+
+            <img id="bulbOn-image" style="display:none;"
+                src="images\bulb_on.png">
+        </div>
+       
+    </div>
+    <div class="myChart_id">
+        <canvas id="myChart" style="display: none; margin-top: 10%;"></canvas>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <canvas id="myChart1" style="display: none;margin-top: 10%"></canvas>
+    </div>
+
+
+
+    <script>
+
+        // hidding
+        var anodeDisplay = document.querySelector(".select-anode");
+        anodeDisplay.style.display = "none";
+        var cathodeDisplay = document.querySelector(".select-cathode");
+        cathodeDisplay.style.display = "none";
+
+        const wireLeft = document.querySelector('.wire_image');
+        wireLeft.style.display = 'none';
+
+
+        //Anode Selection
+        var anodeSelect = document.querySelector('select[name="anodeSelect')
+        var cathodeSelect = document.querySelector('select[name="cathodeSelect')
+        var selectedAnode = anodeSelect.value;
+
+
+
+
+        //lighting
+
+        var bulb_on = document.getElementById('bulbOn-image');
+        console.log(bulb_on);
+
+        var bulb_off = document.getElementById('bulbOff-image');
+
+
+        // Get references to the images
+        var aluminiumImage = document.getElementById('aluminium-image');
+        var stainlessSteelImage = document.getElementById('stainless-steel-image');
+        var manganeseImage = document.getElementById('manganese-image');
+        var graphiteImage = document.getElementById('graphite-image');
+
+
+
+
+        var anodeSelect = document.getElementById("anodeSelect");
+
+        // Add an event listener to the Anode select element
+        anodeSelect.addEventListener('change', function () {
+
+
+            // Get the selected option
+            var selectedAnode = anodeSelect.value;
+
+            var selectedCathode = cathodeSelect.value;
+            // Hide all images first
+            aluminiumImage.style.display = 'none';
+            stainlessSteelImage.style.display = 'none';
+            manganeseImage.style.display = 'none';
+            graphiteImage.style.display = 'none';
+            wireLeft.style.display = 'none';
+
+            // Show the image for the selected Anode if it matches
+            if (selectedAnode === 'Aluminium') {
+                aluminiumImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+
+            } else if (selectedAnode === 'Graphite') {
+                graphiteImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+            }
+            else if (selectedAnode === 'StainlessSteel') {
+                stainlessSteelImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+            }
+            else if (selectedAnode === 'Manganese') {
+                manganeseImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+            }
+            if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
+                bulb_on.style.display = "inline";
+                bulb_off.style.display = "none";
+                
+
+            } else {
+
+                bulb_off.style.display = "inline";
+                bulb_on.style.display = "none";
+            }
+            if (selectedAnode == 'Aluminium' && selectedCathode == 'Copper') {
+console.log(selectedAnode);
+myChart.style.display = 'block';
+myChart1.style.display = 'block';
+
+} else {
+myChart.style.display = 'none';
+myChart1.style.display = 'none';
+}
+
+        });
+
+
+        //Cathode selection
+
+
+
+        var cathodecopperImage = document.getElementById('copper-image');
+        var cathodeGraphiteImage = document.getElementById('cathodegraphite-image');
+
+
+
+
+        const wireRightTop = document.querySelector('.wire2_image');
+        wireRightTop.style.display = 'none';
+
+
+
+        // Add an event listener to the Anode select element
+        cathodeSelect.addEventListener('change', function () {
+            // Get the selected option
+            var selectedCathode = cathodeSelect.value;
+
+            var selectedAnode = anodeSelect.value;
+            // Hide all images first
+            cathodecopperImage.style.display = 'none';
+            cathodeGraphiteImage.style.display = 'none';
+
+            wireRightTop.style.display = 'none';
+            // Show the image for the selected Anode if it matches
+            if (selectedCathode === 'Graphite') {
+                cathodeGraphiteImage.style.display = 'block';
+
+                wireRightTop.style.display = 'block';
+            }
+            else if (selectedCathode === 'Copper') {
+                cathodecopperImage.style.display = 'block';
+
+
+                wireRightTop.style.display = 'block';
+            }
+            if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
+                bulb_on.style.display = "inline";
+                bulb_off.style.display = "none";
+                
+
+            } else {
+
+                bulb_off.style.display = "inline";
+                bulb_on.style.display = "none";
+            }
+if (selectedAnode == 'Aluminium' && selectedCathode == 'Copper') {
+console.log(selectedAnode);
+myChart.style.display = 'block';
+myChart1.style.display = 'block';
+
+} else {
+myChart.style.display = 'none';
+myChart1.style.display = 'none';
+}
+
+        });
+
+
+        // catholyte select
+        var catholyteSelect = document.querySelector('select[name="selectCatholyte')
+
+        var catholyteKmNO4 = document.querySelector(".color-overlay1");
+        var catholyteWater = document.querySelector(".color-overlay3");
+
+
+        catholyteSelect.addEventListener('change', function () {
+            // Get the selected option
+            var selectedCatholyte = catholyteSelect.value;
+
+            // Hide all images first
+            catholyteKmNO4.style.display = 'none';
+            catholyteWater.style.display = 'none';
+
+            // Show the image for the selected Anode if it matches
+            if (selectedCatholyte === 'KMnO4') {
+                catholyteKmNO4.style.display = 'block';
+            }
+            else if (selectedCatholyte === 'water') {
+                catholyteWater.style.display = 'block';
+
+            }
+
+            anodeDisplay.style.display = "block";
+            cathodeDisplay.style.display = "block";
+            if (selectedAnode == 'Aluminium' && selectedCathode == 'Copper') {
+                console.log(selectedAnode);
+                myChart.style.display = 'block';
+                myChart1.style.display = 'block';
+
+            } else {
+                myChart.style.display = 'none';
+                myChart1.style.display = 'none';
+            }
+        });
+
+        var xyValues = [
+            { x: 4444.7, y: 539.2 },
+            { x: 4444.9, y: 538.0 },
+            { x: 4444.4, y: 537.9 },
+            { x: 4301.3, y: 551.7 },
+            { x: 3972.8, y: 586.3 },
+            { x: 3647.6, y: 620.8 },
+            { x: 3345.4, y: 655.4 },
+            { x: 3045.9, y: 689.8 },
+            { x: 2750.9, y: 724.3 },
+            { x: 2459.8, y: 758.6 },
+            { x: 2185.7, y: 793.1 },
+            { x: 1917.3, y: 827.7 },
+            { x: 1654.4, y: 862.2 },
+            { x: 1391.1, y: 896.7 },
+            { x: 1148.9, y: 931.2 },
+            { x: 932.6, y: 965.7 },
+            { x: 709.4, y: 1000.2 },
+        ];
+
+        new Chart("myChart", {
+            type: "scatter",
+            data: {
+                datasets: [{
+                    pointRadius: 4,
+                    pointBackgroundColor: "rgb(0,0,255)",
+
+                    data: xyValues
+                }]
+            },
+             options: {
+        legend: {
+          display: false
+        },
+        scales: {
+          xAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Current Density(mA/m^2)'
+            },
+            ticks: {
+              min: 0,
+              max: 5000
+            }
+          }],
+          yAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Voltage Density(mV)'
+            },
+            ticks: {
+              beginAtZero: true,
+              stepSize: 200 // Specify the interval for the y-axis here
+            }
+          }]
+        }
+      }
+        });
+
+
+        var xyValuesvolt = [
+            { x: 4444.7, y: 2396637.2 },
+            { x: 4444.9, y: 2391499.6 },
+            { x: 4444.4, y: 2390653.2 },
+            { x: 4301.3, y: 2373052.6 },
+            { x: 3972.8, y: 2329350.6 },
+            { x: 3647.6, y: 2264596.7 },
+            { x: 3345.4, y: 2192457.4 },
+            { x: 3045.9, y: 2097709.1 },
+            { x: 2750.9, y: 1992479.2 },
+            { x: 2459.8, y: 1866071.6 },
+            { x: 2185.7, y: 1733523.0 },
+            { x: 1917.3, y: 1586910.8 },
+            { x: 1654.4, y: 1426317.3 },
+            { x: 1391.1, y: 1247414.9 },
+            { x: 1148.9, y: 1069877.6 },
+            { x: 932.6, y:  900615.8 },
+            { x: 709.4, y:  709534.1 },
+        ];
+
+        new Chart("myChart1", {
+            type: "scatter",
+            data: {
+                datasets: [{
+                    pointRadius: 4,
+                    pointBackgroundColor: "rgb(0,0,255)",
+
+                    data: xyValuesvolt
+                }]
+            },
+             options: {
+        legend: {
+          display: false
+        },
+        scales: {
+          xAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Current Density(mA/m^2)'
+            },
+            ticks: {
+              min: 0,
+              max: 5000
+            }
+          }],
+          yAxes: [{
+            scaleLabel: {
+              display: true,
+              labelString: 'Power Density(mW/m^2)'
+            },
+            ticks: {
+             max: 3000000,
+              beginAtZero: true,
+              stepSize: 500000 // Specify the interval for the y-axis here
+              
+            }
+          }]
+        }
+      }
+        });
+
+
+    </script>
+</body>
+
+</html>
