@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Visualization of protein</title>
+
+    <!-- Molstar CSS & JS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-plugin-3.1.0.js"></script>
+   <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      .msp-plugin ::-webkit-scrollbar-thumb {
+          background-color: #474748 !important;
+      }
+      div.at-container {
+		    display: flex;
+      }
+	.at-item {
+		color: #4f2037; font-weight:bold; font-size:250%;
+		justify-content: center;
+		text-decoration-color:#4f2037;  
+		position: relative;
+        align-items: center;
+        margin-left: 2.5%;
+        margin-top: 2%;
+	    }
+      .viewerSection {
+        padding-top: 40px;
+      }
+      .controlsSection {
+        width: 200px;
+        float: left;
+        padding: 40px 0 0 0;
+        margin-right: 30px;
+      }
+      .controlBox {
+        border: 1px solid lightgray;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      #myViewer{
+        float: left;
+        width:90%;
+        height: 1000px;
+        position:relative;
+        margin: 30px;
+      }
+      input[type=button]{
+            width: fit-content;
+            background-color: #75264d;
+            color: white;
+            padding: 12px 20px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 180px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+      label {
+            background-color: #802652;
+            color: white;
+            padding: 10px;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 200px;
+            width: 1000px;
+            height:50px;
+            border-radius:180px;
+            position:relative;
+            font-size:16px;
+            line-height:12px;
+        }
+        textarea {
+          border:0px solid #802652; 
+          font-size:16px;
+          color: rgb(31, 24, 38);
+          font-weight: bolder;
+          background-color: rgb(241, 205, 199);
+          width: 35%;
+          font-family: sans-serif;
+          padding: 1% ;
+          margin-right: 20%;
+          border-radius:20px;
+          
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class='at-container'>
+
+
+        <img src="images\logo.png"  width="120vw" height="1%" style=" padding-top: 2.5%;" >
+
+          &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class='at-item' >Visualization of Protein Structure</div>
+    </div>
+    <br><br><br>
+    <div style="background-color:#f0eaea;text-align:center;">
+        <br><br>
+        <label>Enter a PDB Id:</label>&nbsp;&nbsp;&nbsp;
+        <label><input type=text id="protein" placeholder="Please enter in lowercase"></label>
+        <br><br>
+        <div style="text-align:right;">
+            <textarea rows="8" readonly>PDBid represents a protein entry in PDB database 
+            
+For e.g. 
+1. EGFR kinase domain with compound 41a (5cav)  
+2. Crystal structure of the Shr Hemoglobin Interacting Domain 2 (HID 2) in complex with Hemoglobin (8dov)</textarea><br>
+        </div>
+        <input type="button" style="margin-left:0%;font-weight: bold;"  onclick="myFunction()" value="Submit" >&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a href="index.html"><input type="button" value="Reset"></a><br><br><br>
+
+
+    </div>
+    <div id="Result">
+        <div id="myViewer"></div>
+
+    </div>
+
+    
+
+    <script>
+
+        //Create plugin instance
+        var viewerInstance = new PDBeMolstarPlugin();
+
+        //Get element from HTML/Template to place the viewer 
+        var viewerContainer = document.getElementById('myViewer');
+                    //Set options (Checkout available options list in the documentation)
+            var options = {
+                
+                hideControls: true
+            }
+
+
+        function myFunction()
+        {
+            var proteinname= document.getElementById("protein").value;
+           
+            //Set options (Checkout available options list in the documentation)
+            var options = {
+            moleculeId: proteinname,
+            hideControls: true
+            }        
+
+            //Call render method to display the 3D view
+            viewerInstance.render(viewerContainer, options);
+            document.getElementById("Result").insertAdjacentHTML('afterbegin', "<div class=\"viewerSection\"><h2 style=\"margin-left: 5%;font-weight: bold;color:#802652\">Visualiser</h2> <textarea rows=\"2\" readonly> Mouse controls: Zoom-Scroll; Rotate-Left ; Translate-Right </textarea><br></div> ");
+
+            document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>Background</h3><div class=\"controlBox\" id=\"bg\" ><input type=\"button\" style=\"width:auto;font-weight: bold;\"  onclick=\"viewerInstance.canvas.setBgColor({r:255, g:255, b:255})\" value=\"White\" >&nbsp;<input type=\"button\" style=\"width:auto;;font-weight: bold;\"  onclick=\"viewerInstance.canvas.setBgColor({r:0, g:0, b:0})\" value=\"Black\" >&nbsp;<br><br><input type=\"button\" style=\"width:auto;;font-weight: bold;\"  onclick=\"newcolor()\" value=\"Other Colors\" >&nbsp;<br><br></div>");
+
+            document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>Water molecules</h3><div class=\"controlBox\" id=\"water\" ><input type=\"button\" style=\"width:auto;font-weight: bold;\"  onclick=\"viewerInstance.visual.visibility({water:true})\" value=\"Show Water molecules\" >&nbsp;<input type=\"button\" style=\"width:auto;;font-weight: bold;\"  onclick=\"viewerInstance.visual.visibility({water:false})\" value=\"Hide Water molecules\" >&nbsp;<br><br><br></div>");
+
+            document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>For Better view of molecule \(animation\) </h3><div class=\"controlBox\" id=\"angleview\" ><input type=\"button\" style=\"width:auto;font-weight: bold;\"  onclick=\"viewerInstance.visual.toggleSpin()\" value=\"Toggle molecule animation\" >&nbsp;<br><br></div>");
+                
+            document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>Focus</h3><div class=\"controlBox\" id=\"foc\" ><input type=\"text\" id=\"startnum\" placeholder=\"Start Resid\"> <input type=\"text\" id=\"endnum\" placeholder=\"Last Resid\" onclick=\"focuspart()\">&nbsp;<br><br></div>"); 
+
+            document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>Sequence Panel</h3><div class=\"controlBox\" id=\"seq\" ><input type=\"button\" style=\"width:auto;font-weight: bold;\"  onclick=\"dispSeq()\" value=\"Display Sequence\" >&nbsp;<br><br></div>");   
+            
+            document.getElementById("Result").insertAdjacentHTML('beforeend', "<h2>PDB Download</h2><div class=\"controlBox\" id=\"dow\" > <a href=\"https://files.rcsb.org/download/"+proteinname+".pdb\"><input type=\"button\" value=\"Download\"></a>&nbsp;<br><br></div>"); 
+            	
+              return viewerInstance;
+
+        }
+     
+
+        function newcolor()
+        {
+            document.getElementById("bg").insertAdjacentHTML('beforeend',  "<input type=\"text\" id=\"R\" placeholder=\"Red\"> <input type=\"text\" id=\"G\" placeholder=\"Green\"> <input type=\"text\" id=\"B\" placeholder=\"Blue\">");
+            var R=document.getElementById('R')
+            var G=document.getElementById('G')
+            var B=document.getElementById('B')
+            
+            document.getElementById("bg").insertAdjacentHTML('beforeend',  "<input type=\"button\" style=\"width:auto;font-weight: bold;\" onclick=\"viewerInstance.canvas.setBgColor({r:R.value, g: G.value , b: B.value })\" value=\"Generate Color\" >");
+            //viewerInstance.canvas.setBgColor({r:R, g:G, b:B})"
+            //Get element from HTML/Template to place the viewer 
+            //var viewerContainer = document.getElementById('myViewer');
+        
+            //Call render method to display the 3D view
+            viewerInstance.render(viewerContainer, options);
+    
+        }
+        function focuspart()
+        {
+          var startnum=document.getElementById('startnum');
+          var endnum=document.getElementById('endnum');
+          document.getElementById("foc").insertAdjacentHTML('beforeend',  "<input type=\"button\" style=\"width:auto;;font-weight: bold;\"  onclick=\"viewerInstance.visual.highlight({ data: [{ struct_asym_id: 'A', start_residue_number: startnum.value, end_residue_number: endnum.value }], color:{r:255,g:255,b:0} })\" value=\"Focus and Highlight \">");
+        }
+        function dispSeq()
+        {
+          options = {
+            sequencePanel: true,
+            } 
+            viewerInstance.render(viewerContainer, options);
+        }
+
+    </script>
+  </body>
+
+</html>

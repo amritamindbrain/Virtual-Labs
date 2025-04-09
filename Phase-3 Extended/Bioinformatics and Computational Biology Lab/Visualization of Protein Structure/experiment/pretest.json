@@ -1,0 +1,49 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Primary structure of proteins is maintained by",
+      "answers": {
+        "a": "Hydrogen bond",
+        "b": "Ionic bond",
+        "c": "Peptide bond",
+        "d": "Van der Waals force"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Secondary structure of proteins is maintained by",
+      "answers": {
+        "a": "Hydrogen bond",
+        "b": "Ionic bond",
+        "c": "Peptide bond",
+        "d": "Van der Waals force"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Primary resource for visualizing 3D structural data of biological macromolecules",
+      "answers": {
+        "a": "RASMOL",
+        "b": "PDB",
+        "c": "Genbank",
+        "d": "PyMOL"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Common and stable conformation of a polypeptide chain",
+      "answers": {
+        "a": "Alpha helix",
+        "b": "Beta sheets",
+        "c": "Cartoon representations",
+        "d": "Ball and stick model"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

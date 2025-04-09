@@ -1,0 +1,79 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.From the given blast programs, identify search algorithm specific for amino acids.",
+      "answers": {
+        "a": "blastn",
+        "b": "blastp",
+        "c": "tblastx",
+        "d": "PSI-blast"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    
+    {
+      "question": "2.Identify database search in blastn program",
+      "answers": {
+        "a": "Nucleotide translated into protein",
+        "b": "Non-coding DNA sequences",
+        "c": "Nucleotides",
+        "d": "Proteins"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+
+    },
+
+    
+    {
+        "question": "3.Query sequence in blastx program is",
+        "answers": {
+          "a": "Protein",
+          "b": "Nucleotide",
+          "c": "Oligonuclotides",
+          "d": "Nucleotide translated into protein"
+        },
+        
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      },
+
+
+
+      {
+        "question": "4.Which of the following blast program uses Nucleotide translated into protein as Database and Query sequence.",
+        "answers": {
+          "a": "blastn",
+          "b": "blastp",
+          "c": "tblastx",
+          "d": "PSI-blast"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+
+
+
+      {
+        "question": "5.Identify the functions of Blast Program",
+        "answers": {
+          "a": "Comparison of nucleotide or protein sequence to standard database.",
+          "b": "Infer evolutionary and functional relationship between biological sequence",
+          "c": "Phylogenetic analysis",
+          "d": "All the above"
+        },
+        
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      
+
+
+    }
+  ]
+}

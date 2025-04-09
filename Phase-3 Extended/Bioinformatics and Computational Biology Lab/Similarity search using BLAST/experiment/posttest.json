@@ -1,0 +1,79 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.Expand BLAST",
+      "answers": {
+        "a": "Bioinformatics related Local Alignment Search Tool",
+        "b": "Beginners Level Alignment  for Sequence Test",
+        "c": "Basic Local Alignment Search Tool",
+        "d": "Beginners Level Software Tool"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    
+    
+    {
+      "question": "2.Type of matrix used in Blast score analysis.",
+      "answers": {
+        "a": "Diagonal matrix",
+        "b": "Substitution matrix",
+        "c": "Column matrix",
+        "d": "Identity matrix"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+
+    },
+
+    
+    {
+        "question": "3.In sequence alignment, BLAST uses which of the following specific matrices.",
+        "answers": {
+          "a": "BLOSUM",
+          "b": "PAM",
+          "c": "Either BLOSUM or PAM",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+
+
+
+      {
+        "question": "4.Smaller E-value is indicative of",
+        "answers": {
+          "a": "Best match between the sequence",
+          "b": "Dissimilar sequences",
+          "c": "Error in gap score of sequence alignment",
+          "d": "Dissimilarity of nucleotide position in the given sequence"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+
+
+
+      {
+        "question": "5.Given, DNA sequence of Rattus rattus and Pan troglodytes and to compare against a known nucleotide database search. Which of the following blast program (s) is used for sequence similarity search?",
+        "answers": {
+          "a": "blastp",
+          "b": "blastn",
+          "c": "blastx",
+          "d": "tblastn"
+        },
+        
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      
+
+
+    }
+  ]
+}
