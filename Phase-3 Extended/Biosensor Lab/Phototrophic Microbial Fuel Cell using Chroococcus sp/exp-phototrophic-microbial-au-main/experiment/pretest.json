@@ -1,0 +1,70 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1) A Phototrophic organism",
+      "answers": {
+        "a": "Obtain energy by oxidizing inorganic chemical compounds",
+        "b": "Depends on visible light as a primary energy source for metabolism",
+        "c": "Are consumers who depend on other sources for their food",
+        "d": "Synthesize their organic molecules from the fixation of carbon dioxide"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2) Example of oxygenic phototrophs",
+      "answers": {
+        "a": "Green sulfur bacteria",
+        "b": "Purple sulfur bacteria",
+        "c": "Acidobacteria",
+        "d": "Cyanobacteria"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3) Example(s) of phototrophic microorganisms",
+      "answers": {
+        "a": "Staphylococcus sp",
+        "b": "Nitrobacter sp",
+        "c": "Chroococcus sp",
+        "d": "Clostridium sp"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4) Anode that can be used in Phototrophic Microbial Fuel Cell",
+      "answers": {
+        "a": "Aluminium",
+        "b": "Manganese",
+        "c": "Stainless Steel",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "5) OCV refers to",
+      "answers": {
+        "a": "Open Current Voltage",
+        "b": "Open Circuit Voltage",
+        "c": "Over Circuit Voltage",
+        "d": "Output Current Voltage"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+
+  ]
+}

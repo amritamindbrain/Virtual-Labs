@@ -1,0 +1,70 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1) In the experiment, the potential difference is measured in the unit",
+      "answers": {
+        "a": "mV",
+        "b": "V",
+        "c": "µV",
+        "d": "W"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2) What is the voltage measured when the anolyte is sewage water with Chrococcus species, the Catholyte is KMN04, the Anode is Aluminum, and the Cathode is Copper ?",
+      "answers": {
+        "a": "1.18V",
+        "b": "0.9V",
+        "c": "2.8V",
+        "d": "0.0V"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3) What is the voltage measured when the anolyte is ETP water with Chrococcus species, the Catholyte is KMN04, the Anode is Aluminum, and the Cathode is Copper ?",
+      "answers": {
+        "a": "0.2V",
+        "b": "0.15V",
+        "c": "1.08V",
+        "d": "1.18V"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4) Select the PEM used in the construction of phototrophic microbial fuel cells in this simulator.",
+      "answers": {
+        "a": "Tefflon",
+        "b": "Terracotta",
+        "c": "Nutrient agar with Bacillus subtilis",
+        "d": "Nafion"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "5) The best combination of anode and cathode in this simulator for producing maximum bioelectricity.",
+      "answers": {
+        "a": "Aluminium – Manganese",
+        "b": "Aluminium- Copper",
+        "c": "Manganese- Graphite",
+        "d": "Stainless steel- Copper"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+
+  ]
+}
