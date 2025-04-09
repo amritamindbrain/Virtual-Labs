@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+
+<body style="background-color:rgb(192, 192, 192);">
+  <div class='at-container'>
+    <img src="images\logo.png" width="15%" height="4%" style="margin-left:1%; padding-top: 2%">
+
+    <div id='header'>Efficiency of Sacrificial and Non-Sacrificial Electrodes in MFC</div>
+  </div>
+
+
+
+  <table>
+
+    <tr>
+      <td>
+        <div class="select-catholyte">
+          <label for="catholyte"><b>Select Catholyte:</b></label>
+          <select name="selectCatholyte" class="custom-select mb-3">
+            <option selected disabled>Select Catholyte</option>
+            <option value="KMnO4">KMnO4</option>
+            <option value="water">Water</option>
+          </select>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+      <td>
+        <div class="select-electrode">
+          <label for="anodeCathode"><b>Electrodes</b></label>
+          <select name="anodeCathodeSelect" id="anodeCathodeSelect" class="custom-select mb-3">
+            <option selected disabled>Select Electrodes</option>
+            <option value="sacrificial">Sacrificial</option>
+            <option value="nonSacrificial">Non-Sacrificial</option>
+          </select>
+        </div>
+      </td>
+
+    </tr>
+
+  </table>
+
+  <a href="index.html">
+    <button>Reset</button>
+  </a>
+
+  <div class="image-container">
+    <img src="images\tabletop.png" alt="micro fuel cell" class="centered">
+    <div class="color-overlay">
+      <p class="overlay-text1">Waste Water</p>
+      <p class="overlay-anolytetext"></p>
+    </div>
+
+    <div class="color-overlay1">
+      <h1 class="overlay-text2">KMnO4</h1>
+    </div>
+    <div class="color-overlay3">
+      <p class="overlay-text2">Water</p>
+    </div>
+    <div class="color-overlay2"></div>
+
+    <div class="commonAnode-container">
+      <img src="images\finalelectrode.gif" alt="Aluminium" id="aluminium-image">
+
+    </div>
+    <div class="commonAnode-graphite">
+
+      <img src="images\charcoal brush3.png" alt="Graphite" id="graphite-image">
+    </div>
+    <div class="commonCathode-container">
+      <img src="images\electrode1.gif" alt="Copper Image" id="copper-image">
+
+      <div class="commonCathode-graphite">
+
+        <img src="images\charcoal brush3.png" alt="Graphite" id="cathodegraphite-image">
+      </div>
+
+    </div>
+
+    <div class="stand_image">
+      <img src="images\STAND.png" alt="Stand Image" id="stand-image">
+
+    </div>
+    <div class="wire_image">
+      <img src="images\background_converted.png" alt="left wireimage" id="wire-image">
+
+    </div>
+
+    <div class="wire2_image">
+      <img src="images\red_wire.png" alt="redright wireimage" id="wire2-image">
+
+    </div>
+
+    <div class="bulb_image" id="bulb">
+      <img id="bulbOff-image" src="images\BULB1.png">
+
+      <img id="bulbOnGraphite-image" style="display:none;" src="images\bulb_on.png">
+      <img id="bulbOnNormal-image" style="display:none;" src="images\bulb_on.png">
+    </div>
+
+    <div class="myChart_id">
+      <canvas id="myChart" style="display: none;"></canvas>
+      <canvas id="myChart1" style="display: none;"></canvas>
+    </div>
+  </div>
+
+
+  <script>
+
+    // hidding
+    var electrodeDisplay = document.querySelector(".select-electrode");
+    electrodeDisplay.style.display = "none";
+
+
+    const wireLeft = document.querySelector('.wire_image');
+    wireLeft.style.display = 'none';
+    const wireRightTop = document.querySelector('.wire2_image');
+    wireRightTop.style.display = 'none';
+    //lighting
+    var bulb_off = document.getElementById('bulbOff-image');
+    var bulb_onNoramal = document.getElementById('bulbOnNoramal-image');
+    var bulb_onNormal = document.getElementById('bulbOnGraphite-image');
+    // Get references to the images
+    var aluminiumImage = document.getElementById('aluminium-image');
+    var electrodesSelect = document.getElementById("anodeCathodeSelect");
+    var cathodeGraphiteImage = document.getElementById('cathodegraphite-image');
+    var graphiteAnodeImage = document.getElementById('graphite-image');
+
+    electrodesSelect.addEventListener('change', function () {
+      // Get the selected option
+      var selectedAnodeCathodeElectrode = electrodesSelect.value;
+      var cathodecopperImage = document.getElementById('copper-image');
+      aluminiumImage.style.display = 'none';
+
+      // Show the image for the selected Anode if it matches
+      if (selectedAnodeCathodeElectrode === 'sacrificial') {
+        aluminiumImage.style.display = 'block';
+        wireLeft.style.display = 'block';
+        cathodecopperImage.style.display = 'block';
+        wireRightTop.style.display = 'block';
+        graphiteAnodeImage.style.display = 'none';
+        cathodeGraphiteImage.style.display = 'none';
+        document.getElementById("bulbOnGraphite-image").style.display = "none";
+        document.getElementById("bulbOff-image").style.display = "none";
+        document.getElementById("bulbOnNormal-image").style.display = "inline";
+        document.getElementById('myChart').style.display = 'block';
+        document.getElementById('myChart1').style.display = 'none';
+        resetGif();
+        var img = document.getElementById("bulbOnNormal-image");
+        var brightness = 80;
+        var maxBrightness = 190;
+        var duration = 12000;
+        var minBrightness = 90;
+        var intervalId;
+
+        function increaseBrightness() {
+          if (brightness < maxBrightness) {
+            brightness += 3;
+            if (brightness > maxBrightness) {
+              brightness = maxBrightness;
+            }
+            img.style.filter = `brightness(${brightness}%)`;
+            intervalId = setTimeout(increaseBrightness, duration / ((maxBrightness - minBrightness) / 3));
+          }
+        }
+
+        function reduceBrightness() {
+          if (brightness > minBrightness) {
+            brightness -= 3;
+            if (brightness < minBrightness) {
+              brightness = minBrightness;
+            }
+            img.style.filter = `brightness(${brightness}%)`;
+            intervalId = setTimeout(reduceBrightness, duration / ((maxBrightness - minBrightness) / 3));
+          }
+        }
+
+        increaseBrightness();
+
+
+        setTimeout(() => {
+          clearTimeout(intervalId);
+          reduceBrightness();
+        }, 6000);
+
+
+        const xValues = [0, 24, 48, 72];
+        const initialData = [0, 0, 0, 0];
+
+        const chartConfig = {
+          type: "line",
+          data: {
+            labels: xValues,
+            datasets: [{
+              label: 'Current',
+              data: initialData,
+              borderColor: "blue",
+              fill: false
+            }]
+          },
+          options: {
+            legend: { display: false },
+            scales: {
+              xAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Time(Hrs)'
+                }
+              }],
+              yAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Current(A)'
+                }
+              }]
+            }
+          }
+        };
+
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, chartConfig);
+
+        // Function to update chart data
+        function updateChartData(newData) {
+          myChart.data.datasets[0].data = newData;
+          myChart.update();
+        }
+
+        // Animation: Slowly 
+        const animationDuration = 12000;
+        const steps = 120;
+        const stepTime = animationDuration / steps;
+        const endData = [1, 19.54, 15.35, 11.2];
+
+        function animateData() {
+          let currentStep = 0;
+          //  initial data
+          const newData = initialData.slice();
+
+          const interval = setInterval(() => {
+            if (currentStep >= steps) {
+              clearInterval(interval);
+            } else {
+              currentStep++;
+              for (let i = 0; i < newData.length; i++) {
+                newData[i] = (endData[i] / steps) * currentStep;
+              }
+              updateChartData(newData);
+            }
+          }, stepTime);
+        }
+
+
+        animateData();
+
+        // Second Chart
+        const xValues1 = [0, 24, 48, 72];
+        const initialData1 = [0, 0, 0, 0];
+
+        const chartConfig1 = {
+          type: "line",
+          data: {
+            labels: xValues1,
+            datasets: [{
+              label: 'Current',
+              data: initialData1,
+              borderColor: "blue",
+              fill: false
+            }]
+          },
+          options: {
+            legend: { display: false },
+            scales: {
+              xAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Time(Hrs)'
+                }
+              }],
+              yAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Current(A)'
+                }
+              }]
+            }
+          }
+        };
+
+      } else if (selectedAnodeCathodeElectrode === 'nonSacrificial') {
+        graphiteAnodeImage.style.display = 'block';
+        wireLeft.style.display = 'block';
+        wireRightTop.style.display = 'block';
+        cathodeGraphiteImage.style.display = 'block';
+        aluminiumImage.style.display = 'none';
+        cathodecopperImage.style.display = 'none';
+        document.getElementById("bulbOnNormal-image").style.display = "inline";
+        document.getElementById("bulbOff-image").style.display = "none";
+        document.getElementById('myChart').style.display = 'none';
+        document.getElementById('myChart1').style.display = 'block';
+        resetGifs(); 
+
+        const ctx1 = document.getElementById('myChart1').getContext('2d');
+        var img = document.getElementById("bulbOnNormal-image");
+        var brightness = 80;
+        var maxBrightness = 190;
+        var duration = 12000;
+        var minBrightness = 90;
+        var intervalId;
+
+        function increaseBrightness() {
+          if (brightness < maxBrightness) {
+            brightness += 3;
+            if (brightness > maxBrightness) {
+              brightness = maxBrightness;
+            }
+            img.style.filter = `brightness(${brightness}%)`;
+            intervalId = setTimeout(increaseBrightness, duration / ((maxBrightness - minBrightness) / 3));
+          }
+        }
+
+        function reduceBrightness() {
+          if (brightness > minBrightness) {
+            brightness -= 3;
+            if (brightness < minBrightness) {
+              brightness = minBrightness;
+            }
+            img.style.filter = `brightness(${brightness}%)`;
+            intervalId = setTimeout(reduceBrightness, duration / ((maxBrightness - minBrightness) / 3));
+          }
+        }
+
+        increaseBrightness();
+
+
+        setTimeout(() => {
+          clearTimeout(intervalId);
+          reduceBrightness();
+        }, 8000);
+
+        const xValues1 = [0, 24, 48, 72];
+        const initialData1 = [0, 0, 0, 0];
+
+        const chartConfig1 = {
+          type: "line",
+          data: {
+            labels: xValues1,
+            datasets: [{
+              label: 'Current',
+              data: initialData1,
+              borderColor: "blue",
+              fill: false
+            }]
+          },
+          options: {
+            legend: { display: false },
+            scales: {
+              xAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Time(Hrs)'
+                }
+              }],
+              yAxes: [{
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Current(A)'
+                }
+              }]
+            }
+          }
+        };
+        const myChart1 = new Chart(ctx1, chartConfig1);
+
+        // Function to update second chart data
+        function updateChartData1(newData) {
+          myChart1.data.datasets[0].data = newData;
+          myChart1.update();
+        }
+
+
+        const animationDuration1 = 12000;
+        const steps1 = 120;
+        const stepTime1 = animationDuration1 / steps1;
+        const endData1 = [1, 4.50, 3.35, 0.96, 0.33];
+
+        function animateData1() {
+          let currentStep1 = 0;
+          const newData1 = initialData1.slice();
+
+          const interval1 = setInterval(() => {
+            if (currentStep1 >= steps1) {
+              clearInterval(interval1);
+            } else {
+              currentStep1++;
+              for (let i = 0; i < newData1.length; i++) {
+                newData1[i] = (endData1[i] / steps1) * currentStep1;
+              }
+              updateChartData1(newData1);
+            }
+          }, stepTime1);
+        }
+
+
+        animateData1();
+
+      }
+
+
+    });
+
+
+
+    // catholyte select
+    var catholyteSelect = document.querySelector('select[name="selectCatholyte')
+
+    var catholyteKmNO4 = document.querySelector(".color-overlay1");
+    var catholyteWater = document.querySelector(".color-overlay3");
+
+
+    catholyteSelect.addEventListener('change', function () {
+      // Get the selected option
+      var selectedCatholyte = catholyteSelect.value;
+
+      // Hide all images first
+      catholyteKmNO4.style.display = 'none';
+      catholyteWater.style.display = 'none';
+
+      // Show the image for the selected Anode if it matches
+      if (selectedCatholyte === 'KMnO4') {
+        catholyteKmNO4.style.display = 'block';
+      }
+      else if (selectedCatholyte === 'water') {
+        catholyteWater.style.display = 'block';
+
+      }
+
+      electrodeDisplay.style.display = "block";
+
+
+    });
+
+    var aluminiumImages = document.getElementById('aluminium-image');
+
+
+    function resetGif() {
+
+      const src = aluminiumImages.src;
+      aluminiumImages.src = '';
+      setTimeout(() => {
+        aluminiumImages.src = src;
+      }, 10);
+    }
+
+    var cathodecopperImage = document.getElementById('copper-image');
+
+
+    function resetGifs() {
+
+      const src = cathodecopperImage.src;
+      cathodecopperImage.src = '';
+      setTimeout(() => {
+        cathodecopperImage.src = src;
+      });
+    }
+
+  </script>
+</body>
+
+</html>

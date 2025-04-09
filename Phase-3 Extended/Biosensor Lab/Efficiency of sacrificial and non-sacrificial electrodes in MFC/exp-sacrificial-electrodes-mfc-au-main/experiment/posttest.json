@@ -1,0 +1,76 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The electrode combination that is used in the simulator for sacrificial electrodes",
+      "answers": {
+        "a": "Copper – Aluminum",
+        "b": "Carbon-Carbon",
+        "c": "Copper-Copper",
+        "d": "Copper-Zinc"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "2. The electrode combination used in the simulator for non-sacrificial electrodes",
+      "answers": {
+        "a": "Copper – Aluminium",
+        "b": "Carbon rod - Carbon rod",
+        "c": "Carbon brush - Carbon brush",
+        "d": "Manganese-Zinc"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "3. Maximum current produced by sacrificial electrodes at",
+      "answers": {
+        "a": "12hrs",
+        "b": "24hrs",
+        "c": "48hrs",
+        "d": "72hrs"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. Find the current produced by the sacrificial electrodes at 72hrs.",
+      "answers": {
+        "a": "1A",
+        "b": "8.2A",
+        "c": "19.5A",
+        "d": "11.2A"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "The current produced by the non-sacrificial electrodes at 24hrs.",
+      "answers": {
+        "a": "1A",
+        "b": "3.35A",
+        "c": "4.5A",
+        "d": "0.96A"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

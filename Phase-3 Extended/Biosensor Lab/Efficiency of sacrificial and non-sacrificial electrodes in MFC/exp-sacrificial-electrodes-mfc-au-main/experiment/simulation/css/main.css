@@ -1,0 +1,461 @@
+div.at-container {
+    display: flex;
+  
+  }
+  
+  #header {
+    color: #4f2037;
+    font-weight: bold;
+    font-size: 2vw;
+    justify-content: center;
+    text-decoration-color: #4f2037;
+    position: relative;
+    align-items: center;
+    margin-left: 12%;
+    padding-top: 3%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: rgb(228, 109, 155);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 80%;
+    margin-top: 2px; 
+   
+  }
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 5%; 
+  }
+  
+  th, td {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 1px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  
+  
+  label {
+  display: inline-block;
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  text-align: left;
+  background-color: #f7f0f0;
+  font-weight: bold;
+  width: 40%;
+  font-size: 1.5vw;
+  }
+  
+  .custom-select {
+  width: 40%;
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+  font-weight: bold;
+  background-color: rgb(228, 109, 155);
+  }
+  
+  
+  /* chamber img */
+  img.centered {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  
+  }
+  
+  
+  
+  /* waste water */
+  .color-overlay {
+    position: absolute;
+    top: 26.5%;
+    left: 27.3%;
+    width: 16.7%;
+    height: 45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    z-index: 1;
+    background-color: rgb(73, 65, 31);
+    
+  }
+  
+  /* catholyte pottassium permaganate */
+  .color-overlay1 {
+    position: absolute;
+    top: 26.5%;
+    left: 44%;
+    width: 18.5%;
+    height: 45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#660066;
+    opacity: 0.5;
+    z-index: 1;
+    display: none;
+  }
+  
+  /*water catholyte*/
+  .color-overlay3 {
+    position: absolute;
+    top: 26.5%;
+    left: 44%;
+    width: 18.5%;
+    height: 45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEF4FC;
+    opacity: 0.6;
+    z-index: 1;
+    display: none;
+  }
+  
+  /* agar */
+  .color-overlay2 {
+    position: absolute;
+    top: 6%;
+    left: 44%;
+    width: 2.3%;
+    height: 65.6%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #c5b46e;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  
+  /* overlay1 and two text */
+  .overlay-text1 {
+  
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  
+  .overlay-text2 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .commonAnode-container {
+    position: absolute;
+    top: 22%;
+    left: 39%;
+    width: 4%;
+    height: 42%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    opacity: 0.8
+  }
+  
+  .commonAnode-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: opacity var(--transition-time, 0.5s) ease-in-out;
+  }
+  
+  .commonAnode-graphite {
+    position: absolute;
+    top: 5%;
+    left: 37.6%;
+    width: 7%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+  }
+  
+  .commonAnode-graphite img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  
+  .commonCathode-container {
+    position: absolute;
+    top: 22%;
+    left: 47.5%;
+    width: 4%;
+    height: 42%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    opacity: 0.8
+  }
+  
+  .commonCathode-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  .commonCathode-graphite {
+    position: absolute;
+    top: -35%;
+    left: -115%;
+    width: 350%;
+    height: 160%;
+    align-items: center;
+    justify-content: center;
+    opacity:0.7;
+  }
+  
+  .commonCathode-graphite img {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 24%;
+    display: none;
+  }
+  
+  .stand_image {
+  
+    position: absolute;
+    display: inline;
+    top: -10%;
+    left: 29.4%;
+    width: 75%;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  
+  
+  }
+  
+  #stand-image {
+    position: absolute;
+    width:50.2%;
+    height: 35%;
+    object-fit: cover;
+    top:-4.5%;
+    left:-4.5%;
+  
+  }
+  
+  /*BULB css*/
+  .bulb_image {
+    top: -10%;
+    left: 4.6%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  #bulbOff-image {
+    top: 0;
+    width: 5%;
+    height: 25%;
+    left: 42.2%;
+    top: -25.7%;
+    filter: grayscale(100%);
+    position: absolute;
+  
+  }
+  
+  
+  #bulbOnGraphite-image {
+    width: 5%;
+    height: 25%;
+    left: 42.2%;
+    top: -25.7%;
+    position: absolute;
+    filter: brightness(120%); 
+  }
+  #bulbOnNormal-image {
+    width: 5%;
+    height: 25%;
+    left: 42.2%;
+    top: -25.7%;
+    position: absolute;
+    filter: brightness(90%); 
+  }
+  
+  .wire_image {
+    position: absolute;
+    top: -2.9%;
+    left: 36.7%;
+    width: 10%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+  
+  }
+  
+  #wire-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .wire2_image {
+    position: absolute;
+    top: -2.9%;
+    left: 38.5%;
+    width: 20%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+  
+  
+  }
+  
+  
+  #wire2-image {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  
+  }
+  
+  
+  
+  
+  
+  .image-container {
+    position: absolute;
+    display: inline-block;
+    top: 40%;
+    
+  }
+  
+  
+  .myChart_id {
+    position: absolute;
+    display:flex;
+    top:-60%;
+    margin-left:65%;
+    max-width: 100%;
+    width: 30%;
+  }
+  
+  
+  @media (max-width: 768px) {
+     #header {
+      font-size: 5vw;
+    }
+     label {
+      width: 40%;
+      font-size: 1.8vw;
+      top:20%;
+    }
+  
+    .custom-select {
+      width: 50%;
+      font-size: 1.8vw;
+    }
+    .image-container {
+      position: absolute;
+      display: inline-block;
+      top: 30%;
+     
+    }
+   
+  .myChart_id {
+    position: absolute; 
+    display:flex;
+    top:150%;
+    margin-left:20%;
+    max-width: 100%; 
+    width: 60%; 
+    height:40%;
+  }
+  }
+  
+  
+  
+   @media (min-width: 1024px) {
+        #header {
+      font-size: 2vw;
+    }
+     label {
+      width: 15%;
+      font-size: 1vw;
+      top:20%;
+    }
+  
+    .custom-select {
+      width: 24%;
+      font-size: 1vw;
+    }
+    .image-container {
+      position: absolute;
+      display: inline-block;
+      top: 50%;
+      left:5%;
+    }
+    .main-container {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    
+  
+  }
+  
+    
+   }
+  
+  
+   
