@@ -1,0 +1,58 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The main advantage of a microfluidic microbial fuel cells (MMFCs) is:",
+      "answers": {
+        "a": "High cost of production",
+        "b": "Limited scalability",
+        "c": "Rapid start-up time",
+        "d": "Short operational lifespan"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "2. Which is the Proton Exchange membrane (PEM) used in the microfluidic microbial fuel cell simulator ?",
+      "answers": {
+        "a": "Nafion",
+        "b": "Nutrient agar with Bacillus subtilis",
+        "c": "Polyvinyl Chloride (PVC)",
+        "d": "Graphite"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "3. The parameter that affects the performance of a microfluidic microbial fuel cell (MMFC) is:",
+      "answers": {
+        "a": "Atmospheric pressure",
+        "b": "Humidity levels",
+        "c": "pH of the electrolyte",
+        "d": "Magnetic field strength"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. The material commonly used to fabricate microfluidic channels in MMFCs:",
+      "answers": {
+        "a": "Glass",
+        "b": "Copper",
+        "c": "Silicon",
+        "d": "Plastic"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+    
+    
+    ]
+}

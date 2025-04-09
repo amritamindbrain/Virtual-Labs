@@ -1,0 +1,71 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The microorganism commonly used in Microbial Fuel Cells (MFCs) are:",
+      "answers": {
+        "a": "Algae",
+        "b": "Bacteria",
+        "c": "Fungi",
+        "d": "Protists"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "2. What is the main source of current production in a Microbial Fuel cell ?",
+      "answers": {
+        "a": "Wind Power",
+        "b": "Chemical reactions",
+        "c": "Solar energy",
+        "d": "Bacterial interactions"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "3. Microbial fuel cells (MFCs) considered a source of sustainable energy because:",
+      "answers": {
+        "a": "It uses living organisms as catalysts to generate electricity from certain substrates.",
+        "b": "It emits greenhouse gases during operation.",
+        "c": "It depletes natural resources.",
+        "d": "It requires extensive fossil fuel consumption."
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. The primary component of a microfluidic microbial fuel cell (MMFC) is:",
+      "answers": {
+        "a": "Photovoltaic cells",
+        "b": "Microbial culture",
+        "c": "Lithium-ion battery",
+        "d": "Wind turbine."
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    
+    
+    {
+      "question": "5. Microfluidic Microbial Fuel Cells (MMFCs) uses ---- to degrade organic substrates for harnessing sustainable energy:",
+      "answers": {
+        "a": "Solar energy",
+        "b": "Mechanical force",
+        "c": "Self-organized bacteria",
+        "d": "Chemical catalysts"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

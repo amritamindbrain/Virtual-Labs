@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+	<style>
+        body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      justify-content: center; /* Align items horizontally to center */
+      align-items: center;
+      
+        }
+     
+		div{
+			padding :0;
+			color: black;
+            background-color: transparent;
+            text-align: center;
+            margin-top: 1%;
+        }
+        label {
+            display: inline-block;
+            padding: 0.6em;
+            border: 1px solid #ccc;
+            text-align: left;
+            background-color: #802652;
+            font-weight: bold;
+            width: 30%;
+            color: white;
+            font-size: 1vw;
+            
+        }
+        
+        .at-item {
+		    color: #4f2037; font-weight:bold; font-size:3vw;		
+            justify-content: center;
+		    text-decoration-color:#4f2037;  
+		    position: relative;
+            align-items: center;         	
+            margin-left: 2%;
+            
+	    }
+        div.at-container {
+		    display: flex;
+        }
+        input:hover + label{
+            background-color: #802652;
+            opacity:1;
+            transition: 0.3s opacity ease-in-out;
+            filter:blur(0px);
+        }
+        table, th, td {
+            border: 0px solid black;
+        }
+        .custom-select {
+            width: 50%;
+            padding: 0.6em;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 1vw;
+            font-weight: normal;
+            background-color: rgb(228, 109, 155);
+        }
+
+        .custom-select {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .custom-select option:checked {
+            background-color: #ddd;
+        }
+
+        #center {  
+            float: center;  
+            left:27.5%;
+            top:60%;
+            position: absolute;
+
+        }  
+        #topview{
+            float: center;  
+            padding-left: 27%;  
+        }
+
+        .kmno1{  
+            background-color: #660066;
+            position: absolute; /* Changed to absolute positioning */
+            animation: myothermove 5s forwards; /* Added "forwards" to keep final animation state */
+            z-index: 3;
+            opacity: 45%;
+            display: flex;
+            animation-delay: 2s;
+        }
+
+        .kmno{
+            border-radius: 50%;
+            background-color: #660066;
+            position: absolute; /* Changed to absolute positioning */
+            animation: myothermove1 2s forwards; /* Added "forwards" to keep final animation state */
+            z-index: 3;
+            opacity: 45%;
+            display: flex;
+            top:65.5%;
+            
+        }
+
+        @keyframes myothermove1 {
+            from { left:35%; width: 3%; height: 2%; border-radius: 15%;right: 60.5%; }
+            to { left: 38.4%; width: 1%; height: 2%; border-radius: 50%; transform: translateY(-10%); right: 60.1%;visibility: hidden;}
+        }
+        @keyframes myothermove {
+            from { top:65.5%; width: 1%; height: 4%; border-radius: 15%;right: 60.6%; }
+            to { top: 84.2%; width: 1.5%; height: 3%; border-radius: 50%; transform: translateY(-50%); right: 60.4%;}
+        }
+   
+
+
+    
+.sewage{
+      background-color: #49411f;
+      position: absolute; /* Changed to absolute positioning */
+      animation: mymove 5s forwards; /* Added "forwards" to keep final animation state */
+      z-index: 3;
+      opacity: 45%;
+      animation-delay: 2s;
+    }
+
+    
+.sewage1{
+        
+        top: 109%;
+        background-color: #49411f;
+        position: absolute; /* Changed to absolute positioning */
+        animation: mymove1 2s linear forwards; /* Added "forwards" to keep final animation state */
+        z-index: 3;
+        opacity: 45%;
+}
+
+
+    .etps{
+      background-color: #f1df8b;
+      position: absolute; /* Changed to absolute positioning */
+      animation: mymove 5s forwards; /* Added "forwards" to keep final animation state */
+      z-index: 3;
+      opacity: 45%;
+      animation-delay: 2s;
+    }
+
+    .etps1{
+        top: 109%;
+        background-color: #f1df8b;
+        position: absolute; /* Changed to absolute positioning */
+        animation: mymove1 2s linear forwards; /* Added "forwards" to keep final animation state */
+        z-index: 3;
+        opacity: 45%;  
+    }
+    @keyframes mymove1 {
+      from { left:39%; width: 3%; height: 2%; border-radius: 15%;right: 50%;}
+      to { left: 38.3%; width: 1%; height: 2%; border-radius: 50%; transform: translateY(-10%); right: 50%; visibility: hidden;}
+    }
+
+    @keyframes mymove{
+      from { top:107%; width: 1%; height: 4%; border-radius: 15%;right: 60.6%; }
+      to { top: 90.5%; width: 1.5%; height: 3%; border-radius: 50%; transform: translateY(-50%); right: 60.5%;}
+    }
+
+      
+       
+    </style>
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    </head>
+    <body style="background-color:white">
+        <br>
+        <div class='at-container'>
+            <img src="images\logo.png" width="10%" height="1%" style= "margin-top: 1%;" >
+            
+        <div class='at-item' >Microfluidic Microbial Fuel Cell</div>
+        </div>
+        <br>
+        <br>              
+            <div class="main-container">     
+            <table style="width:100%;">
+                <tr>
+                <td style="width:50%">   
+                    <div class="select-pem">
+                        <label for="PEM">&nbsp;<b>Select PEM:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectPEM" class="custom-select mb-3" onchange="fun_pem()">
+                                <option value="NA" selected>Nutrient agar with <i>Bacillus subtilis</i></option>
+                                <option value="Pem" selected disabled>Select PEM</option>
+                            </select>
+                    </div>
+                    <div class="select-cathode">
+                        <label for="cathode">&nbsp;<b>Select Cathode:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectCathode" id = "selectCathode"class="custom-select mb-3"  onchange="cathode()">
+                                <option value="Copper" >Copper</option>
+                                <option value="Graphite" >Graphite</option>
+                               
+                                <option value="Cathode" disabled selected>Select Cathode</option>
+                            </select>
+                    </div>
+
+                    <div class="select-anode">
+                        <label for="anode">&nbsp;<b>Select Anode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectAnode" id="selectAnode" class="custom-select mb-3"  >
+                                <option value="Aluminium">Aluminium</option>
+                                <option value="Graphite1">Graphite</option>
+                                
+                                <option value="anode" disabled selected>Select Anode</option>
+                            </select>
+                    </div>
+                </td>
+                
+                <td>
+                    <div class="select-anolyte">
+                        <label for="anolyte">&nbsp;<b>Select Anolyte:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectAnolyte" id= "selectAnolyte"class="custom-select mb-3" onchange="anolyte()">
+                                <option value="Sewage" >Sewage water</option>
+                                <option value="ETP" >ETP water</option>
+                                <option value="anolyte" selected disabled>Select Anolyte</option>
+                            </select>
+                    </div>
+               
+                
+                <div class="select-catholyte">
+                    <label for="catholyte">&nbsp;<b>Select Catholyte:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                        <select name="selectCatholyte" class="custom-select mb-3" onchange="catholyte()">
+                            <option value="KMnO4" selected>KMnO4</option>
+                            <option value="anolyte" disabled selected>Select Catholyte</option>
+                        </select>
+                </div>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br><a href="index.html"><input type="button" id="Reset" hidden><label style="text-align: center;width: 45%;" for="Reset">&nbsp;&nbsp;<b>Reset</b>&nbsp;&nbsp;</label></a>
+                    </td>
+                    <td>
+                        <input type="button" id="Submit" hidden onclick="reading()"><label style="text-align: center;width: 45%;" for="Submit" >&nbsp;&nbsp;<b>Submit</b>&nbsp;&nbsp;</label>
+                    </td>
+                    </tr>
+        </table>
+            </div>
+            <br><br><br>
+            <p id="blank1"></p>
+            <p id="pem"></p>
+            <p id="catholyte"></p>
+            <p id="sew"></p>
+            <p id="etp"></p>
+            <p id="catholyte1"></p>
+            <p id="sr"></p>
+            <p id="er"></p>
+            <p id="cpr"></p>
+            <p id="g_s"></p>
+            <p id="g_s_k"></p>
+            <p id="g_s_r"></p>
+            <p id="g_e"></p>
+            <p id="g_e_k"></p>
+            
+    </body>
+
+        <script >
+                // JavaScript code
+                /*document.getElementById("blank1").insertAdjacentHTML('beforeend',"<img id = \"center\" src=\"C:/Users/sreelekshmis/Documents/sreelekshmis/Documents/VLab phase 4 expt/microfluidic_mfc/microfluidic_2.png\" width=\"50%\" height=\"40%\" align=\"center\">")*/
+
+
+                // Get the container element
+                 var container = document.getElementById("blank1");
+    
+                // Create a div element to hold the images
+                var div = document.createElement("div");
+                div.innerHTML ="<img id = 'center' src='images\\mmfc_b.png\' width='50%' height='60%' align='center'>";
+
+                container.appendChild(div);
+
+
+                function fun_pem(){
+
+                    document.getElementById("pem").insertAdjacentHTML('beforeend'," <img id = \"center\"src=\"images\\mmfc_pem.png\" width=\"50%\" height=\"60%\" align=\"center\">")
+                    
+
+                
+                document.getElementById("blank1").style.display="none"; 
+
+                }
+
+                /*cathode and anode selection*/
+                document.addEventListener('DOMContentLoaded', function () {
+                // var selectConnection = document.getElementById('selectConnection');
+                var selectCathode = document.getElementById('selectCathode');
+                var selectAnode = document.getElementById('selectAnode');
+
+                // Event listener for selectConnection change
+                selectCathode.addEventListener('change', function () {
+                // Clear previous options
+                //selectCathode.innerHTML = '';
+                selectAnode.innerHTML = '';
+
+                // Get selected value
+                var selectedCathode = selectCathode.value;
+
+                // Add options based on selected value
+                if (selectedCathode === 'Copper') {
+                    // Add options for parallel connection
+                    addOption(selectAnode, 'Aluminium', 'Aluminium');
+                } else if (selectedCathode === 'Graphite') {
+                    // Add options for series connection
+                    //addOption(selectCathode, 'Cathode', 'Cathode');
+                   // addOption(selectAnode, 'Aluminium', 'Aluminium');
+                    addOption(selectAnode, 'Graphite', 'Graphite1');
+                    //addOption(selectAnode, 'Graphite', 'Graphite');
+                   // addOption(selectAnode, 'Steel', 'Stainless steel');
+                }
+            });
+
+            // Function to add options to a select element
+            function addOption(selectElement, text, value) {
+                var option = document.createElement('option');
+                option.textContent = text;
+                option.value = value;
+                selectElement.appendChild(option);
+                //document.getElementById("anode").innerHTML =option;
+            }
+            
+        });
+
+        function cathode(){
+            if(document.getElementById("selectCathode").value== "Graphite" ){
+                document.getElementById("cpr").insertAdjacentHTML('beforeend'," <img id = \"center\"src=\"images\\mmfc_g.png\" width=\"50%\" height=\"60%\" align=\"center\">")
+            }
+            else if(document.getElementById("selectCathode").value== "Copper" ){
+                document.getElementById("cpr").insertAdjacentHTML('beforeend'," <img id = \"center\"src=\"images\\mmfc_ca.png\" width=\"50%\" height=\"60%\" align=\"center\">")
+            }
+        }
+
+
+
+
+                
+                function anolyte(){
+                    if (document.getElementById("selectAnolyte").value == "Sewage" && document.getElementById("selectCathode").value== "Copper"){
+                        
+                        var container = document.getElementById("sew");
+                        var div = document.createElement("div");
+                        div.innerHTML ="<img id = 'center' src='images\\mmfc_s.png\' width='50%' height='60%' align='center'><div class=\"sewage1\" id=\"sew1\"></div><div class=\"sewage\" id=\"sew\"></div>";
+                        container.appendChild(div);
+
+                        document.getElementById("pem").style.display="none"; 
+                        document.getElementById("blank1").style.display="none"; 
+                        document.getElementById("cpr").style.display="none"; 
+                       
+                        
+                    }
+                    else if(document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCathode").value== "Copper"){
+                        
+                        var container = document.getElementById("etp");
+                        var div = document.createElement("div");
+                        div.innerHTML ="<img id = 'center' src='images\\mmfc_etp.png\' width='50%' height='60%' align='center'><div class=\"etps1\" id=\"etpw1\"></div><div class=\"etps\" id=\"etpw\"></div>";
+                        container.appendChild(div);
+
+                        document.getElementById("pem").style.display="none"; 
+                        document.getElementById("blank1").style.display="none"; 
+                        document.getElementById("sew").style.display="none"; 
+                        document.getElementById("cpr").style.display="none";
+
+                    }
+
+                    else if(document.getElementById("selectAnolyte").value == "Sewage" && document.getElementById("selectCathode").value== "Graphite"){
+                        
+                        var container = document.getElementById("g_s");
+                        var div = document.createElement("div");
+                        div.innerHTML ="<img id = 'center' src='images\\mmfc_s_g.png\' width='50%' height='60%' align='center'><div class=\"sewage1\" id=\"sew1\"></div><div class=\"sewage\" id=\"sew\"></div>";
+                        container.appendChild(div);
+
+                        document.getElementById("pem").style.display="none"; 
+                        document.getElementById("blank1").style.display="none"; 
+                        document.getElementById("sew").style.display="none"; 
+                        document.getElementById("cpr").style.display="none";
+                        document.getElementById("etp").style.display="none";
+
+                    }
+                    else if(document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCathode").value== "Graphite"){
+                        
+                        var container = document.getElementById("g_e");
+                        var div = document.createElement("div");
+                        div.innerHTML ="<img id = 'center' src='images\\mmfc_etp_g.png\' width='50%' height='60%' align='center'><div class=\"etps1\" id=\"etpw1\"></div><div class=\"etps\" id=\"etpw\"></div>";
+                        container.appendChild(div);
+
+                        document.getElementById("pem").style.display="none"; 
+                        document.getElementById("blank1").style.display="none"; 
+                        document.getElementById("sew").style.display="none"; 
+                        document.getElementById("cpr").style.display="none";
+                        document.getElementById("g_s").style.display="none";
+
+                    }
+                }
+
+
+            function catholyte(){
+
+                if(document.getElementById("selectAnolyte").value == "Sewage" && document.getElementById("selectCathode").value== "Copper"){
+                    var container = document.getElementById("catholyte");
+                    var div = document.createElement("div");
+                    div.innerHTML ="<img id = 'center' src='images\\mmfc_s_k.png\' width='50%' height='60%' align='center'><div class='kmno' id='catholyte'></div><div class='kmno1' id='catholyte1'></div>";
+                    container.appendChild(div);
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                }
+
+                else if(document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCathode").value== "Copper"){
+                    var container = document.getElementById("catholyte1");
+                    var div = document.createElement("div");
+                    div.innerHTML ="<img id = 'center' src='images\\mmfc_etp_k.png\' width='50%' height='60%' align='center'><div class='kmno' id='catholyte'></div><div class='kmno1' id='catholyte1'></div>";
+                    container.appendChild(div);
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("catholyte").style.display="none"; 
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                }
+                else if(document.getElementById("selectAnolyte").value == "Sewage" && document.getElementById("selectCathode").value== "Graphite"){
+                    var container = document.getElementById("g_s_k");
+                    var div = document.createElement("div");
+                    div.innerHTML ="<img id = 'center' src='images\\mmfc_s_k_g.png\' width='50%' height='60%' align='center'><div class='kmno' id='catholyte'></div><div class='kmno1' id='catholyte1'></div>";
+                    container.appendChild(div);
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                }
+
+                else if(document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCathode").value== "Graphite"){
+                    var container = document.getElementById("g_e_k");
+                    var div = document.createElement("div");
+                    div.innerHTML ="<img id = 'center' src='images\\mmfc_etp_k_g.png\' width='50%' height='60%' align='center'><div class='kmno' id='catholyte'></div><div class='kmno1' id='catholyte1'></div>";
+                    container.appendChild(div);
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("catholyte").style.display="none"; 
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                }
+            }
+
+            function reading(){
+                if(document.getElementById("selectAnolyte").value == "Sewage"&& document.getElementById("selectCathode").value== "Graphite"){
+                    document.getElementById("g_s_r").insertAdjacentHTML('beforeend'," <img id = \"center\"src=\"images\\mmfc_s_r_g.png\" width=\"50%\" height=\"60%\" align=\"center\">")
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("catholyte").style.display="none";
+                    document.getElementById("catholyte1").style.display="none";
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_s_k").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                    document.getElementById("g_e_k").style.display="none";
+                    
+                }
+
+                else if (document.getElementById("selectAnolyte").value == "ETP"&& document.getElementById("selectCathode").value== "Graphite"){
+                    document.getElementById("g_s_r").insertAdjacentHTML('beforeend'," <img id = \"center\"src=\"images\\mmfc_e_r_g.png\" width=\"50%\" height=\"60%\" align=\"center\">")
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("catholyte").style.display="none";
+                    document.getElementById("catholyte1").style.display="none";
+                    document.getElementById("sr").style.display="none";
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_s_k").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                    document.getElementById("g_e_k").style.display="none";
+                }
+
+                if(document.getElementById("selectAnolyte").value == "Sewage"  && document.getElementById("selectCathode").value== "Copper"){
+                    document.getElementById("sr").insertAdjacentHTML('beforeend'," <img id = \"center\"src=\"images\\mmfc_s_r.png\" width=\"50%\" height=\"60%\" align=\"center\">")
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("catholyte").style.display="none";
+                    document.getElementById("catholyte1").style.display="none";
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_s_k").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                    document.getElementById("g_e_k").style.display="none";
+                    
+                }
+
+                else if (document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCathode").value== "Copper"){
+                    document.getElementById("er").insertAdjacentHTML('beforeend'," <img id = \"center\"src=\"images\\mmfc_e_r.png\" width=\"50%\" height=\"60%\" align=\"center\">")
+
+                    document.getElementById("pem").style.display="none"; 
+                    document.getElementById("blank1").style.display="none";
+                    document.getElementById("sew").style.display="none"; 
+                    document.getElementById("etp").style.display="none"; 
+                    document.getElementById("catholyte").style.display="none";
+                    document.getElementById("catholyte1").style.display="none";
+                    document.getElementById("sr").style.display="none";
+                    document.getElementById("cpr").style.display="none";
+                    document.getElementById("g_s").style.display="none";
+                    document.getElementById("g_s_k").style.display="none";
+                    document.getElementById("g_e").style.display="none";
+                    document.getElementById("g_e_k").style.display="none";
+                }
+
+            }
+        </script>
+</html>
