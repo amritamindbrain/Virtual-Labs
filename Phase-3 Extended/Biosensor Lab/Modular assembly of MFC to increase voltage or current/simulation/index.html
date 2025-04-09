@@ -1,0 +1,2781 @@
+<!DOCTYPE html>
+<html>
+	<style>
+        
+		div{
+			padding :0;
+			color: black;
+            background-color: transparent;
+            text-align: center;
+            margin-top: 1%;
+        }
+        label {
+            display: inline-block;
+            padding: 0.6em;
+            border: 1px solid #ccc;
+            text-align: left;
+            background-color: #802652;
+            font-weight: bold;
+            width: 30%;
+            color: white;
+            font-size: 1vw;
+            
+        }
+        
+        .at-item {
+		    color: #4f2037; font-weight:bold; font-size:3vw;		
+            justify-content: center;
+		    text-decoration-color:#4f2037;  
+		    position: relative;
+            align-items: center;         	
+            margin-left: 2%;
+            
+	    }
+        div.at-container {
+		    display: flex;
+        }
+        input:hover + label{
+            background-color: #802652;
+            opacity:1;
+            transition: 0.3s opacity ease-in-out;
+            filter:blur(0px);
+        }
+        table, th, td {
+            border: 0px solid black;
+        }
+        .custom-select {
+            width: 50%;
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1vw;
+  font-weight: normal;
+  background-color: rgb(228, 109, 155);
+        }
+
+
+.custom-select {
+background-color: rgb(255, 255, 255);
+}
+
+.custom-select option:checked {
+background-color: #ddd;
+}
+#center {  
+float: right;  
+padding-left: 10%;
+
+}  
+#topview{
+    padding-top: 5%;
+    float: center;  
+padding-left: 25%;
+
+}
+#bulb{
+    padding-top: 15%;
+    float: right;  
+left: -100%;
+}
+h2{
+    padding-top: 60%;
+    padding-left: 40%;
+    font-size: 1vw;
+    font-weight: bold;
+}
+h_3{
+    padding-top: 5%;
+    padding-left: 40%;
+    padding-bottom: 100%;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.chartContainer{
+    height:1%; 
+    width: 80%;
+    margin-left: 15%;
+    font-size: 1vw;
+}
+
+
+       
+    </style>
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    </head>
+    <body style="background-color:white">
+        <br>
+        <div class='at-container'>
+            <img src="images/logo.png" width="10%" height="1%" style= "margin-top: 1%;" >
+            
+        <div class='at-item' >Modular Assembly of MFC to Increase Voltage or Current </div>
+        </div>
+        <br>
+        <br>              
+            <div class="main-container">     
+            <table style="width:100%;">
+                <tr>
+                <td style="width:50%">   
+                
+                    <div class="select-connection">
+                        <label for="connection">&nbsp;<b>Select Connection:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectConnection" id= "selectConnection"class="custom-select mb-3" onchange="myFunction(); s_myFunction()">
+                                <option value="Parallel" >Parallel</option>
+                                <option value="Series" >Series</option>
+                                <option value="Connection" disabled selected>Select Connection</option>
+                            </select>
+                    </div>
+                
+                    <div class="select-grid">
+                        <label for="grid">&nbsp;<b>Select MFC unit:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectGrid" id= "selectGrid"class="custom-select mb-3" onchange="grid_fun();s_grid_fun()">
+                                <option value="1*1" >1 unit</option>
+                                <option value="2*2" >2 unit</option>
+                                <option value="3*3" >3 unit</option>
+                                <option value="Grid" disabled selected>Select Unit</option>
+                            </select>
+                    </div>
+                
+                <div class="select-anolyte">
+                    <label for="anolyte">&nbsp;<b>Select Anolyte:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                        <select name="selectAnolyte" id= "selectAnolyte"class="custom-select mb-3" onchange="anolyte();s_anolyte()">
+                            <option value="Sewage" >Sewage water with <i>Chroococcus</i> species</option>
+                            <option value="ETP" >ETP water with <i>Chroococcus</i> species</option>
+                            <option value="anolyte" disabled selected>Select Anolyte</option>
+                        </select>
+                </div>
+                
+                </td>
+                <td style="width:50%;padding-right: 0%; ">
+                    <div class="select-catholyte">
+                        <label for="catholyte">&nbsp;<b>Select Catholyte:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectCatholyte" id= "selectCatholyte" class="custom-select mb-3" onchange="catholyte();s_catholyte()">
+                                <option value="KMnO4" >KMnO4</option>
+                                <option value="Catholyte" disabled selected>Select Catholyte</option>
+                            </select>
+                    </div>
+                    <div class="select-cathode">
+                        <label for="cathode">&nbsp;<b>Select Cathode:&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectCathode" id = "selectCathode"class="custom-select mb-3"  onchange="cathode();s_cathode()">
+                                <option value="Copper" >Copper</option>
+                               
+                                <option value="Cathode" disabled selected>Select Cathode</option>
+                            </select>
+                    </div>
+
+                    <div class="select-anode">
+                        <label for="anode">&nbsp;<b>Select Anode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>&nbsp;&nbsp;&nbsp;
+                            <select name="selectAnode" id="selectAnode" class="custom-select mb-3" onchange="anode();s_anode()" >
+                                <option value="Aluminium">Aluminium</option>
+                                
+                                <option value="anode" disabled selected>Select Anode</option>
+                            </select>
+                    </div>
+                </td>
+                
+            </tr>
+            </table>
+            <br><a href="index.html"><input type="button" id="Reset" hidden><label style="text-align: center;width: 20%;" for="Reset">&nbsp;&nbsp;<b>Reset</b>&nbsp;&nbsp;</label></a>
+                
+                            
+           
+            </div>
+                        
+             <!-- #parallel    -->
+            <p id="blank"></p><p id="1*1"></p><p id="2*2"></p><p id="3*3"></p>
+            <p id="g_s_1_1"></p><p id="g_s_2_2"></p><p id="g_s_3_3"></p>
+            <p id="g_e_1_1"></p><p id="g_e_2_2"></p><p id="g_e_3_3"></p>
+            <p id="g_k_1_1"></p><p id="g_k_2_2"></p><p id="g_k_3_3"></p>
+            <p id="g_ek_1_1"></p><p id="g_ek_2_2"></p><p id="g_ek_3_3"></p>
+            <p id="g_sc_1_1"></p><p id="g_sc_2_2"></p> <p id="g_sc_3_3"></p>
+            <p id="g_ec_1_1"></p><p id="g_ec_2_2"></p><p id="g_ec_3_3"></p>
+            <p id="g_ea_1_1"></p><p id="g_ea_2_2"></p><p id="g_ea_3_3"></p>
+            <p id="g_sa_1_1"></p><p id="g_sa_2_2"></p><p id="g_sa_3_3"></p>
+
+
+             <!-- #series    -->
+             <p id="s_blank"></p><p id="s_1*1"></p><p id="s_2*2"></p><p id="s_3*3"></p>
+             <p id="g_ss_1_1"></p><p id="g_ss_2_2"></p><p id="g_ss_3_3"></p>
+             <p id="g_se_1_1"></p><p id="g_se_2_2"></p><p id="g_se_3_3"></p>
+             <p id="g_ssk_1_1"></p><p id="g_ssk_2_2"></p><p id="g_ssk_3_3"></p>
+             <p id="g_sek_1_1"></p><p id="g_sek_2_2"></p><p id="g_sek_3_3"></p>
+             <p id="g_ssc_1_1"></p><p id="g_ssc_2_2"></p><p id="g_ssc_3_3"></p>
+             <p id="g_sec_1_1"></p><p id="g_sec_2_2"></p><p id="g_sec_3_3"></p>
+             <p id="g_ssa_1_1"></p><p id="g_ssa_2_2"></p><p id="g_ssa_3_3"></p>
+             <p id="g_sea_1_1"></p><p id="g_sea_2_2"></p><p id="g_sea_3_3"></p>
+
+             <div class="chartContainer" id="chartContainer" ></div>
+             <div class="chartContainer" id="chartContainer1" ></div>
+             <div class="chartContainer" id="chartContainer2" ></div>
+            <div class="chartContainer" id="chartContainer3" ></div>
+    </body>
+    <script >
+        function myFunction(){
+            if(document.getElementById("selectConnection").value== "Parallel"){
+            document.getElementById("blank").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+            document.getElementById("s_blank").style.display="none";
+            }
+        }
+        function grid_fun(){
+            if(document.getElementById("selectGrid").value== "1*1"){
+                document.getElementById("1*1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+            }
+            else if(document.getElementById("selectGrid").value== "2*2"){
+                document.getElementById("2*2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_2_2_b.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+            }
+            else if(document.getElementById("selectGrid").value== "3*3"){
+                document.getElementById("3*3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_3_3_b.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+            }
+
+        }
+        function anolyte(){
+            if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" ){
+                    document.getElementById("g_s_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_s_1_1_.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" ){
+                    document.getElementById("g_s_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_s_2_2_.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" ){
+                    document.getElementById("g_s_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_s_3_3_.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" ){
+                    document.getElementById("g_e_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_etp_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" ){
+                    document.getElementById("g_e_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_etp_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" ){
+                    document.getElementById("g_e_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_etp_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+            }
+            else{
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+            
+            }
+        }
+        function catholyte(){
+            if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" ){
+                    document.getElementById("g_k_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sk_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none"; 
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" ){
+                    document.getElementById("g_k_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sk_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+            }
+            else if(document.getElementById("selectAnolyte").value== "Sewage" &&  document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" ){
+                    document.getElementById("g_k_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sk_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+           }
+           
+            else if(document.getElementById("selectAnolyte").value== "ETP" &&  document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" ){
+                    document.getElementById("g_ek_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ek_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+            }
+            else if(document.getElementById("selectAnolyte").value== "ETP" &&  document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" ){
+                    document.getElementById("g_ek_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ek_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none"; 
+            }
+            else if(document.getElementById("selectAnolyte").value== "ETP" &&  document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" ){
+                    document.getElementById("g_ek_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ek_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+            }
+        }
+
+        function cathode(){
+            if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_ec_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ec_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_ec_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ec_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_ec_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ec_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_sc_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sc_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_sc_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sc_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_sc_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sc_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+            }
+        }
+        
+            function anode(){
+            if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectCathode").value== "Copper" && document.getElementById("selectAnode").value== "Aluminium"){
+                document.getElementById("g_ea_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ea_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                var chart = new CanvasJS.Chart("chartContainer", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                { x: 0, y: 0},
+                                    { x:200, y:0.28},
+                                    { x: 400, y: 0.49},
+                                    { x:600, y: 0.68},
+                                    { x: 800, y: 0.85},
+                                    { x:1000, y: 0.90},
+                                    { x: 1080, y: 0.95},
+                                    { x: 1080, y: 0.98},
+                                    { x: 1080, y: 1.05},
+                                    { x: 1080, y: 1.098},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+            }
+
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" && document.getElementById("selectCathode").value== "Copper" && document.getElementById("selectAnode").value== "Aluminium"){
+                document.getElementById("g_ea_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ea_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                var chart = new CanvasJS.Chart("chartContainer", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                { x: 0, y: 0},
+                                    { x:200, y:0.58},
+                                    { x: 400, y: 1},
+                                    { x:600, y: 1.34},
+                                    { x: 800, y: 1.6},
+                                    { x:1000, y: 1.9},
+                                    { x: 1080, y: 1.85},
+                                    { x: 1080, y: 1.92},
+                                    { x: 1080, y: 2},
+                                    { x: 1080, y: 2.198},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" && document.getElementById("selectCathode").value== "Copper" && document.getElementById("selectAnode").value== "Aluminium"){
+                document.getElementById("g_ea_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ea_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                var chart = new CanvasJS.Chart("chartContainer1", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 0
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                    { x: 0, y: 0},
+                                    { x:200, y: 0.8},
+                                    { x: 400, y: 1.5},
+                                    { x:600, y: 2.04},
+                                    { x: 800, y: 2.5},
+                                    { x:1000, y: 2.81},
+                                    { x: 1080, y: 2.85},
+                                    { x: 1080, y: 2.90},
+                                    { x: 1080, y: 3.1},
+                                    { x: 1080, y: 3.29},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectCathode").value== "Copper" && document.getElementById("selectAnode").value== "Aluminium"){
+                document.getElementById("g_sa_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sa_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                var chart = new CanvasJS.Chart("chartContainer", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                { x: 0, y: 0},
+                                    { x:400, y: 0.3},
+                                    { x: 800, y: 0.38},
+                                    { x: 1000, y: 0.68},
+                                    { x:1100, y: 0.7},
+                                    { x: 1180, y: 0.85},
+                                    { x: 1180, y: 0.9},
+                                    { x: 1180, y: 1},
+                                    { x: 1180, y: 1.325},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "2*2" && document.getElementById("selectCathode").value== "Copper" && document.getElementById("selectAnode").value== "Aluminium"){
+                document.getElementById("g_sa_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sa_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                var chart = new CanvasJS.Chart("chartContainer1", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                { x: 0, y: 0},
+                                    { x:400, y: 0.62},
+                                    { x: 800, y: 0.78},
+                                    { x: 1000, y: 1.4},
+                                    { x:1100, y: 1.56},
+                                    { x: 1180, y: 1.72},
+                                    { x: 1180, y: 1.86},
+                                    { x: 1180, y: 2.06},
+                                    { x: 1180, y: 2.68},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Parallel" && document.getElementById("selectGrid").value== "3*3" && document.getElementById("selectCathode").value== "Copper" && document.getElementById("selectAnode").value== "Aluminium"){
+                document.getElementById("g_sa_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sa_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                var chart = new CanvasJS.Chart("chartContainer1", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                { x:0, y: 0},    
+                                { x:400, y: 0.96},
+                                    { x: 800, y: 1.15},
+                                    { x: 1000, y: 2.15},
+                                    { x:1100, y: 2.2},
+                                    { x: 1180, y: 2.55},
+                                    { x: 1180, y: 2.8},
+                                    { x: 1180, y: 3.2},
+                                    { x: 1180, y: 3.98},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none";
+            }
+            
+        }
+
+        /*series function*/
+
+        /*series select connection*/
+        function s_myFunction(){
+            if(document.getElementById("selectConnection").value== "Series"){
+                document.getElementById("s_blank").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_s_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+            }
+           
+        }
+        /*series select grid*/
+        function s_grid_fun(){
+            if(document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectConnection").value== "Series"){
+                document.getElementById("s_1*1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_s_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none";
+
+            }
+            else if(document.getElementById("selectGrid").value== "2*2" && document.getElementById("selectConnection").value== "Series"){
+                document.getElementById("s_2*2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_s_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+            }
+            else if(document.getElementById("selectGrid").value== "3*3" && document.getElementById("selectConnection").value== "Series"){
+                document.getElementById("s_3*3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_s_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+            }
+
+        }
+
+        /*series select anolyte*/
+        function s_anolyte(){
+            /*series select anolyte sewage*/
+            if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "1*1" ){
+                document.getElementById("g_ss_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ss_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "2*2" ){
+                document.getElementById("g_ss_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ss_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                
+            }
+
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "3*3" ){
+                document.getElementById("g_ss_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ss_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                
+            }
+            /*series select anolyte etp*/
+            if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "1*1" ){
+                document.getElementById("g_se_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_setp_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "2*2" ){
+                document.getElementById("g_se_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_setp_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "3*3" ){
+                document.getElementById("g_se_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_setp_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                
+            }
+        }
+
+        /*series select catholyte*/
+        function s_catholyte(){
+            if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "1*1" ){
+                    document.getElementById("g_ssk_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ssk_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "2*2" ){
+                    document.getElementById("g_ssk_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ssk_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "3*3" ){
+                    document.getElementById("g_ssk_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ssk_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+            }
+ /*series select catholyte etp*/
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "1*1" ){
+                    document.getElementById("g_sek_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sek_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "2*2" ){
+                    document.getElementById("g_sek_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sek_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                    document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "3*3" ){
+                    document.getElementById("g_sek_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sek_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+
+            }
+        }
+        /*series select cathode*/
+        function s_cathode(){
+            if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_ssc_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ssc_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "2*2" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_ssc_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ssc_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "3*3" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_ssc_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_ssc_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+            }
+            /*series select cathode etp*/
+            if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_sec_1_1").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sec_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "2*2" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_sec_2_2").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sec_2_2.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+            }
+            else if( document.getElementById("selectAnolyte").value== "ETP" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "3*3" && document.getElementById("selectCathode").value== "Copper"){
+                document.getElementById("g_sec_3_3").insertAdjacentHTML('beforeend'," <img id = \"topview\"src=\"images\\grid_sec_3_3.png\"width=\"40%\" height=\"100%\" align=\"center\">")
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none" ;
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+                document.getElementById("g_sec_2_2").style.display="none";
+            }
+        }
+         /*series select anode*/
+        function s_anode(){
+            /*if( document.getElementById("selectAnolyte").value== "Sewage" && document.getElementById("selectCatholyte").value== "KMnO4" && document.getElementById("selectConnection").value== "Series" && document.getElementById("selectGrid").value== "1*1" && document.getElementById("selectCathode").value== "Copper" && document.getElementById("selectAnode").value== "Aluminium"){
+                document.getElementById("g_ssa_1_1").insertAdjacentHTML('beforeend'," <div><img id = \"topview\"src=\"images\\grid_ssa_1_1.png\"width=\"40%\" height=\"100%\" align=\"center\"><img id = \"topview\" src=\"images\\series/fan gif.gif\"></div>")*/
+                if (document.getElementById("selectAnolyte").value == "Sewage" &&
+    document.getElementById("selectCatholyte").value == "KMnO4" &&
+    document.getElementById("selectConnection").value == "Series" &&
+    document.getElementById("selectGrid").value == "1*1" &&
+    document.getElementById("selectCathode").value == "Copper" &&
+    document.getElementById("selectAnode").value == "Aluminium") {
+    // Get the container element
+    var container = document.getElementById("g_ssa_1_1");
+    
+    // Create a div element to hold the images
+    var div = document.createElement("div");
+    
+    // Set the HTML content with the image and GIF
+    div.innerHTML = "<img id='topview' src='images\\grid_ssa_1_1.png' width='40%' height='100%' align='center' style='padding-left: 3%; position: relative;'><img id='overlay' src='images\\fan gif.gif' style='position: relative; top: 35%; right: 15%; width: 8%; height: 15%; z-index: 1;'>";
+
+    // Append the div to the container
+    container.appendChild(div);
+
+    /*graph plotting*/
+
+    var chart = new CanvasJS.Chart("chartContainer2", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                    { x: 0, y: 0},
+                                    { x:100, y: 1.08},
+                                    { x:200, y: 1.2},
+                                    { x: 300, y: 1.3},
+                                    { x:400, y: 1.8},
+                                    { x:500, y: 2},
+                                    { x:600, y: 2.12},
+                                    { x:700, y: 2.13},
+                                    { x:800, y: 2.14},
+                                    { x:900, y: 2.14},
+                                    { x:1000, y: 2.14},
+                                    { x:1025, y: 2.14},
+                                    { x:1100, y: 2.14},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none";
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+                document.getElementById("g_sec_2_2").style.display="none";
+                document.getElementById("g_sec_3_3").style.display="none";
+            }
+            else if (document.getElementById("selectAnolyte").value == "Sewage" && document.getElementById("selectCatholyte").value == "KMnO4" && document.getElementById("selectConnection").value == "Series" && document.getElementById("selectGrid").value == "2*2" && document.getElementById("selectCathode").value == "Copper" && document.getElementById("selectAnode").value == "Aluminium") {
+    // Get the container element
+    var container = document.getElementById("g_ssa_2_2");
+    
+    // Create a div element to hold the images
+    var div = document.createElement("div");
+    
+    // Set the HTML content with the image and GIF
+    div.innerHTML = "<img id='topview' src='images\\grid_ssa_2_2.png' width='40%' height='100%' align='center' style='padding-left: 3%; position: relative;'><img id='overlay' src='images\\fan gif.gif' style='position: relative; right: 16%; width: 9%; height: 17%; z-index: 1;'>";
+
+    // Append the div to the container
+    container.appendChild(div);
+
+    var chart = new CanvasJS.Chart("chartContainer2", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                { x: 0, y: 0},
+                                    { x:200, y: 1.08},
+                                    { x:400, y: 1.2},
+                                    { x: 600, y: 1.3},
+                                    { x:800, y: 1.8},
+                                    { x:1000, y: 2},
+                                    { x:1200, y: 2.12},
+                                    { x:1400, y: 2.13},
+                                    { x:1600, y: 2.14},
+                                    { x:1800, y: 2.14},
+                                    { x:2000, y: 2.14},
+                                    { x:2200, y: 2.14},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none";
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+                document.getElementById("g_sec_2_2").style.display="none";
+                document.getElementById("g_sec_3_3").style.display="none";
+                document.getElementById("g_ssa_1_1").style.display="none";
+                
+            }
+            else if (document.getElementById("selectAnolyte").value == "Sewage" && document.getElementById("selectCatholyte").value == "KMnO4" && document.getElementById("selectConnection").value == "Series" && document.getElementById("selectGrid").value == "3*3" && document.getElementById("selectCathode").value == "Copper" && document.getElementById("selectAnode").value == "Aluminium") {
+    // Get the container element
+    var container = document.getElementById("g_ssa_3_3");
+    
+    // Create a div element to hold the images
+    var div = document.createElement("div");
+    
+    // Set the HTML content with the image and GIF
+    div.innerHTML = "<img id='topview' src='images\\grid_ssa_3_3.png' width='40%' height='100%' align='center' style='padding-left: 3%; position: relative;'><img id='overlay' src='images\\fan gif.gif' style='position: relative; right: 16%; width: 9%; height: 17%; z-index: 1;'>";
+
+    // Append the div to the container
+    container.appendChild(div);
+
+    var chart = new CanvasJS.Chart("chartContainer2", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                { x: 0, y: 0},
+                                    { x:300, y: 1.08},
+                                    { x:600, y: 1.2},
+                                    { x: 900, y: 1.3},
+                                    { x:1200, y: 1.8},
+                                    { x:1500, y: 2},
+                                    { x:1800, y: 2.12},
+                                    { x:2100, y: 2.13},
+                                    { x:2400, y: 2.14},
+                                    { x:2700, y: 2.14},
+                                    { x:3000, y: 2.14},
+                                    { x:3075, y: 2.14},
+                                    { x:3300, y: 2.14},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none";
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+                document.getElementById("g_sec_2_2").style.display="none";
+                document.getElementById("g_sec_3_3").style.display="none";
+                document.getElementById("g_ssa_1_1").style.display="none";
+                document.getElementById("g_ssa_2_2").style.display="none";
+                
+            }
+            else if (document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCatholyte").value == "KMnO4" && document.getElementById("selectConnection").value == "Series" && document.getElementById("selectGrid").value == "1*1" && document.getElementById("selectCathode").value == "Copper" && document.getElementById("selectAnode").value == "Aluminium") {
+    // Get the container element
+    var container = document.getElementById("g_sea_1_1");
+    
+    // Create a div element to hold the images
+    var div = document.createElement("div");
+    
+    // Set the HTML content with the image and GIF
+    div.innerHTML = "<img id='topview' src='images\\grid_sea_1_1.png' width='40%' height='100%' align='center' style='padding-left: 3%; position: relative;'><img id='overlay' src='images\\fan gif.gif' style='position: relative; top: 35%; right: 15%; width: 8%; height: 15%; z-index: 1;'>";
+
+    // Append the div to the container
+    container.appendChild(div);
+
+    var chart = new CanvasJS.Chart("chartContainer3", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                    { x: 0, y: 0},
+                                    { x:100, y: 0.28},
+                                    { x: 200, y: 0.47},
+                                    { x: 300, y: 0.8},
+                                    { x:400, y: 1.12},
+                                    { x: 500, y: 1.38},
+                                    { x: 600, y: 1.48},
+                                    { x:620, y: 1.5},
+                                    { x: 630, y: 1.57},
+                                    { x: 635, y: 1.57},
+                                    { x:640, y: 1.57},
+                                    { x: 645, y: 1.57},
+                                    { x: 650, y: 1.57},
+                                    { x:655, y: 1.57},
+                                    { x: 660, y: 1.57},
+                                    { x: 665, y: 1.57},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none";
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+                document.getElementById("g_sec_2_2").style.display="none";
+                document.getElementById("g_sec_3_3").style.display="none";
+                document.getElementById("g_ssa_1_1").style.display="none";
+                document.getElementById("g_ssa_2_2").style.display="none";
+                document.getElementById("g_ssa_3_3").style.display="none";
+                
+            }
+            else if (document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCatholyte").value == "KMnO4" && document.getElementById("selectConnection").value == "Series" && document.getElementById("selectGrid").value == "2*2" && document.getElementById("selectCathode").value == "Copper" && document.getElementById("selectAnode").value == "Aluminium") {
+    // Get the container element
+    var container = document.getElementById("g_sea_2_2");
+    
+    // Create a div element to hold the images
+    var div = document.createElement("div");
+    
+    // Set the HTML content with the image and GIF
+    div.innerHTML = "<img id='topview' src='images\\grid_sea_2_2.png' width='40%' height='100%' align='center' style='padding-left: 3%; position: relative;'><img id='overlay' src='images\\fan gif.gif' style='position: relative; right: 16%; width: 9%; height: 17%; z-index: 1;'>";
+
+    // Append the div to the container
+    container.appendChild(div);
+
+    var chart = new CanvasJS.Chart("chartContainer3", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval:100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                    { x: 0, y: 0},
+                                    { x:200, y: 0.28},
+                                    { x: 400, y: 0.47},
+                                    { x: 600, y: 0.8},
+                                    { x:800, y: 1.12},
+                                    { x: 1000, y: 1.38},
+                                    { x: 1200, y: 1.48},
+                                    { x:1240, y: 1.5},
+                                    { x: 1260, y: 1.57},
+                                    { x: 1270, y: 1.57},
+                                    { x:1280, y: 1.57},
+                                    { x: 1290, y: 1.57},
+                                    { x: 1300, y: 1.57},
+                                    { x: 1310, y: 1.57},
+                                    { x:1320, y: 1.57},
+                                    { x: 1330, y: 1.57},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none";
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+                document.getElementById("g_sec_2_2").style.display="none";
+                document.getElementById("g_sec_3_3").style.display="none";
+                document.getElementById("g_ssa_1_1").style.display="none";
+                document.getElementById("g_ssa_2_2").style.display="none";
+                document.getElementById("g_ssa_3_3").style.display="none";
+                document.getElementById("g_sea_1_1").style.display="none";
+                
+            }
+            else if (document.getElementById("selectAnolyte").value == "ETP" && document.getElementById("selectCatholyte").value == "KMnO4" && document.getElementById("selectConnection").value == "Series" && document.getElementById("selectGrid").value == "3*3" && document.getElementById("selectCathode").value == "Copper" && document.getElementById("selectAnode").value == "Aluminium") {
+    // Get the container element
+    var container = document.getElementById("g_sea_3_3");
+    
+    // Create a div element to hold the images
+    var div = document.createElement("div");
+    
+    // Set the HTML content with the image and GIF
+    div.innerHTML = "<img id='topview' src='images\\grid_sea_3_3.png' width='40%' height='100%' align='center' style='padding-left: 3%; position: relative;'><img id='overlay' src='images\\fan gif.gif' style='position: relative; right: 16%; width: 9%; height: 17%; z-index: 1;'>";
+
+    // Append the div to the container
+    container.appendChild(div);
+
+    var chart = new CanvasJS.Chart("chartContainer3", {
+                            animationEnabled: true,
+                            zoomEnabled: true,
+                            theme: "white",
+                            title: {
+                                text: "Current-Voltage Curve"
+                            },
+                            axisX: {
+                                title: "Voltage (mV)",
+                                valueFormatString: "####",
+                                interval: 100
+                            },
+                            axisY: {
+                                title: "Current (mA)",
+                                titleFontColor: "#0838b2",
+                                lineColor: "#0838b2",
+                                gridThickness: 0,
+                                lineThickness: 1,
+                                //labelFormatter: addSymbols,
+                                interval: 0.5
+                            },
+                           
+                            legend: {
+                                verticalAlign: "top",
+                                fontSize: 12,
+                                dockInsidePlotArea: true
+                            },
+                            data: [{
+                                type: "line",
+                                xValueFormatString: "####",
+                                showInLegend: true,
+                                name: "Current-Voltage Curve",
+                                dataPoints: [
+                                    { x: 0, y: 0},
+                                    { x:300, y: 0.28},
+                                    { x: 600, y: 0.47},
+                                    { x: 900, y: 0.8},
+                                    { x:1200, y: 1.12},
+                                    { x: 1500, y: 1.38},
+                                    { x: 1800, y: 1.48},
+                                    { x:1860, y: 1.5},
+                                    { x: 1890, y: 1.57},
+                                    { x: 1905, y: 1.57},
+                                    { x:1920, y: 1.57},
+                                    { x: 1935, y: 1.57},
+                                    { x: 1950, y: 1.57},
+                                    { x: 1965, y: 1.57},
+                                    { x:1980, y: 1.57},
+                                    { x: 1995, y: 1.57},
+                                    
+                                ]
+                            },
+                            ]
+                        });
+                        chart.render();
+
+                document.getElementById("blank").style.display="none"; 
+                document.getElementById("1*1").style.display="none"; 
+                document.getElementById("2*2").style.display="none"; 
+                document.getElementById("3*3").style.display="none"; 
+                document.getElementById("g_s_1_1").style.display="none";
+                document.getElementById("g_s_2_2").style.display="none";
+                document.getElementById("g_s_3_3").style.display="none";
+                document.getElementById("g_e_1_1").style.display="none";
+                document.getElementById("g_e_2_2").style.display="none";
+                document.getElementById("g_e_3_3").style.display="none";
+                document.getElementById("g_k_1_1").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_2_2").style.display="none"; 
+                document.getElementById("g_k_3_3").style.display="none"; 
+                document.getElementById("g_ek_1_1").style.display="none";
+                document.getElementById("g_ek_2_2").style.display="none"; 
+                document.getElementById("g_ek_3_3").style.display="none"; 
+                document.getElementById("g_ec_1_1").style.display="none";
+                document.getElementById("g_ec_2_2").style.display="none";
+                document.getElementById("g_ec_3_3").style.display="none";
+                document.getElementById("g_sc_1_1").style.display="none";
+                document.getElementById("g_sc_2_2").style.display="none";
+                document.getElementById("g_sc_3_3").style.display="none";
+                document.getElementById("g_ea_1_1").style.display="none";
+                document.getElementById("g_ea_2_2").style.display="none";
+                document.getElementById("g_ea_3_3").style.display="none";
+                document.getElementById("g_sa_1_1").style.display="none";
+                document.getElementById("g_sa_2_2").style.display="none"; 
+                document.getElementById("g_sa_3_3").style.display="none";
+
+                document.getElementById("s_blank").style.display="none";
+                document.getElementById("s_1*1").style.display="none";
+                document.getElementById("s_2*2").style.display="none";
+                document.getElementById("s_3*3").style.display="none";
+                document.getElementById("g_ss_1_1").style.display="none";
+                document.getElementById("g_ss_2_2").style.display="none";
+                document.getElementById("g_ss_3_3").style.display="none";
+                document.getElementById("g_se_1_1").style.display="none";
+                document.getElementById("g_se_2_2").style.display="none";
+                document.getElementById("g_se_3_3").style.display="none";
+                document.getElementById("g_ssk_1_1").style.display="none";
+                document.getElementById("g_ssk_2_2").style.display="none";
+                document.getElementById("g_ssk_3_3").style.display="none";
+                document.getElementById("g_sek_1_1").style.display="none";
+                document.getElementById("g_sek_2_2").style.display="none";
+                document.getElementById("g_sek_3_3").style.display="none";
+                document.getElementById("g_ssc_1_1").style.display="none";
+                document.getElementById("g_ssc_2_2").style.display="none";
+                document.getElementById("g_ssc_3_3").style.display="none";
+                document.getElementById("g_sec_1_1").style.display="none";
+                document.getElementById("g_sec_2_2").style.display="none";
+                document.getElementById("g_sec_3_3").style.display="none";
+                document.getElementById("g_ssa_1_1").style.display="none";
+                document.getElementById("g_ssa_2_2").style.display="none";
+                document.getElementById("g_ssa_3_3").style.display="none";
+                document.getElementById("g_sea_1_1").style.display="none";
+                document.getElementById("g_sea_2_2").style.display="none";
+                
+            }
+        }
+        
+    </script>
+    </html>
