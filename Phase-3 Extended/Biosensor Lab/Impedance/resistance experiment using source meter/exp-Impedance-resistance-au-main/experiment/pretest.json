@@ -1,0 +1,74 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In MFC, the impedance refers to",
+      "answers": {
+        "a": "Total resistance to electrical current flow within the system.",
+        "b": "Total resistance to substrate utilization within the system",
+        "c": "Total number of transfer of electrons within the system.",
+        "d": "Total number of transfer of protons within the system."
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "2. Factors contributing to impedance in a MFC:",
+      "answers": {
+        "a": "Surface area of electrodes",
+        "b": "Spacing of electrodes",
+        "c": "Biofilm formation",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3. The higher surface area of the electrode materials contributes to:",
+      "answers": {
+        "a": "Higher impedance",
+        "b": "Higher resistance",
+        "c": "The lower efficiency of MFC",
+        "d": "The higher efficiency of MFC"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "4. The electrode material in the MFC should possess:",
+      "answers": {
+        "a": "Chemical stability",
+        "b": "Less electrical conductivity",
+        "c": "Low surface area",
+        "d": "None of the above"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Which of the following (s) contributes to impedance in the MFC ?",
+      "answers": {
+        "a": "Electrode distance",
+        "b": "Biofilm formation",
+        "c": "Temperature",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+</head>
+
+<body style="background-color:rgb(192, 192, 192);">
+    <div class='at-container'>
+        <img src="images\logo.png"
+            width="15%" height="4%" style="margin-left:1%; padding-top: 2%">
+
+        <div id='header'>Impedance/Resistance Experiment Using Source Meter</div>
+    </div>
+
+    <div class="main-container">
+
+        <div class="select-catholyte">
+            <label for="catholyte"><b>Select Catholyte:</b></label>
+            <select name="selectCatholyte" class="custom-select mb-3">
+                <option selected disabled>Select Catholyte</option>
+                <option value="KMnO4">KMnO4</option>
+                <option value="water">Water</option>
+            </select>
+        </div>
+        <div class="select-anode">
+            <label for="anode"><b>Anode:</b></label>
+            <select name="anodeSelect" id="anodeSelect" class="custom-select mb-3">
+                <option selected disabled>Select Electrode</option>
+
+                <option value="Graphite">Graphite</option>
+
+            </select>
+        </div>
+        <div class="select-cathode">
+            <label for="Cathode"><b>Cathode:</b></label>
+            <select name="cathodeSelect" class="custom-select mb-3">
+                <option selected disabled>Select Electrode</option>
+
+                <option value="Graphite">Graphite</option>
+
+            </select>
+        </div>
+        <div class="select-load">
+            <label for="microbialLoad"><b>Biofilm Formation:</b></label>
+            <select name="loadBiofilmSelect" class="custom-select mb-3">
+                <option disabled selected>Select Load</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+        <div class="select-distance">
+            <label for="electrodeDistance"><b>Electrode distance:</b></label>
+            <select name="distanceSelect" class="custom-select mb-3">
+                <option disabled selected>Select Distance</option>
+                <option value="Far">Far</option>
+                <option value="Close">Close</option>
+                <option value="Near">Near</option>
+
+            </select>
+        </div>
+        <div class="select-surface">
+            <label for="electrodeSurface"><b>Surface Area:</b></label>
+            <select name="surfaceSelect" class="custom-select mb-3">
+                <option disabled selected>Select Surface Area</option>
+                <option value="1x">1x </option>
+                <option value="2x">2x</option>
+                <option value="4x">4x</option>
+
+            </select>
+        </div>
+        <a href="index.html">
+            <button>Reset</button>
+          </a>  
+    </div>
+
+
+
+    <div class="image-container">
+        <img src="images\tabletop.png"
+            alt="micro fuel cell" class="centered">
+        <div class="color-overlay">
+            <p class="overlay-text1">Waste Water</p>
+            <p class="overlay-anolytetext"></p>
+        </div>
+
+        <div class="color-overlay1">
+            <h1 class="overlay-text2">KMnO4</h1>
+        </div>
+        <div class="color-overlay3">
+            <p class="overlay-text2">Water</p>
+        </div>
+        <div class="color-overlay2"></div>
+
+        <!-- biofilm low  -->
+        <div class="biofilm-overlay biofilm-overlay1"></div>
+        <div class="biofilm-overlay biofilm-overlay2"></div>
+        <div class="biofilm-overlay biofilm-overlay3"></div>
+        <div class="biofilm-overlay biofilm-overlay4"></div>
+
+        <!-- biofilm medium-->
+        <div class="biofilm-overlay biofilm-overlayMedium1"></div>
+        <div class="biofilm-overlay biofilm-overlayMedium2"></div>
+        <div class="biofilm-overlay biofilm-overlayMedium3"></div>
+        <div class="biofilm-overlay biofilm-overlayMedium4"></div>
+        <div class="biofilm-overlay biofilm-overlayMedium5"></div>
+        <div class="biofilm-overlay biofilm-overlayMedium6"></div>
+        <div class="biofilm-overlay biofilm-overlayMedium7"></div>
+        <div class="biofilm-overlay biofilm-overlayMedium8"></div>
+        <!--biofilm high-->
+        <div class="biofilm-overlay biofilm-overlayHigh1"></div>
+        <div class="biofilm-overlay biofilm-overlayHigh2"></div>
+        <div class="biofilm-overlay biofilm-overlayHigh3"></div>
+        <div class="biofilm-overlay biofilm-overlayHigh4"></div>
+        <div class="biofilm-overlay biofilm-overlayHigh5"></div>
+        <div class="biofilm-overlay biofilm-overlayHigh6"></div>
+        <div class="biofilm-overlay biofilm-overlayHigh7"></div>
+        <div class="biofilm-overlay biofilm-overlayHigh8"></div>
+
+        <div class="commonAnode-container">
+
+
+            <img src="images\graphite.png"
+                alt="Graphite" id="graphite-image">
+        </div>
+        <!--Far Anode graphite -->
+        <div class="commonAnodeFar-container">
+
+
+            <img src="images\graphite.png"
+                alt="Graphite" id="graphiteFar-image">
+        </div>
+        <!--Near cathode graphite -->
+        <div class="commonAnodeNear-container">
+
+
+            <img src="images\graphite.png"
+                alt="Graphite" id="graphiteNear-image">
+        </div>
+
+        <div class="commonAnodeDistance2X-container">
+            <img src="images\graphitebig.png"
+                alt="Graphite" id="graphiteDistance2X-image">
+        </div>
+
+        <div class="commonAnodeDistance4X-container">
+            <img src="images\graphitebig.png"
+                alt="Graphite" id="graphiteDistance4X-image">
+        </div>
+
+
+        <div class="commonCathode-container">
+
+
+            <img src="images\graphite.png"
+                alt="Graphite" id="cathodegraphite-image">
+
+        </div>
+        <!--Far cathode graphite -->
+        <div class="commonCathodeFar-container">
+
+
+            <img src="images\graphite.png"
+                alt="Graphite" id="cathodegraphiteFar-image">
+
+        </div>
+        <!--Near cathode graphite -->
+        <div class="commonCathodeNear-container">
+
+
+            <img src="images\graphite.png"
+                alt="Graphite" id="cathodegraphiteNear-image">
+
+        </div>
+
+
+        <div class="commonCathodeDistance2X-container">
+            <img src="images\graphitebig.png"
+                alt="Graphite" id="cathodegraphiteDistance2X-image">
+
+        </div>
+        <div class="commonCathodeDistance4X-container">
+            <img src="images\graphitebig.png"
+                alt="Graphite" id="cathodegraphiteDistance4X-image">
+
+        </div>
+
+
+
+
+        <div class="stand_image">
+            <img src="images\STAND.png"
+                alt="Stand Image" id="stand-image">
+
+        </div>
+        <div class="wire_image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wire-image">
+
+        </div>
+        <div class="wireFar_image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wireFar-image">
+
+        </div>
+        <!--wire Near-->
+        <div class="wireNear_image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wireNear-image">
+
+        </div>
+        <div class="wireDistance2x_image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wireDistance2x-image">
+
+        </div>
+        <div class="wireDistance4x_image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wireDistance4x-image">
+
+        </div>
+        <div class="wire2_image">
+            <img src="images\red_wire.png"
+                alt="redright wireimage" id="wire2-image">
+
+        </div>
+        <div class="wire2Far_image">
+            <img src="images\red_wire.png"
+                alt="redright wireimage" id="wire2Far-image">
+
+        </div>
+        <!--wire2 Near-->
+        <div class="wire2Near_image">
+            <img src="images\red_wire.png"
+                alt="redright wireimage" id="wire2Near-image">
+
+        </div>
+        <div class="wire2Distance2x_image">
+            <img src="images\red_wire.png"
+                alt="redright wireimage" id="wire2Distance2x-image">
+
+        </div>
+        <div class="wire2Distance4x_image">
+            <img src="images\red_wire.png"
+                alt="redright wireimage" id="wire2Distance4x-image">
+
+        </div>
+
+        <div class="bulb_image" id="bulb">
+            <img id="bulbOff-image"
+                src="images\BULB1.png">
+
+            <img id="bulbOn-image" style="display:none;"
+                src="images\bulb_on.png">
+
+            <img id="bulbOnLow-image" style="display:none;"
+                src="images\bulb_on.png">
+
+            <img id="bulbOnMedium-image" style="display:none;"
+                src="images\bulb_on.png">
+
+            <img id="bulbOnHigh-image" style="display:none;"
+                src="images\bulb_on.png">
+
+            <img id="bulbOn2X-image" style="display:none;"
+                src="images\bulb_on.png">
+
+            <img id="bulbOn4X-image" style="display:none;"
+                src="images\bulb_on.png">
+
+        </div>
+
+
+
+        <div id="electron1" class="electron"></div>
+        <div id="electron2" class="electron"></div>
+        <div id="electron3" class="electron"></div>
+
+        <div id="electron4" class="electron1"></div>
+        <div id="electron5" class="electron1"></div>
+        <div id="electron6" class="electron1"></div>
+        <div id="electron7" class="electron2"></div>
+        <div id="electron8" class="electron2"></div>
+        <div id="electron9" class="electron2"></div>
+        <div id="proton1" class="proton"></div>
+
+        <div id="electron10" class="electronFar"></div>
+        <div id="electron11" class="electronFar"></div>
+        <div id="electron12" class="electronFar"></div>
+
+        <div id="electron13" class="electronFarLeft"></div>
+        <div id="electron14" class="electronFarLeft"></div>
+        <div id="electron15" class="electronFarLeft"></div>
+
+        <div id="electron16" class="electronFarRight"></div>
+        <div id="electron17" class="electronFarRight"></div>
+        <div id="electron18" class="electronFarRight"></div>
+
+        <div id="electron19" class="electronFarTop"></div>
+        <div id="electron20" class="electronFarTop"></div>
+        <div id="electron21" class="electronFarTop"></div>
+        <div id="proton2" class="protonFar"></div>
+
+
+        <div id="electron22" class="electronNearTop"></div>
+        <div id="electron23" class="electronNearTop"></div>
+        <div id="electron24" class="electronNearTop"></div>
+
+        <div id="electron25" class="electronNearLeft"></div>
+        <div id="electron26" class="electronNearLeft"></div>
+        <div id="electron27" class="electronNearLeft"></div>
+
+        <div id="electron28" class="electronNearRight"></div>
+        <div id="electron29" class="electronNearRight"></div>
+        <div id="electron30" class="electronNearRight"></div>
+        <div id="proton3" class="protonNear"></div>
+
+
+
+        <div id="electron31" class="electronDistance2XTop"></div>
+        <div id="electron32" class="electronDistance2XTop"></div>
+        <div id="electron33" class="electronDistance2XTop"></div>
+
+        <div id="electron34" class="electronDistance2XLeft"></div>
+        <div id="electron35" class="electronDistance2XLeft"></div>
+        <div id="electron36" class="electronDistance2XLeft"></div>
+
+        <div id="electron37" class="electronDistance2XRight"></div>
+        <div id="electron38" class="electronDistance2XRight"></div>
+        <div id="electron39" class="electronDistance2XRight"></div>
+        <div id="proton4" class="protonDistance2X"></div>
+
+        <div id="electron40" class="electronDistance4XTop"></div>
+        <div id="electron41" class="electronDistance4XTop"></div>
+        <div id="electron42" class="electronDistance4XTop"></div>
+
+        <div id="electron43" class="electronDistance4XLeft"></div>
+        <div id="electron44" class="electronDistance4XLeft"></div>
+        <div id="electron45" class="electronDistance4XLeft"></div>
+
+        <div id="electron46" class="electronDistance4XRight"></div>
+        <div id="electron47" class="electronDistance4XRight"></div>
+        <div id="electron48" class="electronDistance4XRight"></div>
+        <div id="proton5" class="protonDistance4X"></div>
+
+    </div>
+
+
+
+
+    <script>
+
+        // hidding
+        var anodeDisplay = document.querySelector(".select-anode");
+        anodeDisplay.style.display = "none";
+        var cathodeDisplay = document.querySelector(".select-cathode");
+        cathodeDisplay.style.display = "none";
+        var biofilmFormation = document.querySelector(".select-load");
+        biofilmFormation.style.display = "none";
+        var surfaceArea = document.querySelector(".select-surface");
+        surfaceArea.style.display = "none";
+        var electrodeDistance = document.querySelector(".select-distance");
+        electrodeDistance.style.display = "none";
+        const wireLeft = document.querySelector('.wire_image');
+        wireLeft.style.display = 'none';
+
+        //hide biofilm low
+        var biofilm_overlay1 = document.querySelector('.biofilm-overlay1');
+        biofilm_overlay1.style.display = "none";
+        var biofilm_overlay2 = document.querySelector('.biofilm-overlay2');
+        biofilm_overlay2.style.display = "none";
+        var biofilm_overlay3 = document.querySelector('.biofilm-overlay3');
+        biofilm_overlay3.style.display = "none";
+        var biofilm_overlay4 = document.querySelector('.biofilm-overlay4');
+        biofilm_overlay4.style.display = "none";
+
+        var biofilm_overlayMedium1 = document.querySelector('.biofilm-overlayMedium1');
+        biofilm_overlayMedium1.style.display = "none";
+        var biofilm_overlayMedium2 = document.querySelector('.biofilm-overlayMedium2');
+        biofilm_overlayMedium2.style.display = "none";
+
+        var biofilm_overlayMedium3 = document.querySelector('.biofilm-overlayMedium3');
+        biofilm_overlayMedium3.style.display = "none";
+        var biofilm_overlayMedium4 = document.querySelector('.biofilm-overlayMedium4');
+        biofilm_overlayMedium4.style.display = "none";
+        var biofilm_overlayMedium5 = document.querySelector('.biofilm-overlayMedium5');
+        biofilm_overlayMedium5.style.display = "none";
+        var biofilm_overlayMedium6 = document.querySelector('.biofilm-overlayMedium6');
+        biofilm_overlayMedium6.style.display = "none";
+        var biofilm_overlayMedium7 = document.querySelector('.biofilm-overlayMedium7');
+        biofilm_overlayMedium7.style.display = "none";
+        var biofilm_overlayMedium8 = document.querySelector('.biofilm-overlayMedium8');
+        biofilm_overlayMedium8.style.display = "none";
+
+        var biofilm_overlayHigh1 = document.querySelector('.biofilm-overlayHigh1');
+        biofilm_overlayHigh1.style.display = "none";
+        var biofilm_overlayHigh2 = document.querySelector('.biofilm-overlayHigh2');
+        biofilm_overlayHigh2.style.display = "none";
+        var biofilm_overlayHigh3 = document.querySelector('.biofilm-overlayHigh3');
+        biofilm_overlayHigh3.style.display = "none";
+        var biofilm_overlayHigh4 = document.querySelector('.biofilm-overlayHigh4');
+        biofilm_overlayHigh4.style.display = "none";
+        var biofilm_overlayHigh5 = document.querySelector('.biofilm-overlayHigh5');
+        biofilm_overlayHigh5.style.display = "none";
+        var biofilm_overlayHigh6 = document.querySelector('.biofilm-overlayHigh6');
+        biofilm_overlayHigh6.style.display = "none";
+        var biofilm_overlayHigh7 = document.querySelector('.biofilm-overlayHigh7');
+        biofilm_overlayHigh7.style.display = "none";
+        var biofilm_overlayHigh8 = document.querySelector('.biofilm-overlayHigh8');
+        biofilm_overlayHigh8.style.display = "none";
+        //Anode Selection
+        var anodeSelect = document.querySelector('select[name="anodeSelect')
+        var cathodeSelect = document.querySelector('select[name="cathodeSelect')
+        var selectedAnode = anodeSelect.value;
+
+
+
+
+        // Get references to the images
+
+        var graphiteImage = document.getElementById('graphite-image');
+        var anodeSelect = document.getElementById("anodeSelect");
+        var graphiteImageFar = document.getElementById("graphiteFar-image");
+        var wireFarLeft = document.querySelector('.wireFar_image');
+        wireFarLeft.style.display = 'none';
+        var wire2RightFar = document.querySelector('.wire2Far_image');
+        wire2RightFar.style.display = 'none';
+        var cathodegraphiteFar_image = document.getElementById("cathodegraphiteFar-image");
+        cathodegraphiteFar_image.style.display = 'none';
+        var wireFarLeft = document.querySelector('.wireFar_image');
+        wireFarLeft.style.display = 'none';
+
+        var wireNearLeft = document.querySelector('.wireNear_image');
+        wireNearLeft.style.display = 'none';
+        var wireNearRight = document.querySelector('.wire2Near_image');
+        wireNearRight.style.display = 'none';
+
+        var graphiteImageNear = document.getElementById("graphiteNear-image");
+        var cathodeGraphiteImageNear = document.getElementById("cathodegraphiteNear-image");
+
+
+        var graphiteAnode2x = document.getElementById("graphiteDistance2X-image");
+        var graphiteCathode2x = document.getElementById("cathodegraphiteDistance2X-image");
+
+        var graphiteAnode4x = document.getElementById("graphiteDistance4X-image");
+        var graphiteCathode4x = document.getElementById("cathodegraphiteDistance4X-image");
+
+
+        var wireLeftDistance2X_4x = document.querySelector('.wireDistance2x_image');
+        wireLeftDistance2X_4x.style.display = 'none';
+        var wireLeftDistance_4X = document.querySelector('.wireDistance4x_image');
+        wireLeftDistance_4X.style.display = 'none';
+
+        var wire2RightDistance2X_4x = document.querySelector('.wire2Distance2x_image');
+        wire2RightDistance2X_4x.style.display = 'none';
+
+        var wire2RightDistance_4X = document.querySelector('.wire2Distance4x_image');
+        wire2RightDistance_4X.style.display = 'none';
+        // Add an event listener to the Anode select element
+        anodeSelect.addEventListener('change', function () {
+
+
+            // Get the selected option
+            var selectedAnode = anodeSelect.value;
+            var selectedCathode = cathodeSelect.value;
+
+            // Hide all images first
+            graphiteImage.style.display = 'none';
+            graphiteImageFar.style.display = 'none';
+
+
+            // Show the image for the selected Anode if it matches
+            if (selectedAnode === 'Graphite') {
+                graphiteImage.style.display = 'block';
+                wireLeft.style.display = 'block';
+
+
+            }
+            if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
+                document.getElementById("bulbOnMedium-image").style.display = "inline";
+                document.getElementById("bulbOff-image").style.display = "none";
+                biofilmFormation.style.display = "block";
+                surfaceArea.style.display = "block";
+                electrodeDistance.style.display = "block";
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+            } else {
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
+
+                document.getElementById("bulbOff-image").style.display = "inline";
+                document.getElementById("bulbOn-image").style.display = "none";
+                biofilmFormation.style.display = "none";
+                surfaceArea.style.display = "none";
+                electrodeDistance.style.display = "none";
+            }
+
+
+        });
+
+
+        //Cathode selection
+        var cathodecopperImage = document.getElementById('copper-image');
+        var cathodeGraphiteImage = document.getElementById('cathodegraphite-image');
+        const wireRightTop = document.querySelector('.wire2_image');
+        wireRightTop.style.display = 'none';
+
+
+
+        // Add an event listener to the Anode select element
+        cathodeSelect.addEventListener('change', function () {
+            // Get the selected option
+            var selectedCathode = cathodeSelect.value;
+
+            var selectedAnode = anodeSelect.value;
+            // Hide all images first
+
+            cathodeGraphiteImage.style.display = 'none';
+
+            wireRightTop.style.display = 'none';
+            // Show the image for the selected Anode if it matches
+            if (selectedCathode === 'Graphite') {
+                cathodeGraphiteImage.style.display = 'block';
+
+                wireRightTop.style.display = 'block';
+            }
+
+            if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
+                document.getElementById("bulbOnMedium-image").style.display = "inline";
+                document.getElementById("bulbOff-image").style.display = "none";
+                biofilmFormation.style.display = "block";
+                surfaceArea.style.display = "block";
+                electrodeDistance.style.display = "block";
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+            } else {
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
+
+                document.getElementById("bulbOff-image").style.display = "inline";
+                document.getElementById("bulbOn-image").style.display = "none";
+                biofilmFormation.style.display = "none";
+                surfaceArea.style.display = "none";
+                electrodeDistance.style.display = "none";
+            }
+
+        });
+
+
+        // catholyte select
+        var catholyteSelect = document.querySelector('select[name="selectCatholyte')
+
+        var catholyteKmNO4 = document.querySelector(".color-overlay1");
+        var catholyteWater = document.querySelector(".color-overlay3");
+
+
+        catholyteSelect.addEventListener('change', function () {
+            // Get the selected option
+            var selectedCatholyte = catholyteSelect.value;
+
+            // Hide all images first
+            catholyteKmNO4.style.display = 'none';
+            catholyteWater.style.display = 'none';
+
+            // Show the image for the selected Anode if it matches
+            if (selectedCatholyte === 'KMnO4') {
+                catholyteKmNO4.style.display = 'block';
+            }
+            else if (selectedCatholyte === 'water') {
+                catholyteWater.style.display = 'block';
+
+            }
+
+            anodeDisplay.style.display = "block";
+            cathodeDisplay.style.display = "block";
+
+        });
+
+        // biofilmFormations select
+        var biofilmFormations = document.querySelector('select[name="loadBiofilmSelect"]');
+
+        biofilmFormations.addEventListener('change', function () {
+            // Get the selected option
+            var selectedOption = biofilmFormations.value;
+            if (selectedOption === 'Low' || selectedOption === 'Medium' || selectedOption === 'High') {
+                surfaceArea.style.display = 'none';
+                electrodeDistance.style.display = 'none';
+            } else {
+                electrodeDistance.style.display = 'block';
+                surfaceArea.style.display = 'block';
+            }
+            // Show/hide elements based on the selected option
+            if (selectedOption === 'Low') {
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+                document.getElementById("bulbOnLow-image").style.display = "inline";
+                document.getElementById("bulbOnHigh-image").style.display = "none";
+                document.getElementById("bulbOff-image").style.display = "none";
+                document.getElementById("bulbOn-image").style.display = "none";
+                surfaceArea.style.display = 'none';
+                electrodeDistance.style.display = 'none';
+                biofilm_overlay1.style.display = 'block';
+                biofilm_overlay2.style.display = 'block';
+                biofilm_overlay3.style.display = 'block';
+                biofilm_overlay4.style.display = 'block';
+                biofilm_overlayMedium1.style.display = 'none';
+                biofilm_overlayMedium2.style.display = 'none';
+                biofilm_overlayMedium3.style.display = 'none';
+                biofilm_overlayMedium4.style.display = 'none';
+                biofilm_overlayMedium5.style.display = 'none';
+                biofilm_overlayMedium6.style.display = 'none';
+                biofilm_overlayMedium7.style.display = 'none';
+                biofilm_overlayMedium8.style.display = 'none';
+
+
+                biofilm_overlayHigh1.style.display = 'none';
+                biofilm_overlayHigh2.style.display = 'none';
+                biofilm_overlayHigh3.style.display = 'none';
+                biofilm_overlayHigh4.style.display = 'none';
+                biofilm_overlayHigh5.style.display = 'none';
+                biofilm_overlayHigh6.style.display = 'none';
+                biofilm_overlayHigh7.style.display = 'none';
+                biofilm_overlayHigh8.style.display = 'none';
+
+                const electrons = document.querySelectorAll('.electron');
+
+                function adjustSpeed(speed) {
+                    electrons.forEach(electron => {
+                        electron.style.animationDuration = `${5}s`;
+                    });
+                }
+
+                adjustSpeed(20);
+
+                const electrons1 = document.querySelectorAll('.electron1');
+
+                function adjustSpeed1(speed) {
+                    electrons1.forEach(electron => {
+                        electron.style.animationDuration = `${5}s`;
+                    });
+                }
+
+                adjustSpeed1(20);
+                const electrons2 = document.querySelectorAll('.electron2');
+
+                function adjustSpeed2(speed) {
+                    electrons2.forEach(electron => {
+                        electron.style.animationDuration = `${5}s`;
+                    });
+                }
+
+                adjustSpeed2(20);
+                const proton = document.querySelectorAll('.proton');
+
+                function adjustSpeed3(speed) {
+                    proton.forEach(proton => {
+                        proton.style.animationDuration = `${5}s`;
+                    });
+                }
+
+                adjustSpeed3(20);
+
+
+            } else if (selectedOption === 'Medium') {
+                document.getElementById("bulbOnMedium-image").style.display = "inline";
+                document.getElementById("bulbOnLow-image").style.display = "none";
+                document.getElementById("bulbOnHigh-image").style.display = "none";
+                document.getElementById("bulbOff-image").style.display = "none";
+                document.getElementById("bulbOn-image").style.display = "none";
+
+                biofilm_overlay1.style.display = 'block';
+                biofilm_overlay2.style.display = 'block';
+                biofilm_overlay3.style.display = 'block';
+                biofilm_overlay4.style.display = 'block';
+
+                biofilm_overlayMedium1.style.display = 'block';
+                biofilm_overlayMedium2.style.display = 'block';
+                biofilm_overlayMedium3.style.display = 'block';
+                biofilm_overlayMedium4.style.display = 'block';
+                biofilm_overlayMedium5.style.display = 'block';
+                biofilm_overlayMedium6.style.display = 'block';
+                biofilm_overlayMedium7.style.display = 'block';
+                biofilm_overlayMedium8.style.display = 'block';
+
+                biofilm_overlayHigh1.style.display = 'none';
+                biofilm_overlayHigh2.style.display = 'none';
+                biofilm_overlayHigh3.style.display = 'none';
+                biofilm_overlayHigh4.style.display = 'none';
+                biofilm_overlayHigh5.style.display = 'none';
+                biofilm_overlayHigh6.style.display = 'none';
+                biofilm_overlayHigh7.style.display = 'none';
+                biofilm_overlayHigh8.style.display = 'none';
+
+                const electrons = document.querySelectorAll('.electron');
+
+                function adjustSpeed(speed) {
+                    electrons.forEach(electron => {
+                        electron.style.animationDuration = `${10}s`;
+                    });
+                }
+
+                adjustSpeed(20);
+
+                const electrons1 = document.querySelectorAll('.electron1');
+
+                function adjustSpeed1(speed) {
+                    electrons1.forEach(electron => {
+                        electron.style.animationDuration = `${10}s`;
+                    });
+                }
+
+                adjustSpeed1(20);
+                const electrons2 = document.querySelectorAll('.electron2');
+
+                function adjustSpeed2(speed) {
+                    electrons2.forEach(electron => {
+                        electron.style.animationDuration = `${10}s`;
+                    });
+                }
+
+                adjustSpeed2(20);
+                const proton = document.querySelectorAll('.proton');
+
+                function adjustSpeed3(speed) {
+                    proton.forEach(proton => {
+                        proton.style.animationDuration = `${10}s`;
+                    });
+                }
+
+                adjustSpeed3(20);
+
+
+
+
+
+
+            } else if (selectedOption === 'High') {
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+                document.getElementById("bulbOnLow-image").style.display = "none";
+                document.getElementById("bulbOnHigh-image").style.display = "inline";
+                document.getElementById("bulbOff-image").style.display = "none";
+                document.getElementById("bulbOn-image").style.display = "none";
+
+                biofilm_overlayMedium1.style.display = 'block';
+                biofilm_overlayMedium2.style.display = 'block';
+                biofilm_overlayMedium3.style.display = 'block';
+                biofilm_overlayMedium4.style.display = 'block';
+                biofilm_overlayMedium5.style.display = 'block';
+                biofilm_overlayMedium6.style.display = 'block';
+                biofilm_overlayMedium7.style.display = 'block';
+                biofilm_overlayMedium8.style.display = 'block';
+                biofilm_overlayHigh1.style.display = 'block';
+                biofilm_overlayHigh2.style.display = 'block';
+                biofilm_overlayHigh3.style.display = 'block';
+                biofilm_overlayHigh4.style.display = 'block';
+                biofilm_overlayHigh5.style.display = 'block';
+                biofilm_overlayHigh6.style.display = 'block';
+                biofilm_overlayHigh7.style.display = 'block';
+                biofilm_overlayHigh8.style.display = 'block';
+                biofilm_overlay1.style.display = 'block';
+                biofilm_overlay2.style.display = 'block';
+                biofilm_overlay3.style.display = 'block';
+                biofilm_overlay4.style.display = 'block';
+
+                const electrons = document.querySelectorAll('.electron');
+
+                function adjustSpeed(speed) {
+                    electrons.forEach(electron => {
+                        electron.style.animationDuration = `${15}s`;
+                    });
+                }
+
+                adjustSpeed(20);
+
+                const electrons1 = document.querySelectorAll('.electron1');
+
+                function adjustSpeed1(speed) {
+                    electrons1.forEach(electron => {
+                        electron.style.animationDuration = `${15}s`;
+                    });
+                }
+
+                adjustSpeed1(20);
+                const electrons2 = document.querySelectorAll('.electron2');
+
+                function adjustSpeed2(speed) {
+                    electrons2.forEach(electron => {
+                        electron.style.animationDuration = `${15}s`;
+                    });
+                }
+
+                adjustSpeed2(20);
+                const proton = document.querySelectorAll('.proton');
+
+                function adjustSpeed3(speed) {
+                    proton.forEach(proton => {
+                        proton.style.animationDuration = `${15}s`;
+                    });
+                }
+
+                adjustSpeed3(20);
+
+
+            }
+
+
+        });
+
+        // electrodeDistances select
+
+
+        var electrodeDistances = document.querySelector('select[name="distanceSelect"]');
+
+        electrodeDistances.addEventListener('change', function () {
+            // Get the selected option
+            var selectedDistanceOption = electrodeDistances.value;
+
+            // Show/hide elements based on the selected option 
+            if (selectedDistanceOption === 'Far' || selectedDistanceOption === 'Close' || selectedDistanceOption === 'Near') {
+                biofilmFormation.style.display = 'none';
+                surfaceArea.style.display = 'none';
+            } else {
+                biofilmFormation.style.display = 'block';
+                surfaceArea.style.display = 'block';
+            }
+            if (selectedDistanceOption === 'Far') {
+                graphiteImageFar.style.display = 'block';
+                graphiteImage.style.display = 'none';
+                wireFarLeft.style.display = 'block';
+                wireLeft.style.display = 'none';
+                wire2RightFar.style.display = 'block';
+                cathodegraphiteFar_image.style.display = 'block';
+                cathodeGraphiteImage.style.display = 'none';
+                wireRightTop.style.display = 'none';
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
+                wireNearLeft.style.display = 'none';
+                wireNearRight.style.display = 'none';
+
+                electron10.style.display = 'block';
+                electron11.style.display = 'block';
+                electron12.style.display = 'block';
+
+                electron13.style.display = 'block';
+                electron14.style.display = 'block';
+                electron15.style.display = 'block';
+
+                electron16.style.display = 'block';
+                electron17.style.display = 'block';
+                electron18.style.display = 'block';
+                proton2.style.display = 'block';
+
+                wireNearLeft.style.display = 'none';
+                wireNearRight.style.display = 'none';
+                graphiteImageNear.style.display = 'none';
+                cathodeGraphiteImageNear.style.display = 'none';
+
+                electron22.style.display = 'none';
+                electron23.style.display = 'none';
+                electron24.style.display = 'none';
+                electron25.style.display = 'none';
+                electron26.style.display = 'none';
+                electron27.style.display = 'none';
+                electron28.style.display = 'none';
+                electron29.style.display = 'none';
+                electron30.style.display = 'none';
+                proton3.style.display = 'none';
+                document.getElementById("bulbOnHigh-image").style.display = "inline";
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+                document.getElementById("bulbOn4X-image").style.display = "none";
+            } else if (selectedDistanceOption === 'Close') {
+                graphiteImageFar.style.display = 'none';
+                graphiteImage.style.display = 'block';
+                wireFarLeft.style.display = 'none';
+                wireLeft.style.display = 'block';
+                wire2RightFar.style.display = 'none';
+                cathodegraphiteFar_image.style.display = 'none';
+                cathodeGraphiteImage.style.display = 'block';
+                wireRightTop.style.display = 'block';
+                electrodeDistance.style.display = "block";
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+                wireNearRight.style.display = 'none';
+
+
+                electron10.style.display = 'none';
+                electron11.style.display = 'none';
+                electron12.style.display = 'none';
+
+                electron13.style.display = 'none';
+                electron14.style.display = 'none';
+                electron15.style.display = 'none';
+
+                electron16.style.display = 'none';
+                electron17.style.display = 'none';
+                electron18.style.display = 'none';
+                proton2.style.display = 'none';
+
+                wireNearLeft.style.display = 'none';
+                wireNearRight.style.display = 'none';
+                graphiteImageNear.style.display = 'none';
+                cathodeGraphiteImageNear.style.display = 'none';
+
+
+                electron22.style.display = 'none';
+                electron23.style.display = 'none';
+                electron24.style.display = 'none';
+                electron25.style.display = 'none';
+                electron26.style.display = 'none';
+                electron27.style.display = 'none';
+                electron28.style.display = 'none';
+                electron29.style.display = 'none';
+                electron30.style.display = 'none';
+                proton3.style.display = 'none';
+                document.getElementById("bulbOnMedium-image").style.display = "inline";
+                document.getElementById("bulbOnHigh-image").style.display = "none";
+                document.getElementById("bulbOn4X-image").style.display = "none";
+            } else if (selectedDistanceOption === 'Near') {
+                graphiteImageFar.style.display = 'none';
+                graphiteImage.style.display = 'none';
+                wireFarLeft.style.display = 'none';
+                wireLeft.style.display = 'none';
+                wire2RightFar.style.display = 'none';
+                cathodegraphiteFar_image.style.display = 'none';
+                cathodeGraphiteImage.style.display = 'none';
+                wireRightTop.style.display = 'none';
+                electrodeDistance.style.display = "block";
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
+                wireNearRight.style.display = 'none';
+
+
+
+                electron10.style.display = 'none';
+                electron11.style.display = 'none';
+                electron12.style.display = 'none';
+
+                electron13.style.display = 'none';
+                electron14.style.display = 'none';
+                electron15.style.display = 'none';
+
+                electron16.style.display = 'none';
+                electron17.style.display = 'none';
+                electron18.style.display = 'none';
+                proton2.style.display = 'none';
+
+
+                wireNearLeft.style.display = 'block';
+                wireNearRight.style.display = 'block';
+                graphiteImageNear.style.display = 'block';
+                cathodeGraphiteImageNear.style.display = 'block';
+
+                electron22.style.display = 'block';
+                electron23.style.display = 'block';
+                electron24.style.display = 'block';
+                electron25.style.display = 'block';
+                electron26.style.display = 'block';
+                electron27.style.display = 'block';
+                electron28.style.display = 'block';
+                electron29.style.display = 'block';
+                electron30.style.display = 'block';
+                proton3.style.display = 'block';
+                document.getElementById("bulbOn4X-image").style.display = "inline";
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+                document.getElementById("bulbOnHigh-image").style.display = "none";
+            }
+
+
+        });
+
+
+        // surfaceArea select  
+
+        var surfaceAreaSelect = document.querySelector('select[name="surfaceSelect"]');
+
+        surfaceAreaSelect.addEventListener('change', function () {
+            // Get the selected option
+            var selectedSurfaceAreaOption = surfaceAreaSelect.value;
+
+            // Show/hide elements based on the selected option
+            if (selectedSurfaceAreaOption === '1x' || selectedSurfaceAreaOption === '2x' || selectedSurfaceAreaOption === '4x') {
+                biofilmFormation.style.display = 'none';
+                electrodeDistance.style.display = 'none';
+            } else {
+                biofilmFormation.style.display = 'block';
+                electrodeDistance.style.display = 'block';
+            }
+            if (selectedSurfaceAreaOption === '1x') {
+                document.getElementById("bulbOnMedium-image").style.display = "inline";
+                electron1.style.display = 'block';
+                electron2.style.display = 'block';
+                electron3.style.display = 'block';
+                electron4.style.display = 'block';
+                electron5.style.display = 'block';
+                electron6.style.display = 'block';
+                electron7.style.display = 'block';
+                electron8.style.display = 'block';
+                electron9.style.display = 'block';
+                proton1.style.display = 'block';
+
+                wireLeft.style.display = 'block';
+                wireRightTop.style.display = 'block';
+                graphiteImage.style.display = 'block';
+                cathodeGraphiteImage.style.display = 'block';
+
+                graphiteAnode4x.style.display = 'none';
+                graphiteCathode4x.style.display = 'none';
+                graphiteAnode2x.style.display = 'none';
+                graphiteCathode2x.style.display = 'none';
+
+
+                wireLeftDistance2X_4x.style.display = 'none';
+                wire2RightDistance2X_4x.style.display = 'none';
+
+                electron31.style.display = 'none';
+                electron32.style.display = 'none';
+                electron33.style.display = 'none';
+                electron34.style.display = 'none';
+                electron35.style.display = 'none';
+                electron36.style.display = 'none';
+                electron37.style.display = 'none';
+                electron38.style.display = 'none';
+                electron39.style.display = 'none';
+
+                electron40.style.display = 'none';
+                electron41.style.display = 'none';
+                electron42.style.display = 'none';
+                electron43.style.display = 'none';
+                electron44.style.display = 'none';
+                electron45.style.display = 'none';
+                electron46.style.display = 'none';
+                electron47.style.display = 'none';
+                electron48.style.display = 'none';
+                proton4.style.display = 'none';
+                proton5.style.display = 'none';
+
+                wireLeftDistance_4X.style.display = 'none';
+                wire2RightDistance_4X.style.display = 'none';
+                document.getElementById("bulbOn2X-image").style.display = "none";
+                document.getElementById("bulbOn4X-image").style.display = "none";
+
+            } else if (selectedSurfaceAreaOption === '2x') {
+
+                wireLeft.style.display = 'none';
+                wireRightTop.style.display = 'none';
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
+                graphiteAnode4x.style.display = 'none';
+                graphiteCathode4x.style.display = 'none';
+
+                graphiteAnode2x.style.display = 'block';
+                graphiteCathode2x.style.display = 'block';
+                wireLeftDistance2X_4x.style.display = 'block';
+                wire2RightDistance2X_4x.style.display = 'block';
+
+
+                graphiteImage.style.display = 'none';
+                cathodeGraphiteImage.style.display = 'none';
+                graphiteAnode4x.style.display = 'none';
+                graphiteCathode4x.style.display = 'none';
+                wireLeftDistance_4X.style.display = 'none';
+                wire2RightDistance_4X.style.display = 'none';
+
+                electron31.style.display = 'block';
+                electron32.style.display = 'block';
+                electron33.style.display = 'block';
+                electron34.style.display = 'block';
+                electron35.style.display = 'block';
+                electron36.style.display = 'block';
+                electron37.style.display = 'block';
+                electron38.style.display = 'block';
+                electron39.style.display = 'block';
+
+                electron40.style.display = 'none';
+                electron41.style.display = 'none';
+                electron42.style.display = 'none';
+                electron43.style.display = 'none';
+                electron44.style.display = 'none';
+                electron45.style.display = 'none';
+                electron46.style.display = 'none';
+                electron47.style.display = 'none';
+                electron48.style.display = 'none';
+                proton5.style.display = 'none';
+                proton4.style.display = 'block';
+
+                document.getElementById("bulbOn2X-image").style.display = "inline";
+                document.getElementById("bulbOn4X-image").style.display = "none";
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+            } else if (selectedSurfaceAreaOption === '4x') {
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
+                graphiteAnode2x.style.display = 'none';
+                graphiteCathode2x.style.display = 'none';
+                graphiteImage.style.display = 'none';
+                cathodeGraphiteImage.style.display = 'none';
+
+                graphiteAnode4x.style.display = 'block';
+                graphiteCathode4x.style.display = 'block';
+                wireLeft.style.display = 'none';
+                wireRightTop.style.display = 'none';
+                wireLeftDistance_4X.style.display = 'block';
+                wire2RightDistance_4X.style.display = 'block';
+                wireLeftDistance2X_4x.style.display = 'none';
+                wire2RightDistance2X_4x.style.display = 'none';
+
+                electron31.style.display = 'none';
+                electron32.style.display = 'none';
+                electron33.style.display = 'none';
+                electron34.style.display = 'none';
+                electron35.style.display = 'none';
+                electron36.style.display = 'none';
+                electron37.style.display = 'none';
+                electron38.style.display = 'none';
+                electron39.style.display = 'none';
+
+                proton4.style.display = 'none';
+
+
+                electron40.style.display = 'block';
+                electron41.style.display = 'block';
+                electron42.style.display = 'block';
+                electron43.style.display = 'block';
+                electron44.style.display = 'block';
+                electron45.style.display = 'block';
+                electron46.style.display = 'block';
+                electron47.style.display = 'block';
+                electron48.style.display = 'block';
+                proton5.style.display = 'block';
+
+                document.getElementById("bulbOn2X-image").style.display = "none";
+                document.getElementById("bulbOn4X-image").style.display = "inline";
+                document.getElementById("bulbOnMedium-image").style.display = "none";
+            }
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>
