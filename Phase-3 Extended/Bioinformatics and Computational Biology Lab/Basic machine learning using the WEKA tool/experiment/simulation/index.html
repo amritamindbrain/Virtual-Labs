@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>ARFF File Upload and Preprocess</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+  <div class='at-container'>
+    <img src="images/logo.png" width="300" height="100" style="margin-left:2%;">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <div id='header'>Basic Machine Learning using the WEKA tool</div><br><br><br>
+  </div>
+  <!-- <a href="#preprocess" class="w3-bar-item w3-button w3-padding-large w3-hide-small"></a> -->
+  <a href="#preprocess" id="preprocesss" class="w3-bar-item w3-button w3-padding-large"
+    onclick="preprocess(); toggleDivVisibilitys();"><b>Preprocess</b></a>
+  <a href="#classify" id="classifys" class="w3-bar-item w3-button w3-padding-larges disabled-link"
+    style="margin-left:2px;" onclick="classify(); toggleDivVisibility();"><b>Classify</b></a>
+
+
+
+  <div id="myDiv"
+  style="background-color: #d0d2d6; width: 100%; max-width: 1500px; margin-left: 200px; margin-right: auto; margin-bottom: auto; margin-top: auto;">
+    <br><br>
+    <br><br>
+    <div class="file-upload">
+      <label for="fileinput" style="font-size:18px;">Choose an ARFF file to upload</label>
+      <input type="file" id="fileinput" hidden>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" id="upbutton"
+        onclick="upload()">Upload</button><br><br><br>
+    </div>
+
+
+    <div id="current">
+      <button type="button" class="collapsible"></button>
+      <label for="currentRel"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Current Relation</b></label>
+      <div class="contents" style="text-align: left;"><br>
+        <table style="display: inline-block;">
+          <tr>
+            <td><textarea id="fileContent" cols="50" rows="10" disabled></textarea></td>
+          </tr><br>
+        </table>
+        <table style="display: inline-block; margin-left: 50px; vertical-align: 50px; ">
+          <tr>
+            <td><label for="Relation"><b>Relation:</b></label></td>
+            <td><label id="relation" name="relation" style="font-weight: bold;"></label></td>
+          </tr>
+          <tr>
+            <td><label for="Sumofweights"><b>Sum of weights:</b></label></td>
+            <td><label id="sumofweights" name="sumofweights" style="font-weight: bold;"></label></td>
+          </tr>
+          <tr>
+            <td><label for="Instances"><b>Instances:</b></label></td>
+            <td><label id="instance" name="instance" style="font-weight: bold;"></label></td>
+          </tr>
+          <tr>
+            <td><label for="attribute"><b>Attribute:</b></label></td>
+            <td><label id="attribute" name="attribute" style="font-weight: bold;"></label></td>
+          </tr>
+        </table>
+
+        <br><br>
+      </div>
+    </div>
+
+
+    <div id="attrribute">
+      <button type="button" class="collapsible">Select an Attribute</button>
+      <div class="content">
+
+        <ol id="myArrayElement"></ol>
+      </div>
+      <div id="allvalueoutput-container"></div>
+      <div id="label">
+        <label for="label1">Label</label>
+        <label for="label2">Count</label>
+      </div>
+
+
+    </div>
+
+
+    <div id="selected">
+      <button type="button" class="collapsible">Selected Attributes</button>
+      <div class="content" style="text-align: left;"><br>
+        </table>
+        <table style="display: inline-block; margin-left: 50px; vertical-align: top; ">
+          <tr>
+            <td><label for="Name"><b>Name:</b></label></td>
+            <td><label id="name" name="name" style="font-weight: bold;"></label></td>
+          </tr>
+          <tr>
+            <td><label for="Type"><b>Type:</b></label></td>
+            <td><label id="atype" name="atype" style="font-weight: bold;"></label></td>
+          </tr>
+          <tr>
+            <td><label for="Distinct"><b>Distinct:</b></label></td>
+            <td><label id="distinct" name="distinct" style="font-weight: bold;"></label></td>
+          </tr>
+
+        </table>
+        <div id="output-container" style="font-weight: bold; text-align: left;margin-left: 50px;"></div>
+
+
+      </div>
+    </div>
+
+
+    <div id="reset">
+      <input type="reset" id="resetbutton" value="Reset" onclick="reset()" /><br><br>
+    </div>
+  </div>
+
+
+
+  <div id="classifierSelection"
+    style="background-color: #d0d2d6; width: 100%; max-width: 1500px; margin-left: auto; margin-right: auto; margin-bottom: auto; margin-top: auto;"
+    class="container mt-3">
+    <div style="margin-left: 50px;"> <!-- Adjust the margin value as needed -->
+      <select name="classify" class="custom-select mb-3">
+        <option selected>Select a Classifier</option>
+        <option value="ZeroR">ZeroR</option>
+      </select>
+      <button type="reset" id="schemebutton" onclick="submitForm()"
+        style="background-color: #3284d1; color: white; height: 25px; padding: 5px; border-radius: 10px;">Submit</button>
+    </div>
+
+
+
+
+
+
+    <table id="classifyTableId" style="display: inline-block; margin-left: 50px; vertical-align: 60px; ">
+      <tr id="relationid">
+        <td><label for="Scheme"><b>Relation:</b></label></td>
+        <td><label id="relationClassify" name="relationClassify" style="font-weight: bold;"></label></td>
+      </tr>
+      <tr>
+        <td> <label for="instances"><b>Instances:</b></label></td>
+        <td><label id="instanceClassify" name="instanceClassify" style="font-weight: bold;"></label></td>
+      </tr>
+      <tr>
+        <td><label for="attributeClassify"><b>Attribute:</b></label></td>
+        <td><label id="attributeClassify" name="attributeClassify" style="font-weight: bold;"></label></td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><label for="attributeNameClassify" style="margin-top: -5px;"><b>Attribute
+              Names:</b></label></td>
+
+        <td><label id="attributeNameClassify" name="attributeClassify" style="font-weight: bold;"></label></td>
+      </tr>
+      <tr>
+        <td><label for="classifierZeroR"><b>ZeroR predicts class value :</b></label>
+        <td><label id="classifierZeroR" name="classifierZeroR" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="classifyTimeTaken"><b>Time taken to build model :</b></label>
+        <td><label id="classifyTimeTaken" name="classifyTimeTaken" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="classifyTimeTakenBuild"><b>Time taken to test model on training data :</b></label>
+        <td><label id="classifyTimeTakenBuild" name="classifyTimeTakenBuild" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="correctlyClassifieds"><b>Correctly Classified Instances</b></label>
+        <td><label id="correctlyClassifieds" name="correctlyClassifieds" style="font-weight: bold;"></label></td>
+        <td><label id="correctlyClassifiedPercentage" name="correctlyClassifiedPercentage"
+            style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="incorrectlyClassified"><b>Incorrectly Classified Instances</b></label>
+        <td><label id="incorrectlyClassified" name="incorrectlyClassified" style="font-weight: bold;"></label></td>
+        <td><label id="incorrectlyClassifiedpercentage" name="incorrectlyClassifiedpercentage"
+            style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="kappaStatistics"><b>Kappa Statistics:</b></label>
+        <td><label id="kappaStatistics" name="kappaStatistics" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="maeStatistics"><b>Mean absolute error :</b></label>
+        <td><label id="maeStatistics" name="maeStatistics" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="rmseStatistics"><b>Root Mean Squared Error:</b></label>
+        <td><label id="rmseStatistics" name="rmseStatistics" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="raeStatistics"><b>Relative absolute error :</b></label>
+        <td><label id="raeStatistics" name="raeStatistics" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="rrseStatistics"><b>Root relative squared error :</b></label>
+        <td><label id="rrseStatistics" name="raeStatistics" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="totalInstanceNumber"><b>Total Number of Instances:</b></label>
+        <td><label id="totalInstanceNumber" name="totalInstanceNumber" style="font-weight: bold;"></label></td>
+        </td>
+      </tr><br><br>
+      <tr>
+        <td><label for="tp_rate"><b>TP Rate</b></label>
+        <td><label id="tp_rate" name="tp_rate" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="tp_rate"><b>FP Rate</b></label>
+        <td><label id="fp_rate" name="fp_rate" style="font-weight: bold;"></label></td>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <pre id="matrixDisplay" style="display: inline-block; margin-left: 50px; vertical-align: 60px;"></pre>
+
+  </div>
+
+  <script>
+
+
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    document.getElementById('current').style.visibility = 'hidden';
+    document.getElementById('attrribute').style.visibility = 'hidden';
+    document.getElementById('selected').style.visibility = 'hidden';
+    document.getElementById('resetbutton').style.visibility = 'hidden';
+    document.getElementById('allvalueoutput-container').style.visibility = 'hidden';
+    document.getElementById('label').style.visibility = 'hidden';
+    document.getElementById("classifys").classList.add("disabled-link");
+
+    document.getElementById("classifyTableId").style.visibility = "hidden";
+    document.getElementById("classifierSelection").style.visibility = "hidden";
+
+    function preprocess() {
+      var elements = document.getElementsByClassName("file-upload");
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = "block";
+      }
+      document.getElementById('upbutton').style.visibility = 'visible';
+      document.getElementById("classifyTableId").style.visibility = "hidden";
+      document.getElementById("classifierSelection").style.visibility = "hidden";
+      document.getElementById('matrixDisplay').style.visibility = "hidden";
+      upload();
+
+
+    }
+
+
+    function upload() {
+      var data = null;
+      var fileInput = document.getElementById('fileinput');
+      var file = fileInput.files[0];
+      if (!file.name.endsWith('.arff')) {
+        alert('Please upload an ARFF file');
+        return;
+      }
+      var reader = new FileReader();
+
+      // Function to be executed when the FileReader loads the file
+      reader.onload = function (event) {
+        const arffData = event.target.result;
+
+        const datas = parseARFF(arffData);
+
+
+        const distinctValues = getDistinctValues(datas);
+
+        const allValues = getAllValues(datas);
+
+
+        data = reader.result;
+        document.getElementById('fileContent').value = data;
+        const lines = data.split('\n');
+
+
+
+        let dataStartIndex = -1;
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i].trim();
+          if (line.startsWith("@data") || line.startsWith("@DATA")) {
+            dataStartIndex = i + 1;
+            break;
+          }
+        }
+
+        if (dataStartIndex === -1) {
+          console.log("uploading");
+          return;
+        }
+
+        const dataLines = [];
+        for (let i = dataStartIndex; i < lines.length; i++) {
+          const line = lines[i].trim();
+          if (line === "" || line.startsWith("%")) {
+            continue;
+          }
+          dataLines.push(line);
+        }
+
+        const numInstances = dataLines.length;
+        document.getElementById('instance').textContent = numInstances;
+
+        var relationName = data.match(/@relation\s+'?([^'\n]+)'?\s*\n/i);
+        relationName = relationName[1];
+        document.getElementById('relation').textContent = relationName;
+
+        const attributeLines = data.match(/^@attribute\s.*|^@ATTRIBUTE\s.*/gm);
+
+        const attributeNames = attributeLines.map(line => line.split(/[\s{}]+/)[1].replace(/'/g, ''));
+
+
+        const numAttributes = attributeNames.length;
+        document.getElementById('attribute').textContent = numAttributes;
+        document.getElementById("sumofweights").textContent = numInstances;
+
+        let attributeType = {};
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i].trim();
+
+          if (line.startsWith('%') || line.length === 0) {
+            continue;
+          }
+
+          if (line.startsWith('@attribute')) {
+            const attributeInfo = line.split(/\s+/);
+            const attributeName = attributeInfo[1];
+            const attributeTypeString = attributeInfo[2];
+
+            let type;
+            if (attributeTypeString.startsWith('{')) {
+              type = 'nominal';
+            } else if (attributeTypeString === 'numeric' || attributeTypeString === 'real' || attributeTypeString === 'REAL') {
+              type = 'numeric';
+            } else {
+              type = 'string';
+            }
+
+            attributeType[attributeName] = type;
+          }
+        }
+
+        // Listing checkboxes with attribute names
+        const list = document.getElementById('myArrayElement');
+        list.innerHTML = attributeNames.map(i => `<li><input type="checkbox" data-type="${attributeType[i]}">${i}</li>`).join('');
+
+
+        // Select all checkboxes in a given list
+        const checkboxes = list.querySelectorAll('input[type="checkbox"]');
+
+        // Select the third collapsible element on the page
+        const collapsible3 = document.getElementsByClassName("collapsible")[2];
+
+        // Add a change event listener to each checkbox
+        checkboxes.forEach(checkbox => {
+          checkbox.addEventListener('change', () => {
+            if (checkbox.checked) {
+              // Uncheck all other checkboxes
+              checkboxes.forEach(otherCheckbox => {
+                if (otherCheckbox !== checkbox) {
+                  otherCheckbox.checked = false;
+                }
+              });
+
+              // Extract the attribute name and type from the checkbox and find its index
+              const attributeName = checkbox.parentNode.innerText.trim();
+              const attributeType = checkbox.getAttribute('data-type');
+              const attributeIndex = attributeNames.indexOf(attributeName);
+
+              // Extract the attribute data from the data lines and filter by the selected attribute
+              const attributeData = dataLines.map(line => {
+                const values = line.split(',');
+                const value = values[attributeIndex].trim();
+                return attributeType === 'numeric' ? parseFloat(value) : value;
+              });
+
+
+              // Display the distinct values and their counts in the output container
+              const outputContainer = document.getElementById('output-container');
+              outputContainer.innerHTML = '';
+              if (attributeType === 'numeric') {
+                const collapsibles = document.getElementsByClassName("collapsible");
+                const collapsible2 = collapsibles[1];
+                collapsible2.addEventListener("click", function () {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                    document.getElementById('allvalueoutput-container').style.visibility = 'hidden';
+                    document.getElementById('label').style.visibility = 'hidden';
+
+                  } else {
+                    content.style.display = "block";
+                    document.getElementById('allvalueoutput-container').style.visibility = 'visible';
+                    document.getElementById('label').style.visibility = 'visible';
+
+                  }
+                });
+                const minValue = Math.min(...attributeData);
+                const maxValue = Math.max(...attributeData);
+                const meanValue = attributeData.reduce((a, b) => a + b, 0) / attributeData.length;
+                const stdDeviation = Math.sqrt(attributeData.reduce((a, b) => a + (b - meanValue) ** 2, 0) / attributeData.length);
+
+                const minElement = document.createElement('div');
+                minElement.innerText = `Minimum: ${minValue}`;
+                outputContainer.appendChild(minElement);
+
+                const maxElement = document.createElement('div');
+                maxElement.innerText = `Maximum: ${maxValue}`;
+                outputContainer.appendChild(maxElement);
+
+                const meanElement = document.createElement('div');
+                meanElement.innerText = `Mean: ${meanValue.toFixed(2)}`;
+                outputContainer.appendChild(meanElement);
+
+                const stdDevElement = document.createElement('div');
+                stdDevElement.innerText = `Standard Deviation: ${stdDeviation.toFixed(2)}`;
+                outputContainer.appendChild(stdDevElement);
+
+                // Get the canvas element
+                const canvas = document.getElementById('bar-chart');
+                if (window.myChart) {
+                  window.myChart.destroy();
+                }
+
+                // Create the chart data
+                const chartData = {
+                  labels: ['Minimum', 'Maximum', 'Mean', 'Standard Deviation'],
+                  datasets: [{
+                    label: 'Values',
+                    data: [minValue, maxValue, meanValue, stdDeviation],
+                    backgroundColor: [
+                      'rgba(255, 99, 132, 0.8)',
+                      'rgba(54, 162, 235, 0.8)',
+                      'rgba(255, 206, 86, 0.8)',
+                      'rgba(75, 192, 192, 0.8)',
+                      'rgba(153, 102, 255, 0.8)',
+                      'rgba(255, 159, 64, 0.8)'
+                    ],
+                    borderColor: [
+                      'rgba(255, 99, 132, 1)',
+                      'rgba(54, 162, 235, 1)',
+                      'rgba(255, 206, 86, 1)',
+                      'rgba(75, 192, 192, 1)',
+                      'rgba(153, 102, 255, 1)',
+                      'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                  }]
+                };
+
+                const chartConfig = {
+                  type: 'bar',
+                  data: chartData,
+                  options: {
+                    scales: {
+                      yAxes: [{
+                        ticks: {
+                          beginAtZero: true
+                        }
+                      }]
+                    }
+                  }
+                };
+
+                const chartCanvas = document.createElement('canvas');
+                chartCanvas.id = 'numeric-chart';
+                outputContainer.appendChild(chartCanvas);
+
+                window.myChart = new Chart(chartCanvas, chartConfig);
+
+              } else if (attributeType === 'nominal') {
+
+                // Destroy old chart if it exists
+                if (window.myChart) {
+                  window.myChart.destroy();
+                }
+
+                // Count the distinct values in the attribute data
+                const valueCounts = {};
+                attributeData.forEach(value => {
+                  valueCounts[value] = (valueCounts[value] || 0) + 1;
+                });
+
+                // Display the value counts in the output container
+                Object.keys(valueCounts).forEach(value => {
+                  const count = valueCounts[value];
+                  const valueElement = document.createElement('div');
+                  valueElement.innerText = `${value}: ${count}`;
+                  outputContainer.appendChild(valueElement);
+
+
+                });
+
+                // Define new colors
+                const colors = [
+                  'rgba(255, 99, 132, 0.8)',
+                  'rgba(54, 162, 235, 0.8)',
+                  'rgba(255, 206, 86, 0.8)',
+                  'rgba(75, 192, 192, 0.8)',
+                  'rgba(153, 102, 255, 0.8)',
+                  'rgba(255, 159, 64, 0.8)'
+                ];
+
+                // Update chart data with new colors
+                const chartData = {
+                  labels: Object.keys(valueCounts),
+                  datasets: [{
+                    label: 'Values',
+                    data: Object.values(valueCounts),
+                    backgroundColor: colors,
+                    borderColor: colors,
+                    borderWidth: 1
+                  }]
+                };
+
+                // Use updated chart data to create the chart
+                const chartConfig = {
+                  type: 'bar',
+                  data: chartData,
+                  options: {
+                    scales: {
+                      yAxes: [{
+                        ticks: {
+                          beginAtZero: true
+                        }
+                      }]
+                    },
+                    title: {
+                      display: true,
+                      text: 'Value Counts by Category'
+                    },
+                    legend: {
+                      display: false
+                    }
+                  }
+                };
+                const chartCanvas = document.createElement('canvas');
+                chartCanvas.id = 'bar-chart-2';
+                outputContainer.appendChild(chartCanvas);
+                const myChart = new Chart(chartCanvas, chartConfig);
+
+              }
+              const outputContainers = document.getElementById('allvalueoutput-container');
+              outputContainers.innerHTML = '';
+              if (attributeType === 'numeric') {
+
+                document.getElementById('allvalueoutput-container').style.visibility = 'visible';
+                document.getElementById('label').style.visibility = 'visible';
+                const collapsibles = document.getElementsByClassName("collapsible");
+                const collapsible2 = collapsibles[1];
+                collapsible2.addEventListener("click", function () {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                    document.getElementById('allvalueoutput-container').style.visibility = 'hidden';
+                    document.getElementById('label').style.visibility = 'hidden';
+
+                  } else {
+                    content.style.display = "block";
+                    document.getElementById('allvalueoutput-container').style.visibility = 'visible';
+                    document.getElementById('label').style.visibility = 'visible';
+
+                  }
+                });
+                // Count the distinct values in the attribute data
+                const valueCounts = {};
+                attributeData.forEach(value => {
+                  valueCounts[value] = (valueCounts[value] || 0) + 1;
+                });
+
+                // Display the value counts in the output container
+                Object.keys(valueCounts).forEach(value => {
+                  const count = valueCounts[value];
+                  const valueElement = document.createElement('div');
+                  valueElement.innerHTML = `${value}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${count}`;
+                  outputContainers.appendChild(valueElement);
+                });
+
+              } else {
+                document.getElementById('allvalueoutput-container').style.visibility = 'hidden';
+                document.getElementById("label").style.visibility = 'hidden';
+              }
+
+              // Extract the distinct values for the selected attribute and update the UI elements
+              const distinctValuesForAttribute = distinctValues[attributeIndex];
+
+              const distinctLength = distinctValuesForAttribute.length;
+              document.getElementById('distinct').textContent = distinctLength;
+              document.getElementById('name').textContent = attributeName;
+              document.getElementById('atype').textContent = attributeType;
+
+              // Show the collapsible element
+              collapsible3.classList.add("active");
+              collapsible3.nextElementSibling.style.display = "block";
+              document.getElementById("classifys").classList.remove("disabled-link");
+
+            } else {
+              // Clear the UI elements and hide the collapsible element
+              document.getElementById('name').textContent = '';
+              document.getElementById('atype').textContent = '';
+              document.getElementById('distinct').textContent = '';
+              document.getElementById('output-container').textContent = '';
+              collapsible3.nextElementSibling.style.display = "none";
+              document.getElementById('allvalueoutput-container').style.visibility = 'hidden';
+              document.getElementById('label').style.visibility = 'hidden';
+
+
+
+            }
+          });
+        });
+
+        function parseARFF(arffData) {
+          const lines = arffData.split('\n');
+          let dataStart = 0;
+          for (let i = 0; i < lines.length; i++) {
+            if (lines[i].startsWith('@data')) {
+              dataStart = i + 1;
+              break;
+            }
+          }
+          const data = [];
+          for (let i = dataStart; i < lines.length; i++) {
+            if (!lines[i].startsWith('%') && lines[i].trim() !== '') {
+              const values = lines[i].split(',');
+              data.push(values);
+            }
+          }
+          return data;
+
+        }
+        //find distinct value
+        function getDistinctValues(data) {
+          const distinctValues = {};
+          for (let i = 0; i < data[0].length; i++) {
+            const attributeValues = new Set();
+            for (let j = 0; j < data.length; j++) {
+              attributeValues.add(data[j][i]);
+            }
+            distinctValues[i] = [...attributeValues];
+
+
+          }
+          return distinctValues;
+
+        }
+
+        function getAllValues(data) {
+          const allValues = {};
+          for (let i = 0; i < data[0].length; i++) {
+            const attributeValues = {};
+            for (let j = 0; j < data.length; j++) {
+              const value = data[j][i];
+              if (attributeValues.hasOwnProperty(value)) {
+                attributeValues[value]++;
+              } else {
+                attributeValues[value] = 1;
+              }
+            }
+            allValues[i] = attributeValues;
+
+          }
+          return allValues;
+
+        }
+
+      };
+      document.getElementById('current').style.visibility = 'visible';
+      document.getElementById('attrribute').style.visibility = 'visible';
+      document.getElementById('selected').style.visibility = 'visible';
+      document.getElementById('resetbutton').style.visibility = 'visible';
+      document.getElementById("classifys").classList.remove("disabled-link");
+
+      reader.readAsText(file);
+
+    }
+
+    function classify() {
+      document.getElementById('upbutton').style.visibility = 'hidden';
+      var elements = document.getElementsByClassName("file-upload");
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = "none";
+      }
+
+      document.getElementById('current').style.visibility = 'hidden';
+      document.getElementById('attrribute').style.visibility = 'hidden';
+      document.getElementById('selected').style.visibility = 'hidden';
+      document.getElementById('resetbutton').style.visibility = 'hidden';
+      document.getElementById('allvalueoutput-container').style.visibility = 'hidden';
+      document.getElementById('label').style.visibility = 'hidden';
+      document.getElementById("classifyTableId").style.visibility = "visible";
+      document.getElementById("classifierSelection").style.visibility = "visible";
+      document.getElementById('matrixDisplay').style.visibility = "visible";
+      //toggleDivVisibility();
+
+    }
+
+    //Classifying the dataset
+    function submitForm() {
+      var fileInput = document.getElementById('fileinput');
+      var file = fileInput.files[0];
+
+      var reader = new FileReader();
+
+      reader.onload = function (event) {
+        var arffData = event.target.result;
+        var data = reader.result;
+        document.getElementById('fileContent').value = data;
+        const lines = data.split('\n');
+        var relationName = data.match(/@relation\s+'?([^'\n]+)'?\s*\n/i);
+        relationName = relationName[1];
+        document.getElementById('relationClassify').textContent = relationName;
+
+        const startTime = performance.now();
+        const endTime = performance.now();
+        const timeTaken = endTime - startTime;
+        const instances = parseARFFData(arffData);
+        const zeroRModel = trainZeroRModel(instances);
+
+
+        const parsedData = ClassifyparseARFF(arffData);
+
+        // Perform ZeroR classification
+        const zeroRPrediction = zeroRClassification(parsedData);
+        const actualLabel = parsedData.labels;
+
+        const positiveClass = zeroRPrediction[0]; // Assuming the first prediction is the positive class
+        const fpRate = calculateFPR(actualLabel, zeroRPrediction, positiveClass);
+        const tpRate = calculateTPR(actualLabel, zeroRPrediction, positiveClass);
+        document.getElementById('tp_rate').textContent=tpRate;
+        document.getElementById('fp_rate').textContent=fpRate;
+        document.getElementById('classifierZeroR').textContent = zeroRModel;
+        document.getElementById('classifyTimeTaken').textContent = timeTaken + ' seconds';
+
+        const trainingPredictions = instances.map(instance => predictZeroR(zeroRModel, instance));
+        const testStartTime = performance.now();
+        const testEndTime = performance.now();
+        const timeTakenBuild = testEndTime - testStartTime;
+        document.getElementById('classifyTimeTakenBuild').textContent = timeTakenBuild + ' seconds'
+        // Calculate correctly classified instances
+        const actualLabels = instances.map(instance => instance[instance.length - 1]);
+        let correctlyClassified = 0;
+        for (let i = 0; i < actualLabels.length; i++) {
+          if (actualLabels[i] === trainingPredictions[i]) {
+            correctlyClassified++;
+          }
+        }
+        document.getElementById('correctlyClassifieds').textContent = correctlyClassified;
+        // Calculate correctly classified instances percentage
+        const percentageCorrectlyClassified = ((correctlyClassified / instances.length) * 100).toFixed(4);
+        document.getElementById('correctlyClassifiedPercentage').textContent = percentageCorrectlyClassified + ' %';
+
+
+        // Calculate incorrectly classified instances
+        const incorrectlyClassified = instances.length - correctlyClassified;
+        document.getElementById('incorrectlyClassified').textContent = incorrectlyClassified;
+
+        // Calculate percentage of incorrectly classified instances
+        const percentageIncorrectlyClassified = ((incorrectlyClassified / instances.length) * 100).toFixed(4);
+        document.getElementById('incorrectlyClassifiedpercentage').textContent = percentageIncorrectlyClassified + ' %';
+
+
+        // Calculate the Kappa statistic
+        const totalInstances = instances.length;
+        const totalAgreement = correctlyClassified / totalInstances;
+        const totalChanceAgreement = (1 / instances[0].length) * (1 / instances[0].length);
+        const kappa = (totalAgreement - totalChanceAgreement) / (1 - totalChanceAgreement);
+        const kappaWithoutDecimals = Math.floor(kappa);
+        document.getElementById('kappaStatistics').textContent = kappaWithoutDecimals;
+
+        // Calculate performance metrics
+        const actualLabels1 = instances.map(instance => parseFloat(instance[instance.length - 1]));
+        const mae = calculateMAE(trainingPredictions, actualLabels);
+        const rmse = calculateRMSE(trainingPredictions, actualLabels);
+        const rae = calculateRAE(trainingPredictions, actualLabels);
+        const rrse = calculateRRSE(trainingPredictions, actualLabels);
+
+
+        // Display the performance metrics in the respective <div> elements
+        document.getElementById('maeStatistics').textContent = mae;
+        document.getElementById('rmseStatistics').textContent = rmse;
+        document.getElementById('raeStatistics').textContent = rae + '%';
+        document.getElementById('rrseStatistics').textContent = rrse + "%";
+
+        // Total number of instance
+        document.getElementById('totalInstanceNumber').textContent = totalInstances;
+        let dataStartIndex = -1;
+        for (let i = 0; i < lines.length; i++) {
+          const line = lines[i].trim();
+          if (line.startsWith("@data") || line.startsWith("@DATA")) {
+            dataStartIndex = i + 1;
+            break;
+          }
+        }
+
+        if (dataStartIndex === -1) {
+          console.log("uploading");
+          return;
+        }
+
+        const dataLines = [];
+        for (let i = dataStartIndex; i < lines.length; i++) {
+          const line = lines[i].trim();
+          if (line === "" || line.startsWith("%")) {
+            continue;
+          }
+          dataLines.push(line);
+        }
+
+        const numInstances = dataLines.length;
+
+        document.getElementById('instanceClassify').textContent = numInstances;
+
+        const attributeLines = data.match(/^@attribute\s.*|^@ATTRIBUTE\s.*/gm);
+
+        const attributeNames = attributeLines.map(line => line.split(/[\s{}]+/)[1].replace(/'/g, ''));
+
+
+        const numAttributes = attributeNames.length;
+        document.getElementById('attributeClassify').textContent = numAttributes;
+        // Get the element with the ID "attributeNameClassify"
+        var attributeNameClassify = document.getElementById('attributeNameClassify');
+
+        // Check if the list already exists
+        var existingList = attributeNameClassify.querySelector('ul');
+        if (!existingList) {
+          // Create an unordered list element
+          var ul = document.createElement('ul');
+          ul.style.listStyleType = 'none';
+          // Align the list items to the left
+          ul.style.textAlign = 'left';
+          ul.style.paddingLeft = '0px';
+          ul.style.marginTop = '0px';
+          // Iterate through the attributeNames array and create list items
+          for (var i = 0; i < attributeNames.length; i++) {
+            var li = document.createElement('li');
+            li.textContent = attributeNames[i]; // Set the text content of the list item
+            ul.appendChild(li); // Append the list item to the unordered list
+          }
+          // Append the unordered list to the attributeNameClassify element
+          attributeNameClassify.appendChild(ul);
+        }
+
+
+
+
+
+        // Function to calculate the qxion matrix
+        function calculateConfusionMatrix(actual, predicted, classes) {
+          const matrix = {};
+
+          // Initialize matrix with zeros
+          for (const trueClass of classes) {
+            matrix[trueClass] = {};
+            for (const predictedClass of classes) {
+              matrix[trueClass][predictedClass] = 0;
+            }
+          }
+
+          // Fill in the matrix
+          for (let i = 0; i < actual.length; i++) {
+            const trueClass = actual[i];
+            const predictedClass = predicted[i];
+            matrix[trueClass][predictedClass]++;
+          }
+
+          return matrix;
+        }
+
+        // Implement the ZeroR algorithm
+        function zeroRClassifier(data) {
+          const classCounts = {};
+
+          // Count the occurrences of each class
+          for (const instance of data) {
+            const label = instance[instance.length - 1]; // Assuming the class is the last attribute
+            if (classCounts[label]) {
+              classCounts[label]++;
+            } else {
+              classCounts[label] = 1;
+            }
+          }
+
+          // Find the most frequent class
+          let mostFrequentClass = null;
+          let maxCount = -1;
+
+          for (const label in classCounts) {
+            if (classCounts[label] > maxCount) {
+              mostFrequentClass = label;
+              maxCount = classCounts[label];
+            }
+          }
+
+          // Create an array of predicted labels
+          const predictedLabels = new Array(data.length).fill(mostFrequentClass);
+
+          return predictedLabels;
+        }
+        // Function to parse ARFF data
+        function parseARFF(arffData) {
+          const lines = arffData.split('\n');
+          const data = [];
+          let inDataSection = false;
+
+          for (const line of lines) {
+            const trimmedLine = line.trim();
+
+            if (trimmedLine.startsWith('%')) {
+              continue; // Skip comments
+            } else if (trimmedLine.toLowerCase().startsWith('@data')) {
+              inDataSection = true;
+              continue;
+            } else if (inDataSection && trimmedLine !== '') {
+              const values = trimmedLine.split(',');
+              data.push(values);
+            }
+          }
+          return data;
+
+        }
+        // Parse ARFF data
+        const datas = parseARFF(arffData);
+
+        // Get the true labels from the dataset
+        const trueLabels = datas.map((instance) => instance[instance.length - 1]); // Assuming the class is the last attribute
+
+        // Get the unique class labels
+        const uniqueClasses = [...new Set(trueLabels)];
+
+        // Apply ZeroR to make predictions
+        const predictedLabels = zeroRClassifier(datas);
+
+        // Calculate the confusion matrix
+        const confusionMatrix = calculateConfusionMatrix(trueLabels, predictedLabels, uniqueClasses);
+
+
+        // Get class labels automatically    
+        const classLabels = Object.keys(confusionMatrix);
+
+        const firstLetters = classLabels.map(label => label.charAt(0));
+
+        // Display the confusion matrix
+        const matrixDisplay = document.getElementById('matrixDisplay');
+       
+        matrixDisplay.innerHTML = '<h2>Confusion Matrix:</h2>' + firstLetters.join("\t") + " <-- classified as\n";
+
+        for (const trueClass in confusionMatrix) {
+          const row = classLabels.map(predictedClass => confusionMatrix[trueClass][predictedClass]);
+          const label = trueClass.charAt(0); // Extract the first character as the label (a, b, c, ...)
+        
+          matrixDisplay.innerHTML += row.join("\t") + ` |   ${label} = ${trueClass}\n`;
+          console.log(matrixDisplay.innerHTML);
+        }
+      };
+
+      reader.readAsText(file);
+    }
+
+    // classify
+
+
+    function calculateMAE(predictions, actualLabels1) {
+      if (predictions.length !== actualLabels1.length) {
+        throw new Error("Number of predictions and actual labels must be the same.");
+      }
+
+      let absoluteErrorsSum = 0;
+      for (let i = 0; i < predictions.length; i++) {
+        const predictedValue = parseFloat(predictions[i]);
+        const actualValue = parseFloat(actualLabels1[i]);
+
+        // Check if both predictedValue and actualValue are valid numbers before calculating MAE
+        if (!isNaN(predictedValue) && !isNaN(actualValue)) {
+          const absoluteError = Math.abs(actualValue - predictedValue);
+          absoluteErrorsSum += absoluteError;
+        }
+      }
+
+      // Calculate the MAE only if there are valid values
+      const mae = predictions.length > 0 ? absoluteErrorsSum / predictions.length : 0;
+      return mae;
+    }
+
+    function calculateRMSE(predictions, actualLabels) {
+      if (predictions.length !== actualLabels.length) {
+        throw new Error("Number of predictions and actual labels must be the same.");
+      }
+
+      let squaredErrorsSum = 0;
+      for (let i = 0; i < predictions.length; i++) {
+        const predictedValue = parseFloat(predictions[i]);
+        const actualValue = parseFloat(actualLabels[i]);
+
+        // Check if both predictedValue and actualValue are valid numbers before calculating RMSE
+        if (!isNaN(predictedValue) && !isNaN(actualValue)) {
+          const squaredError = Math.pow(actualValue - predictedValue, 2);
+          squaredErrorsSum += squaredError;
+        }
+      }
+
+      // Calculate the RMSE only if there are valid values
+      const rmse = predictions.length > 0 ? Math.sqrt(squaredErrorsSum / predictions.length) : 0;
+      return rmse;
+    }
+
+    // Function to calculate Relative Absolute Error (RAE)
+    function calculateRAE(predictions, actualLabels) {
+      if (predictions.length !== actualLabels.length) {
+        throw new Error("Number of predictions and actual labels must be the same.");
+      }
+
+      let absoluteErrorsSum = 0;
+      let actualValuesSum = 0;
+
+      for (let i = 0; i < predictions.length; i++) {
+        const predictedValue = parseFloat(predictions[i]);
+        const actualValue = parseFloat(actualLabels[i]);
+
+        // Check if both predictedValue and actualValue are valid numbers before calculating RAE
+        if (!isNaN(predictedValue) && !isNaN(actualValue)) {
+          const absoluteError = Math.abs(actualValue - predictedValue);
+          absoluteErrorsSum += absoluteError;
+          actualValuesSum += Math.abs(actualValue);
+        }
+      }
+
+      // Calculate the RAE only if there are valid values
+
+      const rae = actualValuesSum > 0 ? (absoluteErrorsSum / actualValuesSum) * 100 : 100;
+      return rae;
+    }
+
+    function calculateRRSE(predictions, actualLabels) {
+      if (predictions.length !== actualLabels.length) {
+        throw new Error("Number of predictions and actual labels must be the same.");
+      }
+
+      let squaredErrorsSum = 0;
+      let actualValuesSum = 0;
+
+      for (let i = 0; i < predictions.length; i++) {
+        const predictedValue = parseFloat(predictions[i]);
+        const actualValue = parseFloat(actualLabels[i]);
+
+        // Check if both predictedValue and actualValue are valid numbers before calculating RRSE
+        if (!isNaN(predictedValue) && !isNaN(actualValue)) {
+          const squaredError = Math.pow(actualValue - predictedValue, 2);
+          squaredErrorsSum += squaredError;
+          actualValuesSum += Math.pow(actualValue, 2);
+        }
+      }
+
+      // Calculate the RRSE only if there are valid values
+      const rrse = actualValuesSum > 0 ? (Math.sqrt(squaredErrorsSum / actualValuesSum)) * 100 : 100;
+      return rrse;
+    }
+
+    function parseARFFData(arffData) {
+      const instances = [];
+      const lines = arffData.split(/\r?\n/);
+      let dataSection = false;
+
+      for (let line of lines) {
+        line = line.trim();
+
+        if (line === "@data") {
+          dataSection = true;
+          continue;
+        }
+
+        if (dataSection && line !== "") {
+          const instance = line.split(",");
+          instances.push(instance);
+        }
+      }
+
+      return instances;
+    }
+
+    // Function to train ZeroR model and find the majority class
+    function trainZeroRModel(data) {
+      const classCounts = {};
+      data.forEach((instance) => {
+        const classLabel = instance[instance.length - 1]; // Assuming class label is in the last column
+        classCounts[classLabel] = (classCounts[classLabel] || 0) + 1;
+      });
+
+      let majorityClass = null;
+      let majorityClassCount = 0;
+      for (const classLabel in classCounts) {
+        if (classCounts[classLabel] > majorityClassCount) {
+          majorityClass = classLabel;
+          majorityClassCount = classCounts[classLabel];
+        }
+      }
+
+      return majorityClass;
+    }
+ function ClassifyparseARFF(datas) {
+            const lines = datas.split('\n');
+            let headerSection = true;
+            const parsedData = {
+                attributes: [],
+                labels: [],
+                datas: [],
+            };
+
+            for (let line of lines) {
+                line = line.trim();
+
+                if (line === '') {
+                    headerSection = false;
+                    continue;
+                }
+
+                if (headerSection) {
+                    if (line.toLowerCase().startsWith('@attribute')) {
+                        const attributeName = line.match(/@attribute\s+'([^']+)'/i);
+                        if (attributeName) {
+                            parsedData.attributes.push(attributeName[1]);
+                        }
+                    } else if (line.toLowerCase().startsWith('@data')) {
+                        headerSection = false;
+                    }
+                } else {
+                    const dataValues = line.split(',');
+                    parsedData.datas.push(dataValues);
+                    parsedData.labels.push(dataValues[dataValues.length - 1]);
+                }
+            }
+
+            return parsedData;
+        }
+
+        function zeroRClassification(datas) {
+            const classCounts = {};
+            datas.labels.forEach(label => {
+                if (!classCounts[label]) {
+                    classCounts[label] = 0;
+                }
+                classCounts[label]++;
+            });
+
+            let mostFrequentClass = null;
+            let maxCount = -1;
+
+            for (const classLabel in classCounts) {
+                if (classCounts[classLabel] > maxCount) {
+                    mostFrequentClass = classLabel;
+                    maxCount = classCounts[classLabel];
+                }
+            }
+
+            return Array(datas.labels.length).fill(mostFrequentClass);
+        }
+
+        function calculateFPR(actualLabel, predictedLabels, positiveClass) {
+            if (actualLabel.length !== predictedLabels.length) {
+                throw new Error("Input arrays must have the same length.");
+            }
+
+            let trueNegatives = 0;
+            let falsePositives = 0;
+
+            for (let i = 0; i < actualLabel.length; i++) {
+                if (actualLabel[i] !== positiveClass) {
+                    if (predictedLabels[i] === positiveClass) {
+                        falsePositives++;
+                    } else {
+                        trueNegatives++;
+                    }
+                }
+            }
+
+            const fpRate = falsePositives / (falsePositives + trueNegatives);
+            return fpRate;
+        }
+
+        function calculateTPR(actualLabel, predictedLabels, positiveClass) {
+            if (actualLabel.length !== predictedLabels.length) {
+                throw new Error("Input arrays must have the same length.");
+            }
+
+            let truePositives = 0;
+            let falseNegatives = 0;
+
+            for (let i = 0; i < actualLabel.length; i++) {
+                if (actualLabel[i] === positiveClass) {
+                    if (predictedLabels[i] === positiveClass) {
+                        truePositives++;
+                    } else {
+                        falseNegatives++;
+                    }
+                }
+            }
+
+            const tpRate = truePositives / (truePositives + falseNegatives);
+            return tpRate;
+        }
+    // Function to predict using ZeroR model
+    function predictZeroR(model, instance) {
+      return model; // Always return the majority class label
+    }
+    function toggleDivVisibility() {
+      var classifierDiv = document.getElementById("myDiv");
+
+      classifierDiv.style.display = "none";
+    }
+    function toggleDivVisibilitys() {
+      var classifierDiv = document.getElementById("myDiv");
+      classifierDiv.style.display = "block";
+    }
+
+
+
+
+
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+
+    function reset() {
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].classList.remove("active");
+        coll[i].nextElementSibling.style.display = "none";
+      }
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+
+      document.getElementById("fileContent").value = "";
+      document.getElementById("relation").innerHTML = "";
+      document.getElementById("sumofweights").innerHTML = "";
+      document.getElementById("instance").innerHTML = "";
+      document.getElementById("attribute").innerHTML = "";
+      document.getElementById("myArrayElement").innerHTML = "";
+      document.getElementById("name").innerHTML = "";
+      document.getElementById("atype").innerHTML = "";
+      document.getElementById("distinct").innerHTML = "";
+      document.getElementById("output-container").innerHTML = "";
+      document.getElementById("allvalueoutput-container").innerHTML = "";
+      document.getElementById("label").value = "";
+      document.getElementById('current').style.visibility = 'hidden';
+      document.getElementById('attrribute').style.visibility = 'hidden';
+      document.getElementById('selected').style.visibility = 'hidden';
+      document.getElementById('resetbutton').style.visibility = 'hidden';
+      document.getElementById("allvalueoutput-container").style.visibility = 'hidden';
+      document.getElementById("label").style.visibility = 'hidden';
+      document.getElementById("classifys").classList.add("disabled-link");
+
+      // Classification reset
+      const relationLabel = document.getElementById("relationClassify");
+      const instanceLabel = document.getElementById("instanceClassify");
+      const attributeLabel = document.getElementById("attributeClassify");
+      const attributeNameLabel = document.getElementById("attributeNameClassify");
+      const zeroRLabel = document.getElementById("classifierZeroR");
+      const timeTakenLabel = document.getElementById("classifyTimeTaken");
+      const timeTakenBuildLabel = document.getElementById("classifyTimeTakenBuild");
+      const correctlyClassifiedLabel = document.getElementById("correctlyClassifieds");
+      const correctlyClassifiedPercentageLabel = document.getElementById("correctlyClassifiedPercentage");
+      const incorrectlyClassifiedLabel = document.getElementById("incorrectlyClassified");
+      const incorrectlyClassifiedPercentageLabel = document.getElementById("incorrectlyClassifiedpercentage");
+      const kappaStatisticsLabel = document.getElementById("kappaStatistics");
+      const maeStatisticsLabel = document.getElementById("maeStatistics");
+      const rmseStatisticsLabel = document.getElementById("rmseStatistics");
+      const raeStatisticsLabel = document.getElementById("raeStatistics");
+      const rrseStatisticsLabel = document.getElementById("rrseStatistics");
+      const totalInstanceNumberLabel = document.getElementById("totalInstanceNumber");
+      const tpRateLabel = document.getElementById("tp_rate");
+
+      // Reset the inner text of the labels to initial values//
+      relationLabel.innerText = "";
+      instanceLabel.innerText = "";
+      attributeLabel.innerText = "";
+      attributeNameLabel.innerText = "";
+      zeroRLabel.innerText = "";
+      timeTakenLabel.innerText = "";
+      timeTakenBuildLabel.innerText = "";
+      correctlyClassifiedLabel.innerText = "";
+      correctlyClassifiedPercentageLabel.innerText = "";
+      incorrectlyClassifiedLabel.innerText = "";
+      incorrectlyClassifiedPercentageLabel.innerText = "";
+      kappaStatisticsLabel.innerText = "";
+      maeStatisticsLabel.innerText = "";
+      rmseStatisticsLabel.innerText = "";
+      raeStatisticsLabel.innerText = "";
+      rrseStatisticsLabel.innerText = "";
+      totalInstanceNumberLabel.innerText = "";
+      tpRateLabel.innerText = "";
+
+      // confusion matrix reset
+      const matrixDisplay = document.getElementById("matrixDisplay");
+      matrixDisplay.innerText = "";
+      //filter selection reset
+      document.querySelector('select[name="classify"]').selectedIndex = 0;
+
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    }
+
+  </script>
+</body>
+
+</html>

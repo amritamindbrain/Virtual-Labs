@@ -1,0 +1,206 @@
+button {
+  background-color: #3284d1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+/* Style the file input and upload button */
+#fileInput {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.collapsible {
+  background-color: #5c5c68;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 10px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #249dbb;
+
+}
+
+.contents {
+  padding: 0 18px;
+  display: block;
+  overflow: hidden;
+  background-color: #d0d2d6;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #d0d2d6;
+}
+
+/* Disable the preprocess button by default */
+.align-right {
+  display: block;
+  text-align: center;
+}
+
+input[type=reset] {
+  background-color: #909290;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 5000px;
+}
+
+
+#header {
+  color: #4f2037;
+  font-weight: bold;
+  font-size: 46px;
+  justify-content: center;
+  text-decoration-color: #4f2037;
+  position: relative;
+  align-items: center;
+  margin-left: 1%;
+  padding-top: 30px;
+}
+
+div.at-container {
+  display: flex;
+}
+
+label[for="fileinput"] {
+  background-color: rgb(2, 79, 129);
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 200px;
+  width: 200px;
+  height: 50px;
+  border-radius: 180px;
+  position: relative;
+  cursor: pointer;
+  line-height: 12px;
+  text-align: center;
+}
+
+.file-upload {
+  text-align: center;
+}
+
+button[type="button"] {
+  background-color: rgb(2, 79, 129);
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 180px;
+  position: relative;
+  cursor: pointer;
+  line-height: 12px;
+  text-align: center;
+}
+
+#upbutton {
+  background-color: rgb(170, 22, 121);
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border-radius: 180px;
+  position: relative;
+  cursor: pointer;
+  line-height: 12px;
+  text-align: center;
+}
+
+#resetbutton {
+  background-color: rgb(170, 22, 121);
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border-radius: 180px;
+  position: relative;
+  cursor: pointer;
+  line-height: 12px;
+  text-align: center;
+  margin-left: 320px;
+}
+
+.hidden {
+  display: none;
+}
+
+#fileContent,
+#relation,
+#sumofweights,
+#instance,
+#attribute,
+#name,
+#atype,
+#distinct {
+  margin-bottom: 10px;
+}
+
+#current {
+  margin-left: 300px;
+  margin-bottom:-20px;
+}
+
+#attrribute {
+  margin-left: 320px;
+}
+
+#selected {
+  margin-left: 320px;
+}
+#current button.collapsible {
+  display: none;
+}
+
+#fileContent {
+  margin-top: -35px;
+}
+#output-container {
+  font-weight: bold;
+  /* background-color: #f0f0f0; */
+  border: 1px solid #080808;
+  padding: 10px;
+  margin-top: 10px;
+  width: 300px;;
+  background-color: #f1f1f1;
+}

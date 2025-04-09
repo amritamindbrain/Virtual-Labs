@@ -1,0 +1,58 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the file format used in WEKA?",
+      "answers": {
+        "a": ".txt",
+        "b": ".xlsx",
+        "c": ".arff",
+        "d": ".fasta"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Different panels in WEKA include",
+      "answers": {
+        "a": "Classify",
+        "b": "Cluster",
+        "c": "Associate",
+        "d": "All the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Visualisation of data in WEKA can be done via bar charts or dot plots",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For which learning is class label used?",
+      "answers": {
+        "a": "Supervised",
+        "b": "Unsupervised",
+        "c": "Semi supervised ",
+        "d": "Reinforcement"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "WEKA is",
+      "answers": {
+        "a": "Waikato Explorer for Knowledge Analysis",
+        "b": "Western Environment for Knowledge Analysis",
+        "c": "Waikato Explorer for Knowledge Atlas",
+        "d": "Waikato Environment for Knowledge Analysis"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}

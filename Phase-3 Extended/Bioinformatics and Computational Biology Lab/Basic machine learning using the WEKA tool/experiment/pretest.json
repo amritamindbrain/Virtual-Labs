@@ -1,0 +1,58 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which among this is a Machine Learning Model?",
+      "answers": {
+        "a": "Supervised",
+        "b": "Unsupervised",
+        "c": "Reinforment",
+        "d": "All the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which among this is not a basic component of machine learning?",
+      "answers": {
+        "a": "Data",
+        "b": "Data preprocessing",
+        "c": "Model",
+        "d": "Training and Testing"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "AI is a subset of machine learning",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For which learning is class label used?",
+      "answers": {
+        "a": "Supervised",
+        "b": "Unsupervised",
+        "c": "Semi supervised ",
+        "d": "Reinforcement"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which among this is a clustering algorithm?",
+      "answers": {
+        "a": "SVM",
+        "b": "Naive Bayec",
+        "c": "k-means ",
+        "d": "NN"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
