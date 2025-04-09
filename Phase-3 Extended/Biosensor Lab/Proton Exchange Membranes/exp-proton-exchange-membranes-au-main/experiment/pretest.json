@@ -1,0 +1,70 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1) Protons and electrons are produced in",
+      "answers": {
+        "a": "Cathodic chamber",
+        "b": "Anodic chamber",
+        "c": "Proton exchange membrane",
+        "d": "External circuit"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2) Function(s) of proton exchange membrane in MFC.",
+      "answers": {
+        "a": "Transfer of e- from the anode compartment to the cathode compartment",
+        "b": "Transfer of nutrients for the growth of microorganisms for bioelectricity production",
+        "c": "Transfer of H+ ions from the anode compartment to the cathode compartment",
+        "d": "Facilitating the metabolism of microorganisms in the anode compartment"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3) Example(s) of PEM",
+      "answers": {
+        "a": "Nafion",
+        "b": "Water",
+        "c": "KMO4",
+        "d": "Buffer"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4) In MFC construction, which of the following should be kept anaerobic ? ",
+      "answers": {
+        "a": "Proton Exchange Membrane",
+        "b": "Cathodic compartment",
+        "c": "Anodic compartment",
+        "d": "Electrodes"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "5) Features of a good PEM",
+      "answers": {
+        "a": "Stability",
+        "b": "Durability",
+        "c": "Conductivity",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+
+  ]
+}

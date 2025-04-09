@@ -1,0 +1,70 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1) The voltage measured in the simulator with the combinations Anolyte: Wastewater, PEM: Nutrient agar with Bacillus subtilis, Catholyte: KMO4, Anode: Aluminium, Cathode: Copper, Time: 24hrs",
+      "answers": {
+        "a": "1.0019V",
+        "b": "1.0013V",
+        "c": "1.0001V",
+        "d": "1.0015V"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2) Best electrode combinations used in the simulator to produce maximum voltage ?",
+      "answers": {
+        "a": "Aluminium-Copper",
+        "b": "Graphite-Graphite",
+        "c": "Stainless steel-Copper",
+        "d": "Aluminium-Graphite"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3) The maximum output voltage is obtained at what time duration when using the combinations PEM as Nafion, Catholyte as Water, and Graphite-Graphite electrode combination in the simulator",
+      "answers": {
+        "a": "No change in voltage over time",
+        "b": "24hrs",
+        "c": "72hrs",
+        "d": "48hrs"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4) Microorganisms are found in",
+      "answers": {
+        "a": "Cathodic chamber",
+        "b": "Anodic chamber",
+        "c": "Proton Exchange Membrane",
+        "d": "External circuit"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "5) The maximum output is generated with which of the following combinations ?",
+      "answers": {
+        "a": "PEM as Nutrient agar with Bacillus subtilis and Aluminium-Copper Electrodes at 48hrs",
+        "b": "PEM as Nutrient agar with Bacillus subtilis and Graphite-Graphite Eletrodes at 72hrs",
+        "c": "PEM as Nafion and Aluminium-Copper Electrodes at 48hrs",
+        "d": "PEM as Nafion and Graphite-Graphite Electrodes at 24hrs"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+
+  ]
+}
