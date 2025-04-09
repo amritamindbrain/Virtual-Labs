@@ -1,0 +1,72 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Caulobacter crescentus is ?",
+      "answers": {
+        "a": "gram-positive, oligotrophic microorganism",
+        "b": "gram-positive, heterotrophic microorganism",
+        "c": "gram-negative, oligotrophic microorganism",
+        "d": "gram-negative, heterotrophic microorganism"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "2. In simulator, the transfer of electrons in MFC is denoted by ",
+      "answers": {
+        "a": "Colour change in anode",
+        "b": "Glowing of the electric bulb in the MFC",
+        "c": "Colour change in cathode",
+        "d": "Colour change in PEM"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3. When Caulobacter crescentus, is used as electrogen in MFC simulator, which of the following combination of electrodes produced maximum output",
+      "answers": {
+        "a": "Aluminum as anode and copper as cathode",
+        "b": "Carbon cloth at both electrodes",
+        "c": "graphite sheet at both electrodes",
+        "d": "All produced equal output"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. In the simulator, do you observe variance in the voltage at which maximum current can be obtained with respect to different electrode combinations.",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. After working the simulator, which PEM can be a best for Caulobacter crescentus to perform exoelectrogenesis?",
+      "answers": {
+        "a": "Nutrient agar",
+        "b": "Nafion",
+        "c": "Both nutrient agar and nafion",
+        "d": "No PEM needed for Caulobacter crescentus."
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+      }
+  ]
+}

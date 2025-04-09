@@ -1,0 +1,74 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which of the following could be a strong exoelectrogenic organism ?",
+      "answers": {
+        "a": "Algae",
+        "b": "Fungi",
+        "c": "Bacteria",
+        "d": "Virus"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "2. Generation of electricity by microorganisms was achieved by ",
+      "answers": {
+        "a": "Intracellular electron transfer",
+        "b": "Extracellular electron transfer",
+        "c": "Proton motive force",
+        "d": "Extracellular proton transfer"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3. EET refers to:",
+      "answers": {
+        "a": "the exchange of intracellular electrons with an extracellular electron donor/acceptor by microorganism",
+        "b": "the transfer of intracellular protons with an extracellular electron donor/acceptor by microorganism",
+        "c": "the exchange of intracellular protons with an extracellular proton donor by microorganism",
+        "d": "the exchange of energy by microorganisms."
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. Characteristics of Caulobacter crescentus",
+      "answers": {
+        "a": "Stalked-cell",
+        "b": "Swarmer cells",
+        "c": "Electrogens",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. Example of an electrogen",
+      "answers": {
+        "a": "Geobacter sulfurreducens",
+        "b": "Shewanella putrefaciens",
+        "c": "Desulfuromonas acetoxidans",
+        "d": "All are electrogenic in nature."
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+      }
+  ]
+}
