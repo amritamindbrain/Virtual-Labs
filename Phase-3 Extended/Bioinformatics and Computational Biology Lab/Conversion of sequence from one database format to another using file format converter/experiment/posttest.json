@@ -1,0 +1,94 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Identify the FASTA file format from the given formats.",
+      "answers": {
+        "a": ">KX580312.1 Homo sapiens truncated breast cancer 1 (BRCA1) gene, exon 15 and partial \n \t GTCATCCCCTTCTAAATGCCCATCATTAGATGATAGGTGGTACATGCACAGTTGCTCTGGGAG",
+        "b": "< KX580312.1 Homo sapiens truncated breast cancer 1 (BRCA1) gene, exon 15 and partial \n \t GTCATCCCCTTCTAAATGCCCATCATTAGATGATAGGTGGTACATGCACAGTTGCTCTGGGAG",
+        "c": "//KX580312.1 Homo sapiens truncated breast cancer 1 (BRCA1) gene, exon 15 and partial \n \t GTCATCCCCTTCTAAATGCCCATCATTAGATGATAGGTGGTACATGCACAGTTGCTCTGGGAG",
+        "d": "//KX580312.1 Homo sapiens truncated breast cancer 1 (BRCA1) gene, exon 15 and partial \n \t GTCATCCCCTTCTAAATGCCCATCATTAGATGATAGGTGGTACATGCACAGTTGCTCTGGGAG//"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In GenBank format, the sequence begins from ",
+      "answers": {
+        "a": "the line with two slashes (\"//\")",
+        "b": "the next line containing \"ORIGIN\"",
+        "c": "the line containing greater than symbol (>)",
+        "d": "the line containing \"ORIGIN\""
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "3. SQ tag is found in which of the following sequence format?",
+      "answers": {
+        "a": "FASTA",
+        "b": "GENBANK",
+        "c": "EMBL",
+        "d": "FASTQ"
+      },
+          
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "4. Which among these databases is not considered a nucleic acid sequence database?",
+      "answers": {
+        "a": "DDBJ",
+        "b": "EMBL",
+        "c": "GenBank",
+        "d": "FASTQ"
+      },
+          
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "5. Which file format will provide information regarding coding sequence?",
+      "answers": {
+        "a": "DDBJ",
+        "b": "EMBL",
+        "c": "GenBank",
+        "d": "FASTQ"
+      },
+          
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "6. SQ (SeQuence header) in EMBL format indicates.",
+      "answers": {
+        "a": "Beginning of the sequence data",
+        "b": "Information of taxonomic classification.",
+        "c": "General descriptive information about the sequence stored.",
+        "d": "Mechanism for the annotation of the sequence data."
+      },
+          
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "7. GenBank File Format consists of",
+      "answers": {
+        "a": "Annotation section",
+        "b": "Sequence section",
+        "c": "Both annotation section and sequence section",
+        "d": "Only origin information"
+      },
+          
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The file format used in data analysis in NGS",
+      "answers": {
+        "a": "EMBL",
+        "b": "GenBank",
+        "c": "FASTA",
+        "d": "FASTQ"
+      },
+
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+  
+    
+    {
+      "question": "The preferred output file format applicable in NGS for sequence alignment",
+      "answers": {
+        "a": "BAM",
+        "b": "BWA",
+        "c": "SAM",
+        "d": "IGV"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+    {
+            "question": "GC ratio analysis is applicable in",
+      "answers": {
+        "a": "Understanding the statistical significance of a DNA sequence",
+        "b": "Ecological and evolutionary significance of species",
+        "c": "Identifying annealing temperature of a DNA sequence",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "Identify the reverse complement of ACCTGAG",
+"answers": {
+  "a": "TGGACTC",
+  "b": "GAGTCCA",
+  "c": "CTCAGGT",
+  "d": "GTCACCT"
+},
+
+"correctAnswer": "c",
+"difficulty": "beginner"
+},
+
+
+{
+  "question": "According to Chargaff's rule, ratio of purines and pyrimidines in a DNA sequence",
+"answers": {
+"a": "2:1",
+"b": "1:2",
+"c": "1:1",
+"d": "2:2"
+},
+
+"correctAnswer": "c",
+"difficulty": "beginner"
+}
+
+  ]
+}

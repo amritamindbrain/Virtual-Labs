@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Determining the order of A, T, G ,C in a strand of DNA",
+      "answers": {
+        "a": "Ligation",
+        "b": "DNA sequencing",
+        "c": "PCR",
+        "d": "Recombination"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+    
+    {
+      "question": "Chain termination in sanger sequencing is due to the presence of",
+      "answers": {
+        "a": "Primer",
+        "b": "Nucleotides",
+        "c": "ddNTP",
+        "d": "dNTP"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+            "question": "Typical workflow in NGS",
+      "answers": {
+        "a": "Sample Preparation, DNA Sequencing, Data Analysis, Mutation calling",
+        "b": "Library Preparation, Sample analysis, DNA sequencing, Data analysis",
+        "c": "Sample preparation, Creating Library, DNA sequencing, Data Analysis",
+        "d": "Constructing Library, Fragmenting DNA, Data Analysis, PCR amplification"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "Bioinformatics tools are import in NGS as it includes",
+"answers": {
+  "a": "Removing of low-quality sequence reads",
+  "b": "Sequence alignment",
+  "c": "Identifying mutation",
+  "d": "All the above"
+},
+
+"correctAnswer": "d",
+"difficulty": "beginner"
+}
+
+  ]
+}

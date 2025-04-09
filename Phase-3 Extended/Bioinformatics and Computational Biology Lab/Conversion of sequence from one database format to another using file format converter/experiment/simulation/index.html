@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        /* Style for select dropdown */
+select {
+    width: 25%;
+    font-size: 0.6vw;  /* Reduced font size */
+    padding: 0.3% 0.5%; /* Adjust padding for a more compact look */
+    margin: 1% 0;
+    box-sizing: border-box;
+    height: auto;  /* Allow auto height based on the content */
+}
+
+/* Style for options inside the select dropdown */
+option {
+    font-size: 0.6vw;  /* Reduce the font size */
+    padding: 0.2vw 0;  /* Smaller padding to reduce overall size */
+}
+
+
+        /* CSS Styling */
+        input[type=text], select {
+            width: 50%;
+            font-size: 0.8vw;
+            padding: 1% 1%;
+            margin: 1% 0;
+            box-sizing: border-box;
+        }
+        div {
+            padding: 0;
+            color: black;
+            background-color: transparent;
+            text-align: center;
+            margin-top: 1%;
+        }
+        label {
+            background-color: #802652;
+            color: white;
+            padding: 0.5%;
+            font-family: sans-serif;
+            cursor: auto;
+            margin-top: 200px;
+            width: 600px;
+            height: 25px;
+            border-radius: 180px;
+            position: relative;
+            font-size: 0.8vw;
+            line-height: 6px;
+        }
+        input[type=button] {
+            width: 10%;
+            background-color: #75264d;
+            color: white;
+            padding: 0.5%;
+            margin: 8px 0;
+            border: none;
+            border-radius: 180px;
+            cursor: pointer;
+            font-size: 0.8vw;
+        }
+        input:hover + label {
+            background-color: #802652;
+            opacity: 1;
+            transition: 0.3s opacity ease-in-out;
+            filter: blur(0px);
+        }
+        hr {
+            position: relative;
+            top: 20px;
+            border: none;
+            height: 2px;
+            background: #d737a5;
+            margin-bottom: 50px;
+        }
+        div.at-container {
+            display: flex;
+        }
+        textarea {
+            width: 100%;
+            max-width: 50%;
+            min-height: 100%;
+            font-size: 0.8vw;
+        }
+        .at-item {
+            color: #4f2037;
+            font-weight: bold;
+            font-size: 45px;
+            justify-content: center;
+            text-decoration-color: #4f2037;
+            position: relative;
+            align-items: center;
+            margin-left: 10%;
+        }
+        button {
+            font-size: 0.8vw;
+            width: 15%;
+            padding: 1%;
+            height: 10px;
+        }
+        h1 {
+            font-size: 3vw;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div class='at-container'>
+        <img src="images/logo.png" width="13%" height="0.5%" style="margin-left:2%;">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div class='at-item'>File Format Converter</div>
+    </div>
+    <br><br><br>
+    <div id="testbutton" align="center">
+        <input type="file" id="actual-btn" accept=".txt" hidden onchange="obtainfiletype()"/>
+        <label for="actual-btn" style="cursor: pointer;">Select DNA sequence:</label>
+        &nbsp;<i class="fa fa-hand-o-left" style="font-size: 1vw;color:#4f2037;">&nbsp;Click here to upload file in .txt format</i>
+        <br><br>
+        <textarea id="disp" cols="30" rows="10"></textarea><br>
+        <a href="Proto-oncogene vav_genebank.txt" download="sample_genbank.txt">Sample_Genbank</a>&nbsp;&nbsp;
+	<a href="Proto-oncogene vav_embl.txt" download="sample_embl.txt">Sample_EMBL</a>&nbsp;&nbsp;
+	<a href="Proto-oncogene vav_fasta.txt" download="sample_fasta.txt">Sample_FASTA</a>
+    <br>
+    <br>
+        <p id="form"></p>
+        <p id="demo"></p>
+        
+        <a href="index.html">
+            <input type="button" id="Reset" value="Reset">
+        </a>
+    </div>
+    <hr />
+    <p id="result" style="margin-left: 35%; color:#802652"></p>
+
+    <script>
+        function obtainfiletype() {
+            let input = document.querySelector('input[type="file"]');
+            let textarea = document.querySelector('textarea');
+            let files = input.files;
+            if (files.length === 0) return;
+            
+            const file = files[0];
+            let reader = new FileReader();
+            reader.onload = (e) => {
+                const fileContent = e.target.result;
+                textarea.value = fileContent;
+                const lines = fileContent.split(/\r\n|\n/);
+                determineFileType(lines);
+            };
+            reader.readAsText(file);
+        }
+
+        function determineFileType(lines) {
+            const firstLine = lines[0];
+            let formatType = '';
+
+            if (firstLine.startsWith('LOCUS')) {
+                formatType = 'GENBANK';
+            } else if (firstLine.startsWith('ID')) {
+                formatType = 'EMBL';
+            } else {
+                alert("Please input a valid GenBank or EMBL format file.");
+                return;
+            }
+
+            // Dynamically generate the form
+            document.getElementById("form").innerHTML = `
+                <label style="background-color: white; color: #802652; font-weight: bold; font-size: 0.8vw;">Convert file from:</label>
+<select id="Filefrom-name" style="font-size: 0.8vw; padding: 0.3% 0.5%;">
+    <option value="${formatType}" style="font-size: 0.8vw;">${formatType}</option>
+</select><br><br>
+<label style="background-color: white; color: #802652; font-weight: bold; font-size: 0.8vw;">Required file format:</label>
+<select id="Fileto-name" style="font-size: 0.8vw; padding: 0.3% 0.5%;" onchange="convertFile('${formatType}', this.value)">
+    <option value="other" style="font-size: 0.8vw;">Select a file format</option>
+    <option value="fasta" style="font-size: 0.8vw;">FASTA</option>
+    ${formatType === 'GENBANK' ? '<option value="embl" style="font-size: 0.8vw;">EMBL</option>' : '<option value="genbank" style="font-size: 0.8vw;">GenBank</option>'}
+</select>
+
+            `;
+        }
+
+        function convertFile(fromFormat, toFormat) {
+            let seq = document.getElementById("disp").value;
+            const array = seq.split("\n");
+
+            if (fromFormat === 'GENBANK' && toFormat === 'embl') {
+                convertGenBankToEMBL(array);
+            } else if (fromFormat === 'GENBANK' && toFormat === 'fasta') {
+                convertGenBankToFASTA(array);
+            } else if (fromFormat === 'EMBL' && toFormat === 'genbank') {
+                convertEMBLToGenBank(array);
+            } else if (fromFormat === 'EMBL' && toFormat === 'fasta') {
+                convertEMBLToFASTA(array);
+            } else {
+                alert('Invalid conversion selected.');
+            }
+        }
+
+        //GenBank to Fasta
+        function convertGenBankToFASTA(array) {
+            const definitionLine = array.find(line => line.startsWith('DEFINITION'));
+            const versionLine = array.find(line => line.startsWith('VERSION'));
+            const sequenceStartIndex = array.findIndex(line => line.startsWith('ORIGIN'));
+
+            if (!definitionLine || !versionLine || sequenceStartIndex === -1) {
+                alert("Invalid GenBank format.");
+                return;
+            }
+
+            let definition = definitionLine.replace('DEFINITION', '').trim();
+            let version = versionLine.replace('VERSION', '').trim();
+            let sequence = array.slice(sequenceStartIndex + 1).join('').replace(/\d|\s/g, '').toUpperCase();
+
+            let fastaFormat = `>${version} ${definition}\n${sequence}`;
+            displayResult(fastaFormat, `${version}_converted.fasta`);
+        }
+        // GenBank to EMBL
+        // GenBank to EMBL
+// GenBank to EMBL
+function convertGenBankToEMBL(array) {
+    let id = "", description = "", accession = "", version = "", organism = "", source = "", keywords = "";
+    let features = "", origin = "";
+
+    array.forEach((line) => {
+        if (line.startsWith("LOCUS")) {
+            const locusFields = line.split(/\s+/);
+            id = locusFields[1];  // Taking the second field after LOCUS as ID
+        } else if (line.startsWith("DEFINITION")) {
+            description += line.replace("DEFINITION", "").trim() + " ";
+        } else if (line.startsWith("ACCESSION")) {
+            accession = line.split(/\s+/)[1];
+        } else if (line.startsWith("VERSION")) {
+            version = line.split(/\s+/)[1];
+        } else if (line.startsWith("SOURCE")) {
+            source += line.replace("SOURCE", "").trim() + " ";
+        } else if (line.startsWith("  ORGANISM")) {
+            organism += line.replace("ORGANISM", "").trim() + " ";
+        } else if (line.startsWith("KEYWORDS")) {
+            keywords += line.replace("KEYWORDS", "").trim() + " ";
+        } else if (line.startsWith("FEATURES")) {
+            let featureStartIndex = array.indexOf(line);
+            features = parseFeatures(array.slice(featureStartIndex));
+        } else if (line.startsWith("ORIGIN")) {
+            let originStartIndex = array.indexOf(line) + 1;
+            origin = parseOrigin(array.slice(originStartIndex));
+        }
+    });
+   // console.log(array);
+
+
+    // Replace 'Region', 'Site', and remove nucleotide sequences from the features
+    features = features.replace(/Region/g, '')
+                       .replace(/Site/g, '');
+
+    let emblContent = `ID   ${id}; SV 1; linear; genomic DNA; STD; UNC; 123 BP.\n` +
+                      `XX\n` +
+                      `AC   ${accession};\n` +
+                      `XX\n` +
+                      `DE   ${description}\n` +
+                      `XX\n` +
+                      `KW   ${keywords}\n` +
+                      `XX\n` +
+                      `OS   ${organism}\n` +
+                      `XX\n` +
+                      `FT   ${features}\n` +
+                      `XX\n` +
+                      `SQ   Sequence 123 BP; 32 A; 31 C; 30 G; 30 T; 0 other;\n${origin}\n`;
+
+    displayResult(emblContent, `${id}_converted.embl`);
+}
+
+// Modified parseFeatures function to stop before ORIGIN
+function parseFeatures(lines) {
+    let features = "";
+    
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i];
+        
+        if (line.startsWith("ORIGIN")) {
+            break; // Stop processing once 'ORIGIN' is found
+        }
+        
+        features += line + "\n";
+    }
+    
+    return features.trim(); // Return the features collected before 'ORIGIN'
+}
+
+function parseOrigin(lines) {
+    return lines.map(line => line.replace(/\s+\s+/g, '').toUpperCase()).join(' ');
+}
+
+        function displayResult(content, fileName) {
+            document.getElementById("result").innerHTML = `
+                <textarea cols="50" id= "textarea" value="textarea" rows="10">${content}</textarea><br><br>
+                <input type="button" value="Download" onclick="downloadFile('${fileName}')">
+            `;
+        }
+        //EMBL to Genbank
+
+        function convertEMBLToGenBank(array) {
+    // Initialize all fields as empty strings
+    let locus = "", definition = "", accession = "", version = "", source = "", organism = "";
+    let features = "", keywords = "", origin = "";
+
+    // Flag to indicate if we are in the SQ section
+    let inSQ = false;
+    let sequenceLines = [];
+
+    array.forEach((line) => {
+        if (line.startsWith("ID")) {
+            // Example: ID   SCU49845; SV 1; linear; mRNA; STD; PLN; 5028 BP.
+            // Extract the first token after "ID"
+            locus = line.split(/\s+/)[1].replace(';', '').trim();
+        } else if (line.startsWith("DE")) { 
+            // DE   Description line
+            definition += line.substring(2).trim() + " ";
+        } else if (line.startsWith("AC")) {
+            // AC   Accession numbers
+            accession += line.substring(2).replace(/;/g, '').trim() + " ";
+        } else if (line.startsWith("SV")) {
+            // SV   Sequence version
+            version += line.substring(2).replace(/;/g, '').trim() + " ";
+        } else if (line.startsWith("OS")) {
+            // OS   Organism species
+            source += line.substring(2).trim() + " ";
+        } else if (line.startsWith("OC")) {
+            // OC   Organism classification
+            organism += line.substring(2).trim() + " ";
+        } else if (line.startsWith("FT")) {
+            // FT   Features
+            features += line.substring(2).trim() + " ";
+        } else if (line.startsWith("KW")) {
+            // KW   Keywords
+            keywords += line.substring(2).replace(/;/g, '').trim() + " ";
+        } else if (line.startsWith("SQ")) {
+            // Start of the sequence section
+            inSQ = true;
+        } else if (inSQ) {
+            if (line.startsWith("//")) {
+                // End of the sequence section
+                inSQ = false;
+            } else {
+                // Collect sequence lines
+                sequenceLines.push(line);
+            }
+        }
+    });
+
+    // Parse the origin sequence
+    origin = parseOrigin(sequenceLines);
+
+    // Construct the GenBank content
+    let genbankContent = 
+`LOCUS       ${locus}
+DEFINITION  ${definition.trim()}
+ACCESSION   ${accession.trim()}
+VERSION     ${version.trim()}
+SOURCE      
+  ORGANISM  ${organism.trim()}
+            ${source.trim()}
+FEATURES    ${features.trim()}
+KEYWORDS    ${keywords.trim()}
+ORIGIN
+${origin}
+//`;
+
+    // Display or handle the GenBank content as needed
+    displayResult(genbankContent, `${locus}_converted_file`);
+}
+
+function parseOrigin(sequenceLines) {
+    let origin = "";
+    let sequence = "";
+
+    // Concatenate all sequence lines into a single string
+    sequenceLines.forEach(line => {
+        // Remove all numbers and spaces
+        let cleanedLine = line.replace(/[0-9]/g, '').replace(/\s+/g, '').toUpperCase();
+        sequence += cleanedLine;
+    });
+
+    // Split the sequence into lines of 60 bases
+    const lineLength = 60;
+    for (let i = 0; i < sequence.length; i += lineLength) {
+        let chunk = sequence.substring(i, i + lineLength);
+        // Line numbers start at 1 and increment by 60
+        // Adjust padding as needed (GenBank typically uses 9 characters for line numbers)
+        origin += `${String(i + 1).padStart(9, ' ')} ${chunk}\n`;
+    }
+
+    return origin;
+}
+
+/*function displayResult(content, filename) {
+    // Example implementation: log to console
+    console.log(`Generated GenBank File (${filename}):\n`);
+    console.log(content);
+
+    // Alternatively, implement file download or other handling as required
+    // For example, in a browser environment, you could trigger a download:
+    
+    const blob = new Blob([content], { type: 'text/plain' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `${filename}.txt`;
+    link.click();
+    
+}*/
+
+    
+        //embl to fasta
+
+        function convertEMBLToFASTA(array) {
+            const idLine = array.find(line => line.startsWith('ID'));
+            const sequenceStartIndex = array.findIndex(line => line.startsWith('SQ'));
+            let id = idLine.replace('ID','');
+            let sequence = array.slice(sequenceStartIndex + 1).join('').replace(/[\d\s\/]/g, '').toUpperCase();
+
+            let fastaFormat = `>${id}\n${sequence}`;
+            displayResult(fastaFormat, `${id}_converted.fasta`);
+        }
+
+        
+
+
+        function downloadFile(fileName) {
+    // Get the content from the second textarea (the result textarea)
+    let textToWrite = document.getElementById('textarea').value;
+    
+    // Create a blob with the content
+    let blob = new Blob([textToWrite], { type: "text/plain;charset=utf-8" });
+    
+    // Create a link element
+    let link = document.createElement("a");
+    
+    // Set the download attribute with the file name
+    link.download = fileName;
+    
+    // Create a URL for the blob
+    link.href = window.URL.createObjectURL(blob);
+    
+    // Programmatically click the link to trigger the download
+    link.click();
+}
+
+    </script>
+</body>
+</html>

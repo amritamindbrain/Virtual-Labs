@@ -1,0 +1,121 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. First line of FASTA Sequence begins with ",
+      "answers": {
+        "a": "> symbol followed by the description or identifier of the sequence",
+        "b": "> symbol and description is optional",
+        "c": "+ character and is optionally followed by the same sequence identifier",
+        "d": "@ character and is followed by a sequence identifier"
+      },
+
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "2. File extension for GenBank files",
+      "answers": {
+        "a": ".genb",
+        "b": ".gnb",
+        "c": ".genbank",
+        "d": ".gnbk"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "3. Identify the file formats having end of the sequence is marked by two slashes.",
+      "answers": {
+        "a": "FASTA",
+        "b": "FASTQ",
+        "c": "GENBANK",
+        "d": "All the above"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "4. EMBL refers to",
+      "answers": {
+        "a": "European Molecular and Bioinformatics Laboratory",
+        "b": "European Molecular Biology Laboratory",
+        "c": "European Molecular Biology and Biotechnology Laboratory",
+        "d": "European Molecular Biology and Bioinformatics Laboratory"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "5. Identify the given sequence; ATTGCCCAACCGTTCATGACCGG as a ",
+      "answers": {
+        "a": "RNA",
+        "b": "Protein",
+        "c": "DNA",
+        "d": "mRNA"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "6. FASTA format is used primarily for ",
+      "answers": {
+        "a": "Representing DNA sequences",
+        "b": "Representing amino acid sequences",
+        "c": "Visualization tool for sequence alignment",
+        "d": "Sharing and exchanging of biological data"
+      },
+
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "7. Maximum file length of a FASTA file format ",
+      "answers": {
+        "a": "1-50 characters",
+        "b": "1-100 characters",
+        "c": "Greater than 100 characters",
+        "d": "No fixed limit"
+      },
+
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "8. FASTQ format is a ",
+      "answers": {
+        "a": "numerical code-based format",
+        "b": "text-based format ",
+        "c": "symbol-based format",
+        "d": "none of the above"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    
+    {
+      "question": "9. Quality scores are calculated in which of the following file format. ",
+      "answers": {
+        "a": "FASTA",
+        "b": "FASTQ",
+        "c": "EMBL",
+        "d": "GenBank"
+      },
+
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

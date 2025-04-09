@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lan="en">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        div{
+            padding :0;
+            color: black;
+            background-color: transparent;
+            text-align: left;
+            margin-top: 1%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        label {
+            background-color: rgb(181,3,70);
+            color: white;
+            padding: 15px;
+            padding-left: 30px;
+            font-family: Helvetica;
+            font-size: 16px;
+            font-weight: lighter;
+            
+            margin-top: 10px;
+            width: 500px;
+            height:45px;
+            border-radius:5px;
+            position:relative;
+            cursor:none;
+            line-height:12px;
+        }
+        input:hover + label{
+            background-color: #3E0719;
+            opacity:1;
+            transition: 0.3s opacity ease-in-out;
+            filter:blur(0px);
+        }
+        .float-container {
+            padding: 0px;
+        }
+
+        .float-child {
+            width: 100%;
+            max-width:100%;
+            float: right;
+            padding: 1%;
+            font-size: 18px;
+        }  
+        #file-content{
+            width: fit-content; 
+        }
+        .content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: white;
+            border: black;
+            color: black;
+            font-size: 1.5vw;
+            
+        }
+        hr {
+            position: relative;
+            top: 20px;
+            border: none;
+            height: 2px;
+            background: #d737a5;
+            margin-bottom: 50px;
+        }
+        div.at-container {
+		    display: flex;
+	    }
+	    .at-item {
+		    color: #4f2037; font-weight:bold; font-size:300%;
+		    justify-content: center;
+		    text-decoration-color:#4f2037;  
+		    position: relative;
+            align-items: center;
+            margin-left: 5%;
+        }
+
+        .btn-danger{
+            background-color: rgb(181,3,70) !important;
+            background-repeat: repeat-x;
+            background-image: -o-linear-gradient(top, rgb(181,3,70), rgb(181,3,70));
+            background-image: linear-gradient(rgb(181,3,70), #2f080e);
+            border-color: rgb(181,3,70) rgb(181,3,70) hsl(351, 68%, 1.5%);
+            color: #fff !important;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.62);
+            width: 200px;
+            height:45px;
+            border-radius:180px;
+        }
+        .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+            background-color:#420b13 !important;
+            background-repeat: repeat-x;
+            background-image: linear-gradient(#420b13, #de5353);
+            border-color: #420b13#420b13 #420b13;
+            color: #ffffff !important;
+            text-shadow: 0 1px 1px rgba(255, 255, 255, 0.59);
+        }
+
+        textarea{
+			width: 100%;
+ 	 		max-width: 100%;
+  			min-height: 100%;
+			font-size: 1.5vw;
+
+		}
+    </style>
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	</head>
+
+    <body style="background-color:white">
+        <div class='at-container'>
+            <img src="images/logo.png" width="150vw" height="1%" style="margin-left:-5%;">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class='at-item' >FASTQ Analyzer</div>
+        </div>
+        <br>
+        <form id="myform">
+            <div style="background-color:#f0eaea;padding:15px;text-align:center;">
+            <div class="row">
+                <div class="col-sm-4">
+                        
+                                <div id="testbutton" align="center"><br>
+                                    <label> Select FASTQ file</label>
+                                    <div class="custom-file mb-3">
+                                        <input type="file" class="custom-file-input" id="actual-btn" accept=".txt" />
+                                    </div>
+                                    <input type="text" id="file-chosen" value="Filename displays here" hidden/><br>&nbsp;
+                                    <a href="160912_M03018_R1_fastq.txt" download="sample_fasta.txt">Download a Sample FASTQ file</a><br><br>
+                                    <p><button type="button" class="btn btn-danger btn-block" id= "Sequence" value="Sequence" onclick="myFunction()"><div style= font-family:sans-serif;font-size:16px;color:#fff>Sequence content</div></button></p>
+                                    <p><button type="button" class="btn btn-danger btn-block" id= "GC" value="GC" onclick="GC_content()"><div style= font-family:sans-serif;font-size:16px;color:#fff>GC content</div></button></p>
+                                    <p><button type="button" class="btn btn-danger btn-block" id="N" value="N" onclick="N_content()"><div style= font-family:sans-serif;font-size:16px;color:#fff>N content</div></button></p>
+                                    <p> <a href="index.html"><button type="button" class="btn btn-danger btn-block" id="reset" value="Reset"><div style= font-family:sans-serif;font-size:16px;color:#fff>Reset</div></button></a></p>
+                                </div>
+                            </div>
+                        
+                        <div class="col-sm-4">
+                            
+                                <div id="testbutton" align="center">
+                                    <textarea id="disp" cols="65" rows="10"></textarea>
+                                    <p id="demo"></p>
+                                    <p id="box"></p>
+                                </div>
+                                <div id="myPlot1" style="width:100%;max-width:700px"></div>
+                                <div id="myPlot" style="width:100%;max-width:700px"></div>
+
+                                <div class="float-container">
+                                    <div class="float-child">
+                                        <div class="res" id="result_disp" style="color:rgb(181,3,70)">
+                                        </div>
+                                    </div>
+                                    <div class="float-child">
+                                        <div class="plot" id="plot">                     
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+
+                        </div>
+                        
+                       
+                        
+                        
+                    </div>
+                    </div>
+                   
+                </div>
+               
+            </div>
+               
+        </form>
+    
+    
+        <script>
+            let input = document.getElementById("actual-btn");
+ 		    let textarea = document.querySelector('textarea')
+ 		    input.addEventListener('change', () => {
+    		    let files = input.files;
+    		    if (files.length == 0) return;
+			    const file = files[0];
+        		let reader2 = new FileReader();
+			    reader2.onload = (e) => {
+        		const file = e.target.result;
+         		const lines = file.split(/\r\n|\n/);
+        		textarea.value = lines.join('\n');
+ 			    };
+ 			reader2.onerror = (e) => alert(e.target.error.name);
+   	 		reader2.readAsText(file);
+		    });
+            
+
+
+            function myFunction() {
+                var seq = document.getElementById("disp").value;
+                var newSeq=[];
+                newSeq= seq.split('\n');
+
+                //document.getElementById("demo").innerHTML = newSeq;
+                var sequence=[];
+                for(var k=1; k<=newSeq.length; ){
+                    sequence.push(newSeq[k]);
+                   
+                    //document.getElementById("demo").innerHTML = newSeq[k];
+                    
+                    k=k+4;
+                }
+                //document.getElementById("box").innerHTML = sequence;
+                var DNA= sequence.join('');
+                var newDNA=[];
+                newDNA=DNA.split('');
+                //document.getElementById("box").innerHTML = DNA;
+
+                var A_count= 0;
+                var T_count= 0;
+                var G_count= 0;
+                var C_count= 0;
+                
+                var GC=0;
+
+                var len= newDNA.length;
+                for (var m=0; m<=len; m++){
+                        //document.getElementById("demo").innerHTML = m;
+                        if (newDNA[m]== 'A'){
+                            A_count= A_count+1;
+                        }
+                        else if(newDNA[m]=='T'){
+                            T_count= T_count+1;
+                        }
+                        else if(newDNA[m]=='G'){
+                            G_count=G_count+1;
+                        }
+                        else if(newDNA[m]=='C'){
+                            C_count=C_count+1;
+                        }
+
+                }
+                //document.getElementById("demo").innerHTML =len;
+                    var total= A_count+T_count+C_count+G_count;
+                    //document.getElementById("box").innerHTML =total;
+                
+                    xArray= ["A","T","G","C"];
+                    yArray=[A_count,T_count,G_count,C_count];
+                    //document.getElementById("demo").innerHTML = yArray;
+                    var layout = {title:"Sequence content",
+                    autosize: true,
+                    width: 300,
+                    height: 500,
+                    margin: {
+                    l: 1,
+                    r: 1,
+                    b: 100,
+                    t: 100,
+                    pad: 4
+                    }};
+                    var config = {responsive: true};
+                    var data = [{labels:xArray, values:yArray, type:"pie"}];
+                    Plotly.newPlot("plot", data, layout);
+                    
+                
+            }
+
+
+
+
+            function GC_content(){
+
+                var sequ = document.getElementById("disp").value;
+                var newSeq1=[];
+                newSeq1= sequ.split('\n');
+
+                //document.getElementById("demo").innerHTML = newSeq;
+                var sequence1=[];
+                for(var j=1; j<=newSeq1.length; ){
+                    sequence1.push(newSeq1[j]);
+                   
+                    //document.getElementById("demo").innerHTML = newSeq[k];
+                    
+                    j=j+4;
+                }
+                //document.getElementById("box").innerHTML = sequence;
+                var DNA1= sequence1.join('');
+                var newDNA1=[];
+                newDNA1=DNA1.split('');
+                //document.getElementById("box").innerHTML = DNA;
+
+                var A_coun= 0;
+                var T_coun= 0;
+                var G_coun= 0;
+                var C_coun= 0;
+                
+                var len1= newDNA1.length;
+                for (var f=0; f<=len1; f++){
+                        //document.getElementById("demo").innerHTML = m;
+                        if (newDNA1[f]== 'A'){
+                            A_coun= A_coun+1;
+                        }
+                        else if(newDNA1[f]=='T'){
+                            T_coun= T_coun+1;
+                        }
+                        else if(newDNA1[f]=='G'){
+                            G_coun=G_coun+1;
+                        }
+                        else if(newDNA1[f]=='C'){
+                            C_coun=C_coun+1;
+                        }
+
+                }
+                //document.getElementById("demo").innerHTML =len;
+                var total= A_coun+T_coun+C_coun+G_coun;
+                var seq1 = document.getElementById("disp").value;
+                var newSeq1=[];
+                newSeq1= seq1.split('\n');
+               //document.getElementById("demo").innerHTML = G_coun;
+
+                var sequence1=[];
+                for(var m=1; m<=newSeq1.length; ){
+                    sequence1.push(newSeq1[m]);
+                   
+                    //document.getElementById("demo").innerHTML = newSeq[k];
+                    
+                    m=m+4;
+                }
+                //G count
+
+                
+
+                var newdna_1=[]
+                var newdna_1=newDNA1;
+                //document.getElementById("box").innerHTML = newDNA1.length;
+                var g_c=[];
+                for(var h=0; h<=newDNA1.length; h++){
+                    
+                    if(newDNA1[h]==='G'){
+                        g_c[h]=1;
+                    }
+                    else{
+                        g_c[h]=0;
+                    }
+                   
+                }
+                //document.getElementById("box").innerHTML = newDNA1.length;
+
+                
+
+                const n =100000;
+                var result = new Array(Math.ceil(g_c.length / n))
+               
+                .fill()
+                .map(_ => g_c.splice(0, n))
+                //document.getElementById("demo").innerHTML = result.length;
+                
+                
+                var G_c = [];       
+    
+                for (var v=0; v<result.length;v++){
+                    //document.getElementById("box").innerHTML = v;
+                    var vlen=result[v].length;
+                    
+                    g_count=0;
+                    //G_COUNT=[];
+                    for( var u=0;u<vlen;u++){
+                        
+                        if(result[v][u]=='1'){
+                            //document.getElementById("box").innerHTML = v+","+u;
+                            g_count +=result[v][u]
+                        }  
+                        
+                    } 
+                    G_c[v]=g_count;    
+                    //document.getElementById("box").innerHTML = G_c;                
+                }
+                //document.getElementById("box").innerHTML = result[7].length; 
+                //document.getElementById("box").innerHTML = "hai";      
+                
+                    
+                //C count
+
+                var c_c=[];
+                for(var p=0; p<=newdna_1.length; p++){
+                    
+                    if(newDNA1[p]==='C'){
+                        c_c[p]=1;
+                    }
+                    else{
+                        c_c[p]=0;
+                    }
+                   
+                }
+                //document.getElementById("box").innerHTML = c_c;
+                const b =100000;
+                var result_c = new Array(Math.ceil(c_c.length / b))
+                .fill()
+                .map(_ => c_c.splice(0, b))
+
+                var C_c = [];       
+                for (var a=0; a<result_c.length;a++){
+                    //document.getElementById("box").innerHTML = v;
+                    var alen=result_c[a].length;
+                    c_count=0;
+                    //G_COUNT=[];
+                    for( var d=0;d<=alen;d++){
+                        
+                        if(result_c[a][d]=='1'){
+                            //document.getElementById("box").innerHTML = v+","+u;
+                            c_count +=result_c[a][d]
+                        }   
+                    } 
+                    C_c[a]=c_count;    
+                   //document.getElementById("box").innerHTML = C_c;                
+                }
+                //var subtotal= total+1;
+                //document.getElementById("demo").innerHTML = total;
+
+                //GC content calculation
+
+
+
+
+                const g=100000;
+                var g_total= new Array(Math.ceil(newdna_1.length/g))
+                .fill()
+                .map(_=> newdna_1.splice(0, g))
+
+                //document.getElementById("box").innerHTML = g_total[1].length;
+                //document.getElementById("box").innerHTML = newdna_1.length;
+                
+                GC_total=[];
+                for (var e=0; e<G_c.length; e++){
+                   // document.getElementById("demo").innerHTML = g_total[e].length;
+                   var glen=g_total[e].length;
+
+                    GC_total[e]= ((C_c[e]+G_c[e])/glen)*100;
+                    //document.getElementById("demo").innerHTML = GC_total;
+
+                }
+                //GC_total[1]= ((C_c[1]+G_c[1])/g_total[1].length)*100;
+                //document.getElementById("demo").innerHTML = GC_total;
+
+                
+
+                var xArray = [100000,200000,300000,400000,500000,600000,700000,800000,900000,1000000];
+                var yArray = GC_total;
+                var data = [{
+                x: xArray,
+                y: yArray,
+                mode:"lines"
+                }];
+                // Define Layout
+                var layout = {
+                xaxis: {range: [10000,len1], title: "Position"},
+                yaxis: {range: [0, GC_total], title: "GC content(%)"},  
+                title: "GC Content in this sequence"
+                };
+
+// Display using Plotly
+                Plotly.newPlot("myPlot", data, layout);
+                              
+
+            }
+
+
+            //N-content
+
+            function N_content(){
+
+                var sequ1 = document.getElementById("disp").value;
+                var newSeq2=[];
+                newSeq2= sequ1.split('\n');
+
+                //document.getElementById("demo").innerHTML = newSeq;
+                var sequence2=[];
+                for(var y=1; y<=newSeq2.length; ){
+                    sequence2.push(newSeq2[y]);
+                
+                    //document.getElementById("demo").innerHTML = newSeq[k];
+                    
+                    y=y+4;
+                }
+                //document.getElementById("box").innerHTML = sequence;
+                var DNA2= sequence2.join('');
+                var newDNA2=[];
+                newDNA2=DNA2.split('');
+                //document.getElementById("box").innerHTML = DNA;
+
+                var A_coun1= 0;
+                var T_coun1= 0;
+                var G_coun1= 0;
+                var C_coun1= 0;
+
+                var len2= newDNA2.length;
+                /*for (var g=0; g<=len2; g++){
+                        //document.getElementById("demo").innerHTML = m;
+                        if (newDNA2[g]== 'A'){
+                            A_coun1= A_coun1+1;
+                        }
+                        else if(newDNA2[g]=='T'){
+                            T_coun1= T_coun1+1;
+                        }
+                        else if(newDNA2[g]=='G'){
+                            G_coun1=G_coun1+1;
+                        }
+                        else if(newDNA2[g]=='C'){
+                            C_coun1=C_coun1+1;
+                        }
+
+                }*/
+                //document.getElementById("demo").innerHTML =len;
+                    var total1= A_coun1+T_coun1+C_coun1+G_coun1;
+                    var n_c=[];
+                for(var r=0; r<=newDNA2.length; r++){
+                    
+                    if(newDNA2[r]==='N'){
+                        n_c[r]=1;
+                    }
+                    else{
+                        n_c[r]=0;
+                    }
+                   
+                }
+                // document.getElementById("box").innerHTML = g_c[75500];
+                const q =100000;
+                var resu = new Array(Math.ceil(n_c.length / q))
+               
+                .fill()
+                .map(_ => n_c.splice(0, q))
+                //document.getElementById("demo").innerHTML = result.length;
+
+
+
+                var N_c = [];       
+    
+                for (var x=0; x<resu.length;x++){
+                    //document.getElementById("box").innerHTML = v;
+                    var vlen2=resu[x].length;
+                    
+                    n_count=0;
+                    //N_COUNT=[];
+                    for( var o=0;o<=vlen2;o++){
+                        
+                        if(resu[x][o]=='1'){
+                            //document.getElementById("box").innerHTML = v+","+u;
+                            n_count +=resu[x][o]
+                        }   
+                    } 
+                    N_c[x]=n_count;    
+                   // document.getElementById("box").innerHTML = N_c.length;                
+                }
+
+                var xArray = [100000,200000,300000,400000,500000,600000,700000,80000,900000,1000000];
+                var yArray = N_c;
+                var data = [{
+                x: xArray,
+                y: yArray,
+                mode:"dots"
+                }];
+                // Define Layout
+                var layout = {
+                xaxis: {range: [100000,1500000], title: "Position"},
+                yaxis: {range: [-5 ,N_c], title: "N content"},  
+                title: "N Content in this sequence"
+                };
+
+// Display using Plotly
+                Plotly.newPlot("myPlot1", data, layout);
+                              
+
+            }
+
+            
+
+                        
+                            
+        </script>
+
+       
+    
+    </body>
+    </html>
+
