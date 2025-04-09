@@ -1,0 +1,75 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which of the following can be the anode-cathode combination in MFC ?",
+      "answers": {
+        "a": "Carbon-Carbon",
+        "b": "Graphite-Graphite",
+        "c": "Aluminium-Copper",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "2. PEM in the MFC",
+      "answers": {
+        "a": "Peptone Broth",
+        "b": "Nutrient agar",
+        "c": "Muller Hinton Agar",
+        "d": "Sabouraud Dextrose Agar"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3. Purpose of using nafion in MFC ?",
+      "answers": {
+        "a": "Anolyte",
+        "b": "Catholyte",
+        "c": "PEM",
+        "d": "Electrolyte"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. In the simulator, which of the following can be used as an anode for MFC ?",
+      "answers": {
+        "a": "Copper",
+        "b": "Stainless steel",
+        "c": "Barium",
+        "d": "Zinc"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+
+    {
+      "question": "5. The anodic chamber can be filled with",
+      "answers": {
+        "a": "Potassium Permanganate",
+        "b": "Wastewater",
+        "c": "Nutrient agar",
+        "d": "Nutrient broth"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
