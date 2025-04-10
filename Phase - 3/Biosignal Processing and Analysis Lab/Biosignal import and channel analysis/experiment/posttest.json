@@ -1,0 +1,37 @@
+[{
+	"question": "1.The recorded raw EEG data signals are stored in which data format:",
+	"answers": {
+		"a": "European data format(.edf file)",
+		"b": "PNG",
+		"c": "DOC",
+		"d": "PDF File"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2.Which of the following are the EEG signal analysis method:",
+	"answers": {
+		"a": "Wavelet Transform",
+		"b": "Principle Component Analysis(PCA)",
+		"c": "Power spectral Density(PSD)",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "3.The open source web application for visualization and processing of EEG signals are:",
+	"answers": {
+		"a": "Brainstorm",
+		"b": "Fieldtrip",
+		"c": "Only 1",
+		"d": "Both 1 & 2"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "ERP refers to",
+	"answers": {
+		"a": "Variations in EEG data in response to cognitive performance",
+		"b": "Small changes in the scalp-recorded electroencephalogram to the onset of cognitive task",
+		"c": "Weaker rhythmic patterns responsible for an input stimuli",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}]

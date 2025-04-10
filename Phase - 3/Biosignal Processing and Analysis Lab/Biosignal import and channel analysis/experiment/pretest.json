@@ -1,0 +1,37 @@
+[{
+	"question": "1.The electromyogram is the bio electric signals produces from:",
+	"answers": {
+		"a": "Eye",
+		"b": "Heart",
+		"c": "Muscles",
+		"d": "Brain"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "2.Electroencephalography is a:",
+	"answers": {
+		"a": "Non-invasive Method",
+		"b": "Invasive Method",
+		"c": "Can be both invasive and non-invasive",
+		"d": "None of the above"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3.The metal electrode of EEG made up of:",
+	"answers": {
+		"a": "Ag-AgCl",
+		"b": "Au-AgCl",
+		"c": "Al-AgCl",
+		"d": "Ni-AgCl"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "4.The unwanted signals present in raw EEG data refereed as:",
+	"answers": {
+		"a": "Fluctuations",
+		"b": "Artefacts",
+		"c": "Impedance",
+		"d": "Action Potentials"
+	},
+	"correctAnswer": "b"
+}]
