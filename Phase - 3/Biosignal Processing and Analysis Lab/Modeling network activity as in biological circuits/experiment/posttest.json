@@ -1,0 +1,74 @@
+[
+{
+"question":"1. Type of synapse used in network simulations ?",
+
+"answers":
+{
+"a":"LIF",
+"b":"Hodgkin-Huxley",
+"c":"Adex",
+"d":"None of the above"
+},
+"correctAnswer":"c"
+},
+
+{
+"question":
+"2. What does STP stands for ?",
+
+"answers":
+{
+"a":"Short-term Power",
+"b":"Spike-time plasticity",
+"c":"Short-term plasticity",
+"d":"None of the above"
+},
+
+"correctAnswer":"c"
+},
+
+{
+"question":
+"3. Salient aspects of information processing were",
+
+"answers":
+{
+"a":"convergence time",
+"b":"stability",
+"c":"storage capacity",
+"d":"All the above"
+},
+
+"correctAnswer":"d"
+},
+{
+"question":
+"4. Characteristic activity patterns in network activity:",
+
+"answers":
+{
+"a":"resting and spiking states",
+"b":"sub threshold oscillations",
+"c":"Firing properties",
+"d":" All the above"
+},
+
+"correctAnswer":"d"
+},
+{
+"question":
+"5. Artificial Neural networks were applied in:",
+
+"answers":
+{
+"a":"Medical Diagnosis",
+"b":"Sequence Recognition",
+"c":" social network filtering ",
+"d":" All the above"
+},
+
+"correctAnswer":"d"
+}
+
+
+]

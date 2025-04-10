@@ -1,0 +1,83 @@
+[
+    {
+    "question":"1. The electrically excitable neuron cell communicate with other cells via:",
+    
+    "answers":
+    {
+    "a":"Cytoplasm",
+    "b":"Nucleus",
+    "c":"Synapse",
+    "d":"Mitochondria"
+    },
+    "correctAnswer":"c"
+    },
+    
+   
+   
+    {
+    "question":
+    "2. The ion materials associated with the generation of an action potential is:",
+    
+    "answers":
+    {
+    "a":"Sodium",
+    "b":"Potassium",
+    "c":"Chloride",
+    "d":"All the above"
+    },
+    
+    "correctAnswer":"d"
+    },
+
+
+  
+  
+    {
+        "question":
+        "3. The mathematical models that mimic biological neural networks are:",
+        
+        "answers":
+        {
+        "a":"Leaky integrate-and-fire",
+        "b":"Adaptive integrate-and-fire",
+        "c":"Hodgkin–Huxley",
+        "d":"All the above"
+        },
+        
+        "correctAnswer":"d"
+        },
+
+
+
+
+   {
+    "question":
+    "4. The parameter R in the model indicates: ",
+    
+    "answers":
+    {
+    "a":"Resistance",
+    "b":"Membrane resistance",
+    "c":"Synaptic resistance",
+    "d":"Combination of a, b and c"
+    },
+    
+    "correctAnswer":"b"
+    },
+    
+    {
+        "question":
+        "5. AdeX model is a: ",
+        
+        "answers":
+        {
+        "a":"Double compartmental model",
+        "b":"Single compartmental model",
+        "c":"Two variable Equation",
+        "d":"Both b and c"
+        },
+        
+        "correctAnswer":"d"
+        }  
+
+    ]
