@@ -1,0 +1,37 @@
+[{
+	"question": "1. What does AdEx model mathematically describes?",
+	"answers": {
+		"a": "Membrane potential and adaptation current",
+		"b": "Membrane depolarization and hyperpolarization",
+		"c": "Sodium and potassium channels",
+		"d": "None of the above"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2. Which of the following are examples (s) of spiking neuron model?",
+	"answers": {
+		"a": "Integrate and fire model",
+		"b": "Spike response model",
+		"c": "Izhikevich neuron model",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "3. Which of the following ion channels are responsible for spiking behavior ?",
+	"answers": {
+		"a": " Chloride",
+		"b": "Sodium and potassium",
+		"c": "Calcium",
+		"d": "All of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Modeling neuron behavior depends on which of the following ?",
+	"answers": {
+		"a": "Sodium and potassium channels",
+		"b": "Proteins complex",
+		"c": "Phospholipid bilayer",
+		"d": "All of the above"
+	},
+	"correctAnswer": "a"
+}]
