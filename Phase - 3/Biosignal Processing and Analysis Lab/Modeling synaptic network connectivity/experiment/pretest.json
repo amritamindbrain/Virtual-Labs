@@ -1,0 +1,68 @@
+[
+	{
+	"question": "1. The neuron that carries information’s from the sensory receptor cells throughout the body to the brain is:",
+	"answers":
+	 	{
+		"a": "Motor Neurons",
+		"b": "Sensory neurons",
+		"c": "Purkinje cells",
+		"d": "Glial cells"
+		},
+	"correctAnswer": "b"
+	}, 
+	
+	{
+		"question": "2. A synaptic connection between a neuron and a muscle cell is called as:",
+		"answers":
+			 {
+			"a": "Neuronal junction",
+			"b": "Synaptic junction",
+			"c": "Neuromuscular Junction",
+			"d": "Synaptic cleft"
+			},
+		"correctAnswer": "c"
+	},
+
+
+	{
+		"question": "3. The width of a typical synaptical cleft is:",
+		"answers":
+			 {
+			"a": "0.02 Micron",
+			"b": "0.05 Micron",
+			"c": "0.06 Micron",
+			"d": "0.002 Micron"
+			},
+		"correctAnswer": "a"
+	},
+
+
+
+	{
+		"question": "4. The neurotransmitter associated with emotions and pain perception is:",
+		"answers":
+			 {
+			"a": "Dopamine",
+			"b": "Glycine",
+			"c": "Endorphins",
+			"d": "Acetylcholine"
+			},
+		"correctAnswer": "c"
+	},
+
+
+	{
+		"question": "5. Lack of which neurotransmitter in the brain associated with Alzheimer’s Disease(AD):",
+		"answers":
+			 {
+			"a": "Dopamine",
+			"b": "Glycine",
+			"c": "Endorphins",
+			"d": "Acetylcholine"
+			},
+		"correctAnswer": "d"
+	
+
+
+}
+]
