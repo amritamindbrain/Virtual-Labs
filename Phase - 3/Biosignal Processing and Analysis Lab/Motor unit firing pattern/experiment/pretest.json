@@ -1,0 +1,86 @@
+[
+    {
+    "question":"1. The neurons in the brain communicate with each other by using:",
+    
+    "answers":
+    {
+    "a":"Electrical impulses",
+    "b":"Chemical signals",
+    "c":"Generation of Action potentials",
+    "d":"All the above"
+    },
+    "correctAnswer":"d"
+    },
+    
+   
+   
+    {
+    "question":
+    "2. The neuron that emits action potentials were reffered to as:",
+    
+    "answers":
+    {
+    "a":"Spike Train",
+    "b":"Fire",
+    "c":"Electrical impulse",
+    "d":"Nerve Impulse"
+    },
+    
+    "correctAnswer":"b"
+    },
+
+
+  
+  
+    {
+        "question":
+        "3. The spikes were generated in neuronal cells by:",
+        
+        "answers":
+        {
+        "a":"Voltage gated sodium channels",
+        "b":"Voltage gated calcium channels",
+        "c":"Voltage gated potassium channels",
+        "d":"All the above"
+        },
+        
+        "correctAnswer":"d"
+        },
+
+
+
+
+   {
+    "question":
+    "4. The brain regions associated with motor imagery or movement preparation, planning, or execution.",
+    
+    "answers":
+    {
+    "a":"Occipetal regions",
+    "b":"Sensorimotor cortex",
+    "c":"Temporal regions",
+    "d":"Cz regions"
+    },
+    
+    "correctAnswer":"b"
+    },     
+
+
+
+    {
+        "question":
+        "5. The computational models used to generate spiking neuronal patterns are:",
+        
+        "answers":
+        {
+        "a":"Leaky-Integrate-and-Fire (LIF)",
+        "b":"Quadratic-Integrate-and-Fire (QIF)",
+        "c":"Izhikevich’s neuron modelS",
+        "d":"All the above"
+        },
+        
+        "correctAnswer":"d"
+        }
+
+    ]
+    

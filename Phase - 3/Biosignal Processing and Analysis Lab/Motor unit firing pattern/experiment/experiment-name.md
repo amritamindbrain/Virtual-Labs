@@ -1,0 +1,1 @@
+## Motor unit firing pattern

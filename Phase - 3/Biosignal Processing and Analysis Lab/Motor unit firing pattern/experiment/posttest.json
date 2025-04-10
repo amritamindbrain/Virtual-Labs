@@ -1,0 +1,85 @@
+[
+    {
+    "question":"1. Spiking model used in the experiment:",
+    
+    "answers":
+    {
+    "a":"Hodgkin Huxley model",
+    "b":"Leaky integrate and fire",
+    "c":"AdEX model",
+    "d":"All the above"
+    },
+    "correctAnswer":"c"
+    },
+    
+   
+   
+    {
+    "question":
+    "2. The resting membrane potential of a neuron is:",
+    
+    "answers":
+    {
+    "a":"-50mV",
+    "b":"0mV",
+    "c":"-70mV",
+    "d":"2mV"
+    },
+    
+    "correctAnswer":"c"
+    },
+
+
+  
+  
+    {
+        "question":
+        "3. All the motor units within a muscle were referred as:",
+        
+        "answers":
+        {
+        "a":"Motor controls",
+        "b":"Motor pool",
+        "c":"Motor impulses",
+        "d":"Motor"
+        },
+        
+        "correctAnswer":"b"
+        },
+
+
+
+
+   {
+    "question":
+    "4. The planning of a motor action carried out in which brain regions:",
+    
+    "answers":
+    {
+    "a":"Premotor area",
+    "b":"Supplementary Motor area",
+    "c":"Thalamus",
+    "d":"Both a and b"
+    },
+    
+    "correctAnswer":"d"
+    },     
+
+
+    {
+        "question":
+        "5. The parameter R in the model indicates:",
+        
+        "answers":
+        {
+        "a":"Resistance",
+        "b":"Membrane resistance",
+        "c":"Synaptic resistance",
+        "d":"Combination of a, b and c"
+        },
+        
+        "correctAnswer":"d"
+        }
+
+    ]
+    
