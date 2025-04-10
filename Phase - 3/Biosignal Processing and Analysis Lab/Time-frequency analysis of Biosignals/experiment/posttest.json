@@ -1,0 +1,27 @@
+[{
+	"question": "1.Time-frequency methods available for the high-resolution decomposition of EEG signals over a range of characteristics frequencies are:",
+	"answers": {
+		"a": "Continuous Wavelet Transform(CWF)",
+		"b": "All of the above",
+		"c": "Choi-Willams Distribution (CWD)"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2.In time-frequency analysis,which of the following is the frequency domain analysis used to determine the co-relation between two time series?",
+	"answers": {
+		"a": "Cross-Spectrum Analysis",
+		"b": "Principal Component Analysis",
+		"c": "Independent Component Analysis",
+		"d": "Fast-Fourier Transform"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "3.The amplitude of EEG signal is expressed in --------unit:",
+	"answers": {
+		"a": "Decibel",
+		"b": "Hertz",
+		"c": "Microvolt",
+		"d": "Kilovolt"
+	},
+	"correctAnswer": "c"
+}]
