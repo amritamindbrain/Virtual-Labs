@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+    </head>
+    <title>
+        Vlab experiment Read CSV
+    </title>
+    <body>
+        
+        <div class="card-header" style="max-width: 70rem; background: rgb(241, 239, 239);">
+            <div class="row">
+
+                <div class="col-1" style="left: 10px; text-align: center;">
+                    <img src="./images/Amritalogo.png" style="width:300px;height:90px;"/>
+                </div>
+
+                <div class="col-2" style="border-right: thick solid #d8d8d8ee; margin-left: 80px;"></div>
+
+                <div class="col-6" style="margin-left: 40px;">
+                    <!--h2><b>Simulator</b></h1-->
+                    </br>
+                    <h5 class="card-subtitle mb-2 text-muted"><b><i>UniProt Protein Sequence Retrieval in R</i></b></h2>
+                </div>
+
+            </div>
+  
+        </div>
+        
+        <div class="card-header" style="max-width: 70rem; background: rgb(253, 253, 253);">
+            <form style="padding: 150px;">
+
+                    <div>
+
+                        <p><i>Enter the <span><b>Accession number</b></span> for fetching the sequence file, (Eaxmple: Q9CD83)</i></p>
+
+                        <input id="proid"  type="text" name ="pro"/> 
+
+                        <button class="btn btn-success" id="geneload" onclick="LoadData()" type="button" style="width: 100px">Run</button>
+                        
+                        <!--a href="./sequence.fasta" download="Samplefile.fasta" > <button type="button">Sample File </button> </a--> 
+
+                        <br>
+                        <br>
+
+                        <div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3" style="max-width: 850px; max-height: 600px;">
+                            <output id="seqout">
+                            
+                            </output>
+                        </div>
+                    </div>
+
+            </form>
+        </div>
+        </div>
+
+        <script>
+
+            //https://www.uniprot.org/uniprot/?query=accession:Q9CD83&format=xml
+
+            var dataout
+
+            function LoadData(){
+
+                var pro = document.getElementById("proid").value;
+
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        document.getElementById("seqout").innerHTML = this.responseText;
+                        //dataout = this.responseText;
+
+                        //parser = new DOMParser();
+
+                        //xmlDoc = parser.parseFromString(dataout,"text/xml");
+
+                        //document.getElementById("seqout").innerHTML = xmlDoc.getElementsByTagName("sequence")[0].childNodes[0].nodeValue;
+                    }
+                };
+                //xhttp.open("POST", "https://www.uniprot.org/uniprot/?query=accession:"+pro+"&format=xml", true);
+                xhttp.open("POST", "https://www.uniprot.org/uniprot/"+pro+".fasta", true);
+                xhttp.send(); 
+                    
+            }
+
+            
+
+        </script>
+
+    </body>
+</html>
