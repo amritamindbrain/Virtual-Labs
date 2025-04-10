@@ -1,0 +1,44 @@
+[{
+	"question": "1. Brain area responsible for motor movement:",
+	"answers": {
+		"a": "Occipital lobe",
+		"b": "Temporal lobe",
+		"c": "Frontal lobe",
+		"d": "Parietal lobe"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "2. Areas of activation in brain regions may change depending on different cognitive tasks:",
+	"answers": {
+		"a": "True",
+		"b": "False"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3. Window analysis of EEG data helps in:",
+	"answers": {
+		"a": "Reducing time for computational analysis",
+		"b": "Understanding neural basis of cognitive tasks on millisecond scale",
+		"c": "Increases quality of visualization plots",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "4. ERP indicates:",
+	"answers": {
+		"a": "Epoch reproducing pattern",
+		"b": "Event related potential",
+		"c": "Epoch rearranging pattern",
+		"d": "Event reconstruction potential"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "5. Disadvantage of EEG/ERP analysis:",
+	"answers": {
+		"a": "Difficulty in providing information from deeper brain regions",
+		"b": "Maximum temporal resolution",
+		"c": "Maximum spatial resolution",
+		"d": "Analyze data on millisecond time scale"
+	},
+	"correctAnswer": "c"
+}]
