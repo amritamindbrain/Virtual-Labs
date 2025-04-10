@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+    </head>
+    <title>
+
+        Vlab experiment Finding Start and Stop codons
+
+    </title>
+    <body>
+
+        <div class="card-header" style="max-width: 70rem; background: rgb(241, 239, 239);">
+            <div class="row">
+
+                <div class="col-1" style="left: 10px; text-align: center;">
+                    <img src="./images/Amritalogo.png" style="width:300px;height:90px;"/>
+                </div>
+
+                <div class="col-2" style="border-right: thick solid #d8d8d8ee; margin-left: 80px;"></div>
+
+                <div class="col-6" style="margin-left: 40px;">
+                    <!--h2><b>Simulator</b></h1-->
+                    </br>
+                    <h5 class="card-subtitle mb-2 text-muted"><b><i>Gene finding: Finding Start and Stop codons using R</i></b></h2>
+                </div>
+
+            </div>
+  
+        </div>
+        
+        <div class="card-header" style="max-width: 70rem; background: rgb(253, 253, 253);">
+            <form style="padding: 150px;">
+
+                <div class="form-group">
+                    
+                    <!--label for="dnainput">DNA sequence</label></br-->
+                    <textarea id="dnainput" name="textareainput" rows="5" cols="70" placeholder="enter you sequence here..." ></textarea>
+                    
+                    </br>
+                    </br>
+
+                    <button class="btn btn-success" id="findcodon" onclick="FindGC()" type="button" style="width: 108px">Find</button>
+                    <a href="./sequence.fasta" download="Samplefile.fasta" > <button class="btn btn-light" type="button">Sample File </button> </a>
+                    
+                    <br>
+                    <br>
+                    
+                    <output id="Codonout">
+                        
+                    </output>
+
+                </div>
+
+            </form>
+        </div>
+
+        <script>
+
+
+            //finding the number of start and stop codons
+
+            function FindGC() {
+
+                let dna_seq = document.getElementById('dnainput').value.toUpperCase();
+                
+                if(dna_seq.match(/^\s+$/) || dna_seq == ""){
+                    
+                    alert("Please enter a DNA Sequence");
+                    return
+                }
+
+                var startcodon = count(dna_seq, "ATG")
+                var stopcodon1 = count(dna_seq, "TAG")
+                var stopcodon2 = count(dna_seq, "TGA")
+                var stopcodon3 = count(dna_seq, "TAA")
+
+                var Total_stopcodon = (stopcodon1 + stopcodon2 + stopcodon3);
+                
+                if (dna_seq == "") {
+                    
+                    document.getElementById('dnainput').style.border = "1px solid red";
+                    document.getElementById('Codonout').innerHTML = "";
+                
+                } else {
+                    document.getElementById('Codonout').innerHTML = "Start codon: " + " " + startcodon + " | " + "Stop codons" + " " + Total_stopcodon;
+                }
+            }
+
+            function count(str, codontype) {
+                
+                var letter_Count = 0;
+                var position = 0;
+
+                while(position < str.length) {
+
+                    var n = str.indexOf(codontype,position)
+
+                    if (n >= 0) {
+                        letter_Count++;
+                        console.log(codontype + " " + n);
+                        position= n+1;
+                    }else{
+                        break;
+                    }
+                    
+                
+                }
+                return letter_Count;
+            }
+
+        </script>
+
+    </body>
+</html>
