@@ -3,10 +3,10 @@
 <b> Lab | <b> Bioinformatics and Computational Biology
 
 
-<b>Name of Developer | <b> Dr. Shyam Diwakar 
+<b>Name of Developer | <b> Dr. Asha Vijayan 
 :--|:--|
 <b> Institute | <b>  Amrita Vishwa Vidyapeetham
-<b> Email id|     <b> shyam@amrita.edu 
+<b> Email id|     <b> ashavijayan@am.amrita.edu 
 <b> Department |  <b> Amrita Mind Brain Center
 
 &nbsp;
