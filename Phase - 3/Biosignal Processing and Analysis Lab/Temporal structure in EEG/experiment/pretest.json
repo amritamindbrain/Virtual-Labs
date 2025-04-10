@@ -1,0 +1,58 @@
+[{
+	"question": "1.The methods used to extract features from EEG signals are:",
+	"answers": {
+		"a": "Fast fourier transform (FFT)",
+		"b": "Wavelet transform (WT)",
+		"c": "Auto regressive method (ARM)",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, 
+ 
+ 
+{
+	"question": "2. A notable feature of EEG:",
+	"answers": {
+		"a": "High spatial resolution",
+		"b": "High temporal resolution",
+		"c": "Low temporal resolution",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+},
+ 
+ 
+ {
+	"question": "3.The Biological signals obtained from an electroencephalographic recording were characterized by:",
+	"answers": {
+		"a": "Waveform shape",
+		"b": "Temporal properties",
+		"c": "Statistical structure",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+},
+ 
+ 
+ {
+	"question": "4.Pre-processing of raw EEG data were done to:",
+	"answers": {
+		"a": "Improve the signal-to-noise ratio",
+		"b": "Improve the classification Accuracy",
+		"c": "Decrease the signal-to-noise ratio ",
+		"d": "Both a and b"
+	},
+	"correctAnswer": "d"
+ },
+ 
+  {
+	"question": "5.The electrodes placement on the scalp regions of brain for EEG recoding are in :",
+	"answers": {
+		"a": "20-30 Placement system",
+		"b": "10-20 Placement system",
+		"c": "30-40 Placement system",
+		"d": "5-10 placement system"
+	},
+	"correctAnswer": "b"
+ 
+}]

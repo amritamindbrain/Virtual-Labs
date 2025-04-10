@@ -1,0 +1,58 @@
+[{
+	"question": "1. ERP refers to:",
+	"answers": {
+		"a": "Variations in EEG data in response to cognitive performance",
+		"b": "Small changes in the scalp-recorded electroencephalogram to the onset of cognitive task",
+		"c": "Rhythmic patterns responsible for an input stimulus",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, 
+ 
+ 
+{
+	"question": "2. Decomposition of bio signals into shorter time windows were performed by:",
+	"answers": {
+		"a": "Pre-processing window",
+		"b": "Baseline removal",
+		"c": "Independent Component Analysis",
+		"d": "Classification algorithms"
+	},
+	"correctAnswer": "d"
+},
+ 
+ 
+ {
+	"question": "3. P200 indicates:",
+	"answers": {
+		"a": "Electrical potential that peaks at about 200 milliseconds after the onset of an external stimulus",
+		"b": "Positive evoked potential measured by electroencephalography",
+		"c": "Only a",
+		"d": "Both a and b"
+	},
+	"correctAnswer": "d"
+},
+ 
+ 
+ {
+	"question": "4. Temporal analysis of motor movement task indicated variation in:",
+	"answers": {
+		"a": "Frontal lobe",
+		"b": "Occipital lobe",
+		"c": "Temporal lobe",
+		"d": "Parietal lobe"
+	},
+	"correctAnswer": "a"
+ },
+ 
+  {
+	"question": "5. P300 waveform is a positive deflection peak generated in : :",
+	"answers": {
+		"a": "Cz areas of brain",
+		"b": "Pz areas of brain",
+		"c": "C3 areas of brain",
+		"d": "C4 areas of brain"
+	},
+	"correctAnswer": "b"
+ 
+}]
