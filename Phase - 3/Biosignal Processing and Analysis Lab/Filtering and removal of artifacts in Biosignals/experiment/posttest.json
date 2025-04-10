@@ -1,0 +1,46 @@
+[{
+	"question": "1.Which of the following are time-domain digital filters?",
+	"answers": {
+		"a": "Offset filter",
+		"b": "Moving average filter",
+		"c": "Median filter",
+		"d": "All of the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2.Which of the following is not a frequency domain digital filter?",
+	"answers": {
+		"a": "Butterworth filter",
+		"b": "Detrending filter",
+		"c": "Notch/Comb filter",
+		"d": "Savitzy-Golay filter"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "3.Techniques for bio signal pre-processing are:",
+	"answers": {
+		"a": "Bandpass filter",
+		"b": "Independent Component Analysis",
+		"c": "Time Slice",
+		"d": "All of the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "4.Low-pass filter retain:",
+	"answers": {
+		"a": "High frequency signal",
+		"b": "Low frequency signal",
+		"c": "Both low and high frequency signal",
+		"d": "None of the above"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "5.Common artefacts in a raw EEG signal are:",
+	"answers": {
+		"a": "Ocular artifacts",
+		"b": "Muscle-movement artefacts",
+		"c": "Cardiac Artefacts",
+		"d": "All of the above"
+	},
+	"correctAnswer": "d"
+}]

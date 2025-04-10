@@ -1,0 +1,37 @@
+[{
+	"question": "1. Neuroimaging techniques used for bio signal acquisition are:",
+	"answers": {
+		"a": "EEG",
+		"b": "fmri",
+		"c": "EMG",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2. Electroencephalographic data are recorded in which format:",
+	"answers": {
+		"a": "As PDF File",
+		"b": "As EDF file",
+		"c": "As word file",
+		"d": "None of the above"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3. Clinically EEG technique is applied to detect:",
+	"answers": {
+		"a": "Encephalopathy",
+		"b": "Encephalitis",
+		"c": "Brain death",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "4. Common bioelectric signals are:",
+	"answers": {
+		"a": "EMG",
+		"b": "ECG",
+		"c": "EEG",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}]
