@@ -1,0 +1,86 @@
+[
+    {
+    "question":"1. A programming language for a neuronal simulation are:",
+    
+    "answers":
+    {
+    "a":"Python",
+    "b":"java",
+    "c":"C+",
+    "d":"XML"
+    },
+    "correctAnswer":"a"
+    },
+    
+   
+   
+    {
+    "question":
+    "2. The chemical messenger that generate action potential in a chemical synapse are called: ",
+    
+    "answers":
+    {
+    "a":"Neuromessenger",
+    "b":"Neurosimulator",
+    "c":"Neurotransmitter",
+    "d":"None of the above"
+    },
+    
+    "correctAnswer":"c"
+    },
+
+
+  
+  
+    {
+        "question":
+        "3. The neurons responsible for voluntary and involuntary movements:",
+        
+        "answers":
+        {
+        "a":"Motor neurons",
+        "b":"Interneurons",
+        "c":"Sensory neurons",
+        "d":"Glial cells"
+        },
+        
+        "correctAnswer":"a"
+        },
+
+
+
+
+   {
+    "question":
+    "4. An electric potential occurs in the neuron by the flow of ions in and out of the neural membrane are called:",
+    
+    "answers":
+    {
+    "a":"Action potential",
+    "b":"synaptic plasticity",
+    "c":"Neural actions",
+    "d":"Membrane Activation"
+    },
+    
+    "correctAnswer":"a"
+    },   
+
+
+
+    {
+        "question":
+        "5. The ions involved in the generation of an electric impulse across neuron are:",
+        
+        "answers":
+        {
+        "a":"Sodium ions",
+        "b":"Potassium ions",
+        "c":"Calcium ions",
+        "d":"All the above"
+        },
+        
+        "correctAnswer":"d"
+        }
+
+
+    ]
