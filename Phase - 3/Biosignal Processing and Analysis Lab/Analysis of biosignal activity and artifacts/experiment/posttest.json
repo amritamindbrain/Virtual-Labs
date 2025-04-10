@@ -1,0 +1,46 @@
+[{
+	"question": "1. Identify the methods implemented for denoising or removing artifacts from a raw EEG signals:",
+	"answers": {
+		"a": "Independent component Analysis(ICA)",
+		"b": "Principal Component Analysis(PCA)",
+		"c": "Wavelet Transform(WT)",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2. Ocular artifacts, Muscle artifacts, Cardiac artifacts are:",
+	"answers": {
+		"a": "Extrinsic artifacts",
+		"b": "Intrinsic artifacts",
+		"c": "Experimental artifacts",
+		"d": "Environmental artifacts"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3. Artifacts are unwanted signals which are mainly originated from:",
+	"answers": {
+		"a": "Environment noise",
+		"b": "Experimental error",
+		"c": "Physiological artifacts",
+		"d": "All the above"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "4. The filtering methods employed for the cancellation of various noises from a EEG signals:",
+	"answers": {
+		"a": "Adaptive ﬁltering",
+		"b": "Wiener ﬁltering",
+		"c": "Welch Method",
+		"d": "Both A and B"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "5. Band pass filtering used to remove electromyogram (EMG) contamination:",
+	"answers": {
+		"a": " 30-40 Hz Band pass Filtering",
+		"b": "60 Hz Band pass Filtering",
+		"c": "1-20 Hz Band pass Filtering",
+		"d": "70-100 Hz Band pass Filtering"
+	},
+	"correctAnswer": "c"
+}]
