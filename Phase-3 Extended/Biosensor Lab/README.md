@@ -7,7 +7,7 @@
 :--|:--|
 <b> Institute | <b>  Amrita Vishwa Vidyapeetham
 <b> Email id|     <b> ajithm@am.amrita.edu 
-<b> Department |  <b> Amrita Mind Brain Center
+<b> Department |  <b> Amrita Schoool of Biotechnology
 
 &nbsp;
 
