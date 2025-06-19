@@ -1,0 +1,107 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Population-with-discrete-growth.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CLEAR_BUTTON">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_DATA_PLOTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_GO_TO_STEP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_GO_TO_STEP_ERROR_MESSAGE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_GO_TO_STEP_ERROR_MESSAGE1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_INPUT_INITIAL_NO">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_INPUT_NSTEPS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_INPUT_NUM_BIRTH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_INPUT_NUM_DEATH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_INPUT_TIME">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_MESSAGE1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_MESSAGE2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_MESSAGE3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_MESSAGE4">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_PAUSE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_PLAY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_PLOT_DATA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_POPULATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_POPULATION_WITH_CONTINUES_GROWTH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_POPULATION_WITH_DISCRETE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_POPULATION_WITH_DISCRETE_GROWTH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_RATE_OF_GROWTH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_RUN_ITERATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_RUN_ONCE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_STATS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_TYPE_CONTINOUS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_TYPE_DISCRETE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_WORK_SHEET">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

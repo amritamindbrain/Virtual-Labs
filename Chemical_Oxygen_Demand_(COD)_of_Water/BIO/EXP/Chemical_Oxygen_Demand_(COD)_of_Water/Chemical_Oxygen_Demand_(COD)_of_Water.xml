@@ -1,0 +1,353 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="1intro">
+	<TEXT ID="1intro_one">
+	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="2takewater">
+	<TEXT ID="2takewater_one">
+	 <TEXTVALUE>Water sample is collected from a pond.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="3closecap">
+	<TEXT ID="3closecap_one">
+	 <TEXTVALUE>The collected water sample is closed and is labeled as “Water sample”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="4tille">
+	<TEXT ID="4tille_one">
+	 <TEXTVALUE>The water sample is placed on the Work bunch.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="5tippic">
+	<TEXT ID="5tippic_one">
+	 <TEXTVALUE>10ml glass pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="6pipettesetting">
+	<TEXT ID="6pipettesetting_one">
+	 <TEXTVALUE>And is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="7icwatersamp">
+	<TEXT ID="7icwatersamp_one">
+	 <TEXTVALUE>10ml of water sample is  taken using  glass pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="8test1drop">
+	<TEXT ID="8test1drop_one">
+	 <TEXTVALUE>And is transferred to the Conical flask named as :TEST 1”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="9chart1watwer">
+	<TEXT ID="9chart1watwer_one">
+	 <TEXTVALUE>Similarly 10ml water sample is transferred  to both “TEST 2” and “TEST 3”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="10tippic2">
+	<TEXT ID="10tippic2_one">
+	 <TEXTVALUE>10ml glass pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="11pipettesetting2">
+	<TEXT ID="11pipettesetting2_one">
+	 <TEXTVALUE>And is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="12picdistiled">
+	<TEXT ID="12picdistiled_one">
+	 <TEXTVALUE>10ml of Distilled water  is  taken using  glass pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="13dropdistild">
+	<TEXT ID="13dropdistild_one">
+	 <TEXTVALUE>The bottle is closed and is transferred to the Conical flask named as :BLANK 1”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="14chart2distild">
+	<TEXT ID="14chart2distild_one">
+	 <TEXTVALUE>Similarly 10ml water sample is transferred  to both “BLANK 2” and “BLANK 3”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="15tippic3">
+	<TEXT ID="15tippic3_one">
+	 <TEXTVALUE>10ml glass pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="16Apipettesetting">
+	<TEXT ID="16Apipettesetting_one">
+	 <TEXTVALUE>And is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="17bottles">
+	<TEXT ID="17bottles_one">
+	 <TEXTVALUE>The bottle containing potassium dichromate solution is opened and  5ml of the solution is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="18pottasiumdicromate">
+	<TEXT ID="18pottasiumdicromate_one">
+	 <TEXTVALUE>5ml of potassium dichromate solution is added to the  first conical flask labeled as “TEST 1”.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="18pottasiumdicromate">
+	<TEXT ID="18pottasiumdicromate_two">
+	 <TEXTVALUE>Similarly 5ml of potassium dichromate solution is transferred to all conical flasks.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="19coverfoil">
+	<TEXT ID="19coverfoil_one">
+	 <TEXTVALUE>All conical flasks are wrapped with aluminum foil.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="20picbottle">
+	<TEXT ID="20picbottle_one">
+	 <TEXTVALUE>The “TEST 1” conical flask is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="21waterbath">
+	<TEXT ID="21waterbath_one">
+	 <TEXTVALUE>And is placed in a boiling water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="22picbotle2">
+	<TEXT ID="22picbotle2_one">
+	 <TEXTVALUE>Similarly, all the six conical flasks are placed in the boiling water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="23waterbathlast">
+	<TEXT ID="23waterbathlast_one">
+	 <TEXTVALUE>Similarly, all the six conical flasks are placed in the boiling water bath.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="23waterbathlast">
+	<TEXT ID="23waterbathlast_two">
+	 <TEXTVALUE>The water bath is closed and is incubated for 1 hour.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="24waterbathpic1">
+	<TEXT ID="24waterbathpic1_one">
+	 <TEXTVALUE>After 1 hour, the water bath is opened  and “Test 1” is taken out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="25placebottle1">
+	<TEXT ID="25placebottle1_one">
+	 <TEXTVALUE>And is placed on the  table.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="26waterbathlast2">
+	<TEXT ID="26waterbathlast2_one">
+	 <TEXTVALUE>Similarly, all the six conical flasks were taken out from the water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="27place3">
+	<TEXT ID="27place3_one">
+	 <TEXTVALUE>And is placed at room temperature for 10 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="28picfoil">
+	<TEXT ID="28picfoil_one">
+	 <TEXTVALUE>The aluminum foil is removed from all the conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="29tippic4">
+	<TEXT ID="29tippic4_one">
+	 <TEXTVALUE>10ml glass pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="30Apipettesetting4">
+	<TEXT ID="30Apipettesetting4_one">
+	 <TEXTVALUE>And is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="31iodidebottle">
+	<TEXT ID="31iodidebottle_one">
+	 <TEXTVALUE>The bottle containing potassium iodide solution is opened and 5ml of the solution is transferred from it.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="32iodidepouring">
+	<TEXT ID="32iodidepouring_one">
+	 <TEXTVALUE>And is transferred to the “TEST 1” conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="32iodidepouring">
+	<TEXT ID="32iodidepouring_two">
+	 <TEXTVALUE>Similarly 5ml of potassium iodide solution is transferred to all conical flasks.</TEXTVALUE>
+	</TEXT>	
+</SCENE><SCENE ID="3314tippic5">
+	<TEXT ID="3314tippic5_one">
+	 <TEXTVALUE>10ml glass pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="34Apipettesetting5">
+	<TEXT ID="34Apipettesetting5_one">
+	 <TEXTVALUE>And is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="35pich2so4">
+	<TEXT ID="35pich2so4_one">
+	 <TEXTVALUE>The bottle containing Sulfuric acid is opened and 10ml of the solution is transferred from it.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="h2so4bottle">
+	<TEXT ID="h2so4bottle_one">
+	 <TEXTVALUE>And is transferred to the “TEST 1” conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="h2so4bottle">
+	<TEXT ID="h2so4bottle_two">
+	 <TEXTVALUE>Similarly 5ml of Sulfuric acid is transferred to all conical flasks.</TEXTVALUE>
+	</TEXT>	
+	</SCENE>
+
+<SCENE ID="bureetteseting1">
+	<TEXT ID="bureetteseting1_one">
+	 <TEXTVALUE>Titration : Blank</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="bureetteseting1">
+	<TEXT ID="bureetteseting1_two">
+	 <TEXTVALUE>50 ml burette is attached to the burette stand and the funnel is taken from the table.</TEXTVALUE>
+	</TEXT>	
+</SCENE><SCENE ID="36funnelclose">
+	<TEXT ID="36funnelclose_one">
+	 <TEXTVALUE>The funnel is inserted into the mouth of the burette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="37picstandard">
+	<TEXT ID="37picstandard_one">
+	 <TEXTVALUE>The standard flask containing 0.1N Sodium thiosulphate  is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="38pouring">
+	<TEXT ID="38pouring_one">
+	 <TEXTVALUE>The burette is filled with 0.1N Sodium thiosulphate solution through the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="39fill">
+	<TEXT ID="39fill_one">
+	 <TEXTVALUE>The burette is filled with 0.1N Sodium thiosulphate solution through the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="40funnelpic">
+	<TEXT ID="40funnelpic_one">
+	 <TEXTVALUE>The funnel is removed from the mouth of the burette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="41allcnical">
+	<TEXT ID="41allcnical_one">
+	 <TEXTVALUE>“ BLANK 1” is taken from the work bunch.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="42magneticstirr">
+	<TEXT ID="42magneticstirr_one">
+	 <TEXTVALUE>And  is placed on the stirrer.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="43picmagneticcapsul">
+	<TEXT ID="43picmagneticcapsul_one">
+	 <TEXTVALUE>The magnetic stirrer is taken from the watch glass.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="44magneticstirrclose">
+	<TEXT ID="44magneticstirrclose_one">
+	 <TEXTVALUE>And is put into the “BLANK 1”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="45magneticstirrclosezoom">
+	<TEXT ID="45magneticstirrclosezoom_one">
+	 <TEXTVALUE>The magnetic stirrer is switched on.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="46onburret">
+	<TEXT ID="46onburret_one">
+	 <TEXTVALUE>The stopper of the burette is opened for the dropwise addition of 0.1N sodium thiosulphate.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="47colourchange">
+	<TEXT ID="47colourchange_one">
+	 <TEXTVALUE>The color of the solution changes from orange to pale yellow color due to the drop wise addition of sodium thiosulphate.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="48onburretoff">
+	<TEXT ID="48onburretoff_one">
+	 <TEXTVALUE>Stop cock of the burette is closed immediately during the time at which the color of the solution changes to pale yellow color.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="49starchindicator">
+	<TEXT ID="49starchindicator_one">
+	 <TEXTVALUE>Starch solution is taken from its bottle using dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="50starchadded">
+	<TEXT ID="50starchadded_one">
+	 <TEXTVALUE>3 drops of starch solution is added to the “ BLANK 1”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="51onburret1">
+	<TEXT ID="51onburret1_one">
+	 <TEXTVALUE>Stop cock of the burette is opened for the drop wise addition of the 0.1N sodium thiosulphate and is closed immediately in the time at which the blue color of the solution is changes to colorless.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="52colourchangelast">
+	<TEXT ID="52colourchangelast_one">
+	 <TEXTVALUE>The magnetic stirrer is switched off.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="53slideresult">
+	<TEXT ID="53slideresult_one">
+	 <TEXTVALUE>The burette reading is shown as 22.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="60chart">
+	<TEXT ID="60chart_one">
+	 <TEXTVALUE>This experiment is repeated with “BLANK 2” and “BLANK 3” and the readings are noted.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="bureetteseting">
+	<TEXT ID="bureetteseting_one">
+	 <TEXTVALUE>Titration : Test</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="bureetteseting">
+	<TEXT ID="bureetteseting_two">
+	 <TEXTVALUE>50 ml burette is attached to the burette stand and the funnel is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="54funnelclose">
+	<TEXT ID="54funnelclose_one">
+	 <TEXTVALUE>The funnel is inserted into the mouth of the burette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="55picstandard">
+	<TEXT ID="55picstandard_one">
+	 <TEXTVALUE>The standard flask containing 0.1N Sodium thiosulphate  is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="56pouring">
+	<TEXT ID="56pouring_one">
+	 <TEXTVALUE>The burette is filled with 0.1N Sodium thiosulphate solution through the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="57fill">
+	<TEXT ID="57fill_one">
+	 <TEXTVALUE>The burette is filled with 0.1N Sodium thiosulphate solution through the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="58funnelpic">
+	<TEXT ID="58funnelpic_one">
+	 <TEXTVALUE>The funnel is removed from the mouth of the burette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="59allcnical">
+	<TEXT ID="59allcnical_one">
+	 <TEXTVALUE>“ TEST 1” is taken from the work bunch.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="60magneticstirr">
+	<TEXT ID="60magneticstirr_one">
+	 <TEXTVALUE>And  is placed on the stirrer.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="61picmagneticcapsul">
+	<TEXT ID="61picmagneticcapsul_one">
+	 <TEXTVALUE>The magnetic stirrer is taken from the watch glass.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="62magneticstirrclose">
+	<TEXT ID="62magneticstirrclose_one">
+	 <TEXTVALUE>And is put into the “TEST 1”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="63magneticstirrclosezoom">
+	<TEXT ID="63magneticstirrclosezoom_one">
+	 <TEXTVALUE>The magnetic stirrer is switched on.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="64onburret">
+	<TEXT ID="64onburret_one">
+	 <TEXTVALUE>The stopper of the burette is opened for the dropwise addition of 0.1N sodium thiosulphate.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="65colourchange">
+	<TEXT ID="65colourchange_one">
+	 <TEXTVALUE>The color of the solution changes from orange to pale yellow color due to the drop wise addition of sodium thiosulphate.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="66onburretoff">
+	<TEXT ID="66onburretoff_one">
+	 <TEXTVALUE>Stop cock of the burette is closed immediately during the time at which the color of the solution changes to pale yellow color.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="67starchindicator">
+	<TEXT ID="67starchindicator_one">
+	 <TEXTVALUE>Starch solution is taken from its bottle using dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="68starchadded">
+	<TEXT ID="68starchadded_one">
+	 <TEXTVALUE>3 drops of starch solution is added to the “ TEST 1”.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="69onburret1">
+	<TEXT ID="69onburret1_one">
+	 <TEXTVALUE>Stop cock of the burette is opened for the drop wise addition of the 0.1N sodium thiosulphate and is closed immediately at the time in which the blue color of the solution is changes to colorless.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="70colourchangelast">
+	<TEXT ID="70colourchangelast_one">
+	 <TEXTVALUE>The magnetic stirrer is switched off.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="71slideresult">
+	<TEXT ID="71slideresult_one">
+	 <TEXTVALUE>The burette reading is shown as 30.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="72chart2">
+	<TEXT ID="72chart2_one">
+	 <TEXTVALUE>This experiment is repeated with “TEST 2” and “TEST 3” and the readings are noted.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="calculation">
+	<TEXT ID="calculation_one">
+	 <TEXTVALUE>Calculation.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+</DATA>

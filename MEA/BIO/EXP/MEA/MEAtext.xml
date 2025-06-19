@@ -1,0 +1,114 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="Heading">
+	<TEXT ID="Heading_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Theory">
+	<TEXT ID="Theory_one">
+		<TEXTVALUE>The extracellular field potential is the electrical potential produced by cells, e.g. nerve or muscle cells, outside of the cell. Electrophysiological studies investigate these potentials using extracellular microelectrodes. Individual neurons may produce spikes seen as peaks of some tens to hundreds of microvolts. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Theory1">
+	<TEXT ID="Theory1_one">
+		<TEXTVALUE>Contributions from neighbouring neurons may overlap, producing extracellular potentials of up to several millivolts. Spatially integrating over even larger populations of cells, i.e. lumps of nervous or muscular tissue, will produce signals commonly called local field potentials (LFP).... </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Theory2">
+	<TEXT ID="Theory2_one">
+		<TEXTVALUE>that can be recorded either in the tissue or with suitable equipment at the body surface as, e.g., electroencephalogram (EEG), electrocardiogram (ECG), or electromyogram (EMG).For individual cells, the time course of the extracellular potential theoretically is inversely proportional to the transmembrane current. </TEXTVALUE>
+	</TEXT>
+</SCENE>	
+
+<SCENE ID="Theory3">	
+	<TEXT ID="Theory3_one">
+		<TEXTVALUE>In practice, however, this is complicated considerably by the very complex morphology of neurons and the overlap of contributions from adjacent cells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Setup">
+	<TEXT ID="Setup_one">
+		<TEXTVALUE>Zoom over the various components to study the setup and then click the next button to continue</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="MEAchip">
+	<TEXT ID="MEAchip_one">
+		<TEXTVALUE>Multi-electrode array (MEA) biochips are used to stimulate and record extracellular electrical activity of excitable biological tissue from as many as 60 recording sites simultaneously. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="MEAchipparts">
+	<TEXT ID="MEAchipparts_one">
+		<TEXTVALUE>In most cases, single unit activity and/or slow field potentials are recorded inpreparations such as dissociated cell cultures (neurons,or even heart muscle cells) and organotypic or acute tissue slices (brain, spinal cord, retina, etc.)</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Placethechip">
+	<TEXT ID="Placethechip_one">
+		<TEXTVALUE>Press "Click to zoom in" for closer look</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Placethechip_two">
+		<TEXTVALUE>Click "Place MEA chip" to place the chip on to the setup</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="placetheslice">
+	<TEXT ID="placetheslice_one">
+		<TEXTVALUE>Zoom in</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="placetheslice_two">
+		<TEXTVALUE>Click "Place slice" to place the brain slice in the MEA chip</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="ligtson">
+	<TEXT ID="ligtson_one">
+		<TEXTVALUE>Switch on the micrscope light</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Microscopiczoom">
+	<TEXT ID="Microscopiczoom_one">
+		<TEXTVALUE>Microscopic view of Multi Electrode Array Chip</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Enterelectrode">
+	<TEXT ID="Enterelectrode_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Showgraph">
+	<TEXT ID="Showgraph_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+</DATA>

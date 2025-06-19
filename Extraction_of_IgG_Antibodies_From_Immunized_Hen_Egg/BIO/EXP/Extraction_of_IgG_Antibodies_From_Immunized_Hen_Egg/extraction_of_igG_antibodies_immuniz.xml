@@ -1,0 +1,1203 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="01firstadd">
+	<TEXT ID="01firstadd_one">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment  to know the name / click the continue button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="02titleyoyo">
+	<TEXT ID="02titleyoyo_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="03ethanol">
+	<TEXT ID="03ethanol_one">
+	 <TEXTVALUE>The bottle containing 70% ethanol is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="04cottontake">
+	<TEXT ID="04cottontake_one">
+	 <TEXTVALUE>A piece of cotton is taken from the role.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="05flush">
+	<TEXT ID="05flush_one">
+	 <TEXTVALUE>70% ethanol is sprayed on the piece of cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="06ethanolplaced">
+	<TEXT ID="06ethanolplaced_one">
+	 <TEXTVALUE>The bottle containing 70% ethanol is replaced onto the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="07eggtake">
+	<TEXT ID="07eggtake_one">
+	 <TEXTVALUE>An immunized hen egg is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="08eggclean">
+	<TEXT ID="08eggclean_one">
+	 <TEXTVALUE>The shell of the egg is wiped using cotton containing 70% ethanol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="09waste">
+	<TEXT ID="09waste_one">
+	 <TEXTVALUE>The cotton ball is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11forceps">
+	<TEXT ID="11forceps_one">
+	 <TEXTVALUE>A forceps is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12eggbreak">
+	<TEXT ID="12eggbreak_one">
+	 <TEXTVALUE>The shell of the egg is breaked using handle part of the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12eggbreak">
+	<TEXT ID="12eggbreak_two">
+	 <TEXTVALUE>The cracked egg shell is removed using the tips of the forceps and is discarded in the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13shelwaste">
+	<TEXT ID="13shelwaste_one">
+	 <TEXTVALUE>The white part of the immunized hen egg is oozed out to the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14breakegg">
+	<TEXT ID="14breakegg_one">
+	 <TEXTVALUE>The middle portion of the immunized hen egg is broken using the handle of the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15forcepskeepb">
+	<TEXT ID="15forcepskeepb_one">
+	 <TEXTVALUE>The forceps is replaced onto the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16eggyellow">
+	<TEXT ID="16eggyellow_one">
+	 <TEXTVALUE>The yolk of the immunized hen egg is slowly poured into a 50 ml beaker and the shell is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="17scalpel">
+	<TEXT ID="17scalpel_one">
+	 <TEXTVALUE>A scalpel is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18egyellowscratch">
+	<TEXT ID="18egyellowscratch_one">
+	 <TEXTVALUE>The membrane surrounding the yolk is cut open using scalpel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19rtnn">
+	<TEXT ID="19rtnn_one">
+	 <TEXTVALUE>The scalpel is replaced onto the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="20pipet">
+	<TEXT ID="20pipet_one">
+	 <TEXTVALUE>A 1000 microlitre pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21re1000">
+	<TEXT ID="21re1000_one">
+	 <TEXTVALUE>Adjust the volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="22pipetake">
+	<TEXT ID="22pipetake_one">
+	 <TEXTVALUE>A new tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="23tbs">
+	<TEXT ID="23tbs_one">
+	 <TEXTVALUE>The cap of the bottle containing TBS Buffer is opened and pipetteted out 1000 microlitre of TBS Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24tbsadded">
+	<TEXT ID="24tbsadded_one">
+	 <TEXTVALUE>1000 microlitre of TBS buffer is added to the beaker containing cracked egg yolk.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25glassrod">
+	<TEXT ID="25glassrod_one">
+	 <TEXTVALUE>A glass rod is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26glasswipe">
+	<TEXT ID="26glasswipe_one">
+	 <TEXTVALUE>The glass rod is wiped using cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+    
+<SCENE ID="27mixxegg">
+	<TEXT ID="27mixxegg_one">
+	 <TEXTVALUE>The egg yolk is properly mixed by using this sterile glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28centube">
+	<TEXT ID="28centube_one">
+	 <TEXTVALUE>The tube labeled as Diluted egg yolk is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29tubeopen">
+	<TEXT ID="29tubeopen_one">
+	 <TEXTVALUE>The cap of the tube is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30beakrtake">
+	<TEXT ID="30beakrtake_one">
+	 <TEXTVALUE>The beaker containing Diluted egg yolk is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="31insertyolk">
+	<TEXT ID="331insertyolk_one">
+	 <TEXTVALUE>The diluted egg yolk is transferred to the tube and the cap of the tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32CENTRIFUGE">
+	<TEXT ID="32CENTRIFUGE_one">
+	 <TEXTVALUE>The lid of the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33fixingtube">
+	<TEXT ID="33fixingtube_one">
+	 <TEXTVALUE>The tube containing diluted egg yolk is placed in the centrifuge. Another centrifuge containing water is placed opposite to the tube for balancing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="34closetube">
+	<TEXT ID="34closetube_one">
+	 <TEXTVALUE>The lid of the centrifuge is closed and set to 5000 rpm for 10 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="34Aopencentrif">
+	<TEXT ID="34Aopencentrif_one">
+	 <TEXTVALUE>The lid of the centrifuge is open.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="35outcentub">
+	<TEXT ID="35outcentub_one">
+	 <TEXTVALUE>After 10 minutes, the lid of the centrifuge is opened and the tube containing diluted egg yolk is taken from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36putdwntube">
+	<TEXT ID="36putdwntube_one">
+	 <TEXTVALUE>The tube containing diluted egg yolk is placed on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37glasspipt">
+	<TEXT ID="37glasspipt_one">
+	 <TEXTVALUE>A 10ml glass pipette and a pipette pump are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38pipetfit">
+	<TEXT ID="38pipetfit_one">
+	 <TEXTVALUE>The glass pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39tubeopen">
+	<TEXT ID="39tubeopen_one">
+	 <TEXTVALUE>The cap of the tube is opened and the precipitate is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="40discardpe">
+	<TEXT ID="40discardpe_one">
+	 <TEXTVALUE>The precipitate is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="41pptt">
+	<TEXT ID="41pptt_one">
+	 <TEXTVALUE>Take a 1000 microlitre pipette from the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="42show1000">
+	<TEXT ID="42show1000_one">
+	 <TEXTVALUE>Adjust the volume of the pipette to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="43tip">
+	<TEXT ID="43tip_one">
+	 <TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="44dextran">
+	<TEXT ID="44dextran_one">
+	 <TEXTVALUE>The cap of the bottle containing Dextran Sulphate is opened and pipette out 1000 microlitre of solution from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="45dextradd">
+	<TEXT ID="45dextradd_one">
+	 <TEXTVALUE>The cap of the tube containing diluted egg yolk is opened and dextran sulphate solution is added into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="46bn">
+	<TEXT ID="46bn_one">
+	 <TEXTVALUE>The tip is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="47nttip">
+	<TEXT ID="47nttip_one">
+	 <TEXTVALUE>A fresh tip is inserted into the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="48calcium">
+	<TEXT ID="48calcium_one">
+	 <TEXTVALUE>1000 microlitre of Calcium chloride solution is pipetted out from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="49calciumadd">
+	<TEXT ID="49calciumadd_one">
+	 <TEXTVALUE>The cap of the tube containing diluted egg yolk is opened and calcium chloride solution is added into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="50mix">
+	<TEXT ID="50mix_one">
+	 <TEXTVALUE>The contents in the tube are mixed properly by gentle shaking.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="51rtntube">
+	<TEXT ID="51rtntube_one">
+	 <TEXTVALUE>After proper shaking the tube is replaced onto the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="52glasppt">
+	<TEXT ID="52glasppt_one">
+	 <TEXTVALUE>A 10ml glass pipette and a pipette pump are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="53fixed">
+	<TEXT ID="53fixed_one">
+	 <TEXTVALUE>The glass pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="54prcip">
+	<TEXT ID="54prcip_one">
+	 <TEXTVALUE>The cap of the tube is opened and the precipitate is pipetted out. Sediment is observed at the bottom of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="55waste">
+	<TEXT ID="55waste_one">
+	 <TEXTVALUE>The precipitate is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="56ptptke">
+	<TEXT ID="56ptptke_one">
+	 <TEXTVALUE>A 5000 microlitre pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="575000">
+	<TEXT ID="575000_one">
+	 <TEXTVALUE>volume of the micropipette is adjusted to 4000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="58newtip">
+	<TEXT ID="58newtip_one">
+	 <TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59dextrancopy">
+	<TEXT ID="59dextrancopy_one">
+	 <TEXTVALUE>The cap of the bottle containing TBS Buffer is opened and pipetteted out 1000 microlitre of TBS Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="59Atbstaketoc">
+	<TEXT ID="59Atbstaketoc_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59Bcentri">
+	<TEXT ID="59Bcentri_one">
+	 <TEXTVALUE>The lid of the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59Ctocentri">
+	<TEXT ID="59Ctocentri_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59Dclosetube">
+	<TEXT ID="59Dclosetube_one">
+	 <TEXTVALUE>The lid of the centrifuge is closed and set to 5000 rpm for 10 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59Ecentriop">
+	<TEXT ID="59Ecentriop_one">
+	 <TEXTVALUE>After 10 minutes, the lid of the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59Ftaketubecent">
+	<TEXT ID="59Ftaketubecent_one">
+	 <TEXTVALUE>The tube containing sediment and TBS buffer is taken from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59Greturntube">
+	<TEXT ID="59Greturntube_one">
+	 <TEXTVALUE>The tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="57500">
+	<TEXT ID="57500_one">
+	 <TEXTVALUE>A 5000 microlitre pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="584thtip">
+	<TEXT ID="584thtip_one">
+	 <TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59rpm">
+	<TEXT ID="59rpm_one">
+	 <TEXTVALUE>The cap of the centrifuge tube is opened and pipetted out the supernatant from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="60waster">
+	<TEXT ID="60waster_one">
+	 <TEXTVALUE>The supernatant is transferred to a 25ml beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="61force">
+	<TEXT ID="61force_one">
+	 <TEXTVALUE>A forceps is taken the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62stirer">
+	<TEXT ID="62stirer_one">
+	 <TEXTVALUE>The stir bar from the watch glass is taken with forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="63stirbeaker">
+	<TEXT ID="63stirbeaker_one">
+	 <TEXTVALUE>The stir bar is slowly placed into the supernatant in the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="64ppty">
+	<TEXT ID="64ppty_one">
+	 <TEXTVALUE>A 5000 microlitre pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="654000">
+	<TEXT ID="654000_one">
+	 <TEXTVALUE>The volume of the micropipette is adjusted to 4000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="66tipnew">
+	<TEXT ID="66tipnew_one">
+	 <TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="67sodiumtake">
+	<TEXT ID="67sodiumtake_one">
+	 <TEXTVALUE>The cap of the bottle containing saturated sodium sulphate is opened and pipetted out 4000 microlitre of solution from it.
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="68insert">
+	<TEXT ID="68insert_one">
+	 <TEXTVALUE>The saturated sodium sulphate solution is added to the beaker containing supernatant.The beaker is taken from the bench top and
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="69veesicooler">
+	<TEXT ID="69veesicooler_one">
+	 <TEXTVALUE>placed on the magnetic stirrer inside the Visicooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="70switchon">
+	<TEXT ID="70switchonr_one">
+	 <TEXTVALUE>The magnetic stirrer is switched on and the door of the Visicooler is closed.The supernatant is placed in the Visicooler for 2 hours at 4 degree Celsius.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="71veesicooler">
+	<TEXT ID="71veesicooler_one">
+	 <TEXTVALUE>After 2 hours, the door of the Visicooler is opened, the magnetic stirrer is switched off and the beaker containing supernatant is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="72intable">
+	<TEXT ID="72intable_one">
+	 <TEXTVALUE>The beaker is placed on the bench top.The stir bar is taken from the beaker using stir bar retriever.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="73IIndtube">
+	<TEXT ID="73IIndtube_one">
+	 <TEXTVALUE>The cap of the centrifuge tube labeled as Concentrated IgG is opened and the solution in the beaker is transferred to the tube.. The tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="74centriopen">
+	<TEXT ID="74centriopen_one">
+	 <TEXTVALUE>The lid of the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="75insertube">
+	<TEXT ID="75insertube_one">
+	 <TEXTVALUE>The tube labeled as Concentrated IgG which contains solution is placed in the centrifuge.centrifuge containing water is placed opposite to the tube for balancing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="76closed">
+	<TEXT ID="76closed_one">
+	 <TEXTVALUE>The lid of the centrifuge is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="77stop">
+	<TEXT ID="77stop_one">
+	 <TEXTVALUE>The centrifuge is set to 13000 rpm at 4 degree Celsius for 1 hour.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="78oppen">
+	<TEXT ID="78oppen_one">
+	 <TEXTVALUE>After 1 hour, the lid of the centrifuge is opened </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="79out">
+	<TEXT ID="79out_one">
+	 <TEXTVALUE>and the tube labeled as Concentrated IgG is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="80tubeopen">
+	<TEXT ID="80tubeopen_one">
+	 <TEXTVALUE>The cap of the tube is opened </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="81wastbeakr">
+	<TEXT ID="81wastbeakr_one">
+	 <TEXTVALUE>and the supernatant is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82instandcentr">
+	<TEXT ID="82instandcentr_one">
+	 <TEXTVALUE>The tube is replaced onto the rack and the pellet is observed at the bottom of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="83pipettake">
+	<TEXT ID="83pipettake_one">
+	 <TEXTVALUE>A 10ml glass pipette and a pipette pump are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="84glpptfix">
+	<TEXT ID="84glpptfix_one">
+	 <TEXTVALUE>The pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="85Tbs">
+	<TEXT ID="85Tbs_one">
+	 <TEXTVALUE>The cap of the bottle containing TBS buffer is opened and pipette out 10ml of buffer from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="86opentubecap">
+	<TEXT ID="86opentubecap_one">
+	 <TEXTVALUE>The cap of the tube containing pellet is opened and 10ml TBS buffer is added into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="86opentubecap">
+	<TEXT ID="86opentubecap_two">
+	 <TEXTVALUE>The pellet in the tube is resuspended in the TBS buffer by pipetting 2-3 times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="87icebox">
+	<TEXT ID="87icebox_one">
+	 <TEXTVALUE>The centrifuge tube containing resuspended pellet is kept in the icebox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="88heading">
+	<TEXT ID="88heading_one">
+	 <TEXTVALUE>Purification of IgG Fraction by Dialysis Activation of Dialysis tubing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89cutcover">
+	<TEXT ID="89cutcover_one">
+	 <TEXTVALUE>A small piece of Dialysis tubing is taken from its roll.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="90putit">
+	<TEXT ID="90putit_one">
+	 <TEXTVALUE>The Dialysis tubing is placed into the beaker containing 2% Sodium bicarbonate solution and the beaker is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91waterbath">
+	<TEXT ID="91waterbath_one">
+	 <TEXTVALUE>The lid of the boiling water bath is opened and the beaker containing Dialysis tubing and 2% Sodium bicarbonate solution is placed into it, The lid of the water bath is closed and set it for 20 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="92openwatrbath">
+	<TEXT ID="92openwatrbath_one">
+	 <TEXTVALUE>After 20 minutes, the lid of the water bath is opened and the beaker containing Dialysis tubing and 2% Sodium bicarbonate solution is taken from it using a tongs, The lid of the water bath is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93intable">
+	<TEXT ID="93intable_one">
+	 <TEXTVALUE>The beaker is replaced onto the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="94force">
+	<TEXT ID="94force_one">
+	 <TEXTVALUE>A forceps is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95takeda">
+	<TEXT ID="95takeda_one">
+	 <TEXTVALUE>The Dialysis tubing is taken from the 2% Sodium bicarbonate solution using the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96wash">
+	<TEXT ID="96wash_one">
+	 <TEXTVALUE>The Dialysis tubing is rinsed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97edta">
+	<TEXT ID="97edta_one">
+	 <TEXTVALUE>The rinsed Dialysis tubing is again placed into the beaker containing 1mM EDTA. The beaker is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98IIwaterbath">
+	<TEXT ID="98IIwaterbath_one">
+	 <TEXTVALUE>The lid of the boiling water bath is opened and the beaker containing Dialysis tubing and 1mM EDTA is placed into it. The lid of the water bath is closed and set it for 10 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="99opener">
+	<TEXT ID="99opener_one">
+	 <TEXTVALUE>After 10 minutes, the lid of the water bath is opened and the beaker containing Dialysis tubing and 1mM EDTA is taken from it using a tongs and the lid of the water bath is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="100tablein">
+	<TEXT ID="100tablein_one">
+	 <TEXTVALUE>The beaker is replaced onto the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101for">
+	<TEXT ID="101for_one">
+	 <TEXTVALUE>The Dialysis tubing is taken from the 1mM EDTA solution using forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="102wash2">
+	<TEXT ID="102wash2_one">
+	 <TEXTVALUE>The Dialysis tubing is rinsed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="103bottletake">
+	<TEXT ID="103bottletake_one">
+	 <TEXTVALUE>The Distilled water bottle is replaced onto the lab table and the bottle containing 005M Tris Hcl Buffer,PH 8 is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="104buffer">
+	<TEXT ID="104buffer_one">
+	 <TEXTVALUE>The Dialysis tubing is rinsed using 005M Tris Hcl Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="105tissuepaper">
+	<TEXT ID="105tissuepaper_one">
+	 <TEXTVALUE>The Dialysis tubing is the now Activated and is placed on the tissue paper on the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="106title">
+	<TEXT ID="106title_one">
+	 <TEXTVALUE>Purification of IgG Antibodies</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="107putclip">
+	<TEXT ID="107putclip_one">
+	 <TEXTVALUE>A clamp is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108glasspartak">
+	<TEXT ID="108glasspartak_one">
+	 <TEXTVALUE>The Activated Dialysis tubing is taken from the tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109clipped">
+	<TEXT ID="109clipped_one">
+	 <TEXTVALUE>The clamp is inserted on the Activated dialysis tubing at one side.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="110down">
+	<TEXT ID="110down_one">
+	 <TEXTVALUE>The Activated dialysis tubing is placed over the tissue paper on the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111ppttake">
+	<TEXT ID="111ppttake_one">
+	 <TEXTVALUE>A 10ml pipette and a pipette pump are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112fixedppt">
+	<TEXT ID="112fixedppt_one">
+	 <TEXTVALUE>The pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113rtnicebox">
+	<TEXT ID="113rtnicebox_one">
+	 <TEXTVALUE>The tube labeled as concentrated IgG is taken from the icebox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="114centritubeopen">
+	<TEXT ID="114centritubeopen_one">
+	 <TEXTVALUE>The cap of the tube is opened and the resuspended pellet solution in the tube is pippeted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115tubetake">
+	<TEXT ID="115tubetake_one">
+	 <TEXTVALUE>The Activated dialysis tubing is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="116tubein">
+	<TEXT ID="116tubein_one">
+	 <TEXTVALUE>The Activated Dialysis tubing is  filled using the resuspended pellet solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117clipped2">
+	<TEXT ID="117clipped2_one">
+	 <TEXTVALUE>The air present in the dialysing tube is squeezed out and the clamp is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118downglassc">
+	<TEXT ID="118downglassc_one">
+	 <TEXTVALUE>The Activated Dialysis tubing containing the pellet solution is placed on the tissue paper and it is wiped gently using another tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119inbeakersolution">
+	<TEXT ID="119inbeakersolution_one">
+	 <TEXTVALUE>The Activated Dialysis tubing with pellet solution is placed on the PBS Buffer,PH 7.2.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120forcepst">
+	<TEXT ID="120forcepst_one">
+	 <TEXTVALUE>A forceps is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121stirertake">
+	<TEXT ID="121stirertake_one">
+	 <TEXTVALUE>A magnetic Teflon is taken from the watch glass.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="122stirerdown">
+	<TEXT ID="122stirerdown_one">
+	 <TEXTVALUE>The magnetic Teflon is placed in the PBS Buffer, PH 7.2 using forceps and the beaker containing PBS Buffer solution and Activated dialysing tubing is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="123veesicooler1">
+	<TEXT ID="123veesicooler1_one">
+	 <TEXTVALUE>The beaker is placed on the magnetic stirrer which is placed inside the Visicooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124switchon">
+	<TEXT ID="124switchon_one">
+	 <TEXTVALUE>The magnetic stirrer is switched on and it is kept for 3 hours at 4 degree Celsius.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="125outstand">
+	<TEXT ID="125outstand_one">
+	 <TEXTVALUE>After 3 hour’s incubation, the magnetic stirrer is switched off and the beaker containing PBS Buffer and Activated Dialysis tubing is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="126tabler">
+	<TEXT ID="126tabler_one">
+	 <TEXTVALUE>The beaker is placed back on the bench top and the Activated dialysis tubing containing resuspended pellet solution is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="127clipout">
+	<TEXT ID="127clipout_one">
+	 <TEXTVALUE>The clamp is taken off from one side of the dialysis tubing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="128outer">
+	<TEXT ID="128outer_one">
+	 <TEXTVALUE>The clamp is taken off from one side of the dialysis tubing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="129takepipet">
+	<TEXT ID="129takepipet_one">
+	 <TEXTVALUE>A Pasteur pipette is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="130henegg">
+	<TEXT ID="130henegg_one">
+	 <TEXTVALUE>A Pasteur pipette is taken from the beaker, The resuspended pellet solution from the Activated dialysis tubing is pipetted out using Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="131plasterpptfill">
+	<TEXT ID="131plasterpptfill_one">
+	 <TEXTVALUE>The cap of the tube labeled as dialysed IgG is opened and the dialysed pellet solution is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="132title">
+	<TEXT ID="132title_one">
+	 <TEXTVALUE>Purification of IgG Fraction by Ion-Exchange Chromatography.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="133distitake">
+	<TEXT ID="133distitake_one">
+	 <TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="134distilo">
+	<TEXT ID="134distilo_one">
+	 <TEXTVALUE>The chromatographic column is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="135slurrytake">
+	<TEXT ID="135slurrytake_one">
+	 <TEXTVALUE>The DEAE Cellulose slurry is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="136slurryflow">
+	<TEXT ID="136slurryflow_one">
+	 <TEXTVALUE>The DEAE Cellulose slurry is transferred into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="137slurryrtn">
+	<TEXT ID="137slurryrtn_one">
+	 <TEXTVALUE>After pouring, the slurry is replaced onto the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="138pbsbuffer">
+	<TEXT ID="138pbsbuffer_one">
+	 <TEXTVALUE>The PBS buffer bottle is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="139pbsflow">
+	<TEXT ID="139pbsflow_one">
+	 <TEXTVALUE>The PBS buffer is poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="140pbsdown">
+	<TEXT ID="140pbsdown_one">
+	 <TEXTVALUE>The PBS buffer in the column is removed into a waste beaker by removing the cap .Then the column is recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="141taketube">
+	<TEXT ID="141taketube_one">
+	 <TEXTVALUE>The centrifuge tube containing Dialysed IgG is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="142tubeliquid">
+	<TEXT ID="142tubeliquid_one">
+	 <TEXTVALUE>The cap of the tube is opened and the dialysate is poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="143pbs">
+	<TEXT ID="143pbs_one">
+	 <TEXTVALUE>The PBS buffer is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="144pbsd">
+	<TEXT ID="144pbsd_one">
+	 <TEXTVALUE>The buffer is again poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="145tubecapout">
+	<TEXT ID="145tubecapout_one">
+	 <TEXTVALUE>The cap of the centrifuge tube labeled as Purified IgG is opened and is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="146replace">
+	<TEXT ID="146replace_one">
+	 <TEXTVALUE>The waste beaker under the chromatographic column is replaced by the centrifuge tube, the cap of the column is removed and the solution is collected into the tube. After that the column is recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="147recapedtube">
+	<TEXT ID="147recapedtube_one">
+	 <TEXTVALUE>The centrifuge tube is replaced onto the bench top and the cap of the tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="148pipettak">
+	<TEXT ID="148pipettak_one">
+	 <TEXTVALUE>A 1000 microlitre pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="149showman">
+	<TEXT ID="149showman_one">
+	 <TEXTVALUE>Adjust its volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="150tipper">
+	<TEXT ID="150tipper_one">
+	 <TEXTVALUE>A fresh tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="151pbsbuffer">
+	<TEXT ID="151pbsbuffer_one">
+	 <TEXTVALUE>1000 microlitre of PBS buffer is pippeted out from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="151A">
+	<TEXT ID="151A_one">
+	 <TEXTVALUE>A cuvette for blank (labeled as B) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="152fill">
+	<TEXT ID="152fill_one">
+	 <TEXTVALUE>1000 microlitre of PBS buffer is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="153cuvtrtn">
+	<TEXT ID="153cuvtrtn_one">
+	 <TEXTVALUE>The cuvette B is placed back on the rack and the other B labeled cuvette (for Blank) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="154pbsbuffer2">
+	<TEXT ID="154pbsbuffer2_one">
+	 <TEXTVALUE>Again 1000 microlitre of PBS buffer is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="155filledcuvet">
+	<TEXT ID="155filledcuvet_one">
+	 <TEXTVALUE>1000 microlitre of PBS buffer is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="156cuvrtn">
+	<TEXT ID="156cuvrtn_one">
+	 <TEXTVALUE>The cuvette is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="157photometer">
+	<TEXT ID="157photometer_one">
+	 <TEXTVALUE>The lid of spectrophotometer is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="158takercuv">
+	<TEXT ID="158takercuv_one">
+	 <TEXTVALUE>One of the B labeled cuvette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="159cleancuv">
+	<TEXT ID="159cleancuv_one">
+	 <TEXTVALUE>The cuvette is properly wiped using a tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="160insertcuvete">
+	<TEXT ID="160insertcuvete_one">
+	 <TEXTVALUE>After that the cuvette is placed in one of the slit in the spectrophotometer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="161takeB2">
+	<TEXT ID="161takeB2_one">
+	 <TEXTVALUE>The second cuvette labeled as B is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="162clean2">
+	<TEXT ID="162clean2_one">
+	 <TEXTVALUE>The cuvette is wiped properly using a tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="163baselineshow">
+	<TEXT ID="163baselineshow_one">
+	 <TEXTVALUE>The second cuvette is placed in the other slit in the spectrophotometer and the lid is closed. The spectrophotometer starts to work on pressing the enter button.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="164outcuvette">
+	<TEXT ID="164outcuvette_one">
+	 <TEXTVALUE>This is the graph indicating the baseline which is observed on the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="165insertedt">
+	<TEXT ID="165insertedt_one">
+	 <TEXTVALUE>The cuvette labeled as B is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="166pippet">
+	<TEXT ID="166pippet_one">
+	 <TEXTVALUE>A 1000 microlitre pipette is taken from the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="167show1000ml">
+	<TEXT ID="167show1000ml_one">
+	 <TEXTVALUE>Adjust its volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="168tiptaker">
+	<TEXT ID="168tiptaker_one">
+	 <TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="169centritube">
+	<TEXT ID="169centritube_one">
+	 <TEXTVALUE>The tube labeled as purified IgG is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="170opener">
+	<TEXT ID="170opener_one">
+	 <TEXTVALUE>The cap of the tube is opened and 1000 microlitre of sample is pipetted out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="171return">
+	<TEXT ID="171return_one">
+	 <TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="172Tcuvetetake">
+	<TEXT ID="172Tcuvetetake_one">
+	 <TEXTVALUE>The cuvette labeled as T (Test cuvette) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="173Tcuvet">
+	<TEXT ID="173Tcuvet_one">
+	 <TEXTVALUE>The Purified IgG is transferred into the cuvette and the cuvette is wiped properly using the tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="174">
+	<TEXT ID="174_one">
+	 <TEXTVALUE>The T labeled cuvette is placed in the spectrophotometer and is closed. The spectrophotometer starts to work on pressing the enter button.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="175result">
+	<TEXT ID="175result_one">
+	 <TEXTVALUE>The resultant graph is observed on the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="176pipet">
+	<TEXT ID="176pipet_one">
+	 <TEXTVALUE>A 10 ml pipette and a pipette pump is taken from the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="177fixedppt">
+	<TEXT ID="177fixedppt_one">
+	 <TEXTVALUE>The pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="178glycerol">
+	<TEXT ID="178glycerol_one">
+	 <TEXTVALUE>The cap of the 50% glycerol bottle is opened and 5 ml of the glycerol is pippeted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="179cryovial">
+	<TEXT ID="179cryovial_one">
+	 <TEXTVALUE>A cryovial is taken from the cryobox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="180cryovialfill">
+	<TEXT ID="180cryovialfill_one">
+	 <TEXTVALUE>5 ml of 50% glycerol is transferred to the cryovial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="181retunvial">
+	<TEXT ID="181retunvial_one">
+	 <TEXTVALUE>The cryovial is replaced on the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="182ppt2">
+	<TEXT ID="182ppt2_one">
+	 <TEXTVALUE>A new 10ml pipette and a pipette pump is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="183fixed2">
+	<TEXT ID="183fixed2_one">
+	 <TEXTVALUE>The pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="184tubetake">
+	<TEXT ID="184tubetake_one">
+	 <TEXTVALUE>The tube containing Purified IgG is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="185tubeopen">
+	<TEXT ID="185tubeopen_one">
+	 <TEXTVALUE>The cap of the tube is opened and 5 ml of Purified IgG is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="186returnctube">
+	<TEXT ID="186returnctube_one">
+	 <TEXTVALUE>The tube is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="187vialtake">
+	<TEXT ID="187vialtake_one">
+	 <TEXTVALUE>The cryovial is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="188balancefill">
+	<TEXT ID="188balancefill_one">
+	 <TEXTVALUE>The cap of the vial is opened and pours the purified IgG solution into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="188A1">
+	<TEXT ID="188A1_one">
+	 <TEXTVALUE>The cryovial is replaced on the cryobox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="189parafilm">
+	<TEXT ID="189parafilm_one">
+	 <TEXTVALUE>A piece of parafilm is cut from the parafilm roll.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="190stickerrepl">
+	<TEXT ID="190stickerrepl_one">
+	 <TEXTVALUE>The outer cover is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="191fullytakedcryo">
+	<TEXT ID="191fullytakedcryo_one">
+	 <TEXTVALUE>The cryovial is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="192instander">
+	<TEXT ID="192instander_one">
+	 <TEXTVALUE>The vial is wrapped with parafilm properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="193outer">
+	<TEXT ID="193outer_one">
+	 <TEXTVALUE>The wrapped cryovial which contain the sample is placed on the cryobox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="194insidefreezer">
+	<TEXT ID="194insidefreezer_one">
+	 <TEXTVALUE>The -20 degree Freezer is opened and the cryobox with vial is kept in the freezer, The door of the freezer is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>

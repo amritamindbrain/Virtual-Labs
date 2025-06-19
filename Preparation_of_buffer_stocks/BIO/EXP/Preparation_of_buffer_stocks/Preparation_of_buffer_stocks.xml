@@ -1,0 +1,1761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="1intro">
+	<TEXT ID="1intro_one">
+	<TEXTVALUE>Point the mouse to each requirements of the experiment to know the name/ Click on “Continue” Button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2title11">
+	<TEXT ID="2title11_one">
+	<TEXTVALUE>Determination of the Amount of Tris base for preparing 100ml of 1M Tris-Cl Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3picbutterpaper">
+	<TEXT ID="3picbutterpaper_one">
+	<TEXTVALUE>A blotting paper is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4weingbalance">
+	<TEXT ID="4weingbalance_one">
+	<TEXTVALUE>The blotting paper is placed on the weighing balance and tared it to zero.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="5picspatula">
+	<TEXT ID="5picspatula_one">
+	<TEXTVALUE>A spatula is taken and is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6opentris">
+	<TEXT ID="6opentris_one">
+	<TEXTVALUE>The bottle having Tris base is opened and taken out some Tris base from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7powderdown">
+	<TEXT ID="7powderdown_one">
+	<TEXTVALUE>The Tris base is put into the Blotting paper placed over the weighing balance and adjusted the weight to 12.114g.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8picpowder">
+	<TEXT ID="8picpowder_one">
+	<TEXTVALUE>Weighed Tris base (12.114g) is taken out from the weighing balance. After that, it is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9tris2beaker">
+	<TEXT ID="9tris2beaker_one">
+	<TEXTVALUE>The Tris base (12.114g) is transferred into a beaker labeled as Tris-Cl Buffer for its final preparation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10mesuringcilinder">
+	<TEXT ID="10mesuringcilinder_one">
+	<TEXTVALUE>A measuring cylinder of 100ml is taken from the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11waterdistild">
+	<TEXT ID="11waterdistild_one">
+	<TEXTVALUE>A small amount of Distilled water is poured in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12washing">
+	<TEXT ID="12washing_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="13pouringwater">
+	<TEXT ID="13pouringwater_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14waterdistild1">
+	<TEXT ID="14waterdistild1_one">
+	<TEXTVALUE>Again, small amount of Distilled water is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15washing1">
+	<TEXT ID="15washing1_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16pouringwater1">
+	<TEXT ID="16pouringwater1_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="17waterdistild80ml">
+	<TEXT ID="17waterdistild80ml_one">
+	<TEXTVALUE>Approximately 80ml of Distilled water is poured into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18powringwater">
+	<TEXT ID="18powringwater_one">
+	<TEXTVALUE>The measured Distilled water is transferred into the beaker, containing Tris base.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19picroad">
+	<TEXT ID="19picroad_one">
+	<TEXTVALUE>A glass rod is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20roadcleaning">
+	<TEXT ID="20roadcleaning_one">
+	<TEXTVALUE>The glass rod is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21watermixingroad">
+	<TEXT ID="21watermixingroad_one">
+	<TEXTVALUE>The solution in the beaker is mixed well with glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22title">
+	<TEXT ID="22title_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23phmeter">
+	<TEXT ID="23phmeter_one">
+	<TEXTVALUE>The pH meter is switched on.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24washbulb">
+	<TEXT ID="24washbulb_one">
+	<TEXTVALUE>The pH value is already calibrated as 7.00 .The electrode is taken out from the stand and washed with distilled water (bottom working part).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="25tissuepaper">
+	<TEXT ID="25tissuepaper_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26wipedtisue">
+	<TEXT ID="26wipedtisue_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27dippriscl">
+	<TEXT ID="27dippriscl_one">
+	<TEXTVALUE>The electrode (tip portion only) is dipped in to the Tris solution. The pH value is changed to 9.98 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28washbulb2">
+	<TEXT ID="28washbulb2_one">
+	<TEXTVALUE>The electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29tissuepaper2">
+	<TEXT ID="29tissuepaper2_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30wipedtisue2">
+	<TEXT ID="30wipedtisue2_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="31placestand">
+	<TEXT ID="31placestand_one">
+	<TEXTVALUE>The electrode is replaced into the stand.The pH value is again reached to 7.00 on the display.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32picconHCL">
+	<TEXT ID="32picconHCL_one">
+	<TEXTVALUE>A dropper is taken from the beaker and a bottle containing HCl (0.1M) is opened. A small amount of 1M Con.HCl is taken out from the bottle using the dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33addHcladded">
+	<TEXT ID="33addHcladded_one">
+	<TEXTVALUE>1M Con.HCl is drop wisely and carefully added in to the Tris-Cl beaker (Mix the solution).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34washbulb3">
+	<TEXT ID="34washbulb3_one">
+	<TEXTVALUE>The electrode is taken out from the stand. The electrode is washed with distilled water (bottom working part).
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="35tissuepaper3">
+	<TEXT ID="35tissuepaper3_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36wipedtisue3">
+	<TEXT ID="36wipedtisue3_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37dippriscl2">
+	<TEXT ID="37dippriscl2_one">
+	<TEXTVALUE>The pH value is observed as 8.00 on the display (thus the desired pH value is adjusted). After that the electrode is taken from the Tris-Cl solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38washbulb4">
+	<TEXT ID="38washbulb4_one">
+	<TEXTVALUE>The electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="39tissuepaper4">
+	<TEXT ID="39tissuepaper4_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40wipedtisue4">
+	<TEXT ID="40wipedtisue4_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41placestand4">
+	<TEXT ID="41placestand4_one">
+	<TEXTVALUE>The electrode is replaced into the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+
+
+
+
+
+
+<SCENE ID="42mesuringcilinder">
+	<TEXT ID="42mesuringcilinder_one">
+	<TEXTVALUE>A 100ml measuring cylinder is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43waterdistild">
+	<TEXT ID="43waterdistild_one">
+	<TEXTVALUE>A small amount of distilled water is poured into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44washing">
+	<TEXT ID="44washing_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45pouringwater">
+	<TEXT ID="45pouringwater_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="46placemesure100">
+	<TEXT ID="46placemesure100_one">
+	<TEXTVALUE>The measuring cylinder is kept in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47picbeaker">
+	<TEXT ID="47picbeaker_one">
+	<TEXTVALUE>The beaker containing Tris-Cl Buffer is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48pouringtocilinder100">
+	<TEXT ID="48pouringtocilinder100_one">
+	<TEXTVALUE>The Tris-Cl Buffer is poured into the 100ml measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="49title3">
+	<TEXT ID="49title3_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50bottle5">
+	<TEXT ID="50bottle5_one">
+	<TEXTVALUE>A clean bottle (Labeled as 1M Tris-Cl Buffer) is taken for storage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51bottleplace1m">
+	<TEXT ID="51bottleplace1m_one">
+	<TEXTVALUE>A clean bottle (Labeled as 1M Tris-Cl Buffer) is taken for storage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52piccylinder100">
+	<TEXT ID="52piccylinder100_one">
+	<TEXTVALUE>The measuring cylinder with solution is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="53waterdistild100ML">
+	<TEXT ID="53waterdistild100ML_one">
+	<TEXTVALUE>The volume of Tris-Cl Buffer is made up to the volume of 100ml by adding distilled water. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54bottlepiccap">
+	<TEXT ID="54bottlepiccap_one">
+	<TEXTVALUE>The bottle (Labeled as 1M Tris-Cl Buffer) is opened and transferred the Tris-Cl Buffer into it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55bottle1mplace">
+	<TEXT ID="55bottle1mplace_one">
+	<TEXTVALUE>The bottle of 1M Tris-Cl Buffer is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56washcilinder">
+	<TEXT ID="56washcilinder_one">
+	<TEXTVALUE>The used 100ml measuring cylinder is washed under tap water.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57pouringwater2">
+	<TEXT ID="57pouringwater2_one">
+	<TEXTVALUE>	After washing, the measuring cylinder of 100ml is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58mesuringcilinderplace">
+	<TEXT ID="58mesuringcilinderplace_one">
+	<TEXTVALUE>After washing, the measuring cylinder of 100ml is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59title4">
+	<TEXT ID="59title4_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60chart2">
+	<TEXT ID="60chart2_one">
+	<TEXTVALUE>Determination of the Amount of EDTA to prepare 100ml of 0.5M EDTA.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="61picspatula">
+	<TEXT ID="61picspatula_one">
+	<TEXTVALUE>A spatula is taken and is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62opentris">
+	<TEXT ID="62opentris_one">
+	<TEXTVALUE>The bottle having EDTA is opened and taken out some EDTA from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="63powderdown">
+	<TEXT ID="63powderdown_one">
+	<TEXTVALUE>EDTA is put into the Blotting paper placed over the weighing balance and adjusted the weight to 18.612g.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64picpowder">
+	<TEXT ID="64picpowder_one">
+	<TEXTVALUE>Weighed EDTA (18.612g) is taken out from the weighing balance. After that, it is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65tris2beaker">
+	<TEXT ID="65tris2beaker_one">
+	<TEXTVALUE>The EDTA (18.612g) is transferred into a beaker (Labeled as 0.5M EDTA) for its final preparation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66mesuringcilinder1">
+	<TEXT ID="66mesuringcilinder1_one">
+	<TEXTVALUE>A 100ml measuring cylinder is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67waterdistild1">
+	<TEXT ID="67waterdistild1_one">
+	<TEXTVALUE>A small amount of distilled water is poured into the measuring cylinder for washing it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68washing2">
+	<TEXT ID="68washing2_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6pouringwater3">
+	<TEXT ID="6pouringwater3_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70waterdistild80ml">
+	<TEXT ID="70waterdistild80ml_one">
+	<TEXTVALUE>Approximately 80ml of Distilled water is poured into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71powringwater">
+	<TEXT ID="71powringwater_one">
+	<TEXTVALUE>The measured Distilled water is transferred into the beaker, containing EDTA.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="72powringwaterpic">
+	<TEXT ID="72powringwaterpic_one">
+	<TEXTVALUE>The beaker with EDTA and Distilled water is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73stirr">
+	<TEXT ID="73stirr_one">
+	<TEXTVALUE>The beaker with EDTA and Distilled water is placed over the magnetic stirrer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="74piccapsule">
+	<TEXT ID="74piccapsule_one">
+	<TEXTVALUE>A stir bar is taken from the watch glass using a forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75stirrcontinuation">
+	<TEXT ID="75stirrcontinuation_one">
+	<TEXTVALUE>The stir bar is put in to the Beaker with EDTA and Distilled water and switch on the stirrer for mixing the solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76title">
+	<TEXT ID="76title_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77phmeter1">
+	<TEXT ID="77phmeter1_one">
+	<TEXTVALUE>The pH meter is switched on.The pH value is already calibrated as 7.00.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78washbulb">
+	<TEXT ID="78washbulb_one">
+	<TEXTVALUE>The electrode is taken out from the stand and washed with distilled water (bottom working part).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79tissuepaper">
+	<TEXT ID="79tissuepaper_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80wipedtisue">
+	<TEXT ID="80wipedtisue_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81dippriscl2">
+	<TEXT ID="81dippriscl2_one">
+	<TEXTVALUE>The electrode (tip portion only) is dipped into the EDTA solution.The pH value is changed to 5.96 on the display.The electrode is taken out from the EDTA solution.
+ </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82washbulb2">
+	<TEXT ID="82washbulb2_one">
+	<TEXTVALUE>The electrode is washed with Distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="83tissuepaper2">
+	<TEXT ID="83tissuepaper2_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84wipedtisue2">
+	<TEXT ID="84wipedtisue2_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="85placestand4">
+	<TEXT ID="85placestand4_one">
+	<TEXTVALUE>The electrode is replaced into the stand.The pH value is again reached to 7.00 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="86picconHCL">
+	<TEXT ID="86picconHCL_one">
+	<TEXTVALUE>A dropper is taken from the beaker and the NaOH bottle (1N) is opened. A small amount of 1N NaOH is taken out from the bottle using the dropper.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87drop1nnaoh">
+	<TEXT ID="87drop1nnaoh_one">
+	<TEXTVALUE>1N NaOH is drop wisely and carefully added in to 0.5 M EDTA beaker (Mix the solution).Then the EDTA is fully dissolved in Distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88washbulb3">
+	<TEXT ID="88washbulb3_one">
+	<TEXTVALUE>The electrode is taken out from the stand and washed with Distilled water (bottom working part).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89tissuepaper3">
+	<TEXT ID="89tissuepaper3_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="90wipedtisue3">
+	<TEXT ID="90wipedtisue3_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91dippriscl3">
+	<TEXT ID="91dippriscl3_one">
+	<TEXTVALUE>The electrode (tip portion only) is dipped into the EDTA solution.The pH value is observed as 8.00 on the display (thus the desired pH value is adjusted).The electrode is taken out from the EDTA solution.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="92washbulb4">
+	<TEXT ID="92washbulb4_one">
+	<TEXTVALUE>The electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93tissuepaper4">
+	<TEXT ID="93tissuepaper4_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="94wipedtisue4">
+	<TEXT ID="94wipedtisue4_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95placestand">
+	<TEXT ID="95placestand_one">
+	<TEXTVALUE>The electrode is replaced into the stand.The pH value in the display is reached to 7.00 again.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96phswitchoff">
+	<TEXT ID="96phswitchoff_one">
+	<TEXTVALUE>The pH meter is switched off.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97switchooffstirr">
+	<TEXT ID="97switchooffstirr_one">
+	<TEXTVALUE>The magnetic stirrer is switched off.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98picroad">
+	<TEXT ID="98picroad_one">
+	<TEXTVALUE>A magnetic stirring bar retriever is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="99picmagnet">
+	<TEXT ID="99picmagnet_one">
+	<TEXTVALUE>The stir bar is taken from the EDTA solution by the retriever.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="100placecapsule">
+	<TEXT ID="100placecapsule_one">
+	<TEXTVALUE>The stir bar is put into a beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101picbeaker1edta">
+	<TEXT ID="101picbeaker1edta_one">
+	<TEXTVALUE>	The EDTA solution is taken from the magnetic stirrer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="102pouringtocilinder1002">
+	<TEXT ID="102pouringtocilinder1002_one">
+	<TEXTVALUE>The entire EDTA solution is transferred into the 100ml measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="103title5">
+	<TEXT ID="103title5_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="104waterdistild100ML2">
+	<TEXT ID="104Roubtktorch04_one">
+	<TEXTVALUE>The final volume is made up to 100ml with Distilled water</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="105bottle5edta">
+	<TEXT ID="105bottle5edta_one">
+	<TEXTVALUE>	A clean bottle (Labeled as 0.5M EDTA) is taken for storing the prepared 0.5M EDTA solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="106bottleplace1medta">
+	<TEXT ID="106bottleplace1medta_one">
+	<TEXTVALUE>A clean bottle (Labeled as 0.5M EDTA) is taken for storing the prepared 0.5M EDTA solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="107bottlewaterpouring">
+	<TEXT ID="107bottlewaterpouring_one">
+	<TEXTVALUE>The bottle is opened and 100ml of 0.5M EDTA solution is transferred into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108placeedtabottle">
+	<TEXT ID="108placeedtabottle_one">
+	<TEXTVALUE>The 0.5M EDTA bottle is replaced in to its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109washcilinder2">
+	<TEXT ID="109washcilinder2_one">
+	<TEXTVALUE>The used 100ml measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="110pouringwater4">
+	<TEXT ID="110pouringwater4_one">
+	<TEXTVALUE>After washing, the 100ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111mesuringcilinderplace2">
+	<TEXT ID="111mesuringcilinderplace2_one">
+	<TEXTVALUE>After washing, the 100ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+
+
+
+
+
+<SCENE ID="112buttons">
+	<TEXT ID="112buttons_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113pretebuffer">
+	<TEXT ID="113pretebuffer_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="1appartus">
+	<TEXT ID="1appartus_one">
+	<TEXTVALUE>Requirements for the Preparation of TE buffer</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="114chart2">
+	<TEXT ID="114chart2_one">
+	<TEXTVALUE>Calculation for determining the volume of 1M Tris-Cl to convert it into 10mM in concentration (TE Buffer preparation requires 10mM Tris-Cl).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115chart3">
+	<TEXT ID="115chart3_one">
+	<TEXTVALUE>Calculation for determining the volume of 0.5M EDTA to convert it into 1mM in concentration (TE Buffer preparation requires 1mM EDTA).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="116mesuringcilinder">
+	<TEXT ID="116mesuringcilinder_one">
+	<TEXTVALUE>A 10ml measuring cylinder is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117waterdistild">
+	<TEXT ID="117waterdistild_one">
+	<TEXTVALUE>A small amount of Distilled water is poured in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118washing">
+	<TEXT ID="118washing_one">
+	<TEXTVALUE>	The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119pouringwater">
+	<TEXT ID="119pouringwater_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120waterdistild2">
+	<TEXT ID="120waterdistild2_one">
+	<TEXTVALUE>Again, small amount of Distilled water is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121washing5">
+	<TEXT ID="121washing5_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="122pouringwater5">
+	<TEXT ID="122pouringwater5_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="123place10ml">
+	<TEXT ID="123place10ml_one">
+	<TEXTVALUE>The rinsed beaker is kept in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124placeedtabottle">
+	<TEXT ID="124placeedtabottle_one">
+	<TEXTVALUE>	Bottle containing 1M Tris-Cl Buffer is opened and taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="125pouring10ml">
+	<TEXT ID="125pouring10ml_one">
+	<TEXTVALUE>1M Tris-Cl Buffer is poured into the measuring cylinder up to the marking 10.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="126placeedtabottletris">
+	<TEXT ID="126placeedtabottletris_one">
+	<TEXTVALUE>The Tris-Cl bottle (1M) is replaced into its original place and is closed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="127pourininto1000ml">
+	<TEXT ID="127pourininto1000ml_one">
+	<TEXTVALUE>The measured 10ml 1M Tris-Cl is transferred into a beaker labeled as TE Buffer (which is used for TE Buffer preparation).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="128washcilinder">
+	<TEXT ID="128washcilinder_one">
+	<TEXTVALUE>The measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="129washcilinderpouring">
+	<TEXT ID="129washcilinderpouring_one">
+	<TEXTVALUE>	The measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="130pipetteseting">
+	<TEXT ID="130pipetteseting_one">
+	<TEXTVALUE>A 2ml pipette is taken from the rack and a pipette pump is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="131pipettingedta">
+	<TEXT ID="131pipettingedta_one">
+	<TEXTVALUE>The bottle containing 0.5M EDTA is opened and pipette out 2ml from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="132pipettingbeaker">
+	<TEXT ID="132pipettingbeaker_one">
+	<TEXTVALUE>2ml of 0.5M EDTA solution is transferred into the TE Buffer beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="133mesuringcilinder1">
+	<TEXT ID="133mesuringcilinder1_one">
+	<TEXTVALUE>	A 1000ml measuring cylinder is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="134waterdistild1000">
+	<TEXT ID="134waterdistild1000_one">
+	<TEXTVALUE>	A small amount of Distilled water is poured in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="135washing2">
+	<TEXT ID="135washing2_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="136pouringwater6">
+	<TEXT ID="136pouringwater6_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="137waterdistild10002">
+	<TEXT ID="137waterdistild10002_one">
+	<TEXTVALUE>Again, small amount of Distilled water is taken from the bottle. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="138washing2a">
+	<TEXT ID="138washing2a_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="139pouringwater6a">
+	<TEXT ID="139pouringwater6a_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="140waterdistild100023">
+	<TEXT ID="140waterdistild100023_one">
+	<TEXTVALUE>Approximately 600ml of Distilled water is taken into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="141waterdistild80ml">
+	<TEXT ID="141waterdistild80ml_one">
+	<TEXTVALUE>Approximately 600ml of Distilled water is taken into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="142pipettingbeaker600">
+	<TEXT ID="142pipettingbeaker600_one">
+	<TEXTVALUE>The Distilled water is transferred into the beaker labeled as TE Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="143mesuringcilinder1place">
+	<TEXT ID="143mesuringcilinder1place_one">
+	<TEXTVALUE>The measuring cylinder is kept in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="144picroad">
+	<TEXT ID="144picroad_one">
+	<TEXTVALUE>A glass rod is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="145roadcleaning">
+	<TEXT ID="145roadcleaning_one">
+	<TEXTVALUE>The glass rod is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="146pipettingbeaker600mixing">
+	<TEXT ID="146pipettingbeaker600mixing_one">
+	<TEXTVALUE>The solution in the beaker is mixed well with glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="147mesuringcilinder1a">
+	<TEXT ID="147mesuringcilinder1a_one">
+	<TEXTVALUE>The 1000ml measuring cylinder is taken for Making up the final TE buffer volume to 1000ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="148mesuringcilinder1placeb">
+	<TEXT ID="148mesuringcilinder1placeb_one">
+	<TEXTVALUE>The measuring cylinder is kept in the work bench for making the final volume of TE buffer to 1000ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="149pipettingbeakerpic">
+	<TEXT ID="149pipettingbeakerpic_one">
+	<TEXTVALUE>The beaker with TE buffer is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="150mesuringcilinderpouring">
+	<TEXT ID="150mesuringcilinderpouring_one">
+	<TEXTVALUE>TE Buffer is transferred into the 1000ml measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="151waterdistild10002beaker">
+	<TEXT ID="151waterdistild10002beaker_one">
+	<TEXTVALUE>A small volume of Distilled water is added into the beaker labeled as TE buffer for dissolving all the Buffer contents stuck on the sides of beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="152beakermixing11">
+	<TEXT ID="152beakermixing11_one">
+	<TEXTVALUE>The beaker is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="153mesuringcilinderpouring33">
+	<TEXT ID="153mesuringcilinderpouring33_one">
+	<TEXTVALUE>The rinsed Distilled water is transferred in to the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="154title3">
+	<TEXT ID="154title3_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="155mesuringcilinderpouringpic">
+	<TEXT ID="155mesuringcilinderpouringpic_one">
+	<TEXTVALUE>The Measuring cylinder with TE buffer is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="156waterdistild1000ml">
+	<TEXT ID="156waterdistild1000ml_one">
+	<TEXTVALUE>The final volume of TE Buffer is made up to 1000ml with Distilled water.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="157pouringtecilinde">
+	<TEXT ID="57pouringwater2_one">
+	<TEXTVALUE>	The TE buffer is transferred into a bottle which is labeled as ‘TE Buffer’.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="158washcilinder2">
+	<TEXT ID="158washcilinder2_one">
+	<TEXTVALUE>The 1000ml measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="159pouringwater6a2">
+	<TEXT ID="159pouringwater6a2_one">
+	<TEXTVALUE>After washing, the 1000ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="160mesuringcilinder1aa">
+	<TEXT ID="160mesuringcilinder1aa_one">
+	<TEXTVALUE>After washing, the 1000ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+
+
+
+<SCENE ID="161buttons">
+	<TEXT ID="161buttons_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="162pretebuffer">
+	<TEXT ID="162pretebuffer_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="apparatus">
+	<TEXT ID="apparatus_one">
+	<TEXTVALUE>Requirements for the Preparation of 5x TBE buffer</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="163picspatula">
+	<TEXT ID="163picspatula_one">
+	<TEXTVALUE>A spatula is taken and is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="164opentris">
+	<TEXT ID="164opentris_one">
+	<TEXTVALUE>The bottle having Tris base is opened and taken out some Tris base from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="165powderdown">
+	<TEXT ID="165powderdown_one">
+	<TEXTVALUE>	The Tris base is put into the Blotting paper placed over the weighing balance and adjusted the weight to 54g.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="166picpowder">
+	<TEXT ID="166picpowder_one">
+	<TEXTVALUE>Weighed Tris base (54g) is taken out from the weighing balance. After that, it is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="167tris2beaker">
+	<TEXT ID="167tris2beaker_one">
+	<TEXTVALUE>The Tris base (54g) is transferred into a beaker labeled as TBE Buffer for its final preparation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="168picspatula1">
+	<TEXT ID="168picspatula1_one">
+	<TEXTVALUE>	Again a spatula is taken and is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="169opentris1">
+	<TEXT ID="169opentris1_one">
+	<TEXTVALUE>The bottle having Boric acid is opened and taken out some Tris base from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="170powderdown27.5">
+	<TEXT ID="170powderdown27.5_one">
+	<TEXTVALUE>The Boric acid is put into the Blotting paper placed over the weighing balance and adjusted the weight to 27.5g.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="171picpowder27.5">
+	<TEXT ID="171picpowder27.5_one">
+	<TEXTVALUE>Weighed Boric acid (27.5g) is taken out from the weighing balance. After that, it is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="172tris2beakerboric">
+	<TEXT ID="172tris2beakerboric_one">
+	<TEXTVALUE>	The Boric acid (27.5g) is transferred into a beaker (Labeled as TBE Buffer) for the final preparation of TBE Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="173mesuringcilinder">
+	<TEXT ID="173mesuringcilinder_one">
+	<TEXTVALUE>	A measuring cylinder of 25 ml is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="174waterdistild">
+	<TEXT ID="174waterdistild_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="175washing">
+	<TEXT ID="175washing_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="176pouringwater">
+	<TEXT ID="176pouringwater_one">
+	<TEXTVALUE>Again, small amount of Distilled water is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="177waterdistild2">
+	<TEXT ID="177waterdistild2_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="178washing5">
+	<TEXT ID="178washing5_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="179pouringwater5">
+	<TEXT ID="179pouringwater5_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="180place25">
+	<TEXT ID="180place25_one">
+	<TEXTVALUE>The measuring cylinder is kept in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="181pouringtecilinde3">
+	<TEXT ID="181pouringtecilinde3_one">
+	<TEXTVALUE>	The bottle containing 0.5M EDTA is taken from the work bench. 
+ </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="182pouring20ml">
+	<TEXT ID="182pouring20ml_one">
+	<TEXTVALUE>20ml of 0.5M EDTA is measured in the measuring cylinder. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="183lace0.5medta">
+	<TEXT ID="183lace0.5medta_one">
+	<TEXTVALUE>The EDTA bottle is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="184pourininto1000ml">
+	<TEXT ID="184pourininto1000ml_one">
+	<TEXTVALUE>The measured EDTA solution is transferred into the beaker labeled as TBE buffer. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="185washcilinder">
+	<TEXT ID="185washcilinder_one">
+	<TEXTVALUE>The 25ml measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="186washcilinderpouring">
+	<TEXT ID="186washcilinderpouring_one">
+	<TEXTVALUE>After washing, the measuring cylinder is replaced into the work bench.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="187mesuringcilinderplace25">
+	<TEXT ID="187mesuringcilinderplace25_one">
+	<TEXTVALUE>	After washing, the measuring cylinder is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="188mesuringcilinder1">
+	<TEXT ID="188mesuringcilinder1_one">
+	<TEXTVALUE>A 1000ml measuring cylinder is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="190waterdistild1000">
+	<TEXT ID="190waterdistild1000_one">
+	<TEXTVALUE>A small amount of Distilled water is poured in to the measuring cylinder.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="191washing2">
+	<TEXT ID="191washing2_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="192pouringwater6">
+	<TEXT ID="192pouringwater6_one">
+	<TEXTVALUE>	The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="193waterdistild10002">
+	<TEXT ID="193waterdistild10002_one">
+	<TEXTVALUE>	Again, small amount of Distilled water is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="194washing2a">
+	<TEXT ID="194washing2a_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="195pouringwater6a">
+	<TEXT ID="195pouringwater6a_one">
+	<TEXTVALUE>	The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="196waterdistild100023">
+	<TEXT ID="196waterdistild100023_one">
+	<TEXTVALUE>Approximately 600ml of Distilled water is taken into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="197waterdistild80ml">
+	<TEXT ID="197waterdistild80ml_one">
+	<TEXTVALUE>Approximately 600ml of Distilled water is taken into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="198pipettingbeaker600">
+	<TEXT ID="198pipettingbeaker600_one">
+	<TEXTVALUE>The Distilled water is transferred into the beaker labeled as TBE Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="199mesuringcilinder1place">
+	<TEXT ID="199mesuringcilinder1place_one">
+	<TEXTVALUE>The Measuring cylinder is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="200picroad">
+	<TEXT ID="200picroad_one">
+	<TEXTVALUE>	A glass rod is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="201roadcleaning">
+	<TEXT ID="201roadcleaning_one">
+	<TEXTVALUE>The glass rod is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="202pipettingbeaker600mixing">
+	<TEXT ID="202pipettingbeaker600mixing_one">
+	<TEXTVALUE>The solution in the beaker is mixed well with glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="203mesuringcilinder1a">
+	<TEXT ID="203mesuringcilinder1a_one">
+	<TEXTVALUE>	The 1000ml measuring cylinder is taken for making up the final TBE buffer volume to 1000ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="204mesuringcilinder1placeb">
+	<TEXT ID="204mesuringcilinder1placeb_one">
+	<TEXTVALUE>The 1000ml measuring cylinder is taken for Making up the final TBE buffer volume to 1000ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="205pipettingbeakerpic">
+	<TEXT ID="205pipettingbeakerpic_one">
+	<TEXTVALUE>	The beaker with TBE Buffer is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="206mesuringcilinderpouring">
+	<TEXT ID="206mesuringcilinderpouring_one">
+	<TEXTVALUE>Entire TBE Buffer is transferred into the 1000ml measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="207waterdistild10002beaker">
+	<TEXT ID="207waterdistild10002beaker_one">
+	<TEXTVALUE>A small volume of distilled water is added into the beaker labeled as TBE buffer for dissolving all the TBE Buffer contents stuck on the sides of beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="208beakermixing11">
+	<TEXT ID="208beakermixing11_one">
+	<TEXTVALUE>The beaker is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="209mesuringcilinderpouring33">
+	<TEXT ID="209mesuringcilinderpouring33_one">
+	<TEXTVALUE>The rinsed Distilled water is transferred in to the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="210title3">
+	<TEXT ID="210title3_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="211mesuringcilinderpouringpic">
+	<TEXT ID="211mesuringcilinderpouringpic_one">
+	<TEXTVALUE>The measuring cylinder with TBE Buffer is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="212waterdistild1000ml">
+	<TEXT ID="212waterdistild1000ml_one">
+	<TEXTVALUE>The final volume of TBE Buffer is made up to 1000ml with Distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="213pouringtecilinde">
+	<TEXT ID="213pouringtecilinde_one">
+	<TEXTVALUE>The TBE buffer is transferred into a bottle which is labeled as ‘TBE Buffer’.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="214washcilinder2">
+	<TEXT ID="214washcilinder2_one">
+	<TEXTVALUE>	The 1000ml measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="215pouringwater6a2">
+	<TEXT ID="215pouringwater6a2_one">
+	<TEXTVALUE>After washing, the 1000ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="216mesuringcilinder1aa">
+	<TEXT ID="216mesuringcilinder1aa_one">
+	<TEXTVALUE>After washing, the 1000ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+
+
+
+
+
+
+
+<SCENE ID="217buttons">
+	<TEXT ID="217buttons_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="218pretebuffer">
+	<TEXT ID="118washing_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3apparatus">
+	<TEXT ID="3apparatus_one">
+	<TEXTVALUE>Requirements for the Preparation of 10x TAE buffer</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="219picspatula">
+	<TEXT ID="219picspatula_one">
+	<TEXTVALUE>A spatula is taken and is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="220opentris">
+	<TEXT ID="220opentris_one">
+	<TEXTVALUE>The bottle having Tris base is opened and taken out some Tris base from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="221powderdown">
+	<TEXT ID="221powderdown_one">
+	<TEXTVALUE>	The Tris base is put into the Blotting paper placed over the weighing balance and adjusted the weight to 48.4g.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="222picpowder">
+	<TEXT ID="222picpowder_one">
+	<TEXTVALUE>	Weighed Tris base (48.4g) is taken out from the weighing balance. After that, it is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="223tris2beaker">
+	<TEXT ID="223tris2beaker_one">
+	<TEXTVALUE>	The Tris base (48.4g) is transferred into a beaker labeled as TAE Buffer for its final preparation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="224mesuringcilinder">
+	<TEXT ID="224mesuringcilinder_one">
+	<TEXTVALUE>	A measuring cylinder of 25 ml is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="225waterdistild">
+	<TEXT ID="225waterdistild_one">
+	<TEXTVALUE>A small amount of Distilled water is poured in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="226washing">
+	<TEXT ID="226washing_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="227pouringwater">
+	<TEXT ID="227pouringwater_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="228waterdistild2">
+	<TEXT ID="228waterdistild2_one">
+	<TEXTVALUE>	Again, small amount of Distilled water is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="229washing5">
+	<TEXT ID="229washing5_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="230pouringwater5">
+	<TEXT ID="230pouringwater5_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="231place25">
+	<TEXT ID="231place25_one">
+	<TEXTVALUE>The measuring cylinder is kept in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="232galasicacid">
+	<TEXT ID="232galasicacid_one">
+	<TEXTVALUE>	The bottle of glacial acetic acid is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="233pouringgalasialacid">
+	<TEXT ID="233pouringgalasialacid_one">
+	<TEXTVALUE>11.4ml of glacial acetic acid is measured in the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="234galasicacidplace">
+	<TEXT ID="234galasicacidplace_one">
+	<TEXTVALUE>The bottle of glacial acetic acid is replaced in the work bench and is closed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="235pourininto1000ml">
+	<TEXT ID="235pourininto1000ml_one">
+	<TEXTVALUE>The measured glacial acetic acid is transferred into the beaker labeled as TAE buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="236washcilinder">
+	<TEXT ID="236washcilinder_one">
+	<TEXTVALUE>The 25ml measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="237washcilinderpouring">
+	<TEXT ID="237washcilinderpouring_one">
+	<TEXTVALUE>After washing, the water is removed into the sink. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="238waterdistild23">
+	<TEXT ID="238waterdistild23_one">
+	<TEXTVALUE>A small amount of Distilled water is poured in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="239washing51">
+	<TEXT ID="239washing51_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="240washcilinderpouring1">
+	<TEXT ID="240washcilinderpouring1_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="241waterdistild231">
+	<TEXT ID="241waterdistild231_one">
+	<TEXTVALUE>	Again, small amount of Distilled water is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="242washing512">
+	<TEXT ID="242washing512_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="243washcilinderpouring12">
+	<TEXT ID="243washcilinderpouring12_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="244place250">
+	<TEXT ID="244place250_one">
+	<TEXTVALUE>The measuring cylinder is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="245picedtabottle">
+	<TEXT ID="245picedtabottle_one">
+	<TEXTVALUE>The bottle containing 0.5M EDTA is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="246pouring20ml">
+	<TEXT ID="246pouring20ml_one">
+	<TEXTVALUE>20ml of 0.5M EDTA is measured in the measuring cylinder. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="247placeedta">
+	<TEXT ID="247placeedta_one">
+	<TEXTVALUE>The EDTA bottle is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="248pourininto1000ml2">
+	<TEXT ID="248pourininto1000ml2_one">
+	<TEXTVALUE>	The measured EDTA solution is transferred into the beaker labeled as TBE buffer. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="249washcilinderaa">
+	<TEXT ID="249washcilinderaa_one">
+	<TEXTVALUE>	The 25ml measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="250washcilinderpouringaaa">
+	<TEXT ID="250washcilinderpouringaaa_one">
+	<TEXTVALUE>	After washing, the measuring cylinder is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="251mesuringcilinderplacccce">
+	<TEXT ID="251mesuringcilinderplacccce_one">
+	<TEXTVALUE>	After washing, the measuring cylinder is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="252mesuringcilinder1">
+	<TEXT ID="252mesuringcilinder1_one">
+	<TEXTVALUE>A 1000ml measuring cylinder is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="253waterdistild1000">
+	<TEXT ID="253waterdistild1000_one">
+	<TEXTVALUE>A small amount of Distilled water is poured in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="254washing2">
+	<TEXT ID="254washing2_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="255pouringwater6">
+	<TEXT ID="255pouringwater6_one">
+	<TEXTVALUE>	The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="256waterdistild10002">
+	<TEXT ID="2256waterdistild10002_one">
+	<TEXTVALUE>Again, small amount of Distilled water is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="257washing2a">
+	<TEXT ID="257washing2a_one">
+	<TEXTVALUE>The measuring cylinder is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="258pouringwater6a">
+	<TEXT ID="258pouringwater6a_one">
+	<TEXTVALUE>The rinsed water is removed into the sink.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="259waterdistild80ml">
+	<TEXT ID="259waterdistild80ml_one">
+	<TEXTVALUE>Approximately 600ml of Distilled water is taken into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="260pipettingbeaker600">
+	<TEXT ID="260pipettingbeaker600_one">
+	<TEXTVALUE>The Distilled water is transferred into the beaker labeled as TAE Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="261picroad">
+	<TEXT ID="261picroad_one">
+	<TEXTVALUE>A glass rod is taken from the beaker.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="262roadcleaning">
+	<TEXT ID="262roadcleaning_one">
+	<TEXTVALUE>The glass rod is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="263pipettingbeaker600mixing">
+	<TEXT ID="263pipettingbeaker600mixing_one">
+	<TEXTVALUE>The solution in the beaker is mixed well with glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="264mesuringcilinder1a">
+	<TEXT ID="264mesuringcilinder1a_one">
+	<TEXTVALUE>	The 1000ml measuring cylinder is taken for Making up the final TAE buffer volume to 1000ml.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="265mesuringcilinder1placeb">
+	<TEXT ID="265mesuringcilinder1placeb_one">
+	<TEXTVALUE>The measuring cylinder is kept in the work bench for making the final volume of TAE buffer to 1000ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="266pipettingbeakerpic">
+	<TEXT ID="266pipettingbeakerpic_one">
+	<TEXTVALUE>The beaker with TAE Buffer is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="267mesuringcilinderpouring">
+	<TEXT ID="267mesuringcilinderpouring_one">
+	<TEXTVALUE>	Entire TAE Buffer is transferred into the 1000ml measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="268waterdistild10002beaker">
+	<TEXT ID="268waterdistild10002beaker_one">
+	<TEXTVALUE>	A small volume of Distilled water is added into the beaker labeled as TAE buffer for dissolving all the TAE Buffer contents stuck on the sides of beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="269beakermixing11">
+	<TEXT ID="269beakermixing11_one">
+	<TEXTVALUE>The beaker is rinsed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="270mesuringcilinderpouring33">
+	<TEXT ID="270mesuringcilinderpouring33_one">
+	<TEXTVALUE>	The rinsed Distilled water is transferred in to the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="271title3">
+	<TEXT ID="271title3_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="272mesuringcilinderpouringpic">
+	<TEXT ID="272mesuringcilinderpouringpic_one">
+	<TEXTVALUE>	The Measuring cylinder with TAE buffer is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="273waterdistild1000ml">
+	<TEXT ID="273waterdistild1000ml_one">
+	<TEXTVALUE>	The final volume of TAE Buffer is made up to 1000ml with Distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="274pouringtecilinde">
+	<TEXT ID="274pouringtecilinde_one">
+	<TEXTVALUE>The TAE buffer is transferred into a bottle which is labeled as ‘TAE Buffer’.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="275washcilinder2">
+	<TEXT ID="275washcilinder2_one">
+	<TEXTVALUE>	The 1000ml measuring cylinder is washed under tap water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="276pouringwater6a2">
+	<TEXT ID="276pouringwater6a2_one">
+	<TEXTVALUE>	After washing, the 1000ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="277mesuringcilinder1aa">
+	<TEXT ID="277mesuringcilinder1aa_one">
+	<TEXTVALUE>	After washing, the 1000ml measuring cylinder is replaced into its original place.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="278result">
+	<TEXT ID="278result_one">
+	<TEXTVALUE>All these prepared buffers and EDTA solutions are needed to be sterilized for further use.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="Scene1">
+	<TEXT ID="Scene1_one">
+	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name/ Click the “continue” button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2washhand">
+	<TEXT ID="2washhand_one">
+	<TEXTVALUE>The gloves are sanitized with 70% ethanol and they are allowed to dry for 30 seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3cleen">
+	<TEXT ID="3cleen_one">
+	<TEXTVALUE>Laminar Air Flow chamber is sterilized by spraying 70% ethanol and is wiped using a tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3cleencopy">
+	<TEXT ID="3cleencopy_one">
+	<TEXTVALUE>The door of the laminar air flow chamber is closed and the UV is switched on for 20 minutes. After the specified time, the UV switched off.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="4take1v">
+	<TEXT ID="4take1v_one">
+	<TEXTVALUE>All the materials for this experiment are taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="5placethelaf1">
+	<TEXT ID="5placethelaf1_one">
+	<TEXTVALUE>All the materials required for the experiment are arranged neatly inside the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="4take">
+	<TEXT ID="4take_one">
+	<TEXTVALUE>All the materials for this experiment are taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="5placethelaf">
+	<TEXT ID="5placethelaf_one">
+	<TEXTVALUE>All the materials required for the experiment are arranged neatly inside the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="6takepippet">
+	<TEXT ID="6takepippet_one">
+	<TEXTVALUE>A fresh 5ml pipette is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="7openpipett">
+	<TEXT ID="7openpipett_one">
+	<TEXTVALUE>Pipette is taken from the cover.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="8connect">
+	<TEXT ID="8connect_one">
+	<TEXTVALUE>Pipette is inserted to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9e3bottilopen">
+	<TEXT ID="9e3bottilopen_one">
+	<TEXTVALUE>A bottle containing E3 medium 50X (stock solution) is opened and 5ml of solution is pipetted from the bottle. The bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="10dilutedbottilopen">
+	<TEXT ID="10dilutedbottilopen_one">
+	<TEXTVALUE>A bottle labeled as diluted E3 medium is opened and 5 ml of E3medium 50 X is transferred into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="11waterbottileopen">
+	<TEXT ID="11waterbottileopen_one">
+	<TEXTVALUE>A bottle containing distilled water is opened and 245ml is transferred into 250ml measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13keepbackwaterbottile">
+	<TEXT ID="13keepbackwaterbottile_one">
+	<TEXTVALUE>Bottle is replaced into the LAF and it is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14addsolution">
+	<TEXT ID="14addsolution_one">
+	<TEXTVALUE>Measuring cylinder containing distilled water is taken and the bottle labeled as diluted E3 medium is opened. Distilled water is transferred into the bottle labeled as diluted E3 medium. The bottle is closed. Measuring cylinder is replaced into the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15takemicropipet">
+	<TEXT ID="15takemicropipet_one">
+	<TEXTVALUE>A 10 microliter pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="16adjestscene">
+	<TEXT ID="16adjestscene_one">
+	<TEXTVALUE>Pipette is adjusted to 2.5 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="17taketipe">
+	<TEXT ID="17taketipe_one">
+	<TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18takecadminm">
+	<TEXT ID="18takecadminm_one">
+	<TEXTVALUE>A screw cap tube containing cadmium chloride stock solution (1mg/ml) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19open">
+	<TEXT ID="19open_one">
+	<TEXTVALUE>Screw cap tube containing cadmium chloride solution is opened and 2.5 microliters of solution is pipetted from the tube. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="20keepbackthetube">
+	<TEXT ID="20keepbackthetube_one">
+	<TEXTVALUE>Screw cap tube containing cadmium chloride solution is replaced into the rack. A screw cap tube labeled as 0.5 microgram/ml is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="215mgsolution">
+	<TEXT ID="215mgsolution_one">
+	<TEXTVALUE>Screw cap tube labeled as 0.5 microgram/ml is opened and 2.5 microliters of  solution is transferred into it. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22keepback">
+	<TEXT ID="22keepback_one">
+	<TEXTVALUE>Screw cap tube labeled as 0.5 microgram/ml is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23adjest5">
+	<TEXT ID="23adjest5_one">
+	<TEXTVALUE>Pipette is adjusted to 5 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="24takecatmium">
+	<TEXT ID="24takecatmium_one">
+	<TEXTVALUE>Screw cap tube containing cadmium chloride solution is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25open">
+	<TEXT ID="25open_one">
+	<TEXTVALUE>Screw cap tube containing cadmium chloride solution is opened and 5 microliters of solution is pipetted from the tube. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="26keepback">
+	<TEXT ID="26keepback_one">
+	<TEXTVALUE>Screw cap tube containing cadmium chloride solution is replaced into the rack. A screw cap tube labeled as 1microgram/ml is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27poenandadd">
+	<TEXT ID="27poenandadd_one">
+	<TEXTVALUE>Screw cap tube labeled as 1microgram/ml is opened and 5 microliters of solution is transferred into it. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28keeepback">
+	<TEXT ID="28keeepback_one">
+	<TEXTVALUE>Screw cap tube labeled as 1 microgram/ml is replaced in the rack .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29openpipett">
+	<TEXT ID="29openpipett_one">
+	<TEXTVALUE>A fresh 5ml pipette is taken from the cover.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30connect">
+	<TEXT ID="30connect_one">
+	<TEXTVALUE>Pipette is inserted to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="31takesolutioninpippet">
+	<TEXT ID="31takesolutioninpippet_one">
+	<TEXTVALUE>A bottle containing diluted E3 medium is opened and 5ml of medium is pipetted from the bottle. The bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32takecontrol">
+	<TEXT ID="32takecontrol_one">
+	<TEXTVALUE>A screw cap tube labeled as control is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33controllopen">
+	<TEXT ID="33controllopen_one">
+	<TEXTVALUE>Screw cap tube labeled as control is opened and 5ml of medium is transferred into it. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34keepbackcontrol">
+	<TEXT ID="34keepbackcontrol_one">
+	<TEXTVALUE>Screw cap tube labeled as control is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="35takedilutee3solution">
+	<TEXT ID="35takedilutee3solution_one">
+	<TEXTVALUE>A bottle containing diluted E3 medium is opened and 5ml of medium is pipetted from the bottle. The bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36take5ml">
+	<TEXT ID="36take5ml_one">
+	<TEXTVALUE>A Screw cap tube labeled as 0.5 microgram/ml is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="37open5ml">
+	<TEXT ID="37open5ml_one">
+	<TEXTVALUE>Screw cap tube labeled as 0.5 microgram/ml is opened and 5ml medium is transferred into it. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="38keepbackthetube">
+	<TEXT ID="38keepbackthetube_one">
+	<TEXTVALUE>Screw cap tube labeled as 0.5 microgram/ml is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39discadpippet">
+	<TEXT ID="39discadpippet_one">
+	<TEXTVALUE>Used pipette is replaced into waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40openpipett">
+	<TEXT ID="40openpipett_one">
+	<TEXTVALUE>A fresh 5ml pipette is taken from the cover.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41connect">
+	<TEXT ID="41connect_one">
+	<TEXTVALUE>Pipette is inserted to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42takesolution">
+	<TEXT ID="42takesolution_one">
+	<TEXTVALUE>A bottle containing diluted E3 medium is opened and 5ml of medium is pipetted from the bottle. The bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="43take">
+	<TEXT ID="43take_one">
+	<TEXTVALUE>Screw cap tube labeled as 1 microgram/ml is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44addsolutione3">
+	<TEXT ID="44addsolutione3_one">
+	<TEXTVALUE>Screw cap tube labeled as 1 microgram/ml is opened and 5ml of medium is transferred into it. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45keepback">
+	<TEXT ID="45keepback_one">
+	<TEXTVALUE>Screw cap tube labeled as 1 microgram/ml is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="46ingubatoropen">
+	<TEXT ID="46ingubatoropen_one">
+	<TEXTVALUE>The incubator (28.5°) door is opened and the culture plate with zebra fish embryos, (which is incubated for 24hours) is taken from it. The incubator door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="461steriomaiscroc">
+	<TEXT ID="461steriomaiscroc_one">
+	<TEXTVALUE>The culture plate with zebrafish embryos is placed under the stereomicroscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="462steriomaiscrozoom">
+	<TEXT ID="462steriomaiscrozoom_one">
+	<TEXTVALUE>The objective of stereomicroscope is adjusted and embryos are observed through the stereomicroscope to ensure it is alive.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="463steriomaiscroctake">
+	<TEXT ID="463steriomaiscroctake_one">
+	<TEXTVALUE>The culture plate with zebrafish embryos is taken from the stereomicroscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47placetheplate">
+	<TEXT ID="47placetheplate_one">
+	<TEXTVALUE>And culture plate with zebrafish embryos is placed into the LAF. The culture plate with zebrafish embryos is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="48takeforceps">
+	<TEXT ID="48takeforceps_one">
+	<TEXTVALUE>A forceps is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="49take1embryo">
+	<TEXT ID="49take1embryo_one">
+	<TEXTVALUE>One embryo is picked using forceps and is transferred into the first well of 9 well plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50takeembryo">
+	<TEXT ID="50takeembryo_one">
+	<TEXTVALUE>Similarly the embryo is transferred into all the wells of 9 well plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51zoom">
+	<TEXT ID="51zoom_one">
+	<TEXTVALUE>9 well plate with Zebrafish embryos.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52takemicropipet">
+	<TEXT ID="52takemicropipet_one">
+	<TEXTVALUE>A 500 microlitre pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="53adjust">
+	<TEXT ID="53adjust_one">
+	<TEXTVALUE>Pipette is adjusted to 200 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54taketipe">
+	<TEXT ID="54taketipe_one">
+	<TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55takewellplate">
+	<TEXT ID="55takewellplate_one">
+	<TEXTVALUE>The fluid which is surrounding the embryo in the first well is removed using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56removeembryyoo">
+	<TEXT ID="56removeembryyoo_one">
+	<TEXTVALUE>The fluid is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57takeembreyo">
+	<TEXT ID="57takeembreyo_one">
+	<TEXTVALUE>Similarly the fluid is removed from the next well using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58removeembryyoo">
+	<TEXT ID="58removeembryyoo_one">
+	<TEXTVALUE>The fluid is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59takeembreyo">
+	<TEXT ID="59takeembreyo_one">
+	<TEXTVALUE>Similarly the fluid is removed from the third well using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60removeembryyoo">
+	<TEXT ID="60removeembryyoo_one">
+	<TEXTVALUE>The fluid is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="61takeembreyo">
+	<TEXT ID="61takeembreyo_one">
+	<TEXTVALUE>Similarly the fluid is removed from all the wells using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="62removeembryyoo">
+	<TEXT ID="62removeembryyoo_one">
+	<TEXTVALUE>The fluid is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62removeembryyoo1">
+	<TEXT ID="62removeembryyoo1_one">
+	<TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="63taketipe">
+	<TEXT ID="63taketipe_one">
+	<TEXTVALUE>A fresh tip is inserted in the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64takecontrol">
+	<TEXT ID="64takecontrol_one">
+	<TEXTVALUE>Control tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65controllopentake">
+	<TEXT ID="65controllopentake_one">
+	<TEXTVALUE>The tube is opened and 200 microliters of solution is pipetted from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="66addcontrol">
+	<TEXT ID="66addcontrol_one">
+	<TEXTVALUE>200 microliters of control solution is transferred into the first well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67controllopentake">
+	<TEXT ID="67controllopentake_one">
+	<TEXTVALUE>Again 200 microliters of control solution is pipetted from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68addcontrol">
+	<TEXT ID="68addcontrol_one">
+	<TEXTVALUE>200 microliters of control solution is transferred into the second well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69controllopentake">
+	<TEXT ID="69controllopentake_one">
+	<TEXTVALUE>Again 200 microliters of control solution is pipetted from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70palcethecontrol">
+	<TEXT ID="70palcethecontrol_one">
+	<TEXTVALUE>Control tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71addcontrol">
+	<TEXT ID="71addcontrol_one">
+	<TEXTVALUE>200 microliters of control solution is transferred into the third well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="72chart">
+	<TEXT ID="72chart_one">
+	<TEXTVALUE>Similarly the solution from the other two tubes (labeled as 0.5 and 1 microgram/ml) is added to the remaining wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="73takepen">
+	<TEXT ID="73takepen_one">
+	<TEXTVALUE>A marker pen is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="74addcontrol">
+	<TEXT ID="74addcontrol_one">
+	<TEXTVALUE>Three rows of 9 wells plates are labeled as C, 0.5 microgram/ml and 1 microgram/ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75takewellplate">
+	<TEXT ID="75takewellplate_one">
+	<TEXTVALUE>A 9 wells plate with treated zebra fish embryos and cadmium chloride is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76ingubatoropen">
+	<TEXT ID="76ingubatoropen_one">
+	<TEXTVALUE>The incubator door is opened and 9 well plate is placed in it for 24 hours incubation at 28.5°C. Then the incubator door is closed. After incubation the door is opened and 9 well plate is taken from the incubator. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77steriomaiscroc">
+	<TEXT ID="77steriomaiscroc_one">
+	<TEXTVALUE>The 9 wells plate with treated zebrafish embryos is placed under the stereomicroscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78steriomaiscrozoom">
+	<TEXT ID="78steriomaiscrozoom_one">
+	<TEXTVALUE>The control added well is positioned and the objective lens is adjusted. The normal embryo is observed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79steriomaiscrozoom">
+	<TEXT ID="79steriomaiscrozoom_one">
+	<TEXTVALUE>Again 0.5 microgram/ml added well is positioned and the objective lens is adjusted. The partially destroyed embryo is observed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80steriomaiscrozoom">
+	<TEXT ID="80steriomaiscrozoom_one">
+	<TEXTVALUE>Again 1microgram/ml added well is positioned and the objective lens is adjusted. The fully destroyed embryo is observed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

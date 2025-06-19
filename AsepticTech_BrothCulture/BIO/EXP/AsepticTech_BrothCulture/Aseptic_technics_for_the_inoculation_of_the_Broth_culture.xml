@@ -1,0 +1,119 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="Aseptictechniquestart">
+	<TEXT ID="Aseptictechniquestart_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="1LaminarFlow">
+	<TEXT ID="1LaminarFlow_one">
+		<TEXTVALUE>The materials are arranged inside a laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="2NeedleInFire">
+	<TEXT ID="2NeedleInFire_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot and allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3Petridish">
+	<TEXT ID="3Petridish_one">
+		<TEXTVALUE>The lid of the plate with microbial culture is lifted partially enough to insert the inoculation loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="4PetridishTopView">
+	<TEXT ID="4PetridishTopView_one">
+		<TEXTVALUE>An isolated colony of the culture is picked with sterile inoculation loop.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="5TakeTestTube">
+	<TEXT ID="5TakeTestTube_one">
+		<TEXTVALUE>The nutrient agar broth labeled “Test” is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="6TakeCottonFromTestTube">
+	<TEXT ID="6TakeCottonFromTestTube_one">
+		<TEXTVALUE>The cotton plug is removed carefully with the little finger of your right hand holding the inoculation loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="7TestTubeInFire">
+	<TEXT ID="7TestTubeInFire_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized in the blue flame of the Bunsen burner. The inoculation loop with the culture is then inoculated into the sterile nutrient broth (Test).</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="8TestTubeInFireCopy">
+	<TEXT ID="8TestTubeInFireCopy_one">
+		<TEXTVALUE>The mouth of the test tube is again heat sterilized and the cotton plug is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="9NeedleInFireCopy">
+	<TEXT ID="9NeedleInFireCopy_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10IncubulatorOpen">
+	<TEXT ID="10IncubulatorOpen_one">
+		<TEXTVALUE>The incubator door is then opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11IncubulatorCopy">
+	<TEXT ID="11IncubulatorCopy_one">
+		<TEXTVALUE>The inoculated nutrient broth (Test) and the uninoculated nutrient broth (control) are then taken into the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="11IncubulatorControl">
+	<TEXT ID="11IncubulatorControl_one">
+		<TEXTVALUE>The inoculated nutrient broth (Test) and the uninoculated nutrient broth (control) are then taken into the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="12IncubulatorCloseAndStarts">
+	<TEXT ID="12IncubulatorCloseAndStarts_one">
+		<TEXTVALUE>The incubator door is closed and the broths are then incubated at 37 degree Celsius for 24 hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="1324Hour">
+	<TEXT ID="1324Hour_one">
+		<TEXTVALUE>Incubate for 24 hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="14IncubulatorOpenCopy">
+	<TEXT ID="14IncubulatorOpenCopy_one">
+		<TEXTVALUE>After incubation the incubator door is opened.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="15aTakecantrolfrmincur">
+	<TEXT ID="15aTakecantrolfrmincur_one">
+		<TEXTVALUE>The uninoculated tube (Control) and the inoculated tube (Test) are taken from the incubator.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="15TakeBrothFromIncubulator">
+	<TEXT ID="15TakeBrothFromIncubulator_one">
+		<TEXTVALUE>The uninoculated tube (Control) and the inoculated tube (Test) are taken from the incubator.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="16Final">
+	<TEXT ID="16Final_one">
+		<TEXTVALUE>The tubes are then placed in the Laminar Air Flow chamber. The increase in the turbidity of the broth in the inoculated tube (Test) indicates the microbial growth. The absence of microbial growth in the control tube indicates the aseptic working condition.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+</DATA>

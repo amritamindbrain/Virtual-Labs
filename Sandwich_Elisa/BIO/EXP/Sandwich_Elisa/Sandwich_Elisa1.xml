@@ -1,0 +1,1032 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="SandwichElisaTitle">
+	<TEXT ID="SandwichElisaTitle_one">
+	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Takingpippet">
+	<TEXT ID="Takingpippet_one">
+	 <TEXTVALUE>Take a micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting1">
+	<TEXT ID="Pippetadjusting1_one">
+	 <TEXTVALUE>Adjust the volume to 50 microlitre</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip1">
+	<TEXT ID="Takingpippettip1_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingCaptureantibody">
+	<TEXT ID="TakingCaptureantibody_one">
+	 <TEXTVALUE>The vial labeled as ‘Capture antibody solution’ is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+<SCENE ID="TakingCantibodyzoom">
+	<TEXT ID="TakingCantibodyzoom_one">
+	 <TEXTVALUE>The vial labeled as ‘Capture antibody solution’ is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CAntibody50µl">
+	<TEXT ID="CAntibody50µl_one">
+	 <TEXTVALUE>The vial is opened and 50 microlitre of antibody solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenMicrotitreplate">
+	<TEXT ID="OpenMicrotitreplate_one">
+	 <TEXTVALUE>The lid of the microtiter well plate is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringCAntibody">
+	<TEXT ID="PouringCAntibody_one">
+	 <TEXTVALUE>The antibody solution is poured into the first well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CAntibody50µl2">
+	<TEXT ID="CAntibody50µl2_one">
+	 <TEXTVALUE>Again,open the vial and pipette out 50µl of capture antibody solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartCAntibody">
+	<TEXT ID="ChartCAntibody_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic">
+	<TEXT ID="Platecoveringplastic_one">
+	 <TEXTVALUE>The antibody coated plate is wrapped with a  plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom">
+	<TEXT ID="Plasticonplatezoom_one">
+	 <TEXTVALUE>The coated well plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplate">
+<TEXT ID="Takingplate_one">
+<TEXTVALUE>Take the microtitre plate and Incubate microtitre plate at 37°C for 2 hours.</TEXTVALUE>
+</TEXT>
+</SCENE>
+	
+<SCENE ID="Plateinincubator30digree">
+<TEXT ID="Plateinincubator30digree_one">
+<TEXTVALUE>Take the microtitre plate and Incubate microtitre plate at 37°C for 2 hours.</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="Openincubatorplate">
+	<TEXT ID="Openincubatorplate_one">
+	 <TEXTVALUE>After 2hours, take out the  plate from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplasticnew1">
+	<TEXT ID="Takingplasticnew1_one">
+	 <TEXTVALUE>It is placed on the work bench and the plastic wrapper is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CAntibodywastezoom">
+	<TEXT ID="CAntibodywastezoom_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Backtoplate2">
+	<TEXT ID="Backtoplate2_one">
+	 <TEXTVALUE>Place the Microtitre well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingmultipippet">
+	<TEXT ID="Takingmultipippet_one">
+	 <TEXTVALUE>Take a multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Multipippadjust1">
+	<TEXT ID="Multipippadjust1_one">
+	 <TEXTVALUE>Adjust the volume to 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingvesselcloser1ST">
+	<TEXT ID="Takingvesselcloser1ST_one">
+	 <TEXTVALUE>Insert fresh tips into the multipipette and open the flat vessel containing sterile distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSinvessel">
+	<TEXT ID="TakingPBSinvessel_one">
+	 <TEXTVALUE>200 microlitre of water is pipetted out using the multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSinplate1">
+	<TEXT ID="PBSinplate1_one">
+	 <TEXTVALUE>Water is poured into the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSinvessel2">
+	<TEXT ID="TakingPBSinvessel2_one">
+	 <TEXTVALUE>Again 200 microlitre of water is pipetted out using the multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartPBS">
+	<TEXT ID="ChartPBS_one">
+	 <TEXTVALUE>The same procedure is repeated for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takeplateswirl01">
+	<TEXT ID="Takeplateswirl01_one">
+	 <TEXTVALUE>The plate is gently swirled so as to wash the wells properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CPBSwastezoom">
+	<TEXT ID="CPBSwastezoom_one">
+	 <TEXTVALUE>Water is flicked into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpaper">
+	<TEXT ID="Takingpaper_one">
+	 <TEXTVALUE>Keep the microtitre plate on a paper towel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Flickingfacesplate">
+	<TEXT ID="Flickingfacesplate_one">
+	 <TEXTVALUE>Flick it gently on the paper towel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb01">
+	<TEXT ID="PLatebacktotlb01_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SameProcedureREPEAT3time">
+	<TEXT ID="SameProcedureREPEAT3time_one">
+	 <TEXTVALUE>Washing is repeated two times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb202">
+	<TEXT ID="PLatebacktotlb2_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippet202">
+	<TEXT ID="Takingpippet2_one">
+	 <TEXTVALUE>Take the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting2">
+	<TEXT ID="Pippetadjusting2_one">
+	 <TEXTVALUE>Adjust the volume to 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip2">
+	<TEXT ID="Takingpippettip2_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapBlcBffr">
+	<TEXT ID="OpencapBlcBffr_one">
+	 <TEXTVALUE>The bottle labeled as ‘Blocking Buffer’ is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingBlcBffr">
+	<TEXT ID="TakingBlcBffr_one">
+	 <TEXTVALUE>200 microlitre of blocking buffer solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringBlcBffrplate">
+	<TEXT ID="PouringBlcBffrplate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingBlcBffr2">
+	<TEXT ID="TakingBlcBffr2_one">
+	 <TEXTVALUE>Again 200 microlitre of blocking buffer solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartBlcBffr">
+	<TEXT ID="ChartBlcBffr_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SwirlBlcBffr">
+	<TEXT ID="SwirlBlcBffr_one">
+	 <TEXTVALUE>Gently swirl the plate so as to wash the wells properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic2">
+	<TEXT ID="Platecoveringplastic2_one">
+	 <TEXTVALUE>The plate is wrapped with plastic wrap to seal it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom2">
+	<TEXT ID="Plasticonplatezoom2_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature2hrs">
+	<TEXT ID="PlateRoomtemperature2hrs_one">
+	 <TEXTVALUE>Incubate the well plate at room temperature for 30 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplasticnew2">
+	<TEXT ID="Takingplasticnew2_one">
+	 <TEXTVALUE>After 30 minutes incubation, the plastic wrapper is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom2">
+	<TEXT ID="Antigeninwatezoom2_one">
+	 <TEXTVALUE>The blocking buffer solution is flicked into the plastic beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb303">
+	<TEXT ID="PLatebacktotlb303_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingmultipippet2">
+	<TEXT ID="Takingmultipippet2_one">
+	 <TEXTVALUE>Take a multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingvesselcloser2ND">
+	<TEXT ID="Takingvesselcloser2ND_one">
+	 <TEXTVALUE>Insert fresh tips into the multipipette and open the flat vessel containing sterile distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSinvessel3">
+	<TEXT ID="TakingPBSinvessel3_one">
+	 <TEXTVALUE>200 microlitre of water is pipetted out using the multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSinplate3">
+	<TEXT ID="PBSinplate3_one">
+	 <TEXTVALUE>Water is poured into the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SameProcedureREPEAT2">
+	<TEXT ID="SameProcedureREPEAT2_one">
+	 <TEXTVALUE>Washing is repeated three times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb4">
+	<TEXT ID="PLatebacktotlb4_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpipette3">
+	<TEXT ID="Takingpipette3_one">
+	 <TEXTVALUE>Take the micropipette..</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting100ul">
+	<TEXT ID="Pippetadjusting100ul_one">
+	 <TEXTVALUE>Adjust the volume to 50 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip4">
+	<TEXT ID="Takingpippettip4_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingAntigen">
+	<TEXT ID="TakingAntigen_one">
+	 <TEXTVALUE>The vial labeled as ‘Antigen’ is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+<SCENE ID="TakingAntigenzoom">
+	<TEXT ID="TakingAntigenzoom_one">
+	 <TEXTVALUE>The vial labeled as ‘Antigen’ is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antibody50µl">
+	<TEXT ID="Antibody50µl_one">
+	 <TEXTVALUE>The vial is opened and 50 microlitre of antigen solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="AntibodyinPlate">
+	<TEXT ID="AntibodyinPlate_one">
+	 <TEXTVALUE>The antigen solution is poured into the first well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringAntibodyzoom">
+	<TEXT ID="PouringAntibodyzoom_one">
+	 <TEXTVALUE>The antigen solution is poured into the first well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antibody50µl2">
+	<TEXT ID="Antibody50µl2_one">
+	 <TEXTVALUE>Again, open the vial and pipette out 50 microlitre of antigen.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartAntibody">
+	<TEXT ID="ChartAntibody_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic3">
+	<TEXT ID="Platecoveringplastic3_one">
+	 <TEXTVALUE>The antigen coated plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom3">
+	<TEXT ID="Plasticonplatezoom3_one">
+	 <TEXTVALUE>The antigen coated plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature2hrs1">
+<TEXT ID="PlateRoomtemperature2hrs1_one">
+<TEXTVALUE>The plate is incubated for 2 hours at room temperature.</TEXTVALUE>
+</TEXT>
+</SCENE>
+	
+<SCENE ID="Takingplastic3">
+	<TEXT ID="Takingplastic3_one">
+	 <TEXTVALUE>After 2 hours, the plastic wrapper is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom3">
+	<TEXT ID="Antigeninwatezoom3_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb32nd">
+	<TEXT ID="PLatebacktotlb32nd_one">
+	 <TEXTVALUE>Place the Microtitre well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeMultipipett3">
+	<TEXT ID="TakeMultipipett3_one">
+	 <TEXTVALUE>Take a multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingvesselcloser3RD">
+	<TEXT ID="Takingvesselcloser3RD_one">
+	 <TEXTVALUE>Insert fresh tips into the multipipette and open the flat vessel containing sterile distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSvessel4">
+	<TEXT ID="TakingPBSvessel4_one">
+	 <TEXTVALUE>200 microlitre of water is pipetted out using the multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSvesselpouringplate">
+	<TEXT ID="PBSvesselpouringplate_one">
+	 <TEXTVALUE>Water is poured into the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SameProcedureREPEAT3">
+	<TEXT ID="SameProcedureREPEAT3_one">
+	 <TEXTVALUE>The same procedure is repeated for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="PLatebacktotlb5th">
+	<TEXT ID="PLatebacktotlb5th_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SameProcedureREPEAT">
+	<TEXT ID="SameProcedureREPEAT_one">
+	 <TEXTVALUE>Washing is repeated two times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb2">
+	<TEXT ID="PLatebacktotlb2_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpipette4">
+	<TEXT ID="Takingpipette4_one">
+	 <TEXTVALUE>Take the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting200µl2">
+	<TEXT ID="Pippetadjusting200µl2_one">
+	 <TEXTVALUE>Adjust the volume to 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip5">
+	<TEXT ID="Takingpippettip5_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapBlckngbffr">
+	<TEXT ID="OpencapBlckngbffr_one">
+	 <TEXTVALUE>The bottle labeled as ‘Blocking Buffer’ is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeBlckngbffrzoom2">
+	<TEXT ID="TakeBlckngbffrzoom2_one">
+	 <TEXTVALUE>200 microlitre of blocking buffer solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringBlcBffrplate2">
+	<TEXT ID="PouringBlcBffrplate2_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeBlckngbffrzoom3">
+	<TEXT ID="TakeBlckngbffrzoom3_one">
+	 <TEXTVALUE>Again 200 microlitre of blocking buffer solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CHARTbuffer">
+	<TEXT ID="CHARTbuffer_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateSwirling">
+	<TEXT ID="PlateSwirling_one">
+	 <TEXTVALUE>Gently swirl the plate so as to wash the wells properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic5">
+	<TEXT ID="Platecoveringplastic5_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom5">
+	<TEXT ID="Plasticonplatezoom5_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature30mnts">
+	<TEXT ID="PlateRoomtemperature30mnts_one">
+	 <TEXTVALUE>The plate is incubated for 10 minutes at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplastic5">
+	<TEXT ID="Takingplastic5_one">
+	 <TEXTVALUE>After 10 minutes, the plastic wrapper is uncovered.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom5">
+	<TEXT ID="Antigeninwatezoom5_one">
+	 <TEXTVALUE>The blocking buffer solution is flicked into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlbfirst">
+	<TEXT ID="PLatebacktotlbfirst_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeMultipipett4">
+	<TEXT ID="TakeMultipipett4_one">
+	 <TEXTVALUE>Take a multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingvesselcloser4TH">
+	<TEXT ID="Takingvesselcloser4TH_one">
+	 <TEXTVALUE>Insert fresh tips into the multipipette and open the flat vessel containing sterile distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSvessel5">
+	<TEXT ID="TakingPBSvessel5_one">
+	 <TEXTVALUE>200 microlitre of water is pipetted out using the multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSvesselpouringplate2">
+	<TEXT ID="PBSvesselpouringplate2_one">
+	 <TEXTVALUE>Water is poured into the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SameProcedureREPEAT4">
+	<TEXT ID="SameProcedureREPEAT4_one">
+	 <TEXTVALUE>Washing is repeated three times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb6th">
+	<TEXT ID="PLatebacktotlb6th_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpipette5">
+	<TEXT ID="Takingpipette5_one">
+	 <TEXTVALUE>Take the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting50µl2">
+	<TEXT ID="Pippetadjusting50µl2_one">
+	 <TEXTVALUE>Adjust the volume to 50 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip6">
+	<TEXT ID="Takingpippettip6_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingScdryAntdby">
+	<TEXT ID="TakingScdryAntdby_one">
+	 <TEXTVALUE>The vial labeled as ‘Secondary Antibody’ is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+<SCENE ID="TakingScdryAntdbyzoom">
+	<TEXT ID="TakingScdryAntdbyzoom_one">
+	 <TEXTVALUE>The vial labeled as ‘Secondary Antibody’ is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ScdryAntdby50µl">
+	<TEXT ID="ScdryAntdby50µl_one">
+	 <TEXTVALUE>The vial is opened and 50 microlitre of secondary antibody solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ScdryAntdbyinPlate">
+	<TEXT ID="ScdryAntdbyinPlate_one">
+	 <TEXTVALUE>The secondary antibody solution is poured into the first well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ScdryAntdbyinPlatezoom">
+	<TEXT ID="ScdryAntdbyinPlatezoom_one">
+	 <TEXTVALUE>The secondary antibody solution is poured into the first well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ScdryAntdby50µlSC">
+	<TEXT ID="ScdryAntdby50µlSC_one">
+	 <TEXTVALUE>Again, open the vial and pipette out 50 microlitre of secondary antibody.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartAntibodySC">
+	<TEXT ID="ChartAntibodySC_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlatecoveringplasticSC">
+	<TEXT ID="PlatecoveringplasticSC_one">
+	 <TEXTVALUE>The antigen coated plate is wrapped with a plastic wrap to seal it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlasticonplatezoomSC">
+	<TEXT ID="PlasticonplatezoomSC_one">
+	 <TEXTVALUE>The antigen coated plate is wrapped with a plastic wrap to seal it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Roomtemperature2hourSC">
+<TEXT ID="Roomtemperature2hourSC_one">
+<TEXTVALUE>The plate is incubated for 2 hours at room temperature.</TEXTVALUE>
+</TEXT>
+</SCENE>
+	
+<SCENE ID="Takingplastic5SC">
+	<TEXT ID="Takingplastic5SC_one">
+	 <TEXTVALUE>After 2 hours, the plastic wrapper is uncovered.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="AntigeninwatezoomSC">
+	<TEXT ID="AntigeninwatezoomSC_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb4SC">
+	<TEXT ID="PLatebacktotlb4SC_one">
+	 <TEXTVALUE>Place the Microtitre well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeMultipipett4SC">
+	<TEXT ID="TakeMultipipett4SC_one">
+	 <TEXTVALUE>Take a multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingvesselcloser5TH">
+	<TEXT ID="Takingvesselcloser5TH_one">
+	 <TEXTVALUE>Insert fresh tips into the multipipette and open the flat vessel containing sterile distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSvesseltakingPL">
+	<TEXT ID="PBSvesseltakingPL_one">
+	 <TEXTVALUE>200 microlitre of water is pipetted out using the multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSvesselPLate">
+	<TEXT ID="PBSvesselPLate_one">
+	 <TEXTVALUE>Water is poured into the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SameProcedureREPEAT5">
+	<TEXT ID="SameProcedureREPEAT5_one">
+	 <TEXTVALUE>Washing is repeated two times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb">
+	<TEXT ID="PLatebacktotlb_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippet4PBS">
+	<TEXT ID="Takingpippet4PBS_one">
+	 <TEXTVALUE>Take a micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting200ul">
+	<TEXT ID="Pippetadjusting200ul_one">
+	 <TEXTVALUE>Adjust the volume to 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip3rd2">
+	<TEXT ID="Takingpippettip3rd2_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapBuffer33rd">
+	<TEXT ID="OpencapBuffer33rd_one">
+	 <TEXTVALUE>The bottle labeled as ‘Blocking Buffer’ is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingBufferzoom43rd">
+	<TEXT ID="TakingBufferzoom43rd_one">
+	 <TEXTVALUE>Pipette out 200 microlitre of blocking buffer from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Bufferinplate200">
+	<TEXT ID="Bufferinplate200_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Buffferinplate200zoom">
+	<TEXT ID="Buffferinplate200zoom0_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingBufferzoom43rd1">
+	<TEXT ID="TakingBufferzoom43rd1_one">
+	 <TEXTVALUE>Again pipette out 200 microlitre of blocking buffer from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartBuffer1">
+<TEXT ID="ChartBuffer1_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLateSwirling">
+	<TEXT ID="PLateSwirling_one">
+	 <TEXTVALUE>Gently swirl the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlatecoveringplasticBF">
+	<TEXT ID="PlatecoveringplasticBF_one">
+	 <TEXTVALUE>The well plate is wrapped with a plastic wrap to seal it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlasticonplatezoomBF">
+<TEXT ID="PlasticonplatezoomBF_one">
+	 <TEXTVALUE>The well plate is wrapped with a plastic wrap to seal it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature10mnt">
+	<TEXT ID="PlateRoomtemperature10mnt_one">
+	 <TEXTVALUE>Incubate the microtiter plate for 10 minutes at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingplasticAfter10">
+	<TEXT ID="TakingplasticAfter10_one">
+	 <TEXTVALUE>After 10 minutes, remove the plastic wrapper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="BlBufferinwatezoom">
+<TEXT ID="BlBufferinwatezoom_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlbTble">
+<TEXT ID="PLatebacktotlbTble_one">
+	 <TEXTVALUE>Place it on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingmultipipettePBS">
+	<TEXT ID="TakingmultipipettePBS_one">
+	 <TEXTVALUE>Take a multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingvesselcloser6TH">
+	<TEXT ID="Takingvesselcloser6TH_one">
+	 <TEXTVALUE>Insert fresh tips into the multipipette and open the flat vessel containing sterile distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSvesseltakingPL1">
+	<TEXT ID="PBSvesseltakingPL1_one">
+	 <TEXTVALUE>200 microlitre of water is pipetted out using the multipipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSvesselPLate1">
+	<TEXT ID="PBSvesselPLate1_one">
+	 <TEXTVALUE>Water is poured into the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SameProcedureREPEAT6">
+	<TEXT ID="SameProcedureREPEAT6_one">
+	 <TEXTVALUE>Washing is repeated three times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb6">
+	<TEXT ID="PLatebacktotlb6_one">
+	 <TEXTVALUE>Place the well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippet4Subtr">
+	<TEXT ID="Takingpippet4Subtr_one">
+	 <TEXTVALUE>Take the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting75µl2">
+	<TEXT ID="Pippetadjusting75µl2_one">
+	 <TEXTVALUE>Adjust the volume to 75 microlitres.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip3rd5">
+	<TEXT ID="Takingpippettip3rd5_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingSubtrate">
+	<TEXT ID="TakingSubtrate_one">
+	 <TEXTVALUE>Take substrate vial from kept in ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingSubtratezoom">
+	<TEXT ID="TakingSubtratezoom_one">
+	 <TEXTVALUE>Take substrate vial from kept in ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Subtact75µl">
+	<TEXT ID="Subtact75µl_one">
+	 <TEXTVALUE>Pipette out 75 microlitre of the substrate bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SubtrateinPlate">
+	<TEXT ID="SubtrateinPlate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringSubtratezoom">
+	<TEXT ID="PouringSubtratezoom_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Subtact75µl2">
+	<TEXT ID="Subtact75µl2_one">
+	 <TEXTVALUE>Pipette out 75 microlitre of the substrate bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartSubtrate">
+	<TEXT ID="ChartSubtrate_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic4">
+	<TEXT ID="Platecoveringplastic4_one">
+	 <TEXTVALUE>The well plate is wrapped with a plastic wrap to seal it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom4">
+	<TEXT ID="Plasticonplatezoom4_one">
+	 <TEXTVALUE>The well plate is wrapped with a plastic wrap to seal it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature1hrs1">
+	<TEXT ID="PlateRoomtemperature1hrs1_one">
+	 <TEXTVALUE>Incubate the microtiter plate for 1 hour at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplastic4">
+	<TEXT ID="Takingplastic4_one">
+	 <TEXTVALUE>After the incubated time, colour develops in some of the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="After1hourColour">
+	<TEXT ID="After1hourColour_one">
+	 <TEXTVALUE>After the incubated time, colour develops in some of the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet7">
+	<TEXT ID="Discardpipipet7_one">
+	 <TEXTVALUE>Discard the used tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting25µl2">
+	<TEXT ID="Pippetadjusting25µl2_one">
+	 <TEXTVALUE>Adjust the volume of the pipette to 25 microlitres.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip8">
+	<TEXT ID="Takingpippettip8_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Takingstopsolution">
+	<TEXT ID="Takingstopsolution_one">
+	 <TEXTVALUE>Take stop solution vial from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingstopsolutionezoom">
+	<TEXT ID="Takingstopsolutionezoom_one">
+	 <TEXTVALUE>Take stop solution vial from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Stopsulution75take">
+	<TEXT ID="Stopsulution75take_one">
+	 <TEXTVALUE>Pipette out 25 microlitre of the stop solution from vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="StopsolutioninPlate">
+	<TEXT ID="StopsolutioninPlate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pouringstopsltzoom">
+	<TEXT ID="Pouringstopsltzoom_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Stopsulution75takeµl2">
+	<TEXT ID="Stopsulution75takeµl2_one">
+	 <TEXTVALUE>Again pipette out 25 microlitre of the stop solution from vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Chartstopsolu">
+	<TEXT ID="Chartstopsolu_one">
+	 <TEXTVALUE>Pour 25 microlitre stop solution into each well of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingwellplate">
+	<TEXT ID="Takingwellplate_one">
+	 <TEXTVALUE>Take the microtiter plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Showingplatereader">
+	<TEXT ID="Showingplatereader_one">
+	 <TEXTVALUE>Place microtiter plate into the plate reader.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>

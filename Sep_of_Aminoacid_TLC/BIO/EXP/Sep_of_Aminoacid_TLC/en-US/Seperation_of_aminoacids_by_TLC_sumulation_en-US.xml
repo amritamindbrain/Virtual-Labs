@@ -1,0 +1,108 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Seperation_of_aminoacids_by_TLC_sumulation.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CONTINUE">
+        <source>Continue</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_CORRECT_ANSWER">
+        <source>Your answer is correct.</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_ERR_ALREADY_SELECTED">
+        <source>You have already selected this AminoAcid. Click Reset to proceed.</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_ERR_SAME_CAP">
+        <source>Same capillary tube is used for more than one Amino Acid. Click Reset to proceed.</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_ERR_SAME_PAPER">
+        <source>You have dropped different AminoAcids in the same paper slot. Click Reset to proceed.</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_INSTR1">
+        <source>1.Take one capillary tube.</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_INSTR2">
+        <source>2.Fill the capillary tube with amino acid.</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_INSTR3">
+        <source>3.Spot the amino acid on the TLC plate .(Do not use the same capillary tube for more than one solvent) and dry the spot .</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_INSTR4">
+        <source>4.Discard the capillary tube</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_INSTR5">
+        <source>5.Repeat the steps 1, 2, 3 &amp; 4 with given amino acids.</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_INSTR6">
+        <source>6.Click the “continue” button.</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INSTR7">
+        <source>7.Click on the lid to open the chamber.</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_INSTR8">
+        <source>8.Take  the TLC  plate  and keep it in the TLC chamber containing the TLC solvent.</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_INSTR9">
+        <source>9.Click again on the lid to close the chamber and wait for the solvent to rise.</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_INSTR10">
+        <source>10.click the “continue” button.</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_INSTR11">
+        <source>11.Click on the lid to open the chamber</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_INSTR12">
+        <source>12.Move the TLC paper out of the chamber and place it on the table. Dry the TLC plate using blow dryer.</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_INSTR13">
+        <source>13.click the “continue” button.</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_INSTR14">
+        <source>14.Spray Ninhydrin reagent on the dried TLC plate by clicking the spraying bottle.</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_INSTR15">
+        <source>15.After spraying,dry the plates in air oven at 105°C for 5 min.</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_INSTR16">
+        <source>16.The colored spots will appear on the TLC plate at different levels.</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INSTR17">
+        <source>17.Identify the unknown mixture by comparing it with the known amino acids.If the level of the unknown mixture is same as that of the known amino acids , then their characteristics matches.</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_SELECT_CORRECT">
+        <source>Select the correct Amino Acid from the following options.</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_TOOLTIP_MSG1">
+        <source>Click in any AminoAcid</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_TOOLTIP_MSG2">
+        <source>Click on the drawn line </source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_TOOLTIP_MSG3">
+        <source>Click here to discard the capillary tube.</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_UNKNOWN">
+        <source>unknown</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_WRONG_ANSWER">
+        <source>Your answer is wrong. Try again</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

@@ -1,0 +1,1175 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="01FluLabOfanti">
+	<TEXT ID="01FluLabOfanti_one">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment  to know the name / click the continue button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="02FluLabRefrig">
+	<TEXT ID="02FluLabRefrig_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="03FluLabRefrigOpen">
+	<TEXT ID="03FluLabRefrigOpen_one">
+	 <TEXTVALUE>The refrigerator is opened.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="04FluLabplacontable">
+	<TEXT ID="04FluLabplacontable_one">
+	 <TEXTVALUE>And all the required reagents for the experiment is taken and is arranged on the immunology lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="05FluLabTak02">
+	<TEXT ID="05FluLabTak02_one">
+	 <TEXTVALUE>All the required reagents for the experiment is taken and is arranged on the immunology lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="06FluLabplacontable06">
+	<TEXT ID="06FluLabplacontable06_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="06bFluLabTak02">
+	<TEXT ID="06bFluLabTak02_one">
+	 <TEXTVALUE>Close the refrigerator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="07FluLabplacpepr">
+	<TEXT ID="07FluLabplacpepr_one">
+	 <TEXTVALUE>A butter paper is placed on the weigh balance (mg)  and  the balance is tared.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="08FluLabplacpepr">
+	<TEXT ID="08FluLabplacpepr_one">
+	 <TEXTVALUE>The purified Ig G antibody bottle is taken  and  the cap of the bottle is opened.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="08FluLabplacpepr_two">
+	 <TEXTVALUE>Some amount of purified Ig G antibody is added to the spatula.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="09FluLabdropdust">
+	<TEXT ID="09FluLabdropdust_one">
+	 <TEXTVALUE>Purified Ig G antibody is added to the butter paper placed in the weighing balance. 2mg of  purified Ig G antibody is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="10FluLabreplcSpachu">
+	<TEXT ID="10FluLabreplcSpachu_one">
+	 <TEXTVALUE>The spatula is placed back on the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="11FluLabreplcantionrefri">
+	<TEXT ID="11FluLabreplcantionrefri_one">
+	 <TEXTVALUE>The lid of the purified Ig G  antibody bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="12FluLabRefrigOpen02">
+	<TEXT ID="12FluLabRefrigOpen02_one">
+	 <TEXTVALUE>The purified Ig G antibody bottle is placed back in the refrigerator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="13FluLabclosDor">
+	<TEXT ID="13FluLabclosDor_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="14FluLabtakefrmbalce">
+	<TEXT ID="14FluLabtakefrmbalce_one">
+	 <TEXTVALUE>The Ig G antibody is taken from the balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="15FluLabtaketube">
+	<TEXT ID="15FluLabtaketube_one">
+	 <TEXTVALUE>The vial labeled as Ig G antibody is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="16FluLabfilTube">
+	<TEXT ID="16FluLabfilTube_one">
+	 <TEXTVALUE>The purified Ig G antibody is added to the vial.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="17FluLabreplcerack">
+	<TEXT ID="17FluLabreplcerack_one">
+	 <TEXTVALUE>The IgG antibody vial is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="18FluLabtakpipt">
+	<TEXT ID="18FluLabtakpipt_one">
+	 <TEXTVALUE>A micropipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="19FluLabadjest">
+	<TEXT ID="19FluLabadjest_one">
+	 <TEXTVALUE>The volume of the micropipette is adjusted to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="20FluLabtakTip1">
+	<TEXT ID="20FluLabtakTip1_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="21FluLabtaksodim">
+	<TEXT ID="21FluLabtaksodim_one">
+	 <TEXTVALUE>The lid of the sodium bicarbonate buffer bottle is opened and a 1000microlitre of solution is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="22FluLabtaktub04">
+	<TEXT ID="22FluLabtaktub04_one">
+	 <TEXTVALUE>The vial labeled as Ig G antibody is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="23FluLabmixit">
+	<TEXT ID="23FluLabmixit_one">
+	 <TEXTVALUE>The sodium bicarbonate solution is added to the vial and it is mixed properly by pipetting it up and down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="24FluLabreplcerack06">
+	<TEXT ID="24FluLabreplcerack06_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="26FluLabreplapipt">
+	<TEXT ID="26FluLabreplapipt_one">
+	 <TEXTVALUE>The micropipette is placed back on the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="27AntiDilis">
+	<TEXT ID="27AntiDilis_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="28FluLabTkForcps">
+	<TEXT ID="28FluLabTkForcps_one">
+	 <TEXTVALUE>A forceps is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="29FluLabethnl">
+	<TEXT ID="29FluLabethnl_one">
+	 <TEXTVALUE>A small piece of  dialysis  tubing is taken from the Ethanol Storage Solution using the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="30FluLabethnl">
+	<TEXT ID="30FluLabethnl_one">
+	 <TEXTVALUE>The dialysis tubing is washed  using the distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="31FluLabtakclip">
+	<TEXT ID="31FluLabtakclip_one">
+	 <TEXTVALUE>A clamp is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="32FluLabclipCover">
+	<TEXT ID="32FluLabclipCover_one">
+	 <TEXTVALUE>The clamp is inserted on the dialysis tubing at one side.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="33FluLabplaconTable">
+	<TEXT ID="33FluLabplaconTable_one">
+	 <TEXTVALUE>The dialysis tubing is placed back on the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="34FluLabplaconTable">
+	<TEXT ID="34FluLabplaconTable_one">
+	 <TEXTVALUE>A 1000microlitre pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="35FluLabtakTip1 copy">
+	<TEXT ID="35FluLabtakTip1 copy_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="36FluLabtkTubfromrak">
+	<TEXT ID="36FluLabtkTubfromrak_one">
+	 <TEXTVALUE>The vial labeled as Ig G antibody is taken from the vial rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>	
+<SCENE ID="37FluLabtkoutit">
+	<TEXT ID="37FluLabtkoutit_one">
+	 <TEXTVALUE>The cap of the vial is opened and pipette out 1000microlitre of Ig G antibody.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="38FluLabreplcerack08">
+	<TEXT ID="38FluLabreplcerack08_one">
+	 <TEXTVALUE>The vial is placed back in the vial rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="39FluLabrefillliqud">
+	<TEXT ID="39FluLabrefillliqud_one">
+	 <TEXTVALUE>The dialysis tubing is taken and it is filled using Ig G antibody.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="40FluLabdiscd">
+	<TEXT ID="40FluLabdiscd_one">
+	 <TEXTVALUE>The tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="41FluLabremovairbob">
+	<TEXT ID="41FluLabremovairbob_one">
+	 <TEXTVALUE>The air present in the dialysing tube is  squeezed out and the clamp is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="42FluLabdipinpbs">
+	<TEXT ID="42FluLabdipinpbs_one">
+	 <TEXTVALUE>The dialysis tubing with Ig G antibody solution is placed on the PBS Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="43FluLabdropMg">
+	<TEXT ID="43FluLabdropMg_one">
+	 <TEXTVALUE>The magnetic Teflon is  also placed in the PBS Buffer using a forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="44Fluplccool">
+	<TEXT ID="44Fluplccool_one">
+	 <TEXTVALUE>The beaker containing PBS Buffer solution is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45Fluplcclose">
+	<TEXT ID="45Fluplcclose_one">
+	 <TEXTVALUE>The beaker is placed on the magnetic stirrer which is placed inside the visicooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="46FluonTheSwitch">
+	<TEXT ID="46FluonTheSwitch_one">
+	 <TEXTVALUE>The magnetic stirrer is switched on and it is kept for 2 hours at 4 degree celsius.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47Fluswitchoff">
+	<TEXT ID="47Fluswitchoff_one">
+	 <TEXTVALUE>After 2 hours, the magnetic stirrer is switched off and the beaker containing PBS buffer solution is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48Flutakfrmbekr">
+	<TEXT ID="48Flutakfrmbekr_one">
+	 <TEXTVALUE>The beaker is placed back on the bench top and the dialysis tubing containing Ig G antibody solution is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="49FluRemovclip">
+	<TEXT ID="49FluRemovclip_one">
+	 <TEXTVALUE>The clamp from one side of the dialysis tubing is taken off.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="50Fluuspastalpipt">
+	<TEXT ID="50Fluuspastalpipt_one">
+	 <TEXTVALUE>The Ig G antibody solution from the dialysis tubing is pipetted out using a Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="51Fluutak2nd">
+	<TEXT ID="51Fluutak2nd_one">
+	 <TEXTVALUE>The vial labeled ad Dialysed Antibody is taken from the vial rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="52Flufil2nd">
+	<TEXT ID="52Flufil2nd_one">
+	 <TEXTVALUE>The cap of the vial is opened and the dialysed  Ig G antibody solution is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+<SCENE ID="53Flureplcit">
+	<TEXT ID="53Flureplcit_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="54Flutakpipt">
+	<TEXT ID="54Flutakpipt_one">
+	 <TEXTVALUE>A micro pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+		
+</SCENE>
+<SCENE ID="55Fluadjst">
+	<TEXT ID="55Fluadjst_one">
+	 <TEXTVALUE>The volume is adjusted to 100microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56FlufixtheTip1">
+	<TEXT ID="56FlufixtheTip1_one">
+	 <TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="57FlutakSodim">
+	<TEXT ID="57FlutakSodim_one">
+	 <TEXTVALUE>The cap of the sodium bicarbonate bottle is opened and 100 microlitre of solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="58FlutakSodim">
+	<TEXT ID="58FlutakSodim_one">
+	 <TEXTVALUE>The vial labeled ad Dialysed Antibody is taken from the vial rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59Fluopen03">
+	<TEXT ID="59Fluopen03_one">
+	 <TEXTVALUE>The cap of the vial is opened and the sodium bicarbonate buffer is added to it.The cap of the vial is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="60Fluopen03">
+	<TEXT ID="60Fluopen03_one">
+	 <TEXTVALUE>The used tip is discarded to a beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="61FlufixtheTip4">
+	<TEXT ID="61FlufixtheTip4_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="62Fluremov100ml">
+	<TEXT ID="62Fluremov100ml_one">
+	 <TEXTVALUE>The cap of the vial is opened and add 100 microlitre of dialysed antibody is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="63Flureplcit04">
+	<TEXT ID="63Flureplcit04_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="64Flutaknew">
+	<TEXT ID="64Flutaknew_one">
+	 <TEXTVALUE>The vial labeled as FITC-Antibody conjugate is taken from the vial rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="65Flufillnew">
+	<TEXT ID="65Flufillnew_one">
+	 <TEXTVALUE>The vial is opened and 100 microlitre of dialysed antibody is added to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="64FlureplaceV03">
+	<TEXT ID="64FlureplaceV03_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="65Flutakpipt02">
+	<TEXT ID="65Flutakpipt02_one">
+	 <TEXTVALUE>A micro pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="66Fluadjst03">
+	<TEXT ID="66Fluadjst03_one">
+	 <TEXTVALUE>The volume is adjusted to 20 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="67FlufixtheTip5">
+	<TEXT ID="67FlufixtheTip5_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="68FlutakSodim02">
+	<TEXT ID="68FlutakSodim02_one">
+	 <TEXTVALUE>The cap of the sodium bicarbonate buffer bottle is opened and 20 microlitre of buffer is pipette out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="69FlutakV04">
+	<TEXT ID="69FlutakV04_one">
+	 <TEXTVALUE>The vial labeled as FITC-Antibody conjugate  is taken from the vial rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="70Fluopen04">
+	<TEXT ID="70Fluopen04_one">
+	 <TEXTVALUE>The cap of the vial is opened and the sodium bicarbonate buffer is added to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="71Flureplace05">
+	<TEXT ID="71Flureplace05_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="72Flureplacesodim">
+	<TEXT ID="72Flureplacesodim_one">
+	 <TEXTVALUE>The sodium bicarbonate buffer bottle is taken from the benchtop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73Fluopenrefri">
+	<TEXT ID="73Fluopenrefri_one">
+	 <TEXTVALUE>The bottle is placed back in the refrigerator.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="74Fluclosit">
+	<TEXT ID="74Fluclosit_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="75Fluplacppr">
+	<TEXT ID="75Fluplacppr_one">
+	 <TEXTVALUE>A butter paper is placed on the weigh balance (mg) and the balance is tared.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="76FluFictpouder">
+	<TEXT ID="76FluFictpouder_one">
+	 <TEXTVALUE>The FITC-Dye bottle is taken and its cap is opened.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="76FluFictpouder_two">
+	 <TEXTVALUE>Some amount of FITC-dye is taken from the bottle</TEXTVALUE>
+	</TEXT>
+</SCENE>
+    <SCENE ID="77FluFicwight">
+	<TEXT ID="77FluFicwight_one">
+	 <TEXTVALUE>The FITC-Dye is added to the butter paper placed on the weiging balance, 0.5mg of FITC -Dye is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+    <SCENE ID="78FlureplacSpachu">
+	<TEXT ID="78FlureplacSpachu_one">
+	 <TEXTVALUE>The spatula is placed back on the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+    <SCENE ID="79FluretakTorerfi">
+	<TEXT ID="79FluretakTorerfi_one">
+	 <TEXTVALUE>The FITC-Dye bottle is taken from the bench top.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+    <SCENE ID="80Fluopenrefri06">
+	<TEXT ID="80Fluopenrefri06_one">
+	 <TEXTVALUE>The bottle is placed back in the refrigerator.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+    <SCENE ID="81FluTakpouder">
+	<TEXT ID="81FluTakpouder_one">
+	 <TEXTVALUE>The FITC–Dye is taken from the balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+    <SCENE ID="82FluTaknewVail">
+	<TEXT ID="82FluTaknewVail_one">
+	 <TEXTVALUE>The vial labeled as FITC-Dye is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="83Flufillthepouder">
+	<TEXT ID="83Flufillthepouder_one">
+	 <TEXTVALUE>The cap of the vial is opened and the FITC-Dye is added to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="84FluplacPoder">
+	<TEXT ID="84FluplacPoder_one">
+	 <TEXTVALUE>The vial with FITC Dye is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+    <SCENE ID="85Flutakpipt03">
+	<TEXT ID="85Flutakpipt03_one">
+	 <TEXTVALUE>A micro pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="86Fluadj03">
+	<TEXT ID="86Fluadj03_one">
+	 <TEXTVALUE>The volume is adjusted to 50microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="87FlutakDMSO">
+	<TEXT ID="87FlutakDMSO_one">
+	 <TEXTVALUE>The cap of the anhydrous DMSO bottle is opened and  50 microlitre of DMSO is pipette out.The cap of the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="88FlutakfrmRack">
+	<TEXT ID="88FlutakfrmRack_one">
+	 <TEXTVALUE>The vial labeled as FITC-Dye is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="89FluimxPoder">
+	<TEXT ID="89FluimxPoder_one">
+	 <TEXTVALUE>The cap of the vial is opened and the anhydrous DMSO is added to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="90FluimxPoder02">
+	<TEXT ID="90FluimxPoder02_one">
+	 <TEXTVALUE>The solution is mixed properly using the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="91FluReplcCompound">
+	<TEXT ID="91FluReplcCompound_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="92Fluadj04">
+	<TEXT ID="92Fluadj04_one">
+	 <TEXTVALUE>The volume is adjusted to 20microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="93FluTakCompound01">
+	<TEXT ID="93FluTakCompound01_one">
+	 <TEXTVALUE>The vial labeled as FITC-Dye is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="94FluTak20ml">
+	<TEXT ID="94FluTak20ml_one">
+	 <TEXTVALUE>The cap of the vial is opened and pipette out 20microlitre of FITC-Dye.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="95FluDiscaded">
+	<TEXT ID="95FluDiscaded_one">
+	 <TEXTVALUE>Discard the remaining Dye to a beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="96FlutakV05">
+	<TEXT ID="96FlutakV05_one">
+	 <TEXTVALUE>The vial labeled as FITC-Antibody conjugate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="97FluMixgreen">
+	<TEXT ID="97FluMixgreen_one">
+	 <TEXTVALUE>The cap of the vial is opened and the 20microlitre of FITC-Dye is added to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="98FluVibratIt">
+	<TEXT ID="98FluVibratIt_one">
+	 <TEXTVALUE>The contents in the vial is mixed properly by vortexing it for 2-3 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="99FluPlacinroom2hr">
+	<TEXT ID="99FluPlacinroom2hr_one">
+	 <TEXTVALUE>The FITC-antibody conjugate is incubated at room temperature for 2 hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="100FluPlcPepronBl">
+	<TEXT ID="100FluPlcPepronBl_one">
+	 <TEXTVALUE>A butter paper is placed on the weigh balance (g) and the balance is tared.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="101FluTakG-100">
+	<TEXT ID="101FluTakG-100_one">
+	 <TEXTVALUE>The Sephadex G 100,Gel filtration resin bottle is taken and its cap is opened.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="101FluTakG-100_two">
+	 <TEXTVALUE>Some amount of  Sephadex G 100  resin is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="102FlucheckWeight">
+	<TEXT ID="102FlucheckWeight_one">
+	 <TEXTVALUE>The Sephadex G 100  resin is added to the butter paper placed on the weighing balance.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="102FlucheckWeight_two">
+	 <TEXTVALUE>0.04g Sephadex G 100 resin is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="103FluPlacSpachu">
+	<TEXT ID="103FluPlacSpachu_one">
+	 <TEXTVALUE>The spatula is placed back on the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="104FluTakit03">
+	<TEXT ID="104FluTakit03_one">
+	 <TEXTVALUE>The Sephadex G 100  resin is taken from the balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="105FluSpinColom">
+	<TEXT ID="105FluSpinColom_one">
+	 <TEXTVALUE>The empty spin column is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="106FluoppenColom">
+	<TEXT ID="106FluoppenColom_one">
+	 <TEXTVALUE>The cap of the spin column is opened and the Sephadex G 100 resin is added to the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="107Flutapit">
+	<TEXT ID="107Flutapit_one">
+	 <TEXTVALUE>The spin column is tapped so that the resin is settled at the bottom.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="108FlutakStoper">
+	<TEXT ID="108FlutakStoper_one">
+	 <TEXTVALUE>The column end stopper is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="109Fluplacestoper">
+	<TEXT ID="109Fluplacestoper_one">
+	 <TEXTVALUE>The column end stopper is placed on the spin column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="110Fluplacestoper">
+	<TEXT ID="110Fluplacestoper_one">
+	 <TEXTVALUE>The cap of the column is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="111Fluplacestoper">
+	<TEXT ID="111Fluplacestoper_one">
+	 <TEXTVALUE>The spin column is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="112FluTakppt">
+	<TEXT ID="112FluTakppt_one">
+	 <TEXTVALUE>A micro pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="113FluAdjest">
+	<TEXT ID="113FluAdjest_one">
+	 <TEXTVALUE>The volume is adjusted to 800microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="114Flutakthetip9">
+	<TEXT ID="114Flutakthetip9_one">
+	 <TEXTVALUE>A new tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="115FluTakBuffer">
+	<TEXT ID="115FluTakBuffer_one">
+	 <TEXTVALUE>The cap of the 1X PBS Buffer with 2mM sodium azide bottle is opened and  800 microlitre of buffer is pipette out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="116FlutakColum">
+	<TEXT ID="116FlutakColum_one">
+	 <TEXTVALUE>The spin column is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="117FlufillitBufr">
+	<TEXT ID="117FlufillitBufr_one">
+	 <TEXTVALUE>The cap of the column is opened and add 800 microlitre of PBS buffer with 2mM Sodiumazide is added to the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="118FluVortex">
+	<TEXT ID="118FluVortex_one">
+	 <TEXTVALUE>The contents in the spin column is mixed properly by vortexing it for 5 seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="119FluReplace">
+	<TEXT ID="119FluReplace_one">
+	 <TEXTVALUE>The column is then kept at room temperature for 30 minutes for hydration.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="120FlutakFrmRack">
+	<TEXT ID="120FlutakFrmRack_one">
+	 <TEXTVALUE>After 30 minutes,the spin column is taken from the rack and its cap is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="121FluoppenColom02">
+	<TEXT ID="121FluoppenColom02_one">
+	 <TEXTVALUE>Its cap is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="122Fluplacestoper02">
+	<TEXT ID="122Fluplacestoper02_one">
+	 <TEXTVALUE>The column end stopper is taken out from the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="123FluReplaceStoper">
+	<TEXT ID="123FluReplaceStoper_one">
+	 <TEXTVALUE>The column end stopper is placed back in the rack and the collection tube is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="124Fluploacglass">
+	<TEXT ID="124Fluploacglass_one">
+	 <TEXTVALUE>The spin column is inserted into the collection tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="125Fluploaopncentri">
+	<TEXT ID="125Fluploaopncentri_one">
+	 <TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="126Fluploplacit">
+	<TEXT ID="126Fluploplacit_one">
+	 <TEXTVALUE>The collection tube with spin column is placed in the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="127Flufillwater">
+	<TEXT ID="127Flufillwater_one">
+	 <TEXTVALUE>Another spin column is taken and it is filled with water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="128FluplodWater">
+	<TEXT ID="128FluplodWater_one">
+	 <TEXTVALUE>The spin column with water is inserted into the collection tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="129Fluploplacwater">
+	<TEXT ID="129Fluploplacwater_one">
+	 <TEXTVALUE>The centrifuge is then balanced using a collection tube containing water.</TEXTVALUE>
+	</TEXT>
+</SCENE>	
+<SCENE ID="130Fluplop">
+	<TEXT ID="130Fluplop_one">
+	 <TEXTVALUE>The centrifuge is set to 2 minutes at 1000xg.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="131Fluopen">
+	<TEXT ID="131Fluopen_one">
+	 <TEXTVALUE>After 2 minutes,the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="132flutakthetub">
+	<TEXT ID="132flutakthetub_one">
+	 <TEXTVALUE>The collection tube with spin column is taken from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="135Flupremovit">
+	<TEXT ID="135Flupremovit_one">
+	 <TEXTVALUE>The spin column is taken from the collection tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="136Fludiscard">
+	<TEXT ID="136Fludiscard_one">
+	 <TEXTVALUE>The solution in the collection tube is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="137Fluplac">
+	<TEXT ID="137Fluplac_one">
+	 <TEXTVALUE>The collection tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="138FluplacthColoum">
+	<TEXT ID="138FluplacthColoum_one">
+	 <TEXTVALUE>The spin column is placed back on the rack.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="139FluTakppt05">
+	<TEXT ID="139FluTakppt05_one">
+	 <TEXTVALUE>A micro pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="140Flutakthetip10">
+	<TEXT ID="140Flutakthetip10_one">
+	 <TEXTVALUE>A new tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="141FluTakitup">
+	<TEXT ID="141FluTakitup_one">
+	 <TEXTVALUE>The vial labeled as FITC antibody conjugate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="142Flutakitinppt">
+	<TEXT ID="142Flutakitinppt_one">
+	 <TEXTVALUE>The entire solution from the vial is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="143FlutakColoum">
+	<TEXT ID="143FlutakColoum_one">
+	 <TEXTVALUE>The spin column is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="144FlufillTheColum">
+	<TEXT ID="144FlufillTheColum_one">
+	 <TEXTVALUE>The cap of the spin column is opened and the Fitc-antibody conjugate is added to the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="145FtakColoum">
+	<TEXT ID="145FtakColoum_one">
+	 <TEXTVALUE>The collection tube is taken from the rack.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="146Fluplacitincoloum">
+	<TEXT ID="146Fluplacitincoloum_one">
+	 <TEXTVALUE>The spin column is inserted into the collection tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="147Fluploaopncentri01">
+	<TEXT ID="147Fluploaopncentri01_one">
+	 <TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="148Fluploplace">
+	<TEXT ID="148Fluploplace_one">
+	 <TEXTVALUE>The collection tube with spin column is placed in the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="149Fluplacwater">
+	<TEXT ID="149Fluplacwater_one">
+	 <TEXTVALUE>The centrifuge is balanced using another collection tube containing water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="150Fluadj02">
+	<TEXT ID="150Fluadj02_one">
+	 <TEXTVALUE>The centrifuge is set to 5 minutes at 1000xg.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="151Fluopen09">
+	<TEXT ID="151Fluopen09_one">
+	 <TEXTVALUE>After 5 minutes, the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="152flutakthetub03">
+	<TEXT ID="152flutakthetub03_one">
+	 <TEXTVALUE>The collection tube with spin column is taken from the centrifuge.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<!--<SCENE ID="153Fluonpenit02">
+	<TEXT ID="153Fluonpenit02_one">
+	 <TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="154FluTakFrmCentri02">
+	<TEXT ID="154FluTakFrmCentri02_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>-->
+<SCENE ID="155Flupremovit02">
+	<TEXT ID="155Flupremovit02_one">
+	 <TEXTVALUE>The spin column is taken from the collection tube. The purified protein sample is present in the collection tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="156Flupdiscardcoloum">
+	<TEXT ID="156Flupdiscardcoloum_one">
+	 <TEXTVALUE>The used spin column is discarded.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="157FluTakppt06">
+	<TEXT ID="157FluTakppt06_one">
+	 <TEXTVALUE>A 1000microlitre pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="158Flutakthetip10">
+	<TEXT ID="158Flutakthetip10_one">
+	 <TEXTVALUE>A new tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="159FluTaksurntntTip07">
+	<TEXT ID="159FluTaksurntntTip07_one">
+	 <TEXTVALUE>The purified protein sample is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="160Flupdiscardcolecter">
+	<TEXT ID="160Flupdiscardcolecter_one">
+	 <TEXTVALUE>Discard the collection tube.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="161FluTkNewvial">
+	<TEXT ID="161FluTkNewvial_one">
+	 <TEXTVALUE>The vial labeled as purified sample is taken from the rack.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="162FlufillNewvial">
+	<TEXT ID="162FlufillNewvial_one">
+	 <TEXTVALUE>The purified protein sample from the pipette is added to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="163FluplaconRack">
+	<TEXT ID="163FluplaconRack_one">
+	 <TEXTVALUE>The purified protein sample from the pipette is added to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="164FluDidcarded">
+	<TEXT ID="164FluDidcarded_one">
+	 <TEXTVALUE>The tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="165FluTaktip_03">
+	<TEXT ID="165FluTaktip_03_one">
+	 <TEXTVALUE>A new tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="166FluTakPBS02">
+	<TEXT ID="166FluTakPBS02_one">
+	 <TEXTVALUE>The cap of the 1X PBS Buffer with 2mm sodium azide bottle is opened and the buffer is pipette out from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="167FluTakQut">
+	<TEXT ID="167FluTakQut_one">
+	 <TEXTVALUE>The cuvette is taken from the cuvette holder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="168FlufillQt04">
+	<TEXT ID="168FlufillQt04_one">
+	 <TEXTVALUE>The cuvette is filled using the PBS Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="169FluOpRding">
+	<TEXT ID="169FluOpRding_one">
+	 <TEXTVALUE>The lid of the cuvette slot in biophotometer is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="170FluSetRead">
+	<TEXT ID="170FluSetRead_one">
+	 <TEXTVALUE>The wavelength  is adjusted tor 280nm.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="171FluPrsEnter">
+	<TEXT ID="171FluPrsEnter_one">
+	 <TEXTVALUE>The enter button is then pressed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="172Fluplacit">
+	<TEXT ID="172Fluplacit_one">
+	 <TEXTVALUE>The cuvette with the buffer is placed in the cuvette  slot  and the lid is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="173 Flu0.000A">
+	<TEXT ID="173 Flu0.000A_one">
+	 <TEXTVALUE>The blank button is then pressed,The absorbance obtained is 0.00A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="174Fluplacit01">
+	<TEXT ID="174Fluplacit01_one">
+	 <TEXTVALUE>The lid of the cuvette slot  is opened and the cuvette is taken from the slot.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="175 FluDiscard">
+	<TEXT ID="175 FluDiscard_one">
+	 <TEXTVALUE>Discard the PBS buffer to a beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="176FluReplc">
+	<TEXT ID="176FluReplc_one">
+	 <TEXTVALUE>The cuvette is placed back on the cuvette holder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="177FluDidcarded03">
+	<TEXT ID="177FluDidcarded03_one">
+	 <TEXTVALUE>The used tip is then discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="178Flutak">
+	<TEXT ID="178Flutak_one">
+	 <TEXTVALUE>A new tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="179FluplaconRack09">
+	<TEXT ID="179FluplaconRack09_one">
+	 <TEXTVALUE>The vial with purified sample is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="180Flutakinppt">
+	<TEXT ID="180Flutakinppt_one">
+	 <TEXTVALUE>The cap of  the vial is opened and  the solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="181FlureplaceonRK">
+	<TEXT ID="181FlureplaceonRK_one">
+	 <TEXTVALUE>The vial is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="182FluTakQut02">
+	<TEXT ID="182FluTakQut02_one">
+	 <TEXTVALUE>The cuvette is taken from the  cuvette holder.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="183FlufillQt04">
+	<TEXT ID="183FlufillQt04_one">
+	 <TEXTVALUE>The cuvette is filled using the purified protein sample.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="184Fluplacit01">
+	<TEXT ID="184Fluplacit01_one">
+	 <TEXTVALUE>The cuvette with purified sample is placed in the cuvette slot and the lid is closed.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="185FluTakread">
+	<TEXT ID="185FluTakread_one">
+	 <TEXTVALUE>The sample button is then pressed, The absorbance obtained is 0.20A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="186Fluplacit01">
+	<TEXT ID="186Fluplacit01_one">
+	 <TEXTVALUE>The lid of the cuvette slot  is opened and the cuvette is taken from the slot.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="187FlufillQt05">
+	<TEXT ID="187FlufillQt05_one">
+	 <TEXTVALUE>The purified sample from the cuvette is pipette out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="188Fluplaceit">
+	<TEXT ID="188Fluplaceit_one">
+	 <TEXTVALUE>The cuvette is placed back in the cuvette holder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="189FlureTake">
+	<TEXT ID="189FlureTake_one">
+	 <TEXTVALUE>The vial labeled as purified sample is taken from the rack.</TEXTVALUE>
+	</TEXT>	
+</SCENE>	
+<SCENE ID="190FlureTake05">
+	<TEXT ID="190FlureTake05_one">
+	 <TEXTVALUE>The cap of the vial is opened and it is filled using the purified sample.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="191FluReplacit">
+	<TEXT ID="191FluReplacit_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="192FluTakPBS03">
+	<TEXT ID="192FluTakPBS03_one">
+	 <TEXTVALUE>The cap of the 1X PBS Buffer with 2mM sodium azide bottle is opened and the buffer is pipette out from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="193FluTakQut03">
+	<TEXT ID="193FluTakQut03_one">
+	 <TEXTVALUE>The cuvette is taken from the cuvette holder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="194FlufillQt05">
+	<TEXT ID="194FlufillQt05_one">
+	 <TEXTVALUE>The cuvette is filled using the PBS Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="195FluSetRead01">
+	<TEXT ID="195FluSetRead01_one">
+	 <TEXTVALUE>The wavelength is adjusted to 495nm.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="196FluPrsEnter02">
+	<TEXT ID="196FluPrsEnter02_one">
+	 <TEXTVALUE>The enter button is then pressed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="197Fluplacit02">
+	<TEXT ID="197Fluplacit02_one">
+	 <TEXTVALUE>The cuvette with the buffer is placed in the cuvette   slot and the lid is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="198 Flu0.000A02">
+	<TEXT ID="198 Flu0.000A02_one">
+	 <TEXTVALUE>The blank button is then pressed,The absorbance obtained is 0.00A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="199Fluplacit02">
+	<TEXT ID="199Fluplacit02_one">
+	 <TEXTVALUE>The lid of the cuvette slot  is opened and the cuvette is taken from the slot.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="200 FluDiscard02">
+	<TEXT ID="200 FluDiscard02_one">
+	 <TEXTVALUE>Discard the PBS buffer to a beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="201FluDidcarded04">
+	<TEXT ID="201FluDidcarded04_one">
+	 <TEXTVALUE>The used tip is then discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="202FluTaktip_04">
+	<TEXT ID="202FluTaktip_04_one">
+	 <TEXTVALUE>A new tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="203FluplaconRack10">
+	<TEXT ID="203FluplaconRack10_one">
+	 <TEXTVALUE>The vial with purified sample is taken from the rack.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="204Flutakinppt05">
+	<TEXT ID="204Flutakinppt05_one">
+	 <TEXTVALUE>The cap of the vial is opened and the solution is  pipetted  out from the vial.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="205FlureplaceonRK05">
+	<TEXT ID="205FlureplaceonRK05_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="206FluTakQut04">
+	<TEXT ID="206FluTakQut04_one">
+	 <TEXTVALUE>The cuvette is taken from the cuvette holder.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="207FlufillQt05">
+	<TEXT ID="207FlufillQt05_one">
+	 <TEXTVALUE>The cuvette is filled using the purified protein sample.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="208Fluplacit02">
+	<TEXT ID="208Fluplacit02_one">
+	 <TEXTVALUE>The cuvette with purified sample is placed on the cuvette slot and the lid is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="209FluTakread02">
+	<TEXT ID="209FluTakread02_one">
+	 <TEXTVALUE>The sample button is then pressed,The absorbance obtained is 1.5A.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="210FlureTake033">
+	<TEXT ID="210FlureTake033_one">
+	 <TEXTVALUE>The vial with purified sample is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="211Flutakinppt055">
+	<TEXT ID="211Flutakinppt055_one">
+	 <TEXTVALUE>The cap of the vial is opened and pipette out the remaining purified sample.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="212FlureplaceonRK06">
+	<TEXT ID="212FlureplaceonRK06_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="213FluretakBlack">
+	<TEXT ID="213FluretakBlack_one">
+	 <TEXTVALUE>The light protected vial is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="214FluFillBlack">
+	<TEXT ID="214FluFillBlack_one">
+	 <TEXTVALUE>The cap of the light protected vial is opened and the protein sample is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="215FlurePlacBlack">
+	<TEXT ID="215FlurePlacBlack_one">
+	 <TEXTVALUE>The vial is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="216Fluretakeppt">
+	<TEXT ID="216Fluretakeppt_one">
+	 <TEXTVALUE>A micropipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="217Fluretakeppt">
+	<TEXT ID="217Fluretakeppt_one">
+	 <TEXTVALUE>The volume is adjusted to 100 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="218FluretkTip01">
+	<TEXT ID="218FluretkTip01_one">
+	 <TEXTVALUE>A new tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="219FluTkPBS">
+	<TEXT ID="219FluTkPBS_one">
+	 <TEXTVALUE>The cap of the 1X PBS Buffer with 2mM sodium azide bottle is opened and the buffer is pipette out from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="220FluretakBlack01">
+	<TEXT ID="220FluretakBlack01_one">
+	 <TEXTVALUE>The light protected vial is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="221FluFillBlack01">
+	<TEXT ID="221FluFillBlack01_one">
+	 <TEXTVALUE>The cap of the vial is opened and the buffer is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="222FlustorinRefri">
+	<TEXT ID="222FlustorinRefri_one">
+	 <TEXTVALUE>The refrigerator is opened and the vial is placed in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

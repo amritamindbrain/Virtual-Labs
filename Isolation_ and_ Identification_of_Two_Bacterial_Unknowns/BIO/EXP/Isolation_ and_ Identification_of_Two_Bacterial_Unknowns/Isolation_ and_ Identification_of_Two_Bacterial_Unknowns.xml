@@ -1,0 +1,1887 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="01introduction">
+	<TEXT ID="01introduction_one">
+	 	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the “continue” button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="02isolution">
+	<TEXT ID="02isolution_one">
+		<TEXTVALUE>Isolation of individual cells from the mixed culture.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="03takeloop">
+	<TEXT ID="03takeloop_one">
+		<TEXTVALUE>An inoculation loop is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="04heating">
+	<TEXT ID="04heating_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="05mixedculture">
+	<TEXT ID="05mixedculture_one">
+		<TEXTVALUE>The mixed culture of organism is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="06removecap">
+	<TEXT ID="06removecap_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	
+	<TEXT ID="06removecap_two">
+		<TEXTVALUE>A loopful of the culture is taken with the cooled sterile loop.</TEXTVALUE>
+	</TEXT>
+	
+	<TEXT ID="06removecap_three">
+		<TEXTVALUE>The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="07mixedculturertn">
+	<TEXT ID="07mixedculturertn_one">
+		<TEXTVALUE>The mixed culture is then placed back in the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="08petridish">
+	<TEXT ID="08petridish_one">
+		<TEXTVALUE>The nutrient agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="09openpetri">
+	<TEXT ID="09openpetri_one">
+		<TEXTVALUE>The lid of the nutrient agar plate is opened.</TEXTVALUE>
+	</TEXT>
+	
+	<TEXT ID="09openpetri_two">
+		<TEXTVALUE>A uniform inoculum is made on the edge of the agar plate and streaking is done as shown.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+<SCENE ID="10heating1">
+	<TEXT ID="10heating1_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="11scrible">
+	<TEXT ID="11scrible_one">
+		<TEXTVALUE>The streaking is then done on the second quadrant as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="12heat">
+	<TEXT ID="12heat_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="13scrible2">
+	<TEXT ID="13scrible2_one">
+		<TEXTVALUE>The streaking is then done on the third quadrant as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="14heat">
+	<TEXT ID="14heat_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="15lines">
+	<TEXT ID="15lines_one">
+		<TEXTVALUE>The streaking is then done on the fourth quadrant as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="16heats">
+	<TEXT ID="16heats_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="17scrubbedlines">
+	<TEXT ID="17scrubbedlines_one">
+		<TEXTVALUE>A continuous streaking is then made from the fourth quadrant to obtain isolated colonies.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="18heatlast">
+	<TEXT ID="18heatlast_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="19looprtn">
+	<TEXT ID="19looprtn_one">
+		<TEXTVALUE>The inoculation loop is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="20petriclose">
+	<TEXT ID="20petriclose_one">
+		<TEXTVALUE>The lid of the plate is then closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="21incubator">
+	<TEXT ID="21incubator_one">
+		<TEXTVALUE>The inoculated nutrient agar plate is then taken into the incubator and incubated at 37 degree celcius for 24 hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="22heading">
+	<TEXT ID="22heading_one">
+		<TEXTVALUE>Study of the cultural characteristics of the organism.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="23incuout">
+	<TEXT ID="23incuout_one">
+		<TEXTVALUE>After incubation the inoculated plate is taken out from the incubator and then door of the incubator is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="24intable">
+	<TEXT ID="24intable_one">
+		<TEXTVALUE>The plate is then placed in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="25petritop">
+	<TEXT ID="25petritop_one">
+		<TEXTVALUE>The different colonies in the nutrient agar plate are then observed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="26petrizoom">
+	<TEXT ID="26petrizoom_one">
+		<TEXTVALUE>The cultural characteristics of   yellow colonies are observed and noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="27petritop">
+	<TEXT ID="27petritop_one">
+		<TEXTVALUE>The plate is then observed for the other type of colony.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="28whitecell">
+	<TEXT ID="28whitecell_one">
+		<TEXTVALUE>The cultural characteristics of white colonies are observed and noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="29loop">
+	<TEXT ID="29loop_one">
+		<TEXTVALUE>An inoculation loop is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="30loopheat">
+	<TEXT ID="30loopheat_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="31petri">
+	<TEXT ID="31petri_one">
+		<TEXTVALUE>The nutrient agar plate with mixed culture of organism is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="32colony">
+	<TEXT ID="32colony_one">
+		<TEXTVALUE>The lid of the nutrient agar plate is opened.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="32colony_two">
+		<TEXTVALUE>An isolated white colony is taken from the nutrient agar plate.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="33downpetri">
+	<TEXT ID="33downpetri_one">
+		<TEXTVALUE>The nutrient agar plate is then placed back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="34nutintagr">
+	<TEXT ID="34nutintagr_one">
+		<TEXTVALUE>A nutrient agar slant is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="35heatintestbe">
+	<TEXT ID="35heatintestbe_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="35heatintestbe_two">
+		<TEXTVALUE>The selected white colony in the inoculation loop is then streaked on to the nutrient agar slant.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="35heatintestbe_three">
+		<TEXTVALUE>The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="36nutintagr">
+	<TEXT ID="36nutintagr_one">
+		<TEXTVALUE>The nutrient agar slant tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="37takeloop">
+	<TEXT ID="37takeloop_one">
+		<TEXTVALUE>An inoculation loop is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="38heating">
+	<TEXT ID="38heating_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="39petri">
+	<TEXT ID="39petri_one">
+		<TEXTVALUE>The nutrient agar plate with mixed culture of organism is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="40cell">
+	<TEXT ID="40cell_one">
+		<TEXTVALUE>An isolated yellow colony is taken from the nutrient agar plate. The lid of the plate is then closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="41nutintagr">
+	<TEXT ID="41nutintagr_one">
+		<TEXTVALUE>Another nutrient agar slant tube is then from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="42heat">
+	<TEXT ID="42heat_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="42heat_two">
+		<TEXTVALUE>The selected yellow colony in the inoculation loop is then streaked on to the nutrient agar slant.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="42heat_three">
+		<TEXTVALUE>The mouth of the tube is again heat sterilized and cotton is replaced. The inoculation loop is the heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="44ttaakk">
+	<TEXT ID="44ttaakk_one">
+		<TEXTVALUE>The inoculation loop is placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="43incubator">
+	<TEXT ID="43incubator_one">
+		<TEXTVALUE>The door of the incubator is then opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="44twotest">
+	<TEXT ID="44twotest_one">
+		<TEXTVALUE>The inoculated nutrient agar slant tubes are then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="45twoincub">
+	<TEXT ID="45twoincub_one">
+		<TEXTVALUE>The inoculated nutrient agar slant tubes are then kept in the incubator.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="45twoincub_two">
+		<TEXTVALUE>The door of then incubator is closed. The tubes are then incubated at 37 degree celcius for 24 hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="46tt">
+	<TEXT ID="46tt_one">
+		<TEXTVALUE>After incubation, the door of the incubator is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="47outculture">
+	<TEXT ID="47outculture_one">
+		<TEXTVALUE>The two nutrient agar slant tubes are then taken from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="48table">
+	<TEXT ID="48table_one">
+		<TEXTVALUE>The tubes are then placed in the test tube rack in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="49heading">
+	<TEXT ID="49heading_one">
+		<TEXTVALUE>The morphological characteristics of the organism is then studied.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="50glassslideopn">
+	<TEXT ID="50glassslideopn_one">
+		<TEXTVALUE>A glass slide is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="51thudakku">
+	<TEXT ID="51thudakku_one">
+		<TEXTVALUE>The glass slide is then wiped with a piece of cotton dipped in ethanol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="52heatglass">
+	<TEXT ID="52heatglass_one">
+		<TEXTVALUE>Glass slide is then heat sterilized in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="53intable">
+	<TEXT ID="53intable_one">
+		<TEXTVALUE>The glass slide is then placed in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="54pentake">
+	<TEXT ID="54pentake_one">
+		<TEXTVALUE>A marker pen is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="55doline">
+	<TEXT ID="55doline_one">
+		<TEXTVALUE>The glass slide is then divided into two equal halves. In the middle of each halves a circle is drawn. One part is labeled as “1” and the other part as “2”. The slide is then inverted upside down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="56takeloopk">
+	<TEXT ID="56takeloopk_one">
+		<TEXTVALUE>An inoculation loop is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="57heatingloopu">
+	<TEXT ID="57heatingloopu_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="58conical">
+	<TEXT ID="58conical_one">
+		<TEXTVALUE>The conical flask containing sterile water is taken from the LAF. The mouth of the flask is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="58conical_two">
+		<TEXTVALUE>A loopful of sterile water is then taken with a cooled sterile loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59inster">
+	<TEXT ID="59inster_one">
+		<TEXTVALUE>The loopful of sterile water is placed on one half of the glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="60scndtake">
+	<TEXT ID="60scndtake_one">
+		<TEXTVALUE>The mouth of the flask with sterile water is then heat sterilized.A loopful of sterile water is then taken with a cooled sterile loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="61scndinwat">
+	<TEXT ID="61scndinwat_one">
+		<TEXTVALUE>The loopful of sterile water is placed on the second half of the glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="62ttre">
+	<TEXT ID="62ttre_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="63takeda">
+	<TEXT ID="63takeda_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="64heatcolony">
+	<TEXT ID="64heatcolony_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="64heatcolony_two">
+		<TEXTVALUE>An isolated white colony is then taken with the cooled sterile loop.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="65colinglass">
+	<TEXT ID="65colinglass_one">
+		<TEXTVALUE>The selected colony is then mixed with the sterile water in the glass slide as shown to obtain a uniform smear of the organism.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="66heayt">
+	<TEXT ID="66heayt_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="67test">
+	<TEXT ID="67test_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="68yellowcolo">
+	<TEXT ID="68yellowcolo_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="68yellowcolo_two">
+		<TEXTVALUE>An isolated yellow colony is then taken with the cooled sterile loop.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="69s2round">
+	<TEXT ID="69s2round_one">
+		<TEXTVALUE>A uniform smear of the organism is then made as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="69s2round_two">
+		<TEXTVALUE>The glass slide is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70heatglass">
+	<TEXT ID="70heatglass_one">
+		<TEXTVALUE>The glass slide is then passed over the flame of the Bunsen burner inorder to heat fix the smear.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="71stainingtray">
+	<TEXT ID="71stainingtray_one">
+		<TEXTVALUE>The glass slide is then placed on the staining tray.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="71stainingtray_two">
+		<TEXTVALUE>Crystal violet stain is then taken and the lid is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="72addvioletdrop">
+	<TEXT ID="72addvioletdrop_one">
+		<TEXTVALUE>2 to 3 drops of crystal violet are then added on to the bacterial smear. The glass slide is then kept undisturbed for 1 minute.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="73sidecharivu">
+	<TEXT ID="73sidecharivu_one">
+		<TEXTVALUE>The glass slide is then washed with water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="74bupaper">
+	<TEXT ID="74bupaper_one">
+		<TEXTVALUE>The glass slide is then blot dried to remove excess water in the slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="75microscope">
+	<TEXT ID="75microscope_one">
+		<TEXTVALUE>The glass slide is the placed on the microscopic stage and observed under 100 X objective.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="76result1">
+	<TEXT ID="76result1_one">
+		<TEXTVALUE>Result:  White colonies appeared as purple colored rods and yellow colonies appeared as purple clusters of cocci.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="77microscopeout">
+	<TEXT ID="77microscopeout_one">
+		<TEXTVALUE>The glass slide is then taken out from the microscopic stage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78micro">
+	<TEXT ID="78micro_one">
+		<TEXTVALUE>The gram stained smear of the organisms is then placed on the microscopic stage and observed under 100 X objective.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="79result2">
+	<TEXT ID="79result2_one">
+		<TEXTVALUE>Result: White colonies appeared as pink rods( gram negative rods) and yellow colonies appeared as purple clustered cocci ( gram positive cocci)</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="80heading">
+	<TEXT ID="80heading_one">
+		<TEXTVALUE>The biochemical characteristics of the organism are then studied.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="81loop">
+	<TEXT ID="81loop_one">
+		<TEXTVALUE>An inoculation loop is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="82heat">
+	<TEXT ID="82heat_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="83takewhitecol">
+	<TEXT ID="83takewhitecol_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="84heatwhtcol">
+	<TEXT ID="84heatwhtcol_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="84heatwhtcol_two">
+		<TEXTVALUE>An isolated white colony is then taken with the cooled sterile loop.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="85retuirntestbe">
+	<TEXT ID="85retuirntestbe_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="86indole">
+	<TEXT ID="86indole_one">
+		<TEXTVALUE>The test tube labeled as indole is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="87heatindole">
+	<TEXT ID="87heatindole_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="87heatindole_two">
+		<TEXTVALUE>The selected pure culture of white colony in the inoculation loop is then inoculated in the test tube labeled indole.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="87heatindole_three">
+		<TEXTVALUE>TThe mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="88retunrack">
+	<TEXT ID="88retunrack_one">
+		<TEXTVALUE>The inoculated indole tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="89heat2">
+	<TEXT ID="89heat2_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="90taker">
+	<TEXT ID="90taker_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="91heatwhtcol2">
+	<TEXT ID="91heatwhtcol2_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="91heatwhtcol2_two">
+		<TEXTVALUE>An isolated white colony is then taken with the cooled sterile loop.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="91rtn">
+	<TEXT ID="91rtn_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="92mrtake">
+	<TEXT ID="92mrtake_one">
+		<TEXTVALUE>The test tube labeled as MR is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="93mrheat">
+	<TEXT ID="93mrheat_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="93mrheat_two">
+		<TEXTVALUE>The selected pure  culture of white colony in the inoculation loop is then inoculated in the test tube labeled MR.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="94mrtn">
+	<TEXT ID="94mrtn_one">
+		<TEXTVALUE>The inoculated MR tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="95heat2">
+	<TEXT ID="95heat2_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="96vprtake">
+	<TEXT ID="96vprtake_one">
+		<TEXTVALUE>The test tube labeled as VP is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="97vpheat">
+	<TEXT ID="97vpheat_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="97vpheat_two">
+<TEXTVALUE>The selected pure culture of  white colony in the inoculation loop is then inoculated in the test tube labeled VP.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="98vprtn">
+	<TEXT ID="98vprtn_one">
+		<TEXTVALUE>The inoculated VP tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="99heat">
+	<TEXT ID="99heat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="100century">
+	<TEXT ID="100century_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="101heated">
+	<TEXT ID="101heated_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="101heated_two">
+		<TEXTVALUE>An isolated white colony is then taken with the cooled sterile loop.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="102rtnwcolo">
+	<TEXT ID="102rtnwcolo_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="103citrate">
+	<TEXT ID="103citrate_one">
+		<TEXTVALUE>The test tube labeled as Citrate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="104citraheat">
+	<TEXT ID="104citraheat_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="104citraheat_two">
+		<TEXTVALUE>The selected pure culture of white colony in the inoculation loop is then streaked in the Citrate slant.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="105citratertn">
+	<TEXT ID="105citratertn_one">
+		<TEXTVALUE>The inoculated Citrate tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="106loop">
+	<TEXT ID="106loop_one">
+		<TEXTVALUE>The inoculation loop is then kept back in the rack</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="107needletake">
+	<TEXT ID="107needletake_one">
+		<TEXTVALUE>An inoculation needle is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="108needleheat">
+	<TEXT ID="108needleheat_one">
+		<TEXTVALUE>The inoculation needle is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="109takecolony">
+	<TEXT ID="109takecolony_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="110heatedcolon">
+	<TEXT ID="110heatedcolon_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="110heatedcolon_two">
+		<TEXTVALUE>An isolated white colony is then taken with the cooled sterile inoculation needle.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="111rttnn">
+	<TEXT ID="111rttnn_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="112tsitake">
+	<TEXT ID="112tsitake_one">
+		<TEXTVALUE>The test tube labeled as TSI is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>									
+
+<SCENE ID="113tsittooo">
+	<TEXT ID="113tsittooo_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="113tsittooo_two">
+		<TEXTVALUE>The selected pure culture of white colony in the inoculation needle is stabbed on the butt of the medium and then streaked back and forth on the slant of the medium.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="114rtn">
+	<TEXT ID="114rtn_one">
+		<TEXTVALUE>The inoculated TSI tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="115nneeedle">
+	<TEXT ID="115nneeedle_one">
+		<TEXTVALUE>The inoculation needle is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="116nedlrtn">
+	<TEXT ID="116nedlrtn_one">
+		<TEXTVALUE>The inoculation needle  is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="117looptake">
+	<TEXT ID="117looptake_one">
+		<TEXTVALUE>An inoculation loop is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="118heat">
+	<TEXT ID="118heat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="119heatwhtcol">
+	<TEXT ID="119heatwhtcol_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken and the mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="119heatwhtcol_two">
+		<TEXTVALUE>An isolated white colony is then taken with the cooled sterile inoculation loop.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="120retuirntestbe">
+	<TEXT ID="120retuirntestbe_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="121taker">
+	<TEXT ID="121taker_one">
+		<TEXTVALUE>The test tube labeled as urease is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="122heatureas">
+	<TEXT ID="122heatureas_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="122heatureas_two">
+		<TEXTVALUE>The selected pure culture of white colony in the inoculation loop is then streaked on the urease slant.The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="123takerrtn">
+	<TEXT ID="123takerrtn_one">
+		<TEXTVALUE>The inoculated urease tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="124ooptakerttn">
+	<TEXT ID="124ooptakerttn_one">
+		<TEXTVALUE>The inoculation loop is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>	
+<SCENE ID="125nedlrtncopy">
+	<TEXT ID="125nedlrtncopy_one">
+		<TEXTVALUE>An inoculation needle is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="126nneeedlecopy">
+	<TEXT ID="126nneeedlecopy_one">
+		<TEXTVALUE>The inoculation needle is heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="127akewhitecol">
+	<TEXT ID="127akewhitecol_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="128heatwhtcolcopy">
+	<TEXT ID="128heatwhtcolcopy_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="128heatwhtcolcopy_two">
+		<TEXTVALUE>An isolated white colony is then taken with the cooled sterile inoculation needle.mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="129retuirntestbertn">
+	<TEXT ID="129retuirntestbertn_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="130upsim">
+	<TEXT ID="130upsim_one">
+		<TEXTVALUE>. The test tube labeled as SIM is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="131sim">
+	<TEXT ID="131sim_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="131sim_two">
+	<TEXTVALUE>The selected pure culture of white colony in the inoculation needle is stabbed on medium.mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="130upsimrtn">
+	<TEXT ID="130upsimrtn_one">
+		<TEXTVALUE>The inoculated SIM tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="131needltake">
+	<TEXT ID="131needltake_one">
+		<TEXTVALUE>An inoculation needle is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="132heaterneedle">
+	<TEXT ID="132heaterneedle_one">
+		<TEXTVALUE>The inoculation needle is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="133akewhitecot">
+	<TEXT ID="133akewhitecot_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="134ttrack">
+	<TEXT ID="134ttrack_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized. An isolated colony is then picked with the cooled sterile inoculation loop. The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="135freak">
+	<TEXT ID="135freak_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="136gelatintakenn">
+	<TEXT ID="136gelatintakenn_one">
+		<TEXTVALUE>The screw capped tube labeled Gelatin is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="137gelatinheat">
+	<TEXT ID="137gelatinheat_one">
+		<TEXTVALUE>The cap of the tube is removed and the mouth is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="137gelatinheat_two">
+		<TEXTVALUE>The selected pure culture of white colony in the inoculation needle is stabbed on medium.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="137gelatinheat_three">
+		<TEXTVALUE>The mouth of the tube is again heat sterilized and cap recaped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="138gelatinrtn">
+	<TEXT ID="138gelatinrtn_one">
+		<TEXTVALUE>The inoculated gelatin tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="139nedlrtn">
+	<TEXT ID="139nedlrtn_one">
+		<TEXTVALUE>The inoculation needle is then placed back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="140loopgive">
+	<TEXT ID="140loopgive_one">
+		<TEXTVALUE>The inoculation loop is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="141heaterr">
+	<TEXT ID="141heaterr_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="142wc">
+	<TEXT ID="142wc_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="143wrap">
+	<TEXT ID="143wrap_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="143wrap_two">
+		<TEXTVALUE>An isolated colony is then picked with the cooled sterile inoculation loop.The mouth of the tube is again heat sterilized and recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="144nitratetake">
+	<TEXT ID="144nitratetake_one">
+		<TEXTVALUE>The screw capped tube labeled nitrate broth is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="145nitrateheat">
+	<TEXT ID="145nitrateheat_one">
+		<TEXTVALUE>The cap of the tube is removed and the mouth is heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="145nitrateheat_two">
+<TEXTVALUE>The selected pure culture of white colony in the inoculation loop is then inoculated in nitrate broth.The mouth of the tube is again heat sterilized and recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="146nitratertn">
+	<TEXT ID="146nitratertn_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="147ooptakerttn">
+	<TEXT ID="147ooptakerttn_one">
+		<TEXTVALUE>The inoculation loop is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="148glasslide">
+	<TEXT ID="148glasslide_one">
+		<TEXTVALUE>A clean glass slide is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="149uptableg">
+	<TEXT ID="149uptableg_one">
+		<TEXTVALUE>The glass slide is then place in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="150dropper">
+	<TEXT ID="150dropper_one">
+		<TEXTVALUE>With a clean dropper few drops of Hydrogen peroxide is taken and the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="151dropit">
+	<TEXT ID="151dropit_one">
+		<TEXTVALUE>Few drops of hydrogen peroxide is then added on the sterile glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="152capilarytube">
+	<TEXT ID="152capilarytube_one">
+		<TEXTVALUE>A box containing capillary tubes is then opened.One of the capillary tubes is then taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="153spirit">
+	<TEXT ID="153spirit_one">
+		<TEXTVALUE>The capillary tube is then dipped in the beaker containing spirit.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="154takecolony">
+	<TEXT ID="154takecolony_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="155heat">
+	<TEXT ID="155heat_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="155heat_one">
+		<TEXTVALUE>An isolated white colony is then picked with the sterile capillary tube.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="156fixed">
+	<TEXT ID="156fixed_one">
+		<TEXTVALUE>The pure culture of colony is then placed in the hydrogen peroxide in the glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="157result">
+	<TEXT ID="157result_one">
+		<TEXTVALUE>The presence of bubbles are observed and noted.Presence of bubbles indicates the positive catalase test and absence of bubbles indicates the negative catalase test.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="158disctaken">
+	<TEXT ID="158disctaken_one">
+		<TEXTVALUE>The bottle containing Oxidase disc is opened.A sterile forceps is then inserted into the bottle and a sterile oxidase disc is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="159disconglasslide">
+	<TEXT ID="159disconglasslide_one">
+		<TEXTVALUE>The sterile oxidase disc is then placed on the sterile glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="1602nd">
+	<TEXT ID="1602nd_one">
+		<TEXTVALUE>Similarly another sterile oxidase disc is placed on the other side of the glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="161loop">
+	<TEXT ID="161loop_one">
+		<TEXTVALUE>An inoculation loop is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="162heat">
+	<TEXT ID="162heat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="163takecolon">
+	<TEXT ID="163takecolon_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="164heater">
+	<TEXT ID="164heater_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated white colony is then picked with the inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="165placecolon">
+	<TEXT ID="165placecolon_one">
+		<TEXTVALUE>The pure culture of white colony in the inoculation loop is then placed on one of the sterile oxidase disc in the glass slide. The uninoculated oxidase disc serves as the control.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="166result">
+	<TEXT ID="166result_one">
+		<TEXTVALUE>The appearance of blue color on the inoculated region of oxidase disc indicates a positive Oxidase test, while the absence of color change is indicates negative for Oxidase test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="167heat2">
+	<TEXT ID="167heat2_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="168takecolon2">
+	<TEXT ID="168takecolon2_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="169heaterfour">
+	<TEXT ID="169heaterfour_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated white colony is then picked with the inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="170petritake">
+	<TEXT ID="170petritake_one">
+		<TEXTVALUE>A starch agar plate is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="171scrible">
+	<TEXT ID="171scrible_one">
+		<TEXTVALUE>The lid of the plate is opened.A continous streak of the white colony is then made on the starch agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="172lastff">
+	<TEXT ID="172lastff_one">
+		<TEXTVALUE>The inoculated plates are then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="173last">
+	<TEXT ID="173last_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="174heater">
+	<TEXT ID="174heater_one">
+		<TEXTVALUE>inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="175colonyheat">
+	<TEXT ID="175colonyheat_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken and the mouth of the tube is then heat sterilized.An isolated white colony is then picked with the inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="176tripetri">
+	<TEXT ID="176tripetri_one">
+		<TEXTVALUE>The trybutyrene agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="177tributrin">
+	<TEXT ID="177tributrin_one">
+		<TEXTVALUE>The lid of the plate is opened and a continous streak of the white colony is then made on the starch agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="178rtn">
+	<TEXT ID="178rtn_one">
+		<TEXTVALUE>The trybutyrene agar plate is then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="179loopheat">
+	<TEXT ID="179loopheat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="180heading">
+	<TEXT ID="180heading_one">
+		<TEXTVALUE>Different carbohydrate fermentation capability of the microorganism are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="181takecolony">
+	<TEXT ID="181takecolony_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="182heat">
+	<TEXT ID="182heat_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated white colony is then picked with the inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="183takertn">
+	<TEXT ID="183takertn_one">
+		<TEXTVALUE>The nutrient agar slant is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="184lactose">
+	<TEXT ID="184lactose_one">
+		<TEXTVALUE>The phenol red Lactose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="184alacoste">
+	<TEXT ID="184alacoste_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.The selected pure culture of white colony in the inoculation loop is then inoculated into phenol red lactose broth.The mouth of the tube is then heat sterilized and cotton is replaced</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="185rtn">
+	<TEXT ID="185rtn_one">
+		<TEXTVALUE>The phenol red sucrose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="186heat2">
+	<TEXT ID="186heat2_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="187dextrose">
+	<TEXT ID="187dextrose_one">
+		<TEXTVALUE>Subsequently the selected pure culture of white colony in the inoculation loop is then inoculated into phenol red sucrose broth.The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="188rtn">
+	<TEXT ID="188rtn_one">
+		<TEXTVALUE>The phenol red sucrose broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="188aheat2copy">
+	<TEXT ID="188aheat2copy_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="187asucrosecopy">
+	<TEXT ID="187asucrosecopy_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="188rtncopy">
+	<TEXT ID="188rtncopy_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="189loopheat">
+	<TEXT ID="189loopheat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="190heading">
+	<TEXT ID="190heading_one">
+		<TEXTVALUE>Growth characteristics of the organism in selective and differential medium are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="191takecolony">
+	<TEXT ID="191takecolony_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="192heatcolony">
+	<TEXT ID="192heatcolony_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated colony is then picked with the cooled sterile inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="193Emb">
+	<TEXT ID="193Emb_one">
+		<TEXTVALUE>The Eosin Methylene blue agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="194scrible">
+	<TEXT ID="194scrible_one">
+		<TEXTVALUE>The lid of the plate is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="195kooli">
+	<TEXT ID="195kooli_one">
+		<TEXTVALUE>The pure culture of the white colony is streaked on the EMB agar surface as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="196open">
+	<TEXT ID="196open_one">
+		<TEXTVALUE>The quadrant streak of the white colony is made on the EMB agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="193AEmbrtn">
+	<TEXT ID="193AEmbrtn_one">
+		<TEXTVALUE>The EMB agar plate is then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="194Aloopheat">
+	<TEXT ID="194Aloopheat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="194Btakecolony">
+	<TEXT ID="194Btakecolony_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="195Aheatcolony2">
+	<TEXT ID="195Aheatcolony2_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated colony is then picked with the cooled sterile inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="196AMacconkey">
+	<TEXT ID="196AMacconkey_one">
+		<TEXTVALUE>The Mac conkey agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="197koolicopy">
+	<TEXT ID="197koolicopy_one">
+		<TEXTVALUE>The pure culture of the white colony is streaked on the  Mac Conkey agar surface as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="198close">
+	<TEXT ID="198close_one">
+		<TEXTVALUE>The quadrant streak of the white colony is made on the Mac Conkey agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="199Macconkeyrtn">
+	<TEXT ID="199Macconkeyrtn_one">
+		<TEXTVALUE>The Mac Conkey agar plate is then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="200hateloppp">
+	<TEXT ID="200hateloppp_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="201colontake">
+	<TEXT ID="201colontake_one">
+		<TEXTVALUE>The nutrient agar slant with white colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="202heat">
+	<TEXT ID="202heat_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated colony is then picked with the cooled sterile inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="202A">
+	<TEXT ID="202A_one">
+		<TEXTVALUE>The blood agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="203bloodagar">
+	<TEXT ID="203bloodagar_one">
+		<TEXTVALUE>The pure culture of the white colony is streaked on the  blood agar surface as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="204closeblood">
+	<TEXT ID="204closeblood_one">
+		<TEXTVALUE>The quadrant streak of the white colony is made on the blood agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="205rtn">
+	<TEXT ID="205rtn_one">
+		<TEXTVALUE>The blood agar plate is then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="206looprtn">
+	<TEXT ID="206looprtn_one">
+		<TEXTVALUE>The inoculation loop is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="207headingwithsc">                                                                             
+	<TEXT ID="207headingwithsc_one">
+		<TEXTVALUE>Biochemical characteristics of the yellow colony are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="208takeglasslide">
+	<TEXT ID="208takeglasslide_one">
+		<TEXTVALUE>A clean glass slide is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="209glassontable">
+	<TEXT ID="209glassontable_one">
+		<TEXTVALUE>The glass slide is then place in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="210h2o2">
+	<TEXT ID="210h2o2_one">                                   
+		<TEXTVALUE>With a clean dropper few drops of Hydrogen peroxide is taken and the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="211glassontable1">                               
+	<TEXT ID="211glassontable1_one">
+		<TEXTVALUE>Few drops of hydrogen peroxide are then added on the sterile glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="212capilarytube">
+	<TEXT ID="212capilarytube_one">
+		<TEXTVALUE>A box containing capillary tubes is then opened.One of the capillary tubes is then taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="213spirit">
+	<TEXT ID="213spirit_one">
+		<TEXTVALUE>The capillary tube is then dipped in the beaker containing spirit.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="214nutrient">
+	<TEXT ID="214nutrient_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="215nutriagar">
+	<TEXT ID="215nutriagar_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated white colony is then picked with the sterile capillary tube.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="216nutrientr4tn">
+	<TEXT ID="216nutrientr4tn_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="216amixing">
+	<TEXT ID="216amixing_one">
+		<TEXTVALUE>The pure culture of yellow colony is then placed in the hydrogen peroxide in the glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="217result">
+	<TEXT ID="217result_one">
+		<TEXTVALUE>The presence of bubbles,which is an indicative of positive test  observed and noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="218discard">
+	<TEXT ID="218discard_one">
+		<TEXTVALUE>The used capillary tube is then discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="219glass">
+	<TEXT ID="219glass_one">
+		<TEXTVALUE>A glass slide is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="220table">
+	<TEXT ID="220table_one">
+		<TEXTVALUE>The glass slide is then place in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="221water">
+	<TEXT ID="221water_one">
+		<TEXTVALUE>Few drops of sterile water are then taken on a clean dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="222dropbydrop">
+	<TEXT ID="222dropbydrop_one">
+		<TEXTVALUE>Sterile water is then added in the centre of the glass slide.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="223plasma">
+	<TEXT ID="223plasma_one">
+		<TEXTVALUE>Citrate plasma is then taken with a clean dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="224plasmacr">
+	<TEXT ID="224plasmacr_one">
+		<TEXTVALUE>Citrate plasma is then added in the same region where water is added.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="225looptake">
+	<TEXT ID="225looptake_one">
+		<TEXTVALUE>An inoculation loop is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="226loopheat">
+	<TEXT ID="226loopheat_one">
+		<TEXTVALUE>The inoculation loop is then  heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="227takeyellowcolon">
+	<TEXT ID="227takeyellowcolon_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="228heatyellowcolony">
+	<TEXT ID="228heatyellowcolony_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated colony is then picked with the cooled sterile inoculation loop.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="229mixinnoclation">
+	<TEXT ID="229mixinnoclation_one">
+		<TEXTVALUE>The yellow colony is then placed on the drops and emulsify to get a uniform suspension.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="230result">
+	<TEXT ID="230result_one">
+<TEXTVALUE>Presence of coagulation is observed and noted.Presence of coagulation indicates a positive coagulase test and the absence of coagulation indicates a negative coagulase test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="231yellow">
+	<TEXT ID="231yellow_one">
+<TEXTVALUE>The nutrient agar slant with yellow colony is then taken and the mouth of the tube is then heat sterilized.An isolated yellow colony is then picked with a sterile inoculation loop.The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="232joint">
+	<TEXT ID="232joint_one">
+		<TEXTVALUE>The pure culture of white colony in the inoculation loop is then placed on one of the sterile oxidase disc in the glass slide. The uninoculated oxidase disc serves as the control</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="233result">
+	<TEXT ID="233result_one">
+		<TEXTVALUE>The absence of blue color indicates oxidase negative test. The result is observed and noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="234oopheat">
+	<TEXT ID="234oopheat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="235heatedcol">
+	<TEXT ID="235heatedcol_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken and the mouth of the tube is then heat sterilized.An isolated yellow colony is then picked with a sterile inoculation loop.The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="236takereduction">
+	<TEXT ID="236takereduction_one">
+		<TEXTVALUE>The nitrate broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="237heatreduction">
+	<TEXT ID="237heatreduction_one">
+		<TEXTVALUE>The cap of the tube is removed and the mouth is heat sterilized.The pure culture of  yellow colony in the inoculation loop is then inoculated into the nitrate broth.The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="238rtnreduct">
+	<TEXT ID="238rtnreduct_one">
+		<TEXTVALUE>The nitrate broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="239takyellowcolon">
+	<TEXT ID="239takyellowcolon_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="240heatedcolcopy">
+	<TEXT ID="240heatedcolcopy_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated yellow colony is then picked with a sterile inoculation loop.The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="241starchtake">
+	<TEXT ID="241starchtake_one">
+		<TEXTVALUE>A starch agar plate is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="242scrath">
+	<TEXT ID="242scrath_one">
+		<TEXTVALUE>The lid of the plate is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="243scrach">
+	<TEXT ID="243scrach_one">
+		<TEXTVALUE>A continous streak of the white colony is then made on the starch agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="244rtn">
+	<TEXT ID="244rtn_one">
+		<TEXTVALUE>The inoculated plate is  then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="245oopheated">
+	<TEXT ID="245oopheated_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="246takeda">
+	<TEXT ID="246takeda_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="247heatedcolnne">
+	<TEXT ID="247heatedcolnne_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated yellow colony is then picked with a sterile inoculation loop.The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="248tribunagar">
+	<TEXT ID="248tribunagar_one">
+		<TEXTVALUE>The trybutyrene agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="249varakkal">
+	<TEXT ID="249varakkal_one">
+		<TEXTVALUE>The lid of the plate is opened and a continous streak of the yellow colony is then made on the trybutyrene agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="250tribunagarrtn">
+	<TEXT ID="250tribunagarrtn_one">
+		<TEXTVALUE>The trybutyrene agar plate is then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="251looppedheat">
+	<TEXT ID="251looppedheat_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="252loopfix">
+	<TEXT ID="252loopfix_one">
+		<TEXTVALUE>The inoculation loop is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="253head">
+	<TEXT ID="253head_one">
+		<TEXTVALUE>Different carbohydrate fermentation capability of the microorganism is then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="254detach">
+	<TEXT ID="254detach_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="255heatedcolnne">
+	<TEXT ID="255heatedcolnne_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated yellow colony is then picked with a sterile inoculation loop.The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="256aetach">
+	<TEXT ID="256aetach_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="257full">
+	<TEXT ID="257full_one">
+		<TEXTVALUE>The phenol red Lactose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="258half">
+	<TEXT ID="258half_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.The selected pure culture of yellow colony in the inoculation loop is then inoculated into phenol red lactose broth.The mouth of the tube is then heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="259rttnn">
+	<TEXT ID="259rttnn_one">
+		<TEXTVALUE>The phenol red lactose broth is then kept back in the rack.The phenol red dextrose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+	
+<SCENE ID="260dextrose">
+	<TEXT ID="260dextrose_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+   <TEXT ID="260dextrose_two">
+		<TEXTVALUE>The selected pure culture of yellow colony in the inoculation loop is then inoculated into phenol red dextrose broth.
+		</TEXTVALUE>
+	</TEXT>
+<TEXT ID="260dextrose_three">
+		<TEXTVALUE>The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="261dextrosrtn">
+	<TEXT ID="261dextrosrtn_one">
+		<TEXTVALUE>The phenol red dextrose broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="263sucroseteam">
+	<TEXT ID="263sucroseteam_one">
+		<TEXTVALUE>The phenol red sucrose broth is taken from the rack.The mouth of the tube is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="263sucroseteam_two">
+	<TEXTVALUE>The selected pure culture of yellow colony in the inoculation loop is then inoculated into phenol red sucrose broth.The mouth of the tube is again heat sterilized.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="264sucrosertn">
+	<TEXT ID="264sucrosertn_one">
+		<TEXTVALUE>The phenol red sucrose broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="265heading">
+	<TEXT ID="265headingn_one">
+		<TEXTVALUE>Growth characteristics of the organism in selective and differential medium are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="266heatlooop">
+	<TEXT ID="266heatlooop_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="267detachyellow">
+	<TEXT ID="267detachyellow_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="268heated">
+	<TEXT ID="268heated_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated yellow colony is then picked with a sterile inoculation loop.The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="269taking">
+	<TEXT ID="269taking_one">
+		<TEXTVALUE>The mannitol salt agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="270open">
+	<TEXT ID="270open_one">
+		<TEXTVALUE>The lid of the plate is then opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="271scribling">
+	<TEXT ID="271scribling_one">
+		<TEXTVALUE>A uniform inoculums of yellow colony  is made on the edge of the agar plate and streaking is done as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="271scribling_two">
+		<TEXTVALUE>After heat sterilizing the inoculation loop the streaking is done on the second quadrant of the MSA plate as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="271scribling_three">
+		<TEXTVALUE>Similarly the streaking is done on the third quadrant of the agar plate.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="271scribling_four">
+		<TEXTVALUE>. Finally the streaking is done on the fourth quadrant of the agar plate. Continous streaking is done from the inoculums on the fourth quadrant inorder to obtain  isolated colonies.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="272dropit">
+	<TEXT ID="272dropit_one">
+		<TEXTVALUE>The Mannitol salt agar plate is then kept back in the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="273heatlooop1">
+	<TEXT ID="273heatlooop1_one">
+		<TEXTVALUE>The inoculation loop is then heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="274faster">
+	<TEXT ID="274faster_one">
+		<TEXTVALUE>The nutrient agar slant with yellow colony is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="275agarheat">
+	<TEXT ID="275agarheat_one">
+		<TEXTVALUE>The mouth of the tube is then heat sterilized.An isolated yellow colony is then picked with a sterile inoculation loop.The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="276bloodtake">
+	<TEXT ID="276bloodtake_one">
+		<TEXTVALUE>The blood agar plate is then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="277Abloodsrible">
+	<TEXT ID="277Abloodsrible_one">
+		<TEXTVALUE>A uniform inoculums of yellow colony  is made on the edge of the agar plate and streaking is done as shown.Subsequent streaking is done on the four quadrants as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="278incubatorin">
+	<TEXT ID="278incubatorin_one">
+		<TEXTVALUE>The door of the incubator is opened.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="278incubatorin_two">
+		<TEXTVALUE>All the inoculated tubes and agar plates are then taken into the incubator. The door of the incubator is closed. The inoculated tubes and plates are then incubated at 37 degree celcius for 24 to 48 hours. After incubation the plates are taken out from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="279incubatorout">
+	<TEXT ID="279incubatorout_one">
+		<TEXTVALUE>All the inoculated tubes and plates are taken from the incubator. The door of the incubator is then closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="280showtesttubes">
+	<TEXT ID="280showtesttubes_one">
+		<TEXTVALUE>The tube labeled indole is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="281heatindole">
+	<TEXT ID="281heatindole_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized and 5 drops of  kovac’s reagent is added to the medium. The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="282indolertn">
+	<TEXT ID="282indolertn_one">
+		<TEXTVALUE>The tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="282indolertn_two">
+		<TEXTVALUE>The result is then noted. The formation of the red ring indicates a positive test.Absence of red ring: Negative result of Indole test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="283mptake">
+	<TEXT ID="283mptake_one">
+		<TEXTVALUE>The tube labeled MR is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="284mrdrop">
+	<TEXT ID="284mrdrop_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized and 5 drops of Methyl red reagent is added to the medium. The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="285MRresult">
+	<TEXT ID="285MRresult_one">
+		<TEXTVALUE>The tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="283Amptake">
+	<TEXT ID="283Amptake_one">
+		<TEXTVALUE>The result is then noted. The formation of red color indicates a positive test.Absence of red color: Negative result of MR test.The tube labeled VP is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="281Aheatindole">
+	<TEXT ID="281Aheatindole_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized and 15 drops of Barrit’s reagent A is added to the medium and then 5 drops of Barrit’s reagent B is added to the medium.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="282AVP">
+	<TEXT ID="282AVP_one">
+		<TEXTVALUE>The result is then noted. The absence of red color indicates a negative test.Presence of red color: Positive result of VP test</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="283Acitrate">
+	<TEXT ID="283Acitrate_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="284citruresult">
+	<TEXT ID="284citruresult_one">
+		<TEXTVALUE>The result of Citrate test is then noted. The absence of blue color indicates a negative test.Presence of blue color: Positive result of Citrate test</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="285Tsiresult">
+	<TEXT ID="285Tsiresult_one">
+		<TEXTVALUE>The result of the TSI is then noted. Acid slant (yellow) and acid butt (yellow) with gas production is observed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="286urease">
+	<TEXT ID="286urease_one">
+		<TEXTVALUE>The result of the urease is then noted. Absence of pink color is indicates a negative test.Presence of pink color: Positive result of urease test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="287ureasresult">
+	<TEXT ID="287ureasresult_one">
+		<TEXTVALUE>The result of SIM test is then noted. The turbid growth indicates a positive test.Absence of turbid growth: Negative test Turbid growth with hydrogen sulphide production also indicates a positive test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="288takegelatin">
+	<TEXT ID="288takegelatin_one">
+		<TEXTVALUE>The test tube labeled Gelatin is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="289gelatinincu">
+	<TEXT ID="289gelatinincu_one">
+		<TEXTVALUE>The door of the refrigerator is opened and the gelatin tube is then placed in the irefrigerator. It is then  kept for 30 minutes</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="290gelatinout">
+	<TEXT ID="290gelatinout_one">
+		<TEXTVALUE>After incubation the door of the refrigerator is opened and the gelatin tube is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="291rotategel">
+	<TEXT ID="291rotategel_one">
+		<TEXTVALUE>The gelatin tube is then kept in the slanting position and the result is noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="292result">
+	<TEXT ID="292result_one">
+<TEXTVALUE>The gelatin hydrolysis is indicated by the liquid nature of the gelatin(positive test) and the negative test is indicated by the solid nature of the gelatin.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="293nitratereduct">
+	<TEXT ID="293nitratereduct_one">
+		<TEXTVALUE>The nitrate broth is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="294nitrate">
+	<TEXT ID="294nitrate_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized and 5 drops of  alpha naphthol is added to the medium. The mouth of the tube is again heat sterilized and cap is replaced.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="295nitrrtn">
+	<TEXT ID="295nitrrtn_one">
+		<TEXTVALUE>The nitrate broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="296sulfanic">
+	<TEXT ID="296sulfanic_one">
+		<TEXTVALUE>The cap of the sulphanilic acid bottle is then opened.Using dropper few drops of sulphanilic acid is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="297nitratereduct">
+	<TEXT ID="297nitratereduct_one">
+		<TEXTVALUE>The nitrate broth is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="298nitrate">
+	<TEXT ID="298nitrate_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized and 5 drops of sulphanilic acid is added to the medium. The mouth of the tube is again heat sterilized and cap is replaced.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="299rtnn">
+	<TEXT ID="299rtnn_one">
+		<TEXTVALUE>The nitrate broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="300nitresult">
+	<TEXT ID="300nitresult_one">
+		<TEXTVALUE>Presence of red color indicates a positive test and absence of red color indicates a negative test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="301dobles">
+	<TEXT ID="301dobles_one">
+		<TEXTVALUE>Few drops of dobell’s iodine is taken with a clean dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="302starchdrop">
+	<TEXT ID="302starchdrop_one">
+		<TEXTVALUE>The lid of the starch agar plate is opened and the iodine solution is added on the starch agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="303Result">
+	<TEXT ID="303Result_one">
+		<TEXTVALUE>Absence of blue colour around the colonies indicates positive test and the changing of the color of the medium into blue is negative test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="304fun">
+	<TEXT ID="304fun_one">
+		<TEXTVALUE>The lid of the trybutyrene agar plate is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="305Resulttri">
+	<TEXT ID="305Resulttri_one">
+		<TEXTVALUE>The result is then noted.The opaque zones around the colonies indicates a positive test,absence of opaque zones around the colonies indicates a negative test.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="306lactose">
+	<TEXT ID="306lactose_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="307resultlc">
+	<TEXT ID="307resultlc_one">
+		<TEXTVALUE>the results of the carbohydrate fermentation test are then noted. Lactose and dextrose are fermented with the production of acid while sucrose is  fermented without the production of acid.The possible reactions that can happen during the carbohydrate fermentation are shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="308petriplates">
+	<TEXT ID="308petriplates_one">
+		<TEXTVALUE>The growth of the white colony on the Mac conkey agar, Eosin methylene blue agar and Blood agar plate are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="309dobles">
+	<TEXT ID="309dobles_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="310starchdropcopy">
+	<TEXT ID="310starchdropcopy_one">
+		<TEXTVALUE>The lid of the starch agar plate is opened and the iodine solution is added on the starch agar plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="311Resultsaar">
+	<TEXT ID="311Resultsaar_one">
+		<TEXTVALUE>The result of the starch agar plate is then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="312tribut">
+	<TEXT ID="312tribut_one">
+		<TEXTVALUE>The lid of the trybutyrene agar plate is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="313Resulttri">
+	<TEXT ID="313Resulttri_one">
+		<TEXTVALUE>The result is then noted.The formation of opaque zones indicates a positive lipid hydrolysis test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="314nitratereductonly">
+	<TEXT ID="314nitratereductonly_one">
+		<TEXTVALUE>The nitrate broth is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="315alphanaphthylane">
+	<TEXT ID="315alphanaphthylane_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized and 5 drops of alpha naphthol is added to the medium. The mouth of the tube is again heat sterilized and cap is replaced.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="316nitraterertn">
+	<TEXT ID="316nitraterertn_one">
+		<TEXTVALUE>The nitrate broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="317sulfanicopen">
+	<TEXT ID="317sulfanicopen_one">
+		<TEXTVALUE>The cap of the sulphanilic acid bottle is then opened.Using dropper few drops of sulphanilic acid is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="318takendai">
+	<TEXT ID="318takendai_one">
+		<TEXTVALUE>The nitrate broth is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="319nitratefire">
+	<TEXT ID="319nitratefire_one">
+		<TEXTVALUE>The mouth of the tube is heat sterilized and 5 drops of sulphanilic acid is added to the medium. The mouth of the tube is again heat sterilized and cap is replaced.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="320super">
+	<TEXT ID="320super_one">
+		<TEXTVALUE>The nitrate broth is then kept back in the rack. Absence of red color indicates a negative nitrate reduction test.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="321petriplates2">
+	<TEXT ID="321petriplates2_one">
+		<TEXTVALUE>The growth of the yellow colony on the Mannitol agar salt and Blood agar plate is then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="322allcrose">
+	<TEXT ID="322allcrose_one">
+		<TEXTVALUE>The result of carbohydrate fermentation test is then noted. Lactose, dextrose and sucrose are fermented without the production of acid.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="323Chart">
+	<TEXT ID="323Chart_one">
+		<TEXTVALUE>The observed result is then compared with the standard biochemical chart.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="324lastsc">
+	<TEXT ID="324lastsc_one">
+		<TEXTVALUE>The white colonies are confirmed as Escherichia coli and yellow colonies are confirmed as Staphylococcus aureus.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>

@@ -1,0 +1,762 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="1intro">
+	<TEXT ID="1intro_one">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment  to know the name / click the continue button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="2TAkNdlNRemovCap">
+	<TEXT ID="2TAkNdlNRemovCap_one">
+	 <TEXTVALUE>A 20ml syringe connected with a cannula is taken from the table and the cap of its needle is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="3WipeHand">
+	<TEXT ID="3WipeHand_one">
+	 <TEXTVALUE>The selected portion of the arm in which blood is taken is wiped with alcohol soaked cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4injction">
+	<TEXT ID="4injction_one">
+	 <TEXTVALUE>The needle of the cannula is inserted into the patient vein and 20 ml of the blood is taken into the syringe by pulling the plunger.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="4injction_two">
+	 <TEXTVALUE>After collecting the blood to the syringe, The needle of the cannula is removed from the arm </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="5wipebld">
+	<TEXT ID="5wipebld_one">
+	 <TEXTVALUE>The blood collected area is pressed using a cotton ball to stop the blood flow</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6keepitondtabl">
+	<TEXT ID="6keepitondtabl_one">
+	 <TEXTVALUE>The cannula with needle is removed from the syringe</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7discrdNeedle">
+	<TEXT ID="7discrdNeedle_one">
+	 <TEXTVALUE>The removed cannula with needle is carefully discarded into the Biohazard box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8TakeGrnTub">
+	<TEXT ID="8TakeGrnTub_one">
+	 <TEXTVALUE>A 5ml heparinized green top tube is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9opnTub"> 
+	<TEXT ID="9opnTub_one">
+	 <TEXTVALUE>The cap of the heparinized green top tube is opened and 5ml of the blood is added to it. The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10mixinvert">
+	<TEXT ID="10mixinvert_one">
+	 <TEXTVALUE>The blood is properly mixed by inverting the tube for 3-4 times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="11KpItBkToDTbl">
+	<TEXT ID="11KpItBkToDTbl_one">
+	 <TEXTVALUE>The tube is kept back to the rack</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12blood5ml">
+	<TEXT ID="12blood5ml_one">
+	 <TEXTVALUE>Similarly 5ml of the blood is transferred to the rest of the three tubes in the rack and  is mixed properly by inverting each tube for 3-4 times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13Taktub">
+	<TEXT ID="13Taktub_one">
+	 <TEXTVALUE>First green caped tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14opnTub">
+	<TEXT ID="14opnTub_one">
+	 <TEXTVALUE>The cap of the heparinised tube is opened </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15tak50mltub">
+	<TEXT ID="15tak50mltub_one">
+	 <TEXTVALUE>50ml of the screw cap tube is taken from the rack</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16Opn50mlTub">
+	<TEXT ID="16Opn50mlTub_one">
+	 <TEXTVALUE>The cap of the screw cap tube is opened and transfers the blood from the heparinised tube to the screw cap tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="17kpitbak">
+	<TEXT ID="17kpitbak_one">
+	 <TEXTVALUE>The empty heparinised tube is kept back into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18AdAlBldTo50mlTub">
+	<TEXT ID="18AdAlBldTo50mlTub_one">
+	 <TEXTVALUE>Similarly all the blood from the heparinised tube is transferred to the 50ml screw cap tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19kpitbak">
+	<TEXT ID="19kpitbak_one">
+	 <TEXTVALUE>The 50ml tube is kept back to the rack and taken out pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20tak25mlppt">
+	<TEXT ID="20tak25mlppt_one">
+	 <TEXTVALUE>25ml of glass pipette is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21cnctppt">
+	<TEXT ID="21cnctppt_one">
+	 <TEXTVALUE>25ml of glass pipette is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22OPNPBS">
+	<TEXT ID="22OPNPBS_one">
+	 <TEXTVALUE>The cap of the 1X PBS buffer is opened and pipette out 20 ml of PBS Buffer from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23takbldTub">
+	<TEXT ID="23takbldTub_one">
+	 <TEXTVALUE>50ml tube containing blood is taken out from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24Opn50mlTub">
+	<TEXT ID="24Opn50mlTub_one">
+	 <TEXTVALUE>The cap of the tube is opened and transfers 20ml of PBS Buffer to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25Keeeeepitbak">
+	<TEXT ID="25Keeeeepitbak_one">
+	 <TEXTVALUE>The tube is closed and is kept back to the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26takBotlFrmRefri">
+	<TEXT ID="26takBotlFrmRefri_one">
+	 <TEXTVALUE>4°C freezer is opened and taken out histopaque – 1077 medium from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27Keepitonthetable">
+	<TEXT ID="27Keepitonthetable_one">
+	 <TEXTVALUE>The histopaque – 1077 medium is placed on the work bunch.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28tak10mlppt">
+	<TEXT ID="28tak10mlppt_one">
+	 <TEXTVALUE>10ml of glass pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29cnctppt">
+	<TEXT ID="29cnctppt_one">
+	 <TEXTVALUE>And is connected with pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30opnit">
+	<TEXT ID="30opnit_one">
+	 <TEXTVALUE>The histopaque – 1077 medium is opened and pipette out 10ml from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="31tak50ml2ndTub">
+	<TEXT ID="31tak50ml2ndTub_one">
+	 <TEXTVALUE>50ml of a screw cap tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32Opn50mlTub">
+	<TEXT ID="32Opn50mlTub_one">
+	 <TEXTVALUE>10ml of histopaque – 1077 medium is transferred to the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33keepitbacktotherack">
+	<TEXT ID="33keepitbacktotherack_one">
+	 <TEXTVALUE>The tube is kept back to the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34takbottle">
+	<TEXT ID="34takbottle_one">
+	 <TEXTVALUE>The histopaque – 1077 medium is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="35replaceitintotheref">
+	<TEXT ID="35replaceitintotheref_one">
+	 <TEXTVALUE>4°C freezer is opened and kept back  histopaque – 1077 medium to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36tak25mlppt">
+	<TEXT ID="36tak25mlppt_one">
+	 <TEXTVALUE>25ml glass pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37cnctppt">
+	<TEXT ID="37cnctppt_one">
+	 <TEXTVALUE>And is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38TakeTub">
+	<TEXT ID="38TakeTub_one">
+	 <TEXTVALUE>Diluted blood containing tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39Opn50mlTub">
+	<TEXT ID="39Opn50mlTub_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40keepitbacktotherAK">
+	<TEXT ID="40keepitbacktotherAK_one">
+	 <TEXTVALUE>The tube is replaced into the rack and taken out the histopaque – 1077 medium containing tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41Opn50mlTub">
+	<TEXT ID="41Opn50mlTub_one">
+	 <TEXTVALUE>The tube is opened and 20ml of diluted blood  is transferred to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42centrifuge0pn">
+	<TEXT ID="42centrifuge0pn_one">
+	 <TEXTVALUE>Refrigerated centrifuge tube is opened and the tube is inserted on the slot of the centrifuge. Also placed another tube on the opposite slot for balancing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43keeptubincen">
+	<TEXT ID="43keeptubincen_one">
+	 <TEXTVALUE>Refrigerated centrifuge tube is opened and the tube is inserted on the slot of the centrifuge. Also placed another tube on the opposite slot for balancing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44closeCentrilid">
+	<TEXT ID="44closeCentrilid_one">
+	 <TEXTVALUE>The centrifuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45tim">
+	<TEXT ID="45tim_one">
+	 <TEXTVALUE>The tube is centrifuged at 1800rpm for 30 minutes at 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="46OpenCentrilid">
+	<TEXT ID="46OpenCentrilid_one">
+	 <TEXTVALUE>After 30 minutes, the centrifuge tube is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47takBldtUB">
+	<TEXT ID="47takBldtUB_one">
+	 <TEXTVALUE>The tube is taken from the centrifuge tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48close">
+	<TEXT ID="48close_one">
+	 <TEXTVALUE>The centrifuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="49keepitback">
+	<TEXT ID="49keepitback_one">
+	 <TEXTVALUE>The tube is placed on the rack. After centrifugation the solution has three layers.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50tak10mlppt">
+	<TEXT ID="50tak10mlppt_one">
+	 <TEXTVALUE>10ml glass pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51cnctppt">
+	<TEXT ID="51cnctppt_one">
+	 <TEXTVALUE>And is connected with a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52take3lyraliqdatub">
+	<TEXT ID="52take3lyraliqdatub_one">
+	 <TEXTVALUE>The tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="53Opn50mlTub">
+	<TEXT ID="53Opn50mlTub_one">
+	 <TEXTVALUE>The cap of the tube is opened and the supernatant layer is carefully taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54Keepitback">
+	<TEXT ID="54Keepitback_one">
+	 <TEXTVALUE>The tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="54discardYello">
+	<TEXT ID="54discardYello_one">
+	 <TEXTVALUE>The supernatant layer is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55Tak5000ppt">
+	<TEXT ID="55Tak5000ppt_one">
+	 <TEXTVALUE>5000 micro liter micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56Show5000">
+	<TEXT ID="56Show5000_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57takeTip">
+	<TEXT ID="57takeTip_one">
+	 <TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54ttak">
+	<TEXT ID="54ttak_one">
+	 <TEXTVALUE>The tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58TakTranprnt">
+	<TEXT ID="58TakTranprnt_one">
+	 <TEXTVALUE>The cap of the tube is opened and Buffy coat layer is carefully pipette from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="59Keepitback">
+	<TEXT ID="59Keepitback_one">
+	 <TEXTVALUE>The tube is replaced in the rack and a new 50ml centrifuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60adintub">
+	<TEXT ID="60adintub_one">
+	 <TEXTVALUE>Open the tube and Buffy coat layer is transferred in to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="61Keepitback">
+	<TEXT ID="61Keepitback_one">
+	 <TEXTVALUE>The tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62porwtrincyl">
+	<TEXT ID="62porwtrincyl_one">
+	 <TEXTVALUE>1X PBS Buffer containing bottle is opened and 40ml buffer is transferred into 50ml measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="63taktub">
+	<TEXT ID="63taktub_one">
+	 <TEXTVALUE>The tube containing buffy coat layer is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64OpntubnPOurCylWtr">
+	<TEXT ID="64OpntubnPOurCylWtro_one">
+	 <TEXTVALUE>The tube is opened and PBS Buffer in the measuring cylinder is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65inver">
+	<TEXT ID="65inver_one">
+	 <TEXTVALUE>The tube is closed and the solution in the tube is mixed well by inverting the tube for 3-4 times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66opnCentri">
+	<TEXT ID="66opnCentri_one">
+	 <TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67placeTub">
+	<TEXT ID="67placeTub_one">
+	 <TEXTVALUE>The tube is inserted on the slot of the centrifuge. Also placed another tube on the opposite slot for balancing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68Close">
+	<TEXT ID="68Close_one">
+	 <TEXTVALUE>The centrifuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69time">
+	<TEXT ID="69time_one">
+	 <TEXTVALUE>The tube is centrifuged at 1800rpm for 10 minutes at 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70Opn">
+	<TEXT ID="70Opno_one">
+	 <TEXTVALUE>After 10 minutes, the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71Tak">
+	<TEXT ID="71Tak_one">
+	 <TEXTVALUE>The tube is taken from the centrifuge tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="72KeepItBAckToTheRack">
+	<TEXT ID="72KeepItBAckToTheRack_one">
+	 <TEXTVALUE>The tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73tak25mlppt">
+	<TEXT ID="73tak25mlppt_one">
+	 <TEXTVALUE>25ml glass pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="74ConnectToPptPmb">
+	<TEXT ID="74ConnectToPptPmb_one">
+	 <TEXTVALUE>And is connected to a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75TakTub">
+	<TEXT ID="75TakTub_one">
+	 <TEXTVALUE>The centrifuged tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76TakUpto20">
+	<TEXT ID="76TakUpto20_one">
+	 <TEXTVALUE>The tube is opened and supernatant is carefully pipette out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77KeepItBAck">
+	<TEXT ID="77KeepItBAck_one">
+	 <TEXTVALUE>The tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78discard">
+	<TEXT ID="78discard_one">
+	 <TEXTVALUE>The supernatant layer is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79Removeo">
+	<TEXT ID="79Remove_one">
+	 <TEXTVALUE>The pipette is removed from the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80tak10mlppt">
+	<TEXT ID="80tak10mlppt_one">
+	 <TEXTVALUE>A 10ml glass pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81cnctppt">
+	<TEXT ID="81cnctppt_one">
+	 <TEXTVALUE>And is connected with the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82botl10mlppt">
+	<TEXT ID="82botl10mlppt_one">
+	 <TEXTVALUE>1X PBS buffer containing bottle is opened and 10ml of buffer is pipetted out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="83taktub">
+	<TEXT ID="83taktub_one">
+	 <TEXTVALUE>The centrifuged tube taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84AddSolToTub">
+	<TEXT ID="84AddSolToTub_one">
+	 <TEXTVALUE>The tube is opened and the PBS buffer is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="85invert">
+	<TEXT ID="85invert_one">
+	 <TEXTVALUE>The tube is closed and the solution in the tube is mixed by inverting the tube for 3-4 times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87opnCentri">
+	<TEXT ID="87opnCentrio_one">
+	 <TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88placeTub">
+	<TEXT ID="88placeTub_one">
+	 <TEXTVALUE>The tube is inserted on the slot of the centrifuge. Also placed another tube on the opposite slot for balancing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89Close">
+	<TEXT ID="89Close_one">
+	 <TEXTVALUE>The centrifuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91time">
+	<TEXT ID="91time_one">
+	 <TEXTVALUE>The tube is centrifuged at 1500rpm for 10 minutes at 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93pinnemOpn">
+	<TEXT ID="93pinnemOpn_one">
+	 <TEXTVALUE>After 10 minutes, the centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="94Tak">
+	<TEXT ID="94Tak_one">
+	 <TEXTVALUE>The tube is taken from the centrifuge tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95KeepItBAckToTheRack">
+	<TEXT ID="95KeepItBAckToTheRack_one">
+	 <TEXTVALUE>The tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96tak25mlppt">
+	<TEXT ID="96tak25mlppt_one">
+	 <TEXTVALUE>25ml glass pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97CONNECT">
+	<TEXT ID="97CONNECT_one">
+	 <TEXTVALUE>And is connected to a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98take">
+	<TEXT ID="98take_one">
+	 <TEXTVALUE>The centrifuged tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="99onpNAdd">
+	<TEXT ID="99onpNAdd_one">
+	 <TEXTVALUE>The tube is opened and supernatent is carefully pipette out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="100keepitback">
+	<TEXT ID="100keepitback_one">
+	 <TEXTVALUE>The tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101discard">
+	<TEXT ID="101discard_one">
+	 <TEXTVALUE>The supernatant is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="102takbtlfrmref">
+	<TEXT ID="102takbtlfrmref_one">
+	 <TEXTVALUE>4°C freezer is opened and taken out freezing medium from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="103keepitonthetable">
+	<TEXT ID="103keepitonthetable_one">
+	 <TEXTVALUE>The freezing medium is placed on the work bunch and 5000 micro liter micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="104Sho5000">
+	<TEXT ID="104Sho5000_one">
+	 <TEXTVALUE>The value of micropipette is 5000 micro liter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="105taktip">
+	<TEXT ID="105taktip_one">
+	 <TEXTVALUE>A new tip is inserted into the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="106takSol">
+	<TEXT ID="106takSol_one">
+	 <TEXTVALUE>The freezing medium is opened and pipette out 5000 micro liter  from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="107TAk">
+	<TEXT ID="107TAk_one">
+	 <TEXTVALUE>The centrifuged tube containing pellet is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108OpnNAddSol">
+	<TEXT ID="108OpnNAddSol_one">
+	 <TEXTVALUE>The tube is opened and 5000 micro liter of freezing medium is transferred to the tube. The pellet is resuspended into the medium by pipetting it for 3-4 times.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109keppitbaktotherak">
+	<TEXT ID="109keppitbaktotherak_one">
+	 <TEXTVALUE>The tube is kept back to the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="110refbak">
+	<TEXT ID="110refbak_one">
+	 <TEXTVALUE>4°C freezer is opened and kept back  freezing medium to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111discard">
+	<TEXT ID="111discard_one">
+	 <TEXTVALUE>The pipette tip is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112ppt1000adjst">
+	<TEXT ID="112ppt1000adjst_one">
+	 <TEXTVALUE>The micropipette value is adjusted to 1000 micro liter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113tak3rdtip">
+	<TEXT ID="113tak3rdtip_one">
+	 <TEXTVALUE>A new tip is inserted into the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="114TAkTub">
+	<TEXT ID="114TAkTub_one">
+	 <TEXTVALUE>The tube containing resuspended pellet is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115takSol">
+	<TEXT ID="115takSol_one">
+	 <TEXTVALUE>The tube is opened and 1000 micro liter of resuspended pellet is pipette from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="116bAktothetable">
+	<TEXT ID="116bAktothetable_one">
+	 <TEXTVALUE>The tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117takvial">
+	<TEXT ID="117takvial_one">
+	 <TEXTVALUE>A cryovial is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118addsol">
+	<TEXT ID="118addsol_one">
+	 <TEXTVALUE>The cryovial is opened and 1ml of resuspended pellet is transferred to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119back2drak">
+	<TEXT ID="119back2drak_one">
+	 <TEXTVALUE>The closed cryovial is kept back to the rack. Another cryovial is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120arow">
+	<TEXT ID="120arow_one">
+	 <TEXTVALUE>Similarly 1000 micro liter of resuspended pellet is transferred to the remaining cryovials.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121OpncryoBoxNKeeptubs">
+	<TEXT ID="121OpncryoBoxNKeeptubs_one">
+	 <TEXTVALUE>The cryobox is opened and all cryovials are placed in it. The cryobox is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="122ref">
+	<TEXT ID="122ref_one">
+	 <TEXTVALUE>A -80°C freezer is opened and the cryobox is placed in it. The cryobox is stored at -80°C for 24hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="123takfrmRef">
+	<TEXT ID="123takfrmRef_one">
+	 <TEXTVALUE>After 24 hours, The -80°C freezer is closed and the cryobox containing vials is taken from it. The freezer is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124liqdNitrogn">
+	<TEXT ID="124liqdNitrogn_one">
+	 <TEXTVALUE>The liquid nitrogen cryofreezer is opened; the cryobox is placed in it and is stored for long time.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+</DATA>

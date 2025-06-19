@@ -1,0 +1,195 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="intro">
+	<TEXT ID="intro_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="intro_two">
+		<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.
+</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="TakeTheLoop">
+	<TEXT ID="TakeTheLoop_one">
+		<TEXTVALUE>An inoculation loop is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="HeatTheLoop">
+	<TEXT ID="HeatTheLoop_one">
+		<TEXTVALUE>Then it is heated in the blue flame of the Bunsen burner till red hot.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="HeatTheLoop_two">
+		<TEXTVALUE>The loop is allowed to cool for a few seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+	
+<SCENE ID="TakeTheBroth">
+	<TEXT ID="TakeTheBroth_one">
+		<TEXTVALUE>The tryptic soy broth culture tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenBroth">
+	<TEXT ID="OpenBroth_one">
+		<TEXTVALUE>The tube is opened in presence of flame and the mouth is heated.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="LoopToBroth">
+	<TEXT ID="LoopToBroth_one">
+		<TEXTVALUE>A loopful of culture is taken from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ClothTheBroth">
+	<TEXT ID="ClothTheBroth_one">
+		<TEXTVALUE>The mouth of the tube is again heat sterilized and plugged with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="BrothToRack">
+	<TEXT ID="BrothToRack_one">
+		<TEXTVALUE>The tube is kept back on rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeTest">
+	<TEXT ID="TakeTest_one">
+		<TEXTVALUE>The litmus milk tube labeled as ‘TEST’ is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenTest">
+	<TEXT ID="OpenTest_one">
+		<TEXTVALUE>The tube is opened in presence of flame and the mouth is heated.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="LoopToTest">
+	<TEXT ID="LoopToTest_one">
+		<TEXTVALUE>The loopful of culture is inoculated into the TEST.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CloseTheTest">
+	<TEXT ID="CloseTheTest_one">
+		<TEXTVALUE>The mouth of the tube is again heat sterilized and plugged with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TestToRack">
+	<TEXT ID="TestToRack_one">
+		<TEXTVALUE>The tube is kept back on rack.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TestToRack_two">
+		<TEXTVALUE>Do not put anything in the other tube that serves as ‘CONTROL’.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="OpenIncubator">
+	<TEXT ID="OpenIncubator_one">
+		<TEXTVALUE>The TEST and CONTROL are taken into incubator.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OpenIncubator_two">
+		<TEXTVALUE>Both the tubes are incubated at 37˚C for 24-48 hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result1">
+	<TEXT ID="Result1_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result1_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="Result2">
+	<TEXT ID="Result2_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result2_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result3">
+	<TEXT ID="Result3_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result3_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="Result4">
+	<TEXT ID="Result4_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result4_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result5">
+	<TEXT ID="Result5_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result5_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result6">
+	<TEXT ID="Result6_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result6_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result7">
+	<TEXT ID="Result7_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result7_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result8">
+	<TEXT ID="Result8_one">
+		<TEXTVALUE>After incubation, the tubes are taken to Laminar air flow chamber and the results are observed and interpreted.</TEXTVALUE>
+	</TEXT>
+
+	<TEXT ID="Result1_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+</DATA>

@@ -1,0 +1,251 @@
+
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="TSIAgarTestIntro01">
+	<TEXT ID="TSIAgarTestIntro01_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestIntro01_two">
+		<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.
+</TEXTVALUE>
+	</TEXT>
+	
+	
+</SCENE>
+<SCENE ID="TSIAgarTestTakeTheTSBCulture">
+	<TEXT ID="TSIAgarTestTakeTheTSBCulture_one">
+		<TEXTVALUE>Take a Tryptic soy broth tube from the rack containing 24 hour culture.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TSIAgarTestTakeTheinoculatingloop">
+	<TEXT ID="TSIAgarTestTakeTheinoculatingloop_one">
+		<TEXTVALUE>Take an inoculation needle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestBurnTheLoop">
+	<TEXT ID="TSIAgarTestBurnTheLoop_one">
+		<TEXTVALUE>Heat it vertically in the blue flame of the Bunsen burner till red hot.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="TSIAgarTestBurnerCloseup">
+	<TEXT ID="TSIAgarTestBurnerCloseup_one">
+		<TEXTVALUE>Then cool it for few seconds.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="TSIAgarTestOppenTheTestube01">
+	<TEXT ID="TSIAgarTestOppenTheTestube01_one">
+		<TEXTVALUE>Remove the cotton with the small finger of your right hand </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestHeatingTheTestubeWithBurner">
+	<TEXT ID="TSIAgarTestHeatingTheTestubeWithBurner_one">
+		<TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="TSIAgarTestDippingTheLoop">
+	<TEXT ID="TSIAgarTestDippingTheLoop_one">
+		<TEXTVALUE>With the cooled sterile needle, take a loopful of organism from the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestDippingIntheTestube">
+	<TEXT ID="TSIAgarTestDippingIntheTestube_one">
+		<TEXTVALUE>With the cooled sterile needle, transfer a small amount of culture on the inoculating needle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TSIAgarTestFlameLipOftube">
+	<TEXT ID="TSIAgarTestFlameLipOftube_one">
+		<TEXTVALUE>Flame the mouth of the tube again, replace the cotton and keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TSIAgarTestTakingTSIAgarSlant">
+	<TEXT ID="TSIAgarTestTakingTSIAgarSlant_one">
+		<TEXTVALUE>Take a sterile Triple Sugar Iron (TSI) Agar Slant from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TSIAgarTestStartToRemoveCap">
+	<TEXT ID="TSIAgarTestStartToRemoveCap_one">
+		<TEXTVALUE>Remove the cap and flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TSIAgarTestRemoveCap">
+	<TEXT ID="TSIAgarTestRemoveCap_one">
+		<TEXTVALUE>Remove the cap and flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestHeatingTheTestubeWithBurnerSecondTime">
+	<TEXT ID="TSIAgarTestHeatingTheTestubeWithBurnerSecondTime_one">
+		<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="TSIAgarTestStartToStabInSlant">
+	<TEXT ID="TSIAgarTestStartToStabInSlant_one">
+		<TEXTVALUE>Stab the needle containing the pure culture into the medium in the butt of the TSI tube.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="TSIAgarTestStabInToTheButt">
+	<TEXT ID="TSIAgarTestStabInToTheButt_one">
+		<TEXTVALUE>Then streak back and forth along the surface of the slant .</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+
+<SCENE ID="TSIAgarTestRemovLoopAndReplaceCottencopy">
+	<TEXT ID="TSIAgarTestRemovLoopAndReplaceCottencopy_one">
+		<TEXTVALUE>Flame the mouth of the tube again, replace the cap and keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TSIAgarTestPlaceTheTSITubeInRack">
+	<TEXT ID="TSIAgarTestPlaceTheTSITubeInRack_one">
+		<TEXTVALUE>Flame the mouth of the tube again, replace the cap and keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TSIAgarTestBurnTheLoop copy">
+	<TEXT ID="TSIAgarTestBurnTheLoop copy_one">
+		<TEXTVALUE>Flame the inoculation needle again.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="TSIAgarTestBurnTheLoop2ndTime">
+	<TEXT ID="TSIAgarTestBurnTheLoop2ndTime_one">
+		<TEXTVALUE>Flame the needle again.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="TSIAgarTestplaceTheinoculatingloopInRack">
+	<TEXT ID="TSIAgarTestplaceTheinoculatingloopInRack_one">
+		<TEXTVALUE>Keep it on the rack.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="TSIAgarTestOpenIncubater">
+	<TEXT ID="TSIAgarTestOpenIncubater_one">
+		<TEXTVALUE>Open the incubator.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="TSIAgarTestTakeTSITube">
+	<TEXT ID="TSIAgarTestTakeTSITube_one">
+		<TEXTVALUE>Keep the inoculated tube and control for 24 hours at 37°C</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="TSIAgarTestPlaceTheTubeInIncubator">
+	<TEXT ID="TSIAgarTestPlaceTheTubeInIncubator_one">
+		<TEXTVALUE>Close and switch on the incubator.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestPlaceTheTubeInIncubator_two">
+		<TEXTVALUE>After 24 hours, take out the slants from the incubator and observe the results.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="TSIAgarTestResultAAH2s">
+	<TEXT ID="TSIAgarTestResultAAH2s_one">
+		<TEXTVALUE>Glucose and lactose and/or sucrose fermentation, Gas produced, (H[sub]2[/sub]S)  produced.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestResultAAH2s_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestResultAAH2S1">
+	<TEXT ID="TSIAgarTestResultAAH2S1_one">
+		<TEXTVALUE>Glucose fermentation only, peptone catabolized. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestResultAAH2S1_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+</SCENE>Choose the correct result 
+<SCENE ID="TSIAgarTestresultAAG1">
+	<TEXT ID="TSIAgarTestresultAAG1_one">
+		<TEXTVALUE>Glucose and lactose and/or sucrose fermentation, Gas produced. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestresultAAG1_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="TSIAgarTestresultAAG">
+	<TEXT ID="TSIAgarTestresultAAG_one">
+		<TEXTVALUE>Glucose and lactose and/or sucrose fermentation.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestresultAAG_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestresultKAH2S">
+	<TEXT ID="TSIAgarTestresultKAH2S_one">
+		<TEXTVALUE>Glucose fermentation only, (H[sub]2[/sub]S)  produced.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestresultKAH2S_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="TSIAgarTestresultKAGH2S">
+	<TEXT ID="TSIAgarTestresultKAGH2S_one">
+		<TEXTVALUE>Glucose fermentation only, Gas produced.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestresultKAGH2S_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="TSIAgarTestresultKA,H2S">
+	<TEXT ID="TSIAgarTestresultKA,H2S_one">
+		<TEXTVALUE>Glucose fermentation only, peptone catabolized </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestresultKA,H2S_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestresultKAG">
+	<TEXT ID="TSIAgarTestresultKAG_one">
+		<TEXTVALUE>Glucose fermentation only, Gas produced </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestresultKAG_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TSIAgarTestresultKK">
+	<TEXT ID="TSIAgarTestresultKK_one">
+		<TEXTVALUE>No fermentation, Peptone catabolized.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TSIAgarTestresultKK_two">
+		<TEXTVALUE>Choose the correct result. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+</DATA>

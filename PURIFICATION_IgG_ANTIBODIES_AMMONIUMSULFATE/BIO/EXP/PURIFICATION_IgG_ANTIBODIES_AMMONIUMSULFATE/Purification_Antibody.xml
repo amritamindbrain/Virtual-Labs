@@ -1,0 +1,578 @@
+﻿
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="Starting">
+	<TEXT ID="Starting_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Starting">
+	<TEXT ID="Starting_two">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingCotton">
+	<TEXT ID="TakingCotton_one">
+	 <TEXTVALUE>A  piece of glass wool is placed inside a funnel which is held in a funnel holder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingAscite">
+	<TEXT ID="TakingAscite_one">
+	 <TEXTVALUE>The centrifuge tube containing  ascite is taken from the ice tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenCapAscite">
+	<TEXT ID="OpenCapAscite_one">
+	 <TEXTVALUE>Open the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringAscite">
+	<TEXT ID="PouringAscite_one">
+	 <TEXTVALUE>The ascite is poured over the glass wool into the funnel, the liquid is being collected in the beaker placed under the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPippttepumb">
+	<TEXT ID="TakingPippttepumb_one">
+	 <TEXTVALUE>A pipette pump is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ConnectPippttepumb">
+	<TEXT ID="ConnectPippttepumb_one">
+	 <TEXTVALUE>And is connected to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBS">
+	<TEXT ID="TakingPBS_one">
+	 <TEXTVALUE>The bottle labeled as ‘PBS’ is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom">
+	<TEXT ID="TakingPBSzoom_one">
+	 <TEXTVALUE>4 ml of PBS solution  is pipetted out from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringPBSwithpipette">
+	<TEXT ID="PouringPBSwithpipette_one">
+	 <TEXTVALUE>The pipetted out solution is now poured into the glass wool inside the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingglassrode">
+	<TEXT ID="Takingglassrode_one">
+	 <TEXTVALUE>A glass rod is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SqeezthaGlasswool">
+	<TEXT ID="SqeezthaGlasswool_one">
+	 <TEXTVALUE>The glass wool is squeezed with the glass rod to obtain all the samples.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Taking15mlTube">
+	<TEXT ID="Taking15mlTube_one">
+	 <TEXTVALUE>15ml centrifuge tube is taken from the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Opentube">
+	<TEXT ID="Opentube_one">
+	 <TEXTVALUE>Open the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingBeakersol">
+	<TEXT ID="TakingBeakersol_one">
+	 <TEXTVALUE>Take the ascite collected in the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringSolTube">
+	<TEXT ID="PouringSolTube_one">
+	 <TEXTVALUE>Now transferred to the centrifuge tube and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenCentrifuge">
+	<TEXT ID="OpenCentrifuge_one">
+	 <TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubeinCentrifuge">
+	<TEXT ID="TubeinCentrifuge_one">
+	 <TEXTVALUE>The tube containing ascite is placed in the rotor.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TubeinCentrifuge_two">
+	 <TEXTVALUE>Equal volume of water is taken in another tube and is placed exactly opposite to the already placed tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Closecentrifuge">
+	<TEXT ID="Closecentrifuge_one">
+	 <TEXTVALUE>The lid of the centrifuge is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Centrifugetimesetting">
+	<TEXT ID="Centrifugetimesetting_one">
+	 <TEXTVALUE>Centrifuge at 13000 G for 30 minutes at 4˚C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenCentrifuge2">
+	<TEXT ID="OpenCentrifuge2_one">
+	 <TEXTVALUE>After 30minutes, open the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingTubeFrom">
+	<TEXT ID="TakingTubeFrom_one">
+	 <TEXTVALUE>The tube containing ascite is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PelletteinTube">
+	<TEXT ID="PelletteinTube_one">
+	 <TEXTVALUE>Open the cap of tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takepasteurpipette">
+	<TEXT ID="Takepasteurpipette_one">
+	 <TEXTVALUE>A Pasteur pipette is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="RemoveSupernatent">
+	<TEXT ID="RemoveSupernatent_one">
+	 <TEXTVALUE>The supernatant is pipetted out using the Pasteur pipette without disturbing the pellet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SupernatantinBeaker">
+	<TEXT ID="SupernatantinBeaker_one">
+	 <TEXTVALUE>The supernatant is transferred to a beaker and the Pasteur pipette is kept back.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingForeceps">
+	<TEXT ID="TakingForeceps_one">
+	 <TEXTVALUE>A stir bar is taken using forceps and is placed inside the beaker containing the supernatant.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPippttepumb2">
+	<TEXT ID="TakingPippttepumb2_one">
+	 <TEXTVALUE>A pipette pump is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ConnectPippttepumb2">
+	<TEXT ID="ConnectPippttepumb2_one">
+	 <TEXTVALUE>And is connected to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingAmmoniumSulphate">
+	<TEXT ID="TakingAmmoniumSulphate_one">
+	 <TEXTVALUE>The bottle labeled as ‘Saturated ammonium sulfate’ is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingAmmoniumZoom">
+	<TEXT ID="TakingAmmoniumZoom_one">
+	 <TEXTVALUE>4 ml of ammonium sulfate solution is pipetted out from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="AmmoniuminBeakerPellette">
+	<TEXT ID="AmmoniuminBeakerPellette_one">
+	 <TEXTVALUE>The pipetted out solution is now slowly poured into the beaker.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="AmmoniuminBeakerPellette_two">
+	 <TEXTVALUE>Take the beaker containing the supernatant and the ammonium sulfate solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ShowingVissicooler">
+	<TEXT ID="ShowingVissicooler_one">
+	 <TEXTVALUE>Placed on magnetic stirrer inside visi cooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="BeakerinCooler">
+	<TEXT ID="BeakerinCooler_one">
+ <TEXTVALUE>The beaker containing the supernatant and the ammonium sulfate solution is placed on magnetic stirrer, and on switch on the stirrer.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="BeakerinCooler_two">
+<TEXTVALUE>All the proteins are allowed to precipitate for for2 hours at 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Cooleropening">
+	<TEXT ID="Cooleropening_one">
+	 <TEXTVALUE>After 2 hours, the power supply is switched off and the beaker is taken out of the visi cooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="BeakerontableTakingstick">
+	<TEXT ID="BeakerontableTakingstick_one">
+	 <TEXTVALUE>The stir bar is removed from the solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Taking50mlTube">
+	<TEXT ID="Taking50mlTube_one">
+	 <TEXTVALUE>50ml centrifuge tube is taken from the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Opentube50ml">
+	<TEXT ID="Opentube50ml_one">
+	 <TEXTVALUE>Open the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingsolution">
+	<TEXT ID="Takingsolution_one">
+	 <TEXTVALUE>Take the liquid inside the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringSolTube50ml">
+	<TEXT ID="PouringSolTube50ml_one">
+	 <TEXTVALUE>The liquid inside the beaker is transferred to the centrifuge tube and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenCentrifuge50ml">
+	<TEXT ID="OpenCentrifuge50ml_one">
+	 <TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubeinCentrifuge2">
+	<TEXT ID="TubeinCentrifuge2_one">
+	 <TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubeinCentrifuge2">
+	<TEXT ID="TubeinCentrifuge2_one">
+	 <TEXTVALUE>The tube containing the liquid is placed in the rotor.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TubeinCentrifuge2_two">
+	 <TEXTVALUE>Equal volume of water is taken in another tube and is placed exactly opposite to the already placed tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Closecentrifuge2">
+	<TEXT ID="Closecentrifuge2_one">
+	 <TEXTVALUE>The lid of the centrifuge is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Centrifugetimesetting2">
+	<TEXT ID="Centrifugetimesetting2_one">
+	 <TEXTVALUE>Centrifuge at 13000 G for 1 hour at 4˚C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenCentrifuge3">
+	<TEXT ID="OpenCentrifuge3_one">
+	 <TEXTVALUE>After 1 hour, open the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingTubeFrom50ml">
+	<TEXT ID="TakingTubeFrom50ml_one">
+	 <TEXTVALUE>The tube containing the suspension is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Opentube50mlCaptwo">
+	<TEXT ID="Opentube50mlCaptwo_one">
+	 <TEXTVALUE>The tube is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Solutioninbeaker">
+	<TEXT ID="Solutioninbeaker_one">
+	 <TEXTVALUE>The supernatant is removed into a beaker while the pellet retains in the centrifuge tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ClosethetubeCap">
+	<TEXT ID="ClosethetubeCap_one">
+	 <TEXTVALUE>Close the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubebacktoIcetray1">
+	<TEXT ID="TubebacktoIcetray1_one">
+	 <TEXTVALUE>The tube with the pellet is kept in ice tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ConnectPippttepumb3">
+	<TEXT ID="ConnectPippttepumb3_one">
+	 <TEXTVALUE>A pipette is taken and is connected to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBS2">
+	<TEXT ID="TakingPBS2_one">
+	 <TEXTVALUE>The bottle labeled as ‘PBS’ is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom2">
+	<TEXT ID="TakingPBSzoom2_one">
+	 <TEXTVALUE>10 ml of PBS is pipetted out from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubeTaking">
+	<TEXT ID="TubeTaking_one">
+	 <TEXTVALUE>The centrifuge tube pellete is taken from the ice tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Opentube50ml2">
+	<TEXT ID="Opentube50ml2_one">
+	 <TEXTVALUE>The tube is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringPBSintube">
+	<TEXT ID="PouringPBSintube_one">
+	 <TEXTVALUE>The pipetted out solution is poured into the tube containing pellet, Resuspend the pellet in PBS.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubebacktoIcebox">
+	<TEXT ID="TubebacktoIcebox_one">
+	 <TEXTVALUE>The tube containg the suspension is kept in ice tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DIALYSIS">
+	<TEXT ID="DIALYSIS_one">
+	 <TEXTVALUE>Dialysis</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Waashingtube">
+	<TEXT ID="Waashingtube_one">
+	 <TEXTVALUE>A piece of dialysis tubing is taken from the ethanol storage solution using forceps.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Waashingtube_two">
+	 <TEXTVALUE>The tubing is rinsed with distilled water into a wash beaker.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="Takingcalmp">
+	<TEXT ID="Takingcalmp_one">
+	 <TEXTVALUE>Dialysis clamp is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Clampholdtube">
+	<TEXT ID="Clampholdtube_one">
+	 <TEXTVALUE>Tube is clamped at one end of the tubing, leaving approximately 1cm extending from the clamp.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Tubeontable">
+	<TEXT ID="Tubeontable_one">
+	 <TEXTVALUE>The tubing with the clamp at one end is kept on the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ConnectPippttepumb5">
+	<TEXT ID="ConnectPippttepumb5_one">
+	 <TEXTVALUE>A pipette is taken and is connected to a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingsolution2">
+	<TEXT ID="Takingsolution2_one">
+	 <TEXTVALUE>The tube containing the suspension is taken from the ice tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Opentube50mlCap">
+	<TEXT ID="Opentube50mlCap_one">
+	 <TEXTVALUE>The tube containing the suspension is taken from the ice tray.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Opentube50mlCap_two">
+	 <TEXTVALUE>5ml of the suspension is pipetted out from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Closethecap">
+	<TEXT ID="Closethecap_one">
+	 <TEXTVALUE>The tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Solutionbacktray">
+	<TEXT ID="Solutionbacktray_one">
+	 <TEXTVALUE>And kept back in ice tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeTubeontable">
+	<TEXT ID="TakeTubeontable_one">
+	 <TEXTVALUE>The tubing is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Solutionpourinintube">
+	<TEXT ID="Solutionpourinintube_one">
+	 <TEXTVALUE>Filled with the suspension taken in pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Tubeqeezing">
+	<TEXT ID="Tubeqeezing_one">
+	 <TEXTVALUE>The excess air is removed by squeezing the tubing gently with the fingers.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takinganothertube">
+	<TEXT ID="Takinganothertube_one">
+	 <TEXTVALUE>Take the another tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Clampholding">
+	<TEXT ID="Clampholding_one">
+	 <TEXTVALUE>The tube is then clamped at the top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubinPBSsol">
+	<TEXT ID="TubinPBSsol_one">
+	 <TEXTVALUE>The dialysis membrane is immersed in a beaker containing  PBS buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingtablet">
+	<TEXT ID="Takingtablet_one">
+	 <TEXTVALUE>A stir bar is taken using forceps and is placed inside the beaker.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Takingtablet_two">
+	 <TEXTVALUE>The beaker is taken to visi cooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Showingvissicooler2">
+	<TEXT ID="Showingvissicooler2_one">
+	 <TEXTVALUE>Placed on magnetic stirrer inside visi cooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Beakerincoller2">
+	<TEXT ID="BeakerinCooler2_one">
+ <TEXTVALUE>The beaker containing the suspension is placed on magnetic stirrer, and switch on the stirrer.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="BeakerinCooler2_two">
+<TEXTVALUE>All the proteins are allowed to precipitate for for 4 hours at 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Colleropenand2">
+	<TEXT ID="Colleropenand2_one">
+	 <TEXTVALUE>After 4 hours, the power supply is switched off and the beaker is taken out of the visi cooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Beakerontable2">
+	<TEXT ID="Beakerontable2_one">
+	 <TEXTVALUE>Keep the beaker on the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingtubefromPBS">
+	<TEXT ID="TakingtubefromPBS_one">
+	 <TEXTVALUE>The dialysis tubing is taken out of the buffer solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TubeOnthepaper">
+	<TEXT ID="TubeOnthepaper_one">
+	 <TEXTVALUE>The dialysis tubing is placed on an absorbent paper and is wiped with another one.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Opentheoneclip">
+	<TEXT ID="Opentheoneclip_one">
+	 <TEXTVALUE>The tubing is hold vertically and the upper clamp is released.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takikngsolpestur">
+	<TEXT ID="Takikngsolpestur_one">
+	 <TEXTVALUE>The suspension inside the tubing is pipetted out using a Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Taking15mltubetwo">
+	<TEXT ID="Taking15mltubetwo_one">
+	 <TEXTVALUE>Take the 15 ml centrifuge tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Open15mltube">
+	<TEXT ID="Open15mltube_one">
+	 <TEXTVALUE>Open the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pouringintubbe">
+	<TEXT ID="Pouringintubbe_one">
+	 <TEXTVALUE>Transferred the suspension in to a 15 ml centrifuge tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Openrefrigerator">
+	<TEXT ID="Openrefrigerator_one">
+	 <TEXTVALUE>Open the refrigerator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Keepingtuberefri">
+	<TEXT ID="Keepingtuberefri_one">
+	 <TEXTVALUE>The tube containing the suspension is kept inside a refrigerator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Closetherefrigerator">
+	<TEXT ID="Closetherefrigerator_one">
+	 <TEXTVALUE>Store the suspension in the tube for long period in the refrigerator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+</DATA>

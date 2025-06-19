@@ -1,0 +1,414 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="BPAIntro">
+	<TEXT ID="BPAIntro">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATooltip">
+	<TEXT ID="BPATooltip_one">
+		<TEXTVALUE>Click on each apparatus/reagents to know its name or click on “Continue” to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakepipetteandpump">
+	<TEXT ID="BPATakepipetteandpump_one">
+		<TEXTVALUE>Take a pipette pump and pipette from the pipette stand. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAConnectpump">
+	<TEXT ID="BPAConnectpump_one">
+		<TEXTVALUE>Fix the pipette to the pipette pump. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakephange">
+	<TEXT ID="BPATakephange_one">
+		<TEXTVALUE>Take the phage stock culture from the test tube rack. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAPhangezoom">
+	<TEXT ID="BPAPhangezoom_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPASubhead1">
+	<TEXT ID="BPASubhead1_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakephange1">
+	<TEXT ID="BPATakephange1_one">
+		<TEXTVALUE>Remove the cap of tube containing phage stock culture. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth">
+	<TEXT ID="BPAFlamethemouth_one">
+		<TEXTVALUE>Heat the mouth of the tube in the blue flame of the Bunsen burner. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAInsertpipettentakepange">
+	<TEXT ID="BPAInsertpipettentakepange_one">
+		<TEXTVALUE>Take 1ml culture from the tube using the sterile pipette connected to pipette pump. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth1">
+	<TEXT ID="BPAFlamethemouth1_one">
+		<TEXTVALUE>Flame the mouth of the tube again.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAClosecapPange">
+	<TEXT ID="BPAClosecapPange_one">
+		<TEXTVALUE>Recap the tube. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackphange">
+	<TEXT ID="BPABackphange_one">
+		<TEXTVALUE>Keep it back on the rack. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakefirstbroth">
+	<TEXT ID="BPATakefirstbroth_one">
+		<TEXTVALUE>Now, take the tryptone broth tube marked as 10[sup]-1[/sup]. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAOpencapbroth">
+	<TEXT ID="BPAOpencapbroth_one">
+		<TEXTVALUE>Remove the cap of the tube. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth2">
+	<TEXT ID="BPAFlamethemouth2_one">
+		<TEXTVALUE>Flame the mouth of the tube. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAInsertpipettenaddbroth">
+	<TEXT ID="BPAInsertpipettenaddbroth_one">
+		<TEXTVALUE>Transfer 1ml of the culture from the pipette to the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth3">
+	<TEXT ID="BPAFlamethemouth3_one">
+		<TEXTVALUE>Flame the mouth of the tube again.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAClosecapbroth">
+	<TEXT ID="BPAClosecapbroth_one">
+		<TEXTVALUE>Recap the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackbroth">
+	<TEXT ID="BPABackbroth_one">
+		<TEXTVALUE>Mix the tube properly and keep it back on the rack.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPADiconnectpippette">
+	<TEXT ID="BPADiconnectpippette_one">
+		<TEXTVALUE>Remove the used pipette.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="BPATakepipette">
+	<TEXT ID="BPATakepipette_one">
+		<TEXTVALUE>Fix a new sterile pipette to the pipette pump.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakebrothagain">
+	<TEXT ID="BPATakebrothagain_one">
+		<TEXTVALUE>Now, take the tryptone broth tube marked as 10[sup]-1[/sup].  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAOpencapbrotha">
+	<TEXT ID="BPAOpencapbrotha_one">
+		<TEXTVALUE>Remove the cap of the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth4">
+	<TEXT ID="BPAFlamethemouth4_one">
+		<TEXTVALUE>Flame the mouth of the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAInsertpipettenaddbrotha">
+	<TEXT ID="BPAInsertpipettenaddbrotha_one">
+		<TEXTVALUE>Take 1ml culture from the tube using the pipette.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth5">
+	<TEXT ID="BPAFlamethemouth5_one">
+		<TEXTVALUE>Flame the mouth of the tube again.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAClosecapbrotha">
+	<TEXT ID="BPAClosecapbrotha_one">
+		<TEXTVALUE>Recap the tube and keep it back on the rack.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackbrothandtakenew">
+	<TEXT ID="BPABackbrothandtakenew_one">
+		<TEXTVALUE>Now, take the tryptone broth tube marked as 10[sup]-2[/sup].  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAOpencapbrothb">
+	<TEXT ID="BPAOpencapbrothb_one">
+		<TEXTVALUE>Remove the cap of the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth6">
+	<TEXT ID="BPAFlamethemouth6_one">
+		<TEXTVALUE>Flame the mouth of the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAInsertpipettenaddbrothb">
+	<TEXT ID="BPAInsertpipettenaddbrothb_one">
+		<TEXTVALUE>Transfer 1ml of the culture from the pipette to the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAFlamethemouth7">
+	<TEXT ID="BPAFlamethemouth7_one">
+		<TEXTVALUE>Flame the mouth of the tube again.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAClosecapbrothb">
+	<TEXT ID="BPAClosecapbrothb_one">
+		<TEXTVALUE>Recap the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackbrothandtakenew2">
+	<TEXT ID="BPABackbrothandtakenew2_one">
+		<TEXTVALUE>Mix the tube properly and keep it back on the rack.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAGraph1">
+	<TEXT ID="BPAGraph1_one">
+		<TEXTVALUE>The same procedure is repeated for the rest of the broth tubes labeled as 10[sup]-3[/sup] through 10[sup]-10[/sup]. Each time use a new pipette.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakefinalbroth">
+	<TEXT ID="BPATakefinalbroth_one">
+		<TEXTVALUE>Now, take the broth tube marked as 10[sup]-10[/sup].  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAOpencapbrothLast">
+	<TEXT ID="BPAOpencapbrothLast_one">
+		<TEXTVALUE>Remove the cap of the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABurnmouthLast">
+	<TEXT ID="BPABurnmouthLast_one">
+		<TEXTVALUE>Flame the mouth of the tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAInsertpipetteandtakebrothlast">
+	<TEXT ID="BPAInsertpipetteandtakebrothlast_one">
+		<TEXTVALUE>Take 1ml culture from the tube using a pipette.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABurnmouth2last">
+	<TEXT ID="BPABurnmouth2last_one">
+		<TEXTVALUE>Flame the mouth of the tube again.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAClosemouthlast">
+	<TEXT ID="BPAClosemouthlast_one">
+		<TEXTVALUE>Recap the tube and keep it back on the rack.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPADisposebroth">
+	<TEXT ID="BPADisposebroth_one">
+		<TEXTVALUE>Discard  the 1ml broth to a beaker.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+ <SCENE ID="BPASubhead2">
+	<TEXT ID="BPASubhead2_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAOpenwaterbath">
+	<TEXT ID="BPAOpenwaterbath_one">
+		<TEXTVALUE>Open the lid of the water bath set at 100°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakeSoftAgar">
+	<TEXT ID="BPATakeSoftAgar_one">
+		<TEXTVALUE>Place the five tryptone soft agar tubes(marked as 10[sup]-5[/sup] through 10[sup]-9[/sup])  into the water bath and close the lid. Water should be at a level just above the agar in the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAGraph2">
+	<TEXT ID="BPAGraph2_one">
+		<TEXTVALUE>Allow the agar in the tubes to melt for 5 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAAdjusttemp">
+	<TEXT ID="BPAAdjusttemp_one">
+		<TEXTVALUE>Maintain the temperature of the water bath at 45˚C till the completion of the experiments.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATake1stSoftagar">
+	<TEXT ID="BPATake1stSoftagar_one">
+		<TEXTVALUE>Now take out the soft agar tube labeled as 10[sup]-5[/sup] from the water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAAgarontubestand">
+	<TEXT ID="BPAAgarontubestand_one">
+		<TEXTVALUE>Keep it inside LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakepasterpipette">
+	<TEXT ID="BPATakepasterpipette_one">
+		<TEXTVALUE>Take a sterile Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakeEcoli">
+	<TEXT ID="BPATakeEcoli_one">
+		<TEXTVALUE>Take the E.coli culture tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAOpenEcoli">
+	<TEXT ID="BPAOpenEcoli_one">
+		<TEXTVALUE>Remove the cotton plug of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABurnmouth">
+	<TEXT ID="BPABurnmouth_one">
+		<TEXTVALUE>Heat the mouth of the tube in the flame.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakeecoliinpasterpipette">
+	<TEXT ID="BPATakeecoliinpasterpipette_one">
+		<TEXTVALUE>Take a small amount of culture from the tube using the Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPACloseecoli">
+	<TEXT ID="BPACloseecoli_one">
+		<TEXTVALUE>Flame the mouth of the tube again, recap it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackEcoli">
+	<TEXT ID="BPABackEcoli_one">
+		<TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakeagarose1">
+	<TEXT ID="BPATakeagarose1_one">
+		<TEXTVALUE>Take the soft agar tube labeled as 10[sup]-5[/sup]  .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAAddecolitoagar">
+	<TEXT ID="BPAAddecolitoagar_one">
+		<TEXTVALUE>Add 2-3 drops of the E.coli culture to the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackagarose">
+	<TEXT ID="BPABackagarose_one">
+		<TEXTVALUE>Keep the tube back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAAdjustpipette">
+	<TEXT ID="BPAAdjustpipette_one">
+		<TEXTVALUE>Take a micropipette and adjust to 100 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAOpenboxandconnectip">
+	<TEXT ID="BPAOpenboxandconnectip_one">
+		<TEXTVALUE>Open the tip box and fix a new fresh tip to the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakebroth">
+	<TEXT ID="BPATakebroth_one">
+		<TEXTVALUE>Now take the tryptone broth tube labeled as 10[sup]-5[/sup].</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakebrothtopipette">
+	<TEXT ID="BPATakebrothtopipette_one">
+		<TEXTVALUE>Remove the cap of the tube  and using the micropipette take 100 microlitre of serially diluted phage stock.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackbroth">
+	<TEXT ID="BPABackbroth">
+		<TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakeagarose2">
+	<TEXT ID="BPATakeagarose2_one">
+		<TEXTVALUE>Take the soft agar tube marked as  10[sup]-5[/sup] containing a few drops of E.coli culture.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAAddbrothtoagarose">
+	<TEXT ID="BPAAddbrothtoagarose_one">
+		<TEXTVALUE>Remove the cap and then transfer the 100 microlitre serially diluted phage stock taken from the 10[sup]-5[/sup] tryptone broth.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATwistagar">
+	<TEXT ID="BPATwistagar_one">
+		<TEXTVALUE>Mix the tube properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATakepetriplate">
+	<TEXT ID="BPATakepetriplate_one">
+		<TEXTVALUE>Take the Petri plate marked as  10[sup]-5[/sup].</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAopenpetriplate">
+	<TEXT ID="BPAopenpetriplate_one">
+		<TEXTVALUE>Open the Petri plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAopencap">
+	<TEXT ID="BPAopencap_one">
+		<TEXTVALUE>Now open the tube containing the mixture of soft agar, E.coli culture and serially diluted phage stock culture.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPApourmixture">
+	<TEXT ID="BPApourmixture_one">
+		<TEXTVALUE>Pour the contents of the tube into the Petri plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAClosecap">
+	<TEXT ID="BPAClosecap_one">
+		<TEXTVALUE>Recap the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAClosepetri">
+	<TEXT ID="BPAClosepetri_one">
+		<TEXTVALUE>Close the plate and gently shake it to spread agar over.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPATake2ndSoftagar">
+	<TEXT ID="BPATake2ndSoftagar_one">
+		<TEXTVALUE>The same procedure is repeated for all the other soft agar tubes kept in water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAGraphs3">
+	<TEXT ID="BPAGraphs3_one">
+		<TEXTVALUE>The same procedure is repeated for all the other soft agar tubes kept in water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackpetri2">
+	<TEXT ID="BPABackpetri2_one">
+		<TEXTVALUE>Incubate all the Petri plate cultures.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAIncubatetime">
+	<TEXT ID="BPAIncubatetime_one">
+		<TEXTVALUE>Set the time for 24 hours at 37 ˚C in an incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPAIncubate2">
+	<TEXT ID="BPAIncubate2_one">
+		<TEXTVALUE>After 24 hours, take out the plates from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BPABackpetri">
+	<TEXT ID="BPABackpetri_one">
+		<TEXTVALUE>Keep the plates inside LAF and observe the results.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+</DATA>

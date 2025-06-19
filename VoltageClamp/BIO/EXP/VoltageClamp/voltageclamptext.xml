@@ -1,0 +1,133 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="Heading">
+	<TEXT ID="Heading_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Setup">
+	<TEXT ID="Setup_one">
+		<TEXTVALUE> Zoom over the various components to study the setup and then click the continue button</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Zoomintotray">
+	<TEXT ID="Zoomintotray_one">
+		<TEXTVALUE>Click "Zoom in to tray", for closer look</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Placetheslice">
+	<TEXT ID="Placetheslice_one">
+		<TEXTVALUE>Click "place the brain slice"</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Zoomintoslice">
+	<TEXT ID="Zoomintoslice_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Fadeintodetail">
+	<TEXT ID="Fadeintodetail_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Zoomintoclamp">
+	<TEXT ID="Zoomintoclamp_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Suction">
+	<TEXT ID="Suction_one">
+		<TEXTVALUE>Apply suction by clicking on the appropriate icon. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Diagram1">
+	<TEXT ID="Diagram1_one">
+		<TEXTVALUE>The cell and the voltage clamp electrode can be represented as follows. One of the electrodes is the stimulating electrode while the other is the measuring electrode. The clamp current measured is amplified using a voltage-clamp amplifier.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Diagram2">
+	<TEXT ID="Diagram2_one">
+		<TEXTVALUE>Using an electronic circuit schematics, the cell membrane on the right is represented by a resistance-capacitance circuit. The voltage in voltage clamp is held constant at a particular level thereby allowing the study of currents that flow in the cell.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Diagram3">
+	<TEXT ID="Diagram3_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Minimisediagram">
+	<TEXT ID="Minimisediagram_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="Minimisediagram_two">
+		<TEXTVALUE>By clicking on set command, one can set the command voltage level as in a typical voltage clamp experiment. The basic command voltage here is set to -65 mV.  Resting level is the voltage level when Vm and Vc are in the same level. Since no change of voltage, no currents are injected into axon.  Click on set test level to continue.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Graph1">
+	<TEXT ID="Graph1_one">
+		<TEXTVALUE>At the test level, the membrane potential is pushed to 0mV by injecting current through the voltage clamp electrode. Switching on and off of different ion channels can be noted. One can observe the initial fast inward current, a slower transient current and a late delayed outward current is seen.  </TEXTVALUE>
+	</TEXT>
+<TEXT ID="Graph1_two">
+		<TEXTVALUE>Capacitive current is due to change in levels. However a fast change or sudden step of voltage will instantly charge the membrane and eliminate the capacitive current. The transient inward and delayed outward currents are due to sodium and potassium conductances.</TEXTVALUE>
+	</TEXT>
+
+</SCENE>
+
+
+<SCENE ID="Graph2">
+	<TEXT ID="Graph2_one">
+		<TEXTVALUE>Early currents in the inward and outward currents are due to sodium channels and the other current is by potassium ions. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Graph3">
+	<TEXT ID="Graph3_one">
+		<TEXTVALUE>Tetrodotoxin(TTX) is a pharmacological agent that blocks sodium. To understand the effects of sodium current, blocking Na+ can be done with TTX. TTX is extracted from puffer fish or from skin of certain frogs. Click on the button to see the effect of TTX during a voltage clamp.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Graph4">
+	<TEXT ID="Graph4_one">
+		<TEXTVALUE>Tetraethylammonium (TEA) is a pharmacological agent that blocks potassium ions. To understand the effects of potassium current, blocking K+ can be done with TEA. Click on the button to see the effect of TTX during a voltage clamp. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Graph5">
+	<TEXT ID="Graph5_one">
+		<TEXTVALUE>By eliminating sodium, the inward current is totally removed. This is like in the presence of TTX but an outward current component is observed. This remaining sodium is from the other parts of the neuron such as the axon and the axonal initial segment, also known as hillock.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+</DATA>

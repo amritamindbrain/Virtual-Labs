@@ -1,0 +1,445 @@
+﻿
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+<SCENE ID="intro">
+<TEXT ID="intro_one">
+ <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+</TEXT>
+</SCENE>
+	
+<SCENE ID="TakeCotton">
+<TEXT ID="TakeCotton_one">
+	 <TEXTVALUE>A small piece of cotton is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeTheBottle">
+<TEXT ID="TakeTheBottle_one">
+	 <TEXTVALUE>The wash bottle containing spirit is taken and a small volume of spirit is squeezed onto the cotton to make it wet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeGlassSlide">
+<TEXT ID="TakeGlassSlide_one">
+	 <TEXTVALUE>A clean glass slide is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="WipeWithTheCotton">
+<TEXT ID="WipeWithTheCotton_one">
+	 <TEXTVALUE> wiped with the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="TakeGlassSlideCopy">
+<TEXT ID="TakeGlassSlideCopy_one">
+	 <TEXTVALUE> The slide is placed on a paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="preparationofpgarose">
+<TEXT ID="preparationofpgarose_one">
+	 <TEXTVALUE>Preparation of Agarose.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="thepowersupplyisswitchedon">
+<TEXT ID="thepowersupplyisswitchedon_one">
+	 <TEXTVALUE> The power supply is switched on.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PaperOnTheWeighing">
+<TEXT ID="PaperOnTheWeighing_one">
+	 <TEXTVALUE>A weighing paper is placed on the weighing balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ReadingTo0000g">
+<TEXT ID="ReadingTo0000g_one">
+	 <TEXTVALUE>Tare the weighing balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenTheAgaroseBottle">
+<TEXT ID="OpenTheAgaroseBottle_one">
+	 <TEXTVALUE> The bottle containing agarose is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="UsingSpatula">
+<TEXT ID="UsingSpatula_one">
+	 <TEXTVALUE>0.300g of agarose is weighed out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TransferItTtoConicalFlask">
+<TEXT ID="TransferItTtoConicalFlask_one">
+	 <TEXTVALUE>The weighed agarose is then transferred to a conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="assay">
+<TEXT ID="assay_one">
+	 <TEXTVALUE>The bottle labeled as 1X assay buffer is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="1XAssayBuffer">
+<TEXT ID="1XAssayBuffer_one">
+	 <TEXTVALUE>Open the bottle labeled as 1X assay buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeTheMeasuringCylinder">
+<TEXT ID="TakeTheMeasuringCylinder_one">
+	 <TEXTVALUE>Pour the 1X assay buffer in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeTheMeasuringCylinder2">
+<TEXT ID="TakeTheMeasuringCylinder2_one">
+	 <TEXTVALUE>Pour the 1X assay buffer in to the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pour25mlOfThemeas2">
+<TEXT ID="Pour25mlOfThemeas2_one">
+	 <TEXTVALUE> 25 ml of the measured assay buffer is poured into the conical flask containing agarose.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ConicalRotate">
+<TEXT ID="ConicalRotate_one">
+	 <TEXTVALUE>The solution is mixed by gentle shaking.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Micro1">
+<TEXT ID="Micro1_one">
+	 <TEXTVALUE>The conical flask containing agarose is kept in a microwave oven for 2 minutes to make the agarose soluble.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="MicroOpen">
+<TEXT ID="MicroOpen_one">
+	 <TEXTVALUE>After 2 minutes, the conical flask is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="CoolForSometime">
+<TEXT ID="CoolForSometime_one">
+	 <TEXTVALUE>The solution is allowed to cool for sometime.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PreparationOfGelplate">
+<TEXT ID="PreparationOfGelplate_one">
+	 <TEXTVALUE>Preparation of Gel plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ToGlassPlate">
+<TEXT ID="ToGlassPlate_one">
+	 <TEXTVALUE>4ml of the agarose solution is poured onto the gel plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ToGlassPlate2">
+<TEXT ID="ToGlassPlate2_one">
+	 <TEXTVALUE>4 ml of agarose solution poured on to the gel plate.the agarose is allowed to set for 30 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TemplateAndPlaceItOnPaper">
+<TEXT ID="TemplateAndPlaceItOnPaper_one">
+	 <TEXTVALUE>Now, the template is taken and is placed on a paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="TakeTheGelPunch1">
+<TEXT ID="TakeTheGelPunch1_one">
+	 <TEXTVALUE>The glass plate with agarose is taken and is placed on top of the template.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="TakeTheGlassPlateCopy">
+<TEXT ID="TakeTheGlassPlateCopy_one">
+	 <TEXTVALUE>Take the gel punch with syringe hold the tip of the gel puncher and place it on the gel corresponding to the markings on the template.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="InsertIntoTheGel">
+<TEXT ID="InsertIntoTheGel_one">
+	 <TEXTVALUE>Take the gel punch with syringe hold the tip of the gel puncher and place it on the gel corresponding to the markings on the template.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="TakeTheGlassPlate2">
+<TEXT ID="TakeTheGlassPlate2_one">
+	 <TEXTVALUE>Then the piston is pulled up slowly so that part of the gel gets into the tube of the puncher making wells in the gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Top1">
+<TEXT ID="Top1_one">
+	 <TEXTVALUE>Accordingly, three wells are made on the gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="ThenMarkTheGel">
+<TEXT ID="ThenMarkTheGel_one">
+	 <TEXTVALUE>Now, the wells are marked on the opposite side of the plate with a marker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Micropipette">
+<TEXT ID="Micropipette_one">
+	 <TEXTVALUE>A micropipette is taken and the volume is adjusted to 10 micro litre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="InsertFreshTip">
+<TEXT ID="InsertFreshTip_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="10µlAntibodyFrom">
+<TEXT ID="10µlAntibodyFrom_one">
+	 <TEXTVALUE>The vial labeled as antibody is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PipetteOut10µlbox1">
+<TEXT ID="PipetteOut10µlbox1_one">
+	 <TEXTVALUE>10 micro litre of antibody solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10µlAntibodyBack">
+<TEXT ID="10µlAntibodyBack_one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="TransfertoTheWellAb">
+<TEXT ID="TransfertoTheWellAb_one">
+	 <TEXTVALUE>The well labeled as antibody (Ab) is filled with the 10 micro litre of antibody solution taken in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TransferToZoom">
+<TEXT ID="TransferToZoom_one">
+	 <TEXTVALUE>The well labeled as antibody (Ab) is filled with the 10 micro litre of antibody solution taken in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="DiscardTheTip">
+<TEXT ID="DiscardTheTip_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Micropipettecopy">
+<TEXT ID="Micropipettecopy_one">
+	 <TEXTVALUE>A micropipette is taken and the volume is adjusted to 10 micro litre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="InsertFreshTip2">
+<TEXT ID="InsertFreshTip2_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10µlOfAg1">
+<TEXT ID="10µlOfAg1_one">
+	 <TEXTVALUE>The vial labeled as Antigen1 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PipetteOut10µlbox2">
+<TEXT ID="PipetteOut10µlbox2_one">
+	 <TEXTVALUE>10 microlitre of  antigen solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10µlBack">
+<TEXT ID="10µlBack_one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TransferTheWellAg1">
+<TEXT ID="TransferTheWellAg1_one">
+	 <TEXTVALUE>The well labeled as Antigen1 (Ag 1) is filled with the 10µl of  antigen solution taken in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TransferToZoomCag1">
+<TEXT ID="TransferToZoomCag1_one">
+	 <TEXTVALUE>The well labeled as Antigen1 (Ag 1) is filled with the 10µl of  antigen solution taken in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DiscardTheTip2">
+<TEXT ID="DiscardTheTip2_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="InsertFreshTip3">
+<TEXT ID="InsertFreshTip3_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Micropipettecopycopy">
+<TEXT ID="Micropipettecopycopy_one">
+	 <TEXTVALUE>A micropipette is taken and the volume is adjusted to 10 micro litre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10µlOfAg2">
+<TEXT ID="10µlOfAg2_one">
+	 <TEXTVALUE>The vial labeled as Antigen1 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="1PipetteOut10µlBox3">
+<TEXT ID="PipetteOut10µlBox3_one">
+	 <TEXTVALUE>10 microlitre of  antigen solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10µlAg2Down">
+<TEXT ID="10µlAg2Down_one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TransferItTheWellAg2">
+<TEXT ID="TransferItTheWellAg2_one">
+	 <TEXTVALUE>The well labeled as Antigen2 (Ag 2) is filled with the 10µl of  antigen solution taken in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TransferZoomCag2">
+<TEXT ID="TransferZoomCag2_one">
+	 <TEXTVALUE>The well labeled as Antigen2 (Ag 2) is filled with the 10µl of  antigen solution taken in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DiscardTheTip3">
+<TEXT ID="DiscardTheTip3_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Se2">
+<TEXT ID="Se2_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PetraOpen">
+<TEXT ID="PetraOpen_one">
+	 <TEXTVALUE>A Petri plate is opened and a small piece of cotton is placed inside it.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="PetraOpen_two">
+	 <TEXTVALUE>A small volume of water is squeezed from the wash bottle onto the cotton to make it wet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Scene82">
+<TEXT ID="Scene82_one">
+	 <TEXTVALUE>The gel plate is taken and is kept inside the chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PetraClose">
+<TEXT ID="PetraClose_one">
+	 <TEXTVALUE>The lid of the plate is closed and is incubated at 37˚C overnight.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="incubator">
+<TEXT ID="incubator_one">
+	 <TEXTVALUE>The lid of the plate is closed and is incubated at 37˚C overnight.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="iincubatorOpen">
+<TEXT ID="incubatorOpen_one">
+	 <TEXTVALUE>After incubation, opaque precipitin lines are observed between the antigens and antisera wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PetraOPEN2">
+<TEXT ID="PetraOPEN2_one">
+	 <TEXTVALUE>After incubation, opaque precipitin lines are observed between the antigens and antisera wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Glass1">
+<TEXT ID="Glass1_one">
+	 <TEXTVALUE>After incubation, opaque precipitin lines are observed between the antigens and antisera wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result01">
+<TEXT ID="Result01">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result02">
+<TEXT ID="Result02">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result03">
+<TEXT ID="Result03">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+

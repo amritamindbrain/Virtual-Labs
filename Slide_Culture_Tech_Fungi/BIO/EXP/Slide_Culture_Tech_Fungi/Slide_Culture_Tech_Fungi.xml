@@ -1,0 +1,327 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+ <SCENE ID="SlideTechFungi">
+	<TEXT ID="SlideTechFungi_one">
+	 <TEXTVALUE>Click on each apparatus/reagents to know its name or click on “Continue” to start the experiment.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="SlideTechFungi_two">
+	 <TEXTVALUE>Arrange all the materials inside Laminar Air Flow before starting work.</TEXTVALUE>
+	</TEXT>
+</SCENE> 
+<SCENE ID="SlideCulturePreparation">
+	<TEXT ID="SlideCulturePreparation_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechFungiFilterpaper">
+	<TEXT ID="SlideTechFungiFilterpaper_one">
+	 <TEXTVALUE>Aseptically, with a forceps, take a sheet of sterile filter paper. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechFungiFilterpaperplacing">
+	<TEXT ID="SlideTechFungiFilterpaperplacing_one">
+	 <TEXTVALUE>Place the sterile filter paper inside a Petri plate. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechnewiFilterpaperplacing">
+	<TEXT ID="SlideTechnewiFilterpaperplacing_one">
+	 <TEXTVALUE>Take another Petri plate. Open the lid. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechnewiFilterpaperAlcohol">
+	<TEXT ID="SlideTechnewiFilterpaperAlcohol_one">
+	 <TEXTVALUE>Take the bottle labeled as 95% ethanol. Pour some amount of ethanol into the Petri plate and then recap the bottle. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechUglassrode">
+	<TEXT ID="SlideTechUglassrode_one">
+	 <TEXTVALUE>With a forceps, dip a U shaped glass rod into the alcohol in the Petri plate. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechUglassrode02">
+	<TEXT ID="SlideTechUglassrode02_one">
+	 <TEXTVALUE> flame it to burn off the alcohol. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechUglassrodetoburner">
+	<TEXT ID="SlideTechUglassrodetoburner_one">
+	 <TEXTVALUE>Remove the glass rod and flame it to burn off the alcohol. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechUglassrodeplacingonpepar">
+	<TEXT ID="SlideTechUglassrodeplacingonpepar_one">
+	 <TEXTVALUE>Now, place the sterile U-shaped glass rod on the filter paper and pour enough sterile water (about 4 ml) on filter paper to completely moisten it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechUglasswater">
+	<TEXT ID="SlideTechUglasswater_one">
+	 <TEXTVALUE>Pour enough sterile water (about 4 ml) on filter paper to completely moisten it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechcoverglass">
+	<TEXT ID="SlideTechcoverglass_one">
+	 <TEXTVALUE>Open the box containing glass slides.  With a forceps, take out a glass slide. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechcoverglassinalcohol">
+	<TEXT ID="SlideTechcoverglassinalcohol_one">
+	 <TEXTVALUE>Dip the glass slides into the alcohol in the Petri plate. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechcoverglassinalcohol02">
+	<TEXT ID="SlideTechcoverglassinalcohol02_one">
+	 <TEXTVALUE>flame it to burn off the alcohol. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechCoverglassinburner">
+	<TEXT ID="SlideTechCoverglassinburner_one">
+	 <TEXTVALUE>Remove the glass slide and flame it to burn off the alcohol. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechglasslide">
+	<TEXT ID="SlideTechglasslide_one">
+	 <TEXTVALUE>With forceps, place the sterile slide on the U-shaped rod. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechglasslidescalpel">
+	<TEXT ID="SlideTechglasslidescalpel_one">
+	 <TEXTVALUE>Take a scalpel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechscalpel">
+	<TEXT ID="SlideTechscalpel_one">
+	 <TEXTVALUE>Gently flame it the scalpel sterilize and then allowed to cool for sometime. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechglasslidescalpel02">
+	<TEXT ID="SlideTechglasslidescalpel02_one">
+	 <TEXTVALUE>Take Sabouraud's agar plate. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechplacingAgar">
+	<TEXT ID="SlideTechplacingAgar_one">
+	 <TEXTVALUE>Open the lid. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechplacingAgarcuting">
+	<TEXT ID="SlideTechplacingAgarcuting_one">
+	 <TEXTVALUE>With the sterile scalpel, cut a 5 mm square  block  of  the medium  from  the  plate. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechtakingagarpeace">
+	<TEXT ID="SlideTechtakingagarpeace_one">
+	 <TEXTVALUE>Pick up the block of agar by inserting the scalpel. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechagarplacing">
+	<TEXT ID="SlideTechagarplacing_one">
+	 <TEXTVALUE>Carefully transfer this block aseptically to the centre of the slide, close the lid. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechFungiInacuNeediltaking">
+	<TEXT ID="SlideTechFungiInacuNeediltaking_one">
+	 <TEXTVALUE>Take an inoculation needle from the rack. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechFungiInaculationNeedil">
+	<TEXT ID="SlideTechFungiInaculationNeedil_one">
+	 <TEXTVALUE>Heat it in the blue flame of the Bunsen burner till red hot and then allowed to cool for sometime. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechplacingFungi">
+	<TEXT ID="SlideTechplacingFungi_one">
+	 <TEXTVALUE>Open the lid. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechtakingagarpeacei">
+	<TEXT ID="SlideTechtakingagarpeacei_one">
+	 <TEXTVALUE>With the sterile needle, take a small amount of culture form the plate. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechplacingFungiclosinglid">
+	<TEXT ID="SlideTechplacingFungiclosinglid_one">
+	 <TEXTVALUE>Close the lid. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="SlideTechfungiplacingagar">
+	<TEXT ID="SlideTechfungiplacingagar_one">
+	 <TEXTVALUE>Take the Petri plate containing agar block, open the lid.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechfungiCloseup">
+	<TEXT ID="SlideTechfungiCloseup_one">
+	 <TEXTVALUE>Inoculate four sides of the agar square with mycelial fragments of the fungus to be examined.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechfungiplacingagar04">
+	<TEXT ID="SlideTechfungiplacingagar04_one">
+	 <TEXTVALUE>Inoculate four sides of the agar square with mycelial fragments of the fungus to be examined.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechfungioppeningcoverglass">
+	<TEXT ID="SlideTechfungioppeningcoverglass_one">
+	 <TEXTVALUE>Open the box containing coverslip. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="SlideTechfungiglassdipping">
+	<TEXT ID="SlideTechfungiglassdipping_one">
+	 <TEXTVALUE>With a forceps, take out a coverslip and then dip it into the alcohol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechfungiglassdipping02">
+	<TEXT ID="SlideTechfungiglassdipping02_one">
+	 <TEXTVALUE> flame it to burn off the alcohol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechfungicoverslipplacing">
+	<TEXT ID="SlideTechfungicoverslipplacing_one">
+	 <TEXTVALUE>Aseptically, place the sterile cover slip on the upper surface of the agar cube and incubate at room temperature for 48 hours.
+ </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechfungigroth">
+	<TEXT ID="SlideTechfungigroth_one">
+	 <TEXTVALUE>After 48 hours, there will be growth of fungi on the coverslip through the edges. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechaplicationOfStain">
+	<TEXT ID="SlideTechaplicationOfStain_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechatakingslid">
+	<TEXT ID="SlideTechatakingslid_one">
+	 <TEXTVALUE>Open the box containing glass slides.  With a forceps, take out a glass slide. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechplacingSlid">
+	<TEXT ID="SlideTechplacingSlid_one">
+	 <TEXTVALUE> </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechatakingslid01">
+	<TEXT ID="SlideTechatakingslid01_one">
+	 <TEXTVALUE>Take another glass slide with the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+ 
+<SCENE ID="SlideTechplacingSlid01">
+	<TEXT ID="SlideTechplacingSlid01_one">
+	 <TEXTVALUE> Keep the glass slide near the first slide. </TEXTVALUE>
+	</TEXT>
+</SCENE> 
+<SCENE ID="SlideTechtakingStain">
+	<TEXT ID="SlideTechtakingStain_one">
+	 <TEXTVALUE>Place a drop of lactophenol cotton blue stain on the first slide.   </TEXTVALUE>
+	</TEXT>
+</SCENE> 
+<SCENE ID="SlideTechplacingSlid02">
+	<TEXT ID="SlideTechplacingSlid02_one">
+	 <TEXTVALUE>Place a drop of lactophenol cotton blue stain on the first slide.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechreplaceStain">
+	<TEXT ID="SlideTechreplaceStain_one">
+	 <TEXTVALUE>Close the bottle after dropping.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechfungioppening">
+	<TEXT ID="SlideTechfungioppening_one">
+	 <TEXTVALUE>Open the lid of the Petri plate with fungal culture.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechfungicoverslipremooving">
+	<TEXT ID="SlideTechfungicoverslipremooving_one">
+	 <TEXTVALUE>Carefully remove the cover slip.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechplacingSlid03">
+	<TEXT ID="SlideTechplacingSlid03_one">
+	 <TEXTVALUE>Invert the cover slip and place it on the surface of the second glass slide.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechtakingkappilarytube">
+	<TEXT ID="SlideTechtakingkappilarytube_one">
+	 <TEXTVALUE>Take a cappilary tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechtakingAlkahol">
+	<TEXT ID="SlideTechtakingAlkahol_one">
+	 <TEXTVALUE>Take 95% alcohol using cappilary tube.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechAlkaholDroping">
+	<TEXT ID="SlideTechAlkaholDroping_one">
+	 <TEXTVALUE>Add 95% ethanol to the centre of the cover slip.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechplacingoverthestain">
+	<TEXT ID="SlideTechplacingoverthestain_one">
+	 <TEXTVALUE>As soon as most of the alcohol has evaporated, take the cover slip from the glass slide using a forceps and place it with the growth  side down,  on  the  drop  of  lactophenol  cotton  blue stain on the slide. This slide is now ready for examination. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SlideTechmicroscope">
+	<TEXT ID="SlideTechmicroscope_one">
+	 <TEXTVALUE>Examine the slide under microscope. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechmicroscopeCloseup">
+	<TEXT ID="SlideTechmicroscopeCloseup_one">
+	 <TEXTVALUE>Examine the slide under microscope. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechmicroscopeResult01">
+	<TEXT ID="SlideTechmicroscopeResult01_one">
+	 <TEXTVALUE>Result:- Aspergillus niger with conidiophores.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechmicroscopeResult02">
+	<TEXT ID="SlideTechmicroscopeResult02_one">
+	 <TEXTVALUE>Result:- Stained conidia of Alternaria </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SlideTechmicroscopeResult03">
+	<TEXT ID="SlideTechmicroscopeResult03_one">
+	 <TEXTVALUE>Result:- Conidiophores of Penicillium sp. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Seperation_of_aminoacids_by_TLC_sumulation.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CONTINUE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_CORRECT_ANSWER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_ERR_ALREADY_SELECTED">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_ERR_SAME_CAP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_ERR_SAME_PAPER">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_INSTR1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_INSTR2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_INSTR3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_INSTR4">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_INSTR5">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_INSTR6">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INSTR7">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_INSTR8">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_INSTR9">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_INSTR10">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_INSTR11">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_INSTR12">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_INSTR13">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_INSTR14">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_INSTR15">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_INSTR16">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INSTR17">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_RESET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_SELECT_CORRECT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_TOOLTIP_MSG1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_TOOLTIP_MSG2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_TOOLTIP_MSG3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_UNKNOWN">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_WRONG_ANSWER">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

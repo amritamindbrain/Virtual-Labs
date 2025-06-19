@@ -1,0 +1,1224 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="01FraIgGPapnintro">
+<TEXT ID="01FraIgGPapnintro_one">
+<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name/click the continue button to start the experiment.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+  <SCENE ID="02FraIgGtkmirpt">
+<TEXT ID="02FraIgGtkmirpt_one">
+<TEXTVALUE>A 5000 microlitre pipette is taken from pipette stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+  <SCENE ID="03FraIgGshow5000">
+<TEXT ID="03FraIgGshow5000_one">
+<TEXTVALUE>Adjust its volume to 5000 microlitre.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+  
+   <SCENE ID="04FraIgGtktip">
+<TEXT ID="04FraIgGtktip_one">
+<TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+   <SCENE ID="05FraIgGtkpbs">
+<TEXT ID="05FraIgGtkpbs_one">
+<TEXTVALUE> The lid of the PBS buffer bottle is opened and 5000 microlitre of buffer is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+   <SCENE ID="06FraIgGtkIgG">
+<TEXT ID="06FraIgGtkIgG_one">
+<TEXTVALUE> The centrifuge tube labeled as IgG antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+    <SCENE ID="07FraIgGopn">
+<TEXT ID="07FraIgGopn_one">
+<TEXTVALUE> The cap of the tube is opened and the PBS buffer is added to it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+    <SCENE ID="08FraIgGreplceit">
+<TEXT ID="08FraIgGreplceit_one">
+<TEXTVALUE> The IgG labeled tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   <SCENE ID="09FraIgtkbtrppr">
+<TEXT ID="09FraIgtkbtrppr_one">
+<TEXTVALUE> A butter paper is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+     
+   <SCENE ID="10FraIgplcit">
+<TEXT ID="10FraIgplcit_one">
+<TEXTVALUE> The butter paper is placed on the weighing balance and the balance is tared.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+     <SCENE ID="11FraIgtkantibody">
+<TEXT ID="11FraIgtkantibody_one">
+<TEXTVALUE> The lid of the antibody bottle is opened and a small amount of antibody is taken.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+    
+     <SCENE ID="12FraIgtkdoponppr">
+<TEXT ID="12FraIgtkdoponppr_one">
+<TEXTVALUE> The IgG antibody powder is added to the butter paper placed on the weighing balance.0.1g of antibody is weighed.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+     <SCENE ID="13FraIgGtktbfrmrk">
+<TEXT ID="13FraIgGtktbfrmrk_one">
+<TEXTVALUE> The centrifuge tube labeled as IgG antibody which contain PBS buffer is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+       <SCENE ID="14FraIgGfilit">
+<TEXT ID="14FraIgGfilit_one">
+<TEXTVALUE> The IgG antibody is added to the vial.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+       <SCENE ID="15FraIgGreplc02">
+<TEXT ID="15FraIgGreplc02_one">
+<TEXTVALUE> The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+         <SCENE ID="16FraIgGtk1000ml">
+<TEXT ID="16FraIgGtk1000ml_one">
+<TEXTVALUE>A micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+          <SCENE ID="17FraIgGshow">
+<TEXT ID="17FraIgGshow_one">
+<TEXTVALUE>Adjust its volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+           <SCENE ID="18FraIgGtktip02">
+<TEXT ID="18FraIgGtktip02_one">
+<TEXTVALUE>A fresh pipette is inserted.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+        <SCENE ID="19FraIgGtkcyst">
+<TEXT ID="19FraIgGtkcyst_one">
+<TEXTVALUE>1000 microlitre of 0.1M cysteine solution is pippeted out from the beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+        <SCENE ID="20FraIgGtktub02">
+<TEXT ID="20FraIgGtktub02_one">
+<TEXTVALUE>The centrifuge tube with antibody solution is taken from the vial.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+          <SCENE ID="21FraIgGopndropit">
+<TEXT ID="21FraIgGopndropit_one">
+<TEXTVALUE>0.1 M cysteine solution is added to the vial.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+          <SCENE ID="22FraIgGreplc03">
+<TEXT ID="22FraIgGreplc03_one">
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+       <SCENE ID="23FraIgGremove">
+<TEXT ID="23FraIgGremove_one">
+<TEXTVALUE>The used tip is discarded to a beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+        <SCENE ID="24FraIgGtk1000ml">
+<TEXT ID="24FraIgGtk1000ml_one">
+<TEXTVALUE>The 1000 microlitre pipette is placed back on the stand and a 20 microlitre pipette is taken from the stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+        <SCENE ID="25FraIgG20show">
+<TEXT ID="25FraIgG20show_one">
+<TEXTVALUE>Adjust the pipette to 20 microlitres.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+      <SCENE ID="26FraIgGtktip03">
+<TEXT ID="26FraIgGtktip03_one">
+<TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+   
+   <SCENE ID="27FraIgGtkEDTA">
+<TEXT ID="27FraIgGtkEDTA_one">
+<TEXTVALUE>20 microlitre of 0.5 M EDTA solution is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+ <SCENE ID="28FraIgGreplc04">
+<TEXT ID="28FraIgGreplc04_one">
+<TEXTVALUE>The tube labeled as IgG antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+     
+ <SCENE ID="29FraIgGopndropit02">
+<TEXT ID="29FraIgGopndropit02_one">
+<TEXTVALUE>20microlitre of 0.5 M EDTA solution is added to the centrifuge tube.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+<SCENE ID="30FraIgGreplc04">
+<TEXT ID="30FraIgGreplc04_one">
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+<SCENE ID="31FraIgplonBala">
+<TEXT ID="31FraIgplonBala_one">
+<TEXTVALUE>A butter paper is placed on a weighing balance (mg) and the balance is tared.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  <SCENE ID="32FraIgGtkspachu">
+<TEXT ID="32FraIgGtkspachu_one">
+<TEXTVALUE>A clean spatula is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+   <SCENE ID="33FraIgGtkPapain">
+<TEXT ID="33FraIgGtkPapain_one">
+<TEXTVALUE>The cap of the Papain bottle is opened and a small amount of Papain is taken.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   <SCENE ID="34FraIgtkdoponpp02">
+<TEXT ID="34FraIgtkdoponpp02_one">
+<TEXTVALUE>Then the Papain powder is added to the butter paper placed on the weighing balance. 1mg of Papain is weighed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+     <SCENE ID="35FraIgGreplc05">
+<TEXT ID="35FraIgGreplc05_one">
+<TEXTVALUE>The tube labeled as IgG antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+  
+     <SCENE ID="36FraIgGfilit02">
+<TEXT ID="36FraIgGfilit02_one">
+<TEXTVALUE>The Papain powder is added to the tube.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+    
+  
+       <SCENE ID="38FraIgGShakit">
+<TEXT ID="38FraIgGShakit_one">
+<TEXTVALUE>The contents in the tube are properly mixed by shaking.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+       <SCENE ID="39FraIgGplceonnewrk">
+<TEXT ID="39FraIgGplceonnewrk_one">
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+         <SCENE ID="40FraIgGplcetktoincu">
+<TEXT ID="40FraIgGplcetktoincu_one">
+<TEXTVALUE>The tube containing IgG antibody-Papain solution is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+         <SCENE ID="41FraIgGshowincu">            
+<TEXT ID="41FraIgGshowincu_one">         
+<TEXTVALUE>The door of the incubator is opened and the tube is placed on it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+     <SCENE ID="42FraIgGopnincu">            
+<TEXT ID="42FraIgGopnincu_one">         
+<TEXTVALUE>The door of the incubator is opened and the tube is placed on it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+     <SCENE ID="43FraIgGplcincu">            
+<TEXT ID="43FraIgGplcincu_one">         
+<TEXTVALUE>The door of the incubator is opened and the tube is placed on it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+      <SCENE ID="44FraIgGcloseit">            
+<TEXT ID="44FraIgGcloseit_one">         
+<TEXTVALUE>The incubator door is closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+    <SCENE ID="45FraIgGshowClok">            
+<TEXT ID="45FraIgGshowClok_one">         
+<TEXTVALUE>The tube is incubated at 37 degree Celsius for 4 hours.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+    <SCENE ID="46FraIgGopnincu02">            
+<TEXT ID="46FraIgGopnincu02_one">         
+<TEXTVALUE>After 4 hours the tube is taken from the incubator and the incubator door is closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+     <SCENE ID="47FraIgGtkfrmit">            
+<TEXT ID="47FraIgGtkfrmit_one">         
+<TEXTVALUE>After 4 hours the tube is taken from the incubator and the incubator door is closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+       <SCENE ID="48FraIgGcloseit02">            
+<TEXT ID="48FraIgGcloseit02_one">         
+<TEXTVALUE>After 4 hours the tube is taken from the incubator and the incubator door is closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+     <SCENE ID="49FraIgGplceplcinteble">            
+<TEXT ID="49FraIgGplceplcinteble_one">         
+<TEXTVALUE>The tube is placed on the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+      <SCENE ID="50FraIgGDialisis">            
+<TEXT ID="50FraIgGDialisis_one">         
+<TEXTVALUE>DIALYSIS</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+       <SCENE ID="51FraIgGtkspachu">            
+<TEXT ID="51FraIgGtkspachu_one">         
+<TEXTVALUE>A forceps is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+       <SCENE ID="52FraIgGtktube">            
+<TEXT ID="52FraIgGtktube_one">         
+<TEXTVALUE>A small piece of dialysis tubing is taken from the Ethanol Storage Solution using the forceps.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+    <SCENE ID="53FraIgGDropDistd">            
+<TEXT ID="53FraIgGDropDistd_one">         
+<TEXTVALUE>The dialysis tubing is washed using the distilled water.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   <SCENE ID="54FraIgGRiplcbotl">            
+<TEXT ID="54FraIgGRiplcbotl_one">         
+<TEXTVALUE>The bottle is placed back on the table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+   <SCENE ID="55FraIgGTKClip">            
+<TEXT ID="55FraIgGTKClip_one">         
+<TEXTVALUE>A clamp is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   <SCENE ID="56FraIgGfixClip">            
+<TEXT ID="56FraIgGfixClip_one">         
+<TEXTVALUE>The clamp is inserted on the dialysis tubing at one side.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+<SCENE ID="57FraIgGplcontble">            
+<TEXT ID="57FraIgGplcontble_one">         
+<TEXTVALUE>The dialysis tubing is placed over the tissue paper on the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+ <SCENE ID="58FraIgGfixppt">            
+<TEXT ID="58FraIgGfixppt_one">         
+<TEXTVALUE>A 10 ml pipette is inserted to the pipette pump.</TEXTVALUE>
+	</TEXT>
+  </SCENE>      
+ <SCENE ID="59FraIgGtktube">            
+<TEXT ID="59FraIgGtktube_one">         
+<TEXTVALUE>The tube labeled as IgG antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+  <SCENE ID="60FraIgGtkliqusppt">            
+<TEXT ID="60FraIgGtkliqusppt_one">         
+<TEXTVALUE>The cap of the tube is opened and the IgG antibody-Papain solution is pippeted out using 10 ml pipette.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+  <SCENE ID="61FraIgGtkreplcit">            
+<TEXT ID="61FraIgGtkreplcit_one">         
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+   <SCENE ID="62FraIgGDropintube">            
+<TEXT ID="62FraIgGDropintube_one">         
+<TEXTVALUE>The dialysis tubing is taken and it is filled using the IgG antibody-Papain solution.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+   <SCENE ID="63FraIgGFix2clip">            
+<TEXT ID="63FraIgGFix2clip_one">         
+<TEXTVALUE>The air present in the dialysing tube is squeezed out and the clamp is inserted.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+   <SCENE ID="64FraIgGwipit">            
+<TEXT ID="64FraIgGwipit_one">         
+<TEXTVALUE>The dialysis tubing containing the solution is placed on the tissue paper and it is wiped gently using another tissue paper.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+ 
+   <SCENE ID="65FraIgGdipinSAB">            
+<TEXT ID="65FraIgGdipinSAB_one">         
+<TEXTVALUE>The dialysis tubing with IgG antibody-Papain solution is placed on the 0.01M sodium acetate Buffer.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  <SCENE ID="66FraIgGputmgt">            
+<TEXT ID="66FraIgGputmgt_one">         
+<TEXTVALUE>The magnetic Teflon is also placed in the 0.01M sodium acetate buffer using a forceps.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  <SCENE ID="67FraIgGtktovici">            
+<TEXT ID="67FraIgGtktovici_one">         
+<TEXTVALUE>The beaker containing 0.01M Sodium acetate buffer solution is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  <SCENE ID="68FraIgGopnvici">            
+<TEXT ID="68FraIgGopnvici_one">         
+<TEXTVALUE> The beaker is placed on the magnetic stirrer which is placed inside the Visicooler.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  <SCENE ID="69FraIgGopnvici">            
+<TEXT ID="69FraIgGopnvici_one">         
+<TEXTVALUE> The magnetic stirrer is switched on and it is kept for overnight at 4 degree Celsius.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+  <SCENE ID="70FraIgGtktotble">            
+<TEXT ID="70FraIgGtktotble_one">         
+<TEXTVALUE> After overnight incubation, the magnetic stirrer is switched off and the beaker containing 0.01 M sodium acetate buffer solution is taken out.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+    <SCENE ID="71FraIgGtktubwtspchu">            
+<TEXT ID="71FraIgGtktubwtspchu_one">         
+<TEXTVALUE>The beaker is placed back on the bench top and the dialysis tubing containing IgG antibody-Papain solution is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+    <SCENE ID="72FraIgGrmovclip">            
+<TEXT ID="72FraIgGrmovclip_one">         
+<TEXTVALUE>The clamp is taken off from one side of the dialysis tubing.</TEXTVALUE>
+	</TEXT>
+  </SCENE>      
+  
+    <SCENE ID="73FraIgGrmoliqwt">            
+<TEXT ID="73FraIgGrmoliqwt_one">         
+<TEXTVALUE>The solution from the dialysis tubing is pipetted out using a Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+  
+    <SCENE ID="74puIgGTkdiasdtub">            
+<TEXT ID="74puIgGTkdiasdtub_one">         
+<TEXTVALUE>The centrifuge tube labeled ad Dialysed Antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+    <SCENE ID="75puIgGfilliqud">            
+<TEXT ID="75puIgGfilliqud_one">         
+<TEXTVALUE>The cap of the tube is opened and the dialysed IgG antibody-Papain  solution is added to it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+    <SCENE ID="76puIgGTkdiasd">            
+<TEXT ID="76puIgGTkdiasd_one">         
+<TEXTVALUE>The tube is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+     <SCENE ID="77puIgGTkdiasd02">            
+<TEXT ID="77puIgGTkdiasd02_one">         
+<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+      <SCENE ID="78puIgGusWater">            
+<TEXT ID="78puIgGusWater_one">         
+<TEXTVALUE>The chromatographic column is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+      <SCENE ID="79puIgGReplcit">            
+<TEXT ID="79puIgGReplcit_one">         
+<TEXTVALUE>After proper washing, the bottle is placed back on the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+      <SCENE ID="80puIgGtkslury">            
+<TEXT ID="80puIgGtkslury_one">         
+<TEXTVALUE>The CM Cellulose slurry is transferred into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>      
+    
+      <SCENE ID="81puIgGdropittube">            
+<TEXT ID="81puIgGdropittube_one">         
+<TEXTVALUE>The CM Cellulose slurry is transferred into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+     <SCENE ID="82puIgGreplcit">            
+<TEXT ID="82puIgGreplcit_one">         
+<TEXTVALUE>The beaker containing the CM –cellulose slurry is placed back in the table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   <SCENE ID="83puIgGtksodim">            
+<TEXT ID="83puIgGtksodim_one">         
+<TEXTVALUE>0.01 M sodium acetate buffer bottle is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+   <SCENE ID="84puIgGdorsodm">            
+<TEXT ID="84puIgGdorsodm_one">         
+<TEXTVALUE>The buffer is poured into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+  
+   <SCENE ID="85puIgGdroping">            
+<TEXT ID="85puIgGdroping_one">         
+<TEXTVALUE>The buffer in the column is removed into a waste beaker by removing the cap. The column is then recapped.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  
+   <SCENE ID="86puIgGTkdiasd01">            
+<TEXT ID="86puIgGTkdiasd01_one">         
+<TEXTVALUE>The centrifuge tube containing dialysed antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+    <SCENE ID="87puIgGporitcolom">            
+<TEXT ID="87puIgGporitcolom_one">         
+<TEXTVALUE>The dialysed antibody from the tube is poured into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+   <SCENE ID="88puIgGreplcinrack">            
+<TEXT ID="88puIgGreplcinrack_one">         
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+   <SCENE ID="89puIgGtksodim02">            
+<TEXT ID="89puIgGtksodim02_one">         
+<TEXTVALUE>0.01M sodium acetate buffer is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+  
+ <SCENE ID="90puIgGdorsodm03">            
+<TEXT ID="90puIgGdorsodm03_one">         
+<TEXTVALUE> The buffer is again poured into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+   
+   
+ <SCENE ID="91puIgGPurSamle01">            
+<TEXT ID="91puIgGPurSamle01_one">         
+<TEXTVALUE> The centrifuge tube labeled as Purified sample 1 is taken from the stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  <SCENE ID="92puIgGPurSamle01">            
+<TEXT ID="92puIgGPurSamle01_one">         
+<TEXTVALUE> The tube is placed on another stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   <SCENE ID="93puIgGplconrack">            
+<TEXT ID="93puIgGplconrack_one">         
+<TEXTVALUE> Then the  tube is placed under the chromatographic column and its cap is removed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+  
+    <SCENE ID="94puIgGplconrack">            
+<TEXT ID="94puIgGplconrack_one">         
+<TEXTVALUE> The cap of the column is removed and the solution is collected in the tube. After that the column is recapped.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+   
+      <SCENE ID="95puIgGrecaplid">            
+<TEXT ID="95puIgGrecaplid_one">         
+<TEXTVALUE> The cap of the column is removed and the solution is collected in the tube. After that the column is recapped.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="96puIgGtkTube">            
+<TEXT ID="96puIgGtkTube_one">         
+<TEXTVALUE> The centrifuge tube is then closed and placed it back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  
+        <SCENE ID="97puIgGreplcinrak">            
+<TEXT ID="97puIgGreplcinrak_one">         
+<TEXTVALUE> The centrifuge tube is then closed and placed it back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+        <SCENE ID="97apuIgGtitle">            
+<TEXT ID="97apuIgGtitle_one">         
+<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+         <SCENE ID="98puIgGTkdiasd03">            
+<TEXT ID="98puIgGTkdiasd03_one">         
+<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+  
+         <SCENE ID="99puIgGusWater02">            
+<TEXT ID="99puIgGusWater02_one">         
+<TEXTVALUE>The chromatographic column is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+  </SCENE>      
+  
+       <SCENE ID="100puIgGReplcit03">            
+<TEXT ID="100puIgGReplcit03_one">         
+<TEXTVALUE>After proper washing, the bottle is placed back on the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="101puIgGtkDEAEslury">            
+<TEXT ID="100puIgGReplcit03_one">         
+<TEXTVALUE>The DEAE Cellulose slurry is transferred into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  
+   <SCENE ID="102puIgGdropittube02">            
+<TEXT ID="102puIgGdropittube02_one">         
+<TEXTVALUE>The DEAE Cellulose slurry is transferred into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+    
+ 
+   <SCENE ID="103puIgGDeAe">            
+<TEXT ID="103puIgGDeAe_one">         
+<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+   <SCENE ID="104puIgGtksodim03">            
+<TEXT ID="104puIgGtksodim03_one">         
+<TEXTVALUE>0.01 M sodium acetate buffer bottle is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+   <SCENE ID="105puIgGdorsodm04">            
+<TEXT ID="105puIgGdorsodm04_one">         
+<TEXTVALUE>The buffer is poured into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>       
+  
+   
+   <SCENE ID="106puIgGdroping02">            
+<TEXT ID="106puIgGdroping02_one">         
+<TEXTVALUE>The buffer in the column is removed into a waste beaker by removing the cap .Then the column is recapped.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+  
+     <SCENE ID="107puIgGtksm1">            
+<TEXT ID="107puIgGtksm1_one">         
+<TEXTVALUE>The centrifuge tube containing purified sample1 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+      <SCENE ID="108puIgGporitcolom08">            
+<TEXT ID="108puIgGporitcolom08_one">         
+<TEXTVALUE>The purified sample from the tube is poured into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+      <SCENE ID="109puIgGPurSamle02">            
+<TEXT ID="109puIgGPurSamle02_one">         
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+       <SCENE ID="110puIgGtksodim03">            
+<TEXT ID="110puIgGtksodim03_one">         
+<TEXTVALUE>0.01M sodium acetate buffer is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+        <SCENE ID="111puIgGdorsodm04">            
+<TEXT ID="111puIgGdorsodm04_one">         
+<TEXTVALUE>The buffer is again poured into the column.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+         <SCENE ID="112puIgGPurSamle02">            
+<TEXT ID="112puIgGPurSamle02_one">         
+<TEXTVALUE>The centrifuge tube labeled as Purified sample 2 is taken from the stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+         <SCENE ID="113puIgGPurSamle02">            
+<TEXT ID="113puIgGPurSamle02_one">         
+<TEXTVALUE>The tube is placed on another stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+         <SCENE ID="114puIgGplconrack02">            
+<TEXT ID="114puIgGplconrack02_one">         
+<TEXTVALUE>The tube is placed under the chromatographic column and its cap is removed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+          <SCENE ID="115puIgGplconrack02">            
+<TEXT ID="115puIgGplconrack02_one">         
+<TEXTVALUE>The cap of the column is removed and the solution is collected in the tube. After that the column is recapped.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+  
+          <SCENE ID="116puIgGrecaplid02">            
+<TEXT ID="116puIgGrecaplid02_one">         
+<TEXTVALUE>The cap of the column is removed and the solution is collected in the tube. After that the column is recapped.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+          <SCENE ID="117puIgGtkTube02">            
+<TEXT ID="117puIgGtkTube02_one">         
+<TEXTVALUE>The centrifuge tube is then closed and placed it back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+           <SCENE ID="118puIgGReplsamle02">            
+<TEXT ID="118puIgGReplsamle02_one">         
+<TEXTVALUE>The centrifuge tube is then closed and placed it back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+  
+           <SCENE ID="119puIgGtk100">            
+<TEXT ID="119puIgGtk100_one">         
+<TEXTVALUE>A 1000 microlitre pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+          <SCENE ID="120puIgGShow1000">            
+<TEXT ID="120puIgGShow1000_one">         
+<TEXTVALUE>Adjust its volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+        <SCENE ID="121puIgGTktip">            
+<TEXT ID="121puIgGTktip_one">         
+<TEXTVALUE>A fresh tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+     <SCENE ID="122puIgGtksodim">            
+<TEXT ID="122puIgGtksodim_one">         
+<TEXTVALUE>1000 microlitre of 0.01 M sodium acetate buffer is pippeted out from the beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+  
+   <SCENE ID="123puIgGtkBqt">            
+<TEXT ID="123puIgGtkBqt_one">         
+<TEXTVALUE>A cuvette for blank (labeled as B) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+    <SCENE ID="124puIgGfilqtB">            
+<TEXT ID="124puIgGfilqtB_one">         
+<TEXTVALUE>1000 microlitre of 0.01 M sodium acetate buffer is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+    <SCENE ID="125puIgGreplcB">            
+<TEXT ID="125puIgGreplcB_one">         
+<TEXTVALUE>The cuvette B is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+    <SCENE ID="126puIgGtksodim02">            
+<TEXT ID="126puIgGtksodim02_one">         
+<TEXTVALUE>Again 1000 microlitre of 0.01M sodium acetate buffer is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+     <SCENE ID="127puIgGtkQtB02">            
+<TEXT ID="127puIgGtkQtB02_one">         
+<TEXTVALUE>Another B labeled cuvette (for Blank) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>      
+     
+  
+     <SCENE ID="128puIgGFilQtB02">            
+<TEXT ID="128puIgGFilQtB02_one">         
+<TEXTVALUE>0.01M sodium acetate buffer is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+      <SCENE ID="129puIgGreplcitB02">            
+<TEXT ID="129puIgGreplcitB02_one">         
+<TEXTVALUE>The cuvette is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+   <SCENE ID="130puIgGopnit02">            
+<TEXT ID="130puIgGopnit02_one">         
+<TEXTVALUE>The lid of spectrophotometer is opened.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+   <SCENE ID="131puIgGtkGt03">            
+<TEXT ID="131puIgGtkGt03_one">         
+<TEXTVALUE>One of the B labeled cuvette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  
+   <SCENE ID="132puIgGwipQt03">            
+<TEXT ID="132puIgGwipQt03_one">         
+<TEXTVALUE>The cuvette is properly wiped using a tissue paper.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+    
+   <SCENE ID="133puIgGplcinuvQt03">            
+<TEXT ID="133puIgGplcinuvQt03_one">         
+<TEXTVALUE>After that the cuvette is placed in one of the slit in the spectrophotometer.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+   <SCENE ID="134puIgGplcinuvQt04">            
+<TEXT ID="134puIgGplcinuvQt04_one">         
+<TEXTVALUE>The second cuvette labeled as B is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+   <SCENE ID="135puIgGwipQt04">            
+<TEXT ID="135puIgGwipQt04_one">         
+<TEXTVALUE>The cuvette is wiped properly using a tissue paper.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  <SCENE ID="136puIgGplcQt05">            
+<TEXT ID="136puIgGplcQt05_one">         
+<TEXTVALUE>The second cuvette is placed in the other slit in the spectrophotometer and the lid is closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+   <SCENE ID="137puIgGprsentr05">            
+<TEXT ID="137puIgGprsentr05_one">         
+<TEXTVALUE>The spectrophotometer starts to work on pressing the enter button.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   <SCENE ID="138puIgGshowAbs">            
+<TEXT ID="138puIgGshowAbs_one">         
+<TEXTVALUE>This is the graph indicating the baseline which is observed on the monitor.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+    <SCENE ID="139puIgGshowAbs">            
+<TEXT ID="139puIgGshowAbs_one">         
+<TEXTVALUE>The lid of the spectrophotometer is opened and one of the cuvette is taken out from it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+     <SCENE ID="140puIgGplcinrkB06">            
+<TEXT ID="140puIgGplcinrkB06_one">         
+<TEXTVALUE>The cuvette labeled as B is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+    <SCENE ID="141puIgGtk1000ppt">            
+<TEXT ID="141puIgGtk1000ppt_one">         
+<TEXTVALUE>A 1000 microlitre pipette is taken from the stand.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+     <SCENE ID="142puIgGshow1000">            
+<TEXT ID="142puIgGshow1000_one">         
+<TEXTVALUE>Adjust its volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+    <SCENE ID="143puIgGTktip ">            
+<TEXT ID="143puIgGTktip_one">         
+<TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+    <SCENE ID="144puIgGtkspl2">            
+<TEXT ID="144puIgGtkspl2_one">         
+<TEXTVALUE>The tube labeled as purified sample 2 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+    <SCENE ID="145puIgGfiltip">            
+<TEXT ID="145puIgGfiltip_one">         
+<TEXTVALUE>1000 microlitre of sample is pipetted out from it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+        
+    <SCENE ID="146puIgGReplckspl2">            
+<TEXT ID="146puIgGReplckspl2_one">         
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+     <SCENE ID="147puIgGtkTQt">            
+<TEXT ID="147puIgGtkTQt_one">         
+<TEXTVALUE>The cuvette labeled as T (Test cuvette) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+      <SCENE ID="148puIgGFilTQt">            
+<TEXT ID="148puIgGFilTQt_one">         
+<TEXTVALUE>The purified sample 2 is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="149puIgGwipQt04">            
+<TEXT ID="149puIgGwipQt04_one">         
+<TEXTVALUE>The cuvette is wiped properly using the tissue paper.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+       <SCENE ID="150puIgGplTQt0t">            
+<TEXT ID="150puIgGplTQt0t_one">         
+<TEXTVALUE>The cuvette is placed in the spectrophotometer and is closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="151puIgGprsentr">            
+<TEXT ID="151puIgGprsentr_one">         
+<TEXTVALUE>The spectrophotometer starts to work on pressing the enter button.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+       <SCENE ID="152puIgGshowgraph">            
+<TEXT ID="152puIgGshowgraph_one">         
+<TEXTVALUE>The resultant graph is observed on the monitor.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="153puIgGDialysis2">            
+<TEXT ID="153puIgGDialysis2_one">         
+<TEXTVALUE>DIALYSIS OF PURIFIED SAMPLE 2 IN PBS BUFFER.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  
+        <SCENE ID="154puIgGtkspachu2">            
+<TEXT ID="154puIgGtkspachu2_one">         
+<TEXTVALUE>A forceps is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>           
+       
+   
+        <SCENE ID="155puIgGtube">            
+<TEXT ID="155puIgGtube_one">         
+<TEXTVALUE>A small piece of dialysis tubing is taken from the Ethanol Storage Solution using the forceps.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  
+         <SCENE ID="156puIgGDrpdistwtr">            
+<TEXT ID="156puIgGDrpdistwtr_one">         
+<TEXTVALUE>The dialysis tubing is washed using the distilled water.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+   
+        <SCENE ID="157puIgGreplcwtr02">            
+<TEXT ID="157puIgGreplcwtr02_one">         
+<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+     
+  
+          <SCENE ID="158puIgGtkclip">            
+<TEXT ID="158puIgGtkclip_one">         
+<TEXTVALUE>A clamp is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+        <SCENE ID="159puIgGfixclip">            
+<TEXT ID="159puIgGfixclip_one">         
+<TEXTVALUE>The clamp is inserted on the dialysis tubing at one side.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+        <SCENE ID="160puIgGplonbutr">            
+<TEXT ID="160puIgGplonbutr_one">         
+<TEXTVALUE>The dialysis tubing is placed over the tissue paper on the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+       
+        <SCENE ID="161puIgGfixppt">            
+<TEXT ID="161puIgGfixppt_one">         
+<TEXTVALUE>A 10 ml pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+       <SCENE ID="162puIgGtks2">            
+<TEXT ID="162puIgGtks2_one">         
+<TEXTVALUE>The tube labeled as Purified Sample 2 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+       <SCENE ID="163puIgGtkuseppt">            
+<TEXT ID="163puIgGtkuseppt_one">         
+<TEXTVALUE>The cap of the tube is opened and the entire solution is pippeted out using 10 ml pipette.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+       <SCENE ID="164puIgGtk0001">            
+<TEXT ID="164puIgGtk0001_one">         
+<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+      
+        <SCENE ID="165puIgGfiltub">            
+<TEXT ID="165puIgGfiltub_one">         
+<TEXTVALUE>The dialysis tubing is taken and it is filled using purified sample 2 solutions.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+       <SCENE ID="166puIgGremovair">            
+<TEXT ID="166puIgGremovair_one">         
+<TEXTVALUE>The air present in the dialysing tube is squeezed out and the clamp is inserted.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="167puIgGRebwitppr">            
+<TEXT ID="167puIgGRebwitppr_one">         
+<TEXTVALUE>The dialysis tubing containing the solution is placed on the tissue paper and it is wiped gently using another tissue paper.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+       <SCENE ID="168puIgGdipinPBS">            
+<TEXT ID="168puIgGdipinPBS_one">         
+<TEXTVALUE>The dialysis tubing with purified sample 2 is placed on the PBS Buffer.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+       <SCENE ID="169puIgGMgt">            
+<TEXT ID="169puIgGMgt_one">         
+<TEXTVALUE>The magnetic Teflon is also placed in the PBS buffer using a forceps.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+       <SCENE ID="170puIgGtktovici">            
+<TEXT ID="170puIgGtktovici_one">         
+<TEXTVALUE>The beaker containing PBS buffer solution is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+        <SCENE ID="171puIgGclosit">            
+<TEXT ID="171puIgGclosit_one">         
+<TEXTVALUE>The beaker is placed on the magnetic stirrer which is placed inside the Visicooler.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+        <SCENE ID="172puIgGovrNit4">            
+<TEXT ID="172puIgGovrNit4_one">         
+<TEXTVALUE>The magnetic stirrer is switched on and it is kept for overnight at 4 degree Celsius.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+        <SCENE ID="173puIgGtktotble">            
+<TEXT ID="173puIgGtktotble_one">         
+<TEXTVALUE>After overnight incubation, the magnetic stirrer is switched off and the beaker containing PBS buffer solution is taken out.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+        <SCENE ID="174puIgGplcontble">            
+<TEXT ID="174puIgGplcontble_one">         
+<TEXTVALUE>The beaker is placed back on the bench top and the dialysis tubing containing purified sample is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+        <SCENE ID="175puIgGremovclip">            
+<TEXT ID="175puIgGremovclip_one">         
+<TEXTVALUE>The clamp is taken off  from one side of the dialysis tubing.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+        <SCENE ID="176puIgGsukuseppt">            
+<TEXT ID="176puIgGsukuseppt_one">         
+<TEXTVALUE>The solution from the dialysis tubing is pipetted out using a Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+        <SCENE ID="177puIgGtkpurifid">            
+<TEXT ID="177puIgGtkpurifid_one">         
+<TEXTVALUE>The tube labeled as Purified F(ab) fragments  is taken from the  rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+      <SCENE ID="178puIgGfilit">            
+<TEXT ID="178puIgGfilit_one">         
+<TEXTVALUE>The cap of the tube is opened and the Purified F(ab) fragments  is added to it.The centrifuge tube contain Purified F(ab) fragment solution.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+      <SCENE ID="179puIgGtkpurifid08">            
+<TEXT ID="179puIgGtkpurifid08_one">         
+<TEXTVALUE>The centrifuge tube is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+      <SCENE ID="180puIgGfixppt01">            
+<TEXT ID="180puIgGfixppt01_one">         
+<TEXTVALUE>A 10 ml pipette is taken from the stand and  is inserted into a  pipette pump.</TEXTVALUE>
+	</TEXT>
+  </SCENE>      
+        
+       <SCENE ID="181puIgGtkglisrn">            
+<TEXT ID="181puIgGtkglisrn_one">         
+<TEXTVALUE>The cap of the 50% glycerol bottle is opened and 5 ml of the glycerol is pippeted out.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+       <SCENE ID="182puIgGcryovil">            
+<TEXT ID="182puIgGcryovil_one">         
+<TEXTVALUE>A cryovial is taken from the cryobox.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="183puIgfilitusingppt">            
+<TEXT ID="183puIgfilitusingppt_one">         
+<TEXTVALUE>5 ml of 50% glycerol is transferred to the cryovial.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+       <SCENE ID="184puIgfilreplcit">            
+<TEXT ID="184puIgfilreplcit_one">         
+<TEXTVALUE>The cryovial is replaced on the box.</TEXTVALUE>
+	</TEXT>
+  </SCENE>      
+  
+       <SCENE ID="185puIgGtkputk05">            
+<TEXT ID="185puIgGtkputk05_one">         
+<TEXTVALUE>The tube containing Purified F(ab) fragments is taken from the  rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+       <SCENE ID="186puIgGtkputk05">            
+<TEXT ID="186puIgGtkputk05_one">         
+<TEXTVALUE>The cap of the tube is opened and 5 ml of purified F(ab) fragment solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+  
+       <SCENE ID="187puIgGtkpureplcit">            
+<TEXT ID="187puIgGtkpureplcit_one">         
+<TEXTVALUE>The tube is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+       <SCENE ID="188puIgfilretkit02">            
+<TEXT ID="188puIgfilretkit02_one">         
+<TEXTVALUE>The cryovial is taken from the box.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+      <SCENE ID="189puIgfilitusingppt02">            
+<TEXT ID="189puIgfilitusingppt02_one">         
+<TEXTVALUE>The cap of the vial  is opened and  pour the solution into it.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+       <SCENE ID="190puIgfilretkit03">            
+<TEXT ID="190puIgfilretkit03_one">         
+<TEXTVALUE>The cryovial is replaced on the cryobox.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+        <SCENE ID="191puIgGcutparafin">            
+<TEXT ID="191puIgGcutparafin_one">         
+<TEXTVALUE>A piece of parafilm is cut from the parafilm roll.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+        <SCENE ID="192puIgGcutremovStikr">            
+<TEXT ID="192puIgGcutremovStikr_one">         
+<TEXTVALUE>The outer cover is removed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+        <SCENE ID="193puIgfilretkit04">            
+<TEXT ID="193puIgfilretkit04_one">         
+<TEXTVALUE>The cryovial is taken from the box.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+         <SCENE ID="194puIgGwindwitfilim">            
+<TEXT ID="194puIgGwindwitfilim_one">         
+<TEXTVALUE>The vial is wrapped with parafilm properly.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+         <SCENE ID="195puIgGtkboxtofrz">            
+<TEXT ID="195puIgGtkboxtofrz_one">         
+<TEXTVALUE>The wrapped cryovial which contain the sample is placed on the cryobox.</TEXTVALUE>
+	</TEXT>
+  </SCENE>     
+      
+          <SCENE ID="196puIgGplcon">            
+<TEXT ID="196puIgGplcon_one">         
+<TEXTVALUE>The -20 degree Freezer is opened and the cryobox with vial is kept in the freezer.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+           <SCENE ID="197puIgGfrz20Degree">            
+<TEXT ID="197puIgGfrz20Degree_one">         
+<TEXTVALUE>The door of the freezer is closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+  
+  
+  
+  
+       
+         
+   </DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

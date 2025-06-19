@@ -1,0 +1,59 @@
+/*
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+*/
+
+#circle {
+    width: 350px;
+    height: 350px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 300px; 
+	position:absolute;
+	top:60px;
+	left:108px;
+	overflow:hidden;	
+}
+#divBox {	
+	height: 485px;
+	background-color: #333333;
+	position: relative;
+	border-radius: 25px 0px 0px 0px;
+	border: #FFFFFF solid 2px;
+	box-shadow: inset 0px 0px 2px 0px #999999;
+	overflow:hidden;
+}
+#petridish {
+	width:300px;
+	padding:38px 10px 0px 85px;
+}
+#petridishImg {
+	width:400px;
+	height:400px;"
+}
+#zoomInzoomOut {
+	padding:0px 10px 40px 65px; 
+	display:inline;
+	position:absolute;
+	left:463px;
+}
+#zoomInImg {
+	display:inline;
+	position:absolute;
+	left:0px;
+}
+#zoomOutImg {
+	display:inline;
+	position:absolute;
+	left:40px;
+}
+#plaquesMl {
+	border: 0;
+	outline:none;
+	outline-offset: 0;
+	background-color:transparent;
+}

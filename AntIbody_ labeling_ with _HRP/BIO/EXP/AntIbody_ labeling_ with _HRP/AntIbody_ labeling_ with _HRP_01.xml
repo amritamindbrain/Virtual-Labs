@@ -1,0 +1,1227 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="1AntLabHRP">
+	<TEXT ID="1AntLabHRP_one">
+	 	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name/Click the “continue” button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2AntLabtkspachu">
+	<TEXT ID="2AntLabtkspachu_one">
+		<TEXTVALUE>A spatula is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3AntLabvipit">
+	<TEXT ID="3AntLabvipit_one">
+		<TEXTVALUE>The spatula is wiped with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4AntLabtkspachu">
+	<TEXT ID="4AntLabtkspachu_one">
+		<TEXTVALUE>A small amount of Horse Radish )eroxidase (HRP) is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+  <SCENE ID="5AntLabpuronbala">	
+	 <TEXT ID="5AntLabpuronbala_one">
+		<TEXTVALUE>4mg of HRP is weighed using weighing balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6AntLabtktube">
+	<TEXT ID="6AntLabtktube_one">
+		<TEXTVALUE>A microfuge tube (vial) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7AntLabtktube">		
+		<TEXT ID="7AntLabtktube_one">
+		<TEXTVALUE>The vial is opened and the measured HRP is transferred in to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8AntLabreplcceit">
+	<TEXT ID="8AntLabreplcceit_one">
+		<TEXTVALUE>The vial is then kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9AntLabtkmpipt">
+	<TEXT ID="9AntLabtkmpipt_one">
+		<TEXTVALUE>A 1000microlitre micropipette is taken from its rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10AntLabshow1000">
+	<TEXT ID="10AntLabshow1000_one">
+		<TEXTVALUE>A 1000microlitre micropipette is taken from its rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11AntLabtktip">
+	<TEXT ID="11AntLabtktip_one">
+		<TEXTVALUE>A fresh tip is inserted into the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12AntLabTkwtr">
+	<TEXT ID="12AntLabTkwtr_one">
+		<TEXTVALUE>The Bottle for Distilled water is opened and 1ml (1000 microlitre) of sterile Distilled water is pipette out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13AntLabtkpwdr">
+	<TEXT ID="13AntLabtkpwdr_one">
+		<TEXTVALUE>The vial containing HRP is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14AntLabtktube">
+	<TEXT ID="14AntLabtktube_one">
+		<TEXTVALUE>Distilled water is added to this vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15AntLabreplccewtr02">
+	<TEXT ID="15AntLabreplccewtr02_one">
+		<TEXTVALUE>The contents in the vial are mixed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16AntLabreplccewtr">
+	<TEXT ID="16AntLabreplccewtr_one">
+		<TEXTVALUE>After mixing, the vial is kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="17AntLabtkpipt">
+	<TEXT ID="17AntLabtkpipt_one">
+		<TEXTVALUE>A 1000 microlitre micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="18AntLabadjtit">
+	<TEXT ID="18AntLabadjtit_one">
+		<TEXTVALUE>The pipette is adjusted to 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="19AntLabtktip02">
+	<TEXT ID="19AntLabtktip02_one">
+		<TEXTVALUE>A fresh tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="20AntLabtktip02">
+	<TEXT ID="20AntLabtktip02_one">
+		<TEXTVALUE>The vial containing 0.1M Sodium periodate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="21AntLabtkffmit">
+	<TEXT ID="21AntLabtkffmit_one">
+		<TEXTVALUE>200 microlitre of 0.1M Sodium periodate is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22AntLabreplcit">
+	<TEXT ID="22AntLabreplcit_one">
+		<TEXTVALUE>The sodium periodate solution is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="23AntLabtkit02">
+	<TEXT ID="23AntLabtkit02_one">
+		<TEXTVALUE>The vial with HRP is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="24AntLabtkpursd">
+	<TEXT ID="24AntLabtkpursd_one">
+		<TEXTVALUE>200 microlitres of Sodium Periodate is transferred to this vial and the contents are mixed well with the pipette. The solution turns  orange in color.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="25AntLabreplcit03">
+	<TEXT ID="25AntLabreplcit03_one">
+		<TEXTVALUE>The vial is then kept in the rack for 20 minutes incubation at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="26AntLab2-3">
+	<TEXT ID="26AntLab2-3_one">
+		<TEXTVALUE>After 20minutes incubation, the color of the solution turned to Green.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27AntlabDialsis">
+	<TEXT ID="27AntlabDialsis_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28AntlabTkspachu">
+	<TEXT ID="28AntlabTkspachu_one">
+		<TEXTVALUE>A forceps is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="29Antlabdipethl">	
+		<TEXT ID="29Antlabdipethl_one">
+		<TEXTVALUE>A piece of dialysis tubing membrane is taken from the ethanol storage solution using the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30Antlabdisld">
+	<TEXT ID="30Antlabdisld_one">
+		<TEXTVALUE>The dialysis tubing membrane is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="31Antlatkklip">
+	<TEXT ID="31Antlatkklip_one">
+		<TEXTVALUE>A dialysis tubing clamp is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="32AntClipit">
+	<TEXT ID="32AntClipit_one">
+		<TEXTVALUE>The clamp is put on the dialysis membrane at one end.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33Antplconppr">
+	<TEXT ID="33Antplconppr_one">
+		<TEXTVALUE>The dialysis membrane is placed on a tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="34Antfixpipt">
+	<TEXT ID="34Antfixpipt_one">
+		<TEXTVALUE>A pipette is inserted in the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="35AntLabtkit">
+	<TEXT ID="35AntLabtkit_one">
+		<TEXTVALUE>The vial having the reaction mixture is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36Anttkuspipt">
+	<TEXT ID="36Anttkuspipt_one">
+		<TEXTVALUE>The whole solution is pipetted out from the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37AntLabplsi">
+	<TEXT ID="37AntLabplsi_one">
+		<TEXTVALUE>The vial is then replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38AntLabfilit">
+	<TEXT ID="38AntLabfilit_one">
+		<TEXTVALUE>The pipetted solution is transferred into the dialysis tubing membrane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39AntLabadClip">
+	<TEXT ID="39AntLabadClip_one">
+		<TEXTVALUE>A new clamp is put in to the membrane on the other side.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40AntLabvipit">
+	<TEXT ID="40AntLabvipit_one">
+		<TEXTVALUE>The tubing membrane is placed over a tissue paper and is wiped with another tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41AntLabdippt">
+	<TEXT ID="41AntLabdippt_one">
+		<TEXTVALUE>The tubing membrane with solution is dipped in 1mM Sodium acetate buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42AntLabdropstrr">
+	<TEXT ID="42AntLabdropstrr_one">
+		<TEXTVALUE>A magnetic stir bar is taken and is put in the beaker containing the Sodium acetate buffer and the dialysis tubing membrane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42AntLabvicicolr">
+	<TEXT ID="42AntLabvicicolr_one">
+		<TEXTVALUE>The beaker having Sodium acetate buffer, magnetic stir and dialysis tubing membrane is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44AntLabotthecolr">
+	<TEXT ID="44AntLabotthecolr_one">
+		<TEXTVALUE>Visicooler is opened and the beaker is kept on a magnetic stirrer present in the visicooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45AntLabovrnt">
+	<TEXT ID="45AntLabovrnt_one">
+		<TEXTVALUE>The stirrer is switched on and is kept overnight at 4°C. After incubation, the stirrer is switched off and the beaker is taken out.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="46AntLabtkitout">	
+	<TEXT ID="46AntLabtkitout_one">
+		<TEXTVALUE>After incubation, the stirrer is switched off and the beaker is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47AntLabtkfrmbr">
+	<TEXT ID="47AntLabtkfrmbr_one">
+		<TEXTVALUE>The beaker is kept on the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48AntLabchose">
+	<TEXT ID="48AntLabchose_one">
+		<TEXTVALUE>The dialysis tubing membrane is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="49AntLabremovclip">	
+	<TEXT ID="49AntLabremovclip_one">
+		<TEXTVALUE>The clamp is removed from one side.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50AntLabuseppipt">
+	<TEXT ID="50AntLabuseppipt_one">
+		<TEXTVALUE>The solution is taken out from the tubing membrane using a pasture pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51AntLabtktsb">
+	<TEXT ID="51AntLabtktsb_one">
+		<TEXTVALUE>A small test tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="52AntLabfilit">
+	<TEXT ID="52AntLabfilit_one">
+		<TEXTVALUE>The solution is transferred into the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="53AntLabreplceit">
+	<TEXT ID="53AntLabreplceit_one">
+		<TEXTVALUE>The test tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54AntLabtkpipt">
+	<TEXT ID="54AntLabtkpipt_one">
+		<TEXTVALUE>A 20 microlitre micropipette is taken from its rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55AntLabshow20ml">
+	<TEXT ID="55AntLabshow20ml_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55aAntLabtktip03">
+	<TEXT ID="55aAntLabtktip03_one">
+		<TEXTVALUE>A fresh tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56AntLabtkbfr">
+	<TEXT ID="56AntLabtkbfr_one">
+		<TEXTVALUE>20 microlitre of 0.2M Sodium carbonate buffer is pipette out from its bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57AntLabtkgnsoln">
+	<TEXT ID="57AntLabtkgnsoln_one">
+		<TEXTVALUE>The test tube with the reaction mixture is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58AntLabfilsodm">
+	<TEXT ID="58AntLabfilsodm_one">
+		<TEXTVALUE>The 0.2M Sodium carbonate solution is transferred to the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59AntLabreplceit02">
+	<TEXT ID="59AntLabreplceit02_one">
+		<TEXTVALUE>The test tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="60AntLabreplceit02">	
+		<TEXT ID="60AntLabreplceit02_one">
+		<TEXTVALUE>The used tip is dropped into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="61AntLabreplcepipt">
+	<TEXT ID="61AntLabreplcepipt_one">
+		<TEXTVALUE>The 20 microlitre pipette is replaced in its rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62AntLabtkpipt1000ml">
+	<TEXT ID="62AntLabtkpipt1000ml_one">
+		<TEXTVALUE>A 1000 microlitre micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="63AntLabshow1000ml">
+	<TEXT ID="63AntLabshow1000ml_one">
+		<TEXTVALUE>A 1000 microlitre micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64AntLabtktip">
+	<TEXT ID="64AntLabtktip_one">
+		<TEXTVALUE>A fresh tip inserted in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65AntLabtkmtbe">
+	<TEXT ID="65AntLabtkmtbe_one">
+		<TEXTVALUE>The monoclonal antibody solution placed in a centrifuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66AntLabuspipt">
+	<TEXT ID="66AntLabuspipt_one">
+		<TEXTVALUE>The tube is opened and 1000 microlitres (1ml) of monoclonal antibody solution are pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67AntLabreplcit">
+	<TEXT ID="67AntLabreplcit_one">
+		<TEXTVALUE>The tube with monoclonal antibody solution is kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68AntLabtkit03">
+	<TEXT ID="68AntLabtkit03_one">
+		<TEXTVALUE>The test tube with monoclonal antibodies is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69AntLabfilsodm1000">
+	<TEXT ID="69AntLabfilsodm1000_one">
+		<TEXTVALUE>The monoclonal antibody solution is transferred to the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70AntLabreplceit03">
+	<TEXT ID="70AntLabreplceit03_one">
+		<TEXTVALUE>After transferring the antibodies, the test tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71AntLabtkrod">
+	<TEXT ID="71AntLabtkrod_one">
+		<TEXTVALUE>A glass rod is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71aAntLabwiprod">
+	<TEXT ID="71aAntLabwiprod_one">
+<TEXTVALUE>The glass rod is wiped with cotton thoroughly.</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="72AntLabtktube">
+	<TEXT ID="72AntLabtktube_one">
+<TEXTVALUE>The test tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73AntLabmixwitrod">
+	<TEXT ID="73AntLabmixwitrod_one">
+<TEXTVALUE>The reaction mixture in the test tube is mixed well with glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="74AntLabreplceit04">
+	<TEXT ID="74AntLabreplceit04_one">
+		<TEXTVALUE>After mixing, the test tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75AntLabclok">
+	<TEXT ID="75AntLabclok_one">
+		<TEXTVALUE>The test tube with reaction mixture is kept as such for incubation at room temperature for 2hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76AntLabtktkpipt">
+	<TEXT ID="76AntLabtktkpipt_one">
+		<TEXTVALUE>A 100 microlitre micropipette is taken from the rack</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77AntLabshow100ml">
+	<TEXT ID="77AntLabshow100ml_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78AntLabtktip06">
+	<TEXT ID="78AntLabtktip06_one">
+		<TEXTVALUE>A fresh tip is inserted into the micro pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79AntLabtkitg">
+	<TEXT ID="79AntLabtkitg_one">
+		<TEXTVALUE>A vial having Sodium borohydride solution is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80AntLabpikit">
+	<TEXT ID="80AntLabpikit_one">
+		<TEXTVALUE>100 microlitre of Sodium borohydride solution is taken from the vial using the micro pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81AntLabreplcit">
+	<TEXT ID="81AntLabreplcit_one">
+		<TEXTVALUE>The sodium borohydride solution is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82AntLabtktube03">
+	<TEXT ID="82AntLabtktube03_one">
+		<TEXTVALUE>The test tube with reaction mixture is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="83AntLabfilsodm100it">
+	<TEXT ID="83AntLabfilsodm100it_one">
+		<TEXTVALUE>The Sodium borohydride solution is transferred into the test tube and the entire solution is pipetted out with a pasture pipette. 
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84AntLabplcepy">
+	<TEXT ID="84AntLabplcepy_one">
+		<TEXTVALUE>The empty tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="85AntLabopnrak">
+	<TEXT ID="85AntLabopnrak_one">
+		<TEXTVALUE>The cryo box is opened and a centrifuge tube is taken from it.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="86AntLabfilltub">
+	<TEXT ID="86AntLabfilltub_one">
+		<TEXTVALUE>The reaction mixture is transferred  to the centrifuge tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87AntLabreplcit">
+	<TEXT ID="87AntLabreplcit_one">
+		<TEXTVALUE>Then the centrifuge tube is kept in the cryo box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88AntLabfrecr">
+	<TEXT ID="88AntLabfrecr_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89AntLabplconfr">
+	<TEXT ID="89AntLabplconfr_one">
+		<TEXTVALUE>The freezer(4°C) is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="90AntLabplon">
+	<TEXT ID="90AntLabplon_one">
+		<TEXTVALUE> The centrifuge tube is kept in it (4°C) for 2hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91AntLabdisldwtr">
+	<TEXT ID="91AntLabdisldwtr_one">
+		<TEXTVALUE>The gel filtration column is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="92AntLabmilky">
+    <TEXT ID="92AntLabmilky_one">
+		<TEXTVALUE>The Sepharose CL-6B is transferred into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93AntLabpbs">
+	<TEXT ID="93AntLabpbs_one">
+		<TEXTVALUE>The PBS buffer is poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="94AntLabshoDrop">
+	<TEXT ID="94AntLabshoDrop_one">
+		<TEXTVALUE>After pouring, the PBS buffer is then removed  to a waste beaker by removing the cap at the bottom of the column.  After the removal of all PBS buffer, the column is recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95AntLabopnit">
+	<TEXT ID="95AntLabopnit_one">
+		<TEXTVALUE>The refrigerator is opened and the cryobox having centrifuge tube is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96AntLabplcontbl">
+	<TEXT ID="96AntLabplcontbl_one">
+		<TEXTVALUE>The box is opened and the centrifuge tube is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97AntLabopncap">
+	<TEXT ID="97AntLabopncap_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98AntLabopncap">
+	<TEXT ID="98AntLabopncap_one">
+		<TEXTVALUE>The reaction mixture in the centrifuge tube is poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="99AntLabreplcit03">
+	<TEXT ID="99AntLabreplcit03_one">
+		<TEXTVALUE>The empty centrifuge tube is kept in the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="100AntLabtkbfr">
+	<TEXT ID="100AntLabtkbfr_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101AntLabporpbs">
+	<TEXT ID="101AntLabporpbs_one">
+		<TEXTVALUE>The PBS buffer is again poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="102AntLabplctube">
+	<TEXT ID="102AntLabplctube_one">
+		<TEXTVALUE>The waste beaker is replaced by 4 test tubes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="103AntLabplctubehg">
+	<TEXT ID="103AntLabplctubehg_one">
+		<TEXTVALUE>The cap is removed and the solution is collected in 4 tubes. After that the column is recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="104AntLabreplcit">
+	<TEXT ID="104AntLabreplcit_one">
+		<TEXTVALUE>The rack with 4 test tubes is placed in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="105AntLabtkpipt">
+	<TEXT ID="105AntLabtkpipt_one">
+		<TEXTVALUE>A 1000 microlitre micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="106AntLaadj1000">
+	<TEXT ID="106AntLaadj1000_one">
+		<TEXTVALUE>A 1000 microlitre micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="107AntLabtktip">
+	<TEXT ID="107AntLabtktip_one">
+		<TEXTVALUE>A fresh tip inserted in the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108AntLabtkpbs">
+	<TEXT ID="108AntLabtkpbs_one">
+		<TEXTVALUE>1000 microlitre(1ml) of PBS buffer is pipetted from its bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109AntLabtkcut">
+	<TEXT ID="109AntLabtkcut_one">
+		<TEXTVALUE>A cuvette for Blank (labeled as ‘B’) is taken from its rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="110AntLabfilit">
+	<TEXT ID="110AntLabfilit_one">
+		<TEXTVALUE>1ml of PBS solution is transferred into the cuvette B.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111AntLabreplcit">
+	<TEXT ID="111AntLabreplcit_one">
+		<TEXTVALUE>The cuvette B is kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112AntLabtkpbs02">
+	<TEXT ID="112AntLabtkpbs02_one">
+		<TEXTVALUE>Again 1ml of PBS buffer is taken from its bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113AntLabtk02cut">
+	<TEXT ID="113AntLabtk02cut_one">
+		<TEXTVALUE>Another B labeled cuvette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="114AntLabfil02">
+	<TEXT ID="114AntLabfil02_one">
+		<TEXTVALUE>The PBS solution is transferred into the cuvette B.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115AntLabreplc02">
+	<TEXT ID="115AntLabreplc02_one">
+		<TEXTVALUE>This cuvette also kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="116AntLabopnit">
+	<TEXT ID="116AntLabopnit_one">
+		<TEXTVALUE>The lid of the Spectrophotometer is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117AntLabtkit">
+	<TEXT ID="117AntLabtkit_one">
+		<TEXTVALUE>One of the cuvettes labelled B is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118AntLabvipit">
+	<TEXT ID="118AntLabvipit_one">
+		<TEXTVALUE>The cuvette is wiped with tissue paper thoroughly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119AntLabplcit">
+	<TEXT ID="119AntLabplcit_one">
+		<TEXTVALUE>After that, this cuvette is placed in the slit situated in the spectrophotometer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120AntLabplcit02">
+	<TEXT ID="120AntLabplcit02_one">
+		<TEXTVALUE>Then the second Cuvette (labeled as B) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121AntLabvipit02">
+	<TEXT ID="121AntLabvipit02_one">
+		<TEXTVALUE>It is wiped with tissue paper thoroughly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="122AntLabclosit">	
+		<TEXT ID="122AntLabclosit_one">
+		<TEXTVALUE>This cuvette also placed in the spectrophotometer and the lid is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="123AntLaprsentr">
+	<TEXT ID="123AntLaprsentr_one">
+		<TEXTVALUE>The spectrophotometer is started.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124AntLapshoscn">
+	<TEXT ID="124AntLapshoscn_one">
+		<TEXTVALUE>This is the graph indicating the base line which is observed on monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="125AntLapopnvu">
+	<TEXT ID="125AntLapopnvu_one">
+		<TEXTVALUE>The lid of the spectrophotometer is opened and one of the Blank cuvettes(B) is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="126AntLapreplcit">
+	<TEXT ID="126AntLapreplcit_one">
+		<TEXTVALUE>The cuvette(B) is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="127AntLaprd1000">
+	<TEXT ID="127AntLaprd1000_one">
+		<TEXTVALUE>A 1000 microlitre pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="128AntLaptkpipt">
+	<TEXT ID="128AntLaptkpipt_one">
+		<TEXTVALUE>A fresh tip is inserted in the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="129AntLaptktb1">
+	<TEXT ID="129AntLaptktb1_one">
+		<TEXTVALUE>The test tube labeled as 1 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="130AntLaptklqd">
+	<TEXT ID="130AntLaptklqd_one">
+		<TEXTVALUE>1ml of sample is pipetted out from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="131AntLaptkreplc">
+	<TEXT ID="131AntLaptkreplc_one">
+		<TEXTVALUE>The test tube is kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="132AntLabtkT">
+	<TEXT ID="132AntLabtkT_one">
+		<TEXTVALUE>The Test cuvette (labeled as ‘T’) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="133AntLabfilT">
+	<TEXT ID="133AntLabfilT_one">
+		<TEXTVALUE>The Sample 1 is transferred into this cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="134AntLabreplcit">
+	<TEXT ID="134AntLabreplcit_one">
+		<TEXTVALUE>The cuvette is placed in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="135AntLabtkpipt">
+	<TEXT ID="135AntLabtkpipt_one">
+		<TEXTVALUE>The micropipette is replaced in its rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="136AntLabtkT02">
+	<TEXT ID="136AntLabtkT02_one">
+		<TEXTVALUE>The test cuvette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="137AntLabvipT02">
+	<TEXT ID="137AntLabvipT02_one">
+		<TEXTVALUE>The cuvette is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="138AntLabplcT">
+	<TEXT ID="138AntLabplcT_one">
+		<TEXTVALUE>Then the cuvette is placed in the spectrophotometer and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="139AntLaprsentr02">
+	<TEXT ID="139AntLaprsentr02_one">
+		<TEXTVALUE>The working is started.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="140AntLaplabl">
+	<TEXT ID="140AntLaplabl_one">
+		<TEXTVALUE>The resultant graph obtained is observed in the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="141AntLaptktb2">
+	<TEXT ID="141AntLaptktb2_one">
+		<TEXTVALUE>The sample 2 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="142AntLaptklqd02">
+	<TEXT ID="142AntLaptklqd02_one">
+		<TEXTVALUE>1ml of sample is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="143AntLapreplc2">
+	<TEXT ID="143AntLapreplc2_one">
+		<TEXTVALUE>The test tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="144AntLabtkT03">
+	<TEXT ID="144AntLabtkT03_one">
+		<TEXTVALUE>The test cuvette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="145AntLabfilT04">
+	<TEXT ID="145AntLabfilT04_one">
+		<TEXTVALUE>The sample 2 is transferred into the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="146AntLabvipT03">
+	<TEXT ID="146AntLabvipT03_one">
+		<TEXTVALUE>The cuvette is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="147AntLabplcT03">
+	<TEXT ID="147AntLabplcT03_one">
+		<TEXTVALUE>Then the cuvette is placed in the spectrophotometer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="148AntLaprsentr03">
+	<TEXT ID="148AntLaprsentr03_one">
+		<TEXTVALUE>The spectrophotometer is started.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="149AntLareslt">
+	<TEXT ID="149AntLareslt_one">
+		<TEXTVALUE>The resultant graph obtained is observed in the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="150AntLaptktb4">
+	<TEXT ID="150AntLaptktb4_one">
+		<TEXTVALUE>The sample 3 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="151AntLaptklqd03">
+	<TEXT ID="151AntLaptklqd03_one">
+		<TEXTVALUE>1ml of sample is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="152AntLaptktb4">
+	<TEXT ID="152AntLaptktb4_one">
+		<TEXTVALUE>The test tube is replaced in the rack.</TEXTVALUE>
+  </TEXT>
+</SCENE>
+
+<SCENE ID="153AntLabtkT04">
+	<TEXT ID="153AntLabtkT04_one">
+		<TEXTVALUE>The test cuvette is taken from the rack</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="154AntLabfilT004">
+	<TEXT ID="154AntLabfilT004_one">
+		<TEXTVALUE>The sample 3 is transferred into the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="155AntLabvipT04">
+	<TEXT ID="155AntLabvipT04_one">
+		<TEXTVALUE>The cuvette is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="156AntLabplcT04">
+	<TEXT ID="156AntLabplcT04_one">
+		<TEXTVALUE>Then the cuvette is placed in the spectrophotometer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="157AntLaprsentr04">
+	<TEXT ID="157AntLaprsentr04_one">
+		<TEXTVALUE>The spectrophotometer is started.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="158AntLareslt04">
+	<TEXT ID="158AntLareslt04_one">
+		<TEXTVALUE>The resultant graph obtained is observed in the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="159AntLaptktb5">
+	<TEXT ID="159AntLaptktb5_one">
+		<TEXTVALUE>The sample 4 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="160AntLaptklqd05">
+	<TEXT ID="160AntLaptklqd05_one">
+		<TEXTVALUE>1ml of sample is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="161AntLaptktb5">
+	<TEXT ID="161AntLaptktb5_one">
+		<TEXTVALUE>The test tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="162AntLabtkT05">
+	<TEXT ID="162AntLabtkT05_one">
+		<TEXTVALUE>The test cuvette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="163AntLabfilT005">
+	<TEXT ID="163AntLabfilT005_one">
+		<TEXTVALUE>The sample 4 is transferred into the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="164AntLabvipT05">
+	<TEXT ID="164AntLabvipT05_one">
+		<TEXTVALUE>The cuvette is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="165AntLabplcT05">
+	<TEXT ID="165AntLabplcT05_one">
+		<TEXTVALUE>Then the cuvette is placed in the spectrophotometer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="166AntLareslt05">
+	<TEXT ID="166AntLareslt05_one">
+		<TEXTVALUE>The resultant graph obtained is observed in the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="167AntLabtkpipt05">
+	<TEXT ID="167AntLabtkpipt05_one">
+		<TEXTVALUE>A 1000 microlitre micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="168AntLaprd100">
+	<TEXT ID="168AntLaprd100_one">
+		<TEXTVALUE>A 1000 microlitre micropipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="169AntLaptkpipt02">
+	<TEXT ID="169AntLaptkpipt02_one">
+		<TEXTVALUE>A fresh tip is inserted in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="170AntLaptktb04">
+	<TEXT ID="170AntLaptktb04_one">
+		<TEXTVALUE>The sample 1 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="171AntLaptklqd03">
+	<TEXT ID="171AntLaptklqd03_one">
+		<TEXTVALUE>The entire sample is pipette out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="172AntLaptkreplc05">
+	<TEXT ID="172AntLaptkreplc05_one">
+		<TEXTVALUE>The test tube is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="173AntLaptktb3">
+	<TEXT ID="173AntLaptktb3_one">
+		<TEXTVALUE>The sample 2 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="174AntLaptklqd03">
+	<TEXT ID="174AntLaptklqd03_one">
+		<TEXTVALUE>The sample 1 is transferred into the test tube with sample 2.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="175AntLaptktb4">
+	<TEXT ID="175AntLaptktb4_one">
+		<TEXTVALUE>The test tube labeled as sample 2 is replaced in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="176AntLaptk3000">
+	<TEXT ID="176AntLaptk3000_one">
+		<TEXTVALUE>A 3000 microlitre micropipette is taken.</TEXTVALUE>
+  </TEXT>
+</SCENE>
+
+<SCENE ID="177AntLaptktip">
+	<TEXT ID="177AntLaptktip_one">
+		<TEXTVALUE>A fresh tip is inserted in the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="178AntLaptkglir">
+	<TEXT ID="178AntLaptkglir_one">
+		<TEXTVALUE>3000 microlitre of 50% Glycerol is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="179AntLapfri">
+	<TEXT ID="179AntLapfri_one">
+		<TEXTVALUE>A Cryo vial is taken from a cryo box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="180AntLapfilit">
+	<TEXT ID="180AntLapfilit_one">
+		<TEXTVALUE>The 50% glycerol is transferred into the cryo vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="181AntLapreplcit">
+	<TEXT ID="181AntLapreplcit_one">
+		<TEXTVALUE>The vial is then replaced in the cryo box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="182AntLapreplcit">
+	<TEXT ID="182AntLapreplcit_one">
+		<TEXTVALUE>The used tip is discarded in the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="183AntLaptktip05">
+	<TEXT ID="183AntLaptktip05_one">
+		<TEXTVALUE>A fresh tip is inserted in the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="184AntLaptk2ndtB">
+	<TEXT ID="184AntLaptk2ndtB_one">
+		<TEXTVALUE>The test tube labeled as 2 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="185AntLaptkit">
+	<TEXT ID="185AntLaptkit_one">
+		<TEXTVALUE>The whole solution in the test tube is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="186AntLapreplc">
+	<TEXT ID="186AntLapreplc_one">
+		<TEXTVALUE>The empty test tube is kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="187AntLaptkit">
+	<TEXT ID="187AntLaptkit_one">
+		<TEXTVALUE>The cryo vial is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="188AntLapporit">
+	<TEXT ID="188AntLapporit_one">
+		<TEXTVALUE>The whole solution is transferred into the cryo vialand the whole solution in the vial is observed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="189AntLapreplci02">
+	<TEXT ID="189AntLapreplci02_one">
+		<TEXTVALUE>The vial is kept in the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="190AntLapcutpara">
+	<TEXT ID="190AntLapcutpara_one">
+		<TEXTVALUE>A piece of parafilm is cut from the parafilm roll.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="191AntLapsepit">
+	<TEXT ID="191AntLapsepit_one">
+		<TEXTVALUE>The outer covering is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="192AntLapretkit">
+	<TEXT ID="192AntLapretkit_one">
+		<TEXTVALUE>The cryo vial is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="193AntLapvintit">
+	<TEXT ID="193AntLapvintit_one">
+		<TEXTVALUE>The vial is wrapped with parafilm properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="194AntLapreplci03">
+	<TEXT ID="194AntLapreplci03_one">
+		<TEXTVALUE>The wrapped cryo vial with labeled sample (Antibody) is kept in the cryo box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="195AntLapplinfrcr">
+	<TEXT ID="195AntLapplinfrcr_one">
+		<TEXTVALUE>The -20 digree freezer is opened and the cryo box with vial is kept in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="196AntLap-20C">
+	<TEXT ID="196AntLap-20C_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

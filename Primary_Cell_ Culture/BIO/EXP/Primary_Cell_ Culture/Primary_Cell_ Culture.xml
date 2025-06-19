@@ -1,0 +1,1280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="1PriCelOpn">
+	<TEXT ID="1PriCelOpn_one">
+	<TEXTVALUE>Point the mouse to each requirement to know the name –click/ the continue button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2PriCebutens">
+	<TEXT ID="2PriCebutens_one">
+	<TEXTVALUE>Click any one of the button to move further.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+      
+<SCENE ID="3PriCeLaltoDry">
+	<TEXT ID="3PriCeLaltoDry_one">
+	<TEXTVALUE>Hands are sanitized with 70% ethanol and they are allowed to dry for 30 seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4PriCeLsprEth">
+	<TEXT ID="4PriCeLsprEth_one">
+	<TEXTVALUE>70% ethanol is sprayed into the Laminar Air Flow chamber and is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="5PriCeL20min">
+	<TEXT ID="5PriCeL20min_one">
+	<TEXTVALUE>The door of the laminar air flow is closed and the UV is switched on for 20 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6PriCeLincu">
+	<TEXT ID="6PriCeLincu_one">
+	<TEXTVALUE>Eggs in the incubator (38.5°C) placed in the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7PriCeLincopn">
+	<TEXT ID="7PriCeLincopn_one">
+	<TEXTVALUE>Opened the incubator and incubated egg (10 days) is taken out from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9PriCeLWipEgg">
+	<TEXT ID="9PriCeLWipEgg_one">
+	<TEXTVALUE>Egg is wiped with 70% ethanol and placed it into beaker with the blunt end facing upwards.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10PriCeLplacit">
+	<TEXT ID="10PriCeLplacit_one">
+	<TEXTVALUE>Egg is wiped with 70% ethanol and placed it into beaker with the blunt end facing upwards.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11PriCeLTKfors">
+	<TEXT ID="11PriCeLTKfors_one">
+	<TEXTVALUE>A forceps is taken and it is dipped into the alcohol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12PriCeLDipAlkhl">
+	<TEXT ID="12PriCeLDipAlkhl_one">
+	<TEXTVALUE>A forceps is taken and it is dipped into the alcohol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13PriCeLhTBrnr">
+	<TEXT ID="13PriCeLhTBrnr_one">
+	<TEXTVALUE>Flame the forceps and is dipped in sterile BSS solution for cool.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14PriCeLDpBSS">
+	<TEXT ID="14PriCeLDpBSS_one">
+	<TEXTVALUE>Flame the forceps and is dipped in sterile BSS solution for cool.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15PriCeLBrkShel">
+	<TEXT ID="15PriCeLBrkShel_one">
+	<TEXTVALUE>Crack the top with the back side of a sterile forceps and peel off the shell till the edge of the air sac.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16PriCeLremoovShel">
+	<TEXT ID="16PriCeLremoovShel_one">
+	<TEXTVALUE>Crack the top with the back side of a sterile forceps and peel off the shell till the edge of the air sac.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="17PriCeLDipinalkhl">
+	<TEXT ID="17PriCeLDipinalkhl_one">
+	<TEXTVALUE>Again resterilize the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18PriCeLhTBrnr02">
+	<TEXT ID="18PriCeLhTBrnr02_one">
+	<TEXTVALUE>Again resterilize the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19PriCeLDpBSS02">
+	<TEXT ID="19PriCeLDpBSS02_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20PriCeLPeelit">
+	<TEXT ID="20PriCeLPeelit_one">
+	<TEXTVALUE>Peel of the white shell membrane using the resterilized forceps.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="20PriCeLPeelit_two">
+	<TEXTVALUE>Then  chorioallentoic membarane (CAM) and vasculature are removed by forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21PriCeLRemovEmbrio">
+	<TEXT ID="21PriCeLRemovEmbrio_one">
+	<TEXTVALUE>Chick embryo in the egg shell is taken out using sterile curved forceps by grasping it gently under the neck.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22PriCeLplcembrio">
+	<TEXT ID="22PriCeLplcembrio_one">
+	<TEXTVALUE>The embryo is transferred into a 100mm petridish.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23PriCeLplcfitpipt">
+	<TEXT ID="23PriCeLplcfitpipt_one">
+	<TEXTVALUE>Pipette is connected with pipette pump and DBSS containing bottle is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24PriCeLtk">
+	<TEXT ID="24PriCeLtk_one">
+	<TEXTVALUE>Pipette out 20ml of DBSS solution and closed the DBSS containing is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25PriCepurit">
+	<TEXT ID="25PriCepurit_one">
+	<TEXTVALUE>20 ml is transferred into the petriplate containg chick embryo.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26PriCeLTKscps">
+	<TEXT ID="26PriCeLTKscps_one">
+	<TEXTVALUE>Two sterile scalpels are taken and dissect the embryo.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27PriCeLcut">
+	<TEXT ID="27PriCeLcut_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28PriCeAringedt">
+	<TEXT ID="28PriCeAringedt_one">
+	<TEXTVALUE>Arrange the organ rudiments around the periphery of the dish. From the right, clockwise, we have the following organs: brain, heart, lungs, liver, gizzard, kidneys, spinal cord, skin and muscle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29PriCeTk1000">
+	<TEXT ID="29PriCeTk1000_one">
+	<TEXTVALUE>A 100 - 1000 µl pipette is taken from the pipette rack and is adjusted to 1000µl.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30PriCeArng1000">
+	<TEXT ID="30PriCeArng1000_one">
+	<TEXTVALUE>A 100 - 1000 µl pipette is taken from the pipette rack and is adjusted to 1000µl.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="31PriCeTktip">
+	<TEXT ID="31PriCeTktip_one">
+	<TEXTVALUE>Fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="32PriCetripsi">
+	<TEXT ID="32PriCetripsi_one">
+	<TEXTVALUE>0.25% Trypsin solution containing bottle is opened and 1000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33PriCeTktub">
+	<TEXT ID="33PriCeTktub_one">
+	<TEXTVALUE>Test tube is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34PriCeopnit">
+	<TEXT ID="34PriCeopnit_one">
+	<TEXTVALUE>Test tube is opened and1000µl of 0.25% Trypsin solution is transferred into the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="35PriCeDiscdit">
+	<TEXT ID="35PriCeDiscdit_one">
+	<TEXTVALUE>Tip is discarding in to the waster beaker and pipette is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36PriCerepce">
+	<TEXT ID="36PriCerepce_one">
+	<TEXTVALUE>Tip is discarding in to the waster beaker and pipette is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37PriCetkfors">
+	<TEXT ID="37PriCetkfors_one">
+	<TEXTVALUE>A forceps is taken and it is dipped into the alcohol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38PriCeDipinAlc">
+	<TEXT ID="38PriCeDipinAlc_one">
+	<TEXTVALUE>A forceps is taken and it is dipped into the alcohol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39PriCeflam">
+	<TEXT ID="39PriCeflam_one">
+	<TEXTVALUE>Flame the forceps and is dipped in sterile BSS solution for cool.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40PriCeDip50f">
+	<TEXT ID="40PriCeDip50f_one">
+	<TEXTVALUE>Flame the forceps and is dipped in sterile BSS solution for cool.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41PriCetkit">
+	<TEXT ID="41PriCetkit_one">
+	<TEXTVALUE>Take any one of the tissue from the petri plate and transferred  it into the test tube containing 0.25% trypsin using a forceps, closed the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42PriCedropit">
+	<TEXT ID="42PriCedropit_one">
+	<TEXTVALUE>Take any one of the tissue from the petri plate and transferred  it into the test tube containing 0.25% trypsin using a forceps, closed the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43PriCeplcin">
+	<TEXT ID="43PriCeplcin_one">
+	<TEXTVALUE>The refrigerator door  is opened and the test tube containing 0.25% trypsin and tissue is kept in it (40C) for 6- 18 hours for incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44Pri6-18hr">
+	<TEXT ID="44Pri6-18hr_one">
+	<TEXTVALUE>The refrigerator door  is opened and the test tube containing 0.25% trypsin and tissue is kept in it (40C) for 6- 18 hours for incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45tkit">
+	<TEXT ID="45tkit_one">
+	<TEXTVALUE>The refrigerator door  is opened and the test tube is taken out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="46PriCedropit">
+	<TEXT ID="46PriCedropit_one">
+	<TEXTVALUE>The test tube is opened and carefully discarded the trypsin from the test tubes without disturbing the tissue, closed the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47PriCediccard">
+	<TEXT ID="47PriCediccard_one">
+	<TEXTVALUE>The test tube is opened and carefully discarded the trypsin from the test tubes without disturbing the tissue, closed the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48Prirecap">
+	<TEXT ID="48Prirecap_one">
+	<TEXTVALUE>The test tube is opened and carefully discarded the trypsin from the test tubes without disturbing the tissue, closed the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="49Prplconrac">
+	<TEXT ID="49Prplconrac_one">
+	<TEXTVALUE>The test tubes are placed into the test tube rack and test tube rack is taken from the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50Prtkit">
+	<TEXT ID="50Prtkit_one">
+	<TEXTVALUE>The test tubes are placed into the test tube rack and test tube rack is taken from the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51Prpincub">
+	<TEXT ID="51Prpincub_one">
+	<TEXTVALUE>Opened the  37°C incubator and the test tube containing the tissue in the residual trypsin  kept in it  for 15- 20 minutes for incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52Prpopnincu">
+	<TEXT ID="52Prpopnincu_one">
+	<TEXTVALUE>Opened the  37°C  incubator and the test tube containing the tissue in the residual trypsin  kept in it  for 15- 20 minutes for incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="53Prpplcot">
+	<TEXT ID="53Prpplcot_one">
+	<TEXTVALUE>Opened the  37°C  incubator and the test tube containing the tissue in the residual trypsin  kept in it  for 15- 20 minutes for incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54Prpclosit">
+	<TEXT ID="54Prpclosit_one">
+	<TEXTVALUE>Opened the  37°C  incubator and the test tube containing the tissue in the residual trypsin  kept in it  for 15- 20 minutes for incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55Prfor15-20">
+	<TEXT ID="55Prfor15-20_one">
+	<TEXTVALUE>Opened the  37°C  incubator and the test tube containing the tissue in the residual trypsin  kept in it  for 15- 20 minutes for incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55Propn02">
+	<TEXT ID="55Propn02_one">
+	<TEXTVALUE>The incubator door is opened and the test tube is taken out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56Propn03">
+	<TEXT ID="56Propn03_one">
+	<TEXTVALUE>The incubator door is opened and the test tube is taken out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57Propn02">
+	<TEXT ID="57Propn02_one">
+	<TEXTVALUE>Incubator door is closed and then the test tube is placed in to the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58Propnpetri">
+	<TEXT ID="58Propnpetri_one">
+	<TEXTVALUE>Two petri plates is opened  in the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59Prtkppt">
+	<TEXT ID="59Prtkppt_one">
+	<TEXTVALUE>A 100- 2000 µl pipette is taken from the pipette rack and is adjusted to 1000µl.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60Prarg2000">
+	<TEXT ID="60Prarg2000_one">
+	<TEXTVALUE>A 100- 2000 µl pipette is taken from the pipette rack and is adjusted to 1000µl.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="61Prtkit">
+	<TEXT ID="61Prtkit_one">
+	<TEXTVALUE>A fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62Prtkdmem">
+	<TEXT ID="62Prtkdmem_one">
+	<TEXTVALUE>DMEM media containing bottle is opened and 2000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="63Prpurit">
+	<TEXT ID="63Prpurit_one">
+	<TEXTVALUE>Similarly same amount of DMEM media is poured into the petriplate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64Prtkdmem02">
+	<TEXT ID="64Prtkdmem02_one">
+	<TEXTVALUE>Similarly same amount of DMEM media is poured into the other petriplate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65Prpurit02">
+	<TEXT ID="65Prpurit02_one">
+	<TEXTVALUE>Similarly same amount of DMEM media is poured into the other petriplate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66Propnito">
+	<TEXT ID="66Propnito_one">
+	<TEXTVALUE>Similarly same amount of DMEM media is poured into the test tube containing tissue and the residual trypsin and mixing the solution well using the same pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67Ptktub">
+	<TEXT ID="67Ptktub_one">
+	<TEXTVALUE>Similarly same amount of DMEM media is poured into the test tube containing tissue and the residual trypsin and mixing the solution well using the same pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68Pfildmem">
+	<TEXT ID="68Pfildmem_one">
+	<TEXTVALUE>Similarly same amount of DMEM media is poured into the test tube containing tissue and the residual trypsin and mixing the solution well using the same pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69Pirmixit">
+	<TEXT ID="69Pirmixit_one">
+	<TEXTVALUE>Then 1000 µl of this solution is poured into the petriplate and mixing the solution well using pipettes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70Pircloscap">
+	<TEXT ID="70Pircloscap_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71Pirmix02">
+	<TEXT ID="71Pirmix02_one">
+	<TEXTVALUE>Similarly same amount is transferred into the petriplate and mixing the solution well using pipettes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="72Piropntube02">
+	<TEXT ID="72Piropntube02_one">
+	<TEXTVALUE>Similarly same amount is transferred into the petriplate and mixing the solution well using pipettes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73Pirmixit03">
+	<TEXT ID="73Pirmixit03_one">
+	<TEXTVALUE>Similarly same amount is transferred into the petriplate and mixing the solution well using pipettes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="74Piclospetri">
+	<TEXT ID="74Piclospetri_one">
+	<TEXTVALUE>Petri plates are closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75Pitk02">
+	<TEXT ID="75Pitk02_one">
+	<TEXTVALUE>Petriplate is taken from the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76Piopnincu">
+	<TEXT ID="76Piopnincu_one">
+	<TEXTVALUE>CO&#8322; Incubator is opened and the Petri plates are kept in it for overnight incubation, then the CO&#8322; incubator is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77Pioplcinincu">
+	<TEXT ID="77Pioplcinincu_one">
+	<TEXTVALUE>CO&#8322; Incubator is opened and the Petri plates are kept in it for overnight incubation, then the CO&#8322; incubator is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78Piclosit">
+	<TEXT ID="78Piclosit_one">
+	<TEXTVALUE>CO&#8322; Incubator is opened and the Petri plates are kept in it for overnight incubation, then the CO&#8322; incubator is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79Pi12hr">
+	<TEXT ID="79Pi12hr_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80Piopn03">
+	<TEXT ID="80Piopn03_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81Pitkit">
+	<TEXT ID="81Pitkit_one">
+	<TEXTVALUE>A petriplate is taken from the CO&#8322; incubator and place it on the inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82Piplconmicro">
+	<TEXT ID="82Piplconmicro_one">
+	<TEXTVALUE>A petriplate is taken from the CO&#8322; incubator and place it on the inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="83Piplcricult">
+	<TEXT ID="83Piplcricult_one">
+	<TEXTVALUE>Plate is viewed under inverted microscope for checking the confluency of plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84Piptkfrmit04">
+	<TEXT ID="84Piptkfrmit04_one">
+	<TEXTVALUE>Plate is taken from the microscope and is kept in to the CO&#8322; Incubator, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="85Pireplcit">
+	<TEXT ID="85Pireplcit_one">
+	<TEXTVALUE>Plate is taken from the microscope and is kept in to the CO&#8322; Incubator, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="86Piclosit">
+	<TEXT ID="86Piclosit_one">
+	<TEXTVALUE>Plate is taken from the microscope and is kept in to the CO&#8322; Incubator, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87Pifor5-7day">
+	<TEXT ID="87Pifor5-7day_one">
+	<TEXTVALUE>And incubate for 5 – 7 days till we get a confluent culture (change the medium in every 3 days).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88Pioppen05">
+	<TEXT ID="88Pioppen05_one">
+	<TEXTVALUE>After incubation, CO&#8322;  incubator is opened and a petriplate is taken from the CO&#8322; incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89Piplcinincu">
+	<TEXT ID="89Piplcinincu_one">
+	<TEXTVALUE>After incubation, CO&#8322;  incubator is opened and a petriplate is taken from the CO&#8322; incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="90Piplconmicrcop">
+	<TEXT ID="90Piplconmicrcop_one">
+	<TEXTVALUE>Petriplate is place on the inverted microscope and viewed under inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91Piplcrisut">
+	<TEXT ID="91Piplcrisut_one">
+	<TEXTVALUE>Petriplate is place on the inverted microscope and viewed under inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="92Pibutten">
+	<TEXT ID="92Pibutten_one">
+	<TEXTVALUE>Click any one of the button to move further.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93Piwttodry">
+	<TEXT ID="93Piwttodry_one">
+	<TEXTVALUE>Hands are sanitized with 70% ethanol and they are allowed to dry for 30 seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="94PspryEth">
+	<TEXT ID="94PspryEth_one">
+	<TEXTVALUE>70% ethanol is sprayed into the Laminar Air Flow chamber and is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95Psprofflit">
+	<TEXT ID="95Psprofflit_one">
+	<TEXTVALUE>The door of the laminar air flow is closed and the UV is switched on for 20 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96Paringit">
+	<TEXT ID="96Paringit_one">
+	<TEXTVALUE>All the materials required for the experiment are arranged inside the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97Patk1000tube">
+	<TEXT ID="97Patk1000tube_one">
+	<TEXTVALUE>A 100 - 1000 µl pipette is taken from the pipette rack and is adjusted to 1000µl.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97Paarng1000">
+	<TEXT ID="97Paarng1000_one">
+	<TEXTVALUE>A 100 - 1000 µl pipette is taken from the pipette rack and is adjusted to 1000µl.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98Pafixit">
+	<TEXT ID="98Pafixit_one">
+	<TEXTVALUE>A fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="99PaclosBlech">
+	<TEXT ID="99PaclosBlech_one">
+	<TEXTVALUE>5% bleach solution containing bottle is opened and 1000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="100Patkfishemb">
+	<TEXT ID="100Patkfishemb_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is opened and transfer 1000µl of 5% bleach solution in to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101Patramit">
+	<TEXT ID="101Patramit_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is opened and transfer 1000µl of 5% bleach solution in to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="102replcit2mini">
+	<TEXT ID="102replcit2mini_one">
+	<TEXTVALUE>Treat the embryo with 1000µl  0.5% bleach solution for 2minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="103Pritkit">
+	<TEXT ID="103Pritkit_one">
+	<TEXTVALUE>Decant the solution from the petriplate using pipette and placed it in to the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="104removliqd">
+	<TEXT ID="104removliqd_one">
+	<TEXTVALUE>Decant the solution from the petriplate using pipette and placed it in to the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="105replaceit">
+	<TEXT ID="105replaceit_one">
+	<TEXTVALUE>Decant the solution from the petriplate using pipette and placed it in to the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="106discard">
+	<TEXT ID="106discard_one">
+	<TEXTVALUE>The tip and solution is discarded in to the waster beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="107fixtip">
+	<TEXT ID="107fixtip_one">
+	<TEXTVALUE>A fresh tip is taken from the tip box  and Hank’s saline  solution containing bottle is opened and 1000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108tkHank">
+	<TEXT ID="108tkHank_one">
+	<TEXTVALUE>A fresh tip is taken from the tip box  and Hank’s saline  solution containing bottle is opened and 1000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109tkplt">
+	<TEXT ID="109tkplt_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109oppetri">
+	<TEXT ID="109oppetri_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is opened and transfer 1000µl of Hank’s saline solution in to it.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="109oppetri_two">
+	<TEXTVALUE>Then mix the solution in the petri plate very well and the solution is decanting using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="110replace">
+	<TEXT ID="110replace_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111discardtip">
+	<TEXT ID="111discardtip_one">
+	<TEXTVALUE>The tip and solution is discarded in to the waster beaker and is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112tkppt">
+	<TEXT ID="112tkppt_one">
+	<TEXTVALUE>The tip and solution is discarded in to the wast beaker and is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113OPNPATRI">
+	<TEXT ID="113OPNPATRI_one">
+	<TEXTVALUE>Zebra fish embryo containing  petri plate and another 60mm sterile petri plate is opened  in the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="114Pritkspa">
+	<TEXT ID="114Pritkspa_one">
+	<TEXTVALUE>Two sterile scalpels are taken and all embryo is transferred in to another 60mm sterile petriplate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115Pritkhgd">
+	<TEXT ID="115Pritkhgd_one">
+	<TEXTVALUE>Two sterile scalpels are taken and all embryo is transferred in to another 60mm sterile petriplate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="116Prplotrplt">
+	<TEXT ID="116Prplotrplt_one">
+	<TEXTVALUE>Two sterile scalpels are taken and all embryo is transferred in to another 60mm sterile petriplate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117Prcampleted">
+	<TEXT ID="117Prcampleted_one">
+	<TEXTVALUE>Two sterile scalpels are taken and all embryo is transferred in to another 60mm sterile petriplate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118replcforc">
+	<TEXT ID="118replcforc_one">
+	<TEXTVALUE>Forceps is replaced into the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119tkit">
+	<TEXT ID="119tkit_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is taken and placed it under the simple binocular microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120plconmicro">
+	<TEXT ID="120plconmicro_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is taken and placed it under the simple binocular microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121plcrisult">
+	<TEXT ID="121plcrisult_one">
+	<TEXTVALUE>Plate is viewed under simple binocular microscope and removes the chorion from the entire embryo using watchmaker’s forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="122plbrkcover">
+	<TEXT ID="122plbrkcover_one">
+	<TEXTVALUE>Plate is viewed under simple binocular microscope and removes the chorion from the entire embryo using watchmaker’s forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="123remoov">
+	<TEXT ID="123remoov_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is replaced in to the laminar air flow chamber and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124replcit">
+	<TEXT ID="124replcit_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is replaced in to the laminar air floe chamber and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="125replcit">
+	<TEXT ID="125replcit_one">
+	<TEXTVALUE>A 1000 µl pipette is taken from the pipette rack and a fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="126fixtip">
+	<TEXT ID="126fixtip_one">
+	<TEXTVALUE>A 1000 µl pipette is taken from the pipette rack and a fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="127tkCacm">
+	<TEXT ID="127tkCacm_one">
+	<TEXTVALUE>Calcium free Ringer’s solution containing bottle is opened and 1000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="128tkpetri">
+	<TEXT ID="128tkpetri_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is opened and transfer 1000µl of Calcium free Reinger’s solution in to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="129opnpetri">
+	<TEXT ID="129opnpetri_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is opened and transfer 1000µl of Calcium free Reinger’s solution in to it.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="129opnpetri_two">
+	<TEXTVALUE>Then mix the solution in the petri plate very well and the solution is decanted using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="130replcit">
+	<TEXT ID="130replcit_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="131discard">
+	<TEXT ID="131discard_one">
+	<TEXTVALUE>The tip and solution is discarded in to the waster beaker and  a fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="132fixit">
+	<TEXT ID="132fixit_one">
+	<TEXTVALUE>The tip and solution is discarded in to the waster beaker and  a fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="133calcm">
+	<TEXT ID="133calcm_one">
+	<TEXTVALUE>Again Calcium free Reinger’s solution containing bottle is opened and 1000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="134filcalc">
+	<TEXT ID="134filcalc_one">
+	<TEXTVALUE>Zebra fish embryo containing petri plate is opened and transfer 1000µl of Calcium free Reinger’s solution in to it.The Zebra fish embryo is sucking by using pasture pipette and transfer into another sterile petri plate.
+</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="135dropinpetri">
+	<TEXT ID="135dropinpetri_one">
+	<TEXTVALUE>The Zebra fish embryo is sucking by using pasture pipette and transfer into another sterile petri plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="136pestelppt">
+	<TEXT ID="136pestelppt_one">
+	<TEXTVALUE>Again the Zebra fish embryo is sucking by using pasture pipette and transfer into another sterile petri plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="137inpetri">
+	<TEXT ID="137inpetri_one">
+	<TEXTVALUE>Again the Zebra fish embryo is sucking by using pasture pipette and transfer into another sterile petri plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="138priplacglas">
+	<TEXT ID="138priplacglas_one">
+	<TEXTVALUE>A sterile cover slip is taken from the cover slip box and the cover slip is  placed over the embryos And smash it with hands and the cover slip is removed by using the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="139ppt">
+	<TEXT ID="139ppt_one">
+	<TEXTVALUE>A 1000 µl pipette is taken from the pipette rack and a fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="141prfixthetip">
+	<TEXT ID="141prfixthetip_one">
+	<TEXTVALUE>A 1000 µl pipette is taken from the pipette rack and a fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="142prtkcal">
+	<TEXT ID="142prtkcal_one">
+	<TEXTVALUE>Calcium free Reinger’s solution containing bottle is opened and 1000µl is pipette out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="143prtkgfdg">
+	<TEXT ID="143prtkgfdg_one">
+	<TEXTVALUE>Zebra fish embryos containing petri plate is opened and gently poured 1000µl of Calcium free Reinger’s solution in to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="144prtkgfdg">
+	<TEXT ID="144prtkgfdg_one">
+	<TEXTVALUE>Then swirled the petri plate containing Zebra fish embryos and replaced it in to the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="145prplcit">
+	<TEXT ID="145prplcit_one">
+	<TEXTVALUE>Then swirled the petri plate containing Zebra fish embryos and replaced it in to the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="146discard">
+	<TEXT ID="146discard_one">
+	<TEXTVALUE>The tip is discarded in to the waster beaker and a fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="147prtkTip">
+	<TEXT ID="147prtkTip_one">
+	<TEXTVALUE>The tip is discarded in to the waster beaker and a fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="148prtkCels">
+	<TEXT ID="148prtkCels_one">
+	<TEXTVALUE>The Zebra fish embryos and Calcium free Reinger’s solution (suspension) is pipette out from the Petri plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="149prtktub">
+	<TEXT ID="149prtktub_one">
+	<TEXTVALUE>An eppendorf tube is taken from the rack and the suspension is poured into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="150filit">
+	<TEXT ID="150filit_one">
+	<TEXTVALUE>An eppendorf tube is taken from the rack and the suspension is poured into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="151opncentri">
+	<TEXT ID="151opncentri_one">
+	<TEXTVALUE>The centrifuge  is opened and the eppendorf tube containing  suspension and balancing tube  is placed in it, </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="151aoptkit">
+	<TEXT ID="151aoptkit_one">
+	<TEXTVALUE>The centrifuge  is opened and the eppendorf tube containing  suspension and balancing tube  is placed in it, </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="152placit">
+	<TEXT ID="152placit_one">
+	<TEXTVALUE>The centrifuge  is opened and the eppendorf tube containing  suspension and balancing tube  is placed in it, </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="153priclosit">
+	<TEXT ID="153priclosit_one">
+	<TEXTVALUE>The centrifuge  is closed and it is  adjusted to the speed at  300x g and time 7 minute, then  start it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="154hht300">
+	<TEXT ID="154hht300_one">
+	<TEXTVALUE>The centrifuge  is closed and it is  adjusted to the speed at  300x g and time 7 minute, then  start it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="155oppenit">
+	<TEXT ID="155oppenit_one">
+	<TEXTVALUE>The eppendorf  tube is opened and the eppendorf tube containing suspension is taken out from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="156optkit">
+	<TEXT ID="156optkit_one">
+	<TEXTVALUE>The eppendorf  tube is opened and the eppendorf tube containing suspension is taken out from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="157discard">
+	<TEXT ID="157discard_one">
+	<TEXTVALUE>The supernatant is discarded in to the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="158closit">
+	<TEXT ID="158closit_one">
+	<TEXTVALUE>The remaining suspension is mixed using the pasture pipette, close it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="159placit">
+	<TEXT ID="159placit_one">
+	<TEXTVALUE>The remaining suspension in eppendorf tub is replaced into the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="160ptppt">
+	<TEXT ID="160ptppt_one">
+	<TEXTVALUE>A 100-1000 µl pipette is taken from the pipette rack and 1000 µl is  adjusted  to it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="161pt1000">
+	<TEXT ID="161pt1000_one">
+	<TEXTVALUE>A 100-1000 µl pipette is taken from the pipette rack and 1000 µl is  adjusted  to it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="162tktip02">
+	<TEXT ID="162tktip02_one">
+	<TEXTVALUE>A fresh tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="163tkL-15">
+	<TEXT ID="163tkL-15_one">
+	<TEXTVALUE>L-15 media containing bottle is opened and 1000µl is pipette   out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="164tktubfrmrack">
+	<TEXT ID="164tktubfrmrack_one">
+	<TEXTVALUE>The remaining suspension in eppendorf tube is taken from the rack and poured the L-15 media  into it, and mix well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="165tkfillit">
+	<TEXT ID="165tkfillit_one">
+	<TEXTVALUE>The remaining suspension in eppendorf tube is taken from the rack and poured the L-15 media  into it, and mix well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="166opnincu">
+	<TEXT ID="166opnincu_one">
+	<TEXTVALUE>The centrifuge  is opened and the remaining suspension in eppendorf tube and balancing tube  is placed in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="167tktoit">
+	<TEXT ID="167tktoit_one">
+	<TEXTVALUE>The centrifuge  is opened and the remaining suspension in eppendorf tube and balancing tube  is placed in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="168closit">
+	<TEXT ID="168closit_one">
+	<TEXTVALUE>The centrifuge  is closed and it is adjusted to  the speed at 300x g and time 7 minute and start it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="169Adj300">
+	<TEXT ID="169Adj300_one">
+	<TEXTVALUE>The centrifuge  is closed and it is adjusted to  the speed at 300x g and time 7 minute and start it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="170oppit">
+	<TEXT ID="170oppit_one">
+	<TEXTVALUE>The centrifuge tube  is opened and the eppendorf tube containing suspension is taken out from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="171tkfrmit">
+	<TEXT ID="171tkfrmit_one">
+	<TEXTVALUE>The centrifuge tube  is opened and the eppendorf tube containing suspension is taken out from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="172Discard2">
+	<TEXT ID="172Discard2_one">
+	<TEXTVALUE>The supernatant is discarded in to the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="173replac">
+	<TEXT ID="173replac_one">
+	<TEXTVALUE>The remaining precipitate in eppendorf tub is replaced into the laminar air flow chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="173tkppt">
+	<TEXT ID="173tkppt_one">
+	<TEXTVALUE>A 100-1000 µl pipette is taken from the pipette rack and 1000 µl is  adjusted  to it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="174ad1000">
+	<TEXT ID="174ad1000_one">
+	<TEXTVALUE>A 100-1000 µl pipette is taken from the pipette rack and 1000 µl is  adjusted  to it. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="175fixtip">
+	<TEXT ID="175fixtip_one">
+	<TEXTVALUE>A fresh tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="176L-15">
+	<TEXT ID="176L-15_one">
+	<TEXTVALUE>Again L-15 media containing bottle is opened and 1000µl is pipette   out from the bottle, close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="177TkPlt">
+	<TEXT ID="177TkPlt_one">
+	<TEXTVALUE>The remaining precipitate in eppendorf tube is taken from the rack and poured the L-15 media into it, and mix well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="178opnit04">
+	<TEXT ID="178opnit04_one">
+	<TEXTVALUE>Remaining precipitate in eppendorf tube is taken from the rack and poured the L-15 media into it, and mix well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="179replconrak">
+	<TEXT ID="179replconrak_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="180tktub">
+	<TEXT ID="180tktub_one">
+	<TEXTVALUE>Screw cap tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="181show">
+	<TEXT ID="181show_one">
+	<TEXTVALUE>The tube is opened and  pipette containing solution is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="182tubreplc">
+	<TEXT ID="182tubreplc_one">
+	<TEXTVALUE>The tube is closed and is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="183discrd">
+	<TEXT ID="183discrd_one">
+	<TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="184fixtip">
+	<TEXT ID="184fixtip_one">
+	<TEXTVALUE>A fresh tip is taken from the tip box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="185opnbotl">
+	<TEXT ID="185opnbotl_one">
+	<TEXTVALUE>The bottle containing L- 15 media with serum is opened 1000µl of taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="186erps">
+	<TEXT ID="186erps_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="187showit">
+	<TEXT ID="187showit_one">
+	<TEXTVALUE>The tube is opened and  1000µl of L- 15 media is added into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="188replc05">
+	<TEXT ID="188replc05_one">
+	<TEXTVALUE>The tube is closed and the solution in the tube is mixed by shaking.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="189opnpetri">
+	<TEXT ID="189opnpetri_one">
+	<TEXTVALUE>The petriplate is opened and the solution in the tube is transferred into it. Then the plate is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="190shoincu">
+	<TEXT ID="190shoincu_one">
+	<TEXTVALUE>Incubator (28.5°C)</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="191opnincu">
+	<TEXT ID="191opnincu_one">
+	<TEXTVALUE>The incubator is opened and the Petri plate is placed in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="192plcpetri">
+	<TEXT ID="192plcpetri_one">
+	<TEXTVALUE>The incubator is opened and the Petri plate is placed in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="193closincu">
+	<TEXT ID="193closincu_one">
+	<TEXTVALUE>The incubator is closed and the cells are incubated overnight at 28.5°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="194overnit">
+	<TEXT ID="194overnit_one">
+	<TEXTVALUE>The incubator is closed and the cells are incubated overnight at 28.5°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="195opnit">
+	<TEXT ID="195opnit_one">
+	<TEXTVALUE>Incubator is opened and the Petri plate is taken out  from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="196tkptri">
+	<TEXT ID="196tkptri_one">
+	<TEXTVALUE>Incubator is opened and the Petri plate is taken out  from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="197tkfrmmicro">
+	<TEXT ID="197tkfrmmicro_one">
+	<TEXTVALUE>The plate is placed under an inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="198risult">
+	<TEXT ID="198risult_one">
+	<TEXTVALUE>The cells are observed through an inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="199remoovit">
+	<TEXT ID="199remoovit_one">
+	<TEXTVALUE>The Petri plate is taken from the inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="200opnincu">
+	<TEXT ID="200opnincu_one">
+	<TEXTVALUE>The incubator is opened and the Petri plate is placed in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="201opnglas">
+	<TEXT ID="201opnglas_one">
+	<TEXTVALUE>The incubator is opened and the Petri plate is placed in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="202closdor">
+	<TEXT ID="202closdor_one">
+	<TEXTVALUE>The incubator is closed and the cells are incubated for 5-7 days at 28.5°C. ( Change the media every 3 days).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="203Over28.5">
+	<TEXT ID="203Over28.5_one">
+	<TEXTVALUE>The incubator is closed and the cells are incubated for 5-7 days at 28.5°C. ( Change the media every 3 days).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="204opnit">
+	<TEXT ID="204opnit_one">
+	<TEXTVALUE>Incubator is opened and the Petri plate is taken out  from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="205closit">
+	<TEXT ID="205closit_one">
+	<TEXTVALUE>Incubator is opened and the Petri plate is taken out  from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="206plconmicro">
+	<TEXT ID="206plconmicro_one">
+	<TEXTVALUE>The plate is placed under an inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="207risult">
+	<TEXT ID="207risult_one">
+	<TEXTVALUE>The cells are observed through an inverted microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

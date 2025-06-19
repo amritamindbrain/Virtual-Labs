@@ -1,0 +1,856 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="01RouVirintro">
+	<TEXT ID="01RouVirintro_one">
+	<TEXTVALUE>Click on each apparatus/reagents to know its name or click on ‘continue button’ to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="02RouVirbutn">
+	<TEXT ID="02RouVirbutn_one">
+	<TEXTVALUE>Click on any one of the inoculation site to proceed with the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="03RouVirtkegg">
+	<TEXT ID="03RouVirtkegg_one">
+	<TEXTVALUE>A 9 day old or 10 day old embryonated egg is taken from the egg rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="04RouVirtklit">
+	<TEXT ID="04RouVirtklit_one">
+	<TEXTVALUE>A high intensity LED torch is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="05RouVirlitegg">
+	<TEXT ID="05RouVirlitegg_one">
+	<TEXTVALUE>The egg is then candled with high intensity LED torch. The viability of the egg is observed.The internal structures of the embryonated eggs are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="06RouVirreplclit">
+	<TEXT ID="06RouVirreplclit_one">
+	<TEXTVALUE>The LED torch is then kept back in the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="07RouVirtkpen">
+	<TEXT ID="07RouVirtkpen_one">
+	<TEXTVALUE>A marker pen is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="08RouVirtkmarking">
+	<TEXT ID="08RouVirtkmarking_one">
+	<TEXTVALUE>Air space, suitable inoculation site and location of eye of the embryo were marked. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="09RouVirreplcmuta">
+	<TEXT ID="09RouVirreplcmuta_one">
+	<TEXTVALUE>The embryonated egg is the kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10RouVirtkcotan">
+	<TEXT ID="10RouVirtkcotan_one">
+	<TEXTVALUE>A small piece of cotton is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11RouVirtkspt">
+	<TEXT ID="11RouVirtkspt_one">
+	<TEXTVALUE>The wash bottle containing spirit is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12RouVirpurspt">
+	<TEXT ID="12RouVirpurspt_one">
+	<TEXTVALUE>Small volume of spirit is then squeezed into the cotton to make it wet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="13RouVirreplcit">
+	<TEXT ID="13RouVirreplcit_one">
+	<TEXTVALUE>The wash bottle with spirit is then kept back in the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14RouVirtkmuta">
+	<TEXT ID="14RouVirtkmuta_one">
+	<TEXTVALUE>The labeled embryonated egg is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15RouVivipspt">
+	<TEXT ID="15RouVivipspt_one">
+	<TEXTVALUE>The inoculation site is then wiped with wet cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16RouVipnchit">
+	<TEXT ID="16RouVipnchit_one">
+	<TEXTVALUE>A small hole is drilled in the inoculation site using an egg shell puncher.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="17RouVirerplcm2">
+	<TEXT ID="17RouVirerplcm2_one">
+	<TEXTVALUE>The embryonated egg is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18RouVirtksirng">
+	<TEXT ID="18RouVirtksirng_one">
+	<TEXTVALUE>1 ml syringe and needle is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19RouVirfixsiri">
+	<TEXT ID="19RouVirfixsiri_one">
+	<TEXTVALUE>The needle is then attached to the syringe and the cap of the needle is then removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20RouVirtkvir2">
+	<TEXT ID="20RouVirtkvir2_one">
+	<TEXTVALUE>The bijoux bottle containing influenza virus is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21RouViropnkupi">
+	<TEXT ID="21RouViropnkupi_one">
+	<TEXTVALUE>The lid of the tube is then opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22RouVircleup">
+	<TEXT ID="22RouVircleup_one">
+	<TEXTVALUE>Using the sterile needle and syringe 0.1 ml of the viral suspension (inoculums) is withdrawn and the lid of the bottle is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23RouVirreplcvirs">
+	<TEXT ID="23RouVirreplcvirs_one">
+	<TEXTVALUE>The bijoux bottle containing influenza virus is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24Routkmuta">
+	<TEXT ID="24Routkmuta_one">
+	<TEXTVALUE>The labeled egg is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25Routsirc">
+	<TEXT ID="25Routsirc_one">
+	<TEXTVALUE>The needle is then placed into the inoculation site (Allantoic membrane).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26Routsiridigram">
+	<TEXT ID="26Routsiridigram_one">
+	<TEXTVALUE>The Influenza viral suspension is then injected into the Allantoic membrane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27Routsirrimov">
+	<TEXT ID="27Routsirrimov_one">
+	<TEXTVALUE>The needle is then taken back from the inoculation site.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28Routdiagarm">
+	<TEXT ID="28Routdiagarm_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29Roudicdsirnc">
+	<TEXT ID="29Roudicdsirnc_one">
+	<TEXTVALUE>The biohazard box is then opened and the used needle and syringe is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30Rouditkmutathodu">
+	<TEXT ID="30Rouditkmutathodu_one">
+	<TEXTVALUE>The drilled egg shell is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="31Roudidropit">
+	<TEXT ID="31Roudidropit_one">
+	<TEXTVALUE>The egg shell is then discarded in the biohazard box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32Roudtkstpr">
+	<TEXT ID="32Roudtkstpr_one">
+	<TEXTVALUE>A small piece of stationery tape is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33Roudstikonegg">
+	<TEXT ID="33Roudstikonegg_one">
+	<TEXTVALUE>The inoculation site is then sealed with the stationery tape.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34Roudplcit">
+	<TEXT ID="34Roudplcit_one">
+	<TEXTVALUE>The virus inoculated embryonated egg is then placed back in the rack and then used for further studies.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="35Roudbuton02">
+	<TEXT ID="35Roudbuton02_one">
+	<TEXTVALUE>Click on any one of the inoculation site to proceed with the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36Roudtkmuta">
+	<TEXT ID="36Roudtkmuta_one">
+	<TEXTVALUE>A 9 day old or 10 day old embryonated egg is taken from the egg rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37Roudtktorch02">
+	<TEXT ID="37Roudtktorch02_one">
+	<TEXTVALUE>A high intensity LED torch is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38Roudlitemuta">
+	<TEXT ID="38Roudlitemuta_one">
+	<TEXTVALUE>The egg is then candled with high intensity LED torch. The viability of the egg is observed.The internal structures of the embryonated eggs are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38aRoudreplce">
+	<TEXT ID="38aRoudreplce_one">
+	<TEXTVALUE>The LED torch is then kept back in the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39Roudltkdisk">
+	<TEXT ID="39Roudltkdisk_one">
+	<TEXTVALUE>A marker pen is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40Roudmarkmuta">
+	<TEXT ID="40Roudmarkmuta_one">
+	<TEXTVALUE>Air space, the eye of the embryo and inoculation site was noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41Roudreplcmuta">
+	<TEXT ID="41Roudreplcmuta_one">
+	<TEXTVALUE>The embryonated egg is the kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42Roudtkpanji">
+	<TEXT ID="42Roudtkpanji_one">
+	<TEXTVALUE>A small piece of cotton is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43Roudtkspirit">
+	<TEXT ID="43Roudtkspirit_one">
+	<TEXTVALUE>The wash bottle containing spirit is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44Roudtkpuronpanji">
+	<TEXT ID="44Roudtkpuronpanji_one">
+	<TEXTVALUE>Small volume of spirit is then squeezed into the cotton to make it wet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45Roudreplcit">
+	<TEXT ID="45Roudreplcit_one">
+	<TEXTVALUE>The wash bottle with spirit is then kept back in the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="46Roudtkmutta">
+	<TEXT ID="46Roudtkmutta_one">
+	<TEXTVALUE>The labeled embryonated egg is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47RouVirwip02">
+	<TEXT ID="47RouVirwip02_one">
+	<TEXTVALUE>The inoculation site is then wiped with wet cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48Routkdisk">
+	<TEXT ID="48Routkdisk_one">
+	<TEXTVALUE>Carborundum disc is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="49Roubrake">
+	<TEXT ID="49Roubrake_one">
+	<TEXTVALUE>The egg shell of the embryonated egg is removed from the inoculation site using the carborundum disc.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50Roubremov">
+	<TEXT ID="50Roubremov_one">
+	<TEXTVALUE>The inoculation site is then observed carefully.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51Roubplaconrack">
+	<TEXT ID="51Roubplaconrack_one">
+	<TEXTVALUE>The embryonated egg is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52Roubtksirng">
+	<TEXT ID="52Roubtksirng_one">
+	<TEXTVALUE>1 ml syringe and needle is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="53Roubfixthesoochi">
+	<TEXT ID="53Roubfixthesoochi_one">
+	<TEXTVALUE>The needle is then attached to the syringe and the cap of the needle is then removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54Roubtkpox">
+	<TEXT ID="54Roubtkpox_one">
+	<TEXTVALUE>The bijoux bottle containing pox virus is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55Rouboppenpox">
+	<TEXT ID="55Rouboppenpox_one">
+	<TEXTVALUE>The lid of the tube is then opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56Roubtkwithsiri">
+	<TEXT ID="56Roubtkwithsiri_one">
+	<TEXTVALUE>Using the sterile needle and syringe 0.1 ml of the pox viral suspension (inoculums) is withdrawn and the lid of the bottle is replaced.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57Roubplcitonrack">
+	<TEXT ID="57Roubplcitonrack_one">
+	<TEXTVALUE>The bijoux bottle containing pox virus is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58Roubtkmutta02">
+	<TEXT ID="58Roubtkmutta02_one">
+	<TEXTVALUE>The labeled embryonated egg is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59Roubinject03">
+	<TEXT ID="59Roubinject03_one">
+	<TEXTVALUE>The needle is then placed into the inoculation site(Chorioallantoic membrane).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60Roubinjdigram">
+	<TEXT ID="60Roubinjdigram_one">
+	<TEXTVALUE>The pox viral suspension is then injected into the Chorioallantoic membrane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="61Roubchart">
+	<TEXT ID="61Roubchart_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62Roubdiscardsiri">
+	<TEXT ID="62Roubdiscardsiri_one">
+	<TEXTVALUE>The biohazard box is then opened and the used needle and syringe is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="63Roubtkmutathodu">
+	<TEXT ID="63Roubtkmutathodu_one">
+	<TEXTVALUE>The removed egg shell is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64Roubdiscdinbox">
+	<TEXT ID="64Roubdiscdinbox_one">
+	<TEXTVALUE>The egg shell is then discarded in the biohazard box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65Roubcutcello">
+	<TEXT ID="65Roubcutcello_one">
+	<TEXTVALUE>A small piece of stationery tape is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66Roubstikcello">
+	<TEXT ID="66Roubstikcello_one">
+	<TEXTVALUE>The inoculation site is then sealed with the stationery tape.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67Roubreplcmuta02">
+	<TEXT ID="67Roubreplcmuta02_one">
+	<TEXTVALUE>The virus inoculated embryonated egg is then placed back in the rack and then used for further studies.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68RoubButn03">
+	<TEXT ID="68RoubButn03_one">
+	<TEXTVALUE>Click on any one of the inoculation site to proceed with the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69Roubtkmuta03">
+	<TEXT ID="69Roubtkmuta03_one">
+	<TEXTVALUE>A 9 day old or 10 day old embryonated egg is taken from the egg rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70Roubtktorch03">
+	<TEXT ID="70Roubtktorch03_one">
+	<TEXTVALUE>A high intensity LED torch is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71Roublittorch">
+	<TEXT ID="71Roublittorch_one">
+	<TEXTVALUE>The egg is then candled with high intensity LED torch,The viability of the egg is observed,The internal structures of the embryonated eggs are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="72Rouberplaceit">
+	<TEXT ID="72Rouberplaceit_one">
+	<TEXTVALUE>The LED torch is then kept back in the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73Roubtkpen03">
+	<TEXT ID="73Roubtkpen03_one">
+	<TEXTVALUE>A marker pen is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="74Roubmarkwitpen">
+	<TEXT ID="74Roubmarkwitpen_one">
+	<TEXTVALUE>Air space,  suitable inoculation site and eye  of the embryo is then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75Roubreplcmu04">
+	<TEXT ID="75Roubreplcmu04_one">
+	<TEXTVALUE>The embryonated egg is the kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76RoubtkPanji">
+	<TEXT ID="76RoubtkPanji_one">
+	<TEXTVALUE>A small piece of cotton is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77Roubtkspirit">
+	<TEXT ID="77Roubtkspirit_one">
+	<TEXTVALUE>The wash bottle containing spirit is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78Roubdropspirit">
+	<TEXT ID="78Roubdropspirit_one">
+	<TEXTVALUE>Small volume of spirit is then squeezed into the cotton to make it wet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79Roubreplcspirit">
+	<TEXT ID="79Roubreplcspirit_one">
+	<TEXTVALUE>The wash bottle with spirit is then kept back in the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80Roubtkmuta">
+	<TEXT ID="80Roubtkmuta_one">
+	<TEXTVALUE>The labeled embryonated egg is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81Roubwipspit">
+	<TEXT ID="81Roubwipspit_one">
+	<TEXTVALUE>The inoculation site is then wiped with wet cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82Roubtkdisk">
+	<TEXT ID="82Roubtkdisk_one">
+	<TEXTVALUE>Carborundum disc is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="83Roubcutmuta">
+	<TEXT ID="83Roubcutmuta_one">
+	<TEXTVALUE>The egg shell of the embryonated egg is removed from the inoculation site using the carborundum disc.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84Roubshohol">
+	<TEXT ID="84Roubshohol_one">
+	<TEXTVALUE>The inoculation site is then observed carefully.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="85Roubplsonit">
+	<TEXT ID="85Roubplsonit_one">
+	<TEXTVALUE>The embryonated egg is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="86Roubtksirinj">
+	<TEXT ID="86Roubtksirinj_one">
+	<TEXTVALUE>1 ml syringe and needle is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87Roubfixsoochi">
+	<TEXT ID="87Roubfixsoochi_one">
+	<TEXTVALUE>The needle is then attached to the syringe and the cap of the needle is then removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88Roubtkmups">
+	<TEXT ID="88Roubtkmups_one">
+	<TEXTVALUE>The bijoux bottle containing Mumps virus is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89Roubopn">
+	<TEXT ID="89Roubopn_one">
+	<TEXTVALUE>The lid of the tube is then opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="90Roubtkmupsirj">
+	<TEXT ID="90Roubtkmupsirj_one">
+	<TEXTVALUE>Using the sterile needle and syringe 0.1 ml of the Mumps viral suspension (inoculums) is withdrawn and the lid of the bottle is replaced.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91Roubreplsmumbs">
+	<TEXT ID="91Roubreplsmumbs_one">
+	<TEXTVALUE>The bijoux bottle containing Mumps virus is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="92Roubtkitfrmrak">
+	<TEXT ID="92Roubtkitfrmrak_one">
+	<TEXTVALUE>The labeled embryonated egg is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93Roubinjectmups">
+	<TEXT ID="93Roubinjectmups_one">
+	<TEXTVALUE>The needle is then placed into the inoculation site (amniotic cavity).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="94Roubdiagm">
+	<TEXT ID="94Roubdiagm_one">
+	<TEXTVALUE>When the needle touches the embryo a thirst is made and the embryo move away from the needle. The Mumps viral suspension is then injected into the amniotic cavity.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95Roubchart03">
+	<TEXT ID="95Roubchart03_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96Roubdiscardsirig">
+	<TEXT ID="96Roubdiscardsirig_one">
+	<TEXTVALUE>The biohazard box is then opened and the used needle and syringe is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97Roubtkmutapes">
+	<TEXT ID="97Roubtkmutapes_one">
+	<TEXTVALUE>The removed egg shell is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98Roubdropinit">
+	<TEXT ID="98Roubdropinit_one">
+	<TEXTVALUE>The egg shell is then discarded in the biohazard box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="99Roubcutcello">
+	<TEXT ID="99Roubcutcello_one">
+	<TEXTVALUE>A small piece of stationery tape is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="100Roubstikcello">
+	<TEXT ID="100Roubstikcello_one">
+	<TEXTVALUE>The inoculation site is then sealed with the stationery tape.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101Roubreplcit">
+	<TEXT ID="101Roubreplcit_one">
+	<TEXTVALUE>The virus inoculated embryonated egg is then placed back in the rack and then used for further studies.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="102Roubyolksak">
+	<TEXT ID="102Roubyolksak_one">
+	<TEXTVALUE>Click on any one of the inoculation site to proceed with the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="103Roubtkmuta04">
+	<TEXT ID="103Roubtkmuta04_one">
+	<TEXTVALUE>A 9 day old or 10 day old embryonated egg is taken from the egg rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="104Roubtktorch04">
+	<TEXT ID="104Roubtktorch04_one">
+	<TEXTVALUE>A high intensity LED torch is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="105Roublighttorch">
+	<TEXT ID="105Roublighttorch_one">
+	<TEXTVALUE>The egg is then candled with high intensity LED torch,The viability of the egg is observed,The internal structures of the embryonated eggs are then noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="106Roubrplcetrch">
+	<TEXT ID="106Roubrplcetrch_one">
+	<TEXTVALUE>The LED torch is then kept back in the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="107Roubtkpen04">
+	<TEXT ID="107Roubtkpen04_one">
+	<TEXTVALUE>A marker pen is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108Roubmarkonit04">
+	<TEXT ID="108Roubmarkonit04_one">
+	<TEXTVALUE>Air space, the eye of the embryo and suitable inoculation site is noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109Rouberplcit">
+	<TEXT ID="109Rouberplcit_one">
+	<TEXTVALUE>The embryonated egg is the kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="110Roubtkpanji">
+	<TEXT ID="110Roubtkpanji_one">
+	<TEXTVALUE>A small piece of cotton is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111Roubtkspirt">
+	<TEXT ID="111Roubtkspirt_one">
+	<TEXTVALUE>The wash bottle containing spirit is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112Roubdropspirt">
+	<TEXT ID="112Roubdropspirt_one">
+	<TEXTVALUE>Small volume of spirit is then squeezed into the cotton to make it wet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113Roubreplcspirit">
+	<TEXT ID="113Roubreplcspirit_one">
+	<TEXTVALUE>The wash bottle with spirit is then kept back in the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="114Roubtkmuta04">
+	<TEXT ID="114Roubtkmuta04_one">
+	<TEXTVALUE>The labeled embryonated egg is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115Roubwiponegg">
+	<TEXT ID="115Roubwiponegg_one">
+	<TEXTVALUE>The inoculation site is then wiped with wet cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="116Roubtkdisc">
+	<TEXT ID="116Roubtkdisc_one">
+	<TEXTVALUE>Carborundum disc is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117Roubmarkwtdisk">
+	<TEXT ID="117Roubmarkwtdisk_one">
+	<TEXTVALUE>The egg shell of the embryonated egg is removed from the inoculation site using the carborundum disc.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118Roubcutapes">
+	<TEXT ID="118Roubcutapes_one">
+	<TEXTVALUE>The inoculation site is then observed carefully.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119Roubreplcinrak">
+	<TEXT ID="119Roubreplcinrak_one">
+	<TEXTVALUE>The embryonated egg is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120Roubtksirin">
+	<TEXT ID="120Roubtksirin_one">
+	<TEXTVALUE>1 ml syringe and needle is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121Roubfixsirin">
+	<TEXT ID="121Roubfixsirin_one">
+	<TEXTVALUE>The needle is then attached to the syringe and the cap of the needle is then removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="122Roubtkherpx">
+	<TEXT ID="122Roubtkherpx_one">
+	<TEXTVALUE>The bijoux bottle containing Herpes simplex virus is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="123Rouboppherpx">
+	<TEXT ID="123Rouboppherpx_one">
+	<TEXTVALUE>The lid of the tube is then opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124Roubchosit">
+	<TEXT ID="124Roubchosit_one">
+	<TEXTVALUE>Using the sterile needle and syringe 0.1 ml of the Herpes simplex viral suspension (inoculums) is withdrawn and the lid of the bottle is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="125Roubreplcit">
+	<TEXT ID="125Roubreplcit_one">
+	<TEXTVALUE>The bijoux bottle containing Herpes simplex viral suspension is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="126Roubtkmuta">
+	<TEXT ID="126Roubtkmuta_one">
+	<TEXTVALUE>The labeled embryonated egg is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="127Roubinjectit">
+	<TEXT ID="127Roubinjectit_one">
+	<TEXTVALUE>The needle is then placed into the inoculation site( Yolk sac).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="128Roubinjdrow">
+	<TEXT ID="128Roubinjdrow_one">
+	<TEXTVALUE>The needle is then placed into the inoculation site( Yolk sac).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="129Roubdiagram">
+	<TEXT ID="129Roubdiagram_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="130Roubdiscard">
+	<TEXT ID="130Roubdiscard_one">
+	<TEXTVALUE>The biohazard box is then opened and the used needle and syringe is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="131Roubtkmutatod">
+	<TEXT ID="131Roubtkmutatod_one">
+	<TEXTVALUE>The removed egg shell is then taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="132Roubdismuta">
+	<TEXT ID="132Roubdismuta_one">
+	<TEXTVALUE>The egg shell is then discarded in the biohazard box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="133Roubcut">
+	<TEXT ID="133Roubcut_one">
+	<TEXTVALUE>A small piece of stationery tape is then taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="134Roubstikit">
+	<TEXT ID="134Roubstikit_one">
+	<TEXTVALUE>The inoculation site is then sealed with the stationery tape.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="135Roubreplconrack">
+	<TEXT ID="135Roubreplconrack_one">
+	<TEXTVALUE>The virus inoculated embryonated egg is then placed back in the rack and then used for further studies.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="136Roubdiamsirinj">
+	<TEXT ID="136Roubdiamsirinj_one">
+	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

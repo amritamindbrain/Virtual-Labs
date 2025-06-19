@@ -1,0 +1,129 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Predator_Prey_Dynamics_Effects_of_Social_Behavior.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADVANTAGETOPREDATOR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ALERT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_CARRYING_CAPACITY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_COOPERATION_AMONG_PREDATOR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_COOPERATION_AMONG_PREDATORS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_DATAPLOTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_EFFECT_OF_COOPERATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_EFFECT_OF_DIFFERENT_THETA_VALUES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_ENCOUNTERS_RESULT_IN_KILL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_EQUILIBRIUM_DENSITIES_AND_POPULATION_STABILITY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_INITIAL_PREDATOR_POPULATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INITIAL_PREY_POPULATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_NUMBE_OF_STEPS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_NUMBER_OF_PREDATOR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_PAUSE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_PLAY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_POPULATION_DENSITY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_POPULATION_DENSITY_PREDATOR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_PREDATOR-PREY-DYNAMICS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_PREDATOR_CONVERSION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_PREDATOR_DEATH_RATE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_PREDATOR_EFFICIENCY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_PREDATORPOPULATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_PREY_POPULATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_RATE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_RATE_AT_WHICH_NEW_POPULATIONS_ADDED">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_RATE_OF_GROWTH">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_RESET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_RUN_ONCE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_RUNITERATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_SPATIAL_DISTRIBUTION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_STATISTICS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_STEP_SIZE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_THETA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_WORKSHEET">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

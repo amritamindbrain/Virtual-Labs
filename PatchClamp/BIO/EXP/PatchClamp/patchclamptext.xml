@@ -1,0 +1,82 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="heading">
+<TEXT ID="heading_one">
+<TEXTVALUE>notext</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="setup">
+	<TEXT ID="setup_one">
+		<TEXTVALUE>Observe a typical patch clamp setup</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="setup_two">
+		<TEXTVALUE>The computer in the setup is used for recording, the amplifiers amplify the recorded signal and the microscope (left) is where an electrode is used to clamp a neuron.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="picktheslice">
+<TEXT ID="picktheslice_one">
+<TEXTVALUE>Now that you have seen how to prepare a brain slice. We start with freshly prepared brain slices. Pick the slice up</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="zoomintotray">
+<TEXT ID="zoomintotray_one">
+<TEXTVALUE>notext</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="placesliceintray">
+<TEXT ID="placesliceintray_one">
+<TEXTVALUE>Place the brain slice in the center of the patch setup. The focused area is called the recording chamber of the setup</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="zoomintoslice">
+<TEXT ID="zoomintoslice_one">
+<TEXTVALUE>The slice is placed in a recording chamber which is circulated with the extracellular solution to keep the neuronal slice intact.</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="neoron">
+<TEXT ID="neoron_one">
+<TEXTVALUE>notext</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="experiment">
+	<TEXT ID="experiment_one">
+		<TEXTVALUE>The micropipette is pressed against a cell membrane and suction is applied to assist in the formation of a high resistance seal between the glass and the cell membrane </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="experiment_two">
+		<TEXTVALUE>Apply suction by clicking on the appropriate icon.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="experiment_four">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="experiment_three">
+		<TEXTVALUE>Once seal is set, now try the various modes of experiment using the patch Clamp protocol. You may choose cell-attached, whole-cell, outside-out or inside-out configurations. Observe the nature of cell membrane as that mode is chosen.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="final">
+<TEXT ID="final_one">
+<TEXTVALUE>notext</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+</DATA>

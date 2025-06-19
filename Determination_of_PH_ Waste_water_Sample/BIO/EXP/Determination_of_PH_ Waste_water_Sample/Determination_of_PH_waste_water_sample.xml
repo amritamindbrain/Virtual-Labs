@@ -1,0 +1,284 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="1Title">
+	<TEXT ID="1Title_one">
+	      <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the “Continue” button to start the experiment.</TEXTVALUE>
+   </TEXT>			
+</SCENE>
+    
+<SCENE ID="2TakeWter">
+	<TEXT ID="2TakeWter_one">
+		<TEXTVALUE>A bottle of waste water sample is collected from a polluted lake.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="3pourinToABeaker">
+	<TEXT ID="3pourinToABeaker_one">
+		<TEXTVALUE>The water sample is transferred to a beaker labeled as waste water sample.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+
+<SCENE ID="5SwitchOnDPowr">
+	<TEXT ID="5SwitchOnDPowr_one">
+		<TEXTVALUE>The pH meter is switched on and displayed the reading as 7.00.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="6takeElectrod">
+	<TEXT ID="6takeElectrod_one">
+		<TEXTVALUE>The electrode of pH meter is taken out from the storage solution.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="7TakDistldWtr">
+	<TEXT ID="7TakDistldWtr_one">
+		<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="8WshElectrod">
+	<TEXT ID="8WshElectrod_one">
+		<TEXTVALUE>The lower portion of the electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="9keepItBak">
+	<TEXT ID="9keepItBak_one">
+		<TEXTVALUE>The bottle labeled as distilled water is replaced into the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="10takeTisuPapr">
+	<TEXT ID="10takeTisuPapr_one">
+		<TEXTVALUE>A tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="11wipeElectrod">
+	<TEXT ID="11wipeElectrod_one">
+		<TEXTVALUE>The lower portion of electrode is wiped with tissue paper and dipped in the beaker containing Acetate Buffer, pH 4.00.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="11wipeElectrod_two">
+		<TEXTVALUE>The reading in the pH meter is displayed as 4.00.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="11wipeElectrod_three">
+		<TEXTVALUE>The electrode is taken from the beaker containing Acetate buffer, pH 4.00.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="12TakDistldWtr">
+	<TEXT ID="12TakDistldWtr_one">
+		<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="13WshElectrod">
+	<TEXT ID="13WshElectrod_one">
+		<TEXTVALUE>The lower portion of the electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="14keepItBak">
+	<TEXT ID="14keepItBak_one">
+		<TEXTVALUE>The bottle labeled as distilled water is replaced into the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="15takeTisuPapr">
+	<TEXT ID="15takeTisuPapr_one">
+		<TEXTVALUE>A tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="16wipeElectrod">
+	<TEXT ID="16wipeElectrod_one">
+		<TEXTVALUE>The lower portion of electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="17DipinWater">
+	<TEXT ID="17DipinWater_one">
+		<TEXTVALUE>The electrode is replaced into the storage solution.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="17DipinWater_one">
+		<TEXTVALUE>The reading in the pH meter is displayed as 7.00.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="18takeElectrod">
+	<TEXT ID="18takeElectrod_one">
+		<TEXTVALUE>The electrode of pH meter is taken out from the storage solution.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="19takedstldWtr">
+	<TEXT ID="19takedstldWtr_one">
+		<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="20Wash">
+	<TEXT ID="20Wash_one">
+		<TEXTVALUE>The lower portion of the electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="21keepItBak">
+	<TEXT ID="21keepItBak_one">
+		<TEXTVALUE>The bottle labeled as distilled water is replaced into the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="22takeTisuPapr">
+	<TEXT ID="22takeTisuPapr_one">
+		<TEXTVALUE>A tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="23ammoniumPh10">
+	<TEXT ID="23ammoniumPh10_one">
+		<TEXTVALUE>The lower portion of electrode is wiped with tissue paper and dipped in the beaker containing Ammonium Buffer,PH 10.00.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="23ammoniumPh10_two">
+		<TEXTVALUE>The reading in the ph meter is displayed as 10.00.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="23ammoniumPh10_three">
+		<TEXTVALUE>The electrode is taken from the beaker containing Ammonium Buffer, PH 10.00.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="24TakDistldWtr">
+	<TEXT ID="24TakDistldWtr_one">
+		<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="25WshElectrod">
+	<TEXT ID="25WshElectrod_one">
+		<TEXTVALUE>The lower portion of the electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="26keepItBak">
+	<TEXT ID="26keepItBak_one">
+		<TEXTVALUE>The bottle labeled as distilled water is replaced into the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="27takeTisuPapr">
+	<TEXT ID="27takeTisuPapr_one">
+		<TEXTVALUE>A tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="28wipeElectrod">
+	<TEXT ID="28wipeElectrod_one">
+		<TEXTVALUE>The lower portion of electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="29DipinWater">
+	<TEXT ID="29DipinWater_one">
+		<TEXTVALUE>The electrode is replaced into the storage solution.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="29DipinWater_two">
+		<TEXTVALUE>The reading in the pH meter is displayed as 7.00.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="30takeElectrod">
+	<TEXT ID="30takeElectrod_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="31TakDistldWtr">
+	<TEXT ID="31TakDistldWtr_one">
+		<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="32WshElectrod">
+	<TEXT ID="32WshElectrod_one">
+		<TEXTVALUE>The lower portion of the electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="33keepItBak">
+	<TEXT ID="33keepItBak_one">
+		<TEXTVALUE>The bottle labeled as distilled water is replaced into the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="34takeTisuPap">
+	<TEXT ID="34takeTisuPap_one">
+		<TEXTVALUE>A tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="35wipeElectrod">
+	<TEXT ID="35wipeElectrod_one">
+		<TEXTVALUE>The lower portion of electrode is wiped with tissue paper and dipped in the beaker containing Waste Water Sample.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="36dipInWstWtr">
+	<TEXT ID="36dipInWstWtr_one">
+		<TEXTVALUE>The lower portion of electrode is wiped with tissue paper and dipped in the beaker containing Waste Water Sample.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="36dipInWstWtr_two">
+		<TEXTVALUE>The reading in the pH meter is displayed as 5.50.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="36dipInWstWtr_three">
+		<TEXTVALUE>The electrode is taken from the beaker containing Waste Water Sample.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="37TakDistldWtr">
+	<TEXT ID="37TakDistldWtr_one">
+		<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="38WshElectrod">
+	<TEXT ID="38WshElectrod_one">
+		<TEXTVALUE>The lower portion of the electrode is washed with distilled water.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="39keepItBak">
+	<TEXT ID="39keepItBak_one">
+		<TEXTVALUE>The bottle labeled as distilled water is replaced into the lab table.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="40takeTisuPap">
+	<TEXT ID="40takeTisuPap_one">
+		<TEXTVALUE>A tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="41wipeElectrod">
+	<TEXT ID="41wipeElectrod_one">
+		<TEXTVALUE>The lower portion of electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="42DipinWater">
+	<TEXT ID="42DipinWater_one">
+		<TEXTVALUE>The electrode is replaced into the storage solution.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="42DipinWater_two">
+		<TEXTVALUE>The reading in the pH meter is displayed as 7.00.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+	
+</DATA>
+

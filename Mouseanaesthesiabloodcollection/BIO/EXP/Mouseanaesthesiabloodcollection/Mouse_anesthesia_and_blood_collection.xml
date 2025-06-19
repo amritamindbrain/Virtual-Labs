@@ -1,0 +1,211 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+<SCENE ID="1AnastasiaChambers">
+	<TEXT ID="1AnastasiaChambers_one">
+		<TEXTVALUE>Choose an Anesthesia chamber of known volume. To obtain the volume of Isoflurane to be used in ml, multiply the volume by 0.15 to 0.2 ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="2LaminarFlow">
+	<TEXT ID="2LaminarFlow_one">
+		<TEXTVALUE>The procedure should be conducted in a laminar air flow.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="3TakeAnestheticChamber">
+	<TEXT ID="3TakeAnestheticChamber_one">
+		<TEXTVALUE>After placing the chamber of desired volume in the LAF, we proceed to the step where an Inhalant anesthetic agent will be used.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="4AnestheticChamberOpen">
+	<TEXT ID="4AnestheticChamberOpen_one">
+		<TEXTVALUE>Open the Anesthesia chamber</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="5SpreadCottoninchamber">
+	<TEXT ID="5SpreadCottoninchamber_one">
+		<TEXTVALUE>Place a few cotton balls at the base of the chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="6IsofluranBottle">
+	<TEXT ID="6IsofluranBottle_one">
+		<TEXTVALUE>Take some Isoflurane using a dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="7AnestheticchamberIsofluranespread">
+<TEXT ID="7AnestheticchamberIsofluranespread_one">
+	<TEXTVALUE>Pour Isoflurane of required amount on the cotton layer.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="7AnestheticchamberIsofluranespread_two">
+	<TEXTVALUE>Place a raised floor over the cotton layer.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="8AnestheticChamberclose">
+<TEXT ID="8AnestheticChamberclose_one">
+	<TEXTVALUE>Close the lid of the chamber and let Isoflurane vaporize for 3-5 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="9SpreadgasChamber">
+<TEXT ID="9SpreadgasChamber_one">
+	<TEXTVALUE>Permit vaporization Isoflurane to flow through and fill the container. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="10TakeMouseFromCage">
+<TEXT ID="10TakeMouseFromCage_one">
+	<TEXTVALUE>Once the vapors have spread in the chamber, take the mouse from its cage and place it in the Anesthesia chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="11MouseInAnestasiaChamber">
+<TEXT ID="11MouseInAnestasiaChamber_one">
+	<TEXTVALUE>Close the lid quickly after placing it in and then observe the animal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="12MouseInAnestasiaChamber">
+<TEXT ID="12MouseInAnestasiaChamber_one">
+	<TEXTVALUE>The animal will move around for a while.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="13MouseFallDown">
+<TEXT ID="13MouseFallDown_one">
+	<TEXTVALUE>Within 1 minute, the mouse will fall unconscious (Anesthised).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14AnestheticChamberOpencopy">
+<TEXT ID="14AnestheticChamberOpencopy_one">
+	<TEXTVALUE>Initially, respiratory rate will increase and then it gradually decreases. Allow the animal to become recumbent and reach slow and regular breathing. Allow the animal to remain at a deep anesthetic plane for 10 more seconds before proceeding.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="15Icons">
+<TEXT ID="15Icons_one">
+	<TEXTVALUE>Click any of them</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="16MouseontheWoodBlock">
+<TEXT ID="16MouseontheWoodBlock_one">
+	<TEXTVALUE>After anesthising, pick the mouse and place it on an elevated surface.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="17PickCapillaryTube">
+<TEXT ID="17PickCapillaryTube_one">
+	<TEXTVALUE>Take a microhematocrit tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="18MouseWoodblock">
+<TEXT ID="18MouseWoodblock_one">
+	<TEXTVALUE>Introduce the end of the microhematocrit tube at the medial canthus of the orbit as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="19TakeBloodFromMouseEye">
+<TEXT ID="19TakeBloodFromMouseEye_one">
+	<TEXTVALUE>Slowly, and with axial rotation, advance the tip of the microhematocrit tube gently towards the rear of the socket until blood flows into the tube. Collect the blood into a test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="20TakeBloodFromMouseEye">
+<TEXT ID="20TakeBloodFromMouseEye_one">
+	<TEXTVALUE>Keep the test tube in a stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="21MouseEyePressCotton">
+<TEXT ID="21MouseEyePressCotton_one">
+	<TEXTVALUE>Dab the site of blood collection using a sterile cotton ball.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="22MouseInRestrainer">
+<TEXT ID="22MouseInRestrainer_one">
+	<TEXTVALUE>Restrain the animal in a restrainer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="23TakeBloodFromTail">
+<TEXT ID="23TakeBloodFromTail_one">
+	<TEXTVALUE>Immerse the tail into warm water.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="23TakeBloodFromTail_two">
+	<TEXTVALUE>Rub the blood collection site using a cotton ball wet with 70% alcohol.</TEXTVALUE>
+	</TEXT>
+<TEXT ID="23TakeBloodFromTail_three">
+	<TEXTVALUE>Visualize the sampling site of the lateral tail vein at approximately midpoint on the length of the tail.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="24TakeBloodFromTail">
+<TEXT ID="24TakeBloodFromTail_one">
+	<TEXTVALUE>Extend the tail with one hand, and with the other hand insert needle 3 to 4 mm into the lateral tail vein.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="24TakeBloodFromTail_two">
+	<TEXTVALUE>After collection, remove the needle from the tail vein and apply a gauze sponge with gentle pressure on the bleeding site to ensure hemostasis.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="25TransferBloodtheTestTube">
+<TEXT ID="25TransferBloodtheTestTube_one">
+	<TEXTVALUE>Collect the blood in a test tube as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="26MouseinRestrainercopy">
+<TEXT ID="26MouseinRestrainercopy_one">
+	<TEXTVALUE>Restrain the animal in a restrainer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="27TakeScalpel">
+<TEXT ID="27TakeScalpel_one">
+	<TEXTVALUE>Take a new scalpel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="28Ttailcutbyscalpel">
+<TEXT ID="28Ttailcutbyscalpel_one">
+	<TEXTVALUE>After restraining the animal, rub the midpoint on the length of the tail with 70% alcohol wetted gauze sponge.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="28Ttailcutbyscalpel_two">
+	<TEXTVALUE>Visualize a sampling site of the lateral tail vein in the distal one-third of the tail. While extending the tail, swiftly incise the lateral tail vein with a new scalpel blade.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="29CollectBloodInTestTube">
+<TEXT ID="29CollectBloodInTestTube_one">
+	<TEXTVALUE>Collect blood drops into the test tube, required for the desired procedure to be performed with it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="30PressCotton">
+<TEXT ID="30PressCotton_one">
+	<TEXTVALUE>Apply cotton with gentle pressure to the wound to ensure hemostasis.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="30(1)BiohazardContainer">
+<TEXT ID="30(1)BiohazardContainer_one">
+	<TEXTVALUE>Dispose the cotton into a Biohazard container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="31WrapBandAidTail">
+<TEXT ID="31WrapBandAidTail_one">
+	<TEXTVALUE>Wrap a bandaid on the tail.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="32MouseOxygenChamber">
+<TEXT ID="32MouseOxygenChamber_one">
+	<TEXTVALUE>Place the animal in a recovery chamber that has proper air supply.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33MouseOxygenChambercopy">
+<TEXT ID="33MouseOxygenChambercopy_one">
+	<TEXTVALUE>Animals should be observed until recovery is nearly complete and animals are able to maintain sternal recumbency or move about without falling.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="34MouseReturnCage">
+<TEXT ID="34MouseReturnCage_one">
+	<TEXTVALUE>Once you are sure the animal is back to the normal state, place it back in a cage. The time of recovery depends on the Anesthetic agent used and also the dosage strength.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>
