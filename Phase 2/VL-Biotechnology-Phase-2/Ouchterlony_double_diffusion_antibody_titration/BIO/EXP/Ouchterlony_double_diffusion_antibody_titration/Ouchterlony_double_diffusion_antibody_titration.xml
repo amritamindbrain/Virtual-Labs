@@ -1,0 +1,472 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+<SCENE ID="introd">
+	<TEXT ID="introd_one">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="pptadjust">
+	<TEXT ID="pptadjust_one">
+	 <TEXTVALUE>A micropipette is taken and the volume is adjusted to 20 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="NeatIceBox">
+	<TEXT ID="NeatIceBox_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TipboxOpen">
+	<TEXT ID="TipboxOpen_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="NeatIceBoxpippet">
+	<TEXT ID="NeatIceBoxpippet_one">
+	 <TEXTVALUE>The bottle labeled as 1X Assay Buffer is opened.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="NeatIceBoxpippet_two">
+	 <TEXTVALUE>20 microlitre of 1X Assay Buffer is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="handtopick">
+	<TEXT ID="handtopick_one">
+	 <TEXTVALUE>The vial labeled as 1:2 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="takingvial">
+	<TEXT ID="takingvial_one">
+	 <TEXTVALUE>The vial labeled as 1:2 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="tovial">
+	<TEXT ID="tovial_one">
+	 <TEXTVALUE>20 micro litre of the Assay Buffer in the micropipette is transferred to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="vialback">
+	<TEXT ID="vialback_one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="NeatIceBoxpippetopen">
+	<TEXT ID="NeatIceBoxpippetopen_one">
+	 <TEXTVALUE>Again, the bottle labeled as 1X Assay Buffer is opened.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="NeatIceBoxpippetopen_two">
+	 <TEXTVALUE>20 micro litre of  Assay Buffer is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="handtopicksecond">
+	<TEXT ID="handtopicksecond_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="takingvial3">
+	<TEXT ID="takingvial3_one">
+	 <TEXTVALUE>The vial labeled as 1:4 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="tovial2nd">
+	<TEXT ID="tovial2nd_one">
+	 <TEXTVALUE>20 micro litre of the Assay Buffer in the micropipette is transferred to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="graphical">
+	<TEXT ID="graphical_one">
+	 <TEXTVALUE>The same procedure is repeated for the rest of the vials labeled up to 1:32.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="tipwithdraw">
+	<TEXT ID="tipwithdraw_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="pippettAdjustsecond">
+	<TEXT ID="pippettAdjustsecond_one">
+	 <TEXTVALUE>The volume is adjusted to 20 micro litre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TipboxOpenagain">
+	<TEXT ID="TipboxOpenagain_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="testAntiserum">
+	<TEXT ID="testAntiserum_one">
+	 <TEXTVALUE>The vial labeled as antiserum is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="pipetteout">
+	<TEXT ID="pipetteout_one">
+	 <TEXTVALUE>The cap of the vial is opened and pipette out 20 µl of antiserum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="testAntiserumbacktobox">
+	<TEXT ID="testAntiserumbacktobox_one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="takingvialNeat">
+	<TEXT ID="takingvialNeat_one">
+	 <TEXTVALUE>The vial labeled as neat is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="tovialNeat">
+	<TEXT ID="tovialNeat_one">
+	 <TEXTVALUE>20 micro litre of  the antiserum in the micropipette is transferred to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="returnbackthevials">
+	<TEXT ID="returnbackthevials_one">
+	 <TEXTVALUE>The vial is placed back on the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="AggaintestAntiserum">
+	<TEXT ID="AggaintestAntiserum_one">
+	 <TEXTVALUE>The vial labeled as antiserum is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="pipetteoutagain">
+	<TEXT ID="pipetteoutagain_one">
+	 <TEXTVALUE>Again, 20 microlitre of antiserum is pipetted out from the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="testAntiserumbacktoboxAgain">
+	<TEXT ID="testAntiserumbacktoboxAgain_one">
+	 <TEXTVALUE>The vial is placed back on the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="takingvial12">
+	<TEXT ID="takingvial12_one">
+	 <TEXTVALUE>The vial labeled as 1:2 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="mixing">
+	<TEXT ID="mixing_one">
+	 <TEXTVALUE>20 micro litre of the antiserum is transferred to the vial and mixed well to get a dilution of 1:2.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="mixing_two">
+	 <TEXTVALUE>20 microlitre of solution is pipetted out from the same vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="backvial12 ">
+	<TEXT ID="backvial12 _one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="backvial12 _two">
+	 <TEXTVALUE>The vial labeled as 1:4 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="tovial2">
+	<TEXT ID="tovial2_one">
+	 <TEXTVALUE>20 micro litre of the solution pipetted out from the vial labeled as 1:2 is now transferred to the vial labeled as 1:4 and is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="discardTip">
+	<TEXT ID="discardTip_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="NewTip">
+	<TEXT ID="NewTip_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="vial">
+	<TEXT ID="vial_one">
+	 <TEXTVALUE>Now, the vial labeled as 1:4 is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="mixing4vial">
+	<TEXT ID="mixing4vial_one">
+	 <TEXTVALUE>The solution in the vial is mixed well, the dilution in the vial is 1:4 and pipetted out 20 microlitre of solution from the same vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="vialtobox">
+	<TEXT ID="vialtobox_one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="graph">
+	<TEXT ID="graph_one">
+	 <TEXTVALUE>The same procedure is repeated for the rest of the vials labeled up to 1:32.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="discardTipp">
+	<TEXT ID="discardTipp_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PreparationOfagarose">
+	<TEXT ID="PreparationOfagarose_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="weighingpaper">
+	<TEXT ID="weighingpaper_one">
+	 <TEXTVALUE>A weighing paper is placed on the weighing balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="takingAgarose">
+	<TEXT ID="takingAgarose_one">
+	 <TEXTVALUE>The bottle containing agarose is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="weighingpaperagarose">
+	<TEXT ID="weighingpaperagarose_one">
+	 <TEXTVALUE>0.10g of agrose is weighed out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TransferToConicalflask">
+	<TEXT ID="TransferToConicalflask_one">
+	 <TEXTVALUE>The weighed agarose is then transferred to a conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="NeatIceBoxpippetcapout">
+	<TEXT ID="NeatIceBoxpippetcapout_one">
+	 <TEXTVALUE>The bottle labeled as 1X assay buffer is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="measuringCylinder">
+	<TEXT ID="measuringCylinder_one">
+	 <TEXTVALUE>and 10 ml is measured in a measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="pourToConicalflask">
+	<TEXT ID="pourToConicalflask_one">
+	 <TEXTVALUE>10 ml of the measured assay buffer is poured into the conical flask containing agarose.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Shake">
+	<TEXT ID="Shake_one">
+	 <TEXTVALUE>The solution is mixed by gentle shaking.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Oven">
+	<TEXT ID="Oven_one">
+	 <TEXTVALUE>The conical flask containing agarose is kept in a microwave oven for 2 minutes to make the agarose soluble.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="cooltime">
+	<TEXT ID="cooltime_one">
+	 <TEXTVALUE>After 2 minutes, the conical flask is taken out and the solution is allowed to cool for sometime.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Preparation of Gel Plate">
+	<TEXT ID="Preparation of Gel Plate_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="glassonpaper">
+	<TEXT ID="glassonpaper_one">
+	 <TEXTVALUE>A glass plate is placed on a paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="gelonpaper">
+	<TEXT ID="gelonpaper_one">
+	 <TEXTVALUE>5ml of the agarose solution is poured onto the gel plate.</TEXTVALUE>
+	</TEXT>
+<TEXT ID="gelonpaper_two">
+	 <TEXTVALUE>The agarose is allowed to set for 30 minutes. Now,the template is taken and is placed on a paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="gelpuncher">
+	<TEXT ID="gelpuncher_one">
+	 <TEXTVALUE>Take the gel punch with syringe.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="gelpuncherpiston">
+	<TEXT ID="gelpuncherpiston_one">
+	 <TEXTVALUE>Hold the tip of the gel puncher and place it on the gel corresponding to the markings on the template.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="gelpuncherpiston_two">
+	 <TEXTVALUE>Then the piston is pulled up slowly so that part of the gel gets into the tube of the puncher making wells in the gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TOpviewglass">
+	<TEXT ID="TOpviewglass_one">
+	 <TEXTVALUE>Accordingly, seven wells are made on the gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Topclose">
+	<TEXT ID="Topclose_one">
+	 <TEXTVALUE>Now, the wells are marked on opposite side of the plate with a marker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="pippettusing">
+	<TEXT ID="pippettusing_one">
+	 <TEXTVALUE>The micropipette is taken and the volume is adjusted to 10 micro litre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="freshTip">
+	<TEXT ID="freshTip_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="testAntigen">
+	<TEXT ID="testAntigen_one">
+	 <TEXTVALUE>The vial labeled as antigen is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="pipetteantigen">
+	<TEXT ID="pipetteantigen_one">
+	 <TEXTVALUE>10micro litre of  antigen solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="testAntigenback">
+	<TEXT ID="testAntigenback_one">
+	 <TEXTVALUE>The vial is kept back in the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="FillTheCentre">
+	<TEXT ID="FillTheCentre_one">
+	 <TEXTVALUE>The well labeled as antigen(Ag) is filled with the 10 microlitre of  antigen solution taken in the micropipette.
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="discardTheTipp">
+	<TEXT ID="discardTheTipp_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="NewTip copy">
+	<TEXT ID="NewTip copy_one">
+	 <TEXTVALUE>A fresh tip is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="neattake">
+	<TEXT ID="neattake_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="neat">
+	<TEXT ID="neat_one">
+	 <TEXTVALUE>The vial labeled as neat is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="FromNeat">
+	<TEXT ID="FromNeat_one">
+	 <TEXTVALUE>The well labeled as neat  is filled with the 10 microlitre of  antiserum solution taken in the micropipette.
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="vector">
+	<TEXT ID="vector_one">
+	 <TEXTVALUE>The same procedure is repeated for all the wells labeled from 1:2 through 1:32.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="petriplate">
+	<TEXT ID="petriplate_one">
+	 <TEXTVALUE>A Petri plate is opened and a small piece of cotton is placed inside it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Watertocotton">
+	<TEXT ID="Watertocotton_one">
+	 <TEXTVALUE>A small volume of water is squeezed from the wash bottle onto the cotton to make it wet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Glassplateinside">
+	<TEXT ID="Glassplateinside_one">
+	 <TEXTVALUE>The gel plate is taken and is kept inside the chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="plate">
+	<TEXT ID="plate_one">
+	 <TEXTVALUE>The lid of the plate is closed and is incubated overnight at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result1">
+	<TEXT ID="Result1_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Result2">
+	<TEXT ID="Result2_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+</DATA>

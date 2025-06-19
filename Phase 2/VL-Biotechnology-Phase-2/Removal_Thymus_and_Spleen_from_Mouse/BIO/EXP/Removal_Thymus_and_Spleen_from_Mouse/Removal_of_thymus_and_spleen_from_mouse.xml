@@ -1,0 +1,141 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="Intro">
+<TEXT ID="Intro_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Intro_two">
+		<TEXTVALUE>Click on each apparatus/reagents to know its name or click on “Continue” to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeTheMouse">
+	<TEXT ID="TakeTheMouse_one">
+		<TEXTVALUE>Take a mouse from its cage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInCO2Chamber">
+	<TEXT ID="MouseInCO2Chamber_one">
+		<!--TEXTVALUE>Put it in a [cml](CO[sub]2[/sub])[/cml] chamber.</TEXTVALUE-->
+		<TEXTVALUE>Put it in a Carbon Dioxide chamber.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="MouseInCO2Chamber_two">
+		<TEXTVALUE>Close the chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CarbonDioxydeCylinder">
+	<TEXT ID="CarbonDioxydeCylinder_one">
+		<TEXTVALUE>Turn on the tap of the Carbon Dioxide supply.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseFallDown">
+	<TEXT ID="MouseFallDown_one">
+		<TEXTVALUE>Within 30 seconds, we can observe that mouse will be unconscious. Animal should be left in the container for several minutes (2minutes) to ensure death.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeMouseFromChamber">
+	<TEXT ID="TakeMouseFromChamber_one">
+		<TEXTVALUE>Open the chamber and take out the dead mouse.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseOnTheBoard1">
+	<TEXT ID="MouseOnTheBoard1_one">
+		<TEXTVALUE>Pin the euthanized mouse on its back on dissection board as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeAlcoholPad">
+	<TEXT ID="TakeAlcoholPad_one">
+		<TEXTVALUE>Take out the alcohol pad.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RubWithAlcoholPad">
+	<TEXT ID="RubWithAlcoholPad_one">
+		<TEXTVALUE>Rub it over the exposed part of mouse.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeTheScalpel">
+	<TEXT ID="TakeTheScalpel_one">
+		<TEXTVALUE>Take a scalpel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MarkWithScalpel">
+	<TEXT ID="MarkWithScalpel_one">
+		<TEXTVALUE>Make a midline incision with the scalpel as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeTheScissor">
+	<TEXT ID="TakeTheScissor_one">
+		<TEXTVALUE>Take an iris scissor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CutWithScissors">
+	<TEXT ID="CutWithScissors_one">
+		<TEXTVALUE>Bisect the incised portion using an iris scissor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Pushpin">
+	<TEXT ID="Pushpin_one">
+		<TEXTVALUE>Pin the opened skin down on the board as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MarkWithScalpel2">
+	<TEXT ID="MarkWithScalpel2_one">
+		<TEXTVALUE>From the top exposed portion, use the scalpel and cut gently downwards in a straight line.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CutTheSpleen">
+	<TEXT ID="CutTheSpleen_one">
+		<TEXTVALUE>Use curved iris forceps, hold the spleen with and cut out the base of the spleen.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SpleenToTheMedium">
+	<TEXT ID="SpleenToTheMedium_one">
+		<TEXTVALUE>Place the spleen in several milliliters of Complete DMEM medium in a tissue culture plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MarkWithScalpel3">
+	<TEXT ID="MarkWithScalpel3_one">
+		<TEXTVALUE>Make an incision in the chest, beginning at the xiphoid and extending to the neck with scalpel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Forceps">
+	<TEXT ID="Forceps_one">
+		<TEXTVALUE>Grasp each lobe of the thymus with curved forceps and gently pull the thymus away, cut at the basal portion using iris scissors.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ThymusToTheMedium">
+	<TEXT ID="ThymusToTheMedium_one">
+		<TEXTVALUE>Place the thymus tissue in several milliliters of Complete DMEM media in a tissue culture plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+
+
+
+
+
+
+
+</DATA>
+
+
+
+
+
+
+
+
+

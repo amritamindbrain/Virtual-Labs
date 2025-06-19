@@ -1,0 +1,89 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="Heading">
+	<TEXT ID="Heading_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Currentclampsetup">
+	<TEXT ID="Currentclampsetup_one">
+		<TEXTVALUE>Observe a typical patch clamp setup </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Currentclampsetup_two">
+		<TEXTVALUE>The computer in the setup is used for recording, the amplifiers amplify the recorded signal and the microscope (left) is where an electrode is used to clamp a neuron. Zoom over the various components to study the setup and then click the continue button</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Graph">
+	<TEXT ID="Graph_one">
+		<TEXTVALUE>The ideal current clamp circuit is usually shown as follows. Observe that the membrane potential is measured using the electrodes and amplified by an external amplifier usually called as current clamp amplifier. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Graph_two">
+		<TEXTVALUE>The electrodes measure relative difference between external and internal membrane potential.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Zoomintotray">
+	<TEXT ID="Zoomintotray_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Placethesliceandzoom">
+	<TEXT ID="Placethesliceandzoom_one">
+		<TEXTVALUE>Place the brain slice in the center of the patch setup. The focused area is called the recording chamber of the setup.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Placethesliceandzoom_two">
+		<TEXTVALUE>The slice is placed in a recording chamber which is circulated with the extracellular solution to keep the neuronal slice intact. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Cellwithelectrodes">
+	<TEXT ID="Cellwithelectrodes_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Zoomtomembrence">
+	<TEXT ID="Zoomtomembrence_one">
+		<TEXTVALUE>The micropipette is pressed against a cell membrane and suction is applied to assist in the formation of a high resistance seal between the glass and the cell membrane (a "gigaohm seal" or "gigaseal," since the electrical resistance of that seal is in excess of a gigaohm).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Applaysuction">
+	<TEXT ID="Applaysuction_one">
+		<TEXTVALUE>Apply suction by clicking on the appropriate icon. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Zoomout">
+	<TEXT ID="Zoomout_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Injectcurrent">
+	<TEXT ID="Injectcurrent_one">
+		<TEXTVALUE>Inject current by pressing the inject icon and see the wave responses. Similar responses can be elicited in many neurons such as cerebellar granule cells, purkinje neurons etc. Click on simulator icon on top now to see the same on a biophysical simulator of a neuronal cell.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Oscilloscope">
+	<TEXT ID="Oscilloscope_one">
+		<TEXTVALUE>Click on HH-simulator to continue with the HH-simulator</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>

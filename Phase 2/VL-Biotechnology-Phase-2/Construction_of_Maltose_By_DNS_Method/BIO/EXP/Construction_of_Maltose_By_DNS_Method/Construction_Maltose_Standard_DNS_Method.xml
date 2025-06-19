@@ -1,0 +1,296 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="Intro">
+<TEXT ID="Intro_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Intro_two">
+		<TEXTVALUE>Click on each apparatus/reagent to know its name or click on “Continue” to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeFistTestTube">
+<TEXT ID="TakeFistTestTube_one">
+		<TEXTVALUE>Label 6 test tubes (of 15ml each) as shown.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="PasteLabel4">
+<TEXT ID="PasteLabel4_one">
+		<TEXTVALUE>Take the first test tube and label it as "Blank".</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeSecondTestTube">
+<TEXT ID="TakeSecondTestTube_one">
+		<TEXTVALUE>Label the second test tube as "0.2".</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="PasteLabel2">
+<TEXT ID="PasteLabel2_one">
+		<TEXTVALUE>Label the third test tube as "0.4".</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="PasteLabel3">
+<TEXT ID="PasteLabel3_one">
+		<TEXTVALUE>Similarly label the other test tubes also as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="AdjustPipetteValue">
+<TEXT ID="AdjustPipetteValue_one">
+		<TEXTVALUE>Take a 1000 micro litres pipette and set its volume to 200 micro litres.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="LoadPipetteTip">
+<TEXT ID="LoadPipetteTip_one">
+		<TEXTVALUE>Take an appropriate tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MaltoseSolution">
+<TEXT ID="MaltoseSolution_one">
+		<TEXTVALUE>Now, take the prepared standard maltose solution using the micro pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MaltoseToTesttube">
+<TEXT ID="MaltoseToTesttube_one">
+		<TEXTVALUE>Pour 0.2ml of maltose solution to the test tube labelled "0.2".</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MaltoseToTesttube2">
+<TEXT ID="MaltoseToTesttube2_one">
+		<TEXTVALUE>Repeat the same procedure for the rest of the test tubes according to the labelled measurement, except the test tube labelled “Blank”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MeasuringJar">
+    <TEXT ID="MeasuringJar_one">
+		<TEXTVALUE>Take some distilled water in a measuring jar.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="AdjustPipetteValue2000">
+    <TEXT ID="AdjustPipetteValue2000_one">
+		<TEXTVALUE>Take 2000 micro litres pipette and set its volume to 2000 micro litres (2 ml).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WaterMicropipette1">
+    <TEXT ID="WaterMicropipette1_one">
+		<TEXTVALUE>Pipette in the distilled water from the measuring jar.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WaterToTesttube1">
+    <TEXT ID="WaterToTesttube1_one">
+		<TEXTVALUE>Pour it into the test tube labelled "Blank".</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="AdjustPipetteValue1800">
+<TEXT ID="AdjustPipetteValue1800_one">
+		<TEXTVALUE>Take 2000 micro litres pipette and set its volume to 1800 micro litres.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WaterMicropipette">
+<TEXT ID="WaterMicropipette_one">
+		<TEXTVALUE>Pipette in the distilled water from the measuring jar.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WaterToTesttube">
+<TEXT ID="WaterToTesttube_one">
+		<TEXTVALUE>Similarly pour 1.8ml of the distilled water to the test tube labelled "0.2" to make it 2ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="WaterChart">
+<TEXT ID="WaterChart_one">
+		<TEXTVALUE>Repeat the same procedure for the rest of the test tubes with the corresponding measurement to make it 2ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TestTubeRack2">
+<TEXT ID="TestTubeRack2_one">
+		<TEXTVALUE>Now all the test tubes are of equal volume (2 ml).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="AdjustPipetteValue1000">
+<TEXT ID="AdjustPipetteValue1000_one">
+		<TEXTVALUE>Set the volume of the pipette to 1000 micro litres (1ml).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="LoadPipetteTip2">
+<TEXT ID="LoadPipetteTip2_one">
+		<TEXTVALUE>Change the tip of the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DNSReagentbottle">
+<TEXT ID="DNSReagentbottle_one">
+		<TEXTVALUE>Take prepared DNS reagent using the pipette from its bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ReagentInTesttube">
+<TEXT ID="ReagentInTesttube_one">
+		<TEXTVALUE>Pour it into the test tube labelled,"Blank".</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="DNSChart">
+<TEXT ID="DNSChart_one">
+		<TEXTVALUE>Similarly pour 1ml each of DNS reagents into all the other test tubes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CloseWithAlumiFoil">
+<TEXT ID="CloseWithAlumiFoil_one">
+		<TEXTVALUE>We can observe that all the test tubes are of equal volume (3 ml).</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="CloseWithAlumiFoil_two">
+		<TEXTVALUE>Cover the mouths of all the test tubes with an aluminium foil as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeTheTesttubeRack">
+<TEXT ID="TakeTheTesttubeRack_one">
+		<TEXTVALUE>Take all the test tubes including rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RackInWaterBath">
+<TEXT ID="RackInWaterBath_one">
+		<TEXTVALUE>Keep it in a water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="WaterBathDrawing">
+<TEXT ID="WaterBathDrawing_one">
+		<TEXTVALUE>Keep it for 5 minutes at 100°C.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="WaterBathDrawing_two">
+		<TEXTVALUE>As time passes, the colour of the solution in each test tube kept in water bath will change.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RackFromWaterBath">
+<TEXT ID="RackFromWaterBath_one">
+		<TEXTVALUE>Now take out the test tubes from the water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="RackInColdWater">
+<TEXT ID="RackInColdWater_one">
+		<TEXTVALUE>Keep it in cold water for few minutes to cool the test tubes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TestTubeRack3">
+<TEXT ID="TestTubeRack3_one">
+		<TEXTVALUE>Observe the change in the colour of the solution in each test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="MeasuringJar2">
+<TEXT ID="MeasuringJar2_one">
+		<TEXTVALUE>Pour some distilled water in a measuring jar.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="WaterInPippette2">
+<TEXT ID="WaterInPippette2_one">
+		<TEXTVALUE>Take 9 ml of distilled water using a pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WaterToTesttube3">
+<TEXT ID="WaterToTesttube3_one">
+		<TEXTVALUE>Pour it into the test tube labelled,"Blank" and mix it well with pipette as shown.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="TakePipette">
+<TEXT ID="TakePipette_one">
+		<TEXTVALUE>Take a new pipette and fix it with a pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WaterInPippette3">
+<TEXT ID="WaterInPippette3_one">
+		<TEXTVALUE>Similarly pour 9 ml of distilled water in each test tube and mix it well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TestTubeRack4">
+<TEXT ID="TestTubeRack4_one">
+		<TEXTVALUE>Now all the test tubes are of equal volume (12 ml).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="LoadPipetteTip3">
+<TEXT ID="LoadPipetteTip3_one">
+		<TEXTVALUE>Change the tip of the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeBlankSample">
+	<TEXT ID="TakeBlankSample_one">
+		<TEXTVALUE>Take 1 ml of the solution from the test tube labelled, "Blank".</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="BlankSampleToCuvette">
+	<TEXT ID="BlankSampleToCuvette_one">
+		<TEXTVALUE>Pour the solution into a cuvette till the specified mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WipeTheCuvette">
+<TEXT ID="WipeTheCuvette_one">
+		<TEXTVALUE>Wipe the surface of the cuvette with a tissue paper. (Never put wet tubes in colorimeter.)</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="CuvetteInColorimeter">
+<TEXT ID="CuvetteInColorimeter_one">
+		<TEXTVALUE>Adjust the wavelength of the colorimeter to 540nm and place the cuvette on the slot of the colorimeter. (Do not touch the body of the cuvette.)</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SetTheColorimeter">
+<TEXT ID="SetTheColorimeter_one">
+		<TEXTVALUE>Set the colorimeter value to zero as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="SetTheColorimeter_two">
+		<TEXTVALUE>Now, take out the cuvette from the colorimeter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Take0.2Sample">
+<TEXT ID="Take0.2Sample_one">
+		<TEXTVALUE>Similarly take 1 ml from the first test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="0.2SampleToCuvette">
+<TEXT ID="0.2SampleToCuvette_one">
+		<TEXTVALUE>Pour it into an another cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CuvetteInColorimeter1">
+<TEXT ID="CuvetteInColorimeter1_one">
+		<TEXTVALUE>Keep it in the colorimeter. Note the value.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ResultChart">
+<TEXT ID="ResultChart_one">
+		<TEXTVALUE>Repeat the same procedure for the rest of the test tubes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ResultGraph">
+<TEXT ID="ResultGraph_one">
+		<TEXTVALUE>Now plot the graph, OD at 540nm Vs Amount of Maltose in mg. We get a straight line.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+</DATA>
+
+
+
+
+
+

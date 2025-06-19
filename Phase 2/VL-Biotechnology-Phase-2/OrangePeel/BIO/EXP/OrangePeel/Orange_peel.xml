@@ -1,0 +1,559 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="Scene1">
+	<TEXT ID="Scene1_one">
+	<TEXTVALUE>Arrange the reagents and materials required for the experiment on the lab table. Click on each apparatus and reagents to know its name or click on the “Continue” button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2vorangepeelstake">
+	<TEXT ID="2vorangepeelstake_one">
+	<TEXTVALUE>A 15-20g of orange peel is taken from the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3addinblendar">
+	<TEXT ID="3addinblendar_one">
+	<TEXTVALUE>The orange peels are then added to a blender.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="4TaketheStandaredflask">
+	<TEXT ID="4TaketheStandaredflask_one">
+	<TEXTVALUE>The lid of the  standard flask containing 0.1M phosphate buffer is opened  and 40ml of the buffer is transferred to a measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="5keepback">
+	<TEXT ID="5keepback_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="6addsolution">
+	<TEXT ID="6addsolution_one">
+	<TEXTVALUE>The measured buffer is then transferred to the blender containing orange peels.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="7keepback">
+	<TEXT ID="7keepback_one">
+	<TEXTVALUE>The measuring cylinder is kept back on the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="8lidcloseto">
+	<TEXT ID="8lidcloseto_one">
+	<TEXTVALUE>The blender is closed with the lid.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="9swichon">
+	<TEXT ID="9swichon_one">
+	<TEXTVALUE>The blender is switched ON.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="10mixing">
+	<TEXT ID="10mixing_one">
+	<TEXTVALUE>The contents in the blender are allowed to mix.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="11TaketheStandaredflask">
+	<TEXT ID="11TaketheStandaredflask_one">
+	<TEXTVALUE>A 40 ml of 0.1M phosphate buffer is transferred again to the measuring cylinder .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="110keepback">
+	<TEXT ID="110keepback_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="12addsolution">
+	<TEXT ID="12addsolution_one">
+	<TEXTVALUE>The buffer is then added to the blender containing orange peels.The blender is closed with the lid.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="13keepback">
+	<TEXT ID="13keepback_one">
+	<TEXTVALUE>The measuring cylinder is kept back on the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="14swichon">
+	<TEXT ID="14swichon_one">
+	<TEXTVALUE>The blender is switched ON.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="15mixing">
+	<TEXT ID="15mixing_one">
+	<TEXTVALUE>The contents in the blender are allowed to mix.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="16swichof">
+	<TEXT ID="16swichof_one">
+	<TEXTVALUE>Now the blender is switched OFF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="17take">
+	<TEXT ID="17take_one">
+	<TEXTVALUE>The blender is now taken from the bench and the lid is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="18addsolutioninconic">
+	<TEXT ID="18addsolutioninconic_one">
+	<TEXTVALUE>The blended orange peel extract is then transferred to a conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="19conikyalflasklid">
+	<TEXT ID="19conikyalflasklid_one">
+	<TEXTVALUE>An adapter is fitted onto the mouth of a side armed conical flask and is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="20placetheconikyal">
+	<TEXT ID="20placetheconikyal_one">
+	<TEXTVALUE>A Buchner funnel is taken from the lab bench and is fitted into the mouth of the conical flask through the adapter. A filter paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="21placetheconikyal">
+	<TEXT ID="21placetheconikyal_one">
+	<TEXTVALUE>It is then placed into the bottom surface of Buchner funnel .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="22takebottile">
+	<TEXT ID="22takebottile_one">
+	<TEXTVALUE>The cap of the bottle with celite powder is opened and the bottle is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="23placetheconikyal">
+	<TEXT ID="23placetheconikyal_one">
+	<TEXTVALUE>Using spatula , some amount of celite powder is taken from the bottle</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="24top">
+	<TEXT ID="24top_one">
+	<TEXTVALUE> Evenly spread onto the filter paper laid on the Buchner funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="25connecting">
+	<TEXT ID="25connecting_one">
+	<TEXTVALUE>A vacuum pump is connected to the side arm of the conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="26takeorangepeal">
+	<TEXT ID="26takeorangepeal_one">
+	<TEXTVALUE>The blended orange peel extract is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="27addorangesolution">
+	<TEXT ID="27addorangesolution_one">
+	<TEXTVALUE>The orange peel extract is then transferred into the Buchner funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="28on">
+	<TEXT ID="28on_one">
+	<TEXTVALUE>The vacuum pump is then switched ON.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="29solutiondroup">
+	<TEXT ID="29solutiondroup_one">
+	<TEXTVALUE>The orange peel extract is getting filtered through the funnel into the new conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="30remove">
+	<TEXT ID="30remove_one">
+	<TEXTVALUE>The vacuum pump is switched off and the Buchner funnel is taken off from the conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="31bottileopen">
+	<TEXT ID="31bottileopen_one">
+	<TEXTVALUE>The lid of the bottle labeled “Orange peel Extract” is removed and a funnel is fitted onto the mouth of the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="32take">
+	<TEXT ID="32take_one">
+	<TEXTVALUE>The conical flask containing filtered orange peel extract is taken from the lab bench and the adapter is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="33addsolution">
+	<TEXT ID="33addsolution_one">
+	<TEXTVALUE>The filtered extract is then transferred to the bottle labeled “Orange peel Extract”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="34taketube">
+	<TEXT ID="34taketube_one">
+	<TEXTVALUE>The tube containing p-nitrophenol is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="35open">
+	<TEXT ID="35open_one">
+	<TEXTVALUE>Few drops of p- nitrophenyl acetate is taken from the tube using a dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="36keeepback">
+	<TEXT ID="36keeepback_one">
+	<TEXTVALUE>The tube is then kept back into the rack and another tube labeled “pNPA + buffer “is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="37open">
+	<TEXT ID="37open_one">
+	<TEXTVALUE>The p- nitrophenyl acetate from the dropper is added to the tube labeled “pNPA + buffer” and the lid of the tube is tightened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="38keeepback">
+	<TEXT ID="38keeepback_one">
+	<TEXTVALUE>The tube is then kept back on the rack.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="38keeepback_two">
+	<TEXTVALUE>Dropper take from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="39Takebuffer">
+	<TEXT ID="39Takebuffer_one">
+	<TEXTVALUE>The lid of the standard flask containing 0.1M phosphate buffer is removed and  6 drops of the buffer is taken using a dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="40take">
+	<TEXT ID="40take_one">
+	<TEXTVALUE>The tube containing “pNPA + buffer “ is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="41open">
+	<TEXT ID="41open_one">
+	<TEXTVALUE>The buffer from the dropper is added to the tube containing “pNPA + buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="42sheyk">
+	<TEXT ID="42sheyk_one">
+	<TEXTVALUE>The tube is then shaken well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="43keeepbackandtake">
+	<TEXT ID="43keeepbackandtake_one">
+	<TEXTVALUE>Another tube labeled “p- nitrophenyl acetate” is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="44open">
+	<TEXT ID="44open_one">
+	<TEXTVALUE>Using a dropper, few drops of p- nitrophenyl acetate is taken from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="45keeepbacandtake">
+	<TEXT ID="45keeepbacandtake_one">
+	<TEXTVALUE>The tube is then kept back in the rack and another tube labeled “ pNPA + orange peel extract” is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="46open">
+	<TEXT ID="46open_one">
+	<TEXTVALUE>The p- nitrophenyl acetate in the dropper is transferred to the tube labeled “ pNPA + orange peel extract”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="47keeepback">
+	<TEXT ID="47keeepback_one">
+	<TEXTVALUE>The tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="48botilopenandtakesolution">
+	<TEXT ID="48botilopenandtakesolution_one">
+	<TEXTVALUE>Few drops of orange peel extract is taken from the bottle using a dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="49take">
+	<TEXT ID="49take_one">
+	<TEXTVALUE>The tube labeled “pNPA + orange peel extract” is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="50open">
+	<TEXT ID="50open_one">
+	<TEXTVALUE>The orange peel extract is then transferred to the “pNPA + orange peel extract” tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="51sheyk">
+	<TEXT ID="51sheyk_one">
+	<TEXTVALUE>The tube is then shaken well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="52keeepback">
+	<TEXT ID="52keeepback_one">
+	<TEXTVALUE>The tube is then replaced back into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="53tlcsolvent">
+	<TEXT ID="53tlcsolvent_one">
+	<TEXTVALUE>The conical flask containing TLC solvent “ Petroleum ether : ethyl acetate” is taken from the lab bench and the aluminium foil is removed from the mouth of the flask. A 5ml of the solvent is transferred to the measuring cylinder. The conical flask is then kept back on the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="54addsolution">
+	<TEXT ID="54addsolution_one">
+	<TEXTVALUE>The lid of the TLC chamber is removed and the TLC solvent in the measuring cylinder is transferred to the chamber and the lid is replaced.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="55taketlc">
+	<TEXT ID="55taketlc_one">
+	<TEXTVALUE>A TLC plate is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="56tlcpleteplease">
+	<TEXT ID="56tlcpleteplease_one">
+	<TEXTVALUE>The plate is placed on the lab bench. A capillary tube is taken from the case.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="57take">
+	<TEXT ID="57take_one">
+	<TEXTVALUE>The tube containing pNPA + buffer is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="58open">
+	<TEXT ID="58open_one">
+	<TEXTVALUE>The capillary tube is immersed into the tube and some amount of contents is drawn into the capillary tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59tipe">
+	<TEXT ID="59tipe_one">
+	<TEXTVALUE>The contents in the capillary tube is spotted onto the TLC plate and dried using a blow dryer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="60taketp">
+	<TEXT ID="60taketp_one">
+	<TEXTVALUE>Another capillary tube is taken from the case.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="61take">
+	<TEXT ID="61take_one">
+	<TEXTVALUE>The tube labeled “pNPA + orange peel extract” is  taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="62open">
+	<TEXT ID="62open_one">
+	<TEXTVALUE>The capillary tube is immersed into the tube and some amount of contents is drawn into the capillary tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="63tipe">
+	<TEXT ID="63tipe_one">
+	<TEXTVALUE>The contents in the capillary tube is spotted onto the TLC plate and dried using a blow dryer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="64take">
+	<TEXT ID="64take_one">
+	<TEXTVALUE>The tube labeled p- nitrophenyl acetate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="65open">
+	<TEXT ID="65open_one">
+	<TEXTVALUE>The contents are drawn into a new capillary tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="66tipe">
+	<TEXT ID="66tipe_one">
+	<TEXTVALUE>The contents in the capillary tube is spotted onto the TLC plate and dried using a blow dryer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="67plasethetube">
+	<TEXT ID="67plasethetube_one">
+	<TEXTVALUE>The tube is then kept in a beaker filled with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="68take">
+	<TEXT ID="68take_one">
+	<TEXTVALUE>The tube labeled “pNPA + buffer” is taken from the rack .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="69plasethetube2">
+	<TEXT ID="69plasethetube2_one">
+	<TEXTVALUE>The tube is then kept in a beaker filled with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="70take">
+	<TEXT ID="70take_one">
+	<TEXTVALUE>The tube labeled “pNPA + orange peel extract” is taken from the rack .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="71plasethetube2">
+	<TEXT ID="71plasethetube2_one">
+	<TEXTVALUE>The tube is then kept in a beaker filled with cotton.The beaker is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="72shaiker">
+	<TEXT ID="72shaiker_one">
+	<TEXTVALUE>The door of the shaker is opened and the beaker with the tubes is placed inside the shaker  for 30 minutes incubation and the door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="73take">
+	<TEXT ID="73take_one">
+	<TEXTVALUE>The TLC plate is taken from the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="74palcethepaper">
+	<TEXT ID="74palcethepaper_one">
+	<TEXTVALUE>The lid of the TLC chamber containing the TLC solvent is removed and the TLC plate is kept in the chamber such that bottom of the plate is immersed in the solvent. The solvent will start to rise through the plate and the plate is then taken out from the chamber as soon as the solvent rises till 1 cm below from the top of the TLC plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="75placethepaper">
+	<TEXT ID="75placethepaper_one">
+	<TEXTVALUE>The solvent front is marked on the plate using a pencil.The plate is then dried using blow drier and is taken from the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="76champur">
+	<TEXT ID="76champur_one">
+	<TEXTVALUE>The plate is kept in spray chamber and potassium permanganate solution is sprayed from the spray bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="77result">
+	<TEXT ID="77result_one">
+	<TEXTVALUE>The spots developed are observed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="78shaiker">
+	<TEXT ID="78shaiker_one">
+	<TEXTVALUE>The beaker with tubes is taken out from the shaker .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="79replace">
+	<TEXT ID="79replace_one">
+	<TEXTVALUE>The beaker is placed on the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="80taketlc">
+	<TEXT ID="80taketlc_one">
+	<TEXTVALUE>A TLC plate is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="81tlcpleteplease">
+	<TEXT ID="81tlcpleteplease_one">
+	<TEXTVALUE>The plate is placed on the lab bench.A capillary tube is taken from the case.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="82take">
+	<TEXT ID="82take_one">
+	<TEXTVALUE>The tube labeled “pNPA + buffer” is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="83open">
+	<TEXT ID="83open_one">
+	<TEXTVALUE>The capillary tube is immersed into the tube and some amount of contents is drawn into the capillary tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="84tipe">
+	<TEXT ID="84tipe_one">
+	<TEXTVALUE>The contents in the capillary tube is spotted onto the TLC plate and dried using a blow dryer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="85taketp">
+	<TEXT ID="85taketp_one">
+	<TEXTVALUE>Another capillary tube is taken from the case.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="86take">
+	<TEXT ID="86take">
+	<TEXTVALUE>The tube labeled ““ pNPA + orange peel extract” is  taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="87open">
+	<TEXT ID="87open_one">
+	<TEXTVALUE>The capillary tube is immersed into the tube and some amount of contents is drawn into the capillary tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="88tipe">
+	<TEXT ID="88tipe_one">
+	<TEXTVALUE>The contents in the capillary tube is spotted onto the TLC plate and dried using a blow dryer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="89take">
+	<TEXT ID="89take_one">
+	<TEXTVALUE>The tube labeled p-nitrophenol  is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="90open">
+	<TEXT ID="90open_one">
+	<TEXTVALUE>The contents are drawn into a new capillary tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="91tipe">
+	<TEXT ID="91tipe_one">
+	<TEXTVALUE>The contents in the capillary tube is spotted onto the TLC plate and dried using a blow dryer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="92plasethetube">
+	<TEXT ID="92plasethetube_one">
+	<TEXTVALUE>The tube is then kept in a beaker filled with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="93take">
+	<TEXT ID="93take_one">
+	<TEXTVALUE>The tube labeled “pNPA + buffer” is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="94plasethetube2">
+	<TEXT ID="94plasethetube2_one">
+	<TEXTVALUE>The tube is then kept in a beaker filled with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="95take">
+	<TEXT ID="95take_one">
+	<TEXTVALUE>The tube labeled “pNPA + orange peel extract” is taken from the rack. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="96plasethetube2">
+	<TEXT ID="96plasethetube2_one">
+	<TEXTVALUE>The tube is then kept in a beaker filled with cotton.The beaker is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="97shaiker">
+	<TEXT ID="97shaiker_one">
+	<TEXTVALUE>The door of the shaker is opened and the beaker with the tubes is placed inside the shaker and the door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="98take">
+	<TEXT ID="98take_one">
+	<TEXTVALUE>The TLC plate is taken from the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="99palcethepaper">
+	<TEXT ID="99palcethepaper_one">
+	<TEXTVALUE>The lid of the TLC chamber containing the TLC solvent is removed and the TLC plate is kept in the chamber such that bottom of the plate is immersed in the solvent. The solvent will start to rise through the plate and the plate is then taken out from the chamber as soon as the solvent rises till 1 cm below from the top of the TLC plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="100placethepaper">
+	<TEXT ID="100placethepaper_one">
+	<TEXTVALUE>The solvent front is marked on the plate using a pencil.The plate is then dried using blow drier and is taken from the bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="101champur">
+	<TEXT ID="101champur_one">
+	<TEXTVALUE>He plate is kept in spray chamber and potassium permanganate solution is sprayed from the spray bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="102result">
+	<TEXT ID="102result_one">
+	<TEXTVALUE>The plate is kept in spray chamber and potassium permanganate solution is sprayed from the spray bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

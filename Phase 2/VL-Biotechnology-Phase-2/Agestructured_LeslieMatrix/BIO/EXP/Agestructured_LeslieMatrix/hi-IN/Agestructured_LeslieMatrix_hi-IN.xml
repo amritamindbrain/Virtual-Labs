@@ -1,0 +1,162 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Agestructured_LeslieMatrix.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_AGECLASSES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_AGEX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APPLICATION_OF_LESLIE_MATRIX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_APPLICATIONOFLESLIEMATRIX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_ATT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_BUTTON1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_BUTTON2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_BUTTON3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_BUTTON4">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_CXTABLES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_CXTABLES2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DESCRIPTION1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DESCRIPTION2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_ERRORMESSAGE1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ERRORMESSAGE2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_ERRORMESSAGE3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_ERRORMESSAGE4">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_FIELDDATA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FINITERATEOFCHANGE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROWTH_RATE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INPUTCONTROL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_LEGENDVARIABLES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_LESLIEMATRIX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_LESLIEMATRIXCALCULATOR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LESLIEMATRIXFROMLIFETABLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_LIFETABLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_LX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_N0C0">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NUMBEROFAGECLASS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NUMBEROFINDIVIDUALS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NUMBEROFINDIVIDUALSINEACHAGECLASS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_NX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_POPULATIONGROWTHRATES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_POPULATIONSIZEVSTIME">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_R">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_R0">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_SUM">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_SURVIVORSHIPCURVE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_SURVIVORSHIPCURVES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_TC">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_TOTAL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_TOTALNOINDIVIDUAL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_X">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_XX">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

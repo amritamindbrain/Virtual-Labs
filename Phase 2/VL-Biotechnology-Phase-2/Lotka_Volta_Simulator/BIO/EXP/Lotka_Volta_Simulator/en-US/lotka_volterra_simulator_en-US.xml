@@ -1,0 +1,120 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="lotka_volterra_simulator.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CLEAR_BUTTON">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_DATA_PLOTS">
+        <source>Data Plots</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_ERROR_MESSAGE2">
+        <source>Value must be a numeric value,  please try again.</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_ERROR_MESSAGE3">
+        <source>Value can not be lower than 1,  please try again.</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_ERROR_MESSAGE4">
+        <source>Value must be an integer value,  please try again.</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_ERROR_MESSAGE5">
+        <source>Step size value must be between 1 to 10,  please try again.</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_GO_TO_STEP">
+        <source>Go to step</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_GRAPH_ERROR_MESSAGE1">
+        <source>To plot a graph you need to complete two steps.</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_INITIAL_RATS_POPULATION">
+        <source>Initial rats population:</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_INITIAL_SNAKES_POPULATION">
+        <source>Initial snakes population:</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_MESSAGE1">
+        <source>Number of steps should be greater than or equal to 10.</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_NUMBER_OF_STEPS">
+        <source>Number of steps:</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_PAUSE">
+        <source>Pause</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_PLAY">
+        <source>Play</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_POPULATION">
+        <source>Population</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_POPULATION_OF_RATES">
+        <source>Population of rats: </source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_POPULATION_OF_SNAKES">
+        <source>Population of snakes: </source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_RATS">
+        <source>Rats</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_RUN_ITERATION">
+        <source>Run iteration</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_RUN_ONCE">
+        <source>Step run</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_SIMULATION_CONTROL">
+        <source>Simulation control</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_SNAKES">
+        <source>Snakes</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_STAT_ERROR_MESSAGE">
+        <source>To Know statistics you need to complete two steps.</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_STATS">
+        <source>Statistics</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_STEP_SIZE">
+        <source>Step size:</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_TIME">
+        <source>Time</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_TITLE">
+        <source>Predator-Prey Dynamics </source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_TYPES_OF_GRAPH1">
+        <source>Rat vs Snake population </source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_TYPES_OF_GRAPH2">
+        <source>Population of Rats vs time</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_TYPES_OF_GRAPH3">
+        <source>Population of Snakes vs time</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_TYPES_OF_GRAPH4">
+        <source>Time domain of rats and snakes</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_VARIABLES">
+        <source>Variables</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_WORK_SHEET">
+        <source>Work sheet</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

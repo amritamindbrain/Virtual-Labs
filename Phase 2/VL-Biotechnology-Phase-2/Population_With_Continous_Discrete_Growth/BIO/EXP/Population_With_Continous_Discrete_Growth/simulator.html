@@ -1,0 +1,272 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<script src="../../../../Scripts/swfobject_modified.js" type="text/javascript"></script>
+<p></p>
+<iframe src="Population-with-discrete-growth.html" frameborder="0" height="600" width="800" scrolling="no"></iframe>
+<p></p>
+<div align="left">
+<a href="javascript:shwgrd();" style="font-family:Verdana, Geneva, sans-serif">Show/Hide worksheet</a>
+</div>
+<p></p>
+<style>
+h3 {
+	margin-top: 0;
+	color: #8C0209;
+	font-size: 1em;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="../../../../Scripts/grid/gt_grid.css" />  
+<script type="text/javascript" src="../../../../Scripts/grid/gt_msg_en.js"></script>
+<script type="text/javascript" src="../../../../Scripts/grid/gt_const.js"></script>
+<script type="text/javascript" src="../../../../Scripts/grid/gt_grid_all.js"></script>
+<script type="text/javascript" >  
+<!-- All the scripts will go here  --> 
+var data1 = [
+
+[1,100,50,0.45,0.1],
+[2,50,30,0.30,0.1]
+
+];
+
+var dsOption= {
+
+    fields :[
+
+        {name : 'serialNo',type : 'float'},
+		
+		{name : 'Time',type : 'float'},
+		
+		{name : 'Initialpopulation',type : 'float' },
+
+        {name : 'Noofbirths',type : 'float' },  
+		
+		{name : 'Noofdeaths',type : 'float' },		
+		
+        {name : 'Rateofgrowth' ,type: 'float' ,  initValue : function(record){
+           
+		   var rate = 1+(record[3]-record[4]);
+
+           rate = parseInt(rate*100)/100;
+
+                return rate;
+            }},
+			
+		{name : 'Population' ,type: 'float' ,  initValue : function(record){
+           
+		 var population = (record[2]*(Math.pow(record[5],record[1])));
+		
+         population = parseInt(population*1000)/1000;
+
+              return population;
+         }}        
+    ],
+
+    recordType : 'array',
+ 
+data: data1
+	
+} 
+
+
+var colsOption = [
+
+	   {id: 'serialNo' , header: "Trial No" , width :80,editor: {  type :"text"  } },
+
+       {id: 'Time' , header: "Time" , width :80 ,editor: {  type :"text"  } },
+	   
+	    {id: 'Initialpopulation' , header: "Initial population" , width :145 ,editor: {  type :"text"  } },
+
+       {id: 'Noofbirths' , header: "No.of births" , width :112 ,editor: {  type :"text"  } },
+
+       {id: 'Noofdeaths' , header: "No.of deaths" , width :111 ,editor: {  type :"text"  } },      	   
+
+       {id: 'Rateofgrowth' , header: "Rate of growth" , width :145},
+
+       {id: 'Population' , header: "Population" , width :120}	   
+
+];
+
+var gridOption={
+    id : "grid1",
+	width: "800",  
+	height: "200",  	
+	container : 'grid1_container', 
+	exportURL : '../../../../Scripts/grid/export_php/testList.php?export=true',
+	exportFileName : 'test_export_doc',
+	dataset : dsOption ,
+	columns : colsOption ,
+	customHead : 'myHead1',
+	toolbarPosition : 'bottom',
+	toolbarContent : 'add del reload  save | print xls pdf | '
+};
+var showTable=false;
+function shwgrd(){
+	if(showTable){
+		showTable=false;
+		show()
+	}else{
+		showTable=true;
+		hide()
+	}
+}
+
+function showGrid(){
+	if (Sigma.$('grid1_container').style.display!="none") {
+	 	Sigma.$('grid1_container').style.display="none";
+    }else{
+	    Sigma.$('grid1_container').style.display='';
+		eval('document.getElementById("Worksheet")');
+	    mygrid.onShow();
+    }
+}
+var mygrid=new Sigma.Grid(gridOption);
+Sigma.Util.onLoad(Sigma.Grid.render(mygrid) );
+mygrid.visibility = 'hidden'; 
+
+//////////////
+
+var data2 = [			 
+[1,100,202,0.101],
+[2,50,100,0.102]
+];
+
+var dsOption2= {
+
+    fields :[
+
+        {name : 'serialNo2',type : 'float'},
+		
+		{name : 'Time2',type : 'float'},
+
+		{name : 'Initialpopulation2',type : 'float' },
+		
+        {name : 'Rateofgrowth2' ,type: 'float' },
+			
+		{name : 'Population2' ,type: 'float' ,  initValue : function(record){
+           
+		var population1 = ((record[2])*(Math.exp(record[3]*record[1])));
+		
+         population1 = parseInt(population1*1000)/1000;
+
+              return population1;
+         }}        
+    ],
+
+    recordType : 'array',
+ 
+data: data2
+	
+} 
+
+
+var colsOption2 = [
+
+	   {id: 'serialNo2' , header: "Trial No" , width :80,editor: {  type :"text"  } },
+
+       {id: 'Time2' , header: "Time" , width :115 ,editor: {  type :"text"  } },
+
+       {id: 'Initialpopulation2' , header: "Initial population" , width :200 ,editor: {  type :"text"  } },	   
+
+       {id: 'Rateofgrowth2' , header: "Rate of growth" , width :200,editor: {  type :"text"  }},
+
+       {id: 'Population2' , header: "Population" , width :200}	   
+
+];
+
+var gridOption2={
+    id : "grid2",
+	width: "800",  
+	height: "200",  	
+	container : 'grid2_container', 
+	exportURL : '../../../../Scripts/grid/export_php/testList.php?export=true',
+	exportFileName : 'test_export_doc',
+	dataset : dsOption2 ,
+	columns : colsOption2 ,
+	customHead : 'myHead2',
+	toolbarPosition : 'bottom',
+	toolbarContent : 'add del reload  save | print xls pdf | '
+};
+function showGrid2(){
+	 if (Sigma.$('grid2_container').style.display!="none") {
+	 	Sigma.$('grid2_container').style.display="none";
+    }else{
+	    Sigma.$('grid2_container').style.display='';
+	    mygrid2.onShow();
+	//	eval('document.getElementById("Worksheet")');
+    }
+}
+var mygrid2=new Sigma.Grid(gridOption2);
+Sigma.Util.onLoad(Sigma.Grid.render(mygrid2) );
+mygrid2.visibility = 'hidden'; 
+///////////
+var browserType;
+if (document.layers) {browserType = "nn4"}
+if (document.all) {browserType = "ie"}
+if (window.navigator.userAgent.toLowerCase().match("gecko")) {
+   browserType= "gecko"
+}
+
+function hide() {
+  if (browserType == "gecko" )
+     document.poppedLayer =  eval('document.getElementById("Worksheet")');
+  else if (browserType == "ie")
+     document.poppedLayer =  eval('document.getElementById("Worksheet")');
+  else
+     document.poppedLayer =  eval('document.layers["Worksheet"]');
+  //document.poppedLayer.style.visibility = "hidden";
+   document.poppedLayer.style.display="none";
+}
+/////
+function show() {
+  if (browserType == "gecko" )
+     document.poppedLayer = eval('document.getElementById("Worksheet")');
+  else if (browserType == "ie")
+     document.poppedLayer = eval('document.getElementById("Worksheet")');
+  else
+  document.poppedLayer = eval('document.layers["Worksheet"]');
+  //document.poppedLayer.style.visibility = "visible";
+   document.poppedLayer.style.display="inline";
+}
+</script> 
+<div align="left" id="Worksheet"  style="visibility: visible"> 
+<table id="myHead1" style="display:none">
+ <tr><td colspan="7"><h3>Population with discrete model</h3></td></tr>
+<tr>
+	<td columnId='serialNo'>Trial No</td>
+    <td columnId='Time'>Time</td>
+     <td columnId='Initialpopulation'>Initial population</td>
+	<td columnId='Noofbirths'>No.of births</td>
+    <td columnId='Noofdeaths'>No.of deaths</td>   
+    <td columnId='Rateofgrowth'>Rate of growth</td>
+    <td columnId='Population'>Population</td>
+</tr>
+</table>
+<div align="left">
+ <div id="grid1_container" style="width:800px;height:220px">  
+</div>  
+</div>
+
+<table id="myHead2" style="display:none">
+<tr><td colspan="6"><h3>Population with continuous model</h3></td></tr>
+<tr>	
+	<td columnId='serialNo2'>Trial No</td>
+    <td columnId='Time2'>Time</td>
+    <td columnId='Initialpopulation2'>Initial population</td>
+    <td columnId='Rateofgrowth2'>Rate of growth</td>
+    <td columnId='Population2'>Population</td>
+</tr>
+</table>
+<div align="left">
+ <div id="grid2_container" style="width:800px;height:220px">  
+</div>  
+</div>
+</div>
+</div>

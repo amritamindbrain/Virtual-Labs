@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Neuron_Sim3.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CURRENT">
+        <source>Current Clamp mode</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_EXPORT">
+        <source>Export</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_IL_TEXT">
+        <source>Ileak Scale is -0.05  to 0.05</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_MAX">
+        <source>Max scale:</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_MEMB_CURRENT">
+        <source>Neuro-sim-Export-Iclamp</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_MEMB_VOLT">
+        <source>Neuro-sim-Export-Vclamp</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_MIN">
+        <source>Min scale:</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_RUNCONTROL">
+        <source>Run</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_SETSTIMULUS">
+        <source>Set Stimulus</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_SETVCLAMP">
+        <source>Set VClamp</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_STIM1">
+        <source>Stim1</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_STIM1BUTTON">
+        <source>Stim1 </source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_STIM2">
+        <source>Stim2</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_STIMULI">
+        <source>Stimuli </source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_STOP">
+        <source>Stop</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_TITLE">
+        <source>Neuron Simulator</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_VARIABLES">
+        <source>Variables</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_VCLAMP">
+        <source>Voltage Clamp Stimuli</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_VOLTAGE">
+        <source>Voltage Clamp Mode</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_VOLTAGECLAMPPROTOCOL">
+        <source>Voltage Clamp Protocol</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_VSTIM">
+        <source>Vstim</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

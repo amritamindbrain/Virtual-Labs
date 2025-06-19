@@ -1,0 +1,2052 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="1Title">
+	<TEXT ID="1Title_one">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name/ Click the “continue” button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="2button">
+	<TEXT ID="2button_one">
+	 <TEXTVALUE>For getting the process of transfection, click on the transfection button. Otherwise you continue with western blotting button.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="3text">
+	<TEXT ID="3text_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4rOpnRefriAndTakT">
+	<TEXT ID="4rOpnRefriAndTakT_one">
+	 <TEXTVALUE>The CO[sub]2[/sub] incubator is opened and T labeled plate (test plate) is taken from it. After that the incubator is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE> 
+
+<SCENE ID="5KeepitOnTheTable">
+	<TEXT ID="5KeepitOnTheTable_one">
+	 <TEXTVALUE>T labeled plate is placed on the work bench and is opened.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="5KeepitOnTheTable_two">
+	 <TEXTVALUE>The plate is tilted for sucking out the entire medium from the plate using a pipette tip which is attached to a vacuum pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6tak2mlPpt">
+	<TEXT ID="6tak2mlPpt_one">
+	 <TEXTVALUE>2ml pipette is taken from the rack and a pipette pump is attached to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7connecttip">
+	<TEXT ID="7connecttip_one">
+	 <TEXTVALUE>2ml pipette is taken from the rack and a pipette pump is attached to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8TakPBS">
+	<TEXT ID="8TakPBS_one">
+	 <TEXTVALUE>A bottle containing PBS   is opened and 2ml of solution is pipetted out. After that the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9pourinPetriDish">
+	<TEXT ID="9pourinPetriDish_one">
+	 <TEXTVALUE>The solution is poured into the plate for washing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10vattam">
+	<TEXT ID="10vattam_one">
+	 <TEXTVALUE>The solution is mixed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="11suckAllSoltn">
+	<TEXT ID="11suckAllSoltn_one">
+	 <TEXTVALUE>The plate is tilted for sucking out the entire medium from the plate using a pipette tip which is attached to a vacuum pump. After that the plate is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12takpipette200">
+	<TEXT ID="12takpipette200_one">
+	 <TEXTVALUE>A 20-200 microliter pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13adjustppt">
+	<TEXT ID="13adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 150 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14taktip">
+	<TEXT ID="14taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15taksdsbfr">
+	<TEXT ID="15taksdsbfr_one">
+	 <TEXTVALUE>A tube containing10% SDS buffer is taken from the rack and is opened. Then 150 microliters of solution is pipetted out from it. After that the tube is closed. 
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16opnPplateNtake">
+	<TEXT ID="16opnPplateNtake_one">
+	 <TEXTVALUE>The T labeled plate is opened and taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="17AddNRotate">
+	<TEXT ID="17AddNRotate_one">
+	 <TEXTVALUE>The solution is poured into the plate for washing and shake it well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18TAkCelScrap">
+	<TEXT ID="18TAkCelScrap_one">
+	 <TEXTVALUE>A sterile cell scraper is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19sCRAP">
+	<TEXT ID="19sCRAP_one">
+	 <TEXTVALUE>The cells are scraped from the bottom of the plate and shift them into a corner of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20takpipette200">
+	<TEXT ID="20takpipette200_one">
+	 <TEXTVALUE>A 20-200 micro liter pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21adjustppt150">
+	<TEXT ID="21adjustppt150_one">
+	 <TEXTVALUE>The pipette is adjusted to 150 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22taktip">
+	<TEXT ID="22taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23sCRAP">
+	<TEXT ID="23sCRAP_one">
+	 <TEXTVALUE>The lysate is pipetted out from the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24Keepitback">
+	<TEXT ID="24Keepitback_one">
+	 <TEXTVALUE>The plate is replaced into the work bench and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25takTtube">
+	<TEXT ID="25takTtube_one">
+	 <TEXTVALUE>A T labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26aaddInvial">
+	<TEXT ID="26aaddInvial_one">
+	 <TEXTVALUE>The T labeled microfuge tube is opened and the lysate is transferred into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27keepitback2drak">
+	<TEXT ID="27keepitback2drak_one">
+	 <TEXTVALUE>The T labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28discardTip">
+	<TEXT ID="28discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29rOpnRefriAndTakT">
+	<TEXT ID="29rOpnRefriAndTakT_one">
+	 <TEXTVALUE>The CO[sub]2[/sub] incubator is opened and another C labeled plate (control plate) is taken from it. After that the incubator is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30KeepitOnTheTable">
+	<TEXT ID="30KeepitOnTheTable_one">
+	 <TEXTVALUE>C labeled plate is placed on the work bench and it is opened.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="30KeepitOnTheTable_two">
+	 <TEXTVALUE>The plate is tilted for sucking out the entire medium from the plate using a pipette tip which is attached to a vacuum pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="31tak2mlPpt">
+	<TEXT ID="31tak2mlPpt_one">
+	 <TEXTVALUE>2ml pipette is taken from the rack and a pipette pump is attached to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32connecttip">
+	<TEXT ID="32connecttip_one">
+	 <TEXTVALUE>2ml pipette is taken from the rack and a pipette pump is attached to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33TakPBS">
+	<TEXT ID="33TakPBS_one">
+	 <TEXTVALUE>A bottle containing PBS is opened and 2ml of solution is pipetted out. After that the bottle closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34pourinPetriDish">
+	<TEXT ID="34pourinPetriDish_one">
+	 <TEXTVALUE>The solution is poured into the plate for washing </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="35vattam">
+	<TEXT ID="35vattam_one">
+	 <TEXTVALUE>The plate is mixed well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36suckAllSoltn">
+	<TEXT ID="36suckAllSoltn_one">
+	 <TEXTVALUE>The plate is tilted for sucking out the entire medium from the plate using a pipette tip which is attached to a vacuum pump. After that the plate is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37takpipette200">
+	<TEXT ID="37takpipette200_one">
+	 <TEXTVALUE>A 20-200 microliter pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38adjustppt">
+	<TEXT ID="38adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 150 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39taktip">
+	<TEXT ID="39taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40taksdsbfr">
+	<TEXT ID="40taksdsbfr_one">
+	 <TEXTVALUE>A tube containing10% SDS buffer is taken from the rack and is opened. Then 150 microliters of solution is pipetted out from it. After that the tube is closed. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41opnPplateNtake">
+	<TEXT ID="41opnPplateNtake_one">
+	 <TEXTVALUE>The C labeled plate is opened and is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42AddNRotate">
+	<TEXT ID="42AddNRotate_one">
+	 <TEXTVALUE>The solution is poured into the plate for washing and shake it well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43TAkCelScrap">
+	<TEXT ID="43TAkCelScrap_one">
+	 <TEXTVALUE>A sterile cell scraper is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44sCRAP">
+	<TEXT ID="44sCRAP_one">
+	 <TEXTVALUE>The cells are scraped from the bottom of the plate and shift them into a corner of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45takpipette200">
+	<TEXT ID="45takpipette200_one">
+	 <TEXTVALUE>A 20-200 microliter pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="46adjustppt150">
+	<TEXT ID="46adjustppt150_one">
+	 <TEXTVALUE>The pipette is adjusted to 150 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47taktip">
+	<TEXT ID="47taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48sCRAP">
+	<TEXT ID="48sCRAP_one">
+	 <TEXTVALUE>The lysate is pipetted out from the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="49Keepitback">
+	<TEXT ID="49Keepitback_one">
+	 <TEXTVALUE>The plate is replaced into the work bench and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50takTtube">
+	<TEXT ID="50takTtube_one">
+	 <TEXTVALUE>A C labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51aaddInvial">
+	<TEXT ID="51aaddInvial_one">
+	 <TEXTVALUE>The C labeled microfuge is opened and the lysate is transferred into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52keepitback2drak">
+	<TEXT ID="52keepitback2drak_one">
+	 <TEXTVALUE>The C labeled microfuge is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="53discardTip">
+	<TEXT ID="53discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54time5minutes">
+	<TEXT ID="54time5minutes_one">
+	 <TEXTVALUE>The samples are incubated for 5 minutes at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="55opnCentifuge">
+	<TEXT ID="55opnCentifuge_one">
+	 <TEXTVALUE>The refrigerated centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56TakTnC">
+	<TEXT ID="56TakTnC_one">
+	 <TEXTVALUE>The microfuge tubes labeled as T and C are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57keepVialInside">
+	<TEXT ID="57keepVialInside_one">
+	 <TEXTVALUE>Both the Microfuge tubes are placed into the refrigerated centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58closeCentri">
+	<TEXT ID="58closeCentri_one">
+	 <TEXTVALUE>The refrigerated centrifuge door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59time">
+	<TEXT ID="59time_one">
+	 <TEXTVALUE>The rpm is adjusted to 14,000 for 15 minutes at 25ºC.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60opnCentifuge">
+	<TEXT ID="60opnCentifuge_one">
+	 <TEXTVALUE>After that the refrigerated centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="61takTub">
+	<TEXT ID="61takTub_one">
+	 <TEXTVALUE>Both the microfuge tubes are taken from the refrigerated centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62KeepitBaaaa">
+	<TEXT ID="62KeepitBaaaa_one">
+	 <TEXTVALUE>Both the microfuge tubes are placed into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="63takpipette200">
+	<TEXT ID="63takpipette200_one">
+	 <TEXTVALUE>A 20-2000 pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64adjustppt150">
+	<TEXT ID="64adjustppt150_one">
+	 <TEXTVALUE>The pipette is adjusted to 150 micro liters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65taktip">
+	<TEXT ID="65taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66TakC">
+	<TEXT ID="66TakC_one">
+	 <TEXTVALUE>The C labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67takitFrmC">
+	<TEXT ID="67takitFrmC_one">
+	 <TEXTVALUE>The C labeled microfuge tube is opened and the supernatant is taken from it. After that the tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68keepitbak">
+	<TEXT ID="68keepitbak_one">
+	 <TEXTVALUE>The C labeled microfuge tube is replaced and C1 labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69OpnC1">
+	<TEXT ID="69OpnC1_one">
+	 <TEXTVALUE>The C1 labeled microfuge tube is opened and the supernatant is transferred into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70keepitinrack">
+	<TEXT ID="70keepitinrack_one">
+	 <TEXTVALUE>The C1 labeled microfuge is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71discardTip">
+	<TEXT ID="71discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="72taktip">
+	<TEXT ID="72taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73takeTtube">
+	<TEXT ID="73takeTtube_one">
+	 <TEXTVALUE>The T labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="74TakfrmT">
+	<TEXT ID="74TakfrmT_one">
+	 <TEXTVALUE>The T labeled microfuge tube is opened and the supernatant is taken from it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75keepitbak">
+	<TEXT ID="75keepitbak_one">
+	 <TEXTVALUE>The T labeled microfuge tube is replaced and T1 labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76OpnT1ndAdd">
+	<TEXT ID="76OpnT1ndAdd_one">
+	 <TEXTVALUE>The T1 labeled microfuge tube is opened and the supernatant is transferred into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77keepitinrak">
+	<TEXT ID="77keepitinrak_one">
+	 <TEXTVALUE>The T1 labeled microfuge tube is replaced into the rack.  After that  both the microfuge tubes T1  and C1 containing rack is taken</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78KeepVialsInRefri">
+	<TEXT ID="78KeepVialsInRefri_one">
+	 <TEXTVALUE>The -20ºC freezer is opened and both microfuge tubes are kept inside it for storage. After that the door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79Button">
+	<TEXT ID="79Button_one">
+	 <TEXTVALUE>To estimate the amount of protein, click on the first button and to confirm the presence of protein, click on the second button.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80takVialsFrmRefri">
+	<TEXT ID="80takVialsFrmRefri_one">
+	 <TEXTVALUE>The -20ºC freezer is opened and both microfuge tubes along with rack are taken from it. After that the door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81rAKoNTABL">
+	<TEXT ID="81rAKoNTABL_one">
+	 <TEXTVALUE>Both the microfuge tubes along with rack are placed into the work bench and kept for 5 minute at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82takvianltap">
+	<TEXT ID="82takvianltap_one">
+	 <TEXTVALUE>The T1 labeled microfuge tube is taken from the rack and mixed it well. Similarly C1 labeled microfuge tube is taken and mixed it well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="83opnCentifuge">
+	<TEXT ID="83opnCentifuge_one">
+	 <TEXTVALUE>The refrigerated centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84TakTnC1Nt1">
+	<TEXT ID="84TakTnC1Nt1_one">
+	 <TEXTVALUE>The microfuge tubes labeled as T1 and C1 are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="85keepVialInside">
+	<TEXT ID="85keepVialInside_one">
+	 <TEXTVALUE>Both the Microfuge tubes are placed into the refrigerated centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="86closeCentri">
+	<TEXT ID="86closeCentri_one">
+	 <TEXTVALUE>The refrigerated centrifuge door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87time">
+	<TEXT ID="87time_one">
+	 <TEXTVALUE>The rpm is adjusted to 10,000 for 1 minute.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88opnCentifuge">
+	<TEXT ID="88opnCentifuge_one">
+	 <TEXTVALUE>After that the refrigerated centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89Takvials">
+	<TEXT ID="89Takvials_one">
+	 <TEXTVALUE>Both the microfuge tubes are taken from the refrigerated centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="90KeepVialsInRak">
+	<TEXT ID="90KeepVialsInRak_one">
+	 <TEXTVALUE>Both the microfuge tubes are placed into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91chart">
+	<TEXT ID="91chart_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="92takpipette10">
+	<TEXT ID="92takpipette10_one">
+	 <TEXTVALUE>A 0.5-10 microliters pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93adjustppt">
+	<TEXT ID="93adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 7.5 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="94taktip">
+	<TEXT ID="94taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95tAKc1">
+	<TEXT ID="95tAKc1_one">
+	 <TEXTVALUE>The C1 labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96Topnc11NdtakeSol">
+	<TEXT ID="96Topnc11NdtakeSol_one">
+	 <TEXTVALUE>The C1 labeled microfuge tube is opened and 7.5 micro liters of control sample is taken from it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="97keepitbakntakc1b">
+	<TEXT ID="97keepitbakntakc1b_one">
+	 <TEXTVALUE>The C1 labeled microfuge tube is replaced and C1 +b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98AddinC1B">
+	<TEXT ID="98AddinC1B_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is opened and the control sample is transferred into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="99KEEPc1bINRAK">
+	<TEXT ID="99KEEPc1bINRAK_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="100discardTip">
+	<TEXT ID="100discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101adjustppt">
+	<TEXT ID="101adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 4.5 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="102taktip">
+	<TEXT ID="102taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="103TakmilliQ">
+	<TEXT ID="103TakmilliQ_one">
+	 <TEXTVALUE>A bottle containing sterile Milli-Q water   is opened and 4.5 microliters of solution is pipetted out. After that the bottle closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="104takC1B">
+	<TEXT ID="104takC1B_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="105AddinC1B">
+	<TEXT ID="105AddinC1B_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is opened and the 4.5 microliters of Milli-Q water is transferred into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="106KEEPc1bINRAK">
+	<TEXT ID="106KEEPc1bINRAK_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="107discardTip">
+	<TEXT ID="107discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108adjustppt">
+	<TEXT ID="108adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 4 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109taktip">
+	<TEXT ID="109taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="110violetBuffer">
+	<TEXT ID="110violetBuffer_one">
+	 <TEXTVALUE>The sample buffer containing vial is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111violet">
+	<TEXT ID="111violet_one">
+	 <TEXTVALUE>The sample buffer containing vial is opened and 4 microliters of sample buffer is pipette out. After that the vial is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112violetBFRbAKk">
+	<TEXT ID="112violetBFRbAKk_one">
+	 <TEXTVALUE>The sample buffer containing vial is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="112violetBFRbAKk_two">
+	 <TEXTVALUE>The C1+b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113AddinC1B">
+	<TEXT ID="113AddinC1B_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is opened.  Then 4 microliters of sample buffer is transferred and mixed into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112violetBFRbAK">
+	<TEXT ID="112violetBFRbAK_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113discardTip">
+	<TEXT ID="113discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="114adjustppt">
+	<TEXT ID="114adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 7 micro liters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115taktip">
+	<TEXT ID="115taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="116takT1">
+	<TEXT ID="116takT1_one">
+	 <TEXTVALUE>The T1 labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117takFrminT1">
+	<TEXT ID="117takFrminT1_one">
+	 <TEXTVALUE>The T1 labeled microfuge tube is opened and 7 microliters of test sample is taken from it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118KeepitBak">
+	<TEXT ID="118KeepitBak_one">
+	 <TEXTVALUE>The T1 labeled microfuge tube is replaced and T1 +b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119AddinT1B">
+	<TEXT ID="119AddinT1B_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is opened.  Then test sample is transferred and mixed into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120KeepitBaaaa">
+	<TEXT ID="120KeepitBaaaa_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121discardTip">
+	<TEXT ID="121discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="122adjustppt">
+	<TEXT ID="122adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 5 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="123taktip">
+	<TEXT ID="123taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124TakmilliQ">
+	<TEXT ID="124TakmilliQ_one">
+	 <TEXTVALUE>A bottle containing sterile Milli-Q water  is opened and 4.5 microliters of solution is pipetted out. After that the bottle closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="125tak">
+	<TEXT ID="125tak_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="126AddinT1B">
+	<TEXT ID="126AddinT1B_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is opened and the 5 microliters of Milli-Q water is transferred into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="127KeepitBaaakk">
+	<TEXT ID="127KeepitBaaakk_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="128discardTip">
+	<TEXT ID="128discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="129adjustppt">
+	<TEXT ID="129adjustppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 4 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="130taktip">
+	<TEXT ID="130taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="131violetBuffer">
+	<TEXT ID="131violetBuffer_one">
+	 <TEXTVALUE>sample buffer containing vial is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="132Pending">
+	<TEXT ID="132Pending_one">
+	 <TEXTVALUE>The sample buffer containing vial is opened and 4 microliters of sample buffer is pipette out. After that the vial is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="133violetBuffe">
+	<TEXT ID="133violetBuffe_one">
+	 <TEXTVALUE>The sample buffer containing vial is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="133violetBuffe_two">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="134AddinC1BnMixing">
+	<TEXT ID="134AddinC1BnMixing_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is opened.  Then 4 microliters of sample buffer is transferred and mixed into it. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="135Bak2DRak">
+	<TEXT ID="135Bak2DRak_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="136discardTip">
+	<TEXT ID="136discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="137CentiOpn">
+	<TEXT ID="137CentiOpn_one">
+	 <TEXTVALUE>The centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="138tak2Vials">
+	<TEXT ID="138tak2Vials_one">
+	 <TEXTVALUE>The microfuge tubes labeled as T1 +b and C1 +b are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="139vilkeep">
+	<TEXT ID="139vilkeep_one">
+	 <TEXTVALUE>Both the Microfuge tubes are placed into the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="140close">
+	<TEXT ID="140close_one">
+	 <TEXTVALUE>The centrifuge door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="141numbertium">
+	<TEXT ID="141numbertium_one">
+	 <TEXTVALUE>The rpm is adjusted to 10,000 for 1 minute.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="142Opn">
+	<TEXT ID="142Opn_one">
+	 <TEXTVALUE>After that the refrigerated centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="143takVial">
+	<TEXT ID="143takVial_one">
+	 <TEXTVALUE>Both the microfuge tubes are taken from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="144DryBathTim">
+	<TEXT ID="144DryBathTim_one">
+	 <TEXTVALUE>Both the microfuge tubes are placed into the dry bath incubator for 5 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="145tak">
+	<TEXT ID="145tak_one">
+	 <TEXTVALUE>Both the microfuge tubes are taken from the dry bath incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="146vialraktak">
+	<TEXT ID="146vialraktak_one">
+	 <TEXTVALUE>Both the microfuge tubes are placed into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="147opnCentifuge">
+	<TEXT ID="147opnCentifuge_one">
+	 <TEXTVALUE>The refrigerated centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+	
+	<TEXT ID="147opnCentifuge_two">
+	 <TEXTVALUE>The microfuge tubes labeled as T1 +b and C1 +b along with rack are taken.</TEXTVALUE>
+	</TEXT>
+	
+	<TEXT ID="147opnCentifuge_three">
+	 <TEXTVALUE>Both the Microfuge tubes are placed into the refrigerated centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="148closeCentri">
+	<TEXT ID="148closeCentri_one">
+	 <TEXTVALUE>The refrigerated centrifuge door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="149time">
+	<TEXT ID="149time_one">
+	 <TEXTVALUE>The rpm is adjusted to 12,000 for 10 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="150opnCentifuge">
+	<TEXT ID="150opnCentifuge_one">
+	 <TEXTVALUE>After that the refrigerated centrifuge door is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="151Takvials">
+	<TEXT ID="151Takvials_one">
+	 <TEXTVALUE>Both the microfuge tubes are taken from the refrigerated centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="152KeepVialsInRak">
+	<TEXT ID="152KeepVialsInRak_one">
+	 <TEXTVALUE>Both the microfuge tubes are placed into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="153pourRunningBuffer">
+	<TEXT ID="153pourRunningBuffer_one">
+	 <TEXTVALUE>A bottle containing running buffer is taken.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="153pourRunningBuffer_two">
+	 <TEXTVALUE>The bottle containing running buffer solution is poured into the SDS -PAGE apparatus having gel in it. After the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="154takppt10">
+	<TEXT ID="154takppt10_one">
+	 <TEXTVALUE>A 0.5-10 microliters pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="155sho10">
+	<TEXT ID="155sho10_one">
+	 <TEXTVALUE>The pipette is adjusted to 10 microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="156taktip">
+	<TEXT ID="156taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="157takC1b">
+	<TEXT ID="157takC1b_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="158takvioletsaol">
+	<TEXT ID="158takvioletsaol_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is opened and 10 microliters of control sample is pipetted out. After that the microfuge tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="159keepitbak">
+	<TEXT ID="159keepitbak_one">
+	 <TEXTVALUE>The C1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="160addVioletInWell">
+	<TEXT ID="160addVioletInWell_one">
+	 <TEXTVALUE>The control sample is loaded into the second well of the gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="161dscardTip">
+	<TEXT ID="161dscardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="162taktip">
+	<TEXT ID="162taktip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="163takT1b">
+	<TEXT ID="163takT1b_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="164takvioletsaol">
+	<TEXT ID="164takvioletsaol_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is opened and 10 microliters of control sample is pipetted out. After that the microfuge tube is closed. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="165keepitbak">
+	<TEXT ID="165keepitbak_one">
+	 <TEXTVALUE>The T1 +b labeled microfuge tube is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="166addVioletInWell2">
+	<TEXT ID="166addVioletInWell2_one">
+	 <TEXTVALUE>The test sample is loaded into the third well of the gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="167dscardTip">
+	<TEXT ID="167dscardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="168marker">
+	<TEXT ID="168marker_one">
+	 <TEXTVALUE>The vial  containing pre stained marker  is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="169opnMarkrtub">
+	<TEXT ID="169opnMarkrtub_one">
+	 <TEXTVALUE>The vial containing pre stained marker is opened and 10 microliters of marker is pipetted out. After that the vial is closed. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="170KEEPITBAK">
+	<TEXT ID="170KEEPITBAK_one">
+	 <TEXTVALUE>The vial is replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="171ABddMarkerinGel">
+	<TEXT ID="171ABddMarkerinGel_one">
+	 <TEXTVALUE>The marker is loaded into the first well of the gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="172discardTip">
+	<TEXT ID="172discardTip_one">
+	 <TEXTVALUE>The tip is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="173closeLid">
+	<TEXT ID="173closeLid_one">
+	 <TEXTVALUE>The lid of the SDS-PAGE apparatus is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="174adjst200">
+	<TEXT ID="174adjst200_one">
+	 <TEXTVALUE>The voltage is adjusted to 200 V.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="175time45minutes">
+	<TEXT ID="175time45minutes_one">
+	 <TEXTVALUE>The gel is allowed to run for 45 minutes. After that it is stopped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="176MembraneTransfer">
+	<TEXT ID="176MembraneTransfer_one">
+	 <TEXTVALUE>Click on the button, “Membrane transfer”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="177refri3door">
+	<TEXT ID="177refri3door_one">
+	 <TEXTVALUE>The -4ºC freezer is opened.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="177refri3door_two">
+	 <TEXTVALUE>A bottle containing transfer buffer is taken from the 4ºC refrigerator. After that the 4ºC refrigerator door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="178Opntransferbuffer">
+	<TEXT ID="178Opntransferbuffer_one">
+	 <TEXTVALUE>A bottle containing transfer buffer is placed into the work bench and is opened to take the buffer from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="179pour">
+	<TEXT ID="179pour_one">
+	 <TEXTVALUE>The lid of the tray is removed and the transfer buffer is poured into each trays. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="180baktotable">
+	<TEXT ID="180baktotable_one">
+	 <TEXTVALUE>The bottle containing transfer buffer is replaced into the work bench and closed it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="181opnLid">
+	<TEXT ID="181opnLid_one">
+	 <TEXTVALUE>The lid of the SDS-PAGE apparatus is removed and the gel holder is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="182takgelHoldnGlass">
+	<TEXT ID="182takgelHoldnGlass_one">
+	 <TEXTVALUE>The gel holder clip is removed and the gel cassette having gel is taken from the gel holder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="183takUprGlass">
+	<TEXT ID="183takUprGlass_one">
+	 <TEXTVALUE>The top glass is removed from the gel cassette using a scoop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="184gelintray">
+	<TEXT ID="184gelintray_one">
+	 <TEXTVALUE>The gel is transferred into the transfer buffer containg tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="186arrangement">
+	<TEXT ID="186arrangement_one">
+	 <TEXTVALUE>All the materials need for membrane transfer is arranged in front of the transfer buffer containing tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="187takmethanol">
+	<TEXT ID="187takmethanol_one">
+	 <TEXTVALUE>A bottle containing methanol is opened and taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="189pour">
+	<TEXT ID="189pour_one">
+	 <TEXTVALUE>The methanol is poured into the fresh tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="190keepitbak">
+	<TEXT ID="190keepitbak_one">
+	 <TEXTVALUE>A bottle containing methanol is replaced into the work bench and closed it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="191takPVDF">
+	<TEXT ID="191takPVDF_one">
+	 <TEXTVALUE>The PVDF membrane is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="192PVDF">
+	<TEXT ID="192PVDF_one">
+	 <TEXTVALUE>The upper coating layer of the membrane is peel off from the PVDF membrane and the PVDF membrane is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="193PVDFinMethanol">
+	<TEXT ID="193PVDFinMethanol_one">
+	 <TEXTVALUE>The PVDF membrane is transfer into the methanol containg tray and incubates the membrane for 2 minutes at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="194takpvdf">
+	<TEXT ID="194takpvdf_one">
+	 <TEXTVALUE>The PVDF membrane is taken from the methanol containing tray and placed into the cold transfer buffer containing tray. After that the PVDF membrane is incubated for 10 minutes in cold transfer buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="195opncasette">
+	<TEXT ID="195opncasette_one">
+	 <TEXTVALUE>The cassette is taken and opened it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="196casetteInTray">
+	<TEXT ID="196casetteInTray_one">
+	 <TEXTVALUE>The cassette is placed into the cold transfer buffer containing tray. The black side of the cassette is immersed into the buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="197TAKspong">
+	<TEXT ID="197TAKspong_one">
+	 <TEXTVALUE>The sponge is taken and placed above the black side of the cassette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="198spongVechu">
+	<TEXT ID="198spongVechu_one">
+	 <TEXTVALUE>The sponge is taken and placed above the black side of the cassette.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="198spongVechu_two">
+	 <TEXTVALUE>The filter paper is taken and placed above the sponge in the cassette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="199takGlass">
+	<TEXT ID="199takGlass_one">
+	 <TEXTVALUE>The filter paper is taken and placed above the sponge in the cassette.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="199takGlass_two">
+	 <TEXTVALUE>Another glass is removed from the gel containing tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="200gelOncasette">
+	<TEXT ID="200gelOncasette_one">
+	 <TEXTVALUE>The gel is taken from the tray and placed above the filter paper in the cassette using a scoop.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="200gelOncasette_two">
+	 <TEXTVALUE>The gel is properly placed above the filter paper in the cassette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="201roller">
+	<TEXT ID="201roller_one">
+	 <TEXTVALUE>The PVDF membrane is taken from the tray and placed above the gel in the cassette using a forceps.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="201roller_two">
+	 <TEXTVALUE>The blotting roller is taken from the work bench and gently rolls out above the surface of the PVDF membrane. After that the roller is replaced into the work bench.
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="202TAKtissue">
+	<TEXT ID="202TAKtissue_one">
+	 <TEXTVALUE>The filter paper is taken and placed above the PVDF membrane in the cassette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="203tissueonpvdc">
+	<TEXT ID="203tissueonpvdc_one">
+	 <TEXTVALUE>The filter paper is taken and placed above the PVDF membrane in the cassette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="204TAKspong">
+	<TEXT ID="204TAKspong_one">
+	 <TEXTVALUE>The sponge is taken and placed above the filter paper in the cassette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="205spongontissue">
+	<TEXT ID="205spongontissue_one">
+	 <TEXTVALUE>The sponge is taken and placed above the filter paper in the cassette.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="205spongontissue_two">
+	 <TEXTVALUE>The blotting roller is taken from the work bench and gently rolls out above the surface of the sponge. After that the roller is replaced into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="206taKcASETTEfRMtRAY">
+	<TEXT ID="206taKcASETTEfRMtRAY_one">
+	 <TEXTVALUE>The cassette is taken from the tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="207closecasetta">
+	<TEXT ID="207closecasetta_one">
+	 <TEXTVALUE>The cassette is locked.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+<SCENE ID="208fishtank">
+	<TEXT ID="208fishtank_one">
+	 <TEXTVALUE>The cassette is placed inside the transfer apparatus.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="208fishtank_two">
+	 <TEXTVALUE>The ice box is taken and placed inside the tank.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="208fishtanktrnsfrbfr">
+	<TEXT ID="208fishtanktrnsfrbfr_one">
+	 <TEXTVALUE>A bottle containing transfer buffer is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20POR">
+	<TEXT ID="20POR_one">
+	 <TEXTVALUE>The bottle containing transfer buffer solution is poured into the transfer apparatus. After that the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="209closelidNTime">
+	<TEXT ID="209closelidNTime_one">
+	 <TEXTVALUE>The lid of the transfer apparatus is closed.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="209closelidNTime_two">
+	 <TEXTVALUE>The voltage is adjusted to 100 V.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="209closelidNTime_three">
+	 <TEXTVALUE>The gel is allowed to run for 120 minutes. After that it is stopped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="210Button">
+	<TEXT ID="210Button_one">
+	 <TEXTVALUE>Click on the button, “Immunoblotting”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="211opnLid">
+	<TEXT ID="211opnLid_one">
+	 <TEXTVALUE>The lid of the transfer apparatus is opened and is placed in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="212takcasette">
+	<TEXT ID="212takcasette_one">
+	 <TEXTVALUE>The cassette is taken from the transfer apparatus.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="213opncasetten">
+	<TEXT ID="213opncasetten_one">
+	 <TEXTVALUE>The cassette is opened and is kept on the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="214takpvdfcolrd">
+	<TEXT ID="214takpvdfcolrd_one">
+	 <TEXTVALUE>The sponge and the filter paper are removed using forceps. Then the PVDF membrane is transfer into a tray with the same forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="215DDh2OTake">
+	<TEXT ID="215DDh2OTake_one">
+	 <TEXTVALUE>The DDH[sub]2[/sub]O bottle is opened and is taken from the work bench. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="216DDh2Opour">
+	<TEXT ID="216DDh2Opour_one">
+	 <TEXTVALUE>The DDH[sub]2[/sub]O is poured into the tray at a level in which the PVDF membrane should be submerged in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="217keepitbak">
+	<TEXT ID="217keepitbak_one">
+	 <TEXTVALUE>The bottle is kept back to the work bench and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="218tak">
+	<TEXT ID="218tak_one">
+	 <TEXTVALUE>The tray is taken from the work bench and is swirled. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="218tak_two">
+	 <TEXTVALUE>The solution is discarded into the waste beaker by tilting the tray and the tray is kept back to the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="219blucaptub">
+	<TEXT ID="219blucaptub_one">
+	 <TEXTVALUE>The Ponceau stain containing bottle  is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="220pourRedInTray">
+	<TEXT ID="220pourRedInTray_one">
+	 <TEXTVALUE>The Ponceau stain containing tray is opened and is transfer into a fresh tray. After that the tube is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="221keepitbak">
+	<TEXT ID="221keepitbak_one">
+	 <TEXTVALUE>The Ponceau stain containing tray is kept back to the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="222PVDFiNrED">
+	<TEXT ID="222PVDFiNrED_one">
+	 <TEXTVALUE>The tray Ponceau stain is taken from the work bench and is swirled for the uniform distribution of the stain.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="222PVDFiNrED_two">
+	 <TEXTVALUE>Then the PVDF membrane is transferred  to the Ponceau stain containing tray using forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="223takTray">
+	<TEXT ID="223takTray_one">
+	 <TEXTVALUE>The tray is swirled to sink the membrane fully in the stain and the tray is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="224sHAKER">
+	<TEXT ID="224sHAKER_one">
+	 <TEXTVALUE>The tray is placed on the shaking platform and is shaken for 1 hour.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="225SHAKEROFF">
+	<TEXT ID="225SHAKEROFF_one">
+	 <TEXTVALUE>After 1 hour the tray is opened and is taken from the shaking plat form.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="226OpnLidNtAkeTray">
+	<TEXT ID="226OpnLidNtAkeTray_one">
+	 <TEXTVALUE>After 1 hour the tray is opened and is taken from the shaking plat form.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="227discardred">
+	<TEXT ID="227discardred_one">
+	 <TEXTVALUE>The tray containing Ponceau stain is discarded into a waste beaker. Then the membrane is distained by pouring water into the tray. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="228discardWater">
+	<TEXT ID="228discardWater_one">
+	 <TEXTVALUE>The water is discarded into the waste beaker. The water is again added into the waste beaker and the water is removed into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="229wash">
+	<TEXT ID="229wash_one">
+	 <TEXTVALUE>The solution is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="230keepitback">
+	<TEXT ID="230keepitback_one">
+	 <TEXTVALUE>The tray containing PVDF membrane is kept back to the work bench.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="230keepitback_two">
+	 <TEXTVALUE>The tray containing PVDF membrane after washing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="231takmilk">
+	<TEXT ID="231takmilk_one">
+	 <TEXTVALUE>A bottle containing 5% non – fat dry milk in TBST buffer is opened and is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="232PORMilk">
+	<TEXT ID="232PORMilk_one">
+	 <TEXTVALUE>5% non – fat dry milk in TBST buffer is transferred into the membrane containing tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="233keepitbak">
+	<TEXT ID="233keepitbak_one">
+	 <TEXTVALUE>5% non – fat dry milk in TBST buffer is kept back to the table and the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="234mixtaryMilk">
+	<TEXT ID="234mixtaryMilk_one">
+	 <TEXTVALUE>The tray is closed</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="234mixtaryMilk_two">
+	 <TEXTVALUE>The tray is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="235sHAKER">
+	<TEXT ID="235sHAKER_one">
+	 <TEXTVALUE>The tray is placed on the shaking plat form and is shaken for 1 hour.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="236off">
+	<TEXT ID="236off_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="237tak">
+	<TEXT ID="237tak_one">
+	 <TEXTVALUE>After 1 hour the tray is opened and is taken from the shaking plat form.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="238discard">
+	<TEXT ID="238discard_one">
+	 <TEXTVALUE>The tray containing buffer is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="239keepitback">
+	<TEXT ID="239keepitback_one">
+	 <TEXTVALUE>The tray is kept back on the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="240takFormtbst">
+	<TEXT ID="240takFormtbst_one">
+	 <TEXTVALUE>A bottle containing TBST buffer is opened and is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="241tbstOzhi">
+	<TEXT ID="241tbstOzhi_one">
+	 <TEXTVALUE>The TBST buffer is added to the tray containing PVDF membrane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="242keepitbak">
+	<TEXT ID="242keepitbak_one">
+	 <TEXTVALUE>The TBST buffer is kept back to the work bench and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="243TakTray">
+	<TEXT ID="243TakTray_one">
+	 <TEXTVALUE>The tray is closed and is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="244onShaker">
+	<TEXT ID="244onShaker_one">
+	 <TEXTVALUE>The tray is placed on the shaking plat form and is shaken for 5 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="245offffff">
+	<TEXT ID="245offffff_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="246tak">
+	<TEXT ID="246tak_one">
+	 <TEXTVALUE>After 5 minutes,  the tray is opened and is taken from the shaking plat form.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="247discardTBST">
+	<TEXT ID="247discardTBST_one">
+	 <TEXTVALUE>The tray containing TBST buffer is transferred into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="248keepitbak">
+	<TEXT ID="248keepitbak_one">
+	 <TEXTVALUE>The tray is kept back on the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="249glsppt">
+	<TEXT ID="249glsppt_one">
+	 <TEXTVALUE>A 5ml pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="250connect">
+	<TEXT ID="250connect_one">
+	 <TEXTVALUE>And the pipette pump is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="251taksol">
+	<TEXT ID="251taksol_one">
+	 <TEXTVALUE>A bottle containing 5% BSA in TBST is opened pipetted out 5%BSA solution and the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="252addsolintray">
+	<TEXT ID="252addsolintray_one">
+	 <TEXTVALUE>5 ml of 5% BSA in TBST solution is transferred to the membrane containing tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="251takppt10">
+	<TEXT ID="251takppt10_one">
+	 <TEXTVALUE>A 0.5-10 microliter pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="252adjustppt">
+	<TEXT ID="252adjustppt_one">
+	 <TEXTVALUE>The value of the micropipette is adjusted to 5microliters.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="253taktip">
+	<TEXT ID="253taktip_one">
+	 <TEXTVALUE>A fresh tip is inserted into the micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="254takPrimary">
+	<TEXT ID="254takPrimary_one">
+	 <TEXTVALUE>The primary antibody (Anti GFP) containing vial is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="255takprimariIntip">
+	<TEXT ID="255takprimariIntip_one">
+	 <TEXTVALUE>The primary antibody containing tube is opened, pipette out 5microliters of primary antibody and the vial is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="256keepitbak">
+	<TEXT ID="256keepitbak_one">
+	 <TEXTVALUE>The vial is kept back to the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="257mix">
+	<TEXT ID="257mix_one">
+	 <TEXTVALUE>The 5 microliters of primary antibody to the tray containing buffer and the membrane. The tray is closed and is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="258DOOR3REFRI">
+	<TEXT ID="258DOOR3REFRI_one">
+	 <TEXTVALUE>The incubator is opened and place the tray on the shaking incubator arranged inside the incubator. The incubator is closed and is incubated overnight at 4°C on the shaking platform.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="259opndoorNtakeTray">
+	<TEXT ID="259opndoorNtakeTray_one">
+	 <TEXTVALUE>After the overnight incubation, the switched off the shaking incubator and the tray is taken from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="260opnTray">
+	<TEXT ID="260opnTray_one">
+	 <TEXTVALUE>The tray is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="261tak50mltub">
+	<TEXT ID="261tak50mltub_one">
+	 <TEXTVALUE>A 50 ml screw cap tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="262pour">
+	<TEXT ID="262pour_one">
+	 <TEXTVALUE>The tray containing solution is transferred into the tube. The tube is closed and is sealed. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="263takemarker">
+	<TEXT ID="263takemarker_one">
+	 <TEXTVALUE>The marker pen is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="264BAKWRITE">
+	<TEXT ID="264BAKWRITE_one">
+	 <TEXTVALUE>The tube is labeled as “Primary antibody and date”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="265TAKRAK">
+	<TEXT ID="265TAKRAK_one">
+	 <TEXTVALUE>The labeled tube is kept on the rack and the tube with rack is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+<SCENE ID="266REFRItubvechu">
+	<TEXT ID="266REFRItubvechu_one">
+	 <TEXTVALUE>The 4°C refrigerator is opened; the tube with rack is placed in it for further uses and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="267tbstATka">
+	<TEXT ID="267tbstATka_one">
+	 <TEXTVALUE>A bottle containing the TBST buffer is opened and is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="268pourTBST">
+	<TEXT ID="268pourTBST_one">
+	 <TEXTVALUE>The TBST buffer is added to the tray containing PVDF membrane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="269keepitbak">
+	<TEXT ID="269keepitbak_one">
+	 <TEXTVALUE>The TBST buffer is kept back to the work bench and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="270taktray">
+	<TEXT ID="270taktray_one">
+	 <TEXTVALUE>The tray is closed and is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="271shaking">
+	<TEXT ID="271shaking_one">
+	 <TEXTVALUE>The tray is placed on the shaking plat form and is shaken for 5 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="272offeythu">
+	<TEXT ID="272offeythu_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="273edthu">
+	<TEXT ID="273edthu_one">
+	 <TEXTVALUE>After 5 minutes, the tray is opened and is taken from the shaking plat form.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="274discardCheythu">
+	<TEXT ID="274discardCheythu_one">
+	 <TEXTVALUE>The solution is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="276takmilk">
+	<TEXT ID="276takmilk_one">
+	 <TEXTVALUE>A bottle containing 5% BSA in TBST is opened pipetted out 5ml of 5%BSA solution and the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="277addsolintray">
+	<TEXT ID="277addsolintray_one">
+	 <TEXTVALUE>5 ml of 5% BSA in TBST solution is transferred to the membrane containing tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="278refri">
+	<TEXT ID="278refri_one">
+	 <TEXTVALUE>The 4°C refrigerator is opened, the secondary antibody (anti mouse) containing vial is taken from it and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="279taksecanti">
+	<TEXT ID="279taksecanti_one">
+	 <TEXTVALUE>The secondary antibody (anti mouse) containing vial  is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="280coverWithAluminiumFoil">
+	<TEXT ID="280coverWithAluminiumFoil_one">
+	 <TEXTVALUE>The secondary antibody containing vial is covered with aluminum foil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="281inIceboxSecAnti">
+	<TEXT ID="281inIceboxSecAnti_one">
+	 <TEXTVALUE>And is placed in the icebox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="281takppt10">
+	<TEXT ID="281takppt10_one">
+	 <TEXTVALUE>A 0.5-10 microliters pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="282adjstppt">
+	<TEXT ID="282adjstppt_one">
+	 <TEXTVALUE>The pipette is adjusted to 1 microliter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="283takTip">
+	<TEXT ID="283takTip_one">
+	 <TEXTVALUE>The tip box is opened and a fresh tip is inserted into the pipette. After that the tip box is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="284takalutub">
+	<TEXT ID="284takalutub_one">
+	 <TEXTVALUE>The secondary antibody (Anti-mouse Antibody) containing vial is taken from the ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="285remov">
+	<TEXT ID="285remov_one">
+	 <TEXTVALUE>The vial is opened and 1 microliter secondary antibody is pipetted out from it. After that the vial is closed and replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="286rakilSecanti">
+	<TEXT ID="286rakilSecanti_one">
+	 <TEXTVALUE>The vial is opened and 1 microliter secondary antibody is pipetted out from it. After that the vial is closed and replaced into the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="287mixtaryMilk">
+	<TEXT ID="287mixtaryMilk_one">
+	 <TEXTVALUE>1microliter of secondary antibody is transferred into the membrane containing tray and mixed it. After that the tray is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="288CutAlFoil">
+	<TEXT ID="288CutAlFoil_one">
+	 <TEXTVALUE>A piece of aluminum foil is cut from the foil roll.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="289COVERING">
+	<TEXT ID="289COVERING_one">
+	 <TEXTVALUE>The PVDF membrane containing tray is wrapped using aluminum foil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="289primariKeepInrak">
+	<TEXT ID="289primariKeepInrak_one">
+	 <TEXTVALUE>The primary antibody is taken from the ice box and placed into the rack. After that the rack is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="290refffff">
+	<TEXT ID="290refffff_one">
+	 <TEXTVALUE>The 4ºC refrigerator is opened.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="290refffff_two">
+	 <TEXTVALUE>The antibodies containing rack is placed in the refrigerator for storage. After that the door is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="291taktray">
+	<TEXT ID="291taktray_one">
+	 <TEXTVALUE>The PVDF membrane containg tray is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="292sHAKER">
+	<TEXT ID="292sHAKER_one">
+	 <TEXTVALUE>The PVDF membrane containing tray is placed on the shaking plat form and is shaken for 2hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="293offffff">
+	<TEXT ID="293offffff_one">
+	 <TEXTVALUE>After 2hours, the shaker is switched off and the tray is taken from the shaking plat form.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="294removefoil">
+	<TEXT ID="294removefoil_one">
+	 <TEXTVALUE>The aluminum foil and the lid are removed from the tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="295discard">
+	<TEXT ID="295discard_one">
+	 <TEXTVALUE>The solution is discarded into the waste beaker. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="296PlcItOnDTshakr">
+	<TEXT ID="296PlcItOnDTshakr_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="297takTBST">
+	<TEXT ID="297takTBST_one">
+	 <TEXTVALUE>The TBST buffer containing bottle is opened and is taken from the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="298shakeeeeeAbdulla">
+	<TEXT ID="298shakeeeeeAbdulla_one">
+	 <TEXTVALUE>The TBST buffer is added to the tray containing PVDF membrane.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="298shakeeeeeAbdulla_two">
+	 <TEXTVALUE>The shaker is switched on and is shaken for 5 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="299offffff">
+	<TEXT ID="299offffff_one">
+	 <TEXTVALUE>After5 minutes, the shaker is switched off and the tray is taken from the shaking plat form.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="300discard">
+	<TEXT ID="300discard_one">
+	 <TEXTVALUE>The solution is discarded into the waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="301onShkrNClos">
+	<TEXT ID="301onShkrNClos_one">
+	 <TEXTVALUE>The tray is placed on the shaking plat form and the tray is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="302button">
+	<TEXT ID="302button_one">
+	 <TEXTVALUE>Click on the button, “Detection”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="304tak5mlglsppt">
+	<TEXT ID="304tak5mlglsppt_one">
+	 <TEXTVALUE>A 5 ml glass pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="305connect">
+	<TEXT ID="305connect_one">
+	 <TEXTVALUE>5ml pipette is connected to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="306pippetting">
+	<TEXT ID="306pippetting_one">
+	 <TEXTVALUE>A bottle containing hydrogen peroxide solution is opened and 5ml solution is pipette out from it. After that the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="307innewTray">
+	<TEXT ID="307innewTray_one">
+	 <TEXTVALUE>A fresh tray having silver lid is opened and transfers the 5ml solution into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="308ppt">
+	<TEXT ID="308ppt_one">
+	 <TEXTVALUE>A 5 ml glass pipette is taken from the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="309connect">
+	<TEXT ID="309connect_one">
+	 <TEXTVALUE>5ml pipette is connected to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="310ALFALUMI">
+	<TEXT ID="310ALFALUMI_one">
+	 <TEXTVALUE>A bottle containing Alpha luminol solution is opened and 5ml solution is pipette out from it. After that the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="311pour">
+	<TEXT ID="311pour_one">
+	 <TEXTVALUE>Transfer the 5ml alpha luminol solution into the tray containing hydrogen peroxide solution (ECL solution).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="312shaker">
+	<TEXT ID="312shaker_one">
+	 <TEXTVALUE>The lid of the membrane containg tray is opened and the PVDF membrane is taken from it using a forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="313vechuadachu">
+	<TEXT ID="313vechuadachu_one">
+	 <TEXTVALUE>The PVDF membrane is placed into the tray containing ECL solution. After that the tray is closed and kept it for 3-5 minutes at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="314takNshake">
+	<TEXT ID="314takNshake_one">
+	 <TEXTVALUE>The tray containing membrane is taken and shake it. After that it is replaced into  the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="315takTissuuepprNontabl">
+	<TEXT ID="315takTissuuepprNontabl_one">
+	 <TEXTVALUE>A tissue paper is taken from the tissue paper box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="316takTissuuepprNontabl">
+	<TEXT ID="316takTissuuepprNontabl_one">
+	 <TEXTVALUE>The tissue paper is placed into the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="317takpvdf">
+	<TEXT ID="317takpvdf_one">
+	 <TEXTVALUE>The membrane tray is opened and the PVDF membrane is taken from the tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="318removewater">
+	<TEXT ID="318removewater_one">
+	 <TEXTVALUE>The PVDF membrane is placed on the tissue paper for wick off the excess solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="319keepinaPlsticwrap">
+	<TEXT ID="319keepinaPlsticwrap_one">
+	 <TEXTVALUE>The PVDF membrane is placed on the plastic wrap and plastic wrap is closed. After that gently roll out above the surface of the plastic wrap using a blotting roller.
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="320GelDocSysNResult">
+	<TEXT ID="320GelDocSysNResult_one">
+	 <TEXTVALUE>The gel documentation system is opened and placed the membrane inside it. After that the door is closed.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="320GelDocSysNResult_two">
+	 <TEXTVALUE>Switch is on in the EPL button in the gel documentation system.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="320GelDocSysNResult_three">
+	 <TEXTVALUE>The protein bands in the membrane are observed through the gel documentation system.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+</DATA>

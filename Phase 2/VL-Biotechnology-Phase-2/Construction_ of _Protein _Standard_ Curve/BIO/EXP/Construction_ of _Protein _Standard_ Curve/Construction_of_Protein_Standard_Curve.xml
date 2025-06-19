@@ -1,0 +1,385 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="01Intro">
+	<TEXT ID="01Intro_one">
+		<TEXTVALUE>Arrange the reagents and materials required for the experiment on the lab table.Click on each apparatus/reagents  to know its name or click on the “Continue”  to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="02coppersulphtake">
+	<TEXT ID="02coppersulphtake_one">
+	<TEXTVALUE>The bottle containing copper sulphate is opened and some amount of the copper sulphate powder is taken from it.
+	</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="03weighingm">
+	<TEXT ID="03weighingm_one">
+		<TEXTVALUE>The weigh balance is TARED and the powder is then transferred to the blotting paper  kept on the weigh balance and 0.2g of the copper sulphate is weighed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="04beakerinpowder">
+	<TEXT ID="04beakerinpowder_one">
+		<TEXTVALUE>The weighed powder is then transferred to a beaker and the bottle containing distilled water is opened. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="05measuringjar">
+	<TEXT ID="05measuringjar_one">
+		<TEXTVALUE>Measure out 20ml of distilled water using a measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="06diswaterinb">
+	<TEXT ID="06diswaterinb_one">
+		<TEXTVALUE>The measured distilled water is then added to the beaker containing the copper sulphate solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="07glassrod">
+	<TEXT ID="07glassrod_one">
+		<TEXTVALUE>And stir the contents using a glass rod. Label it as “Solution A”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="08tartrateinbeaker">
+	<TEXT ID="08tartrateinbeaker_one">
+		<TEXTVALUE>Add 0.4 gm of sodium potassium tartarate into a beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="0920mlwater">
+	<TEXT ID="0920mlwater_one">
+		<TEXTVALUE>Using measuring cylinder, 20 ml of distilled water is measured.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="10zoomshot20">
+	<TEXT ID="10zoomshot20_one">
+		<TEXTVALUE>Using measuring cylinder, 20 ml of distilled water is measured.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="11beaker">
+	<TEXT ID="11beaker_one">
+		<TEXTVALUE>The distilled water is then transferred to the beaker containing sodium potassium tartarate .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="12mixtartrate">
+	<TEXT ID="12mixtartrate_one">
+		<TEXTVALUE>Stir the contents using a glass rod. Label it as “Solution B”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="13sodiumcarb">
+	<TEXT ID="13sodiumcarb_one">
+		<TEXTVALUE>Add 3.6g of sodium carbonate into a beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="14naoh">
+	<TEXT ID="14naoh_one">
+		<TEXTVALUE>The standard flask containing 0.1N NaOH is opened .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="15180mlnaoh">
+	<TEXT ID="15180mlnaoh_one">
+		<TEXTVALUE>Using a measuring cylinder, measure out 180ml of 0.1N NaOH.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="16naohinbeaker">
+	<TEXT ID="16naohinbeaker_one">
+		<TEXTVALUE>The measured 0.1N NaOH is transferred to the beaker containing sodium carbonate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="17mixnaoh">
+	<TEXT ID="17mixnaoh_one">
+		<TEXTVALUE>Stir the contents using a glass rod. Label it as “Solution C”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="18AdjustPipetteValue1000">
+	<TEXT ID="18AdjustPipetteValue1000_one">
+		<TEXTVALUE>A micropipette is taken and adjust the volume to 1000microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="19tiptake">
+	<TEXT ID="19tiptake_one">
+		<TEXTVALUE>A new micropipette tip is then inserted .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="20atake">
+	<TEXT ID="20atake_one">
+		<TEXTVALUE>Using the micropipette, pipette out 1ml of Solution A from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="21newbeaker">
+	<TEXT ID="21newbeaker_one">
+		<TEXTVALUE>Transfer the measured solution into a  new beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="22wastetip">
+	<TEXT ID="22wastetip_one">
+		<TEXTVALUE>The micropipette tip is then discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="23adjstppt">
+	<TEXT ID="23adjstppt_one">
+		<TEXTVALUE>Again the micropipette volume is adjusted to 1000microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="24tiptake2">
+	<TEXT ID="24tiptake2_one">
+		<TEXTVALUE>A new micropipette tip is then inserted .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="25btake">
+	<TEXT ID="25btake_one">
+		<TEXTVALUE>Using the micropipette, pipette out 1ml of Solution B from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="26newbeaker2">
+	<TEXT ID="26newbeaker2_one">
+		<TEXTVALUE>Transfer the measured solution into beaker containing Solution A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="27pptconnecting">
+	<TEXT ID="27pptconnecting_one">
+		<TEXTVALUE>A glass pipette is fixed into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="28ctake">
+	<TEXT ID="28ctake_one">
+		<TEXTVALUE>Using the pipette, pipette out 9ml of the solution C from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="29newbeake3">
+	<TEXT ID="29newbeake3_one">
+		<TEXTVALUE>Transfer the measured solution into the beaker containing Solution A and Solution B.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="30takeglassrod">
+	<TEXT ID="30takeglassrod_one">
+		<TEXTVALUE>A glass rod is taken  from the lab bench.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="31glassrodabc">
+	<TEXT ID="31glassrodabc_one">
+		<TEXTVALUE>The contents in the beaker is stirred thoroughly using the glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="32inconical">
+	<TEXT ID="32inconical_one">
+		<TEXTVALUE>The  lid of the stoppered conical flask is opened and the solution mixture from the beaker is now transferred to the conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="32inconical">
+	<TEXT ID="32inconical_two">
+		<TEXTVALUE>Label the  conical flask as “Alkaline Copper Reagent”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="33Testubes">
+	<TEXT ID="33Testubes_one">
+		<TEXTVALUE>The test tubes are labelled and arranged in the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="34AdjustPipetteValue20">
+	<TEXT ID="34AdjustPipetteValue20_one">
+		<TEXTVALUE>A micropipette is taken and the volume is adjusted to 200microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="35tiptake20ml">
+	<TEXT ID="35tiptake20ml_one">
+		<TEXTVALUE>A new micropipette tip is then inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="36proteinsolution">
+	<TEXT ID="36proteinsolution_one">
+		<TEXTVALUE>The lid of the standard flask containing Standard Protein solution is removed and pipette out 200 microlitre of the solution from the standard flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="372ml">
+	<TEXT ID="372ml_one">
+		<TEXTVALUE>Transfer the pipetted solution into the test tube labelled “0.2”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="38AdjustPipetteValue400">
+	<TEXT ID="38AdjustPipetteValue400_one">
+		<TEXTVALUE>The micropipette volume is then adjusted  to  400 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="39proteinsolution2">
+	<TEXT ID="39proteinsolution2_one">
+		<TEXTVALUE>The lid of the standard flask containing ‘Standard Protein solution’ is removed and pipette out 400 microlitre of the solution from the standard flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="40linedraw">
+	<TEXT ID="40linedraw_one">
+		<TEXTVALUE>Transfer the pipetted solution into the test tube labelled “0.4”. Similarly pipette  out 600 microlitre,800 microlitre,1000 microlitre of the standard protein solution to the respective labelled test tubes.Pipette out 500 microlitre of the unknown solution to the test tube labelled “Unknown”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="41Testubesfillprot">
+	<TEXT ID="41Testubesfillprot_one">
+		<TEXTVALUE>Now all the test tube, except “Blank “ is filled with protein solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="42pptreading1000">
+	<TEXT ID="42pptreading1000_one">
+		<TEXTVALUE>A micropipette is taken and volume is adjusted to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="43distilledwater">
+	<TEXT ID="43distilledwater_one">
+		<TEXTVALUE>1000 microlitre  of distilled water is then pipetted out from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="44blank">
+	<TEXT ID="44blank_one">
+		<TEXTVALUE>Transfer the pipetted water into the  test tube labelled “Blank”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="45pptreading600">
+	<TEXT ID="45pptreading600_one">
+		<TEXTVALUE>The micropipette volume is then adjusted  to  800 microlitre .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="46distilledwater600">
+	<TEXT ID="46distilledwater600_one">
+		<TEXTVALUE>800 microlitre  of distilled water is pipetted out from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="47linedrawDW">
+	<TEXT ID="47linedrawDW_one">
+		<TEXTVALUE>Transfer the pipetted water into the test tube labelled “0.2”. Similarly pipette out 600 microlitre , 400 microlitre , 200 microlitre  and 500 microlitre  of distilled water to the  respective labelled test tubes to make up the solution in all the test tubes to 1ml. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="48pptconnecting2">
+	<TEXT ID="48pptconnecting2_one">
+		<TEXTVALUE>A glass pipette is fixed into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="49alkalineretake">
+	<TEXT ID="49alkalineretake_one">
+		<TEXTVALUE>The lid of the Alkaline Copper Reagent bottle is opened and using the glass pipette, pipette out 5ml of the solution from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="49alkalineretake">
+	<TEXT ID="49alkalineretake_two">
+		<TEXTVALUE>Transfer the pipetted Alkaline Copper reagent to the test tube labelled “Blank”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="50linedrawAR">
+	<TEXT ID="50linedrawAR_one">
+		<TEXTVALUE>Similarly transfer 5ml  of Alkaline copper reagent  to all the test tubes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="51blanktake">
+	<TEXT ID="51blanktake_one">
+		<TEXTVALUE>Note the change in colour observed in each test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="51blanktake">
+	<TEXT ID="51blanktake_two">
+		<TEXTVALUE>The test tube labelled Blank is taken for mixing the contents.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="52vortexmwter">
+	<TEXT ID="52vortexmwter_one">
+		<TEXTVALUE>The test tube is then kept on the slot of the vortex mixer for vortexing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="53linedrvortex">
+	<TEXT ID="53linedrvortex_one">
+		<TEXTVALUE>Similarly keep all the test tubes in the vortex mixer for mixing the contents in the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="54incubate">
+	<TEXT ID="54incubate_one">
+		<TEXTVALUE>All the test tubes were then kept for incubation at room temperature for 10 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="55readingppt">
+	<TEXT ID="55readingppt_one">
+		<TEXTVALUE>A micropipette is taken and volume is adjusted to 600 microlitre .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="56tiptake600">
+	<TEXT ID="56tiptake600_one">
+		<TEXTVALUE>A new micropipette tip is then inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="57folinsregeg">
+	<TEXT ID="57folinsregeg_one">
+		<TEXTVALUE>The lid of the bottle containing Folin’s Ciocalteau reagent is then opened and using the pipette, pipette out 600 microlitre  of the reagent from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="58linedrawfalins">
+	<TEXT ID="58linedrawfalins_one">
+		<TEXTVALUE>600 microlitre  of folin’s reagent is added to each test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="59blankvortex">
+	<TEXT ID="59blankvortex_one">
+		<TEXTVALUE>The test tube containing “Blank” is taken for vortexing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="60linedrvortex20">
+	<TEXT ID="60linedrvortex20_one">
+		<TEXTVALUE>Similarly vortex all the test tubes in the vortex mixer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="61incubate20">
+	<TEXT ID="61incubate20_one">
+		<TEXTVALUE>The test tubes were then kept for incubation at room temperature for 20 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="62blankvortex2">
+	<TEXT ID="62blankvortex2_one">
+		<TEXTVALUE>The test tube containing “Blank” is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="63cuvette">
+	<TEXT ID="63cuvette_one">
+		<TEXTVALUE>Transfer  the solution from the test tube to a cuvette till the specified mark .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="64SetTheColorimeter">
+	<TEXT ID="64SetTheColorimeter_one">
+		<TEXTVALUE>The cuvette is then placed into the slot of the colorimeter. TARE the colorimeter to zero.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="65Chart1">
+	<TEXT ID="65Chart1_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="6602vortex2">
+	<TEXT ID="6602vortex2_one">
+		<TEXTVALUE>Then the test tube labelled “0.2” is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="67cuvette2">
+	<TEXT ID="67cuvette2_one">
+		<TEXTVALUE>Transfer  the solution from the test tube to a  cuvette till the specified mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="68colorimreading">
+	<TEXT ID="68colorimreading_one">
+		<TEXTVALUE>The cuvette is kept in the colorimeter and record the absorbance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="69Chart2">
+	<TEXT ID="69Chart2_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="71ResultGraph">
+	<TEXT ID="71ResultGraph_one">
+		<TEXTVALUE>A graph is plotted  with Amount of protein in mg  Vs   OD at 650nm. We get a straight line which is the Protein standard curve. Now plot the OD values of the unknown and extrapolate it to the X-axis.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="72equation">
+	<TEXT ID="72equation_one">
+		<TEXTVALUE>Calculate the amount of protein present in the unknown sample using the formula.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>

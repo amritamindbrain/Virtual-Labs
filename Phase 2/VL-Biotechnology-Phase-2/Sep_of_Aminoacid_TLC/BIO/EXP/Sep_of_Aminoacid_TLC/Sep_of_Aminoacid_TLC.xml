@@ -1,0 +1,133 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="StartScene">
+	<TEXT ID="StartScene_two">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Sepchambertlcsolvent">
+	<TEXT ID="Sepchambertlcsolvent_one">
+	 <TEXTVALUE>Pour some TLC solvent in a measuring flask(Cover the flask containing the solvent with aluminium foil to avoid evaporation of the solvent.)</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Sepchambertlcsolvent_two">
+	 <TEXTVALUE>Pour the solvent into the TLC chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Sepchambersolventpouring">
+	<TEXT ID="Sepchambersolventpouring_two">
+	 <TEXTVALUE>Close the chamber to avoid evaporation.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Septakecappillarytubeone">
+	<TEXT ID="Septakecappillarytubeone_one">
+	 <TEXTVALUE>Take a TLC Plate with a line drawn at the bottom of the plate. (Make sure the line is drawn with pencil.)</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Septakecappillarytubeone_two">
+	 <TEXTVALUE>Take a capillary tube.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Septakecappillarytubeone_three">
+	 <TEXTVALUE>Dip the capillary tube into the beaker containing the amino acid 'Tryptophan'.</TEXTVALUE>	
+	</TEXT>
+	<TEXT ID="Septakecappillarytubeone_four">
+	 <TEXTVALUE>Spot the amino acid on the line drawn on the TLC plate using capillary tube (care should be taken to avoid spreading of the spot.)</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="Sepcappillarytubedown1">
+	<TEXT ID="Sepcappillarytubedown1_two">
+	 <TEXTVALUE>Dry the spot using blow dryer. Repeat the same for the three other amino acids, "Glycine", "Tyrosine" and the "Unknown Mixture".</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Sepcappillarytubedown4">
+	<TEXT ID="Sepcappillarytubedown4_two">
+	<TEXTVALUE>Take the TLC plate.</TEXTVALUE>	
+	</TEXT>
+</SCENE>	
+<SCENE ID="Sepchamberinpaper">
+	<TEXT ID="Sepchamberinpaper_one">
+	<TEXTVALUE>Now put the plate into the TLC chamber containing TLC solvent as shown. (Make sure the TLC plate is not dipped completely.)</TEXTVALUE>	
+	</TEXT>
+	<TEXT ID="Sepchamberinpaper_two">
+	<TEXTVALUE>Close the TLC chamber.</TEXTVALUE>	
+	</TEXT>
+</SCENE>	
+
+<SCENE ID="Sepchamberinpaperzoom">
+	<TEXT ID="Sepchamberinpaperzoom_one">
+	<TEXTVALUE>Allow the solvent to rise until about 1 cm from the top of the plate.</TEXTVALUE>	
+	</TEXT>
+</SCENE>	
+
+<SCENE ID="Sepchamberinpaperwood">
+	<TEXT ID="Sepchamberinpaperwood_one">
+	<TEXTVALUE>Now take out the plate.</TEXTVALUE>	
+	</TEXT>
+	<TEXT ID="Sepchamberinpaperwood_two">
+	<TEXTVALUE>Allow the plate to dry and mark the solvent front using pencil after taking out the plate from the TLC chamber.</TEXTVALUE>	
+	</TEXT>
+</SCENE>	
+<SCENE ID="Sepninhydrinhandpumb">
+	<TEXT ID="Sepninhydrinhandpumb_one">
+	<TEXTVALUE>Take the reagent spray bottle.</TEXTVALUE>	
+		</TEXT>
+	<TEXT ID="Sepninhydrinhandpumb_two">
+	<TEXTVALUE>Remove the cap of the bottle.</TEXTVALUE>	
+	</TEXT>
+</SCENE>	
+<SCENE ID="Sepninhydrinpouring">
+	<TEXT ID="Sepninhydrinpouring_one">
+	<TEXTVALUE>Pour the Ninhydrin reagent into the reagent spray bottle.</TEXTVALUE>	
+	</TEXT>
+	<TEXT ID="Sepninhydrinpouring_two">
+	<TEXTVALUE>Replace the top of the spray bottle.</TEXTVALUE>	
+	</TEXT>
+</SCENE>
+<SCENE ID="Sepinpaperspraying">
+	<TEXT ID="Sepinpaperspraying_one">
+	<TEXTVALUE>Spray the Ninhydrin on the plate as shown.</TEXTVALUE>	
+	</TEXT>
+</SCENE>	
+///////////
+<SCENE ID="TLCpaperinOven">
+	<TEXT ID="TLCpaperinOven_one">
+	<TEXTVALUE>After spraying, keep the TLC plate in oven for 5 minutes 105°C to devolope the plate.</TEXTVALUE>	
+	</TEXT>
+</SCENE>
+<SCENE ID="TLCpapertakinginOven">
+	<TEXT ID="TLCpapertakinginOven_two">
+	<TEXTVALUE>After some time, we can observe that coloured spots appear on the plate at different distances.</TEXTVALUE>	
+	</TEXT>
+</SCENE>
+<SCENE ID="RfValue">
+	<TEXT ID="RfValue_one">
+	<TEXTVALUE>Rf value can be calculated by using the above formula.</TEXTVALUE>	
+	</TEXT>
+</SCENE>	
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

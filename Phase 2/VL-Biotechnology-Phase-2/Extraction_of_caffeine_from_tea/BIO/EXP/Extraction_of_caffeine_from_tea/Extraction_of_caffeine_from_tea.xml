@@ -1,0 +1,220 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="BeakerHeater">
+<TEXT ID="BeakerHeater_one">
+		<TEXTVALUE>Pour 100 ml of water in a beaker and boil it.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="BeakerTeabag">
+<TEXT ID="BeakerTeabag_one">
+		<TEXTVALUE>Dip 6 tea bags into the boiling water.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="TeabagGlasrod">
+     <TEXT ID="TeabagGlasrod_one">
+		<TEXTVALUE>Squeeze all the tea out of the bags.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="MeasuriJar">
+     <TEXT ID="MeasuriJar_one">
+		<TEXTVALUE>Take a measuring jar. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TeawaterMjar">
+     <TEXT ID="TeawaterMjar_one">
+		<TEXTVALUE>Transfer the 15 ml of tea into the measuring jar.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SepFunelMjar">
+     <TEXT ID="SepFunelMjar_one">
+		<TEXTVALUE>Place a conical funnel on the mouth of the separating funnel.  Transfer the tea taken in the measuring jar into a separating funnel clamped in a stand.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DichloroMe">
+     <TEXT ID="DichloroMe_one">
+		<TEXTVALUE>Pour 10 ml of dichloromethane into a measuring jar.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SepflWater">
+     <TEXT ID="SepflWater_one">
+		<TEXTVALUE> Pour this into the separating funnel containing tea through the conical funnel.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="SepflWater_two">
+		<TEXTVALUE>We can observe two layers in the separating funnel: Top layer of tea and the bottom layer of dichloromethane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SepFunelClose">
+    
+	<TEXT ID="SepFunelClose_two">
+		<TEXTVALUE>Close the separating funnel with a stopper.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="SepFunelClose_three">
+		<TEXTVALUE>Remove the funnel from its stand. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SepFunelRotat">
+     <TEXT ID="SepFunelRotat_one">
+		<TEXTVALUE>Keep your fingers on the stopper and carefully shake the separating funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SepFunelRotatZO">
+     <TEXT ID="SepFunelRotatZO_two">
+		<TEXTVALUE>Vent the separating funnel periodically with the spigot pointing away from you to relieve gas pressure.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SepFunelOnstand">
+     <TEXT ID="SepFunelOnstand_one">
+		<TEXTVALUE>Now, drain out the dichloromethane at the bottom layer into a conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="DichloroMe2">
+     <TEXT ID="DichloroMe2_one">
+		<TEXTVALUE>To do the second extraction, pour another 10ml of dichloro methane into the separating funnel as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SepflWater2">
+     <TEXT ID="SepflWater2_one">
+		<TEXTVALUE>Mix the tea solution again by gently shaking the separating funnel.  Each time make sure to vent the funnel to relieve the gas pressure.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="SepFunelCflask2">
+     <TEXT ID="SepFunelCflask2_one">
+		<TEXTVALUE>Drain the dichloromethane into the same conical flask again.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="DichloroMe3">
+     <TEXT ID="DichloroMe3_one">
+		<TEXTVALUE>Repeat the same procedure for third time: pour another 10ml of dichloromethane into the separating funnel as shown. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SepflWater3">
+     <TEXT ID="SepflWater3_one">
+		<TEXTVALUE>Mix the tea solution again by gently shaking the separating funnel.  Each time make sure to vent the funnel to relieve the gas pressure. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="SepFunelOnstand3">
+     <TEXT ID="SepFunelOnstand3_one">
+		<TEXTVALUE>Again drain the dichloromethane into the same conical flask.  </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SodiumSolphhh">
+     <TEXT ID="SodiumSolphhh_one">
+		<TEXTVALUE>Add the dry agent: anhydrous sodium sulfate to remove the moisture content from tea and methane.  </TEXTVALUE>
+	</TEXT>
+	 <TEXT ID="SodiumSolphhh_two">
+		<TEXTVALUE>Close the flask and swirl it gently.   </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SodiumSolphtime">
+     <TEXT ID="SodiumSolphtime_one">
+		<TEXTVALUE>Wait for about 10 minutes for the moisture to be absorbed by the sodium sulfate. </TEXTVALUE>
+	</TEXT>
+	  <TEXT ID="SodiumSolphtime_two">
+		<TEXTVALUE>Decant the clear solution of dichloromethane into a new conical flask. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Conicaltake">
+     <TEXT ID="Conicaltake_one">
+		<TEXTVALUE>Boil the solution for few minutes.  After the evaporation, only crude caffeine will be left over. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="HeaterDictake">
+     <TEXT ID="HeaterDictake_one">
+		<TEXTVALUE>After the evaporation, only crude caffeine will be left over.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Conicaltestcork">
+     <TEXT ID="Conicaltestcork_one">
+		<TEXTVALUE>Insert a test tube with a cork into the conical flask containing pure caffeine as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ConicaltestcorkHeat">
+     <TEXT ID="ConicaltestcorkHeat_one">
+		<TEXTVALUE>Heat the conical flask at 230ºC as the melting point of the pure caffeine is 235 ºC. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ConicalHeatZI">
+     <TEXT ID="ConicalHeatZI_one">
+		<TEXTVALUE> Pure caffeine will be vaporised and get collected in the outer walls of the test tube and on the neck of the conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Weigmachine">
+     <TEXT ID="Weigmachine_one">
+		<TEXTVALUE>Weigh a clean empty watch glass.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Watchgdwn">
+     <TEXT ID="Watchgdwn_one">
+		<TEXTVALUE>The weight of this empty weight glass is 32.2451</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Dusttake">
+     <TEXT ID="Dusttake_one">
+		<TEXTVALUE>Scrub off the adhered caffeine on the walls of the test tube and the conical flask using a spoon to the pre-weighed watch glass.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DustPtke">
+     <TEXT ID="DustPtke_one">
+		<TEXTVALUE>Weigh the watch glass again on the same balance.  The difference between the final weight and the weight of the empty watch glass is the weight of the caffeine.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DustPtkeRetn">
+     <TEXT ID="DustPtkeRetn_one">
+		<TEXTVALUE>Obtain a capillary spotter and take a small portion of the sample collected in the watch glass.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="melting">
+     <TEXT ID="melting_one">
+		<TEXTVALUE>Insert the capillary tube into the melting point measurement equipment as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="meltingcount">
+     <TEXT ID="meltingcount_one">
+		<TEXTVALUE>Set the temperature to 200 ºC and observe it through the eye piece to check whether the pure caffeine is melted or not.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MeltingReslt">
+     <TEXT ID="MeltingReslt_one">
+		<TEXTVALUE>Set the temperature to 200 ºC and observe it through the eye piece to check whether the pure caffeine is melted or not.</TEXTVALUE>
+	</TEXT>
+	  <TEXT ID="MeltingReslt_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+</DATA>
+
+
+
+
+
+

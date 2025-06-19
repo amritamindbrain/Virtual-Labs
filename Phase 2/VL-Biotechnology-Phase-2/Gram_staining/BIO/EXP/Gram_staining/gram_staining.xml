@@ -1,0 +1,126 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="LaminarFullView">
+	<TEXT ID="LaminarFullView_one">
+		<TEXTVALUE>The procedure should be conducted in a Laminar Air Flow.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="NeedleDipping">
+	<TEXT ID="NeedleDipping_one">
+		<TEXTVALUE>The inoculation loop is heat sterilized in the blue flame of the Bunsen burner till red hot.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="NeedleDipping_two">
+		<TEXTVALUE>The inoculation loop is then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="NeedleDipping_three">
+		<TEXTVALUE>The conical flask containing bacterial culture is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="NeedleDipping_four">
+		<TEXTVALUE>The mouth of the conical flask is then heat sterilized as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="NeedleDipping_five">
+	<TEXTVALUE>With the cooled sterile inoculation loop, a loopful of bacterial culture is taken from conical flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="NeedleDipping_six">
+	<TEXTVALUE>The mouth of the conical flask is again heat sterilized & The conical flask containing bacterial culture is then kept in the LAF.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="NeedlePastingLiquid">
+	<TEXT ID="NeedlePastingLiquid_one">
+		<TEXTVALUE>A thin uniform smear of the bacterial culture is then made on the centre of clean glass slide as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="GlassSlabToBurner">
+	<TEXT ID="GlassSlabToBurner_one">
+		<TEXTVALUE>The bacterial smear is then heat fixed in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+
+<SCENE ID="DropperBlue">
+	<TEXT ID="DropperBlue_one">
+		<TEXTVALUE>The glass slide is then kept on the staining tray.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="DropperBlue_two">
+		<TEXTVALUE>The heat fixed bacterial smear is then flooded with crystal violet stain, which acts as the primary stain.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="DropperBlue_three">
+		<TEXTVALUE>The glass slide is kept undisturbed for 1 minute.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="WashBlue">
+	<TEXT ID="WashBlue_one">
+		<TEXTVALUE>The glass slide is then washed with water to remove the excess stain.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="DropperLiquor">
+	<TEXT ID="DropperLiquor_one">
+		<TEXTVALUE>The bacterial smear is then flooded with grams iodine, which acts as the mordent.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="DropperLiquor_two">
+		<TEXTVALUE>The glass slide is kept undisturbed for 1 minute.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WashLiquor">
+	<TEXT ID="WashLiquor_one">
+		<TEXTVALUE>It is then washed with water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="DropperAlcohol">
+	<TEXT ID="DropperAlcohol_one">
+		<TEXTVALUE>The glass slide is tilted and few drops of 95% ethyl alcohol or acetone are added drop by drop for 5 to 10 seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="WashAlcohol">
+	<TEXT ID="WashAlcohol_one">
+		<TEXTVALUE>It is then washed with water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="DropperPink">
+	<TEXT ID="DropperPink_one">
+		<TEXTVALUE>The bacterial smear is then flooded with safranin, which acts as the counter stain & The glass slide is kept undisturbed for 45 seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WashPink">
+	<TEXT ID="WashPink_one">
+		<TEXTVALUE>It is then washed with water to remove the excess stain.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="KeepingTissuePaper">
+	<TEXT ID="KeepingTissuePaper_one">
+		<TEXTVALUE>The glass slide is blot dried to remove excess water on it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MicroZoom">
+	<TEXT ID="MicroZoom_one">
+		<TEXTVALUE>It is then placed on the microscopic stage.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="MicroZoom_two">
+		<TEXTVALUE>The smear is observed under 100X objective and the results are noted.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="MicroZoom_three">
+		<TEXTVALUE>The smear is observed under 100X objective and the results are noted.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+</DATA>

@@ -1,0 +1,928 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="InDirectElisaTitle">
+	<TEXT ID="InDirectElisaTitle_one">
+	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Takingpippet">
+	<TEXT ID="Takingpippet_one">
+	 <TEXTVALUE>Take a micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting1">
+	<TEXT ID="Pippetadjusting1_one">
+	 <TEXTVALUE>Adjust the volume to 50 microlitre</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingAntigen">
+	<TEXT ID="TakingAntigen_one">
+	 <TEXTVALUE>Take the vial labeled as Antigen, kept in ice box.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+<SCENE ID="TakingAntigenzoom">
+	<TEXT ID="TakingAntigenzoom_one">
+	 <TEXTVALUE>Take the vial labeled as Antigen, kept in ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigen50µl">
+	<TEXT ID="Antigen50µl_one">
+	 <TEXTVALUE>Open the vial and pipette out 50 microlitre of antigen.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpenMicrotitreplate">
+	<TEXT ID="OpenMicrotitreplate_one">
+	 <TEXTVALUE>Open the lid of Microtitre well plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringAntigenplate">
+	<TEXT ID="PouringAntigenplate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigen50µl2">
+	<TEXT ID="Antigen50µl2_one">
+	 <TEXTVALUE>Open the vial and pipette out 50 microlitre of antigen.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Chartantigen">
+	<TEXT ID="Chartantigen_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic">
+	<TEXT ID="Platecoveringplastic_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom">
+	<TEXT ID="Plasticonplatezoom_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplate">
+<TEXT ID="Takingplate_one">
+<TEXTVALUE>Take the microtitre plate and Incubate microtitre plate at 37°C for 2 hours.</TEXTVALUE>
+</TEXT>
+</SCENE>
+	
+<SCENE ID="Plateinincubator30digree">
+<TEXT ID="Plateinincubator30digree_one">
+<TEXTVALUE>Take the microtitre plate and Incubate microtitre plate at 37°C for 2 hours.</TEXTVALUE>
+</TEXT>
+</SCENE>
+
+<SCENE ID="Openincubatorplate">
+	<TEXT ID="Openincubatorplate_one">
+	 <TEXTVALUE>After 2hours, take out the  plate from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplasticnew1">
+	<TEXT ID="Takingplasticnew1_one">
+	 <TEXTVALUE>Place it on the table top and uncover the plastic wrapper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom">
+	<TEXT ID="Antigeninwatezoom_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Backtoplate2">
+	<TEXT ID="Backtoplate2_one">
+	 <TEXTVALUE>Place the Microtitre well plate on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet">
+	<TEXT ID="Discardpipipet_one">
+	 <TEXTVALUE>Remove the used tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip">
+	<TEXT ID="Takingpippettip_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Pippetadjusting200µl">
+	<TEXT ID="Pippetadjusting200µl_one">
+	 <TEXTVALUE>Adjust the volume to 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapPBS">
+	<TEXT ID="OpencapPBS_one">
+	 <TEXTVALUE>Open the cap of PBS bottle from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom1">
+	<TEXT ID="TakingPBSzoom1_one">
+	 <TEXTVALUE>Pipette out 200 microlitre PBS from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringPBSplate">
+	<TEXT ID="PouringPBSplate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom2">
+	<TEXT ID="TakingPBSzoom2_one">
+	 <TEXTVALUE>Again pipette out 200 microlitre PBS from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartPBS">
+	<TEXT ID="ChartPBS_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takeplateswirl">
+	<TEXT ID="Takeplateswirl_one">
+	 <TEXTVALUE>Gently swirl the plate so as to wash the wells properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBStakinginplate">
+	<TEXT ID="PBStakinginplate_one">
+	 <TEXTVALUE>Remove PBS from the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartPBStaking">
+	<TEXT ID="ChartPBStaking_one">
+	 <TEXTVALUE>Remove PBS from the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpaper">
+	<TEXT ID="Takingpaper_one">
+	 <TEXTVALUE>Keep the microtitre plate on a paper towel, gently flicking it down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+	
+<SCENE ID="Flickingfacesplate">
+<TEXT ID="Flickingfacesplate_one">
+	 <TEXTVALUE>Keep the microtitre plate on a paper towel, gently flicking it down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb">
+	<TEXT ID="PLatebacktotlb_one">
+	 <TEXTVALUE>Place it on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet2">
+	<TEXT ID="Discardpipipet2_one">
+	 <TEXTVALUE>Remove the used tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip2">
+	<TEXT ID="Takingpippettip2_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapBlcBffr">
+	<TEXT ID="OpencapBlcBffr_one">
+	 <TEXTVALUE>Open the cap of Blocking buffer bottle from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingBlcBffr">
+	<TEXT ID="TakingBlcBffr_one">
+	 <TEXTVALUE>Pipette out 200 microlitre of blocking buffer from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringBlcBffrplate">
+	<TEXT ID="PouringBlcBffrplate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingBlcBffr2">
+	<TEXT ID="TakingBlcBffr2_one">
+	 <TEXTVALUE>Again pipette out 200 microlitre of blocking buffer from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartBlcBffr">
+<TEXT ID="ChartBlcBffr_one">
+	 <TEXTVALUE>Repeat the same for all the  wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SwirlBlcBffr">
+	<TEXT ID="SwirlBlcBffr_one">
+	 <TEXTVALUE>Gently swirl the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic2">
+	<TEXT ID="Platecoveringplastic2_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom2">
+<TEXT ID="Plasticonplatezoom2_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature2hrs">
+	<TEXT ID="PlateRoomtemperature2hrs_one">
+	 <TEXTVALUE>Incubate the microtitre plate at room temperature for 30 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplasticnew2">
+	<TEXT ID="Takingplasticnew2_one">
+	 <TEXTVALUE>After 30 minutes of incubation,the plastic wrap is removed and the plate is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom2">
+<TEXT ID="Antigeninwatezoom2_one">
+	 <TEXTVALUE>Flick the blocking solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet3">
+	<TEXT ID="Discardpipipet3_one">
+	 <TEXTVALUE>Remove the used tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip4">
+	<TEXT ID="Takingpippettip4_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapPBS2">
+	<TEXT ID="OpencapPBS2_one">
+	 <TEXTVALUE>Open the cap of the Blocking buffer containing bottle from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom3">
+	<TEXT ID="TakingPBSzoom3_one">
+	 <TEXTVALUE>Pipette out 200 microlitre of Blocking buffer from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSingplateshort2">
+	<TEXT ID="PBSingplateshort2_one">
+	 <TEXTVALUE>Pour 200 microlitre blocking buffer in to each well of the microtitre well plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBStakingplateshort2">
+	<TEXT ID="PBStakingplateshort2_one">
+	 <TEXTVALUE>Pipette out the PBS in the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpaper2">
+	<TEXT ID="Takingpaper2_one">
+	 <TEXTVALUE>Keep the microtitre plate on a paper towel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Flickingfacesplate3">
+	<TEXT ID="Flickingfacesplate3_one">
+	 <TEXTVALUE>Gently flicking it down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+	
+<SCENE ID="PLatebacktotlb3">
+	<TEXT ID="PLatebacktotlb3_one">
+	 <TEXTVALUE>Place it on the table top.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+<SCENE ID="Discardpipipet4">
+	<TEXT ID="Discardpipipet4_one">
+	 <TEXTVALUE>Remove the used tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip5">
+	<TEXT ID="Takingpippettip5_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting100ul">
+	<TEXT ID="Pippetadjusting100ul_one">
+	 <TEXTVALUE>Pipette adjust the volume 100 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingAntibody">
+	<TEXT ID="TakingAntibody_one">
+	 <TEXTVALUE>Take Antibody–enzyme conjugate from the vial kept in ice boxe.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingAntibodyzoom">
+	<TEXT ID="TakingAntibodyzoom_one">
+	 <TEXTVALUE>Take Antibody–enzyme conjugate from the vial kept in ice boxe.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antibody50µl">
+	<TEXT ID="Antibody50µl_one">
+	 <TEXTVALUE>Pipette out 100 microlitre antibody enzyme conjugate from vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="AntibodyinPlate">
+	<TEXT ID="AntibodyinPlate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringAntibodyzoom">
+	<TEXT ID="PouringAntibodyzoom_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antibody50µl2">
+	<TEXT ID="Antibody50µl2_one">
+	 <TEXTVALUE>Pipette out 100 microlitre antibody enzyme conjugate from vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartAntibody">
+	<TEXT ID="ChartAntibody_one">
+	 <TEXTVALUE>Pour 100 microlitre antibody enzyme conjugate in to each well of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic3">
+	<TEXT ID="Platecoveringplastic3_one">
+	 <TEXTVALUE>Wrap coated plates in plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom3">
+	<TEXT ID="Plasticonplatezoom3_one">
+	 <TEXTVALUE>Wrap coated plates in plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature2hrs1">
+	<TEXT ID="PlateRoomtemperature2hrs1_one">
+	 <TEXTVALUE>Incubate the microtiter plate for 2 hours at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplastic3">
+	<TEXT ID="Takingplastic3_one">
+	 <TEXTVALUE>After 2hours, uncover the plastic wrapper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom3">
+	<TEXT ID="Antigeninwatezoom3_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet5">
+	<TEXT ID="Discardpipipet5_one">
+	 <TEXTVALUE>Remove the used tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip6">
+	<TEXT ID="Takingpippettip6_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting200µl2">
+	<TEXT ID="Pippetadjusting200µl2_one">
+	 <TEXTVALUE>Pipette adjust the volume 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapPBS3">
+	<TEXT ID="OpencapPBS3_one">
+	 <TEXTVALUE>Open the cap of PBS containing bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom4">
+	<TEXT ID="TakingPBSzoom4_one">
+	 <TEXTVALUE>Pipette out 200 microlitre of PBS from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSingplateSHORT3">
+	<TEXT ID="PBSingplateSHORT3_one">
+	 <TEXTVALUE>Pour in to each well of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBStakingplateSHORT4">
+	<TEXT ID="PBStakingplateSHORT4_one">
+	 <TEXTVALUE>Remove PBS from the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpaper3">
+	<TEXT ID="Takingpaper3_one">
+	 <TEXTVALUE>After swirling keep the microtitre plate on a paper towel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Flickingfacesplate4">
+	<TEXT ID="Flickingfacesplate4_one">
+	 <TEXTVALUE>Then, gently flicking it down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb43rd">
+	<TEXT ID="PLatebacktotlb43rd_one">
+	 <TEXTVALUE>Place it on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet6">
+	<TEXT ID="Discardpipipet6_one">
+	 <TEXTVALUE>Remove the used tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip7">
+	<TEXT ID="Takingpippettip7_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapBlckngbffr">
+	<TEXT ID="OpencapBlckngbffr_one">
+	 <TEXTVALUE>Open the cap of the Blocking buffer containing bottle from ice box</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeBlckngbffrzoom2">
+	<TEXT ID="TakeBlckngbffrzoom2_one">
+	 <TEXTVALUE>Pipette out 200 microlitre of Blocking buffer from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringBlcBffrplate2">
+	<TEXT ID="PouringBlcBffrplate2_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeBlckngbffrzoom3">
+	<TEXT ID="TakeBlckngbffrzoom3_one">
+	 <TEXTVALUE>Again pipette out 200 microlitre of blocking buffer from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CHARTbuffer">
+<TEXT ID="CHARTbuffer_one">
+	 <TEXTVALUE>Repeat the same for all the  wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateSwirling">
+	<TEXT ID="PlateSwirling_one">
+	 <TEXTVALUE>Gently swirl the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic5">
+	<TEXT ID="Platecoveringplastic5_one">
+	 <TEXTVALUE>Wrap coated plates in plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom5">
+<TEXT ID="Plasticonplatezoom5_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature30mnts">
+	<TEXT ID="PlateRoomtemperature30mnts_one">
+	 <TEXTVALUE>Incubate the microtiter plate for 30 minutes at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplastic5">
+	<TEXT ID="Takingplastic5_one">
+	 <TEXTVALUE>After 2 hours, uncover the plastic wrapper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom5">
+<TEXT ID="Antigeninwatezoom5_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet3rd1">
+	<TEXT ID="Discardpipipet3rd1_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip3rd2">
+	<TEXT ID="Takingpippettip3rd2_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapPBS33rd">
+	<TEXT ID="OpencapPBS33rd_one">
+	 <TEXTVALUE>Open the cap of PBS bottle from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom43rd">
+	<TEXT ID="TakingPBSzoom43rd_one">
+	 <TEXTVALUE>Pipette out 200 microlitre PBS from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSingplateSHORT33rd">
+	<TEXT ID="PBSingplateSHORT33rd_one">
+	 <TEXTVALUE>Pour 200 microlitre of PBS to each well of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBStakingplateSHORT43rd">
+	<TEXT ID="PBStakingplateSHORT43rd_one">
+	 <TEXTVALUE>After swirling the plate, pipette out the PBS in the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpaper3rd">
+	<TEXT ID="Takingpaper3rd_one">
+	 <TEXTVALUE>After swirling keep the microtitre plate on a paper towel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+	
+<SCENE ID="Flickingfacesplate4">
+<TEXT ID="Flickingfacesplate4_one">
+	 <TEXTVALUE>Then gently flicking it down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb4">
+	<TEXT ID="PLatebacktotlb4_one">
+	 <TEXTVALUE>Place it on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet3rd3">
+	<TEXT ID="Discardpipipet3rd3_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip3rd3">
+	<TEXT ID="Takingpippettip3rd3_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting50ul">
+	<TEXT ID="Pippetadjusting50ul_one">
+	 <TEXTVALUE>Pipette adjust the volume 50 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingscndryAntibody">
+	<TEXT ID="TakingscndryAntibody_one">
+	 <TEXTVALUE>Take secondary antibody vial from kept in ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingscndryAntibodyzoom">
+	<TEXT ID="TakingscndryAntibodyzoom_one">
+	 <TEXTVALUE>Take secondary antibody vial from the icebox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ScndryAntibody50µl">
+	<TEXT ID="ScndryAntibody50µl_one">
+	 <TEXTVALUE>Pipette out 50 microlitre of the secondary antibody bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SCAntibodyinPlate">
+	<TEXT ID="SCAntibodyinPlate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringAntibodyzoom2nd">
+	<TEXT ID="PouringAntibodyzoom2nd_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ScndryAntibody50µl2">
+	<TEXT ID="ScndryAntibody50µl2_one">
+	 <TEXTVALUE>Again Pipette out 50 microlitre of secondary antibody from the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartSCAntibody">
+	<TEXT ID="ChartSCAntibody_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic32nd">
+	<TEXT ID="Platecoveringplastic32nd_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom3next">
+	<TEXT ID="Plasticonplatezoom3next_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature2hrs1nex">
+	<TEXT ID="PlateRoomtemperature2hrs1nex_one">
+	 <TEXTVALUE>Incubate the microtiter plate for 2 hour at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplastic3sec">
+	<TEXT ID="Takingplastic3sec_one">
+	 <TEXTVALUE>After 2 hours, uncover the plastic wrapper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Antigeninwatezoom3two">
+<TEXT ID="Antigeninwatezoom3two_one">
+	 <TEXTVALUE>Flick the coating solution into the plastic container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet3rd4">
+	<TEXT ID="Discardpipipet3rd4_one">
+	 <TEXTVALUE>The used tip id discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip3rd4">
+	<TEXT ID="Takingpippettip3rd4_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting200µl2nd">
+	<TEXT ID="Pippetadjusting200µl2nd_one">
+	 <TEXTVALUE>The volume of the pipette is adjusted to 200 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OpencapPBS43rd">
+	<TEXT ID="OpencapPBS43rd_one">
+	 <TEXTVALUE>Open the cap of PBS bottle from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingPBSzoom53rd">
+	<TEXT ID="TakingPBSzoom53rd_one">
+	 <TEXTVALUE>Pipette out 200 microlitre PBS from the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBSingplateSHORT43rd">
+	<TEXT ID="PBSingplateSHORT43rd_one">
+	 <TEXTVALUE>Pour 200 microlitre of PBS to each well of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PBStakingplateSHORT53rd">
+	<TEXT ID="PBStakingplateSHORT53rd_one">
+	 <TEXTVALUE>After swirling the plate, pipette out the PBS in the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpaper4">
+	<TEXT ID="Takingpaper4_one">
+	 <TEXTVALUE>Keep the microtitre plate on a paper towel, gently flicking it down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Flickingfacesplate5">
+	<TEXT ID="Flickingfacesplate5_one">
+	 <TEXTVALUE>Keep the microtitre plate on a paper towel, gently flicking it down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PLatebacktotlb5">
+	<TEXT ID="PLatebacktotlb5_one">
+	 <TEXTVALUE>Place it on the table top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet3rd5">
+	<TEXT ID="Discardpipipet3rd5_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip3rd5">
+	<TEXT ID="Takingpippettip3rd5_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting75µl2">
+	<TEXT ID="Pippetadjusting75µl2_one">
+	 <TEXTVALUE>The volume of the pipette is adjusted to 75 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingSubtrate">
+	<TEXT ID="TakingSubtrate_one">
+	 <TEXTVALUE>Take substrate vial from kept in ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakingSubtratezoom">
+	<TEXT ID="TakingSubtratezoom_one">
+	 <TEXTVALUE>Take substrate vial from kept in ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Subtact100µl">
+	<TEXT ID="Subtact100µl_one">
+	 <TEXTVALUE>Pipette out 75 microlitre of substrate from the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SubtrateinPlate">
+	<TEXT ID="SubtrateinPlate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PouringSubtratezoom">
+	<TEXT ID="PouringSubtratezoom_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Subtact100µl2">
+	<TEXT ID="Subtact100µl2_one">
+	 <TEXTVALUE>Pipette out 75 microlitre of substrate from the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ChartSubtrate">
+	<TEXT ID="ChartSubtrate_one">
+	 <TEXTVALUE>Repeat the same for all the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Platecoveringplastic4">
+	<TEXT ID="Platecoveringplastic4_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Plasticonplatezoom4">
+	<TEXT ID="Plasticonplatezoom4_one">
+	 <TEXTVALUE>The plate is wrapped with a plastic wrap to seal.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="PlateRoomtemperature1hrs1">
+	<TEXT ID="PlateRoomtemperature1hrs1_one">
+	 <TEXTVALUE>Incubate the microtiter plate for 1 hour at room temperature.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingplastic4">
+	<TEXT ID="Takingplastic4_one">
+	 <TEXTVALUE>After the incubated time, colour develops in some of the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="After1hourColour">
+	<TEXT ID="After1hourColour_one">
+	 <TEXTVALUE>After the incubated time, colour develops in some of the wells.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Discardpipipet7">
+	<TEXT ID="Discardpipipet7_one">
+	 <TEXTVALUE>The used tip is discarded.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingpippettip8">
+	<TEXT ID="Takingpippettip8_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pippetadjusting25µl">
+	<TEXT ID="Pippetadjusting25µl_one">
+	 <TEXTVALUE>The volume of the pipette is adjusted to 25 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingstopsolution">
+	<TEXT ID="Takingstopsolution_one">
+	 <TEXTVALUE>Take stop solution vial from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingstopsolutionezoom">
+	<TEXT ID="Takingstopsolutionezoom_one">
+	 <TEXTVALUE>Take stop solution vial from ice box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Stopsulution100µl">
+	<TEXT ID="Stopsulution100µl_one">
+	 <TEXTVALUE>Pipette out 25 microlitre of the stop solution from vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="StopsolutioninPlate">
+	<TEXT ID="StopsolutioninPlate_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Pouringstopsltzoom">
+	<TEXT ID="Pouringstopsltzoom_one">
+	 <TEXTVALUE>Pour it into the microtitre well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Stopsulution100µl2">
+	<TEXT ID="Stopsulution100µl2_one">
+	 <TEXTVALUE>Pipette out 25 microlitre of the stop solution from vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Chartstopsolu">
+	<TEXT ID="Chartstopsolu_one">
+	 <TEXTVALUE>Pour 100 microlitre stop soluttion in to each well of the plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takingwellplate">
+	<TEXT ID="Takingwellplate_one">
+	 <TEXTVALUE>Take the microtiter plate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Showingplatereader">
+	<TEXT ID="Showingplatereader_one">
+	 <TEXTVALUE>Place microtiter plate in to the plate reader.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>

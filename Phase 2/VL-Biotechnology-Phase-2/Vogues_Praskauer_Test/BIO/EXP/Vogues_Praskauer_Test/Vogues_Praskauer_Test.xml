@@ -1,0 +1,336 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="VoguesIntro">
+	<TEXT ID="VoguesIntro_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="VoguesIntro_two">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesmidshot">
+	<TEXT ID="Voguesmidshot_one">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesmrvpbrothtube">
+	<TEXT ID="Voguesmrvpbrothtube_one">
+	 <TEXTVALUE>Take an inoculation loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesburner">
+	<TEXT ID="Voguesburner_one">
+	 <TEXTVALUE>Heat it vertically in the blue flame of the Bunsen burner till red hot.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesburnermidshot">
+	<TEXT ID="Voguesburnermidshot_one">
+	 <TEXTVALUE>Then cool it for few seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguestrypticbrothtubetaking">
+	<TEXT ID="Voguestrypticbrothtubetaking_one">
+	 <TEXTVALUE>Take a Tryptic Soy Broth Culture from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguestopremove">
+	<TEXT ID="Voguestopremove_one">
+	 <TEXTVALUE>Remove the cotton with the small finger of your right hand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguestopremovemidshot">
+	<TEXT ID="Voguestopremovemidshot_one">
+	 <TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesdipintrypticsoy">
+	<TEXT ID="Voguesdipintrypticsoy_one">
+	 <TEXTVALUE>With the cooled sterile loop, take a loopful of organism from the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesburner2">
+	<TEXT ID="Voguesburner2_one">
+	 <TEXTVALUE>Flame the mouth of the tube again and replace the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguestopfixing">
+	<TEXT ID="Voguestopfixing_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguestubefixingfadeout">
+	<TEXT ID="Voguestubefixingfadeout_one">
+	 <TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="VoguesMRVPtesttubetaken">
+	<TEXT ID="VoguesMRVPtesttubetaken_one">
+	 <TEXTVALUE>Take a sterile MR-VP broth from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguestopremove2">
+	<TEXT ID="Voguestopremove2_one">
+	 <TEXTVALUE>Remove the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesburner3">
+	<TEXT ID="Voguesburner3_one">
+	 <TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguestubecloseup">
+	<TEXT ID="Voguestubecloseup_one">
+	 <TEXTVALUE>Inoculate the MR-VP broth with the inoculation loop containing the inoculum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesburner4">
+	<TEXT ID="Voguesburner4_one">
+	 <TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguestopfixing2">
+	<TEXT ID="Voguestopfixing2_one">
+	 <TEXTVALUE>Replace the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="VoguesMRVPtesttubefixing">
+	<TEXT ID="VoguesMRVPtesttubefixing_one">
+	 <TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesburner02">
+	<TEXT ID="Voguesburner02_one">
+	 <TEXTVALUE>Flame the loop again.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesmrvpbrothtube02">
+	<TEXT ID="Voguesmrvpbrothtube02_one">
+	 <TEXTVALUE>Keep it on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesmrvp1And2">
+	<TEXT ID="Voguesmrvp1And2_one">
+	 <TEXTVALUE>Incubate the inoculated tube and control for 24 hours at 37 digree C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguesmrvp1&2closeup">
+	<TEXT ID="Voguesmrvp1&2closeup_one">
+	 <TEXTVALUE>Incubate the inoculated tube and control for 24 hours at 37 digree C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguesincubator">
+	<TEXT ID="Voguesincubator_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguesincubatorcloseup">
+	<TEXT ID="Voguesincubatorcloseup_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguesdoorclosing">
+	<TEXT ID="Voguesdoorclosing_one">
+	 <TEXTVALUE>Close it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesswitchon">
+	<TEXT ID="Voguesswitchon_one">
+	 <TEXTVALUE>Switch on the incubator.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Voguesswitchon_two">
+	 <TEXTVALUE>After 24 hours, switch off the incubator and take the broths out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguesdooropen">
+	<TEXT ID="Voguesdooropen_one">
+	 <TEXTVALUE>After 24 hours, switch off the incubator and take the broths out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguesincubatorcloseup2">
+	<TEXT ID="Voguesincubatorcloseup2_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguesmrvp1&2closeup2">
+	<TEXT ID="Voguesmrvp1&2closeup2_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentAtakingctrl">
+	<TEXT ID="VoguesreagentAtakingctrl_one">
+	 <TEXTVALUE>Open the tube and slowly add 15 drops of Barritt's reagent A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesMRVPtesttubetaken2ctrl">
+	<TEXT ID="VoguesMRVPtesttubetaken2ctrl_one">
+	 <TEXTVALUE>Open the tube and slowly add 15 drops of Barritt's reagent A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentActrl">
+	<TEXT ID="VoguesreagentActrl_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentA15dropsctrl">
+	<TEXT ID="VoguesreagentA15dropsctrl_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentAreleasectrl">
+	<TEXT ID="VoguesreagentAreleasectrl_one">
+	 <TEXTVALUE>Then add 5 drops of Barritt's Reagent B.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentBctrl">
+	<TEXT ID="VoguesreagentBctrl_one">
+	 <TEXTVALUE>Then add 5 drops of Barritt's Reagent B.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentB5dropsctrl">
+	<TEXT ID="VoguesreagentB5dropsctrl_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentBreleasectrl">
+	<TEXT ID="VoguesreagentBreleasectrl_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Voguestubetakingctrl">
+	<TEXT ID="Voguestubetakingctrl_one">
+	 <TEXTVALUE>Gently mix the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Voguesshakingctrl">
+	<TEXT ID="Voguesshakingctrl_one">
+	 <TEXTVALUE>Gently mix the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesMRVPresultpossitivectrl">
+	<TEXT ID="VoguesMRVPresultpossitivectrl_one">
+	 <TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentAtaking">
+	<TEXT ID="VoguesreagentAtaking_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="VoguesMRVPtesttubetaken2">
+	<TEXT ID="VoguesMRVPtesttubetaken2_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentA">
+	<TEXT ID="VoguesreagentA_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentA15drops">
+	<TEXT ID="VoguesreagentA15drops_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentArelease">
+	<TEXT ID="VoguesreagentArelease_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentB">
+	<TEXT ID="VoguesreagentB_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentB5drops">
+	<TEXT ID="VoguesreagentB5drops_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesreagentBrelease">
+	<TEXT ID="VoguesreagentBrelease_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE> 
+
+<SCENE ID="Voguestubetaking">
+	<TEXT ID="Voguestubetaking_one">
+	 <TEXTVALUE>Repeat the same for Test_1 also.</TEXTVALUE>
+	</TEXT>
+</SCENE> 
+
+<SCENE ID="Voguesshaking">
+	<TEXT ID="Voguesshaking_one">
+	 <TEXTVALUE>Keep it for 20-25 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="VoguesMRVPresultpossitive">
+	<TEXT ID="VoguesMRVPresultpossitive_one">
+	 <TEXTVALUE>Keep it for 20-25 minutes.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="VoguesMRVPresultpossitive_two">
+	 <TEXTVALUE>Positive result :- Red colour change after the addition of Barritt's A and Barritt's B reagents.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="VoguesMRVPresultnegative">
+	<TEXT ID="VoguesMRVPresultnegative_One">
+	 <TEXTVALUE>Negative result :- Lack of colour change after the addition of Barritt's A and Barritt's B reagents.</TEXTVALUE>
+	</TEXT>
+</SCENE>	
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

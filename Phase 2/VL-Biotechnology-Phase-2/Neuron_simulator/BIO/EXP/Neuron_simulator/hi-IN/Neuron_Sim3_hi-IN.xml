@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Neuron_Sim3.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_CURRENT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_EXPORT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_IL_TEXT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_MAX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_MEMB_CURRENT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_MEMB_VOLT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_MIN">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_RESET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_RUNCONTROL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_SETSTIMULUS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_SETVCLAMP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_STIM1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_STIM1BUTTON">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_STIM2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_STIMULI">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_STOP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_VARIABLES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_VCLAMP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_VOLTAGE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_VOLTAGECLAMPPROTOCOL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_VSTIM">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

@@ -1,0 +1,623 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="Intro">
+<TEXT ID="Intro_one">
+<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name/click the “continue” button to start the experiment.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+<SCENE ID="IntroA">
+<TEXT ID="IntroA_one">
+<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+<SCENE ID="2takingbuttrpaper">
+<TEXT ID="2takingbuttrpaper_one">
+<TEXTVALUE>A butter paper is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+<SCENE ID="3takebutterpapertobalance">
+<TEXT ID="3takebutterpapertobalance_one">
+<TEXTVALUE>The butter paper is placed on the weighing balance and the value is tared to zero.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="4placebutterpaperbal">
+<TEXT ID="4placebutterpaperbal_one">
+<TEXTVALUE>The butter paper is placed on the weighing balance and the value is tared to zero.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+
+<SCENE ID="6takespatula">
+<TEXT ID="6takespatula_one">
+<TEXTVALUE>A spatula is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+<SCENE ID="7OPENCAP">
+<TEXT ID="7OPENCAP_one">
+<TEXTVALUE>A small amount of Trypticase powder is then taken from the bottle using the spatula.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="8weighingtrypticase">
+<TEXT ID="8weighingtrypticase_one">
+<TEXTVALUE>The weight of trypticase is  adjusted to  1 g.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+
+<SCENE ID="10takebutterpaperntrypticase">
+<TEXT ID="10takebutterpaperntrypticase_one">
+<TEXTVALUE>The butter paper with trypticase powder is then taken out from the weighing balance.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="11takbutterpapertoconicalflask">
+<TEXT ID="11takbutterpapertoconicalflask_one">
+<TEXTVALUE>The trypticase powder is then transferred into a conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+<SCENE ID="12puttrypticaseinconicalflask">
+<TEXT ID="12puttrypticaseinconicalflask_one">
+<TEXTVALUE>The trypticase powder is then transferred into a conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="13OPENCAPglucose">
+<TEXT ID="13OPENCAPglucose_one">
+<TEXTVALUE>With a clean spatula, a small amount of glucose powder is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+<SCENE ID="14weighingglucosecopy">
+<TEXT ID="14weighingglucosecopy_one">
+<TEXTVALUE>The glucose powder is then taken to the weighing balance and it is transferred into a clean butter paper. The weight of the glucose is  adjusted to 0.5 g.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="16takebutterpapernglucose">
+<TEXT ID="16takebutterpapernglucose_one">
+<TEXTVALUE>The butter paper with glucose powder is then taken out from the weighing balance.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+
+<SCENE ID="17takbutterpapertoconicalflaskcopy">
+<TEXT ID="17takbutterpapertoconicalflaskcopy_one">
+<TEXTVALUE>The glucose powder is then transferred into the conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="18putglucose">
+<TEXT ID="18putglucose_one">
+<TEXTVALUE>The glucose powder is then transferred into the conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="19OPENCAPsodiumchloride">
+<TEXT ID="19OPENCAPsodiumchloride_one">
+<TEXTVALUE>With a clean spatula, a small amount of Sodium chloride powder is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="20weighingsodiumchlride">
+<TEXT ID="20weighingsodiumchlride_one">
+<TEXTVALUE>The sodium chloride powder is then taken to the weighing balance and it is transferred into a clean butter paper. The weight of the Sodium chloride is  adjusted to 0.5 g.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+<SCENE ID="22takebutterpapernsodiumchlrde">
+<TEXT ID="22takebutterpapernsodiumchlrde_one">
+<TEXTVALUE>The butter paper with sodium chloride powder is then taken out from the weighing balance.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+
+<SCENE ID="23takbutterpapertoconicalflask">
+<TEXT ID="23takbutterpapertoconicalflask_one">
+<TEXTVALUE>The sodium chloride powder is then transferred into the conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="24putsodiumchlrde">
+<TEXT ID="24putsodiumchlrde_one">
+<TEXTVALUE>The sodium chloride powder is then transferred into the conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+<SCENE ID="25OPENCAPphenolred">
+<TEXT ID="25OPENCAPphenolred_one">
+<TEXTVALUE>With a clean spatula, a small amount of phenol red powder is taken from the bottle.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  <SCENE ID="2501placebutterpaperbal">
+<TEXT ID="2501placebutterpaperbal_one">
+<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+<SCENE ID="26weighingphenolred">
+<TEXT ID="26weighingphenolred_one">
+<TEXTVALUE>The phenol red powder is then taken to the weighing balance and it is transferred into a clean butter paper. The weight of  phenol red is adjusted to 1.8 mg.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+<SCENE ID="28takebutterpapernphenolred">
+<TEXT ID="28takebutterpapernphenolred_one">
+<TEXTVALUE>The butter paper with phenol red powder is then taken out from the weighing balance.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+  
+  <SCENE ID="29takbutterpapertoconicalflaskcopy">
+<TEXT ID="29takbutterpapertoconicalflaskcopy_one">
+<TEXTVALUE>The phenol red powder is then transferred into the conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+ 
+  <SCENE ID="30putphenolredintoflask">
+<TEXT ID="30putphenolredintoflask_one">
+<TEXTVALUE>The phenol red powder is then transferred into the conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+  
+  
+   <SCENE ID="31pourdistilledwaterintocylinder">
+<TEXT ID="31pourdistilledwaterintocylinder_one">
+<TEXTVALUE>The wash bottle containing distilled water is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+    <SCENE ID="32pour">
+<TEXT ID="32pour_one">
+<TEXTVALUE>100 ml of distilled water is transferred into the measuring cylinder.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+     <SCENE ID="33keepbakdistilledwater">
+<TEXT ID="33keepbakdistilledwater_one">
+<TEXTVALUE>The wash bottle is then kept back on the lab bench and the measured distilled water is taken.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+      <SCENE ID="34pourdistilledwater">
+<TEXT ID="34pourdistilledwater_one">
+<TEXTVALUE>The distilled water is then transferred to the conical flask.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+      <SCENE ID="36keepbakmeasuringjar">
+<TEXT ID="36keepbakmeasuringjar_one">
+<TEXTVALUE>The measuring cylinder is then kept back on the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+       <SCENE ID="37takeconicalflask">
+<TEXT ID="37takeconicalflask_one">
+<TEXTVALUE>The prepared broth is then taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+        <SCENE ID="38keepcotton">
+<TEXT ID="38keepcotton_one">
+<TEXTVALUE>The phenol red carbohydrate broth is then plugged with cotton.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+         <SCENE ID="39keepbaklabel">
+<TEXT ID="39keepbaklabel_one">
+<TEXTVALUE> It is then kept back on the lab bench and labeled as phenol red glucose broth.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+        <SCENE ID="40cu">
+<TEXT ID="40cu_one">
+<TEXTVALUE>The prepared broth is then taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  
+        <SCENE ID="40akeepbakinlaf">
+<TEXT ID="40akeepbakinlaf_one">
+<TEXTVALUE>The phenol red glucose broth is then kept in the Laminar Air Flow chamber.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+         <SCENE ID="41labelcf">
+<TEXT ID="41labelcf_one">
+<TEXTVALUE>Likewise phenol red maltose broth, phenol red sucrose broth, phenol red lactose broth and phenol red mannitol broth is prepared.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+        <SCENE ID="42taketubeup">
+<TEXT ID="42taketubeup_one">
+<TEXTVALUE>A screw caped tube is taken from the rack. The cotton plug is removed from the phenol red glucose broth.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+       <SCENE ID="43takeconicalflk">
+<TEXT ID="43takeconicalflk_one">
+<TEXTVALUE>The phenol red glucose broth is then taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+      <SCENE ID="44pourglucose">
+<TEXT ID="44pourglucose_one">
+<TEXTVALUE>The cap of the tube is opened and 5 ml of the broth is transferred into the tube.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+         <SCENE ID="45keepbaktube">
+<TEXT ID="45keepbaktube_one">
+<TEXTVALUE>The cap is then tightened and it is kept back in the rack. Another screw caped tube is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+      <SCENE ID="46pourglucoseagain">
+<TEXT ID="46pourglucoseagain_one">
+<TEXTVALUE>The cap of the tube is opened and 5 ml of the broth is transferred into the tube.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+      <SCENE ID="47keepbaktubeagain">
+<TEXT ID="47keepbaktubeagain_one">
+<TEXTVALUE>The cap is then tightened and it is kept back in the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+ 
+    <SCENE ID="49takefirssttube">
+<TEXT ID="49takefirssttube_one">
+<TEXTVALUE>One of the screw cap tubes containing phenol red glucose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+    <SCENE ID="50labelfirsttube">
+<TEXT ID="50labelfirsttube_one">
+<TEXTVALUE>The tube is then labeled as Glucose.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+ 
+   <SCENE ID="51cuglucose">
+<TEXT ID="51cuglucose_one">
+<TEXTVALUE>This tube serves as the “ Test” for the experimental analysis.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+    <SCENE ID="52keepbaktubeglucosentaketube">
+<TEXT ID="52keepbaktubeglucosentaketube_one">
+<TEXTVALUE>The tube is then kept back in the rack.A second screw caped tube with phenol red glucose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+ 
+ 
+    <SCENE ID="53labelsecondttube">
+<TEXT ID="53labelsecondttube_one">
+<TEXTVALUE>The tube is then labeled as Glucose “C” (ie., control).</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+    <SCENE ID="54cuglucoseC">
+<TEXT ID="54cuglucoseC_one">
+<TEXTVALUE>This tube serves as the “control” for the experimental analysis.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+ 
+   <SCENE ID="55keepbaktubeglucosentaketubecopy">
+<TEXT ID="55keepbaktubeglucosentaketubecopy_one">
+<TEXTVALUE>The tube is then kept back in the rack.  Another screw caped tube is then taken from the rack. The cotton plug of the phenol red lactose broth is then removed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+   <SCENE ID="56takeconicalflkagain">
+<TEXT ID="56takeconicalflkagain_one">
+<TEXTVALUE>The phenol red lactose broth is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+ 
+   <SCENE ID="57pourlactose">
+<TEXT ID="57pourlactose_one">
+<TEXTVALUE>The cap of the tube is opened and 5 ml of the phenol red lactose broth is transferred into the tube.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+ 
+ 
+   <SCENE ID="58keepbaktubelactose">
+<TEXT ID="58keepbaktubelactose_one">
+<TEXTVALUE>The tube is then kept back in the rack. Another screw caped tube is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+ 
+ 
+   <SCENE ID="59pourlactoseagain">
+<TEXT ID="59pourlactoseagain_one">
+<TEXTVALUE>The cap of the tube is opened and 5 ml of phenol red lactose broth is transferred to the tube. The cap of the tube is then tightened.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+    <SCENE ID="60keepbaktubeagainlactose">
+<TEXT ID="60keepbaktubeagainlactose_one">
+<TEXTVALUE>The cap of the tube is opened and 5 ml of phenol red lactose broth is transferred to the tube. The cap of the tube is then tightened.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+  
+    <SCENE ID="62takefirssttubecopy">
+<TEXT ID="62takefirssttubecopy_one">
+<TEXTVALUE>One of the screw cap tubes containing phenol red lactose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+    <SCENE ID="63labelfirsttubecopy">
+<TEXT ID="63labelfirsttubecopy_one">
+<TEXTVALUE>The tube is then labeled as lactose.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+    <SCENE ID="64culactose">
+<TEXT ID="64culactose_one">
+<TEXTVALUE>This tube serves as the “Test” for the experimental analysis.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  	
+     <SCENE ID="65taketubelactose">
+<TEXT ID="65taketubelactose_one">
+<TEXTVALUE>The tube is then kept back in the rack.A second screw caped tube with phenol red lactose broth is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  	
+	
+	
+      <SCENE ID="66labellactosec">
+<TEXT ID="66labellactosec_one">
+<TEXTVALUE>The tube is then labeled as Lactose “C”.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  	
+	
+    <SCENE ID="673cu">
+<TEXT ID="673cu_one">
+<TEXTVALUE>This tube serves as the “control” for the experimental analysis.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+  
+  <SCENE ID="684KeepbaklactoseC">
+<TEXT ID="684KeepbaklactoseC_one">
+<TEXTVALUE>The tube is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+  
+  
+    <SCENE ID="69fillalltubes">
+<TEXT ID="69fillalltubes_one">
+<TEXTVALUE>Similarly Phenol red maltose broth, phenol red sucrose broth and phenol red mannitol broth (both control and test) was transferred to respective test tubes.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  <SCENE ID="70cualltubes">
+<TEXT ID="70cualltubes_one">
+<TEXTVALUE>The prepared carbohydrate media were then arranged in the LAF table.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  	
+   <SCENE ID="71takegtube">
+<TEXT ID="71takegtube_one">
+<TEXTVALUE>One of the phenol red glucose broth is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+  <SCENE ID="72takedurhamtube">
+<TEXT ID="72takedurhamtube_one">
+<TEXTVALUE>A durham tube is then taken from the beaker.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+
+
+     <SCENE ID="73opentubeflame">
+<TEXT ID="73opentubeflame_one">
+<TEXTVALUE>The Durham tube is then transferred aseptically into the phenol red glucose broth.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+     
+	 <SCENE ID="74cualltubeswidurhamtube">
+<TEXT ID="74cualltubeswidurhamtube_one">
+<TEXTVALUE>Similarly durham tubes were placed in all the phenol red carbohydrate broths.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+ 	  <SCENE ID="75autoclave">
+<TEXT ID="75autoclave_one">
+<TEXTVALUE>The prepared carbohydrates need to be sterilized in an autoclave.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+  	 <SCENE ID="76autoclaveopen">
+<TEXT ID="76autoclaveopen_one">
+<TEXTVALUE>The knobs of autoclave is then unscrewed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+   	 <SCENE ID="77autoclaveMUVDOOR">
+<TEXT ID="77autoclaveMUVDOOR_one">
+<TEXTVALUE>The lid of the autoclave is then opened.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+    <SCENE ID="78taketesttubestoactoclave">
+<TEXT ID="78taketesttubestoactoclave_one">
+<TEXTVALUE>The phenol red carbohydrate broth is then taken from the LAF table.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+     <SCENE ID="79placeTTrackinAutoclave">
+<TEXT ID="79placeTTrackinAutoclave_one">
+<TEXTVALUE>It is then taken into the autoclave for sterilization.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+      <SCENE ID="80autoclaveMUVDOOR">
+<TEXT ID="80autoclaveMUVDOOR_one">
+<TEXTVALUE>The lid of the autoclave is then closed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+      <SCENE ID="81autoclaveclose">
+<TEXT ID="81autoclaveclose_one">
+<TEXTVALUE>The knobs of autoclave are then tightened.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+     <SCENE ID="82autoclavenclock">
+<TEXT ID="82autoclavenclock_one">
+<TEXTVALUE>The carbohydrate solution is then kept in the autoclave at 115 degree celcius for 15 minutes.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+     <SCENE ID="83aginopenautoclave">
+<TEXT ID="83aginopenautoclave_one">
+<TEXTVALUE>After sterilization the knobs of autoclave is unscrewed.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+     <SCENE ID="84autoclaveMUVDOOR">
+<TEXT ID="84autoclaveMUVDOOR_one">
+<TEXTVALUE>The lid of the autoclave is then opened.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+   <SCENE ID="85takeTTfromautoclave">
+<TEXT ID="85takeTTfromautoclave_one">
+<TEXTVALUE>The sterilized carbohydrate broth is then taken out from the autoclave.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+   <SCENE ID="86keepbaktt">
+<TEXT ID="86keepbaktt_one">
+<TEXTVALUE>The sterilized carbohydrate broth is then kept in the LAF.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  <SCENE ID="86A">
+	<TEXT ID="86A_one">
+		<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+	</SCENE>
+  
+   <SCENE ID="87inoculationbegin">
+<TEXT ID="87inoculationbegin_one">
+<TEXTVALUE>An inoculation loop is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+    
+  
+   <SCENE ID="88flametheloop">
+<TEXT ID="88flametheloop_one">
+<TEXTVALUE>It is then heat sterilized in the blue flame of the Bunsen burner till red hot and then allowed to cool for some time.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+   <SCENE ID="89taketubewiculture">
+<TEXT ID="89taketubewiculture_one">
+<TEXTVALUE>The overnight culture of bacteria is taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+  <SCENE ID="90takecottonnflame">
+<TEXT ID="90takecottonnflame_one">
+<TEXTVALUE>The mouth of the tube is then heat sterilized and a loopful of culture is taken with the cooled sterile loop. The mouth of the tube is again heat sterilized and cotton is replaced.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+   <SCENE ID="915keepbaktubewiculture">
+<TEXT ID="915keepbaktubewiculture_one">
+<TEXTVALUE>The bacterial culture is then kept  in the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+  
+     <SCENE ID="92taketubewiglucose">
+<TEXT ID="92taketubewiglucose_one">
+<TEXTVALUE>The phenol red glucose broth (Test) is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+      <SCENE ID="93opentubeflameputculture">
+<TEXT ID="93opentubeflameputculture_one">
+<TEXTVALUE>The mouth of the tube is then heat sterilized. The bacterial culture in the inoculation loop is then transferred into the phenol red carbohydrate broth. The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+       <SCENE ID="94keepbacktubewiglucose">
+<TEXT ID="94keepbacktubewiglucose_one">
+<TEXTVALUE>The inoculated phenol red glucose broth is then kept back in the rack.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+       <SCENE ID="95culturetoalltubes">
+<TEXT ID="95culturetoalltubes_one">
+<TEXTVALUE>Similarly the bacterial culture is aseptically inoculated into other phenol red carbohydrate broths (The control tubes are kept uninoculated).</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+  
+         <SCENE ID="96incubator">
+<TEXT ID="96incubator_one">
+<TEXTVALUE>The door of the incubator is then opened.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+         <SCENE ID="97takettstubes">
+<TEXT ID="97takettstubes_one">
+<TEXTVALUE>All the phenol red carbohydrate broths (both test and control) are then taken from the LAF.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+     <SCENE ID="98placeinsideincubator">
+<TEXT ID="98placeinsideincubator_one">
+<TEXTVALUE>The phenol red carbohydrate broth is then kept in the incubator and the door of the incubator is closed. The phenol red carbohydrate broths are then incubated at 37 degree celcius for 24 hours and after incubation the tubes are taken out from the incubator.</TEXTVALUE>
+	</TEXT>
+  </SCENE>  
+  
+     <SCENE ID="99possibleresults">
+<TEXT ID="99possibleresults_one">
+<TEXTVALUE>The possible fermentation reactions that can happen during the incubation are as shown.</TEXTVALUE>
+	</TEXT>
+  </SCENE> 
+     <SCENE ID="100keepbacktesttube">
+<TEXT ID="100keepbacktesttube_one">
+<TEXTVALUE>After incubation the carbohydrate fermentation tubes are placed in the LAF.</TEXTVALUE>
+	</TEXT>
+  </SCENE>   
+      <SCENE ID="1015cuttrackwitubes">
+<TEXT ID="1015cuttrackwitubes_one">
+<TEXTVALUE>The respective fermentation reaction done by the bacterial culture was noted. By comparing the observed result with the standard, the fermentation result was found to be that of Escherichia coli.</TEXTVALUE>
+	</TEXT>
+  </SCENE>    
+        
+	</DATA>
+

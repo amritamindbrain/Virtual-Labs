@@ -1,0 +1,282 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="Intro">
+	<TEXT ID="Intro_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+<TEXT ID="Intro_two">
+	 <TEXTVALUE>Click on each apparatus/reagent to know its name or click on "Continue" to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakePotato">
+	<TEXT ID="TakePotato_one">
+		<TEXTVALUE>A  sweet potato is taken .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeTheKnife">
+	<TEXT ID="TakeTheKnife_one">
+		<TEXTVALUE>Take a knife.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="CleanThePotato">
+	<TEXT ID="CleanThePotato_one">
+		<TEXTVALUE>Then gently peel the skin of the sweet potato.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Potato">
+	<TEXT ID="Potato_one">
+		<TEXTVALUE>Then gently peel the skin of the sweet potato.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="WeightOfThePotato">
+	<TEXT ID="WeightOfThePotato_one">
+		<TEXTVALUE>The weight of the peeled sweet potato is recorded.</TEXTVALUE>
+	</TEXT>
+</SCENE>	
+<SCENE ID="SlicePotato">
+	<TEXT ID="SlicePotato_one">
+		<TEXTVALUE>Using a knife the peeled sweet potato is cut into thin slices.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Sliced">
+	<TEXT ID="Sliced_one">
+		<TEXTVALUE>The thin slices of sweet potato are then transferred into a mortar.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="CrishedWithPestle">
+	<TEXT ID="CrishedWithPestle_one">
+		<TEXTVALUE>With the help of pestle the  slices are crushed  into a paste.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="CrishedWithPestle_two">
+		<TEXTVALUE>The crushed sweet potato paste is then transferred to a blender jar using a spatula.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="PasteIntoBlender">
+	<TEXT ID="PasteIntoBlender_one">
+		<TEXTVALUE>The crushed sweet potato paste is then transferred to a blender jar using a spatula.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeBuffer">
+	<TEXT ID="TakeBuffer_one">
+		<TEXTVALUE>The bottle containing Sodium phosphate buffer is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BufferToJar">
+	<TEXT ID="BufferToJar_one">
+		<TEXTVALUE>40ml of the buffer is measured using a measuring cylinder.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="LevelInJar">
+	<TEXT ID="LevelInJar_one">
+		<TEXTVALUE>40ml of the buffer is measured using a measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CloseBufferBottle">
+	<TEXT ID="CloseBufferBottle_one">
+		<TEXTVALUE>Close the buffer bottle.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="TakeTheJar">
+	<TEXT ID="TakeTheJar_one">
+		<TEXTVALUE>The measured amount of buffer is then transferred to the blender jar.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="BufferToBlender">
+	<TEXT ID="BufferToBlender_one">
+		<TEXTVALUE>The measured amount of buffer is then transferred to the blender jar.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="SwitchOnBlender">
+	<TEXT ID="SwitchOnBlender_one">
+		<TEXTVALUE>The blender is now switched on for 5 minutes.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="TakeTube1">
+	<TEXT ID="TakeTube1_one">
+		<TEXTVALUE>After  5 minutes, a blue capped tube is taken.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="TakeJar">
+	<TEXT ID="TakeJar_one">
+		<TEXTVALUE>And the sweet potato slurry is  then transferred from the  blender jar to the tube.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+	<SCENE ID="PasteIntoTube1">
+	<TEXT ID="PasteIntoTube1_one">
+		<TEXTVALUE>And the sweet potato slurry is  then transferred from the  blender jar to the tube.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="JarOnTheBlender">
+	<TEXT ID="JarOnTheBlender_one">
+		<TEXTVALUE>The blender jar is replaced on the blender.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="CloseTube1">
+	<TEXT ID="CloseTube1_one">
+		<TEXTVALUE>Then the blue capped tube is closed.</TEXTVALUE>
+	</TEXT>	
+</SCENE> 
+<SCENE ID="MixWithVortexer">
+	<TEXT ID="MixWithVortexer_one">
+		<TEXTVALUE>And is taken for vortexing in a vortexer for 2 minutes.</TEXTVALUE>
+	</TEXT>		
+</SCENE> 
+
+<SCENE ID="Tube1OnStand">
+	<TEXT ID="Tube1OnStand_one">
+		<TEXTVALUE>After vortexing , the tube is kept for incubation at room temperature for 1 hour.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+	<SCENE ID="TakeSyringe">
+	<TEXT ID="TakeSyringe_one">
+		<TEXTVALUE>Take a syringe.</TEXTVALUE>
+	</TEXT>		
+</SCENE> 
+<SCENE ID="OpenTube">
+	<TEXT ID="OpenTube_one">
+		<TEXTVALUE>After incubation open the tube.</TEXTVALUE>
+	</TEXT>			
+</SCENE>
+<SCENE ID="PasteIntoSyringe">
+	<TEXT ID="PasteIntoSyringe_one">
+		<TEXTVALUE>Take the slurry into the syringe.</TEXTVALUE>
+	</TEXT>			
+</SCENE>
+<SCENE ID="Tube1onRack">
+	<TEXT ID="Tube1onRack_one">
+		<TEXTVALUE>The tube is placed in the rack.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="TakeFilter">	
+	<TEXT ID="TakeFilter_one">
+		<TEXTVALUE>Take a syringe filter.</TEXTVALUE>
+	</TEXT>			
+</SCENE>
+<SCENE ID="ConnectFilter">
+	<TEXT ID="ConnectFilter_one">
+		<TEXTVALUE>Fix it with the syringe.</TEXTVALUE>
+	</TEXT>			
+</SCENE>
+<SCENE ID="TakeTube2">
+	<TEXT ID="TakeTube2_one">
+		<TEXTVALUE>Take a new tube.</TEXTVALUE>
+	</TEXT>	
+	</SCENE>
+<SCENE ID="LiquidToTube2">		
+	<TEXT ID="LiquidToTube2_one">
+		<TEXTVALUE>The slurry is filtered into the new tube.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="OpenTheIncubator">
+	<TEXT ID="OpenTheIncubator_one">
+		<TEXTVALUE>Open the centrifuge.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="TubeInTheIncubator">
+	<TEXT ID="TubeInTheIncubator_one">
+		<TEXTVALUE>The tube with the filtered slurry is placed in the centrifuge with another test tube placed opposite it for balance.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="CloseTheIncubator">
+	<TEXT ID="CloseTheIncubator_one">
+		<TEXTVALUE>The centrifuge is closed.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="StartIncubator">
+	<TEXT ID="StartIncubator_one">
+		<TEXTVALUE>The filtered slurry is then taken for centrifugation at 12000rpm for 20 minutes at 4 degree celsius.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+<SCENE ID="OpenIncubator2">
+	<TEXT ID="OpenIncubator2_one">
+		<TEXTVALUE>The centrifuge is opened.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="TakeTube2fromIncub">
+	<TEXT ID="TakeTube2fromIncub_one">
+		<TEXTVALUE>After the centrifugation, the tube is removed from the centrifuge.</TEXTVALUE>
+	</TEXT>		
+	</SCENE>
+<SCENE ID="AfterIncubation">
+	<TEXT ID="AfterIncubation_one">
+		<TEXTVALUE>A pellet is seen at the bottom of the tube along with the supernatant.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="TakeThePipette">
+	<TEXT ID="TakeThePipette_one">
+		<TEXTVALUE>Take a micropipette.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+
+<SCENE ID="TakingThetip">
+	<TEXT ID="TakingThetip_one">
+		<TEXTVALUE>Insert a fresh tip to the micropipette.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="OpenTube2">
+	<TEXT ID="OpenTube2_one">
+		<TEXTVALUE>Using the pipette, pipette out the supernatant.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="TakeTube3">
+	<TEXT ID="TakeTube3_one">
+		<TEXTVALUE>Take a new tube.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="LiquidToTube3">
+	<TEXT ID="LiquidToTube3_one">
+		<TEXTVALUE>Transfer the supernatant into the tube.</TEXTVALUE>
+	</TEXT>	
+	<TEXT ID="LiquidToTube3_two">
+		<TEXTVALUE>This is the  sweet potato extract containing beta amylase enzyme.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+
+<SCENE ID="DiscardTheTip">
+	<TEXT ID="DiscardTheTip_one">
+		<TEXTVALUE>Discard the tip of the micropipette.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+
+<SCENE ID="ReplaceThePipette">
+	<TEXT ID="ReplaceThePipette_one">
+		<TEXTVALUE>Replace the pipette on the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="TakeTheRack">
+	<TEXT ID="TakeTheRack_one">
+		<TEXTVALUE>The tube is placed in the rack.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+<SCENE ID="TheRefrigerator">
+	<TEXT ID="TheRefrigerator_one">
+		<TEXTVALUE>The sweet potato extract is then stored  at 4 degree celcius in the referigerator for further use.</TEXTVALUE>
+	</TEXT>		
+</SCENE>
+
+<SCENE ID="TubeInRefrigerator">
+	<TEXT ID="TubeInRefrigerator_one">
+		<TEXTVALUE>The sweet potato extract is then stored  at 4 degree celcius in the referigerator for further use.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+
+</DATA>
+

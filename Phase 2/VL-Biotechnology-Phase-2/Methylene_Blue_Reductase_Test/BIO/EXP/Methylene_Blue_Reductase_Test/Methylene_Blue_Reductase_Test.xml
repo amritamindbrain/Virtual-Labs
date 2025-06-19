@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="01intro">
+	<TEXT ID="01intro_one">
+	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name/ Click the “Continue” button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="02methtktub">
+	<TEXT ID="02methtktub_one">
+	<TEXTVALUE>A 10 ml glass pipette and a pipette pump are taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="03methfixtub">
+	<TEXT ID="03methfixtub_one">
+	<TEXTVALUE>The pipette is fixed carefully to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="04metk10ml">
+	<TEXT ID="04metk10ml_one">
+	<TEXTVALUE>10 ml of the Milk Sample-1 is then pipetted using the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="05metksample1">
+	<TEXT ID="05metksample1_one">
+	<TEXTVALUE>A sterile screw cap tube is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="06dropmilk">
+	<TEXT ID="06dropmilk_one">
+	<TEXTVALUE>The mouth of the tube is heat sterilized in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="06dropmilk_two">
+	<TEXTVALUE>After that the Milk Sample-1 taken in the pipette is transferred into the screw cap tube.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="06dropmilk_three">
+	<TEXTVALUE>The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="07metksample1replaceit">
+	<TEXT ID="07metksample1replaceit_one">
+	<TEXTVALUE>The screw cap tube with the milk sample is kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="08methremovetube">
+	<TEXT ID="08methremovetube_one">
+	<TEXTVALUE>The used pipette is removed from the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="09methreplacetube">
+	<TEXT ID="09methreplacetube_one">
+	<TEXTVALUE>The used pipette is then kept in the pipette rack. Another sterile pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10methfixtub02">
+	<TEXT ID="10methfixtub02_one">
+	<TEXTVALUE>The pipette is fixed carefully to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11metk10mlsample2">
+	<TEXT ID="11metk10mlsample2_one">
+	<TEXTVALUE>10 ml of the Milk Sample-2 is then pipetted using the sterile pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12metksample2">
+	<TEXT ID="12metksample2_one">
+	<TEXTVALUE>A sterile screw cap tube is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="13dropmilk02">
+	<TEXT ID="13dropmilk02_one">
+	<TEXTVALUE>The mouth of the tube is heat sterilized in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="13dropmilk02_two">
+	<TEXTVALUE>After that the Milk Sample-2 taken in the pipette is transferred into the new screw cap tube.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="13dropmilk02_three">
+	<TEXTVALUE>The mouth of the tube is again heat sterilized.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14metksample1replaceit04">
+	<TEXT ID="14metksample1replaceit04_one">
+	<TEXTVALUE>The screw cap tube with the milk sample is kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15methremovetube04">
+	<TEXT ID="15methremovetube04_one">
+	<TEXTVALUE>The used pipette is removed from the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16methreplacetube02">
+	<TEXT ID="16methreplacetube02_one">
+	<TEXTVALUE>The used pipette is then kept in the pipette rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="17methtkpstppt">
+	<TEXT ID="17methtkpstppt_one">
+	<TEXTVALUE>A sterile Pasteur pipette is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18methtkpstppt">
+	<TEXT ID="18methtkpstppt_one">
+	<TEXTVALUE>1 ml of Methylene Blue solution is taken using the Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19metksamplemilky1">
+	<TEXT ID="19metksamplemilky1_one">
+	<TEXTVALUE>The screw cap tube containing Milk Sample-1 is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20dropmilk">
+	<TEXT ID="20dropmilk_one">
+	<TEXTVALUE>The mouth of the tube is then heat sterilized and 1ml of the Methylene blue solution taken in the Pasteur pipette is transferred to the milk sample.
+	</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="20dropmilk_two">
+	<TEXTVALUE>The mouth of the tube is again heat sterilized in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21methreplcit">
+	<TEXT ID="21methreplcit_one">
+	<TEXTVALUE>The Pasteur pipette is then kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22metshkit01">
+	<TEXT ID="22metshkit01_one">
+	<TEXTVALUE>The milk sample with Methylene blue indicator is then mixed well by shaking the tube as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23metksample1replaceit02">
+	<TEXT ID="23metksample1replaceit02_one">
+	<TEXTVALUE>The tube with the solution is then kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24methtkpstppt02">
+	<TEXT ID="24methtkpstppt02_one">
+	<TEXTVALUE>The same Pasteur pipette is then taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25methtkpstppt03">
+	<TEXT ID="25methtkpstppt03_one">
+	<TEXTVALUE>1 ml of Methylene Blue solution is taken using the Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26metksamplebluetk02">
+	<TEXT ID="26metksamplebluetk02_one">
+	<TEXTVALUE>The screw cap tube containing Milk Sample-2 is taken from the test tube rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27dropmilk02">
+	<TEXT ID="27dropmilk02_one">
+	<TEXTVALUE>The mouth of the tube is heat sterilized in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="27dropmilk02_two">
+	<TEXTVALUE>1ml of the Methylene blue solution taken in the Pasteur pipette is transferred to the milk sample.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="27dropmilk02_three">
+	<TEXTVALUE>The mouth of the tube is again heat sterilized in the blue flame of the Bunsen burner.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28replacetube">
+	<TEXT ID="28replacetube_one">
+	<TEXTVALUE>The Pasteur pipette is then kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29replacetube02">
+	<TEXT ID="29replacetube02_one">
+	<TEXTVALUE>The milk sample with Methylene blue indicator is then mixed well by shaking the tube as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30replaceonrack02">
+	<TEXT ID="30replaceonrack02_one">
+	<TEXTVALUE>The tube with the solution is then kept in the rack. The test tube rack containing the solutions is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="31placinthewtrbath">
+	<TEXT ID="31placinthewtrbath_one">
+	<TEXTVALUE>The solutions are then kept in the water bath.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="31placinthewtrbath_two">
+	<TEXTVALUE>The solutions in the tubes are kept undisturbed in the water bath at 37 o C for 30 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32pltkit">
+	<TEXT ID="32pltkit_one">
+	<TEXTVALUE>After 30 minutes the tubes containing the solutions are taken from the water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33replcit">
+	<TEXT ID="33replcit_one">
+	<TEXTVALUE>The tubes are then kept in the rack. The screw cap tube containing the Milk Sample-1 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34shakitforwit">
+	<TEXT ID="34shakitforwit_one">
+	<TEXTVALUE>The solution is mixed well by shaking the tube as shown. The colour change happened to the solution is noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="35replaceit">
+	<TEXT ID="35replaceit_one">
+	<TEXTVALUE>Since the solution in the tube labeled sample-1 change to white (rapid reduction of Methylene blue indicator) within 30 minutes indicates the milk sample tested is of very poor quality.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36tksecndtube">
+	<TEXT ID="36tksecndtube_one">
+	<TEXTVALUE>The screw cap tube containing the Milk Sample-2 is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37itshake">
+	<TEXT ID="37itshake_one">
+	<TEXTVALUE>The solution is mixed well by shaking the tube as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38tkreplcesetube">
+	<TEXT ID="38tkreplcesetube_one">
+	<TEXTVALUE>Since there is no visible colour change in the solution, it is kept in a separate rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39tkforbath">
+	<TEXT ID="39tkforbath_one">
+	<TEXTVALUE>The rack containing the Sample – 2 solution is taken from the LAF.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40placinthesampl02">
+	<TEXT ID="40placinthesampl02_one">
+	<TEXTVALUE>It is then kept in the water bath.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="40placinthesampl02_two">
+	<TEXTVALUE>The Sample – 2 solution is kept undisturbed in the water bath for 37 o C for 30 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41pltkit02">
+	<TEXT ID="41pltkit02_one">
+	<TEXTVALUE>After 30 minutes the tube containing the solution is taken from the water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42replcit02">
+	<TEXT ID="42replcit02_one">
+	<TEXTVALUE>The tube is then kept in the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43shakitforwit02">
+	<TEXT ID="43shakitforwit02_one">
+	<TEXTVALUE>The solution is mixed well by shaking the tube as shown. The color change in the solution is noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44tkreplcesetubeee">
+	<TEXT ID="44tkreplcesetubeee_one">
+	<TEXTVALUE>Since the solution in the tube labeled sample 2 changes to white (reduction of Methylene blue indicator) within 60 minutes (1 hour) the milk sample tested is of poor quality.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45Result">
+	<TEXT ID="45Result_one">
+	<TEXTVALUE>Various results that one can expect while performing Methylene Blue Reductase Test is listed above.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,560 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="01TitAminointro">
+<TEXT ID="01TitAminointro_one">
+<TEXTVALUE>Click on each apparatus/reagent to know its name or click on the "Continue" to start the experiment.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  <SCENE ID="02TitAminoplcbkr">
+<TEXT ID="02TitAminoplcbkr_one">
+<TEXTVALUE>A beaker is placed on the lab bench.</TEXTVALUE>
+	</TEXT>
+  </SCENE>
+  
+  <SCENE ID="03TitAmino">
+<TEXT ID="03TitAmino_one">
+<TEXTVALUE>The pH electrode is removed from the electrode storage solution.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+  
+<SCENE ID="04TitAmitk03">
+<TEXT ID="04TitAmitk03_one">
+<TEXTVALUE>The bottle containing distilled water is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="05TitAmiporwtr">
+<TEXT ID="05TitAmiporwtr_one">
+<TEXTVALUE>The pH electrode is then thoroughly washed with distilled water.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="06TitAmireplcit">
+<TEXT ID="06TitAmireplcit_one">
+<TEXTVALUE>The bottle is then returned to the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="07TitAmireplcit">
+<TEXT ID="07TitAmireplcit_one">
+<TEXTVALUE>The CAL button is pressed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="08TitAmidipinph">
+<TEXT ID="08TitAmidipinph_one">
+<TEXTVALUE>The pH electrode is then dipped inside the bottle labeled “pH=4”.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="09TitAmiredph4">
+<TEXT ID="09TitAmiredph4_one">
+<TEXTVALUE>When “Ready” is displayed on the pH meter, the Enter button is pressed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="10TitAmirremovit">
+<TEXT ID="10TitAmirremovit_one">
+<TEXTVALUE>The pH electrode is then taken from the bottle labeled “pH=4”.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="11TitAmitkdistldwtr">
+<TEXT ID="11TitAmitkdistldwtr_one">
+<TEXTVALUE>The bottle containing distilled water is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="12TitAmiporwtr02">
+<TEXT ID="12TitAmiporwtr02_one">
+<TEXTVALUE>The pH electrode is then thoroughly washed with distilled water.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="13TitAmireplcit03">
+<TEXT ID="13TitAmireplcit03_one">
+<TEXTVALUE>The bottle is then returned to the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="14TitAmitktisus">
+<TEXT ID="14TitAmitktisus_one">
+<TEXTVALUE>A lint free tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="15TitAmiwip">
+<TEXT ID="15TitAmiwip_one">
+<TEXTVALUE>The bulb of the pH electrode is wiped gently using the tissue paper.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="16TitAmidipinph05">
+<TEXT ID="16TitAmidipinph05_one">
+<TEXTVALUE>The pH electrode is then dipped inside the bottle labeled “pH=7”.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="17TitAmipres7ph">
+<TEXT ID="17TitAmipres7ph_one">
+<TEXTVALUE>When “Ready” is displayed on the pH meter, the Enter button is pressed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="18TitAmirremovit06">
+<TEXT ID="18TitAmirremovit06_one">
+<TEXTVALUE>The pH electrode is then taken from the bottle labeled “pH=7”.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="19TitAmitkdistldwt03">
+<TEXT ID="19TitAmitkdistldwt03_one">
+<TEXTVALUE>The bottle containing distilled water is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="20TitAmiwashit">
+<TEXT ID="20TitAmiwashit_one">
+<TEXTVALUE>The pH electrode is then thoroughly washed with distilled water.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="21TitAmireplcit04">
+<TEXT ID="21TitAmireplcit04_one">
+<TEXTVALUE>The bottle is then returned to the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+	<SCENE ID="22TitAmitktisus03">
+<TEXT ID="22TitAmitktisus03_one">
+<TEXTVALUE>A lint free tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+	<SCENE ID="23TitAmiwip04">
+<TEXT ID="23TitAmiwip04_one">
+<TEXTVALUE>The bulb of the pH electrode is wiped gently using the tissue paper.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+	<SCENE ID="24TitAmidipinph10">
+<TEXT ID="24TitAmidipinph10_one">
+<TEXTVALUE>The pH electrode is then dipped inside the bottle labeled “pH=10”.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="25TitAmipres10ph">
+<TEXT ID="25TitAmipres10ph_one">
+<TEXTVALUE>When “Ready” is displayed on the pH meter, the Enter button is pressed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="26TitAmirremovit10">
+<TEXT ID="26TitAmirremovit10_one">
+<TEXTVALUE>The pH electrode is then taken from the bottle labeled “pH=10”.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="27TitAmitkdistldwtr11">
+<TEXT ID="27TitAmitkdistldwtr11_one">
+<TEXTVALUE>The bottle containing distilled water is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="28TitAmiporwtr03">
+<TEXT ID="28TitAmiporwtr03_one">
+<TEXTVALUE>The pH electrode is then thoroughly washed with distilled water.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="29TitAmireplcit04">
+<TEXT ID="29TitAmireplcit04_one">
+<TEXTVALUE>The bottle is then returned to the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="30TitAmireplcit">
+<TEXT ID="30TitAmireplcit_one">
+<TEXTVALUE>The pH electrode is then placed onto the pH electrode stand.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="31TitAmireplcit03">
+<TEXT ID="31TitAmireplcit03_one">
+<TEXTVALUE>A glass pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="32TitAmireopnit">
+<TEXT ID="32TitAmireopnit_one">
+<TEXTVALUE>20 ml of the 0.1M glycine is pipetted out using glass pipette. The lid of the standard flask is then replaced.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="33TitAmirzoom">
+<TEXT ID="33TitAmirzoom_one">
+<TEXTVALUE>20 ml of glycine is pipetted using a pipette.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="34Titpur20ml">
+<TEXT ID="34Titpur20ml_one">
+<TEXTVALUE>The pipetted solution is then transferred to a beaker and is removed from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="35TitAminplcbkr">
+<TEXT ID="35TitAminplcbkr_one">
+<TEXTVALUE>The beaker containing glycine is then placed on the stirrer and the pH electrode is dipped inside it.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="36TitAmitkstrbar">
+<TEXT ID="36TitAmitkstrbar_one">
+<TEXTVALUE>The magnetic stir bar is taken from the lab bench using forceps.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="37TitAminplcbkrrott">
+<TEXT ID="37TitAminplcbkrrott_one">
+<TEXTVALUE>The stir bar is then transferred to the beaker containing 0.1M glycine and the stirrer is switched on.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="38TitAmipres610">
+<TEXT ID="38TitAmipres610_one">
+<TEXTVALUE>The pH is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="39TitAmiopnit">
+<TEXT ID="39TitAmiopnit_one">
+<TEXTVALUE>The stopcock of the burette is released.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="40TitAmislowly">
+<TEXT ID="40TitAmislowly_one">
+<TEXTVALUE>0.3ml of HCl is added dropwise from the burette into the beaker containing 0.1M glycine.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="41TitAmicloseit">
+<TEXT ID="41TitAmicloseit_one">
+<TEXTVALUE>The stop cock of the burette is then closed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="40TitAmipresentr">
+<TEXT ID="40TitAmipresentr_one">
+<TEXTVALUE>The pH observed is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="41TitAmiopnit">
+<TEXT ID="41TitAmiopnit_one">
+<TEXTVALUE>The stopcock of the burette is released.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="42TitAmishowsloly">
+<TEXT ID="42TitAmishowsloly_one">
+<TEXTVALUE>Another 0.3 ml of the HCl is added dropwise from the burette into the beaker containing 0.1M glycine.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="43TitAmiclose">
+<TEXT ID="43TitAmiclose_one">
+<TEXTVALUE>The stop cock of the burette is then closed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="44TitAmipresenty01">
+<TEXT ID="44TitAmipresenty01_one">
+<TEXTVALUE>The pH observed is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="45TitAmiopnit05">
+<TEXT ID="45TitAmiopnit05_one">
+<TEXTVALUE>The stopcock of the burette is released.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="46TitAmishowsloly04">
+<TEXT ID="46TitAmishowsloly04_one">
+<TEXTVALUE>Another 0.3 ml of the HCl is added drop wise from the burette into the beaker containing 0.1M glycine.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="47TitAmiclose02">
+<TEXT ID="47TitAmiclose02_one">
+<TEXTVALUE>The stop cock of the burette is then closed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="48TitAmipresenty03">
+<TEXT ID="48TitAmipresenty03_one">
+<TEXTVALUE>The pH observed is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="49TitAmipresenty03">
+<TEXT ID="49TitAmipresenty03_one">
+<TEXTVALUE>Similarly repeat the same procedure until the pH reaches 1.6. The pH values are recorded in a tabular column.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+<SCENE ID="50TitAmipreoffit">
+<TEXT ID="50TitAmipreoffit_one">
+<TEXTVALUE>The magnetic stirrer is switched off.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="51TitAmitkbkr">
+<TEXT ID="51TitAmitkbkr_one">
+<TEXTVALUE>The pH electrode is then taken from the beaker containing 0.1M glycine and the beaker is then removed from the stirrer. The pH electrode is then fixed back to the stand.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="52TitAmreplcit">
+<TEXT ID="52TitAmreplcit_one">
+<TEXTVALUE>The beaker is then returned to the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="53TitAmtkeltd">
+<TEXT ID="53TitAmtkeltd_one">
+<TEXTVALUE>The pH electrode is then taken from the stand.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="54TitAmwtr">
+<TEXT ID="54TitAmwtr_one">
+<TEXTVALUE>The bottle containing distilled water is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="55TitAmiwshwtr">
+<TEXT ID="55TitAmiwshwtr_one">
+<TEXTVALUE>The pH electrode is then thoroughly washed with distilled water.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="56TitAmireplcit">
+<TEXT ID="56TitAmireplcit_one">
+<TEXTVALUE>The bottle is then returned to the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="57TitAmireplcitinstant">
+<TEXT ID="57TitAmireplcitinstant_one">
+<TEXTVALUE>The pH electrode is then placed onto the pH electrode stand.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="58TitAmitkbrt">
+<TEXT ID="58TitAmitkbrt_one">
+<TEXTVALUE>The burette stand with the burette containing HCl is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="59TitAmitkotherbr">
+<TEXT ID="59TitAmitkotherbr_one">
+<TEXTVALUE>Another burette containing NaOH is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+
+<SCENE ID="60TitAmiplc">
+<TEXT ID="60TitAmiplc_one">
+<TEXTVALUE>Then the burette is placed through the slot of the pH meter.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="61TitAmfixglasppt">
+<TEXT ID="61TitAmfixglasppt_one">
+<TEXTVALUE>A glass pipette is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="62TitAmtk20ml">
+<TEXT ID="62TitAmtk20ml_one">
+<TEXTVALUE>20 ml of the 0.1M glycine is pipetted out using glass pipette. The lid of the standard flask is then replaced.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="63TitAmshowit">
+<TEXT ID="63TitAmshowit_one">
+<TEXTVALUE>20 ml of the 0.1M glycine is pipetted out.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="64TitAmfilbrtkit">
+<TEXT ID="64TitAmfilbrtkit_one">
+<TEXTVALUE>The pipetted solution is then transferred to a beaker and it is taken from the lab bench.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="65TitAmiplconstir">
+<TEXT ID="65TitAmiplconstir_one">
+<TEXTVALUE>The beaker containing  glycine is then placed on the stirrer and the pH electrode is dipped inside it.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="66TitAmitkstrbr">
+<TEXT ID="66TitAmitkstrbr_one">
+<TEXTVALUE>The magnetic stir bar is taken from the lab bench using forceps.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="67TitAmiDropbar">
+<TEXT ID="67TitAmiDropbar_one">
+<TEXTVALUE>The stir bar is then transferred to the beaker containing 0.1M glycine and the stirrer is switched on.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="68TitAmiprsentr">
+<TEXT ID="68TitAmiprsentr_one">
+<TEXTVALUE>The pH is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="69TitAmiopnit">
+<TEXT ID="69TitAmiopnit_one">
+<TEXTVALUE>The stopcock of the burette is released.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="70TitAmimovsloly">
+<TEXT ID="70TitAmimovsloly_one">
+<TEXTVALUE>0.3ml of NaOH is added dropwise from the burette into the beaker containing 0.1M glycine.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="71TitAmiclosit">
+<TEXT ID="71TitAmiclosit_one">
+<TEXTVALUE>The stop cock of the burette is then closed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="72TitAmipresentr">
+<TEXT ID="72TitAmipresentr_one">
+<TEXTVALUE>The pH observed is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="73TitAmiclosit">
+<TEXT ID="73TitAmiclosit_one">
+<TEXTVALUE>The stopcock of the burette is released.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="74TitAmimovslvly">
+<TEXT ID="74TitAmimovslvly_one">
+<TEXTVALUE>Another 0.3 ml of the NaOH is added dropwise from the burette into the beaker containing 0.1M glycine.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="75TitAmiclosit">
+<TEXT ID="75TitAmiclosit_one">
+<TEXTVALUE>The stop cock of the burette is then closed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="76TitAmiprsentr">
+<TEXT ID="76TitAmiprsentr_one">
+<TEXTVALUE>The pH observed is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="77TitAmiopnit03">
+<TEXT ID="77TitAmiopnit03_one">
+<TEXTVALUE>The stopcock of the burette is released.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="78TitAmislowmov">
+<TEXT ID="78TitAmislowmov_one">
+<TEXTVALUE>Another 0.3 ml of the NaOH is added dropwise from the burette into the beaker containing 0.1M glycine.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="79TitAmiclosit">
+<TEXT ID="79TitAmiclosit_one">
+<TEXTVALUE>The stop cock of the burette is then closed.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="80TitAmipresentr03">
+<TEXT ID="80TitAmipresentr03_one">
+<TEXTVALUE>The pH observed is recorded.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="81TitAmichart01">
+<TEXT ID="81TitAmichart01_one">
+<TEXTVALUE>Similarly repeat the same procedure until the pH reaches 12.00. The pH values are recorded in a tabular column.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	<SCENE ID="81aTitAmiqiations">
+<TEXT ID="81aTitAmiqiations_one">
+<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+<SCENE ID="82TitAmichart02">
+<TEXT ID="82TitAmichart02_one">
+<TEXTVALUE>A titration curve is plotted with Volume of HCl in ml on X axis and pH on Y axis.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="83TitAmichart03">
+<TEXT ID="83TitAmichart03_one">
+<TEXTVALUE>Another titration curve is plotted with Volume of NaOH in ml on X axis and pH on Y axis.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+
+</DATA>

@@ -1,0 +1,250 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="UreaseIntro">
+	<TEXT ID="UreaseIntro_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="UreaseIntro_two">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroBrothAndSlantMethod">
+	<TEXT ID="UreaseIntroBrothAndSlantMethod_one">
+	 <TEXTVALUE>Select any of the method.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotakingTheIsolate">
+	<TEXT ID="UreaseIntrotakingTheIsolate_one">
+	 <TEXTVALUE>Take a Tryptic Soy Broth Culture from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotaketheinoculatingloop">
+	<TEXT ID="UreaseIntrotaketheinoculatingloop_one">
+	 <TEXTVALUE>Take an inoculation loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroburner">
+	<TEXT ID="UreaseIntroburner_one">
+	 <TEXTVALUE>Heat it vertically in the blue flame of the Bunsen burner till red hot and then cool it for few seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroOppenTheTestube01">
+	<TEXT ID="UreaseIntroOppenTheTestube01_one">
+	 <TEXTVALUE>Remove the cotton with the small finger of your right hand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroheatingTheTestubeWithBurner">
+	<TEXT ID="UreaseIntroheatingTheTestubeWithBurner_one">
+	 <TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroDippingTheLoop">
+	<TEXT ID="UreaseIntroDippingTheLoop_one">
+	 <TEXTVALUE>With the cooled sterile loop, take a loopful of organism from the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<!--SCENE ID="UreaseIntroLoopDippingIntheTestube">
+	<TEXT ID="UreaseIntroLoopDippingIntheTestube_one">
+	 <TEXTVALUE>With the cooled sterile loop, take a loopful of organism from the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE-->
+<SCENE ID="UreaseIntroRemovLoopAndReplaceCotten001">
+	<TEXT ID="UreaseIntroRemovLoopAndReplaceCotten001_one">
+	 <TEXTVALUE>Flame the mouth of the tube again and replace the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroToTheTestubeStant">
+	<TEXT ID="UreaseIntroToTheTestubeStant_one">
+	 <TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroTakingureabroth">
+	<TEXT ID="UreaseIntroTakingureabroth_one">
+	 <TEXTVALUE>Take a sterile Urea Broth from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroRemoveTheCotten">
+	<TEXT ID="UreaseIntroRemoveTheCotten_one">
+	 <TEXTVALUE>Remove the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroheatingTheTestubeWithBurnerSecondTime">
+	<TEXT ID="UreaseIntroheatingTheTestubeWithBurnerSecondTime_one">
+	 <TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroDippingTheLoop02">
+	<TEXT ID="UreaseIntroDippingTheLoop02_one">
+	 <TEXTVALUE>Inoculate the Urea broth with the inoculation loop containing the inoculum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<!--SCENE ID="UreaseIntroLoopDippingIntheTestubeSecondTime">
+	<TEXT ID="UreaseIntroLoopDippingIntheTestubeSecondTime_one">
+	 <TEXTVALUE>Inoculate the Urea broth with the inoculation loop containing the inoculum.</TEXTVALUE>
+	</TEXT>
+</SCENE-->
+<SCENE ID="UreaseIntroRemovLoopAndReplaceCotten">
+	<TEXT ID="UreaseIntroRemovLoopAndReplaceCotten_one">
+	 <TEXTVALUE>Flame the mouth of the tube again, replace the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroReplaceTestub">
+	<TEXT ID="UreaseIntroReplaceTestub_one">
+	 <TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroburner2ndTime">
+	<TEXT ID="UreaseIntroburner2ndTime_one">
+	 <TEXTVALUE>Flame the loop again.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotaketheinoculatingloopReplace">
+	<TEXT ID="UreaseIntrotaketheinoculatingloopReplace_one">
+	 <TEXTVALUE>Keep it on the rack </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroShakingincubater">
+	<TEXT ID="UreaseIntroShakingincubater_one">
+	 <TEXTVALUE>Open the shaking incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotakingtestubwithStant">
+	<TEXT ID="UreaseIntrotakingtestubwithStant_one">
+	 <TEXTVALUE>Incubate the inoculated tube and control for 24 hours at 37°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroTestShakingincubater">
+	<TEXT ID="UreaseIntroTestShakingincubater_two">
+	 	<TEXTVALUE>Close and switch on the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroswitchOn">
+	<TEXT ID="UreaseIntroswitchOn_one">
+	 	<TEXTVALUE>Switch on the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntro+ve">
+	<TEXT ID="UreaseIntro+ve_one">
+	 <TEXTVALUE>After 24 hours, take out the broths from the incubator and observe the results. Positive result  :- Development of a pink colour in the broth.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntro-ve">
+	<TEXT ID="UreaseIntro-ve_one">
+	 <TEXTVALUE>After 24 hours, take out the broths from the incubator and observe the results. Negative result :- A yellow colour development in the broth.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<!--Slant Method.............!-->
+
+<SCENE ID="UreaseIntrotaketheIsolate">
+	<TEXT ID="UreaseIntrotaketheIsolate_one">
+	 <TEXTVALUE>Take a Tryptic Soy Broth Culture from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotaketheinoculatingloop01">
+	<TEXT ID="UreaseIntrotaketheinoculatingloop01_one">
+	 <TEXTVALUE>Take an inoculation loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotaketheinoculatingloop1">
+	<TEXT ID="UreaseIntrotaketheinoculatingloop1_one">
+	 <TEXTVALUE>Heat it vertically in the blue flame of the Bunsen burner till red hot and then cool it for few seconds.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroOppenTheTestube02">
+	<TEXT ID="UreaseIntroOppenTheTestube02_one">
+	 <TEXTVALUE>Remove the cotton with the small finger of your right hand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroheatingTheTestubeWithBurner1">
+	<TEXT ID="UreaseIntroheatingTheTestubeWithBurner1_one">
+	 <TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroDippingTheLoop1">
+	<TEXT ID="UreaseIntroDippingTheLoop1_one">
+	 <TEXTVALUE>With the cooled sterile loop, take a loopful of organism from the test tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Scene42">
+	<TEXT ID="Scene42_one">
+	 <TEXTVALUE>Flame the mouth of the tube again, and replace the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroToTheTestubeStant1">
+	<TEXT ID="UreaseIntroToTheTestubeStant1_one">
+	 <TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroTakingureaSlant">
+	<TEXT ID="UreaseIntroTakingureaSlant_one">
+	 <TEXTVALUE>Take a sterile Urea Slant from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroRemoveTheCotten1">
+	<TEXT ID="UreaseIntroRemoveTheCotten1_one">
+	 <TEXTVALUE>Remove the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroheatingTheTestubeWithBurnerSecondTime1">
+	<TEXT ID="UreaseIntroheatingTheTestubeWithBurnerSecondTime1_one">
+	 <TEXTVALUE>Flame the mouth of the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroDippingTheLoop021">
+	<TEXT ID="UreaseIntroDippingTheLoop021_one">
+	 <TEXTVALUE>Insert the inoculation loop.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroLoopDippingTestubeSecondTime">
+	<TEXT ID="UreaseIntroLoopDippingTestubeSecondTime_one">
+	 <TEXTVALUE>Streak the slanted surface of the tube in a zigzag manner.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroRemovLoopAndReplaceCotten1">
+	<TEXT ID="UreaseIntroRemovLoopAndReplaceCotten1_one">
+	 <TEXTVALUE>Flame the mouth of the tube again, and replace the cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroReplaceTestub1">
+	<TEXT ID="UreaseIntroReplaceTestub1_one">
+	 <TEXTVALUE>Keep it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotaketheinoculatingloop2nd1">
+	<TEXT ID="UreaseIntrotaketheinoculatingloop2nd1_one">
+	 <TEXTVALUE>Flame the loop again.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntrotaketheinoculatingloop2nd2">
+	<TEXT ID="UreaseIntrotaketheinoculatingloop2nd2_one">
+	 <TEXTVALUE>Keep it on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroShakingincubater1">
+	<TEXT ID="UreaseIntroShakingincubater1_one">
+	 <TEXTVALUE>Open the  incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroTestShakingincubater01 ">
+	<TEXT ID="UreaseIntroTestShakingincubater01 _one">
+	 <TEXTVALUE>Incubate the inoculated tube and control for 24 hours at 37°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="UreaseIntroswitchOn1">
+	<TEXT ID="UreaseIntroswitchOn1_one">
+	 <TEXTVALUE>Close and switch on the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+</DATA>

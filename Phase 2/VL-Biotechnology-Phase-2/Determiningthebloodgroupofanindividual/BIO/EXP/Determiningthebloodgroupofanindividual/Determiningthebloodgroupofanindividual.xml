@@ -1,0 +1,75 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="BloodGroupIntro">
+	<TEXT ID="BloodGroupIntro_one">
+		<TEXTVALUE>Set the table with the required materials. Remember to place the Monoclonal Antibody bottles in an ice tray.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupTakeAlcoholpad">
+	<TEXT ID="BloodGroupTakeAlcoholpad_one">
+		<TEXTVALUE>Take out the alcohol pad from its packet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupApplyAlcoholpad">
+	<TEXT ID="BloodGroupApplyAlcoholpad_one">
+		<TEXTVALUE>Apply the alcohol pad at the site from where blood will be sampled.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupdesposeswab">
+	<TEXT ID="BloodGroupdesposeswab_one">
+		<TEXTVALUE>Since the swab has not come into contact with any body fluid, dispose it into the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupTakeLancet">
+	<TEXT ID="BloodGroupTakeLancet_one">
+		<TEXTVALUE>Open the Lancet cover and prepare the finger tip for blood collection.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupprickblood">
+	<TEXT ID="BloodGroupprickblood_one">
+		<TEXTVALUE>Prick the finger tip with the lancet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupTodisposal6">
+	<TEXT ID="BloodGroupTodisposal6_one">
+		<TEXTVALUE>Discard the lancet to the bio hazard disposal container.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupToglassslide">
+<TEXT ID="BloodGroupToglassslide_one">
+	<TEXTVALUE>Squeeze it more till a sizable drop forms on the finger and then invert it on the glass slide till the drop falls into the first depression of the glass slide.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="BloodGroupToglassslide_two">
+	<TEXTVALUE>Similarly fill the rest of the depressions.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupAntibodies">
+<TEXT ID="BloodGroupAntibodies_one">
+	<TEXTVALUE>Place the glass slide on the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupcotton">
+<TEXT ID="BloodGroupcotton_one">
+	<TEXTVALUE>Take the cotton ball, place it where the finger was pricked and hold it with the thumb to stop blood flow.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupTesting">
+<TEXT ID="BloodGroupTesting_one">
+	<TEXTVALUE>Place Anti-A (blue) on the 1st spot, followed by Anti-B (yellow) and Anti-D (colorless) in the respective depressions (2nd and 3rd). Take a tooth pick and gently mix the solutions in the first depression. Discard the tooth pick into the beaker. Do this in each depression. Once this is done, let's observe the result in less than 2 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BloodGroupResult">
+	<TEXT ID="BloodGroupResult_one">
+		<TEXTVALUE>On observing the slide, Which blood group do you think this sample belongs to? Choose the correct result from the options given on the right.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+</DATA>

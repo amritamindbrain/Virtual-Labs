@@ -1,0 +1,251 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="Microparasite_and_Macroparasite_Host_Dynamics.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_A">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_B">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_BDRATE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_BIRTHRATE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_C">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CLEAR_BUTTON">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CONTROLS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_D">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_DATAPLOTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_DEATH_IMMATURE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_DEATHRATE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DISEASE_TRANSMISSION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_EFFECT_PARASITE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_END">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ENTER_HOST">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_FACTOR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_FRACTION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_FS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_GO_TO_STEP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_GO_TO_STEP_ERROR_MESSAGE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GO_TO_STEP_ERROR_MESSAGE1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_GRAPH_ERROR_MSG">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_GRAPH1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_GRAPH2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_GRAPH3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_HOST_POPULATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_INFECTED">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_INFECTED_INDIVIDUALS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_INITIAL_POPULATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_INSIDE_HOSTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_K">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_M">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_MACROPARASITE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_MICROPARASITE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_MORE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_MSG1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_MSG2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_MSG3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_MSG4">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_MSG5">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_MSG6">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_N">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_NATURAL_MORTALITY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_NEGATIVE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_OUTSIDE_HOSTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_P">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_PAUSE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_PLAY">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_POPULATION_RATS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_POPULATION_SNAKES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_RANDOM">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_RATE_IMMATURE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="053" resname="IDS_RATE_INFECTED">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="054" resname="IDS_RATE_SUSCEPTIBLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="055" resname="IDS_RESISTANTS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="056" resname="IDS_RUN_ITERATION">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="057" resname="IDS_RUN_ONCE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="058" resname="IDS_START">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="059" resname="IDS_STATISTICS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="060" resname="IDS_STEPS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="061" resname="IDS_SUSCEPTIBLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="062" resname="IDS_SUSCEPTIBLE_INDIVIDUALS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="063" resname="IDS_T">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="064" resname="IDS_TIME">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="065" resname="IDS_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="066" resname="IDS_U">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="067" resname="IDS_VARIABLES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="068" resname="IDS_WORKSHEET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="069" resname="IDS_X1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="070" resname="IDS_X2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="071" resname="IDS_X3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="072" resname="IDS_XAXIS1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="073" resname="IDS_XAXIS2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="074" resname="IDS_XAXIS3">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="075" resname="IDS_YAXIS1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="076" resname="IDS_YAXIS2">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="077" resname="IDS_YAXIS3">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

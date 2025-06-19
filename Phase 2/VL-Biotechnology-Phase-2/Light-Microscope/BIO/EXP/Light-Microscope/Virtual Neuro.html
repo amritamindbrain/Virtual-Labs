@@ -1,0 +1,72 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<title>Virtual Neuro</title>
+<script src="../../../../Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script language="javascript">
+
+function gup( name )
+    {
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+   var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.parent.location.href );
+  if( results == null )
+    return "5";
+  else
+    return results[1];
+  }
+ // alert(URL_param)
+
+</script>
+
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+ 
+<body>
+
+<script type="text/javascript">
+
+document.write("<object id=\"FlashID\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\"800\" height=\"600\">");
+document.write("  <param name=\"movie\" value=\"Virtual Neuro.swf\" \/>");
+document.write("  <param name=\"quality\" value=\"high\" \/>");
+document.write("  <param name=\"wmode\" value=\"opaque\" \/>");
+document.write("  <param name=\"swfversion\" value=\"10.0.2.0\" \/>");
+document.write("  <param name=\"expressinstall\" value=\"..\/..\/..\/..\/Scripts\/expressInstall.swf\" \/>");
+document.write("  <param name=\"allowfullscreen\" value=\"true\" \/>");
+document.write("  <param name=\"flashvars\" value=\"cell="+gup( 'cell' )+"\">");
+document.write("  <object type=\"application\/x-shockwave-flash\" data=\"Virtual Neuro.swf\" width=\"800\" height=\"600\">");
+document.write("    <param name=\"quality\" value=\"high\" \/>");
+document.write("    <param name=\"wmode\" value=\"opaque\" \/>");
+document.write("    <param name=\"swfversion\" value=\"10.0.2.0\" \/>");
+document.write("    <param name=\"expressinstall\" value=\"..\/..\/..\/..\/Scripts\/expressInstall.swf\" \/>");
+document.write("    <param name=\"allowfullscreen\" value=\"true\" \/>");
+document.write("    <param name=\"flashvars\" value=\"cell="+gup( 'cell' )+"\">");
+document.write("    <div>");
+document.write("      <h4>Content on this page requires a newer version of Adobe Flash Player.<\/h4>");
+document.write("    <\/div>");
+document.write("  <\/object>");
+document.write("<\/object>");
+
+
+<!--
+swfobject.registerObject("FlashID");
+//-->
+</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Agestructured_LeslieMatrix.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_AGECLASSES">
+        <source>Age classes</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_AGEX">
+        <source>Age(x)</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_APPLICATION_OF_LESLIE_MATRIX">
+        <source>The number of individuals in each age class in each year</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_APPLICATIONOFLESLIEMATRIX">
+        <source>Application of Leslie Matrix</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_ATT">
+        <source>At t=</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_BUTTON1">
+        <source>Create Leslie Matrix</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_BUTTON2">
+        <source>Show Life Table</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_BUTTON3">
+        <source>Leslie Matrix from Life Table</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_BUTTON4">
+        <source>Draw Survivorship Curve</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_CXTABLES">
+        <source>Proportion of individuals</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_CXTABLES2">
+        <source>The proportion of individuals in each age class in each year</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_DESCRIPTION1">
+        <source>x = Age class 
+nx = Number of individual (n) of each age class x 
+sx = Fraction of individuals that survives from age class x to age class x+1 
+mx = Average female offspring per female of a given age in the population
+fx = Fecundity, lx = Number alive at age x/number at age zero
+Tc = Cohort generation time</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_DESCRIPTION2">
+        <source>Tc = Cohort generation time
+r = Rate of growth of individual in continuous time 
+R0 = Rate of growth per generation</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_ERRORMESSAGE1">
+        <source>Please enter the field data</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_ERRORMESSAGE2">
+        <source>Create Life table.</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_ERRORMESSAGE3">
+        <source>Create Application of Leslie Matrix</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_ERRORMESSAGE4">
+        <source>Please enter valid numbers in the field.</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_FIELDDATA">
+        <source>Field data</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_FINITERATEOFCHANGE">
+        <source>Finite rate of change = </source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_FX">
+        <source>fx</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_GROWTH_RATE">
+        <source>Growth rate</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_INPUTCONTROL">
+        <source>Input control</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_LEGENDVARIABLES">
+        <source>Legend - variables</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_LESLIEMATRIX">
+        <source>Leslie Matrix</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_LESLIEMATRIXCALCULATOR">
+        <source>Leslie Matrix Calculator</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LESLIEMATRIXFROMLIFETABLE">
+        <source>Leslie Matrix from Life Table</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_LIFETABLE">
+        <source>Life Table</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_LX">
+        <source>lx</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_MX">
+        <source>mx</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_N0C0">
+        <source>n0, c0 represent the number of individuals and the proportion of individuals in each age class at the end of first year and n1, c1 at the end of second year etc.</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NUMBEROFAGECLASS">
+        <source>Number of age class: </source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NUMBEROFINDIVIDUALS">
+        <source>Number of individuals (nx)</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NUMBEROFINDIVIDUALSINEACHAGECLASS">
+        <source>Growth of population upto t years,  t =</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_NX">
+        <source>nx</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_POPULATIONGROWTHRATES">
+        <source>Population growth rates</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_POPULATIONSIZEVSTIME">
+        <source>Population size Vs time</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_R">
+        <source> r   = </source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_R0">
+        <source>R0 = </source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_SUM">
+        <source>t = Number of years, st = Sum of individuals in each age class at  year (t).</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_SURVIVORSHIPCURVE">
+        <source>Survivorship Curve</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_SURVIVORSHIPCURVES">
+        <source>Survivorship curve</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_SX">
+        <source>sx</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_TC">
+        <source>Tc = </source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_TOTAL">
+        <source>Total</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_TOTALNOINDIVIDUAL">
+        <source>Total no. individual = </source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_X">
+        <source>x</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_XX">
+        <source>x</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

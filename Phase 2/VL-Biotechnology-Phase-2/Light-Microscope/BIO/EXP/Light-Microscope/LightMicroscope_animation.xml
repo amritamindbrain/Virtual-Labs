@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="StillMicroscope">
+	<TEXT ID="StillMicroscope_one">
+		<TEXTVALUE>Click on the button to continue.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Knowingpartofmicroscope">
+	<TEXT ID="Knowingpartofmicroscope_one">
+		<TEXTVALUE>Click on each part of the microscope for a closer view.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MicroscopeAnimationBegins">
+	<TEXT ID="MicroscopeAnimationBegins_one">
+		<TEXTVALUE>Switch ON the light source, the switch is placed at the base of the microscope.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="lightadjusting">
+	<TEXT ID="lightadjusting_one">
+		<TEXTVALUE>Adjust the light intensity with the help of a lamp rheostat.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="placingglassslab">
+	<TEXT ID="placingglassslab_one">
+		<TEXTVALUE>Place a microscopic slide on the stage.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="Turnto4x">
+	<TEXT ID="Turnto4x_one">
+		<TEXTVALUE>Rotate the nosepiece to the lowest-power objective,i.e., 4x objective lens(objective lens with red band).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Adjustdiaphramfullwhite">
+	<TEXT ID="Adjustdiaphramfullwhite_one">
+		<TEXTVALUE>Observe through the microscope and move the Iris diaphragm lever, till most of the light comes through or the background becomes brighter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Adjustdiaphramto4x">
+	<TEXT ID="Adjustdiaphramto4x_one">
+		<TEXTVALUE>Close 3/4th of the iris diaphragm.</TEXTVALUE>
+	</TEXT>
+	
+	
+</SCENE>
+<SCENE ID="coarse4x">
+<TEXT ID="coarse4x_one">
+	<TEXTVALUE>Adjust the coarse adjustment knob until the specimen is in focus.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="fine4x">
+<TEXT ID="fine4x_one">
+	<TEXTVALUE>Rotate the fine adjustment knob till the image becoming clearer with good resolution.The image can be seen as above.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Turnto10x">
+<TEXT ID="Turnto10x_one">
+	<TEXTVALUE>Rotate the nosepiece to the 10x objective (lens with the yellow band) for 100x magnification. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Adjustdiaphramto10x">
+<TEXT ID="Adjustdiaphramto10x_one">
+	<TEXTVALUE>Open half the iris diaphragm.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="coarse10x">
+<TEXT ID="coarse10x_one">
+	<TEXTVALUE>Adjust the coarse adjustment knob until the specimen is in focus. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="fine10x">
+<TEXT ID="fine10x_one">
+	<TEXTVALUE>Rotate the fine adjustment knob till the image becoming clearer with good resolution.The image can be seen as above.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Turnto40x">
+<TEXT ID="Turnto40x_one">
+	<TEXTVALUE>Rotate nose piece to 40x objective (lens with the blue band).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Adjustdiaphramto40x">
+<TEXT ID="Adjustdiaphramto40x_one">
+	<TEXTVALUE>Open ¾ th of the iris diaphragm.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="coarse40x">
+<TEXT ID="coarse40x_one">
+	<TEXTVALUE>Focus the lens using coarse adjustment knob.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="fine40x">
+<TEXT ID="fine40x_one">
+	<TEXTVALUE>Rotate the fine adjustment knob until the image becomes clearer with good resolution. The image can be seen as above.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Turnto100x">
+<TEXT ID="Turnto100x_one">
+	<TEXTVALUE>Rotate nose piece such that the specimen is between 40x and 100x objective. Place a small drop of oil on the slide in the centre of the lighted area. Rotate nose piece so that the 100x oil immersion objective (lens with the white band) touches the oil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Adjustdiaphramto100x">
+<TEXT ID="Adjustdiaphramto100x_one">
+	<TEXTVALUE>Open the iris diaphragm completely.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+ <SCENE ID="fine100x">
+<TEXT ID="fine100x_one">
+	<TEXTVALUE>Only fine adjustment is done.The Image will appear as above.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+ <SCENE ID="LensClean">
+<TEXT ID="LensClean_one">
+	<TEXTVALUE>Remove the slide and wipe the 100x oil immersion objective carefully with lens paper to remove all oil. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+ 
+
+
+
+
+
+</DATA>

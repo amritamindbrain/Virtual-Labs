@@ -1,0 +1,61 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="simulation.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_INSTR1">
+        <source>1.Please take the hexane solution.</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_INSTR2">
+        <source>2.Pour it into the column.</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_INSTR3">
+        <source>3.Now turn on the stop cock.</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_INSTR4">
+        <source>4.Collect the slurry into the conical flask.</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_INSTR5">
+        <source>5.Turn off the stop cock.</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_INSTR6">
+        <source>6.Replace the solution.</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_INSTR7">
+        <source>7.Place an empty conical flask.</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_INSTR8">
+        <source>8.Turn on the stop cock.</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_INSTR9">
+        <source>9.Collect the yellow solution to the conical flask.</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_INSTR10">
+        <source>10.Do the same procedure for acetone</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_INSTR11">
+        <source>Isolation of plant pigment</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INSTR12">
+        <source>Instructions</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_INSTR13">
+        <source>Messages</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

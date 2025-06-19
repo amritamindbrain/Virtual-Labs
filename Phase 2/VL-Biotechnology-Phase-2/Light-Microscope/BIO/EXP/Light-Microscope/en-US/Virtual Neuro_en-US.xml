@@ -1,0 +1,129 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Virtual Neuro.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_BACILLI">
+        <source>Bacillus subtilis (rods)</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_BINOCULAR_BUTTON">
+        <source>Binocular</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_CELLS_ONION">
+        <source>Onion Cell</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_CHEEK_CELLS">
+        <source>Cheek Cell</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CON_FOUR_HOUR">
+        <source>DMEM + FBS) Control- 4 hour</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_CON_SIX_HOUR">
+        <source>DMEM + FBS) Control- 6 hour</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_CON_TWO_HOUR">
+        <source>DMEM + FBS) Control- 2 hour</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_CON_ZERO_HOUR">
+        <source>DMEM + FBS) Control- 0 hour</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_FBS_FOUR_HOUR">
+        <source>High FBS containg media- 4 hour</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_FBS_SIX_HOUR">
+        <source>High FBS containg media- 6 hour</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_FBS_TWO_HOUR">
+        <source>High FBS containg media- 2 hour</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_FBS_ZERO_HOUR">
+        <source>High FBS containg media- 0 hour</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_FOUR_HOUR">
+        <source>5 % dexpanthenol containing media- 4 hour</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_GRAM_NEGATIVE_COCCI">
+        <source>Gram negative cocci</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_GRAM_NEGATIVE_RODS">
+        <source>Gram negative rods</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_GRAM_POSITIVE_COCCI">
+        <source>Gram positive cocci</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_GRAM_POSITIVE_RODS">
+        <source>Gram positive rods</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_HIGH_POWER_OBJECTIVE_LENS">
+        <source>40X (High power objective lens)</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_LIGHT_INTENSITY">
+        <source>Light intensity</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_LOW_POWER_OBJECTIVE_LENS">
+        <source>10X (Low power objective lens)</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_OIL_IMMERSION_OBJECTIVE_LENS">
+        <source>100X (Oil immersion objective lens)</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_ONION_CELLS">
+        <source>Unstained Onion epidermal cells</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_ONION1">
+        <source>Onion Root Tips </source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_RESET_BUTTON">
+        <source>Reset position</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_SELECT_LENSE">
+        <source>Select lense :</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_SELECT_SAMPLE">
+        <source>Select sample : </source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_SELECT_VIEW">
+        <source>Select view :</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_SIX_HOUR">
+        <source>5% dexpanthenol containing media- 6 hour</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_STAPHYLOCOCCUS_AUREUS">
+        <source>Staphylococcus aureus (coccus)</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_TITLE">
+        <source>Light  microscopy</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_TITLE1">
+        <source>Gram Stain Technique</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_TITLE2">
+        <source>Cell Organization Studies</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_TOOLSBOXMENU">
+        <source>Advanced tools box</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_TRINOCULAR_BUTTON">
+        <source>Monitor out</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_TWO_HOUR">
+        <source>5 % dexpanthenol containing media- 2 hour</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_ZERO_HOUR">
+        <source>5 % dexpanthenol containing media- 0 hour</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

@@ -1,0 +1,128 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Predator_Prey_Dynamics_Effects_of_Social_Behavior.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADVANTAGETOPREDATOR">
+        <source>Advantage to predator</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ALERT">
+        <source>Enter a value greater than 0.</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_CARRYING_CAPACITY">
+        <source>Carrying capacity</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_COOPERATION_AMONG_PREDATOR">
+        <source>Cooperation among the predators</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_COOPERATION_AMONG_PREDATORS">
+        <source>Cooperation among predators</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_DATAPLOTS">
+        <source>Data Plots</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_EFFECT_OF_COOPERATION">
+        <source>Effect of cooperation on equilibrium densities and population stability</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_EFFECT_OF_DIFFERENT_THETA_VALUES">
+        <source>Effect of different Theta values</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_ENCOUNTERS_RESULT_IN_KILL">
+        <source>Encounters result in kill</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_EQUILIBRIUM_DENSITIES_AND_POPULATION_STABILITY">
+        <source>Equilibrium densities and population stability</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_INITIAL_PREDATOR_POPULATION">
+        <source>Initial predator population</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INITIAL_PREY_POPULATION">
+        <source>Initial prey population</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_NUMBE_OF_STEPS">
+        <source>Number of steps</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_NUMBER_OF_PREDATOR">
+        <source>Number of predator</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_PAUSE">
+        <source>Pause</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_PLAY">
+        <source>Play</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_POPULATION_DENSITY">
+        <source>Population density of prey</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_POPULATION_DENSITY_PREDATOR">
+        <source>Population density of predator</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_PREDATOR-PREY-DYNAMICS">
+        <source>Effect of different theta values on predator-prey dynamics</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_PREDATOR_CONVERSION">
+        <source>Predator conversion</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_PREDATOR_DEATH_RATE">
+        <source>Predator death rate</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_PREDATOR_EFFICIENCY">
+        <source>Predator efficiency</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_PREDATORPOPULATION">
+        <source>Predator population</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_PREY_POPULATION">
+        <source>Prey population</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_RATE">
+        <source>Rate at which new individuals are added to the population</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_RATE_AT_WHICH_NEW_POPULATIONS_ADDED">
+        <source>Rate at which new populations added</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_RATE_OF_GROWTH">
+        <source>Rate of growth</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_RUN_ONCE">
+        <source>Step run</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_RUNITERATION">
+        <source>Run Iteration</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_SPATIAL_DISTRIBUTION">
+        <source>Spatial Distribution</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_STATISTICS">
+        <source>Statistics</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_STEP_SIZE">
+        <source>Step size</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_THETA">
+        <source>Theta</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_TITLE">
+        <source>Predator Prey Dynamics Effects of Social Behavior</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_WORKSHEET">
+        <source>Work Sheet</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

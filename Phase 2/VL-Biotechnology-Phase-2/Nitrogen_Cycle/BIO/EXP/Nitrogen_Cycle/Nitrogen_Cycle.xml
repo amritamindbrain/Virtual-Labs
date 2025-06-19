@@ -1,0 +1,196 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="1zoomig">
+	<TEXT ID="1zoomig_one">
+	<TEXTVALUE>Click on the “Continue” button to study the Nitrogen Cycle process occurring in the ecosystem.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2zoom">
+	<TEXT ID="2zoom_one">
+	<TEXTVALUE>Nitrogen and Oxygen are the key elements responsible for the Nitrogen Cycle process. They exist in the atmosphere as N2 and O2.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2lightning">
+	<TEXT ID="2lightning_one">
+	<TEXTVALUE>Click on the “Lightening” button to study the atmospheric nitrogen fixation process.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4o2n2">
+	<TEXT ID="4o2n2_one">
+	<TEXTVALUE>The enormous energy liberated during the lightening process breaks down the nitrogen molecules existing in the atmosphere and enables the Nitrogen atoms to combine with oxygen in the air forming Nitrates (NO3-).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4o2n2">
+	<TEXT ID="4o2n2_two">
+	<TEXTVALUE>Click on the “Assimilation” button to study the conversion of nitrates into other compounds that can be taken up by the plants for their metabolic activities.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="5o2n2a">
+	<TEXT ID="5o2n2a_one">
+	<TEXTVALUE>The nitrates (NO3-) first enter into the soil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="5o2n2a">
+	<TEXT ID="5o2n2a_two">
+	<TEXTVALUE>From the soil, the plant absorbs the nitrates (NO3-) with the help of their root hairs. The NO3- is then incorporated in the plants as Nitrogenous compounds (N*).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="5o2n2a">
+	<TEXT ID="5o2n2a_three">
+	<TEXTVALUE>Click on the Ammonification button to study how the nitrogen in the air is converted into nitrogenous compounds such as Ammonia and Ammonium ions with the help of nitrogen fixing bacteria existing in the plant root nodules and soil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6attacknh3">
+	<TEXT ID="6attacknh3_one">
+	<TEXTVALUE>Select an appropriate organism for continuing the process.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6attacknh3">
+	<TEXT ID="6attacknh3_two">
+	<TEXTVALUE>When the N2 enters the soil, nitrogen fixing bacteria in the root nodules of the plants takes up and converts it into ammonia, NH3. It is then incorporated in the plants as Nitrogenous compounds (N*).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="7attackbacteeria">
+	<TEXT ID="7attackbacteeria_one">
+	<TEXTVALUE>Similarly the nitrogen fixing soil bacteria convert the nitrogen into ammonium ions and incorporated in the plants as Nitrogenous compounds (N*).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7attackbacteeria">
+	<TEXT ID="7attackbacteeria_two">
+	<TEXTVALUE>Click on the Nitrification button to study the steps involved in converting the ammonia/ammonium ions into nitrates.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8nitrification">
+	<TEXT ID="8nitrification_one">
+	<TEXTVALUE>Select an appropriate organism for continuing the process.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8nitrification">
+	<TEXT ID="8nitrification_two">
+	<TEXTVALUE>The ammonia (NH3) / ammonium ion (NH4+) in the soil is first converted into nitrites (NO2-) with the help of nitrifying bacteria (Genus Nitrosomonas).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="8nitrification">
+	<TEXT ID="8nitrification_three">
+	<TEXTVALUE>The nitrites (NO2-) are then converted to nitrates (NO3−) by the nitrifying bacteria (Genus Nitrobacter).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8nitrification">
+	<TEXT ID="8nitrification_four">
+	<TEXTVALUE>The plant absorbs the nitrates (NO3-) with the help of their root hairs and it is then incorporated in the plants as Nitrogenous compounds (N*).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="8nitrification">
+	<TEXT ID="8nitrification_five">
+	<TEXTVALUE>Click on the Denitrification button to study the steps involved in converting nitrates to nitrogen gas.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9nitrification">
+	<TEXT ID="9nitrification_one">
+	<TEXTVALUE>Select an appropriate organism for continuing the process.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="9nitrification">
+	<TEXT ID="9nitrification_two">
+	<TEXTVALUE>The live bacteria in the deep soil use nitrates as an alternative to oxygen for respiration, which may ultimately gets converted to molecular nitrogen.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9nitrification">
+	<TEXT ID="9nitrification_three">
+	<TEXTVALUE>Through a series of steps, the Nitrogen is incorporated in the plants as Nitrogenous compounds (N*).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="9nitrification">
+	<TEXT ID="9nitrification_four">
+	<TEXTVALUE>Click on the Herbivores button to study how the living organisms use the nitrogenous compound for their metabolic activities.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="10nitrification">
+	<TEXT ID="10nitrification_one">
+	<TEXTVALUE>The herbivores such as rabbits consume the grass and plants in the land area.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="10nitrification">
+	<TEXT ID="10nitrification_two">
+	<TEXTVALUE>While consumption, the nitrogenous compounds stored in the plants reaches into the herbivores and thus become a part of their metabolism.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11nitrification">
+	<TEXT ID="11nitrification_one">
+	<TEXTVALUE>During the course of time, the plants will decay, releasing the stored nitrogenous compounds into the soil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12nitrification">
+	<TEXT ID="12nitrification_one">
+	<TEXTVALUE>Similarly the animals also die releasing the stored nitrogenous compounds in their body to the soil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="12nitrification">
+	<TEXT ID="12nitrification_two">
+	<TEXTVALUE>Click on the Decomposition button to study the decomposition of nitrogenous compounds for replenishing nitrogen in the atmosphere.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14nitrification">
+	<TEXT ID="14nitrification_one">
+	<TEXTVALUE>Through the series of microbial action the nitrogenous compounds are converted to nitrates and the cycle continues in the ecosystem.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15replay">
+	<TEXT ID="15replay_one">
+	<TEXTVALUE>Finally the Nitrogen and Oxygen compounds are replenished in the ecosystem.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

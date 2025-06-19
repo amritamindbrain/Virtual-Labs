@@ -1,0 +1,329 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="01BioOxyIntro">
+	<TEXT ID="01BioOxyIntro_one">
+	<TEXTVALUE>Point the mouse to each requirements of the experiment to know the name/Click the continue button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="02bioOxytkglow">
+	<TEXT ID="02bioOxytkglow_one">
+	 <TEXTVALUE>Gloves are taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="03bioOxywerit04">
+	<TEXT ID="03bioOxywerit04_one">
+	 <TEXTVALUE>Wear the gloves properly.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="04bioOxytkwtr">
+	<TEXT ID="04bioOxytkwtr_one">
+	 <TEXTVALUE>Sample water is collected from the pond.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="05bioOxyreplcit">
+	<TEXT ID="05bioOxyreplcit_one">
+	 <TEXTVALUE>The bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="06biotkppr">
+	<TEXT ID="06biotkppr_one">
+	 <TEXTVALUE>A tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="07biowipbotil">
+	<TEXT ID="07biowipbotil_one">
+	 <TEXTVALUE>The sample bottle is wiped well with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="08bioreplaceontbl">
+	<TEXT ID="08bioreplaceontbl_one">
+	 <TEXTVALUE>The bottle is placed in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="09bioremoglove">
+	<TEXT ID="09bioremoglove_one">
+	 <TEXTVALUE>The glove is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="10biodropinbin">
+	<TEXT ID="10biodropinbin_one">
+	 <TEXTVALUE>Discarded into the waste bin.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="11bioOxytkglow02">
+	<TEXT ID="11bioOxytkglow02_one">
+	 <TEXTVALUE>A glove is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="12bioOxywerit04">
+	<TEXT ID="12bioOxywerit04_one">
+	 <TEXTVALUE>Wear the glove.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="13bioreplaceontbl04">
+	<TEXT ID="13bioreplaceontbl04_one">
+	 <TEXTVALUE>The bottle is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="144biostikwatrsple">
+	<TEXT ID="144biostikwatrsple_one">
+	 <TEXTVALUE>The sample bottle is labeled as ‘Test sample’.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="15biorreplacit">
+	<TEXT ID="15biorreplacit_one">
+	 <TEXTVALUE>Again the bottle is replaced in the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="17biotktest">
+	<TEXT ID="17biotktest_one">
+	 <TEXTVALUE>The sample bottle is taken from the work bench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="18biooppntest">
+	<TEXT ID="18biooppntest_one">
+	 <TEXTVALUE>Open it.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="19biodropinit">
+	<TEXT ID="19biodropinit_one">
+	 <TEXTVALUE>The water sample is transferred into a measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="20biozoom">
+	<TEXT ID="20biozoom_one">
+	 <TEXTVALUE>The water sample is transferred into a measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="21biotktest02">
+	<TEXT ID="21biotktest02_one">
+	 <TEXTVALUE>The empty bottle is placed into the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="22biotkit">
+	<TEXT ID="22biotkit_one">
+	 <TEXTVALUE>The measuring cylinder with test sample (500ml) is taken from the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="23biofilkuppi">
+	<TEXT ID="23biofilkuppi_one">
+	 <TEXTVALUE>The water sample is transferred into the BOD bottle labeled as Test sample.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="24biotktube">
+	<TEXT ID="24biotktube_one">
+	 <TEXTVALUE>A pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="25bioress">
+	<TEXT ID="25bioress_one">
+	 <TEXTVALUE>A pipette pump is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="26biotkmangamis">
+	<TEXT ID="26biotkmangamis_one">
+	 <TEXTVALUE>2ml of manganese sulphate is taken from the beaker using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="27bioopnkuppi">
+	<TEXT ID="27bioopnkuppi_one">
+	 <TEXTVALUE>Sodium sulphate is transferred into the BOD bottle containing test sample.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="28biotktube02">
+	<TEXT ID="28biotktube02_one">
+	 <TEXTVALUE>A pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="29biofixit">
+	<TEXT ID="29biofixit_one">
+	 <TEXTVALUE>A pipette pump is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="30biopnalkali">
+	<TEXT ID="30biopnalkali_one">
+	 <TEXTVALUE>2ml of alkaline iodide azide solution is taken from the bottle using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="31biopnalkali02">
+	<TEXT ID="31biopnalkali02_one">
+	 <TEXTVALUE>Alkaline iodide azide solution is transferred into the BOD bottle containing test sample.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="32bioshakit">
+	<TEXT ID="32bioshakit_one">
+	 <TEXTVALUE>The solution is mixed well.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="33bioreplacit">
+	<TEXT ID="33bioreplacit_one">
+	 <TEXTVALUE>After mixing, the bottle is replaced into the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="34biofewminit">
+	<TEXT ID="34biofewminit_one">
+	 <TEXTVALUE>Kept it as such for few minutes to settle out.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="34biotkppt02">
+	<TEXT ID="34biotkppt02_one">
+	 <TEXTVALUE>A pipette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="35biofitit02">
+	<TEXT ID="35biofitit02_one">
+	 <TEXTVALUE>A pipette pump is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="36bioopnh2so4">
+	<TEXT ID="36bioopnh2so4_one">
+	 <TEXTVALUE>2ml of Conc.Sulphuric acid is taken from the bottle using pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="37biodropintest">
+	<TEXT ID="37biodropintest_one">
+	 <TEXTVALUE>Conc.Sulphuric acid is transferred into the BOD bottle containing test sample.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="38bioBDSincu">
+	<TEXT ID="38bioBDSincu_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="39bioopnit">
+	<TEXT ID="39bioopnit_one">
+	 <TEXTVALUE>The sample in the bottle is kept in the BOD incubator for 5 days incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="40bioplacsample">
+	<TEXT ID="40bioplacsample_one">
+	 <TEXTVALUE>The sample in the bottle is kept in the BOD incubator for 5 days incubation.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="41bioclosit">
+	<TEXT ID="41bioclosit_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="42bioBDS5days">
+	<TEXT ID="42bioBDS5days_one">
+	 <TEXTVALUE>5 days incubation.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="43bioopnitopn03">
+	<TEXT ID="43bioopnitopn03_one">
+	 <TEXTVALUE>After incubation, the incubator is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="44biotkfromrak">
+	<TEXT ID="44biotkfromrak_one">
+	 <TEXTVALUE>The bottle is taken out from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="45bioclossedoor">
+	<TEXT ID="45bioclossedoor_one">
+	 <TEXTVALUE>The incubator is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="46bioreplacontble">
+	<TEXT ID="46bioreplacontble_one">
+	 <TEXTVALUE>The bottle is replaced into the workbench.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="47biotkmsrjar">
+	<TEXT ID="47biotkmsrjar_one">
+	 <TEXTVALUE>A 50ml measuring cylinder is taken from the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="48biotkmsrjar">
+	<TEXT ID="48biotkmsrjar_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="49bioopn">
+	<TEXT ID="49bioopn_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="50biodrpjar">
+	<TEXT ID="50biodrpjar_one">
+	 <TEXTVALUE>The bottle is opened and is taken from the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="50biozoom">
+	<TEXT ID="50biozoom_one">
+	 <TEXTVALUE>50 ml of sample solution is taken from the bottle using measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="51biofilinflask">
+	<TEXT ID="51biofilinflask_one">
+	 <TEXTVALUE>Measured sample is transferred into a conical flask labeled as ‘Test sample 1’.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="52biotkmsrja02">
+	<TEXT ID="52biotkmsrja02_one">
+	 <TEXTVALUE>The measuring cylinder is replaced into the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="53bioopnanddrop">
+	<TEXT ID="53bioopnanddrop_one">
+	 <TEXTVALUE>Again 50 ml of sample solution is taken from the bottle using measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="54biodrpjar02">
+	<TEXT ID="54biodrpjar02_one">
+	 <TEXTVALUE>50 ml of sample solution is taken from the bottle using measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="55biozoom02">
+	<TEXT ID="55biozoom02_one">
+	 <TEXTVALUE>50 ml of sample solution is taken from the bottle using measuring cylinder.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="56biofilinflask02">
+	<TEXT ID="56biofilinflask02_one">
+	 <TEXTVALUE>Measured sample is transferred into a conical flask labeled as ‘Test sample 2’.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="57bioreplacjar">
+	<TEXT ID="57bioreplacjar_one">
+	 <TEXTVALUE>The measuring cylinder is replaced into the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="58titeation">
+	<TEXT ID="58titeation_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="59placbrt">
+	<TEXT ID="59placbrt_one">
+	 <TEXTVALUE>The burette is placed into the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="60tkfanal">
+	<TEXT ID="60tkfanal_one">
+	 <TEXTVALUE>A funnel is taken from the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="61plcontube">
+	<TEXT ID="61plcontube_one">
+	 <TEXTVALUE>The funnel is placed into the burette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="62tktofill">
+	<TEXT ID="62tktofill_one">
+	 <TEXTVALUE>The standard flask with 0.025N Sodium thiosulphate is taken from the workbench.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="63filbrt">
+	<TEXT ID="63filbrt_one">
+	 <TEXTVALUE>The burette is filled with 0.025N Sodium thiosulphate.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="64replacit">
+	<TEXT ID="64replacit_one">
+	 <TEXTVALUE>The standard flask is replaced into the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="65removit">
+	<TEXT ID="65removit_one">
+	 <TEXTVALUE>The funnel is removed from the burette.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="66replfanal">
+	<TEXT ID="66replfanal_one">
+	 <TEXTVALUE>Replaced in the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="67biofilinflask04">
+	<TEXT ID="67biofilinflask04_one">
+	 <TEXTVALUE>The conical flask with test sample 1 is taken from the workbench.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="68placonstrr">
+	<TEXT ID="68placonstrr_one">
+	 <TEXTVALUE>The sample 1 is placed on the stirrer below to the burette.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="69tkstrbar">
+	<TEXT ID="69tkstrbar_one">
+	 <TEXTVALUE>A stir bar is put into the conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="70tkstrbuteen">
+	<TEXT ID="70tkstrbuteen_one">
+	 <TEXTVALUE>The stirrer is switched on.</TEXTVALUE>
+	</TEXT>
+	</SCENE><SCENE ID="71colorchaige">
+	<TEXT ID="71colorchaige_one">
+	 <TEXTVALUE>The stop cock is released to add the Sodium thiosulphate from the burette to the sample. When the solution turns pale yellow color, close the stopper.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="72tkstarch">
+	<TEXT ID="72tkstarch_one">
+	 <TEXTVALUE>The indicator starch solution is taken from the bottle using a dropper.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="73tkstarch">
+	<TEXT ID="73tkstarch_one">
+	 <TEXTVALUE>When adding 3 drops of starch solution the solution turns blue in color.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="74colortowit">
+	<TEXT ID="74colortowit_one">
+	 <TEXTVALUE>Again release the stop cock until the color changes from blue to colorless. After that, the stop cock is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="75zoom">
+	<TEXT ID="75zoom_one">
+	 <TEXTVALUE>Note the reading.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="76chart">
+	<TEXT ID="76chart_one">
+	 <TEXTVALUE>Similarly titrate the ‘Test sample 2’ and note the reading as shown in the table.</TEXTVALUE>
+	</TEXT>
+</SCENE><SCENE ID="77eqtion">
+	<TEXT ID="77eqtion_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+</DATA>

@@ -1,0 +1,190 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="Intro">
+<TEXT ID="Intro_first">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Intro_one">
+		<TEXTVALUE>The brain is the center of the nervous system in all vertebrates and most invertebrates.  The brain is one of the most complex biological structure known, and comparing the brains of different species on the basis of appearance is often difficult. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Intro_two">
+		<TEXTVALUE>Nevertheless, there are common principles of brain architecture that apply across a wide range of species.The brain can be extremely complex.The human brain contains roughly 100 billion nerve cells or neurons, linked with up to 10,000 synaptic connections each.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Intro_three">
+		<TEXTVALUE>Each cubic millimeter of cerebral cortex contains roughly one billion synapses.Two neurons communicate through a synapse.Synapse is also referred to as a  synaptic terminal.The neuron doctrine states  that neurons are the basic structural and functional units of the nervous system.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Brainparts">
+	<TEXT ID="Brainparts_one">
+		<TEXTVALUE>Many neurologic diseases like Alzheimer's disease (AD), Parkinson's disease and Myasthenia Gravis besides many others like epilepsy are known to be caused from faulty neurons. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Brainparts_two">
+		<TEXTVALUE>Alzheimer's is a neurodegenerative disease characterized by progressive cognitive deterioration together with declining activities of daily living and neuropsychiatric symptoms or behavioral changes. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Brainparts_three">
+		<TEXTVALUE>Parkinson's disease (also known as Parkinson disease or PD) is a degenerative disorder of the central nervous system that often impairs the sufferer's motor skills and speech. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Brainparts_four">
+		<TEXTVALUE>Myasthenia Gravis is a neuromuscular disease leading to fluctuating muscle weakness and fatigability. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Brainparts_five">
+		<TEXTVALUE>Many other reasons tend to generate interests to study and understand nerve cells and neuronal networks. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Diagram">
+	<TEXT ID="Diagram_one">
+		<TEXTVALUE>Electrophysiology allows scientists to record the electrical activity of individual neurons or groups of neurons. There are two general approaches: intracellular and extracellular recordings. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Diagram_two">
+		<TEXTVALUE>Intracellular recording uses glass electrodes with very fine tips in order to pick up electrical signals from the interior of a neuron. Extracellular recording uses larger electrodes that can be used in the brains of living animals.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Graph">
+	<TEXT ID="Graph_one">
+		<TEXTVALUE>An action potential or a neuronal spike is considered the main information passing through a neuron.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Graph_two">
+		<TEXTVALUE>The concentration of ions around the nerve cell controls the action potential. There are two ions that are essential to a normal action potential. These ions are sodium (Na+) and potassium (K+). </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Graph_three">
+		<TEXTVALUE>The Depolarization phase is controlled by sodium ions. An external stimulus causes an influx of sodium in the nerve cell. This depolarization, or action potential continues down the neural pathway, until it reaches its destination. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Graph_four">
+		<TEXTVALUE>After the cell depolarizes, it must repolarize to its resting potential before it can depolarize again. This repolarization phase is controlled by potassium ions. An efflux of potassium causes the potential to return to its resting state. </TEXTVALUE>
+	</TEXT>
+
+</SCENE>
+
+
+<SCENE ID="Neuron">
+	<TEXT ID="Neuron_one">
+		<TEXTVALUE>Each neuron or a nerve cell has three basic parts: cell body (soma), one or more dendrites, and a single axon. Dendrites and axons are cytoplasmic extensions, or processes, that project from the cell body. Dendrites are usually, but not always, short and branching, which increases their contact area to receive signals from other neurons.  </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Neuron_two">
+		<TEXTVALUE>The number of dendrites on a neuron varies. They are called afferent processes because they transmit impulses to the neuron cell body.There is only one axon that projects from each cell body. It is usually elongated and because it carries impulses away from the cell body, it is called an efferent process.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Neuron_three">
+		<TEXTVALUE> Action potential or spikes are known to initiate in axon and propagate along the rest of the neuron. Neurons play an important role as information transmission and processing elements. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="computer">
+	<TEXT ID="computer_one">
+		<TEXTVALUE>Another approach to the study of neurons and the brain is that of using computers as an information processing device. Computational neuroscience encompasses two approaches: first, the use of computers to study the brain; second, the study of how brains perform computation.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="computer_two">
+		<TEXTVALUE>On one hand, it is possible to write a computer program to simulate the operation of a group of neurons by making use of systems of equations that describe their electrochemical activity; such simulations reconstruct the activity of a real neuron.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="computer_three">
+		<TEXTVALUE>On the other hand, it is possible to study algorithms for neural computation by simulating, or mathematically analyzing, the operations of simplified "units" that have some of the properties of neurons but abstract out much of their biological complexity.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Graph1">
+	<TEXT ID="Graph1_one">
+		<TEXTVALUE>Hodgkin and Huxley (in  1952) performed experiments on the giant axon of the squid and found three different types of ion current, viz., sodium, potassium, and a leak current that consists mainly of Cl ions. Specific voltage-dependent ion channels, one for sodium and another one for potassium, control the flow of those ions through the cell membrane.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Graph1_two">
+		<TEXTVALUE> The Hodgkin Huxley model is a mathematical model that describes how action potentials in neurons are initiated and propagated. It is a set of nonlinear ordinary differential equations that approximates the electrical characteristics of excitable cells such as neurons.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Graph1_three">
+		<TEXTVALUE>Each component of the electrical circuit represents a characteristic of an excitable cell. The lipid bilayer is represented as a capacitance (C). Voltage-gated ion channels are represented by nonlinear electrical conductance (g, where n is the specific ion channel), meaning that the conductance is voltage and time-dependent. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Formulas">
+	<TEXT ID="Formulas_one">
+		<TEXTVALUE>The time derivative of the potential across the membrane (V) is proportional to the sum of the currents in the circuit. (a) The current flowing through the ion channels is mathematically represented as the following equation.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Formulas_two">
+		<TEXTVALUE>(b) C= capacitance of membrane, I= current across membrane, E= reversal potential of ion channel, reversal potential is the membrane potential at which there is no net (overall) flow of ions from one side of the membrane to the other.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Formulas_three">
+		<TEXTVALUE>In the case of post-synaptic neurons, the reversal potential is the membrane potential at which a given neurotransmitter causes no net current flow of ions</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Graph2">
+	<TEXT ID="Graph2_one">
+		<TEXTVALUE>Nerve action potentials are the electrical signals sent out by the body to control bodily processes such as muscular movement. They are controlled by ions and their concentrations around the nerve cell. As a nerve action potential propagates along a neuron it goes through several phases as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Graph3">
+	<TEXT ID="Graph3_one">
+		<TEXTVALUE>Continuous generation of spikes one after another results in bursts. Spike bursts are said to be the mechanism of how cells 'in vivo' communicate events. Such spike bursts can be modeled by the Hodgkin-Huxley model.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Graph4">
+	<TEXT ID="Graph4_one">
+		<TEXTVALUE>A typical Hodgkin-Huxley type of action potential generation indicates all the phases as seen in real neurons.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Formulas1">
+	<TEXT ID="Formulas1_one">
+		<TEXTVALUE>The major equation used by Hodgkin-Huxley to mathematically model the nerve action potential is given above. Integration of this equation gives the membrane potential at any given time.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Formulas1_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Formulas2">
+	<TEXT ID="Formulas2_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Formulas3">
+	<TEXT ID="Formulas3_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Formulas4">
+	<TEXT ID="Formulas4_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Formulas5">
+	<TEXT ID="Formulas5_one">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Final">
+	<TEXT ID="Final_one">
+		<TEXTVALUE>Hodgkin-Huxley neuron is one of the first biological neuron model developed.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Final_two">
+		<TEXTVALUE>Alan Lloyd Hodgkin and Andrew Huxley described the model in 1952 to explain the ionic mechanisms underlying the initiation and propagation of action potentials in the squid giant axon. They received the 1963 Nobel Prize in Physiology or Medicine for this work.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>

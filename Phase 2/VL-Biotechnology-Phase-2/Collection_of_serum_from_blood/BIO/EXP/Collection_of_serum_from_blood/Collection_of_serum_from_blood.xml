@@ -1,0 +1,368 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="serumintro">
+	<TEXT ID="serumintro_one">	
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumintro_two">	
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumsyringetaking">
+	<TEXT ID="serumsyringetaking_one">	
+	 <TEXTVALUE>Take a sterile syringe.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumsykotton">
+	<TEXT ID="serumsykotton_one">	
+	 <TEXTVALUE>Wipe the selected area with an alcohol soaked cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumsyinjuctionmidshot01">
+	<TEXT ID="serumsyinjuctionmidshot01_one">	
+	 <TEXTVALUE>Using the sterile syringe, collect 5 ml blood from the vein.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumsyinjuctioncloeup">
+	<TEXT ID="serumsyinjuctioncloeup_two">	
+	 <TEXTVALUE>Take a cotton ball, and hold tightly to stop the blood flow.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumbloodbottle">
+	<TEXT ID="serumbloodbottle_one">	
+	 <TEXTVALUE>Open the cap of a sterile screw cap tube.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="serumbloodbottlehandin">
+	<TEXT ID="serumbloodbottlehandin_two">	
+	 <TEXTVALUE>Transfer the collected blood sample to a fresh screw capped tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumsyringremove">
+	<TEXT ID="serumsyringremove_one">	
+	 <TEXTVALUE>After transferring, cover the tube properly.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumsyringremove_two">	
+	 <TEXTVALUE>Allow the blood sample to clot at room temperature for 1hour.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumsyringremove_three">	
+	 <TEXTVALUE>Once the clot has formed, take out the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumrodtaking">
+	<TEXT ID="serumrodtaking_one">	
+	 <TEXTVALUE>Take a fresh glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumtubeopen">
+	<TEXT ID="serumtubeopen_one">	
+	 <TEXTVALUE>Open the screw capped tube containing the clotted blood sample and with the glass rod, loosen the blood sample from the walls of the container to aid retraction.
+	 </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumrodrelease">
+	<TEXT ID="serumrodrelease_one">	
+	 <TEXTVALUE>Discard the used glass rod properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumfridgeopen">
+	<TEXT ID="serumfridgeopen_one">	
+	 <TEXTVALUE>Transfer the screw capped tube to 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumfridgecloseopen">
+	<TEXT ID="serumfridgecloseopen_one">	
+	 <TEXTVALUE>Leave it there overnight.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumfridgecloseopen_two">	
+	 <TEXTVALUE>Take out the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumcentrefuge">
+	<TEXT ID="serumcentrefuge_one">	
+	 <TEXTVALUE>Open the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumcenfugeopen">
+	<TEXT ID="serumcenfugeopen_one">	
+	 <TEXTVALUE>Place the tube in the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumwater">
+	<TEXT ID="serumwater_one">	
+	 <TEXTVALUE>Take equal volume of water in another tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumwaterin">
+	<TEXT ID="serumwaterin_one">	
+	 <TEXTVALUE>Place the tube to balance the weight of the blood sample.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumcentfugetubein">
+	<TEXT ID="serumcentfugetubein_one">	
+	 <TEXTVALUE>Close the lid of the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumcenfugetime">
+	<TEXT ID="serumcenfugetime_one">	
+	 <TEXTVALUE>Centrifuge at 2000 rpm for 15 min (to sediment the erythrocytes).</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumcenfugetime_two">	
+	 <TEXTVALUE>Without taking the tube, again centrifuge at 3000 rpm for 15 min.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumcentfugeopen02">
+	<TEXT ID="serumcentfugeopen02_one">	
+	 <TEXTVALUE>Take the tube out from the centrifuge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumpippettetaking">
+	<TEXT ID="serumpippettetaking_one">	
+	 <TEXTVALUE>Take a fresh Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumserumopen">
+	<TEXT ID="serumserumopen_one">	
+	 <TEXTVALUE>Using the Pasteur pipette, take out the straw-colored supernatant (which is the serum).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumtubetaking2">
+	<TEXT ID="serumtubetaking2_one">
+	 <TEXTVALUE>Transfer it to a  to a fresh tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumwaterbathtopopen">
+	<TEXT ID="serumwaterbathtopopen_one">
+	 <TEXTVALUE>Place the tube into a water bath which is set at 56°C for 30 minutes .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumwaterbathtubetking">
+	<TEXT ID="serumwaterbathtubetking_one">
+	 <TEXTVALUE>After 30 minutes take out the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumafterbath">
+	<TEXT ID="serumafterbath_one">
+	 <TEXTVALUE>Place the tube in a stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumtext">
+	<TEXT ID="serumtext_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumsrngetaking02">
+	<TEXT ID="serumsrngetaking02_one">
+	 <TEXTVALUE>Take a sterile syringe.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumdipintube">
+	<TEXT ID="serumdipintube_one">
+	 <TEXTVALUE>Draw all the prepared serum into the syringe.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumtubeclose">
+	<TEXT ID="serumtubeclose_one">
+	 <TEXTVALUE>Close the tube with its cap.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumfiltertaking">
+	<TEXT ID="serumfiltertaking_one">
+	 <TEXTVALUE>Take a clean plasma filter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumfiltersetinsrng">
+	<TEXT ID="serumfiltersetinsrng_one">
+	 <TEXTVALUE>Connect the syringe to a plasma filter.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumfiltersetinsrng_two">
+	 <TEXTVALUE>Take a fresh tube.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumfiltersetinsrng_three">
+	 <TEXTVALUE>Push the piston of the syringe down so as to allow the serum flow into the receiver . The filtered serum will be collected into the fresh tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="serumpurifyng">
+	<TEXT ID="serumpurifyng_one">
+	 <TEXTVALUE>Seal the receiver with a cap.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="serumpurifyng_two">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="serumonlybutton">
+	<TEXT ID="serumonlybutton_one">
+	 <TEXTVALUE>Click any of the icon.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<!-- for a long time... -->
+
+<SCENE ID="longintro">
+	<TEXT ID="longintro_one">
+	 <TEXTVALUE>Set up the table with the required materials for the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetaking">
+	<TEXT ID="longpiptetaking_one">
+	 <TEXTVALUE>Take a micropipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpipte1000">
+	<TEXT ID="longpipte1000_one">
+	 <TEXTVALUE>Adjust the value of the micropipette to 1 ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetube">
+	<TEXT ID="longpiptetube_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetubetaken">
+	<TEXT ID="longpiptetubetaken_one">
+	 <TEXTVALUE>Take out the filtered serum containing tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetubeopen">
+	<TEXT ID="longpiptetubeopen_one">
+	 <TEXTVALUE>Take out 1 ml of serum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetubefit">
+	<TEXT ID="longpiptetubefit_one">
+	 <TEXTVALUE>Place the tube back in stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longvialtaking">
+	<TEXT ID="longvialtaking_one">
+	 <TEXTVALUE>Take a fresh vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longvailclosing">
+	<TEXT ID="longvailclosing_one">
+	 <TEXTVALUE>Transfer 1ml of the serum to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longvailremove">
+	<TEXT ID="longvailremove_one">
+	 <TEXTVALUE>Remove the tip of the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpipte1000again">
+	<TEXT ID="longpipte1000again_one">
+	 <TEXTVALUE>Adjust the value of the micropipette to 1 ml.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetube02">
+	<TEXT ID="longpiptetube02_one">
+	 <TEXTVALUE>Insert a fresh tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longglycerolmid">
+	<TEXT ID="longglycerolmid_one">
+	 <TEXTVALUE>Pipette out 1 ml of glycerol.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longvailclosing02">
+	<TEXT ID="longvailclosing02_one">
+	 <TEXTVALUE>Add 1ml of the glycerol to the vial containing serum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longfridgeopen">
+	<TEXT ID="longfridgeopen_one">
+	 <TEXTVALUE>Store at 4°C.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="longfridgeopen_two">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longfridgecloseup">
+	<TEXT ID="longfridgecloseup_one">
+	 <TEXTVALUE>Store at 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<!-- for a short while -->
+
+<SCENE ID="shorttubetaken">
+	<TEXT ID="shorttubetaken_one">
+	 <TEXTVALUE>Take out the tube containing filtered serum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="shortfridge">
+	<TEXT ID="shortfridge_one">
+	 <TEXTVALUE>Store at 4°C.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="shortfridgetubein">
+	<TEXT ID="shortfridgetubein_two">
+	 <TEXTVALUE>Store at 4°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>	
+
+<!-- for Preservative -->
+
+<SCENE ID="longintro4preservative">
+	<TEXT ID="longintro4preservative_one">
+	 <TEXTVALUE>Set up the table with the required materials for the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="longpipte10">
+	<TEXT ID="longpipte10_one">
+	 <TEXTVALUE>Adjust the value of micropipette to 10 micrlitres.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetubetaken11">
+	<TEXT ID="longpiptetubetaken11_one">
+	 <TEXTVALUE>Take out the filtered serum containing tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpiptetubeopen11">
+	<TEXT ID="longpiptetubeopen11_one">
+	 <TEXTVALUE>Take out 10 microlitres of serum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longvailclosing11">
+	<TEXT ID="longvailclosing11_one">
+	 <TEXTVALUE>Transfer 10 microlitres of serum to the vial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longvailremove11">
+	<TEXT ID="longvailremove11_one">
+	 <TEXTVALUE>Discard the tip.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longpipte10again">
+	<TEXT ID="longpipte10again_one">
+	 <TEXTVALUE>Adjust the value of micropipette to 10 micrlitres.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longglycerolmid11">
+	<TEXT ID="longglycerolmid11_one">
+	 <TEXTVALUE>Pipette out 10 microlitres of Merthiolate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longvailclosing022">
+	<TEXT ID="longvailclosing022_one">
+	 <TEXTVALUE>Add it to the vial containing serum.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="longfridgeclsup">
+	<TEXT ID="longfridgeclsup_two">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+</DATA>

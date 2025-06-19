@@ -1,0 +1,1240 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="01PepsinIntro">
+	<TEXT ID="01PepsinIntro_one">
+	<TEXTVALUE>Point the mouse to each requirement of the experiment to know the name/click the continue button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="02PepsinCnctPpett">
+	<TEXT ID="02PepsinCnctPpett_one">
+	<TEXTVALUE>A 10ml pipette is taken from the pipette rack and is inserted into the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="03PepsinOpenPBS">
+	<TEXT ID="03PepsinOpenPBS_one">
+	<TEXTVALUE>The cap of the PBS Buffer bottle is opened and pipette out 10ml of the buffer. Close the bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="04PepsinTakeIgG">
+	<TEXT ID="04PepsinTakeIgG_one">
+	<TEXTVALUE>The centrifuge tube labeled as IgG Antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="05PepsinAdPBStoIgG">
+	<TEXT ID="05PepsinAdPBStoIgG_one">
+	<TEXTVALUE>The cap of the tube is opened and 10ml of the PBS buffer is added to the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="06PepsinBackIgG">
+	<TEXT ID="06PepsinBackIgG_one">
+	<TEXTVALUE>The tube containing PBS buffer is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="07PepsinTakeButterPaper">
+	<TEXT ID="07PepsinTakeButterPaper_one">
+	<TEXTVALUE>A butter paper is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="08PepsinTareTheValue">
+	<TEXT ID="08PepsinTareTheValue_one">
+	<TEXTVALUE>The butter paper is placed on the weighing balance(g) and it is tared.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="09OpenIgGBottle">
+	<TEXT ID="09OpenIgGBottle_one">
+	<TEXTVALUE>The cap of the IgG Antibody bottle is opened and a little amount of antibody is taken using a spatula.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10PepsinAdd0.2gofIgG">
+	<TEXT ID="10PepsinAdd0.2gofIgG_one">
+	<TEXTVALUE>The antibody is added to the butter placed on the weighing balance. 0.2g of antibody is weighed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11PepsinTakeIgGTube">
+	<TEXT ID="11PepsinTakeIgGTube_one">
+	<TEXTVALUE>The tube containing PBS buffer is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="12PepsinAddIgGtoTube">
+	<TEXT ID="12PepsinAddIgGtoTube_one">
+	<TEXTVALUE>The cap of the tube is opened and the IgG Antibody is added into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13PepsinKeepBackIgGTube">
+	<TEXT ID="13PepsinKeepBackIgGTube_one">
+	<TEXTVALUE>The tube containing antibody in PBS buffer is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="14PepsinDIALYSIS">
+	<TEXT ID="14PepsinDIALYSIS_one">
+	<TEXTVALUE>DIALYSIS.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15PepsinTakeForceps">
+	<TEXT ID="15PepsinTakeForceps_one">
+	<TEXTVALUE>A forceps is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="16PepsinTakeDialysis">
+	<TEXT ID="16PepsinTakeDialysis_one">
+	<TEXTVALUE>A small piece of dialysis tubing is taken from the Ethanol Storage Solution using the forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="17PepsinWashDialysis">
+	<TEXT ID="17PepsinWashDialysis_one">
+	<TEXTVALUE>The dialysis tubing is washed using the distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18PepsinBackDistilledWater">
+	<TEXT ID="18PepsinBackDistilledWater_one">
+	<TEXTVALUE>The distilled water  bottle is placed back on the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="19PepsinTakeClamp">
+	<TEXT ID="19PepsinTakeClamp_one">
+	<TEXTVALUE>A clamp is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="20PepsinClampTheDialysisTube">
+	<TEXT ID="20PepsinClampTheDialysisTube_one">
+	<TEXTVALUE>The clamp is inserted on the dialysis tubing at one side.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="21PepsinPlaceDialysisOnTissue">
+	<TEXT ID="21PepsinPlaceDialysisOnTissue_one">
+	<TEXTVALUE>The dialysis tubing is placed over the tissue paper on the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="22PepsinConctPipett">
+	<TEXT ID="22PepsinConctPipett_one">
+	<TEXTVALUE>A 10 ml pipette is inserted to the pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23PepsinTakeIgGTube">
+	<TEXT ID="23PepsinTakeIgGTube_one">
+	<TEXTVALUE>The tube labeled as IgG antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24PepsinTakeIgGSolution">
+	<TEXT ID="24PepsinTakeIgGSolution_one">
+	<TEXTVALUE>The cap of the tube is opened and the IgG antibody in PBS buffer solution is pippeted out using 10 ml pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25PepsinBackIgGTube">
+	<TEXT ID="25PepsinBackIgGTube_one">
+	<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26PepsinTakeDialysisTube">
+	<TEXT ID="26PepsinTakeDialysisTube_one">
+	<TEXTVALUE>The dialysis tubing is taken .</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27PepsinSolutionToDialysis">
+	<TEXT ID="27PepsinSolutionToDialysis_one">
+	<TEXTVALUE> filled using the IgG Antibody-PBS buffer solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28PespsinRemoveAir">
+	<TEXT ID="28PespsinRemoveAir_one">
+	<TEXTVALUE> The air present in the dialysing tube is squeezed out and the clamp is inserted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29PepsinWipeTheTube">
+	<TEXT ID="29PepsinWipeTheTube_one">
+	<TEXTVALUE>The dialysis tubing containing the solution is placed on the tissue paper and it is wiped gently using another tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="30PepsinDialysisInBeaker">
+	<TEXT ID="30PepsinDialysisInBeaker_one">
+	<TEXTVALUE>The dialysis tubing with IgG antibody-PBS buffer solution is placed on the 0.1M sodium acetate Buffer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="31PepsinPlaceTheStirBArInBeaker">
+	<TEXT ID="31PepsinPlaceTheStirBArInBeaker_one">
+	<TEXTVALUE>The magnetic Teflon is also placed in the 0.1M sodium acetate buffer using a forceps.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="32PepsinTakeBeaker">
+	<TEXT ID="32PepsinTakeBeaker_one">
+	<TEXTVALUE>The beaker containing 0.1M Sodium acetate buffer solution and dialysing tubing  is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="33PepsinPlaceInVcCooler">
+	<TEXT ID="33PepsinPlaceInVcCooler_one">
+	<TEXTVALUE>The beaker is placed on the magnetic stirrer which is placed inside the Visicooler.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="34PepsinCloseTheVcCooler">
+	<TEXT ID="34PepsinCloseTheVcCooler_one">
+	<TEXTVALUE>The magnetic stirrer is switched on and it is kept for 3 hours at 4 degree Celsius.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="35PepsinTkeBkerFrmVcCooler">
+	<TEXT ID="35PepsinTkeBkerFrmVcCooler_one">
+	<TEXTVALUE>After 3 hours incubation, the magnetic stirrer is switched off and the beaker containing 0.1 M sodium acetate buffer solution is taken out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="36PepsinTakeDialysis">
+	<TEXT ID="36PepsinTakeDialysis_one">
+	<TEXTVALUE>The beaker is placed back on the bench top and the dialysis tubing containing IgG antibody-PBS buffer solution is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37PepsinOpenTheClamp">
+	<TEXT ID="37PepsinOpenTheClamp_one">
+	<TEXTVALUE>The clamp is taken off from one side of the dialysis tubing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38PepsinRemoveTheClamp">
+	<TEXT ID="38PepsinRemoveTheClamp_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="39PepsinTakePasturePIpett">
+	<TEXT ID="39PepsinTakePasturePIpett_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="40PepsinTakeTheSolution">
+	<TEXT ID="40PepsinTakeTheSolution_one">
+	<TEXTVALUE>The solution from the dialysis tubing is pipetted out using a Pasteur pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="41PepsinTakeDialysiAntiBod">
+	<TEXT ID="41PepsinTakeDialysiAntiBod_one">
+	<TEXTVALUE>The centrifuge tube labeled ad Dialysed Antibody is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42PepsinAddDialysisToAntiBod">
+	<TEXT ID="42PepsinAddDialysisToAntiBod_one">
+	<TEXTVALUE>The cap of the tube is opened and the dialysed IgG antibody-PBS buffer solution is added to it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43PepsinTitle">
+	<TEXT ID="43PepsinTitle_one">
+	<TEXTVALUE>Adjust the pH of the dialysate to 4.5 using Acetic acid.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44Pepsintake25Beaker">
+	<TEXT ID="44Pepsintake25Beaker_one">
+	<TEXTVALUE>A 25ml beaker is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="45PepsinDialysisToBeaker">
+	<TEXT ID="45PepsinDialysisToBeaker_one">
+	<TEXTVALUE>The dialysed solution from the tube is added to the beaker.The beaker is labeled as Dialysed Antibody.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="46PepsinSwitchOnPH">
+	<TEXT ID="46PepsinSwitchOnPH_one">
+	<TEXTVALUE>The pH meter is switched on.The pH value is already calibrated as 7.00. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47PepsinTakeElectrod">
+	<TEXT ID="47PepsinTakeElectrod_one">
+	<TEXTVALUE>The electrode is taken out from the stand and washed with the distilled water( bottom working part).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48PepsinTakeTissue">
+	<TEXT ID="48PepsinTakeTissue_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="49PepsinWipeElectrod">
+	<TEXT ID="49PepsinWipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="50PepsinDipToDialsisAntiBody">
+	<TEXT ID="50PepsinDipToDialsisAntiBody_one">
+	<TEXTVALUE>The electrode (tip portion only)  is dipped into the  beaker containing Dialysed antibody solution. The pH value is changed to 8.00 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51PepsinWashTheElectrod">
+	<TEXT ID="51PepsinWashTheElectrod_one">
+	<TEXTVALUE>The electrode is taken from the beaker and is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52PepsinTakeTissue">
+	<TEXT ID="52PepsinTakeTissue_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="53PepsinWipeElectrod">
+	<TEXT ID="53PepsinWipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="54PepsinReading7">
+	<TEXT ID="54PepsinReading7_one">
+	<TEXTVALUE>The electrode is replaced into the stand. The pH value is again reached to 7.00 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="55PepsinTakeDropper">
+	<TEXT ID="55PepsinTakeDropper_one">
+	<TEXTVALUE>A dropper is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56PepsinTkeAceticAcd">
+	<TEXT ID="56PepsinTkeAceticAcd_one">
+	<TEXTVALUE>Bottle containing Acetic acid is opened. Acetic acid is taken out from the bottle using the dropper and the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57PepsinAddToDialysAntbod">
+	<TEXT ID="57PepsinAddToDialysAntbod_one">
+	<TEXTVALUE>The acetic acid is drop wisely added to the beaker containing Dialysed antibody.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="58PepsinWashElectrod">
+	<TEXT ID="58PepsinWashElectrod_one">
+	<TEXTVALUE>The electrode is taken out from the stand and washed with the distilled water ( bottom working part).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="59PepsinTakeTissue">
+	<TEXT ID="59PepsinTakeTissue_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60PepsinWipeElectrod">
+	<TEXT ID="60PepsinWipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="61PepsinAddToDialysAntbod">
+	<TEXT ID="61PepsinAddToDialysAntbod_one">
+	<TEXTVALUE>The electrode (tip portion only)  is dipped into the  beaker containing Dialysed antibody solution. The pH value is changed to 4.50 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="62PepsinWashElectrod">
+	<TEXT ID="62PepsinWashElectrod_one">
+	<TEXTVALUE>The electrode is taken from the beaker and is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="63PepsinTakeTssue">
+	<TEXT ID="63PepsinTakeTssue_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64PepsinWipeElectrod">
+	<TEXT ID="64PepsinWipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65PepsinBackElectrod">
+	<TEXT ID="65PepsinBackElectrod_one">
+	<TEXTVALUE>The electrode is replaced into the stand. The pH value is again reached to 7.00 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66TakeButtrPaper">
+	<TEXT ID="66TakeButtrPaper_one">
+	<TEXTVALUE>A butter paper is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67PepsinTareTheValue">
+	<TEXT ID="67PepsinTareTheValue_one">
+	<TEXTVALUE>The butter paper is placed on the weighing balance (mg) and it is tared.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="68PepsinOpenAntbodBottle">
+	<TEXT ID="68PepsinOpenAntbodBottle_one">
+	<TEXTVALUE>The cap of the Pepsin bottle is opened and a little amount of Pepsin is taken using a spatula.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69PepsinAdd4gAntibod">
+	<TEXT ID="69PepsinAdd4gAntibod_one">
+	<TEXTVALUE>The Pepsin is added to the butter paper placed on the weighing balance. 4.00 mg of Pepsin is weighed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70PepsinAddToDialsisBody">
+	<TEXT ID="70PepsinAddToDialsisBody_one">
+	<TEXTVALUE>The pepsin is added to the beaker containing dialysed antibody.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71PepsinTake25Beaker">
+	<TEXT ID="71PepsinTake25Beaker_one">
+	<TEXTVALUE>The beaker labeled as Dialysed antibody is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="72PepsinMixDialysis">
+	<TEXT ID="72PepsinMixDialysis_one">
+	<TEXTVALUE>The content in the beaker is properly mixed by shaking.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73PepsinNeepBackBker">
+	<TEXT ID="73PepsinNeepBackBker_one">
+	<TEXTVALUE>The beaker is placed back on the table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="74PepsinCutAluminiumFoil">
+	<TEXT ID="74PepsinCutAluminiumFoil_one">
+	<TEXTVALUE>A piece of aluminium foil is cut from the foil roll.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75PepsinWrapTheBeaker">
+	<TEXT ID="75PepsinWrapTheBeaker_one">
+	<TEXTVALUE>The beaker is closed  using the foil.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76PepsinShowIncubator">
+	<TEXT ID="76PepsinShowIncubator_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77PepsinOpenTheIncubator">
+	<TEXT ID="77PepsinOpenTheIncubator_one">
+	<TEXTVALUE>The door of the incubator is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="78PepsinPlaceTheBeaker">
+	<TEXT ID="78PepsinPlaceTheBeaker_one">
+	<TEXTVALUE>The beaker labeled as Dialysed Antibody is placed in the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79PepsinCloseIncubator">
+	<TEXT ID="79PepsinCloseIncubator_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80PepsinShowClock">
+	<TEXT ID="80PepsinShowClock_one">
+	<TEXTVALUE>The solution in the beaker is incubated for overnight at 370c.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81PepsinOpenIncubator">
+	<TEXT ID="81PepsinOpenIncubator_one">
+	<TEXTVALUE>Next day.The door of the incubator is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="82PepsinTakeBeaker">
+	<TEXT ID="82PepsinTakeBeaker_one">
+	<TEXTVALUE>The beaker is taken out  from the incubator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="83Pepsin3rdTitle">
+	<TEXT ID="83Pepsin3rdTitle_one">
+	<TEXTVALUE>Adjust the pH of supernatant to 7.4.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84PepsinSwitchOnPH">
+	<TEXT ID="84PepsinSwitchOnPH_one">
+	<TEXTVALUE>The pH meter is switched on.The pH value is already calibrated as 7.00.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="85PepsinWashElectrod">
+	<TEXT ID="85PepsinWashElectrod_one">
+	<TEXTVALUE>The electrode is taken out from the stand and washed with the distilled water( bottom working part).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="86PepsinTakeTssue">
+	<TEXT ID="86PepsinTakeTssue_one">
+	<TEXTVALUE>78 A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87PepsinWipeElectrod">
+	<TEXT ID="87PepsinWipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88PepsinElectrodDipAntiBody">
+	<TEXT ID="88PepsinElectrodDipAntiBody_one">
+	<TEXTVALUE>The electrode (tip portion only)  is dipped into the  beaker containing Dialysed antibody solution. The pH value is changed to 4.50 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89PepsinWashElectrod">
+	<TEXT ID="89PepsinWashElectrod_one">
+	<TEXTVALUE>The electrode is taken from the beaker and is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="90PepsinTakeTssue">
+	<TEXT ID="90PepsinTakeTssue_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="91PepsinWipeElectrod">
+	<TEXT ID="91PepsinWipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="92PepsinBackElectrod">
+	<TEXT ID="92PepsinBackElectrod_one">
+	<TEXTVALUE>The electrode is replaced into the stand. The pH value is again reached to 7.00 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="93PepsinTakeDropper">
+	<TEXT ID="93PepsinTakeDropper_one">
+	<TEXTVALUE>A dropper is taken from the rack and the bottle containing 1N sodium hydroxide is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="94PepsinTake1NSodium">
+	<TEXT ID="94PepsinTake1NSodium_one">
+	<TEXTVALUE>1N sodium hydroxide is taken out from the bottle using the dropper and the bottle is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="95PepsinAddToDialssAntBod">
+	<TEXT ID="95PepsinAddToDialssAntBod_one">
+	<TEXTVALUE>1N Sodium hydroxide is drop wisely added to the beaker containing Dialysed antibody.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="96PepsinWashElectrod">
+	<TEXT ID="96PepsinWashElectrod_one">
+	<TEXTVALUE>The electrode is taken out from the stand and washed with the distilled water ( bottom working part).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="97PepsinTakeTssue">
+	<TEXT ID="97PepsinTakeTssue_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="98PepsinwipeElectrod">
+	<TEXT ID="98PepsinwipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="99PepsinDipAntiBod">
+	<TEXT ID="99PepsinDipAntiBod_one">
+	<TEXTVALUE>The electrode (tip portion only)  is dipped into the  beaker containing Dialysed antibody solution. The pH value is changed to 7.40 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="100PepsinWashElectrod">
+	<TEXT ID="100PepsinWashElectrod_one">
+	<TEXTVALUE>The electrode is taken from the beaker and is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="101PespinTakeTssue">
+	<TEXT ID="101PespinTakeTssue_one">
+	<TEXTVALUE>A piece of tissue paper is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="102PepsinWipeElectrod">
+	<TEXT ID="102PepsinWipeElectrod_one">
+	<TEXTVALUE>The electrode is wiped with tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="103PepsinReadng7">
+	<TEXT ID="103PepsinReadng7_one">
+	<TEXTVALUE>The electrode is replaced into the stand. The pH value is again reached to 7.00 on the display.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="104Pepsintake25Beaker">
+	<TEXT ID="104Pepsintake25Beaker_one">
+	<TEXTVALUE>The beaker labeled as Dialysed antibody is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="105PepsinTakeDialysate">
+	<TEXT ID="105PepsinTakeDialysate_one">
+	<TEXTVALUE>The tube labeled as Dialysate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="106PepsinOpenDialysate">
+	<TEXT ID="106PepsinOpenDialysate_one">
+	<TEXTVALUE>The solution from the beaker is added into the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="107PepsinBack25Beaker">
+	<TEXT ID="107PepsinBack25Beaker_one">
+	<TEXTVALUE>The beaker is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="108PepsinOpenWatrBath">
+	<TEXT ID="108PepsinOpenWatrBath_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="109PepsinPlaceTubes">
+	<TEXT ID="109PepsinPlaceTubes_one">
+	<TEXTVALUE>The tube containing dialysate is placed on the centrifuge and is balanced by placing another tube containing water opposite to the dialysate tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="110PepsinCloseTheLid">
+	<TEXT ID="110PepsinCloseTheLid_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="111PepsinCloseWatrBath">
+	<TEXT ID="111PepsinCloseWatrBath_one">
+	<TEXTVALUE>The lid of the centrifuge is placed and is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="112PepsinSetWaterBath">
+	<TEXT ID="112PepsinSetWaterBath_one">
+	<TEXTVALUE>The centrifuge is adjusted to 1000g for15 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="113PepsinOpenWaterBath">
+	<TEXT ID="113PepsinOpenWaterBath_one">
+	<TEXTVALUE>After 15 minutes, centrifuge is opened and the lid is removed</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="114PepsinOpenWatrBathLid">
+	<TEXT ID="114PepsinOpenWatrBathLid_one">
+	<TEXTVALUE>The lid is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="115PepsinTakeTheTube">
+	<TEXT ID="115PepsinTakeTheTube_one">
+	<TEXTVALUE>The tube labeled as Dialysate is taken from the centrifuge. A precipitate is observed in the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="116PepsinPlceTubeOnRack">
+	<TEXT ID="116PepsinPlceTubeOnRack_one">
+	<TEXTVALUE>The tube is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="117PepsinConectPipette">
+	<TEXT ID="117PepsinConectPipette_one">
+	<TEXTVALUE>A 10ml pipette is taken from the rack and inserted into the pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="118PepsinTakeDialysateTube">
+	<TEXT ID="118PepsinTakeDialysateTube_one">
+	<TEXTVALUE>The tube containing Dialysate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="119PepsinOpenDialysate">
+	<TEXT ID="119PepsinOpenDialysate_one">
+	<TEXTVALUE>The cap of the tube is opened and carefully pipetted out the precipitate from the tube.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="120PepsinDiscardSolution">
+	<TEXT ID="120PepsinDiscardSolution_one">
+	<TEXTVALUE>The precipitate is discarded into a waste beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="121PepsinTakeDistilled">
+	<TEXT ID="121PepsinTakeDistilled_one">
+	<TEXTVALUE>The bottle containing distilled water is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="122PesinWashColumn">
+	<TEXT ID="122PesinWashColumn_one">
+	<TEXTVALUE>The chromatographic column is washed with distilled water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="123PepsinBackDistilled">
+	<TEXT ID="123PepsinBackDistilled_one">
+	<TEXTVALUE>After proper washing, the bottle is placed back on the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="124PepsinTakeSlurry">
+	<TEXT ID="124PepsinTakeSlurry_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="125PepsinAddSluryToColumn">
+	<TEXT ID="125PepsinAddSluryToColumn_one">
+	<TEXTVALUE>The Sephacryl S-200 slurry  is transferred into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="126PepsinBackSlurry">
+	<TEXT ID="126PepsinBackSlurry_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="127PepsinTakePBS">
+	<TEXT ID="127PepsinTakePBS_one">
+	<TEXTVALUE>PBS buffer bottle is taken from the lab table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="128PepsinPBStoColumn">
+	<TEXT ID="128PepsinPBStoColumn_one">
+	<TEXTVALUE>The buffer is poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="129PepsinOpenColumn">
+	<TEXT ID="129PepsinOpenColumn_one">
+	<TEXTVALUE>The buffer in the column is removed into a waste beaker by removing the cap .Then the column is recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="130PepsinTakeDialysate">
+	<TEXT ID="130PepsinTakeDialysate_one">
+	<TEXTVALUE>The centrifuge tube containing  Dialysate is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="131PepsinPourDilsateToColumn">
+	<TEXT ID="131PepsinPourDilsateToColumn_one">
+	<TEXTVALUE>The dialysate from the tube is poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="132PepsinTakePBS">
+	<TEXT ID="132PepsinTakePBS_one">
+	<TEXTVALUE>PBS buffer is taken from the bench top.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="133PepsinPBStoColumn">
+	<TEXT ID="133PepsinPBStoColumn_one">
+	<TEXTVALUE>The buffer is again poured into the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="134PepsinBackPBS">
+	<TEXT ID="134PepsinBackPBS_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="135PepsinTkeTubeWithRack">
+	<TEXT ID="135PepsinTkeTubeWithRack_one">
+	<TEXTVALUE>The centrifuge tube labeled as Purified F(ab)2  fragments  is taken.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="136PepsinPlceTbeRackOnColumn">
+	<TEXT ID="136PepsinPlceTbeRackOnColumn_one">
+	<TEXTVALUE>The tube is placed under the chromatographic column and its cap is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="137PepsinOpenColumn">
+	<TEXT ID="137PepsinOpenColumn_one">
+	<TEXTVALUE>The cap of the column is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="138PepsinCloseTheColumn">
+	<TEXT ID="138PepsinCloseTheColumn_one">
+	<TEXTVALUE>The solution is collected in the tube. After that the column is recapped.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="139PepsinTkePurifidSample">
+	<TEXT ID="139PepsinTkePurifidSample_one">
+	<TEXTVALUE>The centrifuge tube is then closed and placed it back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="140PepsinPlacePurfidSample">
+	<TEXT ID="140PepsinPlacePurfidSample_one">
+	<TEXTVALUE></TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="141PepsinTakeMicroPptte">
+	<TEXT ID="141PepsinTakeMicroPptte_one">
+	<TEXTVALUE>A 1000 microlitre pipette is taken from the pipette stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="142PepsinShowValue">
+	<TEXT ID="142PepsinShowValue_one">
+	<TEXTVALUE>Adjust its volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="143PepsinInsertTip">
+	<TEXT ID="143PepsinInsertTip_one">
+	<TEXTVALUE>A fresh tip is inserted into the pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="144PepsinTakePBS">
+	<TEXT ID="144PepsinTakePBS_one">
+	<TEXTVALUE>1000 microlitre of PBS buffer is pippeted out from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="145PepsinTakeBCuvette">
+	<TEXT ID="145PepsinTakeBCuvette_one">
+	<TEXTVALUE>A cuvette for blank (labeled as B) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="146PepsinAddPBStoCuvette">
+	<TEXT ID="146PepsinAddPBStoCuvette_one">
+	<TEXTVALUE>1000 microlitre of PBS buffer is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="147PepsinBackTheCuvette">
+	<TEXT ID="147PepsinBackTheCuvette_one">
+	<TEXTVALUE>The cuvette B is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="148PepsinTabePBS">
+	<TEXT ID="148PepsinTabePBS_one">
+	<TEXTVALUE>Again 1000 microlitre of PBS buffer is taken from the beaker.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="149PepsinTake2ndCuvette">
+	<TEXT ID="149PepsinTake2ndCuvette_one">
+	<TEXTVALUE>Another B labeled cuvette (for Blank) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="150PepsinAddPBS2Cuvette">
+	<TEXT ID="150PepsinAddPBS2Cuvette_one">
+	<TEXTVALUE>1000 microlitre of PBS buffer is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="151PepsinBackPBS">
+	<TEXT ID="151PepsinBackPBS_one">
+	<TEXTVALUE>The cuvette is placed back on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="152PepsinOpenUV">
+	<TEXT ID="152PepsinOpenUV_one">
+	<TEXTVALUE>The lid of spectrophotometer is opened.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="153PepsinTakeCuvette">
+	<TEXT ID="153PepsinTakeCuvette_one">
+	<TEXTVALUE>One of the B labeled cuvette is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="154PepsinWipeTheCuvette">
+	<TEXT ID="154PepsinWipeTheCuvette_one">
+	<TEXTVALUE>The cuvette is properly wiped using a tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="155PepsinPlaceCuvetteInUV">
+	<TEXT ID="155PepsinPlaceCuvetteInUV_one">
+	<TEXTVALUE>After that the cuvette is placed in one of the slit in the spectrophotometer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="156pepsinTake2ndCuvette">
+	<TEXT ID="156pepsinTake2ndCuvette_one">
+	<TEXTVALUE>The second cuvette labeled as B is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="157PepsinWipeTheCuvette">
+	<TEXT ID="157PepsinWipeTheCuvette_one">
+	<TEXTVALUE>The cuvette is wiped properly using a tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="158PepsinPlacetCuvetteInUV">
+	<TEXT ID="158PepsinPlacetCuvetteInUV_one">
+	<TEXTVALUE>The second cuvette is placed in the other slit in the spectrophotometer and the lid is closed.spectrophotometer starts to work on pressing the enter button.This is the graph indicating the baseline which is observed on the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="159PepsinOpenUV">
+	<TEXT ID="159PepsinOpenUV_one">
+	<TEXTVALUE>The lid of the spectrophotometer is opened and one of the cuvette is taken out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="160PepsinPlaceCuvetteRack">
+	<TEXT ID="160PepsinPlaceCuvetteRack_one">
+	<TEXTVALUE>The cuvette labeled as B is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="161PepsinTakeMicrPipette">
+	<TEXT ID="161PepsinTakeMicrPipette_one">
+	<TEXTVALUE>A 1000 microlitre pipette is taken from the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="162PepsinShowValue">
+	<TEXT ID="162PepsinShowValue_one">
+	<TEXTVALUE>Adjust its volume to 1000 microlitre.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="163PepsinInsertTip">
+	<TEXT ID="163PepsinInsertTip_one">
+	<TEXTVALUE>A fresh tip is inserted into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="164PepsinTakePurfiedSample">
+	<TEXT ID="164PepsinTakePurfiedSample_one">
+	<TEXTVALUE>The tube labeled as  Purified F(ab)2  fragments  is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="165PepsinTakeSample">
+	<TEXT ID="165PepsinTakeSample_one">
+	<TEXTVALUE>1000 microlitre of sample is pipetted out from it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="166PepsinTakeTCuvette">
+	<TEXT ID="166PepsinTakeTCuvette_one">
+	<TEXTVALUE>The cuvette labeled as T (Test cuvette) is taken from the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="167PepsinAddDialysisToCuvette">
+	<TEXT ID="167PepsinAddDialysisToCuvette_one">
+	<TEXTVALUE>The Purified F(ab)2  fragments  is transferred to the cuvette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="168PepsinWipeTheCuvette">
+	<TEXT ID="168PepsinWipeTheCuvette_one">
+	<TEXTVALUE>The cuvette is wiped properly using the tissue paper.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="169PepsinPlaceCuvetteInUV">
+	<TEXT ID="169PepsinPlaceCuvetteInUV_one">
+	<TEXTVALUE>The T labeled cuvette is placed in the spectrophotometer and is closed.The spectrophotometer starts to work on pressing the enter button.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="170PepsinUVGraph">
+	<TEXT ID="170PepsinUVGraph_one">
+	<TEXTVALUE>The resultant graph is observed on the monitor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="171PepsinConctPipette">
+	<TEXT ID="171PepsinConctPipette_one">
+	<TEXTVALUE>A 10 ml pipette is taken from the stand and  is inserted into a  pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="172PepsinOpenGlysrol">
+	<TEXT ID="172PepsinOpenGlysrol_one">
+	<TEXTVALUE>The cap of the 50% glycerol bottle is opened and 5 ml of the glycerol is pippeted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="173PepsinTakeCrayoVial">
+	<TEXT ID="173PepsinTakeCrayoVial_one">
+	<TEXTVALUE>A cryovial is taken from the cryobox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="174PepsinGlyserol2CryoVial">
+	<TEXT ID="174PepsinGlyserol2CryoVial_one">
+	<TEXTVALUE>5 ml of 50% glycerol is transferred to the cryovial.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="175PepsinBackCrayoVial">
+	<TEXT ID="175PepsinBackCrayoVial_one">
+	<TEXTVALUE>The cryovial is replaced on the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="176PepsinConctPipette">
+	<TEXT ID="176PepsinConctPipette_one">
+	<TEXTVALUE>A new 10ml pipette is taken from the rack and inserted into a pipette pump.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="177PepsinTakePSample">
+	<TEXT ID="177PepsinTakePSample_one">
+	<TEXTVALUE>The tube containing Purified F(ab)2  fragments    is taken from the  rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="178PepsinTakeEntireSample">
+	<TEXT ID="178PepsinTakeEntireSample_one">
+	<TEXTVALUE>The cap of the tube is opened and 5 ml of Purified F(ab)2   fragments solution is pipetted out.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="179PepsinBackTube">
+	<TEXT ID="179PepsinBackTube_one">
+	<TEXTVALUE>The tube is replaced on the rack.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="180PepsinTakeCrayoVial">
+	<TEXT ID="180PepsinTakeCrayoVial_one">
+	<TEXTVALUE>The cryovial is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="181PepsinAddsample">
+	<TEXT ID="181PepsinAddsample_one">
+	<TEXTVALUE>The cap of the vial is opened and  pour the solution into it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="182PepsinBackCrayoViaL">
+	<TEXT ID="182PepsinBackCrayoViaL_one">
+	<TEXTVALUE>The cryovial is replaced on the cryobox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="183PepsinCutParaFilm">
+	<TEXT ID="183PepsinCutParaFilm_one">
+	<TEXTVALUE>A piece of parafilm is cut from the parafilm roll.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="184PepsinTakeParaFilm">
+	<TEXT ID="184PepsinTakeParaFilm_one">
+	<TEXTVALUE>The outer cover is removed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="185PepsinTakeCrayoVial">
+	<TEXT ID="185PepsinTakeCrayoVial_one">
+	<TEXTVALUE>The cryovial is taken from the box.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="186PepsinSealTheTube">
+	<TEXT ID="186PepsinSealTheTube_one">
+	<TEXTVALUE>The vial is wrapped with parafilm properly.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="187PepsinTakeCrayoBox">
+	<TEXT ID="187PepsinTakeCrayoBox_one">
+	<TEXTVALUE>The wrapped cryovial which contain the sample is placed on the cryobox.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="188PepsinPlaceCryoInFreezer">
+	<TEXT ID="188PepsinPlaceCryoInFreezer_one">
+	<TEXTVALUE>The -20 degree Freezer is opened and the cryobox with vial is kept in the freezer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="189PepsinCloseFreezer">
+	<TEXT ID="189PepsinCloseFreezer_one">
+	<TEXTVALUE>The door of the freezer is closed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

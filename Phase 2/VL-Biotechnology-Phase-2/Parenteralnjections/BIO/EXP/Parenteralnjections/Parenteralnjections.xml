@@ -1,0 +1,417 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+<SCENE ID="leg close">
+	<TEXT ID="leg close_one">
+		<TEXTVALUE>Click any of the icon to start the experiment</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<!-- INTRAMUSCULAR INJECTION OF MOUSE  -->
+<SCENE ID="TakeSyringeFromCover">
+	<TEXT ID="TakeSyringeFromCover_one">
+		<TEXTVALUE>Take out the disposable syringe from its packet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeInjuctiveInSyrinch">
+	<TEXT ID="TakeInjuctiveInSyrinch_one">
+		<TEXTVALUE>Fill 1-ml syringe with injectate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Syringe">
+	<TEXT ID="Syringe_one">
+		<TEXTVALUE>Remove the air bubbles in the syringe as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="AlcoholSwab">
+	<TEXT ID="AlcoholSwab_one">
+		<TEXTVALUE>Take 70% ethanol on a gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeMouse">
+	<TEXT ID="TakeMouse_one">
+		<TEXTVALUE>Take out the mouse from its cage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInHand">
+	<TEXT ID="MouseInHand_two">
+		<TEXTVALUE>Hold the tail of the mouse using left hand and pick the mouse by holding its neck with the right hand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInHand2">
+	<TEXT ID="MouseInHand2_one">
+		<TEXTVALUE>Keep the mouse straight in the hand holding its neck tightly.</TEXTVALUE>
+	</TEXT>	
+</SCENE>
+<SCENE ID="RubWithCotton">
+	<TEXT ID="RubWithCotton_one">
+		<TEXTVALUE>Swab the heavy musculature of its upper thigh using gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeInjection">
+	<TEXT ID="TakeInjection_one">
+		<TEXTVALUE>Now insert the needle slowly.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="TakeInjection_two">
+		<TEXTVALUE>Swab the injected area once again using the sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseReturnToCage">
+	<TEXT ID="MouseReturnToCage_one">
+		<TEXTVALUE>Put back the mouse into its cage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<!-- INTRADERMAL INJECTION:  -->
+
+<SCENE ID="Lamianar21">
+	<TEXT ID="Lamianar21_one">
+		<TEXTVALUE>Take Anesthesia chamber,Isoflurane,Injectate,Ethanol,Disposable syringe and Clippers to conduct the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="OpenAnestheticChamber">
+	<TEXT ID="OpenAnestheticChamber_one">
+		<TEXTVALUE>Open the lid of the anesthesia chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SpreadCottonInChamber">
+	<TEXT ID="SpreadCottonInChamber_one">
+		<TEXTVALUE>Place some gauze sponge on the chamber as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Isoflurane">
+	<TEXT ID="Isoflurane_one">
+		<TEXTVALUE>Take few drops of Isoflurane.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="AnestheticChamberIsoflurane">
+	<TEXT ID="AnestheticChamberIsoflurane_one">
+		<TEXTVALUE>Drop it into the top of the sponge in the chamber.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="AnestheticChamberIsoflurane_two">
+		<TEXTVALUE>Keep a grid on top of the sponge as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CloseChamber">
+	<TEXT ID="CloseChamber_one">
+		<TEXTVALUE>Close the lid of the chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SpreadGasInChamber">
+	<TEXT ID="SpreadGasInChamber_one">
+		<TEXTVALUE>Allow the isoflurane to spread all over the chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeMouse1">
+	<TEXT ID="TakeMouse1_one">
+		<TEXTVALUE>Pick a mouse from its cage as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInChamber">
+	<TEXT ID="MouseInChamber_one">
+		<TEXTVALUE>Put the mouse into the chamber and close its lid.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInChamber2">
+	<TEXT ID="MouseInChamber2_one">
+		<TEXTVALUE>After 10 minutes, we can observe that the mouse faints.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeMouseFromChamber">
+	<TEXT ID="TakeMouseFromChamber_one">
+		<TEXTVALUE>Pick the mouse from the chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseOnTheLaminar">
+	<TEXT ID="MouseOnTheLaminar_one">
+		<TEXTVALUE>Now, restrain the animal on a table.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ClipperToRemoveHair">
+	<TEXT ID="ClipperToRemoveHair_one">
+		<TEXTVALUE>Use clippers to remove hair from an area on the back</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Ethanol">
+	<TEXT ID="Ethanol_one">
+		<TEXTVALUE>Put 70% ethanol on a gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="AlcoholSwab1">
+	<TEXT ID="AlcoholSwab1_one">
+		<TEXTVALUE>Now, swab the hair removed area with the same gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeInjuctiveInSyrinch1">
+	<TEXT ID="TakeInjuctiveInSyrinch1_one">
+		<TEXTVALUE>Fill the syringe with injectate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Injection1">
+	<TEXT ID="Injection1_one">
+		<TEXTVALUE>Pull the skin taut with one hand and insert the needle, bevel up and at a shallow angle, just under the superficial layer of epidermis.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Injection1_three">
+		<TEXTVALUE>Swab the injected area once again with gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInOxygenChamber">
+	<TEXT ID="MouseInOxygenChamber_one">
+		<TEXTVALUE>Put the mouse in an oxygen chamber.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="MouseInOxygenChamber_two">
+		<TEXTVALUE>After sometime, mouse will get back to its conscious state.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInOxygenChamber2">
+	<TEXT ID="MouseInOxygenChamber2_two">
+		<TEXTVALUE>Now, take out the mouse from the oxygen chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<!-- SUBCUTANEOUS INJECTION OF MOUSE  -->
+
+<SCENE ID="SubcutaneousInjectionCover">
+	<TEXT ID="SubcutaneousInjectionCover_one">
+		<TEXTVALUE>Take out the disposable syringe from its packet.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SubcutaneousInjectionTakeInjuctiveInSyrinch">
+	<TEXT ID="SubcutaneousInjectionTakeInjuctiveInSyrinch_one">
+		<TEXTVALUE>Fill 1-ml syringe with injectate.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="SubcutaneousInjectionSyringe">
+	<TEXT ID="SubcutaneousInjectionSyringe_one">
+		<TEXTVALUE>Remove the air bubbles in the syringe as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SubcutaneousInjectionAlcoholSwab">
+	<TEXT ID="SubcutaneousInjectionAlcoholSwab_one">
+		<TEXTVALUE>Take 70% ethanol on a gauze sponge</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SubcutaneousInjectionTakeMouse">
+	<TEXT ID="SubcutaneousInjectionTakeMouse_one">
+		<TEXTVALUE>Take out the mouse from its cage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SubcutaneousInjectionMouseTake">
+	<TEXT ID="SubcutaneousInjectionMouseTake_one">
+		<TEXTVALUE>Pick the mouse by tightly holding its neck with the right hand and then keeping its tail on the small finger.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SubcutaneousInjectionRubb">
+	<TEXT ID="SubcutaneousInjectionRubb_one">
+		<TEXTVALUE>Insert the needle under the skin of the interscapular area tented by the restraining thumb and forefinger.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="SubcutaneousInjectionRubb_two">
+		<TEXTVALUE>Swab the injected area with gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SubcutaneousInjectionPlayBack">
+	<TEXT ID="SubcutaneousInjectionPlayBack_one">
+		<TEXTVALUE>Put back the mouse in its cage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<!--  INTRAVENOUS INJECTIONS:   -->
+
+<SCENE ID="MouseInRestrainer">
+	<TEXT ID="MouseInRestrainer_one">
+		<TEXTVALUE>Place the mouse in a restrainer.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="MouseInRestrainer_two">
+		<TEXTVALUE>Close the restrainer to tighten the mouse as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Injection11">
+	<TEXT ID="Injection11_one">
+		<TEXTVALUE>Dip the tip of the tail of the mouse into a beaker contains warm water.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Injection11_two">
+		<TEXTVALUE>Hold the tail of the mouse and swab the tail with 70% ethanol on a gauze sponge.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Injection11_three">
+		<TEXTVALUE>Now, insert the needle parallel to the vein 2 to 4 mm into the lumen.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Injection22">
+	<TEXT ID="Injection22_one">
+		<TEXTVALUE>Swab the tail with 70% ethanol on a gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>	
+
+<!--  INTRAPERITONEAL INJECTION:   -->
+<SCENE ID="Lamianar1">
+	<TEXT ID="Lamianar1_one">
+		<TEXTVALUE>Take Ethanol, Disposable syringe, Injectate to conduct the experiment. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInHand1">
+	<TEXT ID="MouseInHand1_one">
+		<TEXTVALUE>Hold the tail of the mouse using left hand.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="MouseInHand1_two">
+		<TEXTVALUE>Now, pick the mouse by holding its neck with the right hand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseInHand22">
+	<TEXT ID="MouseInHand22_one">
+		<TEXTVALUE>Hold the mouse tightly in the right hand, exposing the animal's abdomen, tilting the head downward as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="MouseInHand22_two">
+		<TEXTVALUE>Swab the lower quadrant of the abdomen using a gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="mouseinject">
+	<TEXT ID="mouseinject_one">
+		<TEXTVALUE>Insert needle into the lower left or right quadrant of the abdomen, avoiding the abdominal midline. </TEXTVALUE>
+	</TEXT>
+	<TEXT ID="mouseinject_two">
+		<TEXTVALUE>Swab the abdomen once again.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="mousereturntocage1">
+	<TEXT ID="mousereturntocage1_one">
+		<TEXTVALUE>Put back the mouse in its cage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<!--  FOOTPAD INJECTION:   -->
+
+<SCENE ID="MouseInHand21">
+	<TEXT ID="MouseInHand21_one">
+		<TEXTVALUE>Swab the left footpad of the mouse using a gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="mouseinject1">
+	<TEXT ID="mouseinject1_one">
+		<TEXTVALUE>Spread the toes of one the swabbed foot and introduce the needle into the soft tissue pad of the plantar surface from the ventral side.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="mouseinjectwide">
+	<TEXT ID="mouseinjectwide_one">
+		<TEXTVALUE>Apply direct pressure following withdrawal of needle.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="mouseinjectwide_two">
+		<TEXTVALUE>Swab the injected area once more using gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="MouseRatreturntoCage">
+	<TEXT ID="MouseRatreturntoCage_one">
+		<TEXTVALUE>Put back the mouse in its cage.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<!--  INTRATHYMIC INJECTION OF THE MOUSE:    -->
+
+<SCENE ID="Lamianar12">
+	<TEXT ID="Lamianar12_one">
+		<TEXTVALUE>Take Anesthesia chamber,Iris scissor,Scalpel,Isoflurane,Disposable syringe and Ethanol to conduct the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SpreadCottoninchamber1">
+	<TEXT ID="SpreadCottoninchamber1_one">
+		<TEXTVALUE>Place some gauze sponge on the chamber as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Knottherat">
+	<TEXT ID="Knottherat_one">
+		<TEXTVALUE>Immobilize in dorsal recumbency on a surgical board as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="pourethanol">
+	<TEXT ID="pourethanol_one">
+		<TEXTVALUE>Take 70% ethanol on a gauze sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Rubbingethanolinrat">
+	<TEXT ID="Rubbingethanolinrat_one">
+		<TEXTVALUE>Swab the chest area with the sponge.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakingScalpel">
+	<TEXT ID="TakingScalpel_one">
+		<TEXTVALUE>Take a scalpel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="tearchest">
+	<TEXT ID="tearchest_one">
+		<TEXTVALUE>Make a 1-cm midline incision with scalpel and blade at the thoracic inlet ; at the junction of the lower cervical and upper thoracic regions.
+		</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="takingscissor">
+	<TEXT ID="takingscissor_one">
+		<TEXTVALUE>Take an iris scissor.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CuttingChest">
+	<TEXT ID="CuttingChest_one">
+		<TEXTVALUE>Now, longitudinally bisect the upper one-third of the sternum</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TakeSyringeFromCover1">
+	<TEXT ID="TakeSyringeFromCover1_one">
+		<TEXTVALUE>Fill syringe with injectate and remove air bubbles.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Chestopenwithforcep">
+	<TEXT ID="Chestopenwithforcep_one">
+		<TEXTVALUE>Expose the thymus using forceps as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Chestopenwithforcep_two">
+		<TEXTVALUE>Insert needle into the parenchyma of the thymus and inject.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Chestopenwithforcep_three">
+		<TEXTVALUE>Repeat the same for the other side.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Chestopenwithforcep_four">
+		<TEXTVALUE>Now, close wound with wound clips.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="rattooxychamber">
+	<TEXT ID="rattooxychamber_one">
+		<TEXTVALUE>Put the mouse in an oxygen chamber.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="rattooxychamber_two">
+		<TEXTVALUE>After sometime, mouse will get back to its conscious state.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="rattakefromoxychamber">
+	<TEXT ID="rattakefromoxychamber_one">
+		<TEXTVALUE>Now, take out the mouse from the oxygen chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

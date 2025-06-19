@@ -1,0 +1,316 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+ExtractionIntro1
+<SCENE ID="ExtractionIntro1">
+	<TEXT ID="ExtractionIntro1_one">
+	 <TEXTVALUE>10 grams of dry spinach leaves were weighed. (Any stems and veins were removed from the leaves before weighing).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ExtractionIntro">
+	<TEXT ID="ExtractionIntro_one">
+	<TEXTVALUE>Place them in a mortar.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ExtractionMixture">
+	<TEXT ID="ExtractionMixture_one">
+		<TEXTVALUE>Prepare 10 mL of a mixture of solvents viz. acetone and hexane, in the ratio 50:50 in a measuring flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionMortar">
+	<TEXT ID="ExtractionMortar_one">
+		<TEXTVALUE>The mixture of solvents is poured in small lots into the mortar and the spinach leaves are crushed well till it becomes a nice paste.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="ExtractionTransfermixture">
+	<TEXT ID="ExtractionTransfermixture_one">
+		<TEXTVALUE>Take a 50 ml clean conical flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionTransfermixture_two">
+		<TEXTVALUE>Place a filter funnel on the mouth of the flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionTransfermixture_three">
+		<TEXTVALUE>Plug in a small piece of cotton as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionTransfermixture_four">
+		<TEXTVALUE>Pour the paste into the conical flask through the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="ExtractionSodSulphide">
+	<TEXT ID="ExtractionSodSulphide_one">
+		<TEXTVALUE>The dark green filtrate will contain the crude mixture of plant pigments.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionSodSulphide_two">
+		<TEXTVALUE>Now remove the filter funnel.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionSodSulphide_three">
+		<TEXTVALUE>Add about 5gm of Anhydrous Sodium Sulfate into the flask using a spatula and swirl it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="ExtractionTansferExtract">
+	<TEXT ID="ExtractionTansferExtract_one">
+		<TEXTVALUE>The Anhydrous Sodium Sulfate will absorb the traces of water and settle down at the bottom of the flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionTansferExtract_two">
+		<TEXTVALUE>Take a fresh conical flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionTansferExtract_three">
+		<TEXTVALUE>A funnel with a cotton plug was placed on the mouth of the flask as shown earlier.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionTansferExtract_four">
+		<TEXTVALUE>The crude extract is poured into the flask through the funnel so that the hydrated sodium sulfate will be filtered off.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+
+<SCENE ID="Extractionaddsilica">
+   <TEXT ID="Extractionaddsilica_one">
+		<TEXTVALUE>Now remove the funnel.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Extractionaddsilica_two">
+		<TEXTVALUE>About 3g of silica gel (for column chromatography, 60-120 mesh) was added to the flask so that the crude extract is adsorbed on the silica gel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="ExtractionHairdry">
+	<TEXT ID="ExtractionHairdry_one">
+		<TEXTVALUE>The traces of solvent remaining in the flask are removed gently using a hair dryer to make the material free-flowing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionButterPaper">
+	<TEXT ID="ExtractionButterPaper_one">
+		<TEXTVALUE>Take a weighing paper.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionButterPaper_two">
+		<TEXTVALUE>The silica to which the material is adsorbed is transferred into it.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="ExtractionColumnSetup">
+	<TEXT ID="ExtractionColumnSetup_one">
+		<TEXTVALUE>Take a column; plug in a small piece of cotton.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionColumnSetup_two">
+		<TEXTVALUE>Use a wood applicator to tamp down the cotton.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionColumnSetup_three">
+		<TEXTVALUE>The column is clamped to a stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Extractionprepareslurry">
+	<TEXT ID="Extractionprepareslurry_one">
+		<TEXTVALUE>About 25 g of fresh silica gel (for column chromatography, 60-120 mesh) was taken in a beaker.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Extractionprepareslurry_two">
+		<TEXTVALUE>Add 100mL of hexane into the beaker containing silica gel, to make it slurry.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Extractionprepareslurry_three">
+		<TEXTVALUE>Stir it well using a glass rod.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionCrudeExttoColumn">
+	<TEXT ID="ExtractionCrudeExttoColumn_one">
+		<TEXTVALUE>The slurry is now poured into the column.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="ExtractionCrudeExttoColumn_two">
+		<TEXTVALUE>Now the crude pigment adsorbed on silica gel is slowly added to the top of the column.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+
+
+<SCENE ID="ExtractionPourHexane">
+	<TEXT ID="ExtractionPourHexane_one">
+		<TEXTVALUE>About 500 mL of hexane is added slowly from the top of the column in lots so that the non-polar beta-carotene which is soluble in hexane will dissolve and start moving down along with hexane.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="ExtractionPourHexane_two">
+		<TEXTVALUE>The solvent will now flow out through the stop cock, leaving a uniform packing of silica gel inside the column. Care should be taken to close the stop cock just before the level of solvent in the column falls below the silica layer (If  the silica gel in the column dries up, the efficiency of the column will be affected).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Extractiongraph">
+	<TEXT ID="Extractiongraph_one">
+		<TEXTVALUE>The dissolved beta-carotene will move down the column as a yellow band. Elution with hexane is continued till this band reaches the bottom of the column.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Extractiongraph_two">
+		<TEXTVALUE>Turn off the stop cock when the yellow colour layer reaches at the bottom of the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionOrangePigments">
+	<TEXT ID="ExtractionOrangePigments_one">
+		<TEXTVALUE>Another conical flask is placed below the column and the fraction of hexane containing the yellow colour pigment is collected. Elution is continued till the yellow band of beta-carotene elutes out completely. Close the stop cock and replace the conical flask at the bottom with a fresh one.</TEXTVALUE>
+	</TEXT>
+		
+</SCENE>
+
+
+<SCENE ID="ExtractionPourAcetone">   
+	<TEXT ID="ExtractionPourAcetone_one">
+		<TEXTVALUE>Now take about 500 mL of acetone in a conical flask . Pour it slowly into the column and turn on the stop cock.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionPourAcetone_two">
+		<TEXTVALUE>Now acetone will move down the column and will carry the dissolved chlorophyll along with it as a green band. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="Extractiongraph2">
+	<TEXT ID="Extractiongraph2_one">
+		<TEXTVALUE>Now acetone will move down the column and will carry the dissolved chlorophyll along with it as a green band. </TEXTVALUE>
+	</TEXT>
+		<TEXT ID="Extractiongraph2_two">
+		<TEXTVALUE>Close the stop cock when the green colour band reaches at the bottom of the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="ExtractionGreenpigments">
+	<TEXT ID="ExtractionGreenpigments_one">
+		<TEXTVALUE>Replace the conical flask with a fresh one and now turn on the stop cock again. Continue elution with acetone till the green band completely moves out of the column.
+</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="ExtractionGreenpigments_two">
+		<TEXTVALUE>Stop elution when there is no more green band left in the column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="Extractionpigmentstransfer">
+	<TEXT ID="Extractionpigmentstransfer_one">
+		<TEXTVALUE>Take a round bottom flask (RB flask).</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="Extractionpigmentstransfer_two">
+		<TEXTVALUE>Pour the contents of the conical flask containing beta-carotene into the RB flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionRotavapor">
+	<TEXT ID="ExtractionRotavapor_one">
+		<TEXTVALUE>The solvent hexane from this RB Flask is now removed using a Rotary Evaporator; For this, the RB flask is connected to the holder of the rotary evaporator as shown.</TEXTVALUE>
+	</TEXT>
+		
+</SCENE>
+
+<SCENE ID="ExtractionRotavapor2">
+	<TEXT ID="ExtractionRotavapor2_one">
+		<TEXTVALUE>The solvent hexane from this RB Flask is now removed using a Rotary Evaporator; For this, the RB flask is connected to the holder of the rotary evaporator as shown.</TEXTVALUE>
+	</TEXT>
+		
+</SCENE>
+
+<SCENE ID="ExtractionRotavapor3">
+	<TEXT ID="ExtractionRotavapor3_one">
+		<TEXTVALUE>Slowly bring the flask down into contact with the heating water bath.</TEXTVALUE>
+	</TEXT>
+	
+		
+</SCENE>
+
+<SCENE ID="ExtractionRotavapor4">
+	<TEXT ID="ExtractionRotavapor4_one">
+		<TEXTVALUE>Turn on the rotary evaporator; the flask starts rotating within the heating bath.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionRotavapor4_two">
+		<TEXTVALUE>After sometime, we can see that the hexane from the RB flask is collected in the receiving flask connected to the condenser of the rotary evaporator, leaving behind a yellowish-orange powder in the RB flask in the heating bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionRotavapor5">
+	<TEXT ID="ExtractionRotavapor5_one">
+		<TEXTVALUE>After sometime, we can see that the hexane from the RB flask is collected in the receiving flask connected to the condenser of the rotary evaporator, leaving behind a yellowish-orange powder in the RB flask in the heating bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Extractionorangedry">
+	<TEXT ID="Extractionorangedry_one">
+		<TEXTVALUE>The yellowish-orange powder is transferred carefully into a watch glass.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Extractionpigmentstransfer2">
+	<TEXT ID="Extractionpigmentstransfer2_one">
+		<TEXTVALUE>Repeat the same procedure for green solvent as well. Take a round bottom flask (RB flask).</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="Extractionpigmentstransfer2_two">
+		<TEXTVALUE>Pour the green acetone fraction containing chlorophyll into the RB flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionRotavaporA">
+	<TEXT ID="ExtractionRotavaporA_one">
+		<TEXTVALUE>Keep it in a Rotary Evaporator; fix the RB flask in the holder as shown.</TEXTVALUE>
+	</TEXT>
+		
+</SCENE>
+
+<SCENE ID="ExtractionRotavaporA2">
+	<TEXT ID="ExtractionRotavaporA2_one">
+		<TEXTVALUE>Keep it in a Rotary Evaporator; fix the RB flask in the holder as shown.</TEXTVALUE>
+	</TEXT>
+		
+</SCENE>
+
+<SCENE ID="ExtractionRotavaporA3">
+	<TEXT ID="ExtractionRotavaporA3_one">
+		<TEXTVALUE>Slowly bring the flask down into the heating bath.</TEXTVALUE>
+	</TEXT>
+	
+		
+</SCENE>
+
+<SCENE ID="ExtractionRotavaporA4">
+	<TEXT ID="ExtractionRotavaporA4_one">
+		<TEXTVALUE>Turn on the rotary evaporator; the flask starts rotating within the heating bath.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionRotavaporA4_two">
+		<TEXTVALUE>After sometime, acetone will evaporate and gets collected in the receiving flask connected to the condenser of the rotary evaporator. A green  powder is left in the RB flask in the heating bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="ExtractionRotavaporA5">
+	<TEXT ID="ExtractionRotavaporA5_one">
+		<TEXTVALUE>After sometime, acetone will evaporate and gets collected in the receiving flask connected to the condenser of the rotary evaporator. A green  powder is left in the RB flask in the heating bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="ExtractionGreendry">
+	<TEXT ID="ExtractionGreendry_one">
+		<TEXTVALUE>Carefully transfer this green powder into a watch glass.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionGreendry_two">
+		<TEXTVALUE>Here, the yellowish-orange powder is beta-carotene and green is Chlorophyll.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="ExtractionGreendry_three">
+		<TEXTVALUE>The yellowish-orange pigment beta-carotene is soluble in hexane whereas the green pigment chlorophyll is soluble in acetone. Therefore these pigments can be eluted successfully by the column chromatography of their crude extract with these solvents in a sequential manner.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+</DATA>
