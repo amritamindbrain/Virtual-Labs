@@ -2,9 +2,9 @@
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amrita Virtual Labs Portal — Broad Areas, Research &amp; Evaluation</title>
-  <meta name="description" content="Official showcase portal for Amrita Vishwa Vidyapeetham Virtual Labs across Biotechnology & Biomedical Engineering, Physical Sciences, Chemical Sciences, Research Findings & Publications, and Evaluation." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Amrita Virtual Labs Portal — Broad Areas, Evaluation &amp; Research</title>
+  <meta name="description" content="Official showcase portal for Amrita Vishwa Vidyapeetham Virtual Labs across Biotechnology & Biomedical Engineering, Physical Sciences, Chemical Sciences, Evaluation, and Research Findings & Publications." />
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -15,6 +15,14 @@
   <script>
     tailwind.config = {
       theme: {
+        screens: {
+          'xs': '400px',
+          'sm': '640px',
+          'md': '768px',
+          'lg': '1024px',
+          'xl': '1280px',
+          '2xl': '1536px',
+        },
         extend: {
           fontFamily: {
             sans: ['"Times New Roman"', 'Times', 'serif'],
@@ -37,7 +45,7 @@
       }
     };
 
-    // Define handleLogoFallback in <head> so it is ready before <img> elements parse
+    // Define handleLogoFallback in <head> so it is available before <img> elements load
     window.handleLogoFallback = function (imgEl, fallbackUrls, fallbackTextId) {
       if (!imgEl) return;
       const currentIndex = parseInt(imgEl.getAttribute('data-fallback-index') || '0', 10);
@@ -62,9 +70,10 @@
       font-family: 'Times New Roman', Times, serif !important;
     }
 
-    body {
+    html, body {
       background-color: #F4F6F9;
       color: #0F172A;
+      overflow-x: hidden;
       -webkit-font-smoothing: antialiased;
     }
 
@@ -144,22 +153,22 @@
   <!-- ===================================================================== -->
   <!-- TOP HEADER WITH ORIGINAL VIRTUAL LABS & AMRITA LOGOS (CENTERED)      -->
   <!-- ===================================================================== -->
-  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-2xs">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-center gap-6 sm:gap-10">
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs">
+    <div class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-4 md:py-5 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-8 md:gap-12">
 
-      <!-- Left / First: Original Virtual Labs Logo -->
+      <!-- 1st: Original Virtual Labs Logo (Sized so "An MoE Govt of India Initiative" is clearly legible across devices) -->
       <button
         type="button"
         onclick="navigateTo('home')"
-        class="text-left group focus:outline-none flex items-center gap-3"
-        title="Virtual Labs — An MoE Govt of India Initiative"
+        class="text-center group focus:outline-none flex items-center justify-center p-1 rounded-xl hover:bg-slate-50/80 transition-colors cursor-pointer"
+        title="Virtual Labs — An MoE Govt of India Initiative (Click to go Home)"
       >
         <img
           id="vlabLogoImg"
           src="vl logo_2.jpg"
           alt="Virtual Labs — An MoE Govt of India Initiative"
-          class="h-12 sm:h-16 md:h-[70px] w-auto object-contain select-none bg-white"
-          style="aspect-ratio: auto;"
+          class="h-16 xs:h-20 sm:h-20 md:h-24 w-auto max-w-[88vw] sm:max-w-[260px] md:max-w-[320px] object-contain select-none bg-white"
+          style="image-rendering: -webkit-optimize-contrast;"
           onerror="handleLogoFallback(this, [
             'vl logo.jpg',
             'vl%20logo_2.jpg',
@@ -167,40 +176,54 @@
             'https://raw.githubusercontent.com/Subhashree2172/signal_parameters/master/assets/images/vlabs-color-small-moe.jpg',
             'https://cdn.jsdelivr.net/gh/Subhashree2172/signal_parameters@master/assets/images/vlabs-color-small-moe.jpg',
             'https://ibe-amrt.vlabs.ac.in/assets/images/vlabs-color-small-moe.jpg'
-          ], 'vlabFallbackText')"
+          ], 'vlabFallbackLogo')"
         />
-        <div id="vlabFallbackText" class="hidden flex-col text-left">
-          <span class="font-display font-bold text-sm sm:text-lg text-[#00628B]">Virtual <span class="text-[#6CBE45]">Labs</span></span>
-          <span class="text-[10px] text-slate-800 border-t border-slate-300 pt-0.5 mt-0.5">An MoE Govt of India Initiative</span>
+        <!-- High-resolution exact replica fallback if local/remote image files are blocked -->
+        <div id="vlabFallbackLogo" class="hidden items-center justify-center">
+          <svg viewBox="0 0 430 220" class="h-16 xs:h-20 sm:h-20 md:h-24 w-auto max-w-[88vw] select-none" role="img" aria-label="Virtual Labs — An MoE Govt of India Initiative">
+            <path d="M58 46 H38 C24 46 14 56 14 70 V142 C14 156 24 166 38 166 H162 C176 166 186 156 186 142 V70 C186 56 176 46 162 46 H134" fill="none" stroke="#238DC1" stroke-width="10" stroke-linecap="round"/>
+            <path d="M6 177 H82 C85 182 91 185 100 185 C109 185 115 182 118 177 H194 C199 177 203 181 203 186 C203 191 199 195 194 195 H6 C1 195 -3 191 -3 186 C-3 181 1 177 6 177 Z" fill="#238DC1"/>
+            <path d="M84 18 H116 M88 18 V52 L50 124 C44 136 52 150 66 150 H134 C148 150 156 136 150 124 L112 52 V18 Z" fill="#6CBE45" stroke="#6CBE45" stroke-width="4" stroke-linejoin="round"/>
+            <circle cx="84" cy="116" r="18" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-dasharray="7 5"/>
+            <circle cx="84" cy="116" r="11" fill="#6CBE45" stroke="#FFFFFF" stroke-width="4"/>
+            <circle cx="115" cy="82" r="13" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-dasharray="6 4"/>
+            <circle cx="115" cy="82" r="8" fill="#6CBE45" stroke="#FFFFFF" stroke-width="3.5"/>
+            <text x="206" y="102" fill="#04638E" font-size="64" font-weight="bold" font-family="Arial, sans-serif">Virtual</text>
+            <text x="206" y="172" fill="#6CBE45" font-size="72" font-weight="bold" font-family="Arial, sans-serif">Labs</text>
+            <line x1="8" y1="201" x2="422" y2="201" stroke="#64748B" stroke-width="1.5"/>
+            <text x="215" y="218" text-anchor="middle" fill="#0F172A" font-size="21" font-weight="600" font-family="Arial, sans-serif">An MoE Govt of India Initiative</text>
+          </svg>
         </div>
       </button>
 
-      <!-- Divider / Separator -->
-      <div class="h-10 w-px bg-slate-200 shrink-0"></div>
+      <!-- Responsive Divider (Horizontal on Mobile, Vertical on Tablet/Desktop) -->
+      <div class="block sm:hidden w-3/4 h-px bg-slate-200/80"></div>
+      <div class="hidden sm:block h-16 md:h-20 w-px bg-slate-200 shrink-0"></div>
 
-      <!-- Right / Second: Original Amrita Vishwa Vidyapeetham Logo -->
+      <!-- 2nd: Original Amrita Vishwa Vidyapeetham Logo (Sized so "DEEMED TO BE UNIVERSITY..." is clearly legible) -->
       <button
         type="button"
         onclick="navigateTo('home')"
-        class="text-left group focus:outline-none flex items-center gap-3"
-        title="Return to Home Page"
+        class="text-center group focus:outline-none flex items-center justify-center p-1 rounded-xl hover:bg-slate-50/80 transition-colors cursor-pointer"
+        title="Amrita Vishwa Vidyapeetham (Click to go Home)"
       >
         <img
           id="amritaLogoImg"
           src="logo-branding-amrita-universiy-2024.png"
-          alt="Amrita Vishwa Vidyapeetham Logo"
-          class="h-12 sm:h-16 md:h-[70px] w-auto object-contain select-none bg-white"
-          style="aspect-ratio: auto;"
+          alt="Amrita Vishwa Vidyapeetham — Deemed to be University under Section 3 of UGC Act, 1956"
+          class="h-16 xs:h-20 sm:h-20 md:h-24 w-auto max-w-[92vw] sm:max-w-[330px] md:max-w-[430px] object-contain select-none bg-white"
+          style="image-rendering: -webkit-optimize-contrast;"
           onerror="handleLogoFallback(this, [
             'logo-branding-amrita-universiy-2024_2.png',
+            'logo-branding-amrita-universiy-2024.png',
             'https://webfiles.amrita.edu/2024/06/logo-branding-amrita-universiy-2024.png',
             'https://webfiles.amrita.edu/2024/06/logo-branding-amrita-universiy-2024.svg',
             'https://commons.wikimedia.org/wiki/Special:FilePath/Amrita-vishwa-vidyapeetham-logo.svg'
           ], 'amritaFallbackText')"
         />
-        <div id="amritaFallbackText" class="hidden flex-col">
-          <span class="font-display font-bold text-sm sm:text-lg text-[#A4123F]">AMRITA VISHWA VIDYAPEETHAM</span>
-          <span class="text-[10px] text-slate-500 uppercase tracking-wider">Deemed to be University under Section 3 of UGC Act, 1956</span>
+        <div id="amritaFallbackText" class="hidden flex-col items-center text-center px-2">
+          <span class="font-display font-bold text-xl sm:text-2xl md:text-3xl text-[#A4123F] tracking-wide">AMRITA VISHWA VIDYAPEETHAM</span>
+          <span class="text-xs sm:text-sm text-[#A4123F] uppercase tracking-widest font-semibold mt-0.5">Deemed to be University under Section 3 of UGC Act, 1956</span>
         </div>
       </button>
 
@@ -208,40 +231,76 @@
   </header>
 
   <!-- ===================================================================== -->
-  <!-- HIERARCHICAL BREADCRUMB BAR                                           -->
+  <!-- HIERARCHICAL BREADCRUMB, PROMINENT HOME BUTTON & SESSION TIMER BAR    -->
   <!-- ===================================================================== -->
-  <div class="bg-white border-b border-slate-200/80">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
-      <nav aria-label="Directory Breadcrumb" class="flex items-center flex-wrap gap-1.5 text-xs sm:text-sm">
-        <ol id="breadcrumbTrail" class="flex items-center flex-wrap gap-1.5">
-          <!-- Populated dynamically via JS -->
-        </ol>
-      </nav>
+  <div class="bg-white border-b border-slate-200/90 shadow-2xs">
+    <div class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-3.5 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+      
+      <!-- Left: Prominent Home Button + Breadcrumb Trail -->
+      <div class="flex items-center flex-wrap gap-2.5 sm:gap-3">
+        <button
+          id="prominentHomeBtn"
+          type="button"
+          onclick="navigateTo('home')"
+          class="inline-flex items-center justify-center gap-2 px-5 py-2.5 min-h-[44px] rounded-xl text-base sm:text-lg font-bold bg-[#A4123F] text-white hover:bg-[#881337] active:scale-[0.99] shadow-sm transition-all cursor-pointer shrink-0"
+        >
+          <i data-lucide="home" class="w-5 h-5"></i>
+          <span>Home</span>
+        </button>
 
-      <button
-        id="globalBackBtn"
-        type="button"
-        onclick="navigateBack()"
-        class="hidden inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200/80 transition-colors"
-      >
-        <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
-        <span id="globalBackBtnLabel">Back</span>
-      </button>
+        <nav aria-label="Directory Breadcrumb" class="flex items-center flex-wrap gap-1.5 sm:gap-2 text-sm sm:text-base min-w-0">
+          <ol id="breadcrumbTrail" class="flex items-center flex-wrap gap-1.5 sm:gap-2">
+            <!-- Populated dynamically via JS -->
+          </ol>
+        </nav>
+      </div>
+
+      <!-- Right: Session Timer with Reset + Back Button -->
+      <div class="flex items-center justify-between sm:justify-end flex-wrap gap-2.5">
+        <!-- Session Timer + Working Reset Button -->
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 min-h-[40px] rounded-xl bg-slate-50 border border-slate-200/90 text-xs sm:text-sm text-slate-700">
+          <i data-lucide="clock" class="w-4 h-4 text-[#A4123F] shrink-0"></i>
+          <span class="text-slate-500 hidden xs:inline">Session:</span>
+          <span id="sessionTimerDisplay" class="font-bold text-slate-900 tabular-nums tracking-wider">00:00</span>
+          <button
+            id="resetTimerBtn"
+            type="button"
+            onclick="resetSessionTimer()"
+            class="ml-1 inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-white border border-slate-300 text-slate-700 hover:border-[#A4123F] hover:text-[#A4123F] active:bg-rose-50 transition-colors shadow-2xs cursor-pointer"
+            title="Reset Session Timer to 00:00"
+          >
+            <i data-lucide="rotate-ccw" class="w-3 h-3"></i>
+            <span>Reset</span>
+          </button>
+        </div>
+
+        <!-- Prominent Back Button -->
+        <button
+          id="globalBackBtn"
+          type="button"
+          onclick="navigateBack()"
+          class="hidden inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 min-h-[44px] rounded-xl text-sm sm:text-base font-bold text-slate-800 bg-slate-100 border border-slate-300 hover:bg-slate-200 transition-colors shadow-2xs cursor-pointer"
+        >
+          <i data-lucide="arrow-left" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+          <span id="globalBackBtnLabel">Back to Home</span>
+        </button>
+      </div>
+
     </div>
   </div>
 
   <!-- ===================================================================== -->
   <!-- MAIN HIERARCHICAL CONTENT CONTAINER                                   -->
   <!-- ===================================================================== -->
-  <main class="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+  <main class="flex-1 max-w-6xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-6 sm:py-10 lg:py-12">
 
     <!-- =================================================================== -->
     <!-- LEVEL 0: HOME PAGE VIEW (SHOWS ONLY THE 3 MAIN PARENT SECTIONS)     -->
     <!-- =================================================================== -->
-    <div id="view-home" class="space-y-8">
+    <div id="view-home" class="space-y-6 sm:space-y-8">
 
       <!-- Three Separately Highlighted Main Directory Sections -->
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-7 lg:gap-8">
 
         <!-- MAIN ITEM 1: Broad Areas of Amrita Virtual Labs -->
         <section
@@ -250,24 +309,23 @@
           role="button"
           aria-label="Open Broad Areas of Amrita Virtual Labs"
           onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();navigateTo('broad-areas');}"
-          class="section-shell-primary rounded-3xl cursor-pointer group focus:outline-none focus:ring-2 focus:ring-amrita-600/40 transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col justify-between"
+          class="section-shell-primary rounded-2xl sm:rounded-3xl cursor-pointer group focus:outline-none focus:ring-2 focus:ring-amrita-600/40 transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col justify-between"
         >
-          <!-- Top Crimson Accent Bar (#A4123F) -->
           <div class="h-2.5 w-full bg-[#A4123F]"></div>
 
-          <div class="p-7 sm:p-8 flex-1 flex flex-col justify-between space-y-8">
-            <div class="space-y-4">
+          <div class="p-5 sm:p-7 lg:p-8 flex-1 flex flex-col justify-between space-y-6 sm:space-y-8">
+            <div class="space-y-3.5 sm:space-y-4">
               <div class="flex items-center justify-between gap-3">
                 <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amrita-50 border border-amrita-100 text-amrita-700 text-xs font-semibold uppercase tracking-wider">
                   <span class="w-2 h-2 rounded-full bg-[#A4123F]"></span>
                   <span>Section 01</span>
                 </span>
-                <div class="w-12 h-12 rounded-2xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors">
-                  <i data-lucide="layers" class="w-6 h-6"></i>
+                <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors shrink-0">
+                  <i data-lucide="layers" class="w-5 h-5 sm:w-6 sm:h-6"></i>
                 </div>
               </div>
 
-              <h2 class="font-display text-2xl font-semibold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-tight">
+              <h2 class="font-display text-xl sm:text-2xl font-semibold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-tight">
                 Broad Areas of Amrita Virtual Labs
               </h2>
 
@@ -276,7 +334,7 @@
               </p>
             </div>
 
-            <div class="pt-5 border-t border-slate-100 flex items-center justify-between gap-2">
+            <div class="pt-4 sm:pt-5 border-t border-slate-100 flex items-center justify-between gap-2 flex-wrap">
               <span class="text-xs font-medium text-slate-500">
                 3 Broad Areas · 32 Labs
               </span>
@@ -288,40 +346,39 @@
           </div>
         </section>
 
-        <!-- MAIN ITEM 2: Evaluation (AI-Based vs. Non-AI-Based Simulation Study) -->
+        <!-- MAIN ITEM 2: Evaluation -->
         <section
           onclick="navigateTo('evaluation')"
           tabindex="0"
           role="button"
-          aria-label="Open Evaluation: AI-Based vs. Non-AI-Based Simulation Study"
+          aria-label="Open Evaluation Section"
           onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();navigateTo('evaluation');}"
-          class="section-shell-secondary rounded-3xl cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#0D6E52]/40 transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col justify-between"
+          class="section-shell-secondary rounded-2xl sm:rounded-3xl cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#0D6E52]/40 transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col justify-between"
         >
-          <!-- Top Teal/Emerald Accent Bar (#0D6E52) -->
           <div class="h-2.5 w-full bg-[#0D6E52]"></div>
 
-          <div class="p-7 sm:p-8 flex-1 flex flex-col justify-between space-y-8">
-            <div class="space-y-4">
+          <div class="p-5 sm:p-7 lg:p-8 flex-1 flex flex-col justify-between space-y-6 sm:space-y-8">
+            <div class="space-y-3.5 sm:space-y-4">
               <div class="flex items-center justify-between gap-3">
                 <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/80 text-[#0D6E52] text-xs font-semibold uppercase tracking-wider">
                   <span class="w-2 h-2 rounded-full bg-[#0D6E52]"></span>
                   <span>Section 02</span>
                 </span>
-                <div class="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-100 text-[#0D6E52] flex items-center justify-center group-hover:bg-[#0D6E52] group-hover:text-white transition-colors">
-                  <i data-lucide="flask-conical" class="w-6 h-6"></i>
+                <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-emerald-50 border border-emerald-100 text-[#0D6E52] flex items-center justify-center group-hover:bg-[#0D6E52] group-hover:text-white transition-colors shrink-0">
+                  <i data-lucide="flask-conical" class="w-5 h-5 sm:w-6 sm:h-6"></i>
                 </div>
               </div>
 
-              <h2 class="font-display text-2xl font-semibold text-slate-900 group-hover:text-[#0D6E52] transition-colors leading-tight">
+              <h2 class="font-display text-xl sm:text-2xl font-semibold text-slate-900 group-hover:text-[#0D6E52] transition-colors leading-tight">
                 Evaluation
               </h2>
 
               <p class="text-sm text-slate-600 leading-relaxed">
-                Access Virtual Lab feedback questionnaires (Google Forms) and the upcoming Comparative Study section.
+                Access Virtual Lab feedback questionnaires (Google Forms) and the Comparative Study section.
               </p>
             </div>
 
-            <div class="pt-5 border-t border-slate-200/80 flex items-center justify-between gap-2">
+            <div class="pt-4 sm:pt-5 border-t border-slate-200/80 flex items-center justify-between gap-2 flex-wrap">
               <span id="homeEvalCountLabel" class="text-xs font-medium text-slate-500">
                 2 Evaluation Sub-Sections
               </span>
@@ -340,24 +397,23 @@
           role="button"
           aria-label="Open Research Findings and Publications"
           onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();navigateTo('research');}"
-          class="section-shell-research rounded-3xl cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#1E3A8A]/40 transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col justify-between"
+          class="section-shell-research rounded-2xl sm:rounded-3xl cursor-pointer group focus:outline-none focus:ring-2 focus:ring-[#1E3A8A]/40 transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col justify-between md:col-span-2 lg:col-span-1"
         >
-          <!-- Top Deep Academic Navy Accent Bar (#1E3A8A) -->
           <div class="h-2.5 w-full bg-[#1E3A8A]"></div>
 
-          <div class="p-7 sm:p-8 flex-1 flex flex-col justify-between space-y-8">
-            <div class="space-y-4">
+          <div class="p-5 sm:p-7 lg:p-8 flex-1 flex flex-col justify-between space-y-6 sm:space-y-8">
+            <div class="space-y-3.5 sm:space-y-4">
               <div class="flex items-center justify-between gap-3">
                 <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-[#1E3A8A] text-xs font-semibold uppercase tracking-wider">
                   <span class="w-2 h-2 rounded-full bg-[#1E3A8A]"></span>
                   <span>Section 03</span>
                 </span>
-                <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-100 text-[#1E3A8A] flex items-center justify-center group-hover:bg-[#1E3A8A] group-hover:text-white transition-colors">
-                  <i data-lucide="book-open-check" class="w-6 h-6"></i>
+                <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-blue-50 border border-blue-100 text-[#1E3A8A] flex items-center justify-center group-hover:bg-[#1E3A8A] group-hover:text-white transition-colors shrink-0">
+                  <i data-lucide="book-open-check" class="w-5 h-5 sm:w-6 sm:h-6"></i>
                 </div>
               </div>
 
-              <h2 class="font-display text-2xl font-semibold text-slate-900 group-hover:text-[#1E3A8A] transition-colors leading-tight">
+              <h2 class="font-display text-xl sm:text-2xl font-semibold text-slate-900 group-hover:text-[#1E3A8A] transition-colors leading-tight">
                 Research Findings &amp; Publications
               </h2>
 
@@ -366,7 +422,7 @@
               </p>
             </div>
 
-            <div class="pt-5 border-t border-slate-200/80 flex items-center justify-between gap-2">
+            <div class="pt-4 sm:pt-5 border-t border-slate-200/80 flex items-center justify-between gap-2 flex-wrap">
               <span id="homeResearchCountLabel" class="text-xs font-medium text-slate-500">
                 17 Publications · Sorted by Citations
               </span>
@@ -386,19 +442,19 @@
     <!-- =================================================================== -->
     <section
       id="view-evaluation"
-      class="hidden space-y-8"
+      class="hidden space-y-6 sm:space-y-8"
       aria-labelledby="evaluation-heading"
     >
-      <!-- Top Evaluation Overview Banner (Description Removed) -->
-      <div class="section-shell-secondary rounded-3xl">
+      <!-- Top Evaluation Header Banner (No Extra Description Text) -->
+      <div class="section-shell-secondary rounded-2xl sm:rounded-3xl">
         <div class="h-2.5 w-full bg-[#0D6E52]"></div>
-        <div class="p-6 sm:p-8 flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-          <div>
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/80 text-[#0D6E52] text-xs font-semibold uppercase tracking-wider mb-2.5">
+        <div class="p-5 sm:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div class="flex items-center flex-wrap gap-3">
+            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200/80 text-[#0D6E52] text-xs sm:text-sm font-bold uppercase tracking-wider">
               <span class="w-2 h-2 rounded-full bg-[#0D6E52]"></span>
-              <span>Section 02 · Evaluation Directory</span>
-            </div>
-            <h1 id="evaluation-heading" class="font-display text-2xl sm:text-3xl font-semibold text-slate-900 tracking-tight">
+              <span>Section 02</span>
+            </span>
+            <h1 id="evaluation-heading" class="font-display text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
               Evaluation
             </h1>
           </div>
@@ -406,18 +462,18 @@
           <button
             type="button"
             onclick="navigateTo('home')"
-            class="self-start sm:self-auto inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold bg-[#0D6E52] text-white hover:bg-emerald-900 transition-colors shadow-sm"
+            class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3 min-h-[46px] rounded-xl text-base font-bold bg-[#0D6E52] text-white hover:bg-emerald-900 transition-colors shadow-md cursor-pointer"
           >
-            <i data-lucide="arrow-left" class="w-4 h-4"></i>
-            <span>Back to Home</span>
+            <i data-lucide="home" class="w-5 h-5"></i>
+            <span>Home</span>
           </button>
         </div>
       </div>
 
       <!-- SUB-SECTION 2.1: GOOGLE FORM-BASED EVALUATIONS -->
-      <div class="section-shell-secondary rounded-3xl">
+      <div class="section-shell-secondary rounded-2xl sm:rounded-3xl">
         <div class="h-2 w-full bg-[#0D6E52]"></div>
-        <div class="p-6 sm:p-8 lg:p-10 space-y-6">
+        <div class="p-5 sm:p-8 lg:p-10 space-y-6">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/90 pb-5">
             <div>
               <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-50 text-[#0D6E52] border border-emerald-200 mb-2">
@@ -433,16 +489,16 @@
           </div>
 
           <!-- Google Form Cards Grid -->
-          <div id="evalFormsGrid" class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div id="evalFormsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
             <!-- Populated dynamically via renderEvaluations() -->
           </div>
         </div>
       </div>
 
       <!-- SUB-SECTION 2.2: COMPARATIVE STUDY (EMPTY / RESERVED FOR UPCOMING STUDY) -->
-      <div class="section-shell-secondary rounded-3xl">
+      <div class="section-shell-secondary rounded-2xl sm:rounded-3xl">
         <div class="h-2 w-full bg-[#A4123F]"></div>
-        <div class="p-6 sm:p-8 lg:p-10">
+        <div class="p-5 sm:p-8 lg:p-10">
           <div>
             <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-50 text-[#A4123F] border border-rose-200 mb-2">
               Sub-Section 2.2
@@ -460,15 +516,14 @@
     <!-- =================================================================== -->
     <section
       id="view-broad-areas"
-      class="hidden section-shell-primary rounded-3xl"
+      class="hidden section-shell-primary rounded-2xl sm:rounded-3xl"
       aria-labelledby="broad-areas-heading"
     >
-      <!-- Top Crimson Accent Bar (#A4123F) -->
       <div class="h-2.5 w-full bg-[#A4123F]"></div>
 
-      <div class="p-6 sm:p-8 lg:p-10 space-y-8">
+      <div class="p-5 sm:p-8 lg:p-10 space-y-6 sm:space-y-8">
         <!-- Section Header -->
-        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200/90 pb-6">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200/90 pb-5 sm:pb-6">
           <div>
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amrita-50 border border-amrita-100 text-amrita-700 text-xs font-semibold uppercase tracking-wider mb-2.5">
               <span class="w-2 h-2 rounded-full bg-[#A4123F]"></span>
@@ -485,24 +540,24 @@
           <button
             type="button"
             onclick="navigateTo('home')"
-            class="self-start sm:self-auto inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold bg-[#A4123F] text-white hover:bg-[#881337] transition-colors shadow-sm"
+            class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3 min-h-[46px] rounded-xl text-base font-bold bg-[#A4123F] text-white hover:bg-[#881337] transition-colors shadow-md cursor-pointer"
           >
-            <i data-lucide="arrow-left" class="w-4 h-4"></i>
-            <span>Back to Home</span>
+            <i data-lucide="home" class="w-5 h-5"></i>
+            <span>Home</span>
           </button>
         </div>
 
         <!-- 3 Broad Area Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
           <!-- 1. Biotechnology and Biomedical Engineering -->
           <div
             onclick="openDiscipline('biotech')"
             tabindex="0"
             role="button"
             onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDiscipline('biotech');}"
-            class="area-card rounded-2xl p-6 cursor-pointer flex flex-col justify-between space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
+            class="area-card rounded-2xl p-5 sm:p-6 cursor-pointer flex flex-col justify-between space-y-5 sm:space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
           >
-            <div class="space-y-4">
+            <div class="space-y-3.5 sm:space-y-4">
               <div class="flex items-center justify-between gap-2">
                 <div class="w-11 h-11 rounded-xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors">
                   <i data-lucide="dna" class="w-5 h-5"></i>
@@ -511,14 +566,14 @@
                   18 Virtual Labs
                 </span>
               </div>
-              <h2 class="text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
+              <h2 class="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
                 Biotechnology and Biomedical Engineering
               </h2>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 Includes 4 newly added Virtual Labs in Bioinformatics, Biosensors, and Biomedical Instrumentation alongside 14 core life science laboratories.
               </p>
             </div>
-            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-[#A4123F]">
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs sm:text-sm font-semibold text-[#A4123F]">
               <span>View 18 Laboratories</span>
               <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
             </div>
@@ -530,9 +585,9 @@
             tabindex="0"
             role="button"
             onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDiscipline('physics');}"
-            class="area-card rounded-2xl p-6 cursor-pointer flex flex-col justify-between space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
+            class="area-card rounded-2xl p-5 sm:p-6 cursor-pointer flex flex-col justify-between space-y-5 sm:space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
           >
-            <div class="space-y-4">
+            <div class="space-y-3.5 sm:space-y-4">
               <div class="flex items-center justify-between gap-2">
                 <div class="w-11 h-11 rounded-xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors">
                   <i data-lucide="atom" class="w-5 h-5"></i>
@@ -541,14 +596,14 @@
                   10 Virtual Labs
                 </span>
               </div>
-              <h2 class="text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
+              <h2 class="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
                 Physical Sciences
               </h2>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 Interactive laboratories covering Mechanics, Electric Circuits, Electricity &amp; Magnetism, Waves, Thermodynamics, Laser Optics, Modern Physics, Optics, and Solid State Physics.
               </p>
             </div>
-            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-[#A4123F]">
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs sm:text-sm font-semibold text-[#A4123F]">
               <span>View 10 Laboratories</span>
               <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
             </div>
@@ -560,9 +615,9 @@
             tabindex="0"
             role="button"
             onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openDiscipline('chemistry');}"
-            class="area-card rounded-2xl p-6 cursor-pointer flex flex-col justify-between space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
+            class="area-card rounded-2xl p-5 sm:p-6 cursor-pointer flex flex-col justify-between space-y-5 sm:space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
           >
-            <div class="space-y-4">
+            <div class="space-y-3.5 sm:space-y-4">
               <div class="flex items-center justify-between gap-2">
                 <div class="w-11 h-11 rounded-xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors">
                   <i data-lucide="flask-round" class="w-5 h-5"></i>
@@ -571,14 +626,14 @@
                   4 Virtual Labs
                 </span>
               </div>
-              <h2 class="text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
+              <h2 class="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
                 Chemical Sciences
               </h2>
-              <p class="text-xs text-slate-600 leading-relaxed">
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 Simulation laboratories for Advanced Analytical Chemistry, Inorganic Chemistry, Organic Chemistry, and Physical Chemistry.
               </p>
             </div>
-            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-[#A4123F]">
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs sm:text-sm font-semibold text-[#A4123F]">
               <span>View 4 Laboratories</span>
               <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
             </div>
@@ -592,14 +647,14 @@
     <!-- =================================================================== -->
     <section
       id="view-discipline-labs"
-      class="hidden section-shell-primary rounded-3xl"
+      class="hidden section-shell-primary rounded-2xl sm:rounded-3xl"
       aria-labelledby="discipline-labs-heading"
     >
       <div class="h-2.5 w-full bg-[#A4123F]"></div>
 
-      <div class="p-6 sm:p-8 lg:p-10 space-y-6">
+      <div class="p-5 sm:p-8 lg:p-10 space-y-6">
         <!-- Header -->
-        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4 border-b border-slate-200/90 pb-6">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4 border-b border-slate-200/90 pb-5 sm:pb-6">
           <div>
             <div class="flex flex-wrap items-center gap-2 mb-2.5">
               <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amrita-50 border border-amrita-100 text-amrita-700 text-xs font-semibold uppercase tracking-wider">
@@ -624,7 +679,7 @@
               href="https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-bold border border-slate-300 bg-white text-slate-800 hover:border-[#A4123F] hover:text-[#A4123F] transition-colors shadow-sm"
+              class="w-full xs:w-auto justify-center inline-flex items-center gap-1.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-bold border border-slate-300 bg-white text-slate-800 hover:border-[#A4123F] hover:text-[#A4123F] transition-colors shadow-sm"
             >
               <span>View on vlab.co.in</span>
               <i data-lucide="external-link" class="w-4 h-4"></i>
@@ -632,24 +687,32 @@
             <button
               type="button"
               onclick="navigateTo('broad-areas')"
-              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold bg-[#A4123F] text-white hover:bg-[#881337] transition-colors shadow-sm"
+              class="flex-1 xs:flex-initial justify-center inline-flex items-center gap-2 px-5 py-2.5 min-h-[44px] rounded-xl text-sm sm:text-base font-bold bg-[#A4123F] text-white hover:bg-[#881337] transition-colors shadow-md cursor-pointer"
             >
-              <i data-lucide="arrow-left" class="w-4 h-4"></i>
+              <i data-lucide="arrow-left" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               <span>Back to Broad Areas</span>
+            </button>
+            <button
+              type="button"
+              onclick="navigateTo('home')"
+              class="flex-1 xs:flex-initial justify-center inline-flex items-center gap-2 px-5 py-2.5 min-h-[44px] rounded-xl text-sm sm:text-base font-bold bg-slate-800 text-white hover:bg-slate-900 transition-colors shadow-md cursor-pointer"
+            >
+              <i data-lucide="home" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+              <span>Home</span>
             </button>
           </div>
         </div>
 
         <!-- Toolbar: Search & View Toggle -->
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div class="relative flex-1 max-w-md">
+          <div class="relative flex-1 max-w-full sm:max-w-md">
             <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
             <input
               id="labSearchInput"
               type="text"
               placeholder="Filter laboratories by name..."
               autocomplete="off"
-              class="w-full pl-9 pr-8 py-2 text-xs sm:text-sm rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:bg-white focus:border-[#A4123F] transition-all"
+              class="w-full pl-9 pr-8 py-2.5 min-h-[42px] text-sm rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:bg-white focus:border-[#A4123F] transition-all"
             />
             <button
               id="clearSearchBtn"
@@ -657,7 +720,7 @@
               onclick="clearSearch()"
               class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1"
             >
-              <i data-lucide="x" class="w-3.5 h-3.5"></i>
+              <i data-lucide="x" class="w-4 h-4"></i>
             </button>
           </div>
 
@@ -666,7 +729,7 @@
               id="viewGridBtn"
               type="button"
               onclick="setLayoutMode('grid')"
-              class="px-2.5 py-1.5 rounded-lg text-xs font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1"
+              class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer"
             >
               <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
               <span>Grid</span>
@@ -675,7 +738,7 @@
               id="viewListBtn"
               type="button"
               onclick="setLayoutMode('list')"
-              class="px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1"
+              class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer"
             >
               <i data-lucide="list" class="w-3.5 h-3.5"></i>
               <span>List</span>
@@ -684,10 +747,10 @@
         </div>
 
         <!-- Labs Container -->
-        <div id="labsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+        <div id="labsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
         <!-- Empty Search State -->
-        <div id="emptyLabsState" class="hidden rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-10 text-center space-y-3">
+        <div id="emptyLabsState" class="hidden rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-8 sm:p-10 text-center space-y-3">
           <p class="text-sm font-semibold text-slate-700">No matching Virtual Laboratories found.</p>
           <button
             type="button"
@@ -705,26 +768,25 @@
     <!-- =================================================================== -->
     <section
       id="view-research"
-      class="hidden section-shell-research rounded-3xl"
+      class="hidden section-shell-research rounded-2xl sm:rounded-3xl"
       aria-labelledby="research-heading"
     >
-      <!-- Top Deep Academic Navy Accent Bar (#1E3A8A) -->
       <div class="h-2.5 w-full bg-[#1E3A8A]"></div>
 
-      <div class="p-6 sm:p-8 lg:p-10 space-y-8">
+      <div class="p-5 sm:p-8 lg:p-10 space-y-6 sm:space-y-8">
 
         <!-- Section Header -->
-        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200/90 pb-6">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-4 border-b border-slate-200/90 pb-5 sm:pb-6">
           <div>
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-[#1E3A8A] text-xs font-semibold uppercase tracking-wider mb-2.5">
               <span class="w-2 h-2 rounded-full bg-[#1E3A8A]"></span>
-              <span>Section 03 · Amrita Mind Brain Center · Sorted by Google Scholar Citations</span>
+              <span>Section 03 · Amrita Mind Brain Center · Sorted by Citations</span>
             </div>
             <h1 id="research-heading" class="font-display text-2xl sm:text-3xl font-semibold text-slate-900 tracking-tight">
               Research Findings &amp; Publications
             </h1>
             <p class="mt-1.5 text-xs sm:text-sm text-slate-600 max-w-3xl">
-              Official Virtual Lab-related research publications from the <strong>Amrita Mind Brain Center</strong> (<a href="https://www.amrita.edu/center/mind-brain/publications/" target="_blank" rel="noopener noreferrer" class="underline text-[#1E3A8A] font-semibold">amrita.edu/center/mind-brain/publications</a>), ranked with the most-cited papers listed first according to Google Scholar.
+              Official Virtual Lab-related research publications from the <strong>Amrita Mind Brain Center</strong> (<a href="https://www.amrita.edu/center/mind-brain/publications/" target="_blank" rel="noopener noreferrer" class="underline text-[#1E3A8A] font-semibold break-all sm:break-normal">amrita.edu/center/mind-brain/publications</a>), ranked with the most-cited papers listed first according to Google Scholar.
             </p>
           </div>
 
@@ -733,7 +795,7 @@
               href="https://www.amrita.edu/center/mind-brain/publications/"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-bold border border-blue-300 bg-blue-50 text-[#1E3A8A] hover:bg-blue-100 transition-colors shadow-sm"
+              class="w-full xs:w-auto justify-center inline-flex items-center gap-1.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-bold border border-blue-300 bg-blue-50 text-[#1E3A8A] hover:bg-blue-100 transition-colors shadow-sm"
             >
               <span>Amrita Mind Brain Center Publications</span>
               <i data-lucide="external-link" class="w-4 h-4"></i>
@@ -741,17 +803,17 @@
             <button
               type="button"
               onclick="navigateTo('home')"
-              class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold bg-[#1E3A8A] text-white hover:bg-blue-950 transition-colors shadow-sm"
+              class="w-full xs:w-auto justify-center inline-flex items-center gap-2.5 px-6 py-3 min-h-[44px] rounded-xl text-base font-bold bg-[#1E3A8A] text-white hover:bg-blue-950 transition-colors shadow-md cursor-pointer"
             >
-              <i data-lucide="arrow-left" class="w-4 h-4"></i>
-              <span>Back to Home</span>
+              <i data-lucide="home" class="w-5 h-5"></i>
+              <span>Home</span>
             </button>
           </div>
         </div>
 
         <!-- Publications Directory Filter & Count Bar -->
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div class="flex items-center gap-2.5">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4">
+          <div class="flex items-center flex-wrap gap-2.5">
             <h2 class="text-lg sm:text-xl font-bold text-slate-900">
               Virtual Laboratories Research Publications
             </h2>
@@ -760,20 +822,20 @@
             </span>
           </div>
 
-          <div class="relative w-full sm:w-72">
+          <div class="relative w-full sm:w-80">
             <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
             <input
               id="researchSearchInput"
               type="text"
               placeholder="Search title, author, journal..."
               autocomplete="off"
-              class="w-full pl-9 pr-8 py-2 text-xs sm:text-sm rounded-xl bg-white border border-slate-200 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/15 transition-all"
+              class="w-full pl-9 pr-8 py-2.5 min-h-[42px] text-sm rounded-xl bg-white border border-slate-200 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/15 transition-all"
             />
           </div>
         </div>
 
-        <!-- Publications Cards List (Strictly Virtual Lab Papers from Amrita Mind Brain Center) -->
-        <div id="researchPublicationsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <!-- Publications Cards List -->
+        <div id="researchPublicationsContainer" class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5">
           <!-- Populated dynamically via JavaScript -->
         </div>
 
@@ -789,19 +851,19 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center justify-center gap-2.5 text-xs sm:text-sm text-slate-700">
 
       <!-- Page Access / Visitor Counter -->
-      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-50 border border-slate-200/90 text-xs text-slate-700 shadow-2xs">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-50 border border-slate-200/90 text-xs sm:text-sm text-slate-700 shadow-2xs">
         <i data-lucide="users" class="w-3.5 h-3.5 text-[#A4123F]"></i>
         <span>Total Page Visits:</span>
-        <span id="visitorCounterValue" class="font-bold text-[#A4123F] tracking-wide">Loading...</span>
+        <span id="visitorCounterValue" class="font-bold text-[#A4123F] tracking-wide tabular-nums">1</span>
       </div>
 
       <!-- Official Copyright Line + Subtle Owner Config Trigger -->
-      <div class="flex items-center justify-center gap-2 font-semibold text-center text-slate-800">
+      <div class="flex items-center justify-center flex-wrap gap-2 font-semibold text-center text-slate-800">
         <span>Copyright 2026, Virtual Labs, Amrita Vishwa Vidyapeetham</span>
         <button
           type="button"
           onclick="openAdminModal()"
-          class="text-slate-300 hover:text-slate-500 transition-colors p-1 rounded"
+          class="text-slate-300 hover:text-slate-500 transition-colors p-1 rounded cursor-pointer"
           title="Administrator Configuration"
           aria-label="Administrator Configuration"
         >
@@ -817,28 +879,28 @@
   <!-- ===================================================================== -->
   <div
     id="adminModalBackdrop"
-    class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4"
+    class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4"
   >
-    <div class="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-3xl w-full max-h-[90vh] flex flex-col overflow-hidden">
+    <div class="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 shadow-2xl max-w-3xl w-full max-h-[92vh] flex flex-col overflow-hidden">
       <!-- Modal Header -->
-      <div class="px-6 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
+      <div class="px-5 sm:px-6 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between gap-2">
         <div class="flex items-center gap-2">
-          <i data-lucide="shield-check" class="w-5 h-5 text-[#A4123F]"></i>
-          <h3 class="text-base font-bold text-slate-900">Portal Maintainer Configuration (GitHub Export)</h3>
+          <i data-lucide="shield-check" class="w-5 h-5 text-[#A4123F] shrink-0"></i>
+          <h3 class="text-sm sm:text-base font-bold text-slate-900">Portal Maintainer Configuration (GitHub Export)</h3>
         </div>
         <button
           type="button"
           onclick="closeAdminModal()"
-          class="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-200/60 transition-colors"
+          class="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-200/60 transition-colors cursor-pointer"
         >
           <i data-lucide="x" class="w-4 h-4"></i>
         </button>
       </div>
 
       <!-- Passcode Gate -->
-      <div id="adminAuthGate" class="p-6 sm:p-8 space-y-4">
-        <p class="text-sm text-slate-600">
-          Uploading or modifying questionnaires and publications is restricted for visitors. Enter the administrator passcode to manage links and generate the updated JavaScript configuration for GitHub.
+      <div id="adminAuthGate" class="p-5 sm:p-8 space-y-4">
+        <p class="text-xs sm:text-sm text-slate-600">
+          Uploading or modifying questionnaires and publications is restricted for visitors. Enter the administrator passcode to manage links, reset counters/timers, and generate the updated JavaScript configuration for GitHub.
         </p>
         <form onsubmit="verifyAdminPasscode(event)" class="flex flex-col sm:flex-row gap-3">
           <input
@@ -849,7 +911,7 @@
           />
           <button
             type="submit"
-            class="px-5 py-2.5 rounded-xl bg-[#A4123F] text-white text-xs font-semibold hover:bg-[#881337] transition-colors"
+            class="px-5 py-2.5 rounded-xl bg-[#A4123F] text-white text-xs sm:text-sm font-semibold hover:bg-[#881337] transition-colors cursor-pointer"
           >
             Unlock Configuration
           </button>
@@ -860,7 +922,31 @@
       </div>
 
       <!-- Unlocked Configuration Panel -->
-      <div id="adminConfigPanel" class="hidden p-6 overflow-y-auto space-y-6 flex-1">
+      <div id="adminConfigPanel" class="hidden p-5 sm:p-6 overflow-y-auto space-y-6 flex-1">
+        <!-- Quick Reset Controls for Timer & Visitor Counter -->
+        <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-slate-900">Session Timer &amp; Visitor Counter Controls</h4>
+            <p class="text-xs text-slate-500">Reset the active session timer or local visitor counter to start fresh.</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <button
+              type="button"
+              onclick="resetSessionTimer()"
+              class="px-3.5 py-2 rounded-xl bg-white border border-slate-300 text-xs font-bold text-slate-700 hover:border-[#A4123F] hover:text-[#A4123F] transition-colors cursor-pointer"
+            >
+              Reset Session Timer
+            </button>
+            <button
+              type="button"
+              onclick="resetVisitorCounter()"
+              class="px-3.5 py-2 rounded-xl bg-white border border-slate-300 text-xs font-bold text-slate-700 hover:border-[#A4123F] hover:text-[#A4123F] transition-colors cursor-pointer"
+            >
+              Reset Visitor Counter
+            </button>
+          </div>
+        </div>
+
         <!-- Manage Google Form Evaluation Questionnaires -->
         <div class="space-y-3">
           <h4 class="text-sm font-bold text-slate-900">1. Manage Google Form / Doc Evaluation Questionnaires (Sub-Section 2.1)</h4>
@@ -877,7 +963,7 @@
             </select>
             <input id="qUrlInput" type="url" placeholder="https://docs.google.com/forms/..." class="px-3 py-2 text-xs rounded-lg border border-slate-200" />
             <input id="qDescInput" type="text" placeholder="Short description of the evaluation form" class="px-3 py-2 text-xs rounded-lg border border-slate-200 sm:col-span-2" />
-            <button type="submit" class="px-4 py-2 rounded-lg bg-[#0D6E52] text-white text-xs font-semibold hover:bg-emerald-900 transition-colors">
+            <button type="submit" class="px-4 py-2 rounded-lg bg-[#0D6E52] text-white text-xs font-semibold hover:bg-emerald-900 transition-colors cursor-pointer">
               + Add Evaluation Form
             </button>
           </form>
@@ -890,12 +976,12 @@
 
           <form id="addPublicationForm" onsubmit="handleAddPublication(event)" class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-2 border-t border-slate-100">
             <input id="pTitleInput" type="text" placeholder="Publication Title" required class="px-3 py-2 text-xs rounded-lg border border-slate-200 sm:col-span-2" />
-            <input id="pAuthorsInput" type="text" placeholder="Authors (e.g., Radhamani et al.)" required class="px-3 py-2 text-xs rounded-lg border border-slate-200" />
+            <input id="pAuthorsInput" type="text" placeholder="Authors (e.g., Rakhi Radhamani et al.)" required class="px-3 py-2 text-xs rounded-lg border border-slate-200" />
             <input id="pVenueInput" type="text" placeholder="Journal / Conference & Year" required class="px-3 py-2 text-xs rounded-lg border border-slate-200" />
             <input id="pCitationsInput" type="number" min="0" placeholder="Google Scholar Citations (e.g., 196)" required class="px-3 py-2 text-xs rounded-lg border border-slate-200" />
             <input id="pUrlInput" type="url" placeholder="DOI or Publication Link (https://doi.org/...)" class="px-3 py-2 text-xs rounded-lg border border-slate-200" />
             <input id="pFindingInput" type="text" placeholder="Key Research Finding / Summary" class="px-3 py-2 text-xs rounded-lg border border-slate-200 sm:col-span-2" />
-            <button type="submit" class="sm:col-span-2 px-4 py-2 rounded-lg bg-[#1E3A8A] text-white text-xs font-semibold hover:bg-blue-950 transition-colors">
+            <button type="submit" class="sm:col-span-2 px-4 py-2 rounded-lg bg-[#1E3A8A] text-white text-xs font-semibold hover:bg-blue-950 transition-colors cursor-pointer">
               + Add Research Publication
             </button>
           </form>
@@ -903,11 +989,11 @@
       </div>
 
       <!-- Modal Footer -->
-      <div id="adminModalFooter" class="hidden px-6 py-4 bg-slate-50 border-t border-slate-200 flex items-center justify-between gap-3">
+      <div id="adminModalFooter" class="hidden px-5 sm:px-6 py-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
         <button
           type="button"
           onclick="copyConfigForGitHub()"
-          class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 transition-colors"
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 transition-colors cursor-pointer"
         >
           <i data-lucide="copy" class="w-3.5 h-3.5"></i>
           <span id="copyConfigBtnText">Copy JS Config for GitHub</span>
@@ -915,7 +1001,7 @@
         <button
           type="button"
           onclick="closeAdminModal()"
-          class="px-4 py-2 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-semibold hover:bg-slate-100"
+          class="px-4 py-2 rounded-xl border border-slate-200 bg-white text-slate-700 text-xs font-semibold hover:bg-slate-100 cursor-pointer"
         >
           Done
         </button>
@@ -1216,7 +1302,7 @@
     };
 
     // =======================================================================
-    // PORTAL STATE VARIABLES
+    // PORTAL STATE & TIMER VARIABLES
     // =======================================================================
     let currentView = "home";
     let activeAreaKey = "biotech";
@@ -1227,6 +1313,11 @@
     let researchPublications = [...RESEARCH_PUBLICATIONS];
     let isAdminUnlocked = false;
 
+    // Session Timer State (properly managed & resettable)
+    let sessionSeconds = 0;
+    let sessionTimerInterval = null;
+    let copyButtonTimeout = null;
+
     function escapeHtml(str) {
       return String(str || "")
         .replace(/&/g, "&amp;")
@@ -1234,6 +1325,50 @@
         .replace(/>/g, "&gt;")
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
+    }
+
+    // =======================================================================
+    // SESSION TIMER CONTROLLER (START, FORMAT, AND RESET)
+    // =======================================================================
+    function formatElapsedTime(totalSeconds) {
+      const hrs = Math.floor(totalSeconds / 3600);
+      const mins = Math.floor((totalSeconds % 3600) / 60);
+      const secs = totalSeconds % 60;
+      const mStr = String(mins).padStart(2, "0");
+      const sStr = String(secs).padStart(2, "0");
+      if (hrs > 0) {
+        return `${String(hrs).padStart(2, "0")}:${mStr}:${sStr}`;
+      }
+      return `${mStr}:${sStr}`;
+    }
+
+    function updateSessionTimerUI() {
+      const displayEl = document.getElementById("sessionTimerDisplay");
+      if (displayEl) {
+        displayEl.textContent = formatElapsedTime(sessionSeconds);
+      }
+    }
+
+    function startSessionTimer() {
+      if (sessionTimerInterval !== null) {
+        clearInterval(sessionTimerInterval);
+        sessionTimerInterval = null;
+      }
+      updateSessionTimerUI();
+      sessionTimerInterval = setInterval(() => {
+        sessionSeconds += 1;
+        updateSessionTimerUI();
+      }, 1000);
+    }
+
+    function resetSessionTimer() {
+      if (sessionTimerInterval !== null) {
+        clearInterval(sessionTimerInterval);
+        sessionTimerInterval = null;
+      }
+      sessionSeconds = 0;
+      updateSessionTimerUI();
+      startSessionTimer();
     }
 
     // =======================================================================
@@ -1252,6 +1387,9 @@
           }
         }
       });
+
+      // Reset timer when switching views so each section session is timed cleanly
+      resetSessionTimer();
 
       updateBreadcrumb();
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1285,13 +1423,13 @@
       const backLabel = document.getElementById("globalBackBtnLabel");
       if (!trail) return;
 
-      const items = [{ label: "Home", action: "navigateTo('home')", active: currentView === "home" }];
+      const items = [];
 
       if (currentView === "broad-areas") {
         items.push({ label: "Broad Areas of Amrita Virtual Labs", action: null, active: true });
       } else if (currentView === "discipline-labs") {
         const area = BROAD_AREAS[activeAreaKey];
-        items.push({ label: "Broad Areas of Amrita Virtual Labs", action: "navigateTo('broad-areas')", active: false });
+        items.push({ label: "Broad Areas", action: "navigateTo('broad-areas')", active: false });
         items.push({ label: area ? area.title : "Laboratories", action: null, active: true });
       } else if (currentView === "evaluation") {
         items.push({ label: "Evaluation", action: null, active: true });
@@ -1300,12 +1438,12 @@
       }
 
       trail.innerHTML = items
-        .map((item, idx) => {
-          const sep = idx > 0 ? `<li class="text-slate-300 select-none">/</li>` : "";
+        .map((item) => {
+          const sep = `<li class="text-slate-400 font-bold select-none">/</li>`;
           if (item.active || !item.action) {
-            return `${sep}<li class="font-bold text-slate-900">${escapeHtml(item.label)}</li>`;
+            return `${sep}<li class="font-bold text-slate-900 text-sm sm:text-base break-words">${escapeHtml(item.label)}</li>`;
           }
-          return `${sep}<li><button type="button" onclick="${item.action}" class="text-slate-600 hover:text-[#A4123F] underline-offset-2 hover:underline transition-colors">${escapeHtml(item.label)}</button></li>`;
+          return `${sep}<li><button type="button" onclick="${item.action}" class="font-semibold text-slate-700 hover:text-[#A4123F] underline-offset-4 hover:underline transition-colors text-sm sm:text-base cursor-pointer">${escapeHtml(item.label)}</button></li>`;
         })
         .join("");
 
@@ -1362,7 +1500,7 @@
 
       container.className =
         layoutMode === "grid"
-          ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+          ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
           : "flex flex-col gap-3";
 
       container.innerHTML = filteredLabs
@@ -1380,20 +1518,20 @@
               href="${escapeHtml(lab.url)}"
               target="_blank"
               rel="noopener noreferrer"
-              class="lab-item-card ${isNew ? "lab-item-new" : ""} rounded-2xl p-5 flex flex-col justify-between gap-4 group focus:outline-none focus:ring-2 focus:ring-[#A4123F]/30"
+              class="lab-item-card ${isNew ? "lab-item-new" : ""} rounded-2xl p-4 sm:p-5 flex flex-col justify-between gap-4 group focus:outline-none focus:ring-2 focus:ring-[#A4123F]/30 min-w-0"
             >
-              <div class="space-y-2.5">
+              <div class="space-y-2.5 min-w-0">
                 <div class="flex items-start justify-between gap-2">
                   <span class="text-xs font-bold text-slate-400">Lab ${String(idx + 1).padStart(2, "0")}</span>
                   ${newBadge}
                 </div>
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug break-words">
                   ${escapeHtml(lab.name)} ${isNew ? '<span class="text-emerald-700 font-bold">(New)</span>' : ""}
                 </h3>
               </div>
 
-              <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2 text-xs">
-                <span class="text-slate-500 truncate">${escapeHtml(lab.url.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</span>
+              <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2 text-xs min-w-0">
+                <span class="text-slate-500 truncate min-w-0">${escapeHtml(lab.url.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</span>
                 <span class="inline-flex items-center gap-1 font-bold text-[#A4123F] shrink-0">
                   <span>Launch Lab</span>
                   <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
@@ -1413,11 +1551,11 @@
       const listBtn = document.getElementById("viewListBtn");
       if (gridBtn && listBtn) {
         if (layoutMode === "grid") {
-          gridBtn.className = "px-2.5 py-1.5 rounded-lg text-xs font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1";
-          listBtn.className = "px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1";
+          gridBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer";
+          listBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
         } else {
-          listBtn.className = "px-2.5 py-1.5 rounded-lg text-xs font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1";
-          gridBtn.className = "px-2.5 py-1.5 rounded-lg text-xs font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1";
+          listBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer";
+          gridBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
         }
       }
       renderLabs();
@@ -1451,17 +1589,17 @@
               href="${escapeHtml(form.url)}"
               target="_blank"
               rel="noopener noreferrer"
-              class="lab-item-card rounded-2xl p-6 flex flex-col justify-between gap-5 group focus:outline-none focus:ring-2 focus:ring-[#0D6E52]/30"
+              class="lab-item-card rounded-2xl p-5 sm:p-6 flex flex-col justify-between gap-5 group focus:outline-none focus:ring-2 focus:ring-[#0D6E52]/30"
             >
               <div class="space-y-3">
                 <div class="flex items-center justify-between gap-2">
                   <span class="px-2.5 py-0.5 rounded-full text-xs font-bold border ${badgeClass}">
                     ${escapeHtml(form.type || "Google Form")}
                   </span>
-                  <i data-lucide="file-Spreadsheet" class="w-4 h-4 text-slate-400 group-hover:text-[#0D6E52] transition-colors"></i>
+                  <i data-lucide="file-text" class="w-4 h-4 text-slate-400 group-hover:text-[#0D6E52] transition-colors"></i>
                 </div>
 
-                <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#0D6E52] transition-colors leading-snug">
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#0D6E52] transition-colors leading-snug">
                   ${escapeHtml(form.title)}
                 </h3>
 
@@ -1536,7 +1674,7 @@
 
       if (filteredPubs.length === 0) {
         container.innerHTML = `
-          <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-10 text-center space-y-2">
+          <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-8 sm:p-10 text-center space-y-2">
             <p class="text-sm font-bold text-slate-700">No matching publications found.</p>
             <p class="text-xs text-slate-500">Try clearing or refining your search query.</p>
           </div>
@@ -1548,10 +1686,10 @@
         .map((pub, idx) => {
           const citations = Number(pub.citations) || 0;
           return `
-            <article class="lab-item-card rounded-2xl p-6 flex flex-col justify-between gap-4">
-              <div class="space-y-3">
+            <article class="lab-item-card rounded-2xl p-5 sm:p-6 flex flex-col justify-between gap-4 min-w-0">
+              <div class="space-y-3 min-w-0">
                 <div class="flex flex-wrap items-center justify-between gap-2">
-                  <div class="flex items-center gap-2">
+                  <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
                     <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
                       #${idx + 1} · ${escapeHtml(pub.year)}
                     </span>
@@ -1560,21 +1698,21 @@
                     </span>
                   </div>
 
-                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-900 border border-amber-300">
+                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-900 border border-amber-300 shrink-0">
                     <i data-lucide="award" class="w-3.5 h-3.5 text-amber-700"></i>
                     <span>Cited by ${citations}</span>
                   </span>
                 </div>
 
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 leading-snug">
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 leading-snug break-words">
                   ${escapeHtml(pub.title)}
                 </h3>
 
-                <p class="text-xs sm:text-sm font-semibold text-[#A4123F]">
+                <p class="text-xs sm:text-sm font-semibold text-[#A4123F] break-words">
                   ${escapeHtml(pub.authors)}
                 </p>
 
-                <p class="text-xs italic text-slate-600">
+                <p class="text-xs italic text-slate-600 break-words">
                   ${escapeHtml(pub.venue)}
                 </p>
 
@@ -1587,8 +1725,8 @@
                 }
               </div>
 
-              <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
-                <span class="text-slate-500">Google Scholar Verified Citations: <strong>${citations}</strong></span>
+              <div class="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <span class="text-slate-500">Google Scholar Citations: <strong>${citations}</strong></span>
                 <a
                   href="${escapeHtml(pub.url || "https://www.amrita.edu/center/mind-brain/publications/")}"
                   target="_blank"
@@ -1663,7 +1801,7 @@
               <span class="font-bold text-slate-900">${escapeHtml(q.title)}</span>
               <span class="text-slate-500 ml-1">(${escapeHtml(q.type)})</span>
             </div>
-            <button type="button" onclick="removeQuestionnaire(${idx})" class="text-rose-600 hover:underline font-semibold shrink-0">Remove</button>
+            <button type="button" onclick="removeQuestionnaire(${idx})" class="text-rose-600 hover:underline font-semibold shrink-0 cursor-pointer">Remove</button>
           </div>
         `
         )
@@ -1702,13 +1840,13 @@
       list.innerHTML = researchPublications
         .filter(hasRequiredAuthors)
         .map(
-          (p, idx) => `
+          (p) => `
           <div class="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs">
             <div class="truncate">
               <span class="font-bold text-slate-900">${escapeHtml(p.title)}</span>
               <span class="text-amber-800 font-semibold ml-1">(Cited by ${Number(p.citations) || 0})</span>
             </div>
-            <button type="button" onclick="removePublication('${escapeHtml(p.id)}')" class="text-rose-600 hover:underline font-semibold shrink-0">Remove</button>
+            <button type="button" onclick="removePublication('${escapeHtml(p.id)}')" class="text-rose-600 hover:underline font-semibold shrink-0 cursor-pointer">Remove</button>
           </div>
         `
         )
@@ -1764,40 +1902,54 @@
 
       const btnText = document.getElementById("copyConfigBtnText");
       if (btnText) {
-        const prev = btnText.textContent;
+        if (copyButtonTimeout !== null) {
+          clearTimeout(copyButtonTimeout);
+        }
         btnText.textContent = "Copied Config to Clipboard!";
-        setTimeout(() => {
-          btnText.textContent = prev;
+        copyButtonTimeout = setTimeout(() => {
+          btnText.textContent = "Copy JS Config for GitHub";
+          copyButtonTimeout = null;
         }, 2200);
       }
     }
 
     // =======================================================================
-    // FOOTER VISITOR COUNTER (COUNTERAPI + LOCALSTORAGE FALLBACK)
+    // FOOTER VISITOR COUNTER (FRESH START & RESETTABLE)
     // =======================================================================
+    const VISITOR_STORAGE_KEY = "amrita_vlabs_portal_visits_reset_v1";
+
     async function initVisitorCounter() {
       const counterEl = document.getElementById("visitorCounterValue");
       if (!counterEl) return;
 
-      const storageKey = "amrita_vlabs_portal_visits_2026";
-      let localCount = parseInt(localStorage.getItem(storageKey) || "1420", 10);
-      if (isNaN(localCount)) localCount = 1420;
+      // Clean out any legacy artificial offset keys
+      localStorage.removeItem("amrita_vlabs_portal_visits_2026");
+
+      let localCount = parseInt(localStorage.getItem(VISITOR_STORAGE_KEY) || "0", 10);
+      if (isNaN(localCount) || localCount < 0) localCount = 0;
       localCount += 1;
-      localStorage.setItem(storageKey, String(localCount));
+      localStorage.setItem(VISITOR_STORAGE_KEY, String(localCount));
+      counterEl.textContent = localCount.toLocaleString();
 
       try {
-        const res = await fetch("https://api.counterapi.dev/v1/amrita-vlabs-portal-2026/page-visits/up");
+        const res = await fetch("https://api.counterapi.dev/v1/amrita-vlabs-portal-2026-clean/visits/up");
         if (res.ok) {
           const data = await res.json();
-          if (data && typeof data.count === "number") {
+          if (data && typeof data.count === "number" && data.count > 0) {
             counterEl.textContent = data.count.toLocaleString();
-            return;
           }
         }
       } catch (_) {
-        // Fallback to localStorage counter if offline or blocked
+        // Uses accurate localStorage count if offline or blocked
       }
-      counterEl.textContent = localCount.toLocaleString();
+    }
+
+    function resetVisitorCounter() {
+      localStorage.setItem(VISITOR_STORAGE_KEY, "1");
+      const counterEl = document.getElementById("visitorCounterValue");
+      if (counterEl) {
+        counterEl.textContent = "1";
+      }
     }
 
     // =======================================================================
@@ -1832,6 +1984,7 @@
       renderEvaluations();
       renderResearchPublications();
       updateBreadcrumb();
+      startSessionTimer();
       initVisitorCounter();
 
       if (window.lucide) lucide.createIcons();
