@@ -75,6 +75,7 @@
       color: #0F172A;
       overflow-x: hidden;
       -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
     }
 
     /* Separately Highlighted Section Containers */
@@ -153,21 +154,21 @@
   <!-- ===================================================================== -->
   <!-- TOP HEADER WITH ORIGINAL VIRTUAL LABS & AMRITA LOGOS (CENTERED)      -->
   <!-- ===================================================================== -->
-  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs">
-    <div class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-4 md:py-5 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-8 md:gap-12">
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-sm">
+    <div class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-4 md:py-5 flex flex-row flex-wrap items-center justify-center gap-3 xs:gap-5 sm:gap-8 md:gap-12">
 
       <!-- 1st: Original Virtual Labs Logo (Sized so "An MoE Govt of India Initiative" is clearly legible across devices) -->
       <button
         type="button"
         onclick="navigateTo('home')"
-        class="text-center group focus:outline-none flex items-center justify-center p-1 rounded-xl hover:bg-slate-50/80 transition-colors cursor-pointer"
+        class="text-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#A4123F] flex items-center justify-center p-1 rounded-xl hover:bg-slate-50/80 transition-colors cursor-pointer"
         title="Virtual Labs — An MoE Govt of India Initiative (Click to go Home)"
       >
         <img
           id="vlabLogoImg"
           src="vl logo_2.jpg"
           alt="Virtual Labs — An MoE Govt of India Initiative"
-          class="h-16 xs:h-20 sm:h-20 md:h-24 w-auto max-w-[88vw] sm:max-w-[260px] md:max-w-[320px] object-contain select-none bg-white"
+          class="h-14 xs:h-16 sm:h-20 md:h-24 w-auto max-w-[42vw] xs:max-w-[44vw] sm:max-w-[260px] md:max-w-[320px] object-contain select-none bg-white"
           style="image-rendering: -webkit-optimize-contrast;"
           onerror="handleLogoFallback(this, [
             'vl logo.jpg',
@@ -180,7 +181,7 @@
         />
         <!-- High-resolution exact replica fallback if local/remote image files are blocked -->
         <div id="vlabFallbackLogo" class="hidden items-center justify-center">
-          <svg viewBox="0 0 430 220" class="h-16 xs:h-20 sm:h-20 md:h-24 w-auto max-w-[88vw] select-none" role="img" aria-label="Virtual Labs — An MoE Govt of India Initiative">
+          <svg viewBox="0 0 430 220" class="h-14 xs:h-16 sm:h-20 md:h-24 w-auto max-w-[42vw] sm:max-w-[260px] select-none" role="img" aria-label="Virtual Labs — An MoE Govt of India Initiative">
             <path d="M58 46 H38 C24 46 14 56 14 70 V142 C14 156 24 166 38 166 H162 C176 166 186 156 186 142 V70 C186 56 176 46 162 46 H134" fill="none" stroke="#238DC1" stroke-width="10" stroke-linecap="round"/>
             <path d="M6 177 H82 C85 182 91 185 100 185 C109 185 115 182 118 177 H194 C199 177 203 181 203 186 C203 191 199 195 194 195 H6 C1 195 -3 191 -3 186 C-3 181 1 177 6 177 Z" fill="#238DC1"/>
             <path d="M84 18 H116 M88 18 V52 L50 124 C44 136 52 150 66 150 H134 C148 150 156 136 150 124 L112 52 V18 Z" fill="#6CBE45" stroke="#6CBE45" stroke-width="4" stroke-linejoin="round"/>
@@ -196,34 +197,32 @@
         </div>
       </button>
 
-      <!-- Responsive Divider (Horizontal on Mobile, Vertical on Tablet/Desktop) -->
-      <div class="block sm:hidden w-3/4 h-px bg-slate-200/80"></div>
-      <div class="hidden sm:block h-16 md:h-20 w-px bg-slate-200 shrink-0"></div>
+      <!-- Responsive Vertical Divider -->
+      <div class="h-10 xs:h-12 sm:h-16 md:h-20 w-px bg-slate-200 shrink-0"></div>
 
       <!-- 2nd: Original Amrita Vishwa Vidyapeetham Logo (Sized so "DEEMED TO BE UNIVERSITY..." is clearly legible) -->
       <button
         type="button"
         onclick="navigateTo('home')"
-        class="text-center group focus:outline-none flex items-center justify-center p-1 rounded-xl hover:bg-slate-50/80 transition-colors cursor-pointer"
+        class="text-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#A4123F] flex items-center justify-center p-1 rounded-xl hover:bg-slate-50/80 transition-colors cursor-pointer"
         title="Amrita Vishwa Vidyapeetham (Click to go Home)"
       >
         <img
           id="amritaLogoImg"
           src="logo-branding-amrita-universiy-2024.png"
           alt="Amrita Vishwa Vidyapeetham — Deemed to be University under Section 3 of UGC Act, 1956"
-          class="h-16 xs:h-20 sm:h-20 md:h-24 w-auto max-w-[92vw] sm:max-w-[330px] md:max-w-[430px] object-contain select-none bg-white"
+          class="h-14 xs:h-16 sm:h-20 md:h-24 w-auto max-w-[46vw] xs:max-w-[48vw] sm:max-w-[330px] md:max-w-[430px] object-contain select-none bg-white"
           style="image-rendering: -webkit-optimize-contrast;"
           onerror="handleLogoFallback(this, [
             'logo-branding-amrita-universiy-2024_2.png',
-            'logo-branding-amrita-universiy-2024.png',
             'https://webfiles.amrita.edu/2024/06/logo-branding-amrita-universiy-2024.png',
             'https://webfiles.amrita.edu/2024/06/logo-branding-amrita-universiy-2024.svg',
             'https://commons.wikimedia.org/wiki/Special:FilePath/Amrita-vishwa-vidyapeetham-logo.svg'
           ], 'amritaFallbackText')"
         />
         <div id="amritaFallbackText" class="hidden flex-col items-center text-center px-2">
-          <span class="font-display font-bold text-xl sm:text-2xl md:text-3xl text-[#A4123F] tracking-wide">AMRITA VISHWA VIDYAPEETHAM</span>
-          <span class="text-xs sm:text-sm text-[#A4123F] uppercase tracking-widest font-semibold mt-0.5">Deemed to be University under Section 3 of UGC Act, 1956</span>
+          <span class="font-display font-bold text-base xs:text-lg sm:text-2xl md:text-3xl text-[#A4123F] tracking-wide">AMRITA VISHWA VIDYAPEETHAM</span>
+          <span class="text-[10px] xs:text-xs sm:text-sm text-[#A4123F] uppercase tracking-widest font-semibold mt-0.5">Deemed to be University under Section 3 of UGC Act, 1956</span>
         </div>
       </button>
 
@@ -231,55 +230,37 @@
   </header>
 
   <!-- ===================================================================== -->
-  <!-- HIERARCHICAL BREADCRUMB, PROMINENT HOME BUTTON & SESSION TIMER BAR    -->
+  <!-- HIERARCHICAL BREADCRUMB & PROMINENT HOME BUTTON BAR                   -->
   <!-- ===================================================================== -->
-  <div class="bg-white border-b border-slate-200/90 shadow-2xs">
-    <div class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-3.5 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+  <div class="bg-white border-b border-slate-200/90 shadow-sm">
+    <div class="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3.5 flex flex-wrap items-center justify-between gap-2.5 sm:gap-3">
       
       <!-- Left: Prominent Home Button + Breadcrumb Trail -->
-      <div class="flex items-center flex-wrap gap-2.5 sm:gap-3">
+      <div class="flex items-center flex-wrap gap-2 sm:gap-3 min-w-0">
         <button
           id="prominentHomeBtn"
           type="button"
           onclick="navigateTo('home')"
-          class="inline-flex items-center justify-center gap-2 px-5 py-2.5 min-h-[44px] rounded-xl text-base sm:text-lg font-bold bg-[#A4123F] text-white hover:bg-[#881337] active:scale-[0.99] shadow-sm transition-all cursor-pointer shrink-0"
+          class="inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 min-h-[42px] sm:min-h-[44px] rounded-xl text-sm sm:text-base md:text-lg font-bold bg-[#A4123F] text-white hover:bg-[#881337] active:scale-[0.99] shadow-sm transition-all cursor-pointer shrink-0"
         >
-          <i data-lucide="home" class="w-5 h-5"></i>
+          <i data-lucide="home" class="w-4 h-4 sm:w-5 sm:h-5"></i>
           <span>Home</span>
         </button>
 
         <nav aria-label="Directory Breadcrumb" class="flex items-center flex-wrap gap-1.5 sm:gap-2 text-sm sm:text-base min-w-0">
-          <ol id="breadcrumbTrail" class="flex items-center flex-wrap gap-1.5 sm:gap-2">
+          <ol id="breadcrumbTrail" class="flex items-center flex-wrap gap-1.5 sm:gap-2 min-w-0">
             <!-- Populated dynamically via JS -->
           </ol>
         </nav>
       </div>
 
-      <!-- Right: Session Timer with Reset + Back Button -->
-      <div class="flex items-center justify-between sm:justify-end flex-wrap gap-2.5">
-        <!-- Session Timer + Working Reset Button -->
-        <div class="inline-flex items-center gap-2 px-3 py-1.5 min-h-[40px] rounded-xl bg-slate-50 border border-slate-200/90 text-xs sm:text-sm text-slate-700">
-          <i data-lucide="clock" class="w-4 h-4 text-[#A4123F] shrink-0"></i>
-          <span class="text-slate-500 hidden xs:inline">Session:</span>
-          <span id="sessionTimerDisplay" class="font-bold text-slate-900 tabular-nums tracking-wider">00:00</span>
-          <button
-            id="resetTimerBtn"
-            type="button"
-            onclick="resetSessionTimer()"
-            class="ml-1 inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold bg-white border border-slate-300 text-slate-700 hover:border-[#A4123F] hover:text-[#A4123F] active:bg-rose-50 transition-colors shadow-2xs cursor-pointer"
-            title="Reset Session Timer to 00:00"
-          >
-            <i data-lucide="rotate-ccw" class="w-3 h-3"></i>
-            <span>Reset</span>
-          </button>
-        </div>
-
-        <!-- Prominent Back Button -->
+      <!-- Right: Prominent Back Button -->
+      <div class="flex items-center justify-end shrink-0">
         <button
           id="globalBackBtn"
           type="button"
           onclick="navigateBack()"
-          class="hidden inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-2.5 min-h-[44px] rounded-xl text-sm sm:text-base font-bold text-slate-800 bg-slate-100 border border-slate-300 hover:bg-slate-200 transition-colors shadow-2xs cursor-pointer"
+          class="hidden inline-flex items-center justify-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2 sm:py-2.5 min-h-[42px] sm:min-h-[44px] rounded-xl text-xs sm:text-base font-bold text-slate-800 bg-slate-100 border border-slate-300 hover:bg-slate-200 transition-colors shadow-sm cursor-pointer"
         >
           <i data-lucide="arrow-left" class="w-4 h-4 sm:w-5 sm:h-5"></i>
           <span id="globalBackBtnLabel">Back to Home</span>
@@ -338,7 +319,7 @@
               <span class="text-xs font-medium text-slate-500">
                 3 Broad Areas · 32 Labs
               </span>
-              <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-[#A4123F] text-white group-hover:bg-[#881337] transition-colors shadow-2xs">
+              <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-[#A4123F] text-white group-hover:bg-[#881337] transition-colors shadow-sm">
                 <span>Open Directory</span>
                 <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-0.5"></i>
               </span>
@@ -382,7 +363,7 @@
               <span id="homeEvalCountLabel" class="text-xs font-medium text-slate-500">
                 2 Evaluation Sub-Sections
               </span>
-              <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-[#0D6E52] text-white group-hover:bg-emerald-900 transition-colors shadow-2xs">
+              <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-[#0D6E52] text-white group-hover:bg-emerald-900 transition-colors shadow-sm">
                 <span>Open Evaluation</span>
                 <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-0.5"></i>
               </span>
@@ -424,9 +405,9 @@
 
             <div class="pt-4 sm:pt-5 border-t border-slate-200/80 flex items-center justify-between gap-2 flex-wrap">
               <span id="homeResearchCountLabel" class="text-xs font-medium text-slate-500">
-                17 Publications · Sorted by Citations
+                28 Publications · Sorted by Citations
               </span>
-              <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-[#1E3A8A] text-white group-hover:bg-blue-950 transition-colors shadow-2xs">
+              <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-[#1E3A8A] text-white group-hover:bg-blue-950 transition-colors shadow-sm">
                 <span>View Publications</span>
                 <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-0.5"></i>
               </span>
@@ -480,11 +461,8 @@
                 Sub-Section 2.1
               </span>
               <h2 class="text-xl sm:text-2xl font-bold text-slate-900">
-                Virtual Lab Feedback &amp; Questionnaire Evaluations (Google Forms)
+                Virtual Lab Feedback &amp; Questionnaire Evaluations
               </h2>
-              <p class="text-xs sm:text-sm text-slate-600 mt-1">
-                Standard feedback questionnaires and assessment forms for students and faculty using Amrita Virtual Laboratories.
-              </p>
             </div>
           </div>
 
@@ -674,16 +652,6 @@
           </div>
 
           <div class="flex flex-wrap items-center gap-2.5">
-            <a
-              id="activeBroadAreaCentralLink"
-              href="https://www.vlab.co.in/broad-area-biotechnology-and-biomedical-engineering"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full xs:w-auto justify-center inline-flex items-center gap-1.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-bold border border-slate-300 bg-white text-slate-800 hover:border-[#A4123F] hover:text-[#A4123F] transition-colors shadow-sm"
-            >
-              <span>View on vlab.co.in</span>
-              <i data-lucide="external-link" class="w-4 h-4"></i>
-            </a>
             <button
               type="button"
               onclick="navigateTo('broad-areas')"
@@ -729,7 +697,7 @@
               id="viewGridBtn"
               type="button"
               onclick="setLayoutMode('grid')"
-              class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer"
+              class="px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-sm transition-all flex items-center gap-1.5 cursor-pointer"
             >
               <i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>
               <span>Grid</span>
@@ -780,26 +748,14 @@
           <div>
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-[#1E3A8A] text-xs font-semibold uppercase tracking-wider mb-2.5">
               <span class="w-2 h-2 rounded-full bg-[#1E3A8A]"></span>
-              <span>Section 03 · Amrita Mind Brain Center · Sorted by Citations</span>
+              <span>Section 03 · Research Findings &amp; Publications</span>
             </div>
             <h1 id="research-heading" class="font-display text-2xl sm:text-3xl font-semibold text-slate-900 tracking-tight">
               Research Findings &amp; Publications
             </h1>
-            <p class="mt-1.5 text-xs sm:text-sm text-slate-600 max-w-3xl">
-              Official Virtual Lab-related research publications from the <strong>Amrita Mind Brain Center</strong> (<a href="https://www.amrita.edu/center/mind-brain/publications/" target="_blank" rel="noopener noreferrer" class="underline text-[#1E3A8A] font-semibold break-all sm:break-normal">amrita.edu/center/mind-brain/publications</a>), ranked with the most-cited papers listed first according to Google Scholar.
-            </p>
           </div>
 
           <div class="flex flex-wrap items-center gap-2.5">
-            <a
-              href="https://www.amrita.edu/center/mind-brain/publications/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full xs:w-auto justify-center inline-flex items-center gap-1.5 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-bold border border-blue-300 bg-blue-50 text-[#1E3A8A] hover:bg-blue-100 transition-colors shadow-sm"
-            >
-              <span>Amrita Mind Brain Center Publications</span>
-              <i data-lucide="external-link" class="w-4 h-4"></i>
-            </a>
             <button
               type="button"
               onclick="navigateTo('home')"
@@ -818,7 +774,7 @@
               Virtual Laboratories Research Publications
             </h2>
             <span id="researchPubsCountBadge" class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-[#1E3A8A] border border-blue-200">
-              17 Publications
+              28 Publications
             </span>
           </div>
 
@@ -831,6 +787,15 @@
               autocomplete="off"
               class="w-full pl-9 pr-8 py-2.5 min-h-[42px] text-sm rounded-xl bg-white border border-slate-200 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-[#1E3A8A] focus:ring-2 focus:ring-[#1E3A8A]/15 transition-all"
             />
+            <button
+              id="clearResearchSearchBtn"
+              type="button"
+              onclick="clearResearchSearch()"
+              class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 cursor-pointer"
+              aria-label="Clear publication search"
+            >
+              <i data-lucide="x" class="w-4 h-4"></i>
+            </button>
           </div>
         </div>
 
@@ -847,30 +812,26 @@
   <!-- ===================================================================== -->
   <!-- FOOTER WITH VISITOR COUNTER & COPYRIGHT                               -->
   <!-- ===================================================================== -->
-  <footer class="bg-white border-t border-slate-200/90 mt-auto">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center justify-center gap-2.5 text-xs sm:text-sm text-slate-700">
-
-      <!-- Page Access / Visitor Counter -->
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-50 border border-slate-200/90 text-xs sm:text-sm text-slate-700 shadow-2xs">
-        <i data-lucide="users" class="w-3.5 h-3.5 text-[#A4123F]"></i>
+  <footer class="bg-white border-t border-slate-300 py-3 px-4 mt-6 text-center text-xs font-medium text-slate-600">
+    <div class="mb-2 flex items-center justify-center">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-200/90 text-xs text-slate-700 shadow-sm">
+        <i data-lucide="users" class="w-3.5 h-3.5 text-[#a4123f]"></i>
         <span>Total Page Visits:</span>
-        <span id="visitorCounterValue" class="font-bold text-[#A4123F] tracking-wide tabular-nums">1</span>
+        <span id="visitorCounterValue" class="font-bold text-[#a4123f] tracking-wide tabular-nums">1</span>
       </div>
-
-      <!-- Official Copyright Line + Subtle Owner Config Trigger -->
-      <div class="flex items-center justify-center flex-wrap gap-2 font-semibold text-center text-slate-800">
-        <span>Copyright 2026, Virtual Labs, Amrita Vishwa Vidyapeetham</span>
-        <button
-          type="button"
-          onclick="openAdminModal()"
-          class="text-slate-300 hover:text-slate-500 transition-colors p-1 rounded cursor-pointer"
-          title="Administrator Configuration"
-          aria-label="Administrator Configuration"
-        >
-          <i data-lucide="lock" class="w-3.5 h-3.5"></i>
-        </button>
-      </div>
-
+    </div>
+    <div>
+      <span class="text-slate-500">&copy;Copyright 2026 </span>
+      <span class="text-[#a4123f] font-semibold">Virtual Labs, Amrita Vishwa Vidyapeetham</span>
+      <button
+        type="button"
+        onclick="openAdminModal()"
+        class="inline-flex align-middle ml-1 text-slate-300 hover:text-slate-500 transition-colors p-0.5 rounded cursor-pointer"
+        title="Administrator Configuration"
+        aria-label="Administrator Configuration"
+      >
+        <i data-lucide="lock" class="w-3 h-3"></i>
+      </button>
     </div>
   </footer>
 
@@ -879,7 +840,8 @@
   <!-- ===================================================================== -->
   <div
     id="adminModalBackdrop"
-    class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-4"
+    onclick="if(event.target === this) closeAdminModal()"
+    class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4"
   >
     <div class="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 shadow-2xl max-w-3xl w-full max-h-[92vh] flex flex-col overflow-hidden">
       <!-- Modal Header -->
@@ -900,7 +862,7 @@
       <!-- Passcode Gate -->
       <div id="adminAuthGate" class="p-5 sm:p-8 space-y-4">
         <p class="text-xs sm:text-sm text-slate-600">
-          Uploading or modifying questionnaires and publications is restricted for visitors. Enter the administrator passcode to manage links, reset counters/timers, and generate the updated JavaScript configuration for GitHub.
+          Uploading or modifying questionnaires and publications is restricted for visitors. Enter the administrator passcode to manage links, reset the visitor counter, and generate the updated JavaScript configuration for GitHub.
         </p>
         <form onsubmit="verifyAdminPasscode(event)" class="flex flex-col sm:flex-row gap-3">
           <input
@@ -923,20 +885,13 @@
 
       <!-- Unlocked Configuration Panel -->
       <div id="adminConfigPanel" class="hidden p-5 sm:p-6 overflow-y-auto space-y-6 flex-1">
-        <!-- Quick Reset Controls for Timer & Visitor Counter -->
+        <!-- Quick Reset Control for Visitor Counter -->
         <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
-            <h4 class="text-xs sm:text-sm font-bold text-slate-900">Session Timer &amp; Visitor Counter Controls</h4>
-            <p class="text-xs text-slate-500">Reset the active session timer or local visitor counter to start fresh.</p>
+            <h4 class="text-xs sm:text-sm font-bold text-slate-900">Visitor Counter Control</h4>
+            <p class="text-xs text-slate-500">Reset the local visitor counter to start fresh.</p>
           </div>
           <div class="flex flex-wrap items-center gap-2">
-            <button
-              type="button"
-              onclick="resetSessionTimer()"
-              class="px-3.5 py-2 rounded-xl bg-white border border-slate-300 text-xs font-bold text-slate-700 hover:border-[#A4123F] hover:text-[#A4123F] transition-colors cursor-pointer"
-            >
-              Reset Session Timer
-            </button>
             <button
               type="button"
               onclick="resetVisitorCounter()"
@@ -1015,228 +970,334 @@
   <script>
     /**
      * =======================================================================
-     * OWNER CONFIGURATION 1: VIRTUAL LAB PUBLICATIONS FROM AMRITA MIND BRAIN CENTER
-     * Filtered strictly to publications authored/co-authored by:
-     * Rakhi Radhamani, Dhanush Kumar, or Nijin Nizar
-     * Sorted by Google Scholar Citation Count (Most Cited Listed First)
+     * OWNER CONFIGURATION 1: RESEARCH PUBLICATIONS (SECTION 03)
+     * Filtered to Virtual Lab & education-related publications authored/co-authored
+     * by Rakhi Radhamani, Dhanush Kumar, or Nijin Nizar, sorted by citations.
      * =======================================================================
      */
     const RESEARCH_PUBLICATIONS = [
       {
         id: "ambc-vl-1",
-        title: "What virtual laboratory usage tells us about laboratory skill education pre- and post-COVID-19: Focus on usage, behavior, intention and adoption",
-        authors: "Rakhi Radhamani, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, and Shyam Diwakar",
-        venue: "Education and Information Technologies (Springer Nature), Vol. 26(6), pp. 7477–7495",
+        title: "What virtual laboratory usage tells us about laboratory skill education pre-and post-COVID-19: Focus on usage, behavior, intention and adoption",
+        authors: "Rakhi Radhamani, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, Shyam Diwakar",
+        venue: "Education and Information Technologies, 26(6), 7477–7495",
         year: "2021",
         citations: 196,
-        category: "Usage Behavior & Adoption",
-        finding: "Analyzes large-scale user behavior and adoption patterns across Amrita Virtual Laboratories before and after COVID-19, demonstrating their critical role in inquiry-based, self-guided skill education with minimal instructor dependency.",
+        category: "Usage, Behavior & Adoption",
+        finding: "Analyzed pre- and post-COVID-19 virtual lab adoption, showing how autonomous exploration and explicit learner interactions support laboratory skill acquisition.",
         url: "https://doi.org/10.1007/s10639-021-10583-3"
       },
       {
         id: "ambc-vl-2",
-        title: "Complementing education via virtual labs: Implementation and deployment of remote laboratories and usage analysis in south Indian villages",
-        authors: "Shyam Diwakar, Dhanush Kumar, Rakhi Radhamani, Hemalatha Sasidharakurup, Nijin Nizar, Krishnashree Achuthan, and Bipin Nair",
-        venue: "International Journal of Online Engineering (iJOE), Vol. 12(03), pp. 8–15",
+        title: "Complementing education via virtual labs: Implementation and deployment of remote laboratories and usage analysis in South Indian villages",
+        authors: "Shyam Diwakar, Dhanush Kumar, Rakhi Radhamani, Hemalatha Sasidharakurup, Nijin Nizar, Krishnashree Achuthan, Prema Nedungadi, Raghu Raman, Bipin Nair",
+        venue: "International Journal of Online Engineering (iJOE), 12(03), 8–15",
         year: "2016",
         citations: 73,
-        category: "Remote Labs & Rural Outreach",
-        finding: "Evaluates the deployment of virtual and remotely triggered laboratories across rural and urban learners, bridging geographical disparities in laboratory access.",
+        category: "Remote Labs & Rural Deployment",
+        finding: "Demonstrated how simulation and remote virtual laboratories bridge infrastructural gaps and improve conceptual understanding across rural and urban institutions.",
         url: "https://doi.org/10.3991/ijoe.v12i03.5391"
       },
       {
         id: "ambc-vl-3",
         title: "Virtual labs improve student's performance in a classroom",
-        authors: "Rakhi Radhamani, Hemalatha Sasidharakurup, Gopika Sujatha, Bipin Nair, Krishnashree Achuthan, and Shyam Diwakar",
-        venue: "International Conference on E-Learning, E-Education, and Online Training (eLEOT 2014), Springer LNICST, Vol. 138, pp. 138–146",
+        authors: "Rakhi Radhamani, Hemalatha Sasidharakurup, Gopika Sujatha, Bipin Nair, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "International Conference on E-Learning, E-Education, and Online Training (eLEOT), Springer, 138–146",
         year: "2014",
         citations: 69,
-        category: "Classroom Performance Assessment",
-        finding: "Pre- and post-test classroom evaluations revealed that students using biotechnology virtual labs significantly outperformed traditional instruction alone.",
+        category: "Classroom Performance",
+        finding: "Empirical classroom evaluation showing significant improvement in student test scores and conceptual clarity when virtual laboratories supplement traditional lectures.",
         url: "https://doi.org/10.1007/978-3-319-13293-8_17"
       },
       {
         id: "ambc-vl-4",
         title: "Role of ICT-enabled virtual laboratories in biotechnology education: Case studies on blended and remote learning",
-        authors: "Shyam Diwakar, Dhanush Kumar, Rakhi Radhamani, Nijin Nizar, Bipin G. Nair, Hemalatha Sasidharakurup, and Krishnashree Achuthan",
-        venue: "IEEE International Conference on Interactive Collaborative Learning (ICL 2015), pp. 915–921",
+        authors: "Shyam Diwakar, Dhanush Kumar, Rakhi Radhamani, Nijin Nizar, Bipin Nair, Hemalatha Sasidharakurup, Krishnashree Achuthan",
+        venue: "2015 International Conference on Interactive Collaborative Learning (ICL), IEEE, 915–921",
         year: "2015",
         citations: 50,
         category: "Blended & Remote Learning",
-        finding: "Presents multi-institutional case studies showing high adaptability of ICT-enabled virtual laboratories for both blended classroom instruction and remote learners.",
-        url: "https://doi.org/10.1109/ICL.2015.7318166"
+        finding: "Evaluated blended classroom and remote learning scenarios in biotechnology, highlighting the role of ICT-enabled virtual labs in self-paced experimentation.",
+        url: "https://doi.org/10.1109/ICL.2015.7318149"
+      },
+      {
+        id: "ambc-vl-18",
+        title: "Remote triggered photovoltaic solar cell lab: Effective implementation strategies for Virtual Labs",
+        authors: "Joshua Freeman, Akshay Nagarajan, Mithula Parangan, Dhanush Kumar, Shyam Diwakar, Krishnashree Achuthan",
+        venue: "2012 IEEE International Conference on Technology Enhanced Education (ICTEE), 1–7",
+        year: "2012",
+        citations: 36,
+        category: "Remote Triggered Virtual Labs",
+        finding: "Presented effective technical and pedagogical implementation strategies for real-time remotely triggered virtual laboratory experiments.",
+        url: "https://doi.org/10.1109/ICTEE.2012.6208653"
       },
       {
         id: "ambc-vl-5",
         title: "Usage and diffusion of biotechnology virtual labs for enhancing university education in India's urban and rural areas",
-        authors: "Shyam Diwakar, Rakhi Radhamani, Gopika Sujatha, Hemalatha Sasidharakurup, A. Shekhar, Krishnashree Achuthan, Prema Nedungadi, Raghu Raman, and Bipin Nair",
-        venue: "Virtual Reality in Education: Breakthroughs in Research and Practice (IGI Global), pp. 433–453",
+        authors: "Shyam Diwakar, Rakhi Radhamani, Gopika Sujatha, Hemalatha Sasidharakurup, Amrita Shekhar, Krishnashree Achuthan, Prema Nedungadi, Raghu Raman, Bipin Nair",
+        venue: "Virtual Reality in Education: Breakthroughs in Research and Practice, IGI Global, 433–453",
         year: "2019",
         citations: 33,
-        category: "Urban & Rural Diffusion",
-        finding: "Examines how biotechnology virtual laboratories scale across urban and rural universities in India to standardize laboratory education quality.",
-        url: "https://www.amrita.edu/center/mind-brain/publications/"
+        category: "Diffusion & Higher Education",
+        finding: "Investigated geographical diffusion and student adoption trends of biotechnology virtual laboratories across Indian universities.",
+        url: "https://doi.org/10.4018/978-1-5225-8179-6.ch021"
       },
       {
         id: "ambc-vl-6",
         title: "Using Virtual Laboratories as Interactive Textbooks: Studies on Blended Learning in Biotechnology Classrooms",
-        authors: "Hemalatha Sasidharakurup, Rakhi Radhamani, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Bipin G. Nair, and Shyam Diwakar",
-        venue: "EAI Endorsed Transactions on e-Learning, Vol. 2(6): e4",
+        authors: "Hemalatha Sasidharakurup, Rakhi Radhamani, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "EAI Endorsed Transactions on e-Learning, 2(6), e4",
         year: "2015",
         citations: 30,
         category: "Interactive Textbooks & Blended Learning",
-        finding: "Demonstrates that integrating virtual laboratories as interactive textbooks in blended biotechnology classrooms enhances conceptual comprehension and experimental accuracy.",
+        finding: "Showed that structuring virtual laboratories as interactive textbooks enhances active inquiry, knowledge retention, and student engagement in blended classrooms.",
         url: "https://doi.org/10.4108/el.2.6.e4"
       },
       {
         id: "ambc-vl-7",
         title: "Role of ICT-enabled visualization-oriented virtual laboratories in Universities for enhancing biotechnology education – VALUE initiative: Case study and impacts",
-        authors: "Bipin Nair, R. Krishnan, Nijin Nizar, Rakhi Radhamani, K. Rajan, A. Yoosef, Gopika Sujatha, and Shyam Diwakar",
-        venue: "FormaMente, Vol. 7(1-2), pp. 1–18",
+        authors: "Bipin Nair, R. Krishnan, Nijin Nizar, Rakhi Radhamani, K. Rajan, A. Yoosef, Gopika Sujatha, V. Radhamony, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "FormaMente, 7(1–2), 109–126",
         year: "2012",
         citations: 29,
-        category: "Visualization-Oriented Virtual Labs",
-        finding: "Highlights the impact of animation and simulation-based visualization in helping university students grasp complex molecular and cellular protocols.",
+        category: "Visualization & VALUE Initiative",
+        finding: "Presented the VALUE virtual labs framework and demonstrated how visualization-oriented simulations strengthen experimental comprehension in life sciences.",
         url: "https://www.amrita.edu/center/mind-brain/publications/"
       },
       {
+        id: "ambc-vl-19",
+        title: "Implementing a Remote-Triggered Light Microscope: Enabling Lab Access via VALUE Virtual labs",
+        authors: "Dhanush Kumar, Hareesh Singanamala, Krishnashree Achuthan, Sanjeeva Srivastava, Bipin Nair, Shyam Diwakar",
+        venue: "Proceedings of the 2014 International Conference on Interdisciplinary Advances in Applied Computing (ICONIAAC), ACM, 1–6",
+        year: "2014",
+        citations: 28,
+        category: "Remote Microscopy & Lab Access",
+        finding: "Developed and evaluated a remotely triggered light microscope under the VALUE Virtual Labs initiative to provide real-time biological microscopy access.",
+        url: "https://doi.org/10.1145/2660859.2660963"
+      },
+      {
         id: "ambc-vl-8",
-        title: "Virtual and remote laboratories augment self-learning and interactions: Development, deployment and assessments with direct and online feedback",
-        authors: "Dhanush Kumar, Rakhi Radhamani, Nijin Nizar, Krishnashree Achuthan, Bipin G. Nair, and Shyam Diwakar",
-        venue: "PeerJ Preprints, 6:e26715v1",
+        title: "Virtual and remote laboratories augment self learning and interactions: Development, deployment and assessments with direct and online feedback",
+        authors: "Dhanush Kumar, Rakhi Radhamani, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, Shyam Diwakar",
+        venue: "PeerJ Preprints, 6, e26715v1",
         year: "2018",
         citations: 19,
-        category: "Self-Learning & Assessment",
-        finding: "Assesses direct classroom and online feedback from virtual and remote laboratory deployments, highlighting improved autonomous learning and student-simulator interaction.",
+        category: "Self-Learning & Online Assessment",
+        finding: "Assessed direct workshop and online user feedback, confirming that virtual and remote labs promote autonomous self-learning and experimental confidence.",
         url: "https://doi.org/10.7287/peerj.preprints.26715v1"
+      },
+      {
+        id: "ambc-vl-20",
+        title: "Enabling a Freely Accessible Open Source Remotely Controlled Robotic Articulator with a Neuro-Inspired Control Algorithm",
+        authors: "Asha Vijayan, Chaitanya Nutakki, Dhanush Kumar, Krishnashree Achuthan, Bipin Nair, Shyam Diwakar",
+        venue: "International Journal of Online Engineering (iJOE), 13(01), 61–75",
+        year: "2017",
+        citations: 19,
+        category: "Remote Robotics & Online Engineering",
+        finding: "Designed and deployed an open-source, remotely controlled robotic articulator virtual lab for teaching bio-inspired control and kinematics.",
+        url: "https://doi.org/10.3991/ijoe.v13i01.6288"
       },
       {
         id: "ambc-vl-9",
         title: "Assessing students and teachers experience on simulation and remote biotechnology virtual labs: A case study with a light microscopy experiment",
-        authors: "Shyam Diwakar, Rakhi Radhamani, Hemalatha Sasidharakurup, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, and Bipin G. Nair",
-        venue: "International Conference on E-Learning, E-Education, and Online Training (eLEOT 2015), Springer, pp. 44–51",
+        authors: "Shyam Diwakar, Rakhi Radhamani, Hemalatha Sasidharakurup, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Bipin Nair",
+        venue: "International Conference on E-Learning, E-Education, and Online Training (eLEOT), Springer, 44–51",
         year: "2015",
         citations: 18,
-        category: "Simulation & Remote Microscopy",
-        finding: "Evaluates student and faculty feedback on simulation-based and remote-triggered light microscopy experiments, confirming reduced wet-lab handling errors.",
+        category: "Simulation vs. Remote Labs",
+        finding: "Compared student and instructor experiences using simulation-based and remotely triggered light microscopy virtual laboratories.",
         url: "https://doi.org/10.1007/978-3-319-28883-3_6"
       },
       {
         id: "ambc-vl-10",
-        title: "Explicit interactions by users form a critical element in virtual labs aiding enhanced education – a case study from biotechnology virtual labs",
-        authors: "Rakhi Radhamani, Hemalatha Sasidharakurup, Dhanush Kumar, Nijin Nizar, Bipin Nair, Krishnashree Achuthan, and Shyam Diwakar",
-        venue: "IEEE Sixth International Conference on Technology for Education (T4E), pp. 110–115",
+        title: "Explicit interactions by users form a critical element in virtual labs aiding enhanced education – A case study from biotechnology virtual labs",
+        authors: "Rakhi Radhamani, Hemalatha Sasidharakurup, Dhanush Kumar, Nijin Nizar, Bipin Nair, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "2014 IEEE Sixth International Conference on Technology for Education (T4E), 110–115",
         year: "2014",
         citations: 16,
-        category: "User Interaction & Pedagogy",
-        finding: "Shows that explicit user interaction within virtual laboratory simulations is a primary driver of improved conceptual learning outcomes.",
-        url: "https://doi.org/10.1109/T4E.2014.32"
+        category: "User Interactivity & Pedagogy",
+        finding: "Established that explicit step-by-step user interaction within virtual simulations is a decisive factor in reducing cognitive load and improving learning outcomes.",
+        url: "https://doi.org/10.1109/T4E.2014.37"
       },
       {
         id: "ambc-vl-11",
         title: "Virtual laboratories in biotechnology are significant educational informatics tools",
-        authors: "Rakhi Radhamani, A. Divakar, A. A. Nair, A. Sivadas, G. Mohan, Nijin Nizar, Bipin Nair, Krishnashree Achuthan, and Shyam Diwakar",
-        venue: "International Conference on Advances in Computing, Communications and Informatics (ICACCI 2018), IEEE",
+        authors: "Rakhi Radhamani, A. Divakar, A. A. Nair, A. Sivadas, G. Mohan, Nijin Nizar, Bipin Nair, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "2018 International Conference on Advances in Computing, Communications and Informatics (ICACCI), IEEE, 1547–1551",
         year: "2018",
         citations: 14,
         category: "Educational Informatics",
-        finding: "Establishes biotechnology virtual laboratories as effective educational informatics platforms for enhancing inquiry and analytical skills.",
-        url: "https://doi.org/10.1109/ICACCI.2018.8554516"
+        finding: "Demonstrated how biotechnology virtual labs function as scalable educational informatics tools supporting large-scale university curricula.",
+        url: "https://doi.org/10.1109/ICACCI.2018.8554596"
       },
       {
         id: "ambc-vl-12",
         title: "Role of Biotechnology simulation and remotely triggered virtual labs in complementing university education",
-        authors: "Rakhi Radhamani, Hemalatha Sasidharakurup, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, and Shyam Diwakar",
-        venue: "International Conference on Interactive Mobile Communication Technologies and Learning (IMCL 2015), IEEE, pp. 28–32",
+        authors: "Rakhi Radhamani, Hemalatha Sasidharakurup, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, Shyam Diwakar",
+        venue: "2015 International Conference on Interactive Mobile Communication Technologies and Learning (IMCL), IEEE, 28–32",
         year: "2015",
         citations: 14,
-        category: "Simulation & Remote Triggered Labs",
-        finding: "Demonstrates how combining simulation-based and remotely triggered biotechnology labs strengthens practical competency in university coursework.",
+        category: "Simulation & Remote Triggering",
+        finding: "Evaluated how combining mathematical simulations with remotely triggered equipment strengthens practical laboratory training in higher education.",
         url: "https://doi.org/10.1109/IMCTL.2015.7359548"
       },
       {
         id: "ambc-vl-13",
         title: "Mobile learning and biotechnology education via remote labs: Deployment-based study on real time shared resources",
-        authors: "Dhanush Kumar, Hemalatha Sasidharakurup, Rakhi Radhamani, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, and Shyam Diwakar",
-        venue: "International Conference on Interactive Mobile Communication Technologies and Learning (IMCL 2015), IEEE, pp. 33–37",
+        authors: "Dhanush Kumar, Hemalatha Sasidharakurup, Rakhi Radhamani, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, Shyam Diwakar",
+        venue: "2015 International Conference on Interactive Mobile Communication Technologies and Learning (IMCL), IEEE, 33–37",
         year: "2015",
         citations: 10,
-        category: "Mobile Learning & Remote Labs",
-        finding: "Investigates mobile access to real-time shared remote biotechnology laboratory equipment for flexible, device-independent student experimentation.",
+        category: "Mobile Learning & Shared Resources",
+        finding: "Investigated mobile-accessible virtual and remote laboratory architectures for real-time shared laboratory experimentation.",
         url: "https://doi.org/10.1109/IMCTL.2015.7359549"
       },
       {
         id: "ambc-vl-14",
         title: "Using learning theory for assessing effectiveness of laboratory education delivered via a web-based platform",
-        authors: "Shyam Diwakar, Rakhi Radhamani, Nijin Nizar, Dhanush Kumar, Bipin Nair, and Krishnashree Achuthan",
-        venue: "International Conference on Remote Engineering and Virtual Instrumentation (REV 2018), Springer, pp. 365–373",
+        authors: "Shyam Diwakar, Rakhi Radhamani, Nijin Nizar, Dhanush Kumar, Bipin Nair, Krishnashree Achuthan",
+        venue: "International Conference on Remote Engineering and Virtual Instrumentation (REV), Springer, 639–648",
         year: "2018",
         citations: 9,
-        category: "Learning Theory & Web Labs",
-        finding: "Applies pedagogical learning theories to systematically evaluate cognitive gains and learner engagement on web-based virtual laboratory platforms.",
-        url: "https://doi.org/10.1007/978-3-319-95678-7_40"
+        category: "Learning Theory & Web Assessment",
+        finding: "Applied pedagogical learning theories to evaluate knowledge organization, motivation, and skill retention on web-based virtual laboratory platforms.",
+        url: "https://doi.org/10.1007/978-3-319-95678-7_70"
+      },
+      {
+        id: "ambc-vl-21",
+        title: "Online bio-robotics labs: Open hardware models and architecture",
+        authors: "Dhanush Kumar, Krishnashree Achuthan, Bipin Nair, Shyam Diwakar",
+        venue: "2016 International Conference on Robotics and Automation for Humanitarian Applications (RAHA), IEEE, 1–5",
+        year: "2016",
+        citations: 8,
+        category: "Online Bio-Robotics Labs",
+        finding: "Presented open-hardware models and web architectures for remotely accessible bio-robotics virtual laboratories in engineering and life science education.",
+        url: "https://doi.org/10.1109/RAHA.2016.7931887"
       },
       {
         id: "ambc-vl-15",
         title: "Low cost neuro-inspired robots for sustainable laboratory education",
-        authors: "Rakhi Radhamani, Nijin Nizar, Dhanush Kumar, Bipin Nair, Krishnashree Achuthan, and Shyam Diwakar",
-        venue: "International Conference on Robotics and Automation for Humanitarian Applications (RAHA 2016), IEEE",
+        authors: "Rakhi Radhamani, Nijin Nizar, Dhanush Kumar, Bipin Nair, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "2016 International Conference on Robotics and Automation for Humanitarian Applications (RAHA), IEEE, 1–5",
         year: "2016",
         citations: 6,
-        category: "Sustainable Laboratory Education",
-        finding: "Introduces low-cost, neuro-inspired robotic testbeds integrated with virtual laboratory workflows for sustainable hands-on engineering and neuroscience education.",
-        url: "https://doi.org/10.1109/RAHA.2016.7931887"
+        category: "Sustainable Lab Education",
+        finding: "Designed low-cost neuro-inspired robotic and virtual laboratory interfaces for accessible, sustainable STEM laboratory education.",
+        url: "https://doi.org/10.1109/RAHA.2016.7931886"
+      },
+      {
+        id: "ambc-vl-22",
+        title: "Implementing a web-based simulator with explicit neuron and synapse models to aid experimental neuroscience and theoretical biophysics education",
+        authors: "Aadityan Sridharan, Hemalatha Sasidharakurup, Dhanush Kumar, Nijin Nizar, Bipin Nair, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "Proceedings of the International Conference on Signal, Networks, Computing, and Systems, Lecture Notes in Electrical Engineering, Springer, 53–61",
+        year: "2016",
+        citations: 6,
+        category: "Neuroscience & Biophysics Simulation",
+        finding: "Developed a browser-based simulator featuring explicit biophysical neuron and synapse models to strengthen theoretical biophysics and neuroscience coursework.",
+        url: "https://doi.org/10.1007/978-81-322-3589-7_6"
       },
       {
         id: "ambc-vl-16",
         title: "Developing and Deploying Open-Access Web-Based Educational Tools for Teaching Data Preprocessing and Classification in Bioinformatics",
-        authors: "Bhavya Ottappurakkal, Dhanush Kumar, Asha Vijayan, Rakhi Radhamani, Krishnashree Achuthan, and Shyam Diwakar",
-        venue: "International Conference on Computing and Network Communications (CoCoNet / SAI'23), Springer, pp. 637–650",
+        authors: "Bhavya Ottappurakkal, Dhanush Kumar, Asha Vijayan, Rakhi Radhamani, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "International Conference on Computing and Network Communications (CoCoNet), Lecture Notes in Electrical Engineering, Springer, 637–650",
         year: "2023",
-        citations: 2,
+        citations: 4,
         category: "Bioinformatics Virtual Labs",
-        finding: "Presents open-access web-based virtual laboratory tools enabling students to interactively learn data preprocessing, feature selection, and classification workflows in bioinformatics.",
-        url: "https://www.amrita.edu/publication/developing-and-deploying-open-access-web-based-educational-tools-for-teaching-data-preprocessing-and-classification-in-bioinformatics/"
+        finding: "Presented open-access web-based bioinformatics virtual lab modules for teaching data preprocessing, feature selection, and classification.",
+        url: "https://doi.org/10.1007/978-981-99-9811-1_50"
+      },
+      {
+        id: "ambc-vl-23",
+        title: "Implementation of analog electrical neurons as virtual labs for neuroscience education",
+        authors: "Dhanush Kumar, Pratheeksha Subramanyan, Amitha Prasad, Athira Kaimal, Akhil Santhosh, Bipin Nair, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "2017 International Conference on Advances in Computing, Communications and Informatics (ICACCI), IEEE, 1898–1902",
+        year: "2017",
+        citations: 3,
+        category: "Hardware & Virtual Neuroscience Labs",
+        finding: "Implemented Hodgkin-Huxley-inspired analog electrical neuron circuits integrated with a virtual lab web interface for cellular neuroscience education.",
+        url: "https://doi.org/10.1109/ICACCI.2017.8125897"
+      },
+      {
+        id: "ambc-vl-24",
+        title: "Implementation of ICT-based Virtual Labs for Sustainable Laboratory Education in Universities",
+        authors: "Rakhi Radhamani, Dhanush Kumar, Nijin Nizar, Krishnashree Achuthan, Bipin Nair, Shyam Diwakar",
+        venue: "CSI Journal of Computing, 3(2), 67–75",
+        year: "2017",
+        citations: 2,
+        category: "Sustainable University Lab Education",
+        finding: "Examined the institutional deployment of ICT-enabled virtual laboratories for sustainable, scalable laboratory skill training across universities.",
+        url: "https://www.amrita.edu/center/mind-brain/people/dhanush-kumar/"
+      },
+      {
+        id: "ambc-vl-25",
+        title: "Remote Triggered Biotechnology Labs: Implementation Issues and Challenges",
+        authors: "Dhanush Kumar, Mithula Parangan, Hareesh Singanamala, Shyam Diwakar, Bipin G. Nair, Krishnashree Achuthan",
+        venue: "IEEE Global Humanitarian Technology Conference: South Asia Satellite (GHTC-SAS)",
+        year: "2013",
+        citations: 2,
+        category: "Remote Biotechnology Lab Architecture",
+        finding: "Addressed hardware control, real-time streaming, and pedagogical design challenges in deploying remotely triggered biotechnology virtual laboratories.",
+        url: "https://www.amrita.edu/center/mind-brain/people/dhanush-kumar/"
+      },
+      {
+        id: "ambc-vl-26",
+        title: "Design and Implementation of ICT Based Virtual Labs for Laboratory Skill Education",
+        authors: "Krishnashree Achuthan, Rakhi Radhamani, Dhanush Kumar, Nijin Nizar, Bipin Nair, Shyam Diwakar",
+        venue: "CSI Communications, 36(4), 14–18",
+        year: "2012",
+        citations: 2,
+        category: "Virtual Lab Design & Pedagogy",
+        finding: "Outlined the foundational instructional design and software architecture used to build interactive ICT-based virtual laboratories for university science curricula.",
+        url: "https://www.amrita.edu/center/mind-brain/people/dhanush-kumar/"
+      },
+      {
+        id: "ambc-vl-27",
+        title: "Self-Guided Bioinformatics Learning Through Virtual Labs: Toward Sustainable, Inclusive Learning",
+        authors: "Shubham Mahindrakar, Dhanush Kumar, Rakhi Radhamani, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "SSRN Electronic Journal / Amrita Virtual Labs Research",
+        year: "2025",
+        citations: 1,
+        category: "Self-Guided Bioinformatics Labs",
+        finding: "Demonstrated how browser-based self-guided bioinformatics virtual laboratories foster inclusive, sustainable experiential learning in life sciences.",
+        url: "https://doi.org/10.2139/ssrn.5787882"
       },
       {
         id: "ambc-vl-17",
-        title: "Implementing a Student-Centric Free and Open-Source Virtual Laboratory in Bioinformatics and Computational Biology",
-        authors: "Sreelekshmi Sreekumar, Rakhi Radhamani, Asha Vijayan, Krishnashree Achuthan, and Shyam Diwakar",
-        venue: "IEEE International Conference on Technology 4 Education (T4E 2023), Mumbai, India",
+        title: "Web-Based Neuron Simulator as an Educational Tool for Teaching Computational Neuroscience",
+        authors: "K. Sreekumar, Dhanush Kumar, Asha Vijayan, Rakhi Radhamani, Nijin Nizar, Bipin Nair, Krishnashree Achuthan, Shyam Diwakar",
+        venue: "International Conference on Computing and Network Communications (CoCoNet), Springer",
         year: "2023",
         citations: 1,
-        category: "Computational Biology Virtual Labs",
-        finding: "Demonstrates the design and curricular integration of a student-centric, open-source virtual laboratory in Bioinformatics and Computational Biology.",
-        url: "https://www.amrita.edu/publication/implementing-a-student-centric-free-and-open-source-virtual-laboratory-in-bioinformatics-and-computational-biology/"
+        category: "Neuroscience Simulation",
+        finding: "Developed an interactive web-based Hodgkin-Huxley neuron simulator virtual lab for undergraduate and postgraduate computational neuroscience education.",
+        url: "https://www.amrita.edu/center/mind-brain/publications/"
+      },
+      {
+        id: "ambc-vl-28",
+        title: "Deploying realistic neuron analogues for patch clamp technique education",
+        authors: "Dhanush Kumar, Hareesh Singanamala, Krishnashree Achuthan, Bipin G. Nair, Shyam Diwakar",
+        venue: "XXXII Annual Conference of Indian Academy of Neurosciences (IAN)",
+        year: "2014",
+        citations: 1,
+        category: "Electrophysiology & Patch Clamp Education",
+        finding: "Presented realistic electronic neuron analogues integrated with virtual laboratory exercises for training students in patch-clamp electrophysiology techniques.",
+        url: "https://www.amrita.edu/publication/deploying-realistic-neuron-analogues-for-patch-clamp-technique-education/"
       }
     ];
 
     /**
      * =======================================================================
-     * OWNER CONFIGURATION 2: GOOGLE FORM / DOC EVALUATION QUESTIONNAIRES
+     * OWNER CONFIGURATION 2: GOOGLE FORM EVALUATION QUESTIONNAIRE
      * =======================================================================
      */
     const EVALUATION_FORMS = [
       {
         id: "eval-form-1",
-        title: "Student Virtual Lab Feedback Questionnaire",
+        title: "Virtual Lab Feedback Questionnaire",
         type: "Google Form",
-        description: "Collects student feedback on simulation interactivity, conceptual clarity, ease of navigation, and overall Virtual Lab learning effectiveness.",
+        description: "Sample feedback questionnaire for evaluating simulation interactivity, conceptual clarity, and overall Virtual Lab learning effectiveness.",
         url: "https://docs.google.com/forms/"
-      },
-      {
-        id: "eval-form-2",
-        title: "Faculty Pedagogical & Curriculum Assessment Form",
-        type: "Google Form",
-        description: "Gathers faculty insights on syllabus alignment, blended classroom integration, and laboratory skill outcomes.",
-        url: "https://docs.google.com/forms/"
-      },
-      {
-        id: "eval-form-3",
-        title: "Workshop & Nodal Center Participant Evaluation",
-        type: "Google Doc",
-        description: "Post-workshop evaluation document for nodal center coordinators and participating students.",
-        url: "https://docs.google.com/document/"
       }
     ];
 
@@ -1302,7 +1363,7 @@
     };
 
     // =======================================================================
-    // PORTAL STATE & TIMER VARIABLES
+    // PORTAL STATE VARIABLES
     // =======================================================================
     let currentView = "home";
     let activeAreaKey = "biotech";
@@ -1312,10 +1373,6 @@
     let evaluationForms = [...EVALUATION_FORMS];
     let researchPublications = [...RESEARCH_PUBLICATIONS];
     let isAdminUnlocked = false;
-
-    // Session Timer State (properly managed & resettable)
-    let sessionSeconds = 0;
-    let sessionTimerInterval = null;
     let copyButtonTimeout = null;
 
     function escapeHtml(str) {
@@ -1328,53 +1385,9 @@
     }
 
     // =======================================================================
-    // SESSION TIMER CONTROLLER (START, FORMAT, AND RESET)
-    // =======================================================================
-    function formatElapsedTime(totalSeconds) {
-      const hrs = Math.floor(totalSeconds / 3600);
-      const mins = Math.floor((totalSeconds % 3600) / 60);
-      const secs = totalSeconds % 60;
-      const mStr = String(mins).padStart(2, "0");
-      const sStr = String(secs).padStart(2, "0");
-      if (hrs > 0) {
-        return `${String(hrs).padStart(2, "0")}:${mStr}:${sStr}`;
-      }
-      return `${mStr}:${sStr}`;
-    }
-
-    function updateSessionTimerUI() {
-      const displayEl = document.getElementById("sessionTimerDisplay");
-      if (displayEl) {
-        displayEl.textContent = formatElapsedTime(sessionSeconds);
-      }
-    }
-
-    function startSessionTimer() {
-      if (sessionTimerInterval !== null) {
-        clearInterval(sessionTimerInterval);
-        sessionTimerInterval = null;
-      }
-      updateSessionTimerUI();
-      sessionTimerInterval = setInterval(() => {
-        sessionSeconds += 1;
-        updateSessionTimerUI();
-      }, 1000);
-    }
-
-    function resetSessionTimer() {
-      if (sessionTimerInterval !== null) {
-        clearInterval(sessionTimerInterval);
-        sessionTimerInterval = null;
-      }
-      sessionSeconds = 0;
-      updateSessionTimerUI();
-      startSessionTimer();
-    }
-
-    // =======================================================================
     // HIERARCHICAL NAVIGATION & BREADCRUMB CONTROLLER
     // =======================================================================
-    function navigateTo(view) {
+    function navigateTo(view, skipHistoryPush = false) {
       currentView = view;
       const views = ["home", "broad-areas", "discipline-labs", "evaluation", "research"];
       views.forEach((v) => {
@@ -1388,8 +1401,16 @@
         }
       });
 
-      // Reset timer when switching views so each section session is timed cleanly
-      resetSessionTimer();
+      if (!skipHistoryPush && window.history && window.history.pushState) {
+        const hash = view === "discipline-labs" ? `#discipline-${activeAreaKey}` : view === "home" ? "#home" : `#${view}`;
+        if (window.location.hash !== hash) {
+          try {
+            window.history.pushState({ view, areaKey: activeAreaKey }, "", hash);
+          } catch (_) {
+            // Ignore pushState restrictions in sandboxed environments
+          }
+        }
+      }
 
       updateBreadcrumb();
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1404,7 +1425,7 @@
       }
     }
 
-    function openDiscipline(areaKey) {
+    function openDiscipline(areaKey, skipHistoryPush = false) {
       if (!BROAD_AREAS[areaKey]) return;
       activeAreaKey = areaKey;
       searchQuery = "";
@@ -1414,7 +1435,7 @@
       if (clearBtn) clearBtn.classList.add("hidden");
 
       renderLabs();
-      navigateTo("discipline-labs");
+      navigateTo("discipline-labs", skipHistoryPush);
     }
 
     function updateBreadcrumb() {
@@ -1466,13 +1487,11 @@
 
       const headingEl = document.getElementById("discipline-labs-heading");
       const badgeEl = document.getElementById("activeAreaCountBadge");
-      const centralLinkEl = document.getElementById("activeBroadAreaCentralLink");
       const container = document.getElementById("labsContainer");
       const emptyState = document.getElementById("emptyLabsState");
 
       if (headingEl) headingEl.textContent = area.title;
       if (badgeEl) badgeEl.textContent = `${area.labs.length} Virtual Labs`;
-      if (centralLinkEl) centralLinkEl.href = area.centralUrl;
 
       if (!container) return;
 
@@ -1513,6 +1532,33 @@
                </span>`
             : "";
 
+          if (layoutMode === "list") {
+            return `
+              <a
+                href="${escapeHtml(lab.url)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="lab-item-card ${isNew ? "lab-item-new" : ""} rounded-2xl p-4 sm:px-6 sm:py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-6 group focus:outline-none focus:ring-2 focus:ring-[#A4123F]/30 min-w-0"
+              >
+                <div class="flex flex-wrap sm:flex-nowrap items-center gap-2.5 sm:gap-4 min-w-0">
+                  <span class="text-xs font-bold text-slate-400 shrink-0">Lab ${String(idx + 1).padStart(2, "0")}</span>
+                  <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug break-words min-w-0">
+                    ${escapeHtml(lab.name)} ${isNew ? '<span class="text-emerald-700 font-bold">(New)</span>' : ""}
+                  </h3>
+                  ${newBadge}
+                </div>
+
+                <div class="flex items-center justify-between sm:justify-end gap-4 pt-2.5 sm:pt-0 border-t sm:border-t-0 border-slate-100 text-xs shrink-0">
+                  <span class="text-slate-500 truncate max-w-[200px] sm:max-w-[220px]">${escapeHtml(lab.url.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</span>
+                  <span class="inline-flex items-center gap-1 font-bold text-[#A4123F] shrink-0">
+                    <span>Launch Lab</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                  </span>
+                </div>
+              </a>
+            `;
+          }
+
           return `
             <a
               href="${escapeHtml(lab.url)}"
@@ -1551,10 +1597,10 @@
       const listBtn = document.getElementById("viewListBtn");
       if (gridBtn && listBtn) {
         if (layoutMode === "grid") {
-          gridBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer";
+          gridBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-sm transition-all flex items-center gap-1.5 cursor-pointer";
           listBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
         } else {
-          listBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer";
+          listBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-sm transition-all flex items-center gap-1.5 cursor-pointer";
           gridBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
         }
       }
@@ -1570,12 +1616,30 @@
       renderLabs();
     }
 
+    function clearResearchSearch() {
+      researchSearchQuery = "";
+      const input = document.getElementById("researchSearchInput");
+      if (input) input.value = "";
+      const clearBtn = document.getElementById("clearResearchSearchBtn");
+      if (clearBtn) clearBtn.classList.add("hidden");
+      renderResearchPublications();
+    }
+
     // =======================================================================
     // RENDER SECTION 02: EVALUATION (SUB-SECTION 2.1 GOOGLE FORMS)
     // =======================================================================
     function renderEvaluations() {
       const grid = document.getElementById("evalFormsGrid");
       if (!grid) return;
+
+      if (evaluationForms.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 sm:p-8 text-center">
+            <p class="text-sm font-semibold text-slate-600">No evaluation questionnaires are currently listed.</p>
+          </div>
+        `;
+        return;
+      }
 
       grid.innerHTML = evaluationForms
         .map((form) => {
@@ -1674,9 +1738,16 @@
 
       if (filteredPubs.length === 0) {
         container.innerHTML = `
-          <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-8 sm:p-10 text-center space-y-2">
+          <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-8 sm:p-10 text-center space-y-3">
             <p class="text-sm font-bold text-slate-700">No matching publications found.</p>
             <p class="text-xs text-slate-500">Try clearing or refining your search query.</p>
+            <button
+              type="button"
+              onclick="clearResearchSearch()"
+              class="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1E3A8A] text-white hover:bg-blue-950 transition-colors cursor-pointer"
+            >
+              Reset Search Filter
+            </button>
           </div>
         `;
         return;
@@ -1914,25 +1985,51 @@
     }
 
     // =======================================================================
-    // FOOTER VISITOR COUNTER (FRESH START & RESETTABLE)
+    // FOOTER VISITOR COUNTER (SAFE STORAGE + TIMEOUT FALLBACK)
     // =======================================================================
     const VISITOR_STORAGE_KEY = "amrita_vlabs_portal_visits_reset_v1";
+
+    function safeGetStorage(key) {
+      try {
+        return window.localStorage ? localStorage.getItem(key) : null;
+      } catch (_) {
+        return null;
+      }
+    }
+
+    function safeSetStorage(key, val) {
+      try {
+        if (window.localStorage) localStorage.setItem(key, val);
+      } catch (_) {}
+    }
+
+    function safeRemoveStorage(key) {
+      try {
+        if (window.localStorage) localStorage.removeItem(key);
+      } catch (_) {}
+    }
 
     async function initVisitorCounter() {
       const counterEl = document.getElementById("visitorCounterValue");
       if (!counterEl) return;
 
       // Clean out any legacy artificial offset keys
-      localStorage.removeItem("amrita_vlabs_portal_visits_2026");
+      safeRemoveStorage("amrita_vlabs_portal_visits_2026");
 
-      let localCount = parseInt(localStorage.getItem(VISITOR_STORAGE_KEY) || "0", 10);
+      let localCount = parseInt(safeGetStorage(VISITOR_STORAGE_KEY) || "0", 10);
       if (isNaN(localCount) || localCount < 0) localCount = 0;
       localCount += 1;
-      localStorage.setItem(VISITOR_STORAGE_KEY, String(localCount));
+      safeSetStorage(VISITOR_STORAGE_KEY, String(localCount));
       counterEl.textContent = localCount.toLocaleString();
 
       try {
-        const res = await fetch("https://api.counterapi.dev/v1/amrita-vlabs-portal-2026-clean/visits/up");
+        const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
+        const timeoutId = controller ? setTimeout(() => controller.abort(), 4000) : null;
+        const res = await fetch(
+          "https://api.counterapi.dev/v1/amrita-vlabs-portal-2026-clean/visits/up",
+          controller ? { signal: controller.signal } : undefined
+        );
+        if (timeoutId) clearTimeout(timeoutId);
         if (res.ok) {
           const data = await res.json();
           if (data && typeof data.count === "number" && data.count > 0) {
@@ -1945,7 +2042,7 @@
     }
 
     function resetVisitorCounter() {
-      localStorage.setItem(VISITOR_STORAGE_KEY, "1");
+      safeSetStorage(VISITOR_STORAGE_KEY, "1");
       const counterEl = document.getElementById("visitorCounterValue");
       if (counterEl) {
         counterEl.textContent = "1";
@@ -1953,9 +2050,40 @@
     }
 
     // =======================================================================
-    // INITIALIZE PORTAL ON LOAD
+    // INITIALIZE PORTAL ON LOAD & HANDLE BROWSER HISTORY / DEVICE EVENTS
     // =======================================================================
+    function syncViewFromHash() {
+      const hash = (window.location.hash || "").replace(/^#/, "");
+      if (!hash || hash === "home") {
+        navigateTo("home", true);
+      } else if (hash === "broad-areas") {
+        navigateTo("broad-areas", true);
+      } else if (hash.startsWith("discipline-")) {
+        const areaKey = hash.replace("discipline-", "");
+        if (BROAD_AREAS[areaKey]) {
+          openDiscipline(areaKey, true);
+        } else {
+          navigateTo("broad-areas", true);
+        }
+      } else if (hash === "evaluation" || hash === "research") {
+        navigateTo(hash, true);
+      }
+    }
+
+    function verifyHeaderLogosLoaded() {
+      const vlabImg = document.getElementById("vlabLogoImg");
+      if (vlabImg && vlabImg.complete && vlabImg.naturalWidth === 0) {
+        vlabImg.onerror?.();
+      }
+      const amritaImg = document.getElementById("amritaLogoImg");
+      if (amritaImg && amritaImg.complete && amritaImg.naturalWidth === 0) {
+        amritaImg.onerror?.();
+      }
+    }
+
     function initPortal() {
+      verifyHeaderLogosLoaded();
+
       const labSearchInput = document.getElementById("labSearchInput");
       if (labSearchInput) {
         labSearchInput.addEventListener("input", (e) => {
@@ -1976,16 +2104,42 @@
       if (researchSearchInput) {
         researchSearchInput.addEventListener("input", (e) => {
           researchSearchQuery = e.target.value || "";
+          const clearBtn = document.getElementById("clearResearchSearchBtn");
+          if (clearBtn) {
+            if (researchSearchQuery.trim().length > 0) {
+              clearBtn.classList.remove("hidden");
+            } else {
+              clearBtn.classList.add("hidden");
+            }
+          }
           renderResearchPublications();
         });
       }
+
+      // Close Admin Modal on Escape key
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          const backdrop = document.getElementById("adminModalBackdrop");
+          if (backdrop && !backdrop.classList.contains("hidden")) {
+            closeAdminModal();
+          }
+        }
+      });
+
+      // Support mobile/desktop hardware & browser Back/Forward buttons
+      window.addEventListener("popstate", () => {
+        syncViewFromHash();
+      });
 
       renderLabs();
       renderEvaluations();
       renderResearchPublications();
       updateBreadcrumb();
-      startSessionTimer();
       initVisitorCounter();
+
+      if (window.location.hash && window.location.hash !== "#home") {
+        syncViewFromHash();
+      }
 
       if (window.lucide) lucide.createIcons();
     }
