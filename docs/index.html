@@ -116,6 +116,16 @@
       box-shadow: 0 14px 28px -10px rgba(164, 18, 63, 0.14);
     }
 
+    .area-card-spotlight {
+      border: 2px solid #D97706 !important;
+      background: linear-gradient(145deg, #FFFBEB 0%, #FFFFFF 65%) !important;
+      box-shadow: 0 14px 30px -8px rgba(217, 119, 6, 0.22);
+    }
+    .area-card-spotlight:hover {
+      border-color: #B45309 !important;
+      box-shadow: 0 18px 34px -8px rgba(217, 119, 6, 0.32);
+    }
+
     .lab-item-card {
       transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
       border: 1px solid #E2E8F0;
@@ -136,7 +146,20 @@
       box-shadow: 0 12px 26px -8px rgba(164, 18, 63, 0.14);
     }
 
-    /* Subtle pulse for (New) badge dot */
+    /* Spotlighted Lab Card Styling (High-Visibility Workshop Highlight) */
+    .lab-item-spotlight {
+      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%) !important;
+      border: 2.5px solid #D97706 !important;
+      box-shadow: 0 14px 30px -6px rgba(217, 119, 6, 0.28), 0 0 0 3px rgba(251, 191, 36, 0.25) !important;
+      position: relative;
+    }
+    .lab-item-spotlight:hover {
+      border-color: #B45309 !important;
+      transform: translateY(-3px);
+      box-shadow: 0 18px 36px -6px rgba(180, 83, 9, 0.36), 0 0 0 4px rgba(251, 191, 36, 0.35) !important;
+    }
+
+    /* Subtle pulse for (New) & Spotlight badge dots */
     @keyframes pulseDot {
       0%, 100% { opacity: 1; transform: scale(1); }
       50% { opacity: 0.45; transform: scale(0.92); }
@@ -297,10 +320,16 @@
           <div class="p-5 sm:p-7 lg:p-8 flex-1 flex flex-col justify-between space-y-6 sm:space-y-8">
             <div class="space-y-3.5 sm:space-y-4">
               <div class="flex items-center justify-between gap-3">
-                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amrita-50 border border-amrita-100 text-amrita-700 text-xs font-semibold uppercase tracking-wider">
-                  <span class="w-2 h-2 rounded-full bg-[#A4123F]"></span>
-                  <span>Section 01</span>
-                </span>
+                <div class="flex items-center flex-wrap gap-2">
+                  <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amrita-50 border border-amrita-100 text-amrita-700 text-xs font-semibold uppercase tracking-wider">
+                    <span class="w-2 h-2 rounded-full bg-[#A4123F]"></span>
+                    <span>Section 01</span>
+                  </span>
+                  <span id="homeSpotlightIndicator" class="hidden items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-100 border border-amber-300 text-amber-900 text-xs font-bold">
+                    <span class="w-2 h-2 rounded-full bg-amber-600 new-dot"></span>
+                    <span id="homeSpotlightCountText">Spotlight Active</span>
+                  </span>
+                </div>
                 <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors shrink-0">
                   <i data-lucide="layers" class="w-5 h-5 sm:w-6 sm:h-6"></i>
                 </div>
@@ -525,10 +554,37 @@
           </button>
         </div>
 
+        <!-- Workshop Spotlight Quick-Access Banner (Automatically shown when any lab is spotlighted) -->
+        <div id="broadAreasSpotlightBanner" class="hidden rounded-2xl bg-gradient-to-r from-amber-50 via-yellow-50/90 to-amber-50 border-2 border-amber-400 p-4 sm:p-6 shadow-md space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5">
+              <span class="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-amber-500 text-white shadow-sm shrink-0">
+                <i data-lucide="sparkles" class="w-4 h-4"></i>
+              </span>
+              <div>
+                <h2 class="text-base sm:text-lg font-bold text-amber-950 leading-snug">
+                  Workshop Spotlighted Laboratories
+                </h2>
+                <p class="text-xs text-amber-900/80">
+                  Highlighted for the current workshop session. Click any spotlighted lab below to launch it directly, or open its Broad Area below.
+                </p>
+              </div>
+            </div>
+            <span id="broadAreasSpotlightCountBadge" class="self-start sm:self-center px-3 py-1 rounded-full text-xs font-bold bg-amber-500 text-white shadow-sm shrink-0">
+              1 Lab Highlighted
+            </span>
+          </div>
+
+          <div id="broadAreasSpotlightGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
+            <!-- Populated dynamically when spotlighted labs exist -->
+          </div>
+        </div>
+
         <!-- 3 Broad Area Cards -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
           <!-- 1. Biotechnology and Biomedical Engineering -->
           <div
+            id="areaCard-biotech"
             onclick="openDiscipline('biotech')"
             tabindex="0"
             role="button"
@@ -536,13 +592,19 @@
             class="area-card rounded-2xl p-5 sm:p-6 cursor-pointer flex flex-col justify-between space-y-5 sm:space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
           >
             <div class="space-y-3.5 sm:space-y-4">
-              <div class="flex items-center justify-between gap-2">
+              <div class="flex items-center justify-between gap-2 flex-wrap">
                 <div class="w-11 h-11 rounded-xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors">
                   <i data-lucide="dna" class="w-5 h-5"></i>
                 </div>
-                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-rose-50 text-[#A4123F] border border-rose-200/70">
-                  18 Virtual Labs
-                </span>
+                <div class="flex items-center flex-wrap gap-1.5">
+                  <span id="areaSpotlightBadge-biotech" class="hidden items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-amber-500 text-white shadow-sm">
+                    <span>★</span>
+                    <span id="areaSpotlightCount-biotech">1 Spotlighted</span>
+                  </span>
+                  <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-rose-50 text-[#A4123F] border border-rose-200/70">
+                    18 Virtual Labs
+                  </span>
+                </div>
               </div>
               <h2 class="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
                 Biotechnology and Biomedical Engineering
@@ -559,6 +621,7 @@
 
           <!-- 2. Physical Sciences -->
           <div
+            id="areaCard-physics"
             onclick="openDiscipline('physics')"
             tabindex="0"
             role="button"
@@ -566,13 +629,19 @@
             class="area-card rounded-2xl p-5 sm:p-6 cursor-pointer flex flex-col justify-between space-y-5 sm:space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
           >
             <div class="space-y-3.5 sm:space-y-4">
-              <div class="flex items-center justify-between gap-2">
+              <div class="flex items-center justify-between gap-2 flex-wrap">
                 <div class="w-11 h-11 rounded-xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors">
                   <i data-lucide="atom" class="w-5 h-5"></i>
                 </div>
-                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
-                  10 Virtual Labs
-                </span>
+                <div class="flex items-center flex-wrap gap-1.5">
+                  <span id="areaSpotlightBadge-physics" class="hidden items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-amber-500 text-white shadow-sm">
+                    <span>★</span>
+                    <span id="areaSpotlightCount-physics">1 Spotlighted</span>
+                  </span>
+                  <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                    10 Virtual Labs
+                  </span>
+                </div>
               </div>
               <h2 class="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
                 Physical Sciences
@@ -589,6 +658,7 @@
 
           <!-- 3. Chemical Sciences -->
           <div
+            id="areaCard-chemistry"
             onclick="openDiscipline('chemistry')"
             tabindex="0"
             role="button"
@@ -596,13 +666,19 @@
             class="area-card rounded-2xl p-5 sm:p-6 cursor-pointer flex flex-col justify-between space-y-5 sm:space-y-6 group focus:outline-none focus:ring-2 focus:ring-amrita-600/30"
           >
             <div class="space-y-3.5 sm:space-y-4">
-              <div class="flex items-center justify-between gap-2">
+              <div class="flex items-center justify-between gap-2 flex-wrap">
                 <div class="w-11 h-11 rounded-xl bg-rose-50 border border-rose-100 text-[#A4123F] flex items-center justify-center group-hover:bg-[#A4123F] group-hover:text-white transition-colors">
                   <i data-lucide="flask-round" class="w-5 h-5"></i>
                 </div>
-                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
-                  4 Virtual Labs
-                </span>
+                <div class="flex items-center flex-wrap gap-1.5">
+                  <span id="areaSpotlightBadge-chemistry" class="hidden items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold bg-amber-500 text-white shadow-sm">
+                    <span>★</span>
+                    <span id="areaSpotlightCount-chemistry">1 Spotlighted</span>
+                  </span>
+                  <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                    4 Virtual Labs
+                  </span>
+                </div>
               </div>
               <h2 class="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
                 Chemical Sciences
@@ -642,12 +718,16 @@
               <span id="activeAreaCountBadge" class="px-2.5 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
                 18 Labs
               </span>
+              <span id="activeAreaSpotlightBadge" class="hidden items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-500 text-white shadow-sm">
+                <span>★</span>
+                <span id="activeAreaSpotlightText">1 Workshop Spotlight</span>
+              </span>
             </div>
             <h1 id="discipline-labs-heading" class="font-display text-2xl sm:text-3xl font-semibold text-slate-900 tracking-tight">
               Biotechnology and Biomedical Engineering
             </h1>
             <p class="mt-1 text-xs sm:text-sm text-slate-600">
-              Laboratories marked with <span class="font-bold text-emerald-700">(New)</span> are prioritized first. Clicking any lab redirects directly to its official central server homepage.
+              <span class="font-bold text-amber-700">★ Workshop Spotlight</span>
             </p>
           </div>
 
@@ -671,24 +751,36 @@
           </div>
         </div>
 
-        <!-- Toolbar: Search & View Toggle -->
+        <!-- Toolbar: Search, Spotlight Filter & View Toggle -->
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div class="relative flex-1 max-w-full sm:max-w-md">
-            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
-            <input
-              id="labSearchInput"
-              type="text"
-              placeholder="Filter laboratories by name..."
-              autocomplete="off"
-              class="w-full pl-9 pr-8 py-2.5 min-h-[42px] text-sm rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:bg-white focus:border-[#A4123F] transition-all"
-            />
+          <div class="flex flex-wrap items-center gap-2.5 flex-1">
+            <div class="relative flex-1 min-w-[220px] max-w-full sm:max-w-md">
+              <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+              <input
+                id="labSearchInput"
+                type="text"
+                placeholder="Filter laboratories by name..."
+                autocomplete="off"
+                class="w-full pl-9 pr-8 py-2.5 min-h-[42px] text-sm rounded-xl bg-slate-50 border border-slate-200 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:bg-white focus:border-[#A4123F] transition-all"
+              />
+              <button
+                id="clearSearchBtn"
+                type="button"
+                onclick="clearSearch()"
+                class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1"
+              >
+                <i data-lucide="x" class="w-4 h-4"></i>
+              </button>
+            </div>
+
             <button
-              id="clearSearchBtn"
+              id="filterSpotlightOnlyBtn"
               type="button"
-              onclick="clearSearch()"
-              class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1"
+              onclick="toggleSpotlightOnlyFilter()"
+              class="hidden items-center gap-1.5 px-3.5 py-2 min-h-[42px] rounded-xl text-xs sm:text-sm font-bold border border-amber-300 bg-amber-50 text-amber-900 hover:bg-amber-100 transition-all cursor-pointer shrink-0"
             >
-              <i data-lucide="x" class="w-4 h-4"></i>
+              <span>★</span>
+              <span id="filterSpotlightOnlyBtnLabel">Show Spotlighted Only</span>
             </button>
           </div>
 
@@ -817,7 +909,7 @@
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-200/90 text-xs text-slate-700 shadow-sm">
         <i data-lucide="users" class="w-3.5 h-3.5 text-[#a4123f]"></i>
         <span>Total Page Visits:</span>
-        <span id="visitorCounterValue" class="font-bold text-[#a4123f] tracking-wide tabular-nums">1</span>
+        <span id="visitorCounterValue" class="font-bold text-[#a4123f] tracking-wide tabular-nums">...</span>
       </div>
     </div>
     <div>
@@ -843,12 +935,12 @@
     onclick="if(event.target === this) closeAdminModal()"
     class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4"
   >
-    <div class="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 shadow-2xl max-w-3xl w-full max-h-[92vh] flex flex-col overflow-hidden">
+    <div class="bg-white rounded-2xl sm:rounded-3xl border border-slate-200 shadow-2xl max-w-4xl w-full max-h-[92vh] flex flex-col overflow-hidden">
       <!-- Modal Header -->
       <div class="px-5 sm:px-6 py-4 bg-slate-50 border-b border-slate-200 flex items-center justify-between gap-2">
         <div class="flex items-center gap-2">
           <i data-lucide="shield-check" class="w-5 h-5 text-[#A4123F] shrink-0"></i>
-          <h3 class="text-sm sm:text-base font-bold text-slate-900">Portal Maintainer Configuration (GitHub Export)</h3>
+          <h3 class="text-sm sm:text-base font-bold text-slate-900">Portal Maintainer Configuration (Workshop Spotlight &amp; GitHub Export)</h3>
         </div>
         <button
           type="button"
@@ -862,7 +954,7 @@
       <!-- Passcode Gate -->
       <div id="adminAuthGate" class="p-5 sm:p-8 space-y-4">
         <p class="text-xs sm:text-sm text-slate-600">
-          Uploading or modifying questionnaires and publications is restricted for visitors. Enter the administrator passcode to manage links, reset the visitor counter, and generate the updated JavaScript configuration for GitHub.
+          Uploading or modifying questionnaires, spotlighting workshop labs, and editing publications is restricted for visitors. Enter the administrator passcode to unlock the dashboard.
         </p>
         <form onsubmit="verifyAdminPasscode(event)" class="flex flex-col sm:flex-row gap-3">
           <input
@@ -885,26 +977,70 @@
 
       <!-- Unlocked Configuration Panel -->
       <div id="adminConfigPanel" class="hidden p-5 sm:p-6 overflow-y-auto space-y-6 flex-1">
-        <!-- Quick Reset Control for Visitor Counter -->
-        <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div>
-            <h4 class="text-xs sm:text-sm font-bold text-slate-900">Visitor Counter Control</h4>
-            <p class="text-xs text-slate-500">Reset the local visitor counter to start fresh.</p>
+
+        <!-- 0. WORKSHOP LAB SPOTLIGHT SELECTOR (SECTION 01) -->
+        <div class="p-4 sm:p-5 rounded-2xl bg-amber-50/70 border-2 border-amber-300 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-amber-200/80 pb-3.5">
+            <div class="space-y-1">
+              <div class="flex items-center flex-wrap gap-2">
+                <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500 text-white">
+                  ★ Workshop Mode
+                </span>
+                <h4 class="text-sm sm:text-base font-bold text-slate-900">
+                  1. Spotlight Laboratories in Section 01 (For Live Workshops)
+                </h4>
+              </div>
+              <p class="text-xs text-slate-600">
+                Select one or more labs below. Selected labs change box color to golden-amber, receive a <strong>★ Workshop Spotlight</strong> badge, and are pinned to the top so students can find them immediately.
+              </p>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-2 shrink-0">
+              <span id="modalSpotlightSummaryBadge" class="px-3 py-1.5 rounded-xl text-xs font-bold bg-white border border-amber-300 text-amber-900">
+                0 Spotlights Active
+              </span>
+              <button
+                type="button"
+                onclick="clearAllSpotlights()"
+                class="px-3 py-1.5 rounded-xl bg-white border border-slate-300 text-xs font-bold text-slate-700 hover:border-rose-500 hover:text-rose-600 transition-colors cursor-pointer"
+              >
+                Clear All
+              </button>
+            </div>
           </div>
-          <div class="flex flex-wrap items-center gap-2">
+
+          <!-- Filter + Shareable Link Bar -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5">
+            <div class="relative flex-1">
+              <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none"></i>
+              <input
+                id="adminSpotlightSearchInput"
+                type="text"
+                oninput="renderModalSpotlightSelector()"
+                placeholder="Search across all 32 Virtual Labs to spotlight..."
+                class="w-full pl-8 pr-3 py-2 text-xs rounded-xl bg-white border border-amber-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-amber-600"
+              />
+            </div>
             <button
               type="button"
-              onclick="resetVisitorCounter()"
-              class="px-3.5 py-2 rounded-xl bg-white border border-slate-300 text-xs font-bold text-slate-700 hover:border-[#A4123F] hover:text-[#A4123F] transition-colors cursor-pointer"
+              onclick="copyShareableWorkshopLink()"
+              class="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-colors shadow-sm cursor-pointer shrink-0"
+              title="Copy a direct URL with these spotlighted labs encoded for students"
             >
-              Reset Visitor Counter
+              <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
+              <span id="copyWorkshopLinkBtnText">Copy Shareable Workshop Link</span>
             </button>
+          </div>
+
+          <!-- Grouped Checkboxes for All 32 Labs -->
+          <div id="modalSpotlightLabGroups" class="space-y-3 max-h-72 overflow-y-auto pr-1">
+            <!-- Populated dynamically via renderModalSpotlightSelector() -->
           </div>
         </div>
 
         <!-- Manage Google Form Evaluation Questionnaires -->
-        <div class="space-y-3">
-          <h4 class="text-sm font-bold text-slate-900">1. Manage Google Form / Doc Evaluation Questionnaires (Sub-Section 2.1)</h4>
+        <div class="space-y-3 pt-2 border-t border-slate-200">
+          <h4 class="text-sm font-bold text-slate-900">2. Manage Google Form / Doc Evaluation Questionnaires (Sub-Section 2.1)</h4>
           <p class="text-xs text-slate-500">
             Add or update Google Form and Google Doc feedback links. Visitors can only view and open active links.
           </p>
@@ -926,8 +1062,8 @@
 
         <!-- Manage Research Publications -->
         <div class="space-y-3 pt-4 border-t border-slate-200">
-          <h4 class="text-sm font-bold text-slate-900">2. Manage Research Publications (Auto-Sorted by Citations)</h4>
-          <div id="modalPublicationList" class="space-y-2"></div>
+          <h4 class="text-sm font-bold text-slate-900">3. Manage Research Publications (Auto-Sorted by Citations)</h4>
+          <div id="modalPublicationList" class="space-y-2 max-h-48 overflow-y-auto pr-1"></div>
 
           <form id="addPublicationForm" onsubmit="handleAddPublication(event)" class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-2 border-t border-slate-100">
             <input id="pTitleInput" type="text" placeholder="Publication Title" required class="px-3 py-2 text-xs rounded-lg border border-slate-200 sm:col-span-2" />
@@ -941,18 +1077,21 @@
             </button>
           </form>
         </div>
+
       </div>
 
       <!-- Modal Footer -->
       <div id="adminModalFooter" class="hidden px-5 sm:px-6 py-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
-        <button
-          type="button"
-          onclick="copyConfigForGitHub()"
-          class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 transition-colors cursor-pointer"
-        >
-          <i data-lucide="copy" class="w-3.5 h-3.5"></i>
-          <span id="copyConfigBtnText">Copy JS Config for GitHub</span>
-        </button>
+        <div class="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onclick="copyConfigForGitHub()"
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 text-white text-xs font-semibold hover:bg-slate-800 transition-colors cursor-pointer"
+          >
+            <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+            <span id="copyConfigBtnText">Copy JS Config for GitHub (Includes Spotlights)</span>
+          </button>
+        </div>
         <button
           type="button"
           onclick="closeAdminModal()"
@@ -968,6 +1107,15 @@
   <!-- STATIC DATA & HIERARCHICAL ROUTING SCRIPT (100% GITHUB PAGES READY)   -->
   <!-- ===================================================================== -->
   <script>
+    /**
+     * =======================================================================
+     * OWNER CONFIGURATION 0: WORKSHOP SPOTLIGHTED LAB URLS (SECTION 01)
+     * Any lab URL added here (or selected in the Admin Modal) will have its
+     * box color changed to golden-amber and be pinned to the top for students.
+     * =======================================================================
+     */
+    const SPOTLIGHTED_LAB_URLS = [];
+
     /**
      * =======================================================================
      * OWNER CONFIGURATION 1: RESEARCH PUBLICATIONS (SECTION 03)
@@ -1296,7 +1444,7 @@
         id: "eval-form-1",
         title: "Virtual Lab Feedback Questionnaire",
         type: "Google Form",
-        description: "Sample feedback questionnaire for evaluating simulation interactivity, conceptual clarity, and overall Virtual Lab learning effectiveness.",
+        description: "",
         url: "https://docs.google.com/forms/"
       }
     ];
@@ -1363,631 +1511,48 @@
     };
 
     // =======================================================================
-    // PORTAL STATE VARIABLES
+    // PORTAL STATE & STORAGE KEYS
     // =======================================================================
+    const SPOTLIGHT_STORAGE_KEY = "amrita_vlabs_spotlight_urls_v1";
+    const EVAL_FORMS_STORAGE_KEY = "amrita_vlabs_eval_forms_v1";
+    const RESEARCH_PUBS_STORAGE_KEY = "amrita_vlabs_research_pubs_v1";
+
     let currentView = "home";
     let activeAreaKey = "biotech";
     let layoutMode = "grid";
     let searchQuery = "";
     let researchSearchQuery = "";
+    let showSpotlightOnly = false;
+
+    let spotlightedLabUrls = new Set(
+      (SPOTLIGHTED_LAB_URLS || []).map((u) => normalizeLabUrl(u))
+    );
     let evaluationForms = [...EVALUATION_FORMS];
     let researchPublications = [...RESEARCH_PUBLICATIONS];
-    let isAdminUnlocked = false;
-    let copyButtonTimeout = null;
 
     function escapeHtml(str) {
-      return String(str || "")
+      return String(str ?? "")
         .replace(/&/g, "&amp;")
         .replace(/</g, "&lt;")
         .replace(/>/g, "&gt;")
         .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
+        .replace(/'/g, "&#39;");
+    }
+
+    function normalizeLabUrl(url) {
+      return String(url || "").trim().replace(/\/+$/, "").toLowerCase();
+    }
+
+    function isLabSpotlighted(url) {
+      return spotlightedLabUrls.has(normalizeLabUrl(url));
     }
 
     // =======================================================================
-    // HIERARCHICAL NAVIGATION & BREADCRUMB CONTROLLER
+    // FOOTER VISITOR COUNTER (PERSISTENT GLOBAL TOTAL ACCESS COUNTER)
     // =======================================================================
-    function navigateTo(view, skipHistoryPush = false) {
-      currentView = view;
-      const views = ["home", "broad-areas", "discipline-labs", "evaluation", "research"];
-      views.forEach((v) => {
-        const el = document.getElementById(`view-${v}`);
-        if (el) {
-          if (v === view) {
-            el.classList.remove("hidden");
-          } else {
-            el.classList.add("hidden");
-          }
-        }
-      });
-
-      if (!skipHistoryPush && window.history && window.history.pushState) {
-        const hash = view === "discipline-labs" ? `#discipline-${activeAreaKey}` : view === "home" ? "#home" : `#${view}`;
-        if (window.location.hash !== hash) {
-          try {
-            window.history.pushState({ view, areaKey: activeAreaKey }, "", hash);
-          } catch (_) {
-            // Ignore pushState restrictions in sandboxed environments
-          }
-        }
-      }
-
-      updateBreadcrumb();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      if (window.lucide) lucide.createIcons();
-    }
-
-    function navigateBack() {
-      if (currentView === "discipline-labs") {
-        navigateTo("broad-areas");
-      } else {
-        navigateTo("home");
-      }
-    }
-
-    function openDiscipline(areaKey, skipHistoryPush = false) {
-      if (!BROAD_AREAS[areaKey]) return;
-      activeAreaKey = areaKey;
-      searchQuery = "";
-      const searchInput = document.getElementById("labSearchInput");
-      if (searchInput) searchInput.value = "";
-      const clearBtn = document.getElementById("clearSearchBtn");
-      if (clearBtn) clearBtn.classList.add("hidden");
-
-      renderLabs();
-      navigateTo("discipline-labs", skipHistoryPush);
-    }
-
-    function updateBreadcrumb() {
-      const trail = document.getElementById("breadcrumbTrail");
-      const backBtn = document.getElementById("globalBackBtn");
-      const backLabel = document.getElementById("globalBackBtnLabel");
-      if (!trail) return;
-
-      const items = [];
-
-      if (currentView === "broad-areas") {
-        items.push({ label: "Broad Areas of Amrita Virtual Labs", action: null, active: true });
-      } else if (currentView === "discipline-labs") {
-        const area = BROAD_AREAS[activeAreaKey];
-        items.push({ label: "Broad Areas", action: "navigateTo('broad-areas')", active: false });
-        items.push({ label: area ? area.title : "Laboratories", action: null, active: true });
-      } else if (currentView === "evaluation") {
-        items.push({ label: "Evaluation", action: null, active: true });
-      } else if (currentView === "research") {
-        items.push({ label: "Research Findings & Publications", action: null, active: true });
-      }
-
-      trail.innerHTML = items
-        .map((item) => {
-          const sep = `<li class="text-slate-400 font-bold select-none">/</li>`;
-          if (item.active || !item.action) {
-            return `${sep}<li class="font-bold text-slate-900 text-sm sm:text-base break-words">${escapeHtml(item.label)}</li>`;
-          }
-          return `${sep}<li><button type="button" onclick="${item.action}" class="font-semibold text-slate-700 hover:text-[#A4123F] underline-offset-4 hover:underline transition-colors text-sm sm:text-base cursor-pointer">${escapeHtml(item.label)}</button></li>`;
-        })
-        .join("");
-
-      if (backBtn && backLabel) {
-        if (currentView === "home") {
-          backBtn.classList.add("hidden");
-        } else {
-          backBtn.classList.remove("hidden");
-          backLabel.textContent = currentView === "discipline-labs" ? "Back to Broad Areas" : "Back to Home";
-        }
-      }
-    }
-
-    // =======================================================================
-    // RENDER SECTION 01: VIRTUAL LABS LIST ((NEW) BADGES PRIORITIZED FIRST)
-    // =======================================================================
-    function renderLabs() {
-      const area = BROAD_AREAS[activeAreaKey];
-      if (!area) return;
-
-      const headingEl = document.getElementById("discipline-labs-heading");
-      const badgeEl = document.getElementById("activeAreaCountBadge");
-      const container = document.getElementById("labsContainer");
-      const emptyState = document.getElementById("emptyLabsState");
-
-      if (headingEl) headingEl.textContent = area.title;
-      if (badgeEl) badgeEl.textContent = `${area.labs.length} Virtual Labs`;
-
-      if (!container) return;
-
-      // Sort so labs with (New) badge appear first, then alphabetically
-      const sortedLabs = [...area.labs].sort((a, b) => {
-        if (Boolean(a.isNew) !== Boolean(b.isNew)) {
-          return a.isNew ? -1 : 1;
-        }
-        return a.name.localeCompare(b.name);
-      });
-
-      const q = searchQuery.trim().toLowerCase();
-      const filteredLabs = q
-        ? sortedLabs.filter((lab) => lab.name.toLowerCase().includes(q))
-        : sortedLabs;
-
-      if (filteredLabs.length === 0) {
-        container.classList.add("hidden");
-        if (emptyState) emptyState.classList.remove("hidden");
-        return;
-      }
-
-      container.classList.remove("hidden");
-      if (emptyState) emptyState.classList.add("hidden");
-
-      container.className =
-        layoutMode === "grid"
-          ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
-          : "flex flex-col gap-3";
-
-      container.innerHTML = filteredLabs
-        .map((lab, idx) => {
-          const isNew = Boolean(lab.isNew);
-          const newBadge = isNew
-            ? `<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 shrink-0">
-                 <span class="w-1.5 h-1.5 rounded-full bg-emerald-600 new-dot"></span>
-                 <span>(New)</span>
-               </span>`
-            : "";
-
-          if (layoutMode === "list") {
-            return `
-              <a
-                href="${escapeHtml(lab.url)}"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="lab-item-card ${isNew ? "lab-item-new" : ""} rounded-2xl p-4 sm:px-6 sm:py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-6 group focus:outline-none focus:ring-2 focus:ring-[#A4123F]/30 min-w-0"
-              >
-                <div class="flex flex-wrap sm:flex-nowrap items-center gap-2.5 sm:gap-4 min-w-0">
-                  <span class="text-xs font-bold text-slate-400 shrink-0">Lab ${String(idx + 1).padStart(2, "0")}</span>
-                  <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug break-words min-w-0">
-                    ${escapeHtml(lab.name)} ${isNew ? '<span class="text-emerald-700 font-bold">(New)</span>' : ""}
-                  </h3>
-                  ${newBadge}
-                </div>
-
-                <div class="flex items-center justify-between sm:justify-end gap-4 pt-2.5 sm:pt-0 border-t sm:border-t-0 border-slate-100 text-xs shrink-0">
-                  <span class="text-slate-500 truncate max-w-[200px] sm:max-w-[220px]">${escapeHtml(lab.url.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</span>
-                  <span class="inline-flex items-center gap-1 font-bold text-[#A4123F] shrink-0">
-                    <span>Launch Lab</span>
-                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-                  </span>
-                </div>
-              </a>
-            `;
-          }
-
-          return `
-            <a
-              href="${escapeHtml(lab.url)}"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="lab-item-card ${isNew ? "lab-item-new" : ""} rounded-2xl p-4 sm:p-5 flex flex-col justify-between gap-4 group focus:outline-none focus:ring-2 focus:ring-[#A4123F]/30 min-w-0"
-            >
-              <div class="space-y-2.5 min-w-0">
-                <div class="flex items-start justify-between gap-2">
-                  <span class="text-xs font-bold text-slate-400">Lab ${String(idx + 1).padStart(2, "0")}</span>
-                  ${newBadge}
-                </div>
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug break-words">
-                  ${escapeHtml(lab.name)} ${isNew ? '<span class="text-emerald-700 font-bold">(New)</span>' : ""}
-                </h3>
-              </div>
-
-              <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2 text-xs min-w-0">
-                <span class="text-slate-500 truncate min-w-0">${escapeHtml(lab.url.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</span>
-                <span class="inline-flex items-center gap-1 font-bold text-[#A4123F] shrink-0">
-                  <span>Launch Lab</span>
-                  <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-                </span>
-              </div>
-            </a>
-          `;
-        })
-        .join("");
-
-      if (window.lucide) lucide.createIcons();
-    }
-
-    function setLayoutMode(mode) {
-      layoutMode = mode === "list" ? "list" : "grid";
-      const gridBtn = document.getElementById("viewGridBtn");
-      const listBtn = document.getElementById("viewListBtn");
-      if (gridBtn && listBtn) {
-        if (layoutMode === "grid") {
-          gridBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-sm transition-all flex items-center gap-1.5 cursor-pointer";
-          listBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
-        } else {
-          listBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-sm transition-all flex items-center gap-1.5 cursor-pointer";
-          gridBtn.className = "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
-        }
-      }
-      renderLabs();
-    }
-
-    function clearSearch() {
-      searchQuery = "";
-      const input = document.getElementById("labSearchInput");
-      if (input) input.value = "";
-      const clearBtn = document.getElementById("clearSearchBtn");
-      if (clearBtn) clearBtn.classList.add("hidden");
-      renderLabs();
-    }
-
-    function clearResearchSearch() {
-      researchSearchQuery = "";
-      const input = document.getElementById("researchSearchInput");
-      if (input) input.value = "";
-      const clearBtn = document.getElementById("clearResearchSearchBtn");
-      if (clearBtn) clearBtn.classList.add("hidden");
-      renderResearchPublications();
-    }
-
-    // =======================================================================
-    // RENDER SECTION 02: EVALUATION (SUB-SECTION 2.1 GOOGLE FORMS)
-    // =======================================================================
-    function renderEvaluations() {
-      const grid = document.getElementById("evalFormsGrid");
-      if (!grid) return;
-
-      if (evaluationForms.length === 0) {
-        grid.innerHTML = `
-          <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-6 sm:p-8 text-center">
-            <p class="text-sm font-semibold text-slate-600">No evaluation questionnaires are currently listed.</p>
-          </div>
-        `;
-        return;
-      }
-
-      grid.innerHTML = evaluationForms
-        .map((form) => {
-          const isDoc = String(form.type).toLowerCase().includes("doc");
-          const badgeClass = isDoc
-            ? "bg-blue-50 text-blue-800 border-blue-200"
-            : "bg-emerald-50 text-[#0D6E52] border-emerald-200";
-
-          return `
-            <a
-              href="${escapeHtml(form.url)}"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="lab-item-card rounded-2xl p-5 sm:p-6 flex flex-col justify-between gap-5 group focus:outline-none focus:ring-2 focus:ring-[#0D6E52]/30"
-            >
-              <div class="space-y-3">
-                <div class="flex items-center justify-between gap-2">
-                  <span class="px-2.5 py-0.5 rounded-full text-xs font-bold border ${badgeClass}">
-                    ${escapeHtml(form.type || "Google Form")}
-                  </span>
-                  <i data-lucide="file-text" class="w-4 h-4 text-slate-400 group-hover:text-[#0D6E52] transition-colors"></i>
-                </div>
-
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#0D6E52] transition-colors leading-snug">
-                  ${escapeHtml(form.title)}
-                </h3>
-
-                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  ${escapeHtml(form.description || "")}
-                </p>
-              </div>
-
-              <div class="pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#0D6E52]">
-                <span>Open Questionnaire</span>
-                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-              </div>
-            </a>
-          `;
-        })
-        .join("");
-
-      if (window.lucide) lucide.createIcons();
-    }
-
-    // =======================================================================
-    // RENDER SECTION 03: RESEARCH FINDINGS & PUBLICATIONS (SORTED BY CITATIONS)
-    // =======================================================================
-    function hasRequiredAuthors(pub) {
-      const a = (pub.authors || "").toLowerCase();
-      return (
-        a.includes("rakhi radhamani") ||
-        a.includes("r radhamani") ||
-        a.includes("dhanush kumar") ||
-        a.includes("d kumar") ||
-        a.includes("nijin nizar") ||
-        a.includes("n nizar")
-      );
-    }
-
-    function renderResearchPublications() {
-      const container = document.getElementById("researchPublicationsContainer");
-      const countBadge = document.getElementById("researchPubsCountBadge");
-      const homeCountLabel = document.getElementById("homeResearchCountLabel");
-
-      // Strictly include only publications having Rakhi Radhamani, Dhanush Kumar, or Nijin Nizar as an author
-      const eligiblePubs = researchPublications.filter(hasRequiredAuthors);
-
-      if (homeCountLabel) {
-        homeCountLabel.textContent = `${eligiblePubs.length} Publications · Sorted by Citations`;
-      }
-
-      if (!container) return;
-
-      // Sort strictly by Google Scholar citation count descending (most citations first)
-      const sortedPubs = [...eligiblePubs].sort((a, b) => {
-        const citA = Number(a.citations) || 0;
-        const citB = Number(b.citations) || 0;
-        if (citB !== citA) return citB - citA;
-        return (parseInt(b.year, 10) || 0) - (parseInt(a.year, 10) || 0);
-      });
-
-      const q = researchSearchQuery.trim().toLowerCase();
-      const filteredPubs = q
-        ? sortedPubs.filter(
-            (p) =>
-              (p.title || "").toLowerCase().includes(q) ||
-              (p.authors || "").toLowerCase().includes(q) ||
-              (p.venue || "").toLowerCase().includes(q) ||
-              (p.category || "").toLowerCase().includes(q)
-          )
-        : sortedPubs;
-
-      if (countBadge) {
-        countBadge.textContent = `${filteredPubs.length} Publication${filteredPubs.length === 1 ? "" : "s"}`;
-      }
-
-      if (filteredPubs.length === 0) {
-        container.innerHTML = `
-          <div class="col-span-full rounded-2xl border border-dashed border-slate-300 bg-white p-8 sm:p-10 text-center space-y-3">
-            <p class="text-sm font-bold text-slate-700">No matching publications found.</p>
-            <p class="text-xs text-slate-500">Try clearing or refining your search query.</p>
-            <button
-              type="button"
-              onclick="clearResearchSearch()"
-              class="px-4 py-2 rounded-xl text-xs font-semibold bg-[#1E3A8A] text-white hover:bg-blue-950 transition-colors cursor-pointer"
-            >
-              Reset Search Filter
-            </button>
-          </div>
-        `;
-        return;
-      }
-
-      container.innerHTML = filteredPubs
-        .map((pub, idx) => {
-          const citations = Number(pub.citations) || 0;
-          return `
-            <article class="lab-item-card rounded-2xl p-5 sm:p-6 flex flex-col justify-between gap-4 min-w-0">
-              <div class="space-y-3 min-w-0">
-                <div class="flex flex-wrap items-center justify-between gap-2">
-                  <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
-                    <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200">
-                      #${idx + 1} · ${escapeHtml(pub.year)}
-                    </span>
-                    <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-[#1E3A8A] border border-blue-200">
-                      ${escapeHtml(pub.category || "Virtual Labs Research")}
-                    </span>
-                  </div>
-
-                  <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-900 border border-amber-300 shrink-0">
-                    <i data-lucide="award" class="w-3.5 h-3.5 text-amber-700"></i>
-                    <span>Cited by ${citations}</span>
-                  </span>
-                </div>
-
-                <h3 class="text-base sm:text-lg font-bold text-slate-900 leading-snug break-words">
-                  ${escapeHtml(pub.title)}
-                </h3>
-
-                <p class="text-xs sm:text-sm font-semibold text-[#A4123F] break-words">
-                  ${escapeHtml(pub.authors)}
-                </p>
-
-                <p class="text-xs italic text-slate-600 break-words">
-                  ${escapeHtml(pub.venue)}
-                </p>
-
-                ${
-                  pub.finding
-                    ? `<p class="text-xs text-slate-600 leading-relaxed bg-slate-50 p-3 rounded-xl border border-slate-200/80">
-                         <strong class="text-slate-800">Key Finding:</strong> ${escapeHtml(pub.finding)}
-                       </p>`
-                    : ""
-                }
-              </div>
-
-              <div class="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs">
-                <span class="text-slate-500">Google Scholar Citations: <strong>${citations}</strong></span>
-                <a
-                  href="${escapeHtml(pub.url || "https://www.amrita.edu/center/mind-brain/publications/")}"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center gap-1 font-bold text-[#1E3A8A] hover:underline"
-                >
-                  <span>View Publication</span>
-                  <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-                </a>
-              </div>
-            </article>
-          `;
-        })
-        .join("");
-
-      if (window.lucide) lucide.createIcons();
-    }
-
-    // =======================================================================
-    // MAINTAINER CONFIGURATION MODAL (PASSCODE: amrita2026)
-    // =======================================================================
-    function openAdminModal() {
-      const backdrop = document.getElementById("adminModalBackdrop");
-      if (!backdrop) return;
-      backdrop.classList.remove("hidden");
-
-      if (isAdminUnlocked) {
-        document.getElementById("adminAuthGate")?.classList.add("hidden");
-        document.getElementById("adminConfigPanel")?.classList.remove("hidden");
-        document.getElementById("adminModalFooter")?.classList.remove("hidden");
-        renderModalQuestionnaireList();
-        renderModalPublicationList();
-      } else {
-        document.getElementById("adminAuthGate")?.classList.remove("hidden");
-        document.getElementById("adminConfigPanel")?.classList.add("hidden");
-        document.getElementById("adminModalFooter")?.classList.add("hidden");
-        const passInput = document.getElementById("adminPasscodeInput");
-        if (passInput) {
-          passInput.value = "";
-          passInput.focus();
-        }
-      }
-      if (window.lucide) lucide.createIcons();
-    }
-
-    function closeAdminModal() {
-      const backdrop = document.getElementById("adminModalBackdrop");
-      if (backdrop) backdrop.classList.add("hidden");
-    }
-
-    function verifyAdminPasscode(event) {
-      event.preventDefault();
-      const input = document.getElementById("adminPasscodeInput");
-      const err = document.getElementById("adminAuthError");
-      if (input && input.value.trim() === "amrita2026") {
-        isAdminUnlocked = true;
-        if (err) err.classList.add("hidden");
-        openAdminModal();
-      } else if (err) {
-        err.classList.remove("hidden");
-      }
-    }
-
-    function renderModalQuestionnaireList() {
-      const list = document.getElementById("modalQuestionnaireList");
-      if (!list) return;
-      list.innerHTML = evaluationForms
-        .map(
-          (q, idx) => `
-          <div class="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs">
-            <div class="truncate">
-              <span class="font-bold text-slate-900">${escapeHtml(q.title)}</span>
-              <span class="text-slate-500 ml-1">(${escapeHtml(q.type)})</span>
-            </div>
-            <button type="button" onclick="removeQuestionnaire(${idx})" class="text-rose-600 hover:underline font-semibold shrink-0 cursor-pointer">Remove</button>
-          </div>
-        `
-        )
-        .join("");
-    }
-
-    function handleAddQuestionnaire(event) {
-      event.preventDefault();
-      const title = document.getElementById("qTitleInput")?.value.trim();
-      const type = document.getElementById("qTypeInput")?.value || "Google Form";
-      const url = document.getElementById("qUrlInput")?.value.trim() || "https://docs.google.com/forms/";
-      const description = document.getElementById("qDescInput")?.value.trim() || "";
-      if (!title) return;
-
-      evaluationForms.push({
-        id: "eval-form-" + Date.now(),
-        title,
-        type,
-        url,
-        description
-      });
-      event.target.reset();
-      renderEvaluations();
-      renderModalQuestionnaireList();
-    }
-
-    function removeQuestionnaire(idx) {
-      evaluationForms.splice(idx, 1);
-      renderEvaluations();
-      renderModalQuestionnaireList();
-    }
-
-    function renderModalPublicationList() {
-      const list = document.getElementById("modalPublicationList");
-      if (!list) return;
-      list.innerHTML = researchPublications
-        .filter(hasRequiredAuthors)
-        .map(
-          (p) => `
-          <div class="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs">
-            <div class="truncate">
-              <span class="font-bold text-slate-900">${escapeHtml(p.title)}</span>
-              <span class="text-amber-800 font-semibold ml-1">(Cited by ${Number(p.citations) || 0})</span>
-            </div>
-            <button type="button" onclick="removePublication('${escapeHtml(p.id)}')" class="text-rose-600 hover:underline font-semibold shrink-0 cursor-pointer">Remove</button>
-          </div>
-        `
-        )
-        .join("");
-    }
-
-    function handleAddPublication(event) {
-      event.preventDefault();
-      const title = document.getElementById("pTitleInput")?.value.trim();
-      const authors = document.getElementById("pAuthorsInput")?.value.trim();
-      const venue = document.getElementById("pVenueInput")?.value.trim();
-      const citations = parseInt(document.getElementById("pCitationsInput")?.value || "0", 10) || 0;
-      const url = document.getElementById("pUrlInput")?.value.trim() || "https://www.amrita.edu/center/mind-brain/publications/";
-      const finding = document.getElementById("pFindingInput")?.value.trim() || "";
-      if (!title || !authors) return;
-
-      researchPublications.push({
-        id: "ambc-vl-" + Date.now(),
-        title,
-        authors,
-        venue,
-        year: new Date().getFullYear().toString(),
-        citations,
-        category: "Virtual Labs Research",
-        finding,
-        url
-      });
-      event.target.reset();
-      renderResearchPublications();
-      renderModalPublicationList();
-    }
-
-    function removePublication(pubId) {
-      researchPublications = researchPublications.filter((p) => p.id !== pubId);
-      renderResearchPublications();
-      renderModalPublicationList();
-    }
-
-    function copyConfigForGitHub() {
-      const snippet =
-        "const RESEARCH_PUBLICATIONS = " +
-        JSON.stringify(researchPublications, null, 2) +
-        ";\n\nconst EVALUATION_FORMS = " +
-        JSON.stringify(evaluationForms, null, 2) +
-        ";";
-
-      const textarea = document.createElement("textarea");
-      textarea.value = snippet;
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand("copy");
-      document.body.removeChild(textarea);
-
-      const btnText = document.getElementById("copyConfigBtnText");
-      if (btnText) {
-        if (copyButtonTimeout !== null) {
-          clearTimeout(copyButtonTimeout);
-        }
-        btnText.textContent = "Copied Config to Clipboard!";
-        copyButtonTimeout = setTimeout(() => {
-          btnText.textContent = "Copy JS Config for GitHub";
-          copyButtonTimeout = null;
-        }, 2200);
-      }
-    }
-
-    // =======================================================================
-    // FOOTER VISITOR COUNTER (SAFE STORAGE + TIMEOUT FALLBACK)
-    // =======================================================================
-    const VISITOR_STORAGE_KEY = "amrita_vlabs_portal_visits_reset_v1";
+    const VISITOR_STORAGE_KEY = "amrita_vlabs_global_total_visits_v2";
+    const VISITOR_NAMESPACE = "amrita-vlabs-portal-official";
+    const VISITOR_KEY = "total-page-accesses";
 
     function safeGetStorage(key) {
       try {
@@ -2009,43 +1574,1104 @@
       } catch (_) {}
     }
 
+    async function fetchWithTimeout(url, timeoutMs = 4500) {
+      const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
+      const timeoutId = controller ? setTimeout(() => controller.abort(), timeoutMs) : null;
+      try {
+        const response = await fetch(url, {
+          method: "GET",
+          cache: "no-store",
+          signal: controller ? controller.signal : undefined
+        });
+        if (timeoutId) clearTimeout(timeoutId);
+        return response;
+      } catch (err) {
+        if (timeoutId) clearTimeout(timeoutId);
+        throw err;
+      }
+    }
+
     async function initVisitorCounter() {
       const counterEl = document.getElementById("visitorCounterValue");
       if (!counterEl) return;
 
-      // Clean out any legacy artificial offset keys
-      safeRemoveStorage("amrita_vlabs_portal_visits_2026");
+      // Read highest previously known count in this browser as a floor value
+      const legacyCount = parseInt(safeGetStorage("amrita_vlabs_portal_visits_reset_v1") || "0", 10) || 0;
+      const savedCount = parseInt(safeGetStorage(VISITOR_STORAGE_KEY) || "0", 10) || 0;
+      let bestKnownCount = Math.max(legacyCount, savedCount);
 
-      let localCount = parseInt(safeGetStorage(VISITOR_STORAGE_KEY) || "0", 10);
-      if (isNaN(localCount) || localCount < 0) localCount = 0;
-      localCount += 1;
-      safeSetStorage(VISITOR_STORAGE_KEY, String(localCount));
-      counterEl.textContent = localCount.toLocaleString();
+      if (bestKnownCount > 0) {
+        counterEl.textContent = bestKnownCount.toLocaleString();
+      }
 
+      let globalCount = null;
+
+      // Primary Global Counter: Abacus API (built for GitHub Pages, full CORS support)
       try {
-        const controller = typeof AbortController !== "undefined" ? new AbortController() : null;
-        const timeoutId = controller ? setTimeout(() => controller.abort(), 4000) : null;
-        const res = await fetch(
-          "https://api.counterapi.dev/v1/amrita-vlabs-portal-2026-clean/visits/up",
-          controller ? { signal: controller.signal } : undefined
+        const res = await fetchWithTimeout(
+          `https://abacus.jasoncameron.dev/hit/${VISITOR_NAMESPACE}/${VISITOR_KEY}`
         );
-        if (timeoutId) clearTimeout(timeoutId);
         if (res.ok) {
           const data = await res.json();
-          if (data && typeof data.count === "number" && data.count > 0) {
-            counterEl.textContent = data.count.toLocaleString();
+          if (data && typeof data.value === "number" && data.value > 0) {
+            globalCount = data.value;
           }
         }
       } catch (_) {
-        // Uses accurate localStorage count if offline or blocked
+        // Proceed to backup global counter API
+      }
+
+      // Secondary Backup Global Counter: CounterAPI
+      if (globalCount === null) {
+        try {
+          const resBackup = await fetchWithTimeout(
+            `https://api.counterapi.dev/v1/${VISITOR_NAMESPACE}/${VISITOR_KEY}/up`
+          );
+          if (resBackup.ok) {
+            const dataBackup = await resBackup.json();
+            if (dataBackup && typeof dataBackup.count === "number" && dataBackup.count > 0) {
+              globalCount = dataBackup.count;
+            }
+          }
+        } catch (_) {
+          // Both remote APIs unreachable; fall back to monotonic local increment
+        }
+      }
+
+      // Ensure the displayed count never drops backward
+      const finalCount =
+        globalCount !== null
+          ? Math.max(globalCount, bestKnownCount)
+          : bestKnownCount + 1;
+
+      safeSetStorage(VISITOR_STORAGE_KEY, String(finalCount));
+      counterEl.textContent = finalCount.toLocaleString();
+    }
+
+    // =======================================================================
+    // WORKSHOP SPOTLIGHT & CONFIGURATION STATE MANAGEMENT
+    // =======================================================================
+    function loadSpotlightState() {
+      // 1. Load saved spotlight URLs from localStorage if available
+      const savedSpotlightsRaw = safeGetStorage(SPOTLIGHT_STORAGE_KEY);
+      if (savedSpotlightsRaw) {
+        try {
+          const parsed = JSON.parse(savedSpotlightsRaw);
+          if (Array.isArray(parsed)) {
+            spotlightedLabUrls = new Set(parsed.map((u) => normalizeLabUrl(u)));
+          }
+        } catch (_) {}
+      }
+
+      // 2. Also support URL query parameter ?spotlight=url1,url2 for instant workshop sharing
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const spotlightParam = params.get("spotlight");
+        if (spotlightParam) {
+          const fromParam = spotlightParam
+            .split(",")
+            .map((s) => decodeURIComponent(s.trim()))
+            .filter(Boolean)
+            .map((u) => normalizeLabUrl(u));
+          if (fromParam.length > 0) {
+            spotlightedLabUrls = new Set(fromParam);
+          }
+        }
+      } catch (_) {}
+
+      // 3. Load custom evaluation questionnaires if saved in browser
+      const savedEvalRaw = safeGetStorage(EVAL_FORMS_STORAGE_KEY);
+      if (savedEvalRaw) {
+        try {
+          const parsedEval = JSON.parse(savedEvalRaw);
+          if (Array.isArray(parsedEval) && parsedEval.length > 0) {
+            evaluationForms = parsedEval;
+          }
+        } catch (_) {}
+      }
+
+      // 4. Load custom research publications if saved in browser
+      const savedPubsRaw = safeGetStorage(RESEARCH_PUBS_STORAGE_KEY);
+      if (savedPubsRaw) {
+        try {
+          const parsedPubs = JSON.parse(savedPubsRaw);
+          if (Array.isArray(parsedPubs) && parsedPubs.length > 0) {
+            researchPublications = parsedPubs;
+          }
+        } catch (_) {}
       }
     }
 
-    function resetVisitorCounter() {
-      safeSetStorage(VISITOR_STORAGE_KEY, "1");
-      const counterEl = document.getElementById("visitorCounterValue");
-      if (counterEl) {
-        counterEl.textContent = "1";
+    function saveSpotlightState() {
+      const canonicalList = [];
+      Object.values(BROAD_AREAS).forEach((area) => {
+        area.labs.forEach((lab) => {
+          if (isLabSpotlighted(lab.url)) {
+            canonicalList.push(lab.url);
+          }
+        });
+      });
+      safeSetStorage(SPOTLIGHT_STORAGE_KEY, JSON.stringify(canonicalList));
+    }
+
+    function getAllSpotlightedLabObjects() {
+      const results = [];
+      Object.values(BROAD_AREAS).forEach((area) => {
+        area.labs.forEach((lab) => {
+          if (isLabSpotlighted(lab.url)) {
+            results.push({
+              ...lab,
+              areaKey: area.key,
+              areaTitle: area.title
+            });
+          }
+        });
+      });
+      return results;
+    }
+
+    function renderBroadAreasSpotlightUI() {
+      const allSpotlights = getAllSpotlightedLabObjects();
+      const totalSpotlights = allSpotlights.length;
+
+      // Home card spotlight indicator
+      const homeIndicator = document.getElementById("homeSpotlightIndicator");
+      const homeCountText = document.getElementById("homeSpotlightCountText");
+      if (homeIndicator && homeCountText) {
+        if (totalSpotlights > 0) {
+          homeIndicator.classList.remove("hidden");
+          homeIndicator.classList.add("inline-flex");
+          homeCountText.textContent =
+            totalSpotlights === 1
+              ? "1 Lab Spotlighted"
+              : `${totalSpotlights} Labs Spotlighted`;
+        } else {
+          homeIndicator.classList.add("hidden");
+          homeIndicator.classList.remove("inline-flex");
+        }
+      }
+
+      // Broad Areas top quick-access banner
+      const banner = document.getElementById("broadAreasSpotlightBanner");
+      const bannerBadge = document.getElementById("broadAreasSpotlightCountBadge");
+      const bannerGrid = document.getElementById("broadAreasSpotlightGrid");
+
+      if (banner && bannerBadge && bannerGrid) {
+        if (totalSpotlights > 0) {
+          banner.classList.remove("hidden");
+          bannerBadge.textContent =
+            totalSpotlights === 1
+              ? "1 Lab Highlighted"
+              : `${totalSpotlights} Labs Highlighted`;
+
+          bannerGrid.innerHTML = allSpotlights
+            .map(
+              (item) => `
+              <a
+                href="${escapeHtml(item.url)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="lab-item-spotlight rounded-2xl p-4 flex flex-col justify-between gap-3 group"
+              >
+                <div class="space-y-1.5">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-amber-500 text-white shadow-sm">
+                      <span>★ Workshop Spotlight</span>
+                    </span>
+                    <span class="text-[11px] font-semibold text-amber-900/80 truncate">
+                      ${escapeHtml(item.areaTitle)}
+                    </span>
+                  </div>
+                  <h3 class="text-sm sm:text-base font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
+                    ${escapeHtml(item.name)}
+                  </h3>
+                </div>
+                <div class="pt-2 border-t border-amber-300/70 flex items-center justify-between text-xs font-bold text-amber-950">
+                  <span class="truncate">${escapeHtml(item.url.replace(/^https?:\/\//, "").replace(/\/$/, ""))}</span>
+                  <span class="inline-flex items-center gap-1 text-[#A4123F] shrink-0">
+                    <span>Open Lab</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                  </span>
+                </div>
+              </a>
+            `
+            )
+            .join("");
+        } else {
+          banner.classList.add("hidden");
+          bannerGrid.innerHTML = "";
+        }
+      }
+
+      // Update each of the 3 Broad Area cards
+      Object.values(BROAD_AREAS).forEach((area) => {
+        const count = area.labs.filter((l) => isLabSpotlighted(l.url)).length;
+        const cardEl = document.getElementById(`areaCard-${area.key}`);
+        const badgeEl = document.getElementById(`areaSpotlightBadge-${area.key}`);
+        const countEl = document.getElementById(`areaSpotlightCount-${area.key}`);
+
+        if (cardEl) {
+          if (count > 0) {
+            cardEl.classList.add("area-card-spotlight");
+          } else {
+            cardEl.classList.remove("area-card-spotlight");
+          }
+        }
+        if (badgeEl && countEl) {
+          if (count > 0) {
+            badgeEl.classList.remove("hidden");
+            badgeEl.classList.add("inline-flex");
+            countEl.textContent = `${count} Spotlighted`;
+          } else {
+            badgeEl.classList.add("hidden");
+            badgeEl.classList.remove("inline-flex");
+          }
+        }
+      });
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // =======================================================================
+    // HIERARCHICAL NAVIGATION & BREADCRUMB FUNCTIONS
+    // =======================================================================
+    function navigateTo(view, skipHistory = false) {
+      const views = [
+        "view-home",
+        "view-broad-areas",
+        "view-discipline-labs",
+        "view-evaluation",
+        "view-research"
+      ];
+      views.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) el.classList.add("hidden");
+      });
+
+      currentView = view;
+
+      if (view === "home") {
+        document.getElementById("view-home")?.classList.remove("hidden");
+      } else if (view === "broad-areas") {
+        document.getElementById("view-broad-areas")?.classList.remove("hidden");
+        renderBroadAreasSpotlightUI();
+      } else if (view === "discipline-labs") {
+        document.getElementById("view-discipline-labs")?.classList.remove("hidden");
+        renderLabs();
+      } else if (view === "evaluation") {
+        document.getElementById("view-evaluation")?.classList.remove("hidden");
+        renderEvaluations();
+      } else if (view === "research") {
+        document.getElementById("view-research")?.classList.remove("hidden");
+        renderResearchPublications();
+      }
+
+      updateBreadcrumb();
+
+      if (!skipHistory) {
+        const targetHash =
+          view === "discipline-labs" ? `#discipline-${activeAreaKey}` : `#${view}`;
+        if (window.location.hash !== targetHash) {
+          try {
+            history.pushState({ view, activeAreaKey }, "", targetHash);
+          } catch (_) {}
+        }
+      }
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function navigateBack() {
+      if (currentView === "discipline-labs") {
+        navigateTo("broad-areas");
+      } else {
+        navigateTo("home");
+      }
+    }
+
+    function openDiscipline(areaKey, skipHistory = false) {
+      if (!BROAD_AREAS[areaKey]) return;
+      activeAreaKey = areaKey;
+      searchQuery = "";
+      showSpotlightOnly = false;
+      const searchInput = document.getElementById("labSearchInput");
+      if (searchInput) searchInput.value = "";
+      const clearBtn = document.getElementById("clearSearchBtn");
+      if (clearBtn) clearBtn.classList.add("hidden");
+
+      navigateTo("discipline-labs", skipHistory);
+    }
+
+    function updateBreadcrumb() {
+      const trail = document.getElementById("breadcrumbTrail");
+      const backBtn = document.getElementById("globalBackBtn");
+      const backLabel = document.getElementById("globalBackBtnLabel");
+      if (!trail) return;
+
+      const items = [];
+
+      if (currentView === "home") {
+        items.push(`<li class="font-semibold text-slate-700">Portal Directory</li>`);
+        if (backBtn) backBtn.classList.add("hidden");
+      } else if (currentView === "broad-areas") {
+        items.push(`
+          <li class="flex items-center gap-1.5 text-slate-900 font-bold">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400"></i>
+            <span>Broad Areas of Amrita Virtual Labs</span>
+          </li>
+        `);
+        if (backBtn && backLabel) {
+          backBtn.classList.remove("hidden");
+          backLabel.textContent = "Back to Home";
+        }
+      } else if (currentView === "discipline-labs") {
+        const area = BROAD_AREAS[activeAreaKey] || BROAD_AREAS.biotech;
+        items.push(`
+          <li class="flex items-center gap-1.5">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400"></i>
+            <button type="button" onclick="navigateTo('broad-areas')" class="text-slate-600 hover:text-[#A4123F] font-semibold underline-offset-2 hover:underline cursor-pointer">
+              Broad Areas
+            </button>
+          </li>
+          <li class="flex items-center gap-1.5 text-slate-900 font-bold min-w-0">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400 shrink-0"></i>
+            <span class="truncate">${escapeHtml(area.title)}</span>
+          </li>
+        `);
+        if (backBtn && backLabel) {
+          backBtn.classList.remove("hidden");
+          backLabel.textContent = "Back to Broad Areas";
+        }
+      } else if (currentView === "evaluation") {
+        items.push(`
+          <li class="flex items-center gap-1.5 text-slate-900 font-bold">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400"></i>
+            <span>Evaluation</span>
+          </li>
+        `);
+        if (backBtn && backLabel) {
+          backBtn.classList.remove("hidden");
+          backLabel.textContent = "Back to Home";
+        }
+      } else if (currentView === "research") {
+        items.push(`
+          <li class="flex items-center gap-1.5 text-slate-900 font-bold">
+            <i data-lucide="chevron-right" class="w-4 h-4 text-slate-400"></i>
+            <span>Research Findings &amp; Publications</span>
+          </li>
+        `);
+        if (backBtn && backLabel) {
+          backBtn.classList.remove("hidden");
+          backLabel.textContent = "Back to Home";
+        }
+      }
+
+      trail.innerHTML = items.join("");
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function setLayoutMode(mode) {
+      layoutMode = mode === "list" ? "list" : "grid";
+      const gridBtn = document.getElementById("viewGridBtn");
+      const listBtn = document.getElementById("viewListBtn");
+
+      if (gridBtn && listBtn) {
+        if (layoutMode === "grid") {
+          gridBtn.className =
+            "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-sm transition-all flex items-center gap-1.5 cursor-pointer";
+          listBtn.className =
+            "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
+        } else {
+          listBtn.className =
+            "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white text-slate-900 shadow-sm transition-all flex items-center gap-1.5 cursor-pointer";
+          gridBtn.className =
+            "px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition-all flex items-center gap-1.5 cursor-pointer";
+        }
+      }
+      renderLabs();
+    }
+
+    function clearSearch() {
+      searchQuery = "";
+      showSpotlightOnly = false;
+      const input = document.getElementById("labSearchInput");
+      if (input) input.value = "";
+      const clearBtn = document.getElementById("clearSearchBtn");
+      if (clearBtn) clearBtn.classList.add("hidden");
+      renderLabs();
+    }
+
+    function clearResearchSearch() {
+      researchSearchQuery = "";
+      const input = document.getElementById("researchSearchInput");
+      if (input) input.value = "";
+      const clearBtn = document.getElementById("clearResearchSearchBtn");
+      if (clearBtn) clearBtn.classList.add("hidden");
+      renderResearchPublications();
+    }
+
+    function toggleSpotlightOnlyFilter() {
+      showSpotlightOnly = !showSpotlightOnly;
+      renderLabs();
+    }
+
+    // =======================================================================
+    // RENDER SECTION 01: DISCIPLINE VIRTUAL LABS
+    // =======================================================================
+    function renderLabs() {
+      const area = BROAD_AREAS[activeAreaKey] || BROAD_AREAS.biotech;
+      const headingEl = document.getElementById("discipline-labs-heading");
+      const countBadgeEl = document.getElementById("activeAreaCountBadge");
+      const spotlightBadgeEl = document.getElementById("activeAreaSpotlightBadge");
+      const spotlightTextEl = document.getElementById("activeAreaSpotlightText");
+      const filterSpotlightBtn = document.getElementById("filterSpotlightOnlyBtn");
+      const filterSpotlightBtnLabel = document.getElementById("filterSpotlightOnlyBtnLabel");
+      const container = document.getElementById("labsContainer");
+      const emptyState = document.getElementById("emptyLabsState");
+
+      if (!container) return;
+
+      if (headingEl) headingEl.textContent = area.title;
+      if (countBadgeEl) countBadgeEl.textContent = `${area.labs.length} Labs`;
+
+      const areaSpotlightCount = area.labs.filter((l) => isLabSpotlighted(l.url)).length;
+
+      if (spotlightBadgeEl && spotlightTextEl) {
+        if (areaSpotlightCount > 0) {
+          spotlightBadgeEl.classList.remove("hidden");
+          spotlightBadgeEl.classList.add("inline-flex");
+          spotlightTextEl.textContent =
+            areaSpotlightCount === 1
+              ? "1 Workshop Spotlight"
+              : `${areaSpotlightCount} Workshop Spotlights`;
+        } else {
+          spotlightBadgeEl.classList.add("hidden");
+          spotlightBadgeEl.classList.remove("inline-flex");
+        }
+      }
+
+      if (filterSpotlightBtn && filterSpotlightBtnLabel) {
+        if (areaSpotlightCount > 0) {
+          filterSpotlightBtn.classList.remove("hidden");
+          filterSpotlightBtn.classList.add("inline-flex");
+          if (showSpotlightOnly) {
+            filterSpotlightBtn.className =
+              "inline-flex items-center gap-1.5 px-3.5 py-2 min-h-[42px] rounded-xl text-xs sm:text-sm font-bold border-2 border-amber-600 bg-amber-500 text-white shadow-sm transition-all cursor-pointer shrink-0";
+            filterSpotlightBtnLabel.textContent = `Showing Spotlighted (${areaSpotlightCount}) · Show All`;
+          } else {
+            filterSpotlightBtn.className =
+              "inline-flex items-center gap-1.5 px-3.5 py-2 min-h-[42px] rounded-xl text-xs sm:text-sm font-bold border border-amber-300 bg-amber-50 text-amber-900 hover:bg-amber-100 transition-all cursor-pointer shrink-0";
+            filterSpotlightBtnLabel.textContent = `Show Spotlighted Only (${areaSpotlightCount})`;
+          }
+        } else {
+          showSpotlightOnly = false;
+          filterSpotlightBtn.classList.add("hidden");
+          filterSpotlightBtn.classList.remove("inline-flex");
+        }
+      }
+
+      const q = searchQuery.trim().toLowerCase();
+
+      // Sort: Spotlighted first -> (New) second -> original order
+      const sortedLabs = [...area.labs].sort((a, b) => {
+        const aSpot = isLabSpotlighted(a.url) ? 1 : 0;
+        const bSpot = isLabSpotlighted(b.url) ? 1 : 0;
+        if (aSpot !== bSpot) return bSpot - aSpot;
+        const aNew = a.isNew ? 1 : 0;
+        const bNew = b.isNew ? 1 : 0;
+        return bNew - aNew;
+      });
+
+      const filteredLabs = sortedLabs.filter((lab) => {
+        if (showSpotlightOnly && !isLabSpotlighted(lab.url)) return false;
+        if (!q) return true;
+        return (
+          lab.name.toLowerCase().includes(q) ||
+          lab.url.toLowerCase().includes(q)
+        );
+      });
+
+      if (filteredLabs.length === 0) {
+        container.innerHTML = "";
+        container.classList.add("hidden");
+        if (emptyState) emptyState.classList.remove("hidden");
+        return;
+      }
+
+      container.classList.remove("hidden");
+      if (emptyState) emptyState.classList.add("hidden");
+
+      if (layoutMode === "list") {
+        container.className = "flex flex-col gap-3";
+      } else {
+        container.className = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4";
+      }
+
+      container.innerHTML = filteredLabs
+        .map((lab, idx) => {
+          const isSpot = isLabSpotlighted(lab.url);
+          const cardClass = isSpot
+            ? "lab-item-card lab-item-spotlight"
+            : lab.isNew
+            ? "lab-item-card lab-item-new"
+            : "lab-item-card";
+
+          const cleanHost = lab.url.replace(/^https?:\/\//, "").replace(/\/$/, "");
+
+          const badgesHtml = `
+            <div class="flex items-center flex-wrap gap-1.5">
+              ${
+                isSpot
+                  ? `<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500 text-white shadow-sm">
+                      <span class="w-1.5 h-1.5 rounded-full bg-white new-dot"></span>
+                      <span>★ Workshop Spotlight</span>
+                    </span>`
+                  : ""
+              }
+              ${
+                lab.isNew
+                  ? `<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
+                      <span class="w-1.5 h-1.5 rounded-full bg-emerald-600 new-dot"></span>
+                      <span>(New)</span>
+                    </span>`
+                  : ""
+              }
+            </div>
+          `;
+
+          if (layoutMode === "list") {
+            return `
+              <a
+                href="${escapeHtml(lab.url)}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="${cardClass} rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 group"
+              >
+                <div class="flex items-start sm:items-center gap-3.5 min-w-0">
+                  <span class="w-8 h-8 rounded-xl ${
+                    isSpot
+                      ? "bg-amber-500 text-white"
+                      : "bg-slate-100 text-slate-700 group-hover:bg-[#A4123F] group-hover:text-white"
+                  } text-xs font-bold flex items-center justify-center shrink-0 transition-colors">
+                    ${String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <div class="min-w-0 space-y-1">
+                    <div class="flex items-center flex-wrap gap-2">
+                      <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
+                        ${escapeHtml(lab.name)}
+                      </h3>
+                      ${badgesHtml}
+                    </div>
+                    <p class="text-xs text-slate-500 truncate">${escapeHtml(cleanHost)}</p>
+                  </div>
+                </div>
+                <div class="flex items-center justify-end gap-2 shrink-0">
+                  <span class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold ${
+                    isSpot
+                      ? "bg-amber-600 text-white group-hover:bg-amber-700"
+                      : "bg-rose-50 text-[#A4123F] group-hover:bg-[#A4123F] group-hover:text-white"
+                  } transition-colors">
+                    <span>Launch Lab</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                  </span>
+                </div>
+              </a>
+            `;
+          }
+
+          return `
+            <a
+              href="${escapeHtml(lab.url)}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="${cardClass} rounded-2xl p-5 flex flex-col justify-between gap-4 group"
+            >
+              <div class="space-y-3">
+                <div class="flex items-center justify-between gap-2">
+                  <span class="w-8 h-8 rounded-xl ${
+                    isSpot
+                      ? "bg-amber-500 text-white"
+                      : "bg-slate-100 text-slate-700 group-hover:bg-[#A4123F] group-hover:text-white"
+                  } text-xs font-bold flex items-center justify-center shrink-0 transition-colors">
+                    ${String(idx + 1).padStart(2, "0")}
+                  </span>
+                  ${badgesHtml}
+                </div>
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#A4123F] transition-colors leading-snug">
+                  ${escapeHtml(lab.name)}
+                </h3>
+              </div>
+
+              <div class="pt-3.5 border-t ${
+                isSpot ? "border-amber-300/80" : "border-slate-100"
+              } flex items-center justify-between gap-2 text-xs">
+                <span class="text-slate-500 truncate">${escapeHtml(cleanHost)}</span>
+                <span class="inline-flex items-center gap-1 font-bold ${
+                  isSpot ? "text-amber-900" : "text-[#A4123F]"
+                } shrink-0">
+                  <span>Open Lab</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5"></i>
+                </span>
+              </div>
+            </a>
+          `;
+        })
+        .join("");
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // =======================================================================
+    // RENDER SECTION 02: EVALUATION QUESTIONNAIRES
+    // =======================================================================
+    function renderEvaluations() {
+      const grid = document.getElementById("evalFormsGrid");
+      if (!grid) return;
+
+      grid.innerHTML = evaluationForms
+        .map(
+          (form) => `
+          <a
+            href="${escapeHtml(form.url)}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-sm hover:border-[#0D6E52] hover:shadow-md transition-all flex flex-col justify-between gap-4 group"
+          >
+            <div class="space-y-3">
+              <div class="flex items-center justify-between gap-2">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-50 text-[#0D6E52] border border-emerald-200">
+                  <i data-lucide="file-check-2" class="w-3.5 h-3.5"></i>
+                  <span>${escapeHtml(form.type || "Google Form")}</span>
+                </span>
+                <i data-lucide="external-link" class="w-4 h-4 text-slate-400 group-hover:text-[#0D6E52] transition-colors"></i>
+              </div>
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 group-hover:text-[#0D6E52] transition-colors leading-snug">
+                ${escapeHtml(form.title)}
+              </h3>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                ${escapeHtml(form.description || "")}
+              </p>
+            </div>
+            <div class="pt-3.5 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#0D6E52]">
+              <span>Open Questionnaire</span>
+              <i data-lucide="arrow-right" class="w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+            </div>
+          </a>
+        `
+        )
+        .join("");
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // =======================================================================
+    // RENDER SECTION 03: RESEARCH FINDINGS & PUBLICATIONS (SORTED BY CITATIONS)
+    // =======================================================================
+    function renderResearchPublications() {
+      const container = document.getElementById("researchPublicationsContainer");
+      const countBadge = document.getElementById("researchPubsCountBadge");
+      const homeCountLabel = document.getElementById("homeResearchCountLabel");
+      if (!container) return;
+
+      const sortedPubs = [...researchPublications].sort(
+        (a, b) => (Number(b.citations) || 0) - (Number(a.citations) || 0)
+      );
+
+      if (homeCountLabel) {
+        homeCountLabel.textContent = `${sortedPubs.length} Publications · Sorted by Citations`;
+      }
+
+      const q = researchSearchQuery.trim().toLowerCase();
+      const filteredPubs = sortedPubs.filter((pub) => {
+        if (!q) return true;
+        return (
+          (pub.title || "").toLowerCase().includes(q) ||
+          (pub.authors || "").toLowerCase().includes(q) ||
+          (pub.venue || "").toLowerCase().includes(q) ||
+          (pub.category || "").toLowerCase().includes(q) ||
+          String(pub.year || "").toLowerCase().includes(q)
+        );
+      });
+
+      if (countBadge) {
+        countBadge.textContent =
+          filteredPubs.length === sortedPubs.length
+            ? `${sortedPubs.length} Publications`
+            : `${filteredPubs.length} of ${sortedPubs.length} Publications`;
+      }
+
+      if (filteredPubs.length === 0) {
+        container.innerHTML = `
+          <div class="lg:col-span-2 rounded-2xl border border-dashed border-slate-300 bg-white p-8 text-center space-y-3">
+            <p class="text-sm font-semibold text-slate-700">No publications match your search query.</p>
+            <button
+              type="button"
+              onclick="clearResearchSearch()"
+              class="px-4 py-2 rounded-xl text-xs font-bold bg-[#1E3A8A] text-white hover:bg-blue-950 transition-colors cursor-pointer"
+            >
+              Reset Search Filter
+            </button>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filteredPubs
+        .map(
+          (pub, index) => `
+          <article class="rounded-2xl border border-slate-200/90 bg-white p-5 sm:p-6 shadow-sm hover:border-[#1E3A8A]/60 hover:shadow-md transition-all flex flex-col justify-between gap-4">
+            <div class="space-y-3">
+              <div class="flex items-center justify-between gap-2 flex-wrap">
+                <div class="flex items-center flex-wrap gap-1.5">
+                  <span class="px-2.5 py-0.5 rounded-lg text-xs font-bold bg-slate-100 text-slate-700">
+                    #${index + 1}
+                  </span>
+                  <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-[#1E3A8A] border border-blue-200/80">
+                    ${escapeHtml(pub.category || "Virtual Labs Research")}
+                  </span>
+                  ${
+                    pub.year
+                      ? `<span class="px-2 py-0.5 rounded-md text-xs font-semibold bg-slate-100 text-slate-600">${escapeHtml(pub.year)}</span>`
+                      : ""
+                  }
+                </div>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-900 border border-amber-200 shrink-0" title="Google Scholar Citation Count">
+                  <i data-lucide="quote" class="w-3.5 h-3.5 text-amber-700"></i>
+                  <span>Cited by ${Number(pub.citations) || 0}</span>
+                </span>
+              </div>
+
+              <h3 class="text-base sm:text-lg font-bold text-slate-900 leading-snug">
+                ${escapeHtml(pub.title)}
+              </h3>
+
+              <p class="text-xs sm:text-sm text-slate-700 font-medium">
+                ${escapeHtml(pub.authors)}
+              </p>
+
+              <p class="text-xs text-slate-500 italic">
+                ${escapeHtml(pub.venue)}
+              </p>
+
+              ${
+                pub.finding
+                  ? `<p class="text-xs sm:text-sm text-slate-600 bg-slate-50 p-3 rounded-xl border border-slate-100 leading-relaxed">
+                      ${escapeHtml(pub.finding)}
+                    </p>`
+                  : ""
+              }
+            </div>
+
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+              <span class="text-xs text-slate-500 font-medium">Google Scholar Verified</span>
+              ${
+                pub.url
+                  ? `<a
+                      href="${escapeHtml(pub.url)}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold bg-blue-50 text-[#1E3A8A] hover:bg-[#1E3A8A] hover:text-white transition-colors"
+                    >
+                      <span>View Publication</span>
+                      <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                    </a>`
+                  : ""
+              }
+            </div>
+          </article>
+        `
+        )
+        .join("");
+
+      if (window.lucide) lucide.createIcons();
+    }
+
+    // =======================================================================
+    // ADMINISTRATOR CONFIGURATION MODAL (PASSCODE: amrita2026)
+    // =======================================================================
+    function openAdminModal() {
+      const backdrop = document.getElementById("adminModalBackdrop");
+      if (!backdrop) return;
+      backdrop.classList.remove("hidden");
+      const passInput = document.getElementById("adminPasscodeInput");
+      if (passInput) {
+        passInput.value = "";
+        setTimeout(() => passInput.focus(), 50);
+      }
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function closeAdminModal() {
+      const backdrop = document.getElementById("adminModalBackdrop");
+      if (backdrop) backdrop.classList.add("hidden");
+    }
+
+    function verifyAdminPasscode(event) {
+      if (event) event.preventDefault();
+      const input = document.getElementById("adminPasscodeInput");
+      const errorEl = document.getElementById("adminAuthError");
+      const gateEl = document.getElementById("adminAuthGate");
+      const panelEl = document.getElementById("adminConfigPanel");
+      const footerEl = document.getElementById("adminModalFooter");
+
+      const val = (input?.value || "").trim();
+      if (val === "amrita2026") {
+        if (errorEl) errorEl.classList.add("hidden");
+        if (gateEl) gateEl.classList.add("hidden");
+        if (panelEl) panelEl.classList.remove("hidden");
+        if (footerEl) footerEl.classList.remove("hidden");
+        renderModalSpotlightSelector();
+        renderModalQuestionnaireList();
+        renderModalPublicationList();
+        if (window.lucide) lucide.createIcons();
+      } else {
+        if (errorEl) errorEl.classList.remove("hidden");
+      }
+    }
+
+    function toggleLabSpotlight(url) {
+      const norm = normalizeLabUrl(url);
+      if (spotlightedLabUrls.has(norm)) {
+        spotlightedLabUrls.delete(norm);
+      } else {
+        spotlightedLabUrls.add(norm);
+      }
+      saveSpotlightState();
+      renderModalSpotlightSelector();
+      renderBroadAreasSpotlightUI();
+      renderLabs();
+    }
+
+    function clearAllSpotlights() {
+      spotlightedLabUrls.clear();
+      saveSpotlightState();
+      renderModalSpotlightSelector();
+      renderBroadAreasSpotlightUI();
+      renderLabs();
+    }
+
+    function renderModalSpotlightSelector() {
+      const container = document.getElementById("modalSpotlightLabGroups");
+      const summaryBadge = document.getElementById("modalSpotlightSummaryBadge");
+      const searchInput = document.getElementById("adminSpotlightSearchInput");
+      if (!container) return;
+
+      const totalActive = getAllSpotlightedLabObjects().length;
+      if (summaryBadge) {
+        summaryBadge.textContent =
+          totalActive === 1 ? "1 Spotlight Active" : `${totalActive} Spotlights Active`;
+      }
+
+      const q = (searchInput?.value || "").trim().toLowerCase();
+
+      container.innerHTML = Object.values(BROAD_AREAS)
+        .map((area) => {
+          const matchingLabs = area.labs.filter(
+            (l) => !q || l.name.toLowerCase().includes(q) || l.url.toLowerCase().includes(q)
+          );
+          if (matchingLabs.length === 0) return "";
+
+          return `
+            <div class="rounded-xl bg-white border border-amber-200 p-3 space-y-2">
+              <div class="text-xs font-bold text-slate-900 flex items-center justify-between">
+                <span>${escapeHtml(area.title)}</span>
+                <span class="text-[11px] font-semibold text-slate-500">${matchingLabs.length} Labs</span>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                ${matchingLabs
+                  .map((lab) => {
+                    const checked = isLabSpotlighted(lab.url);
+                    return `
+                      <label class="flex items-start gap-2 p-2 rounded-lg border ${
+                        checked
+                          ? "bg-amber-50/90 border-amber-400 text-amber-950 font-bold"
+                          : "bg-slate-50/70 border-slate-200 text-slate-700 hover:bg-slate-100"
+                      } text-xs cursor-pointer transition-colors">
+                        <input
+                          type="checkbox"
+                          ${checked ? "checked" : ""}
+                          onchange="toggleLabSpotlight('${escapeHtml(lab.url)}')"
+                          class="mt-0.5 rounded border-slate-300 text-amber-600 focus:ring-amber-500"
+                        />
+                        <span class="leading-snug">${escapeHtml(lab.name)}</span>
+                      </label>
+                    `;
+                  })
+                  .join("")}
+              </div>
+            </div>
+          `;
+        })
+        .join("");
+    }
+
+    function copyShareableWorkshopLink() {
+      const activeUrls = getAllSpotlightedLabObjects().map((l) => l.url);
+      const baseUrl = window.location.origin + window.location.pathname;
+      const shareUrl =
+        activeUrls.length > 0
+          ? `${baseUrl}?spotlight=${encodeURIComponent(activeUrls.join(","))}#broad-areas`
+          : `${baseUrl}#broad-areas`;
+
+      copyTextToClipboard(shareUrl);
+      const btnText = document.getElementById("copyWorkshopLinkBtnText");
+      if (btnText) {
+        const old = btnText.textContent;
+        btnText.textContent = "Workshop Link Copied!";
+        setTimeout(() => {
+          btnText.textContent = old;
+        }, 2200);
+      }
+    }
+
+    function renderModalQuestionnaireList() {
+      const container = document.getElementById("modalQuestionnaireList");
+      if (!container) return;
+
+      container.innerHTML = evaluationForms
+        .map(
+          (q) => `
+          <div class="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs">
+            <div class="min-w-0">
+              <p class="font-bold text-slate-900 truncate">${escapeHtml(q.title)} <span class="text-slate-500 font-normal">(${escapeHtml(q.type)})</span></p>
+              <p class="text-slate-500 truncate">${escapeHtml(q.url)}</p>
+            </div>
+            <button
+              type="button"
+              onclick="deleteQuestionnaire('${escapeHtml(q.id)}')"
+              class="px-2.5 py-1 rounded-lg bg-rose-50 text-rose-700 hover:bg-rose-100 font-semibold shrink-0 cursor-pointer"
+            >
+              Remove
+            </button>
+          </div>
+        `
+        )
+        .join("");
+    }
+
+    function handleAddQuestionnaire(event) {
+      if (event) event.preventDefault();
+      const title = document.getElementById("qTitleInput")?.value.trim();
+      const type = document.getElementById("qTypeInput")?.value || "Google Form";
+      const url = document.getElementById("qUrlInput")?.value.trim() || "https://docs.google.com/forms/";
+      const description = document.getElementById("qDescInput")?.value.trim() || "";
+
+      if (!title) return;
+      evaluationForms.push({
+        id: "eval-form-" + Date.now(),
+        title,
+        type,
+        description,
+        url
+      });
+      safeSetStorage(EVAL_FORMS_STORAGE_KEY, JSON.stringify(evaluationForms));
+      document.getElementById("addQuestionnaireForm")?.reset();
+      renderModalQuestionnaireList();
+      renderEvaluations();
+    }
+
+    function deleteQuestionnaire(id) {
+      evaluationForms = evaluationForms.filter((f) => f.id !== id);
+      safeSetStorage(EVAL_FORMS_STORAGE_KEY, JSON.stringify(evaluationForms));
+      renderModalQuestionnaireList();
+      renderEvaluations();
+    }
+
+    function renderModalPublicationList() {
+      const container = document.getElementById("modalPublicationList");
+      if (!container) return;
+
+      const sorted = [...researchPublications].sort(
+        (a, b) => (Number(b.citations) || 0) - (Number(a.citations) || 0)
+      );
+
+      container.innerHTML = sorted
+        .map(
+          (p) => `
+          <div class="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs">
+            <div class="min-w-0">
+              <p class="font-bold text-slate-900 truncate">${escapeHtml(p.title)}</p>
+              <p class="text-slate-500 truncate">Cited by ${Number(p.citations) || 0} · ${escapeHtml(p.authors)}</p>
+            </div>
+            <button
+              type="button"
+              onclick="deletePublication('${escapeHtml(p.id)}')"
+              class="px-2.5 py-1 rounded-lg bg-rose-50 text-rose-700 hover:bg-rose-100 font-semibold shrink-0 cursor-pointer"
+            >
+              Remove
+            </button>
+          </div>
+        `
+        )
+        .join("");
+    }
+
+    function handleAddPublication(event) {
+      if (event) event.preventDefault();
+      const title = document.getElementById("pTitleInput")?.value.trim();
+      const authors = document.getElementById("pAuthorsInput")?.value.trim();
+      const venue = document.getElementById("pVenueInput")?.value.trim();
+      const citations = parseInt(document.getElementById("pCitationsInput")?.value || "0", 10) || 0;
+      const url = document.getElementById("pUrlInput")?.value.trim() || "";
+      const finding = document.getElementById("pFindingInput")?.value.trim() || "";
+
+      if (!title || !authors) return;
+      researchPublications.push({
+        id: "ambc-vl-" + Date.now(),
+        title,
+        authors,
+        venue,
+        year: new Date().getFullYear().toString(),
+        citations,
+        category: "Virtual Labs Research",
+        finding,
+        url
+      });
+      safeSetStorage(RESEARCH_PUBS_STORAGE_KEY, JSON.stringify(researchPublications));
+      document.getElementById("addPublicationForm")?.reset();
+      renderModalPublicationList();
+      renderResearchPublications();
+    }
+
+    function deletePublication(id) {
+      researchPublications = researchPublications.filter((p) => p.id !== id);
+      safeSetStorage(RESEARCH_PUBS_STORAGE_KEY, JSON.stringify(researchPublications));
+      renderModalPublicationList();
+      renderResearchPublications();
+    }
+
+    function copyTextToClipboard(text) {
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand("copy");
+      } catch (_) {}
+      document.body.removeChild(textarea);
+    }
+
+    function copyConfigForGitHub() {
+      const spotlightList = getAllSpotlightedLabObjects().map((l) => l.url);
+      const configSnippet = [
+        `const SPOTLIGHTED_LAB_URLS = ${JSON.stringify(spotlightList, null, 2)};`,
+        "",
+        `const RESEARCH_PUBLICATIONS = ${JSON.stringify(researchPublications, null, 2)};`,
+        "",
+        `const EVALUATION_FORMS = ${JSON.stringify(evaluationForms, null, 2)};`
+      ].join("\n");
+
+      copyTextToClipboard(configSnippet);
+      const btnText = document.getElementById("copyConfigBtnText");
+      if (btnText) {
+        const old = btnText.textContent;
+        btnText.textContent = "Copied JS Config to Clipboard!";
+        setTimeout(() => {
+          btnText.textContent = old;
+        }, 2200);
       }
     }
 
@@ -2083,6 +2709,7 @@
 
     function initPortal() {
       verifyHeaderLogosLoaded();
+      loadSpotlightState();
 
       const labSearchInput = document.getElementById("labSearchInput");
       if (labSearchInput) {
@@ -2131,6 +2758,7 @@
         syncViewFromHash();
       });
 
+      renderBroadAreasSpotlightUI();
       renderLabs();
       renderEvaluations();
       renderResearchPublications();
